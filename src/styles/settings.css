@@ -1,0 +1,27 @@
+.settings { min-width: 0; }
+.settings > details > summary { list-style: none; }
+.settings > details > summary::-webkit-details-marker { display: none; }
+
+/* Narrow screens: a compact summary that opens the settings. */
+.settings-summary { display: flex; align-items: center; gap: 0.75rem; min-height: 3.5rem; padding: 0.5rem 0.875rem; border-radius: var(--radius-tile); background: var(--tile); cursor: pointer; }
+.summary-text { display: grid; flex: 1; min-width: 0; line-height: 1.3; }
+.summary-text strong { font-size: 0.9375rem; }
+.summary-text span { color: var(--muted); font-size: 0.8125rem; }
+.game-tile { display: none; }
+.settings-fields { display: grid; gap: 1.5rem; padding-block-start: 1.25rem; }
+.settings-help { margin-top: -0.5rem; }
+
+.game-logo { display: block; flex-shrink: 0; }
+.game-name { font-size: 1.125rem; font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
+.game-meta { margin-top: 0.125rem; color: var(--muted); font-size: 0.8125rem; }
+
+@media (min-width: 40rem) and (max-width: 59.99rem) {
+  .settings-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 2rem; }
+  .settings-help { grid-column: 1 / -1; }
+}
+@media (min-width: 60rem) {
+  .settings { position: sticky; inset-block-start: 1.5rem; }
+  .settings-summary { display: none; }
+  .game-tile { display: flex; align-items: center; gap: 0.875rem; }
+  .settings-fields { padding-block-start: 2rem; }
+}

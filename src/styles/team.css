@@ -1,0 +1,53 @@
+.team-section { container-type: inline-size; }
+.team-slots { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.5rem; }
+
+/* Narrow: one compact row per slot. */
+.team-slot { position: relative; min-width: 0; border-radius: var(--radius-tile); transition: background-color 150ms ease-out, box-shadow 150ms ease-out; }
+.team-slot.filled { display: grid; grid-template-columns: 1rem 4rem minmax(0, 1fr) auto; grid-template-areas: 'num sprite name actions' 'num sprite types actions' 'num sprite status actions'; align-items: center; column-gap: 0.75rem; padding: 0.625rem 0.5rem 0.625rem 0.75rem; background: var(--surface); box-shadow: var(--shadow-ring); }
+.team-slot.empty { display: grid; grid-template-columns: 1rem minmax(0, 1fr); align-items: center; column-gap: 0.75rem; min-height: 4.5rem; padding: 0.5rem 0.75rem; background: var(--tile); }
+.team-slot.active-slot { background: var(--accent-tint); box-shadow: 0 0 0 2px var(--accent); }
+.slot-number { grid-area: num; color: var(--muted); font-size: 0.8125rem; font-weight: 600; font-variant-numeric: tabular-nums; text-align: center; }
+.team-slot.empty .slot-number { grid-area: auto; }
+.team-slot .pokemon-sprite { grid-area: sprite; width: 4rem; height: 4rem; }
+.team-slot h3 { grid-area: name; font-size: 1rem; }
+.team-slot .type-list { grid-area: types; justify-content: flex-start; }
+.team-slot .status-label { grid-area: status; justify-self: start; }
+.team-slot .replace-button { grid-area: actions; align-self: end; justify-self: end; position: relative; z-index: 1; }
+.remove-button { position: absolute; inset-block-start: 0.25rem; inset-inline-end: 0.25rem; z-index: 1; }
+
+.pokemon-sprite { display: block; max-width: 100%; height: auto; aspect-ratio: 1; image-rendering: pixelated; }
+/* The name button stretches over the whole tile, so the tile opens the details. */
+.card-link { padding: 0; border: 0; background: none; color: inherit; font: inherit; font-weight: 600; text-align: start; }
+.card-link::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius-tile); }
+.card-link:focus-visible { outline: none; }
+.card-link:focus-visible::after { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.empty-slot-button { display: flex; align-items: center; gap: 0.75rem; width: 100%; min-height: 3.5rem; padding: 0; border: 0; border-radius: var(--radius-tile); background: none; color: var(--ink); font-weight: 600; }
+.empty-plus { display: grid; place-items: center; flex-shrink: 0; width: 3rem; height: 3rem; border-radius: 50%; background: var(--surface); box-shadow: var(--shadow-ring); color: var(--accent-ink); transition: background-color 150ms ease-out, color 150ms ease-out; }
+.empty-slot-button:hover .empty-plus { background: var(--accent); color: white; }
+
+/* Wider: a card per slot, three or six across. */
+@container (min-width: 30rem) {
+  .team-slots { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+  .team-slot.filled, .team-slot.empty { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; min-height: 17rem; padding: 2.25rem 0.5rem 0.5rem; text-align: center; }
+  .team-slot.filled:hover { box-shadow: 0 0 0 1px oklch(0 0 0 / 0.12), 0 1px 2px -1px oklch(0 0 0 / 0.1), 0 4px 10px oklch(0 0 0 / 0.07); }
+  .team-slot.active-slot:hover { box-shadow: 0 0 0 2px var(--accent); }
+  .slot-number { position: absolute; inset-block-start: 0.75rem; inset-inline-start: 0.875rem; text-align: start; }
+  .team-slot .pokemon-sprite { width: 6rem; height: 6rem; margin-top: -0.5rem; }
+  .team-slot .type-list { justify-content: center; }
+  .team-slot .status-label { padding-inline: 0.25rem; }
+  .team-slot .replace-button { margin-top: auto; }
+  .card-link { text-align: center; }
+  .empty-slot-button { flex: 1; flex-direction: column; justify-content: center; }
+}
+@container (min-width: 52rem) { .team-slots { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+.analysis > h2 { margin-bottom: 0.25rem; }
+.analysis-rows { display: grid; gap: 1.5rem; margin-block: 1.25rem; }
+.analysis-rows > div { display: grid; gap: 0.5rem 1.5rem; }
+.analysis dt { font-weight: 600; }
+.coverage-number { font-variant-numeric: tabular-nums; }
+.coverage-strip { display: flex; flex-wrap: wrap; gap: 0.375rem; padding: 0; margin: 0.75rem 0 0; list-style: none; }
+.coverage-strip li { line-height: 0; }
+.coverage-strip .uncovered { opacity: 0.25; filter: grayscale(1); scale: 0.85; }
+@media (min-width: 40rem) { .analysis-rows > div { grid-template-columns: 9.5rem minmax(0, 1fr); } }

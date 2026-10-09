@@ -1,0 +1,93 @@
+[
+  {
+    "id": "species",
+    "title": "Species names, types, Egg Groups and genders",
+    "locator": "src/data/pokemon/species_info.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/pokemon/species_info.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "evolution",
+    "title": "Emerald evolution rules",
+    "locator": "src/data/pokemon/evolution.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/pokemon/evolution.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "encounters",
+    "title": "Emerald encounter tables",
+    "locator": "src/data/wild_encounters.json",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/wild_encounters.json",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "bosses",
+    "title": "Gym and League parties",
+    "locator": "src/data/trainer_parties.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/trainer_parties.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "breeding",
+    "title": "Day Care compatibility and offspring",
+    "locator": "src/daycare.c",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/daycare.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "hatch",
+    "title": "Egg hatch level",
+    "locator": "include/constants/daycare.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/include/constants/daycare.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "scripts",
+    "title": "Location and event scripts",
+    "locator": "data/maps",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/maps",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "trades",
+    "title": "In-game trade details",
+    "locator": "src/data/trade.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/trade.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "type-chart",
+    "title": "Generation III type effectiveness",
+    "locator": "src/pokemon.c",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/pokemon.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "outbreaks",
+    "title": "Emerald TV outbreak species, levels and story gate",
+    "locator": "src/tv.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/tv.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "items",
+    "title": "Emerald item pickups",
+    "locator": "data/scripts/item_ball_scripts.inc",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/scripts/item_ball_scripts.inc",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "puzzles",
+    "title": "Emerald Regi door actions and party order",
+    "locator": "src/braille_puzzles.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/braille_puzzles.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "special-encounters",
+    "title": "Feebas fishing checks",
+    "locator": "src/wild_encounter.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/wild_encounter.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  }
+]

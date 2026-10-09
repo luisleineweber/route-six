@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokemon-playthrough-planner.local/schema/acquisition.schema.json",
+  "title": "Pokémon sources and evolution definitions",
+  "$defs": {
+    "sourceLevel": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "value"],
+          "properties": { "kind": { "const": "fixed" }, "value": { "$ref": "common.schema.json#/$defs/level" } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "minimum", "maximum"],
+          "properties": {
+            "kind": { "const": "range" },
+            "minimum": { "$ref": "common.schema.json#/$defs/level" },
+            "maximum": { "$ref": "common.schema.json#/$defs/level" }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "pokemonId"],
+          "properties": {
+            "kind": { "const": "match-traded-pokemon" },
+            "pokemonId": { "$ref": "common.schema.json#/$defs/id" }
+          }
+        }
+      ]
+    },
+    "sourceDetails": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "method", "ratePercent"],
+          "properties": {
+            "kind": { "const": "wild" },
+            "method": { "enum": ["grass", "surf", "old-rod", "good-rod", "super-rod", "rock-smash"] },
+            "ratePercent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind"],
+          "properties": { "kind": { "enum": ["starter", "gift", "static", "egg"] } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "itemId"],
+          "properties": {
+            "kind": { "const": "fossil" }, "itemId": { "$ref": "common.schema.json#/$defs/id" }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "offeredPokemonId"],
+          "properties": {
+            "kind": { "const": "game-trade" },
+            "offeredPokemonId": { "$ref": "common.schema.json#/$defs/id" }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "ruleId", "capabilityId"],
+          "properties": {
+            "kind": { "const": "breeding" },
+            "ruleId": { "$ref": "common.schema.json#/$defs/id" },
+            "capabilityId": { "$ref": "common.schema.json#/$defs/id" }
+          }
+        }
+      ]
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "pokemonId", "locationId", "requirements", "level", "genders", "maxUses", "choice", "details", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "pokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "locationId": { "$ref": "common.schema.json#/$defs/id" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "level": { "$ref": "#/$defs/sourceLevel" },
+        "genders": { "$ref": "common.schema.json#/$defs/genders" },
+        "maxUses": { "$ref": "common.schema.json#/$defs/maxUses" },
+        "choice": { "$ref": "common.schema.json#/$defs/optionalChoice" },
+        "details": { "$ref": "#/$defs/sourceDetails" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "level": { "properties": { "kind": { "const": "match-traded-pokemon" } } } } },
+          "then": { "properties": { "details": { "properties": { "kind": { "const": "game-trade" } } } } }
+        },
+        {
+          "if": { "properties": { "details": { "properties": { "kind": { "const": "breeding" } } } } },
+          "then": {
+            "properties": {
+              "maxUses": { "type": "null" },
+              "level": { "properties": { "kind": { "const": "fixed" } } }
+            }
+          }
+        }
+      ]
+    },
+    "condition": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "minimum"],
+          "properties": {
+            "kind": { "enum": ["friendship", "beauty"] },
+            "minimum": { "type": "integer", "minimum": 1, "maximum": 255 }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "period"],
+          "properties": { "kind": { "const": "time" }, "period": { "enum": ["day", "night"] } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "relation"],
+          "properties": {
+            "kind": { "const": "stats" },
+            "relation": { "enum": ["attack-lt-defense", "attack-eq-defense", "attack-gt-defense"] }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "modulus", "minimum", "maximum"],
+          "properties": {
+            "kind": { "const": "personality" },
+            "modulus": { "type": "integer", "minimum": 2 },
+            "minimum": { "type": "integer", "minimum": 0 },
+            "maximum": { "type": "integer", "minimum": 0 }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "freeSlots"],
+          "properties": {
+            "kind": { "const": "party-space" }, "freeSlots": { "type": "integer", "minimum": 1, "maximum": 5 }
+          }
+        }
+      ]
+    },
+    "evolution": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "id", "fromPokemonId", "toPokemonId", "trigger", "minimumLevel", "itemId",
+        "conditions", "genderTransitions", "requirements", "coProductIds", "review"
+      ],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "fromPokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "toPokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "trigger": { "enum": ["level-up", "use-item", "player-trade"] },
+        "minimumLevel": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/level" }] },
+        "itemId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "conditions": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
+        "genderTransitions": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "array", "minItems": 1, "uniqueItems": true,
+              "items": {
+                "type": "object", "additionalProperties": false, "required": ["from", "to"],
+                "properties": {
+                  "from": { "$ref": "common.schema.json#/$defs/gender" },
+                  "to": { "$ref": "common.schema.json#/$defs/gender" }
+                }
+              }
+            }
+          ]
+        },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "coProductIds": { "$ref": "common.schema.json#/$defs/ids" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "trigger": { "const": "use-item" } } },
+          "then": {
+            "properties": {
+              "itemId": { "$ref": "common.schema.json#/$defs/id" }, "minimumLevel": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "trigger": { "const": "level-up" } } },
+          "then": { "properties": { "itemId": { "type": "null" } } }
+        },
+        {
+          "if": { "properties": { "trigger": { "const": "player-trade" } } },
+          "then": { "properties": { "minimumLevel": { "type": "null" } } }
+        }
+      ]
+    },
+    "exclusion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pokemonId", "reason", "explanation", "review"],
+      "properties": {
+        "pokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "reason": { "enum": ["other-version", "external-event"] },
+        "explanation": { "$ref": "common.schema.json#/$defs/text" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    }
+  }
+}

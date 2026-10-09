@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokemon-playthrough-planner.local/schema/game.schema.json",
+  "title": "Game, progress, and access definitions",
+  "$defs": {
+    "game": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "generation", "region", "firstMilestoneId", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "generation": { "type": "integer", "minimum": 1 },
+        "region": { "$ref": "common.schema.json#/$defs/text" },
+        "firstMilestoneId": { "$ref": "common.schema.json#/$defs/id" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "profile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pokemonId", "types", "breeding", "review"],
+      "properties": {
+        "pokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "types": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1, "maxItems": 2 },
+        "breeding": { "$ref": "#/$defs/breedingProfile" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "breedingProfile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["eggGroupIds", "genders"],
+      "properties": {
+        "eggGroupIds": {
+          "type": "array", "minItems": 1, "maxItems": 2, "uniqueItems": true,
+          "items": { "$ref": "common.schema.json#/$defs/eggGroupId" }
+        },
+        "genders": { "$ref": "common.schema.json#/$defs/genders" }
+      }
+    },
+    "breedingRule": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "parentPokemonIds", "offspringPokemonIds", "requiredHeldItemId", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "parentPokemonIds": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "offspringPokemonIds": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "requiredHeldItemId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "typeChart": {
+      "type": "object", "additionalProperties": false,
+      "required": ["typeIds", "matrix", "review"],
+      "properties": {
+        "typeIds": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "matrix": {
+          "type": "array", "minItems": 1,
+          "items": { "type": "array", "minItems": 1, "items": { "enum": [0, 0.5, 1, 2] } }
+        },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "milestone": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "id", "name", "kind", "phase", "displayOrder", "previousIds", "locationId", "nextBossId", "review"
+      ],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "kind": { "enum": ["route", "story", "boss", "area"] },
+        "phase": { "enum": ["main-story", "post-game"] },
+        "displayOrder": { "type": "integer", "minimum": 0 },
+        "previousIds": { "$ref": "common.schema.json#/$defs/ids" },
+        "locationId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "nextBossId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "boss": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "kind", "highestLevel", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "kind": { "enum": ["gym", "elite-four", "champion"] },
+        "highestLevel": { "$ref": "common.schema.json#/$defs/level" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "location": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "requirements", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "capability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "requirements", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "choiceGroup": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "options", "maximumSelections", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "options": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "maximumSelections": { "type": "integer", "minimum": 1 },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "itemSource": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "locationId", "requirements", "maxUses", "choice", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "locationId": { "$ref": "common.schema.json#/$defs/id" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "maxUses": { "$ref": "common.schema.json#/$defs/maxUses" },
+        "choice": { "$ref": "common.schema.json#/$defs/optionalChoice" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "sources", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/itemSource" } },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    }
+  }
+}

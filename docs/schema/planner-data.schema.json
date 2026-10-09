@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokemon-playthrough-planner.local/schema/planner-data.schema.json",
+  "title": "Manually maintained Pokémon planner dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "references", "pokemon", "games"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "references": {
+      "type": "array", "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/reference" }
+    },
+    "pokemon": {
+      "type": "array", "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/pokemon" }
+    },
+    "games": {
+      "type": "array", "minItems": 1,
+      "items": { "$ref": "#/$defs/gameData" }
+    }
+  },
+  "$defs": {
+    "gameData": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "game", "profiles", "typeChart", "milestones", "bosses", "locations",
+        "capabilities", "items", "choices", "sources", "breedingRules", "evolutions", "exclusions"
+      ],
+      "properties": {
+        "game": { "$ref": "game.schema.json#/$defs/game" },
+        "profiles": {
+          "type": "array", "minItems": 1, "items": { "$ref": "game.schema.json#/$defs/profile" }
+        },
+        "typeChart": { "$ref": "game.schema.json#/$defs/typeChart" },
+        "milestones": {
+          "type": "array", "minItems": 1, "items": { "$ref": "game.schema.json#/$defs/milestone" }
+        },
+        "bosses": {
+          "type": "array", "items": { "$ref": "game.schema.json#/$defs/boss" }
+        },
+        "locations": {
+          "type": "array", "minItems": 1, "items": { "$ref": "game.schema.json#/$defs/location" }
+        },
+        "capabilities": {
+          "type": "array", "items": { "$ref": "game.schema.json#/$defs/capability" }
+        },
+        "items": {
+          "type": "array", "items": { "$ref": "game.schema.json#/$defs/item" }
+        },
+        "choices": {
+          "type": "array", "items": { "$ref": "game.schema.json#/$defs/choiceGroup" }
+        },
+        "sources": {
+          "type": "array", "items": { "$ref": "acquisition.schema.json#/$defs/source" }
+        },
+        "breedingRules": {
+          "type": "array", "items": { "$ref": "game.schema.json#/$defs/breedingRule" }
+        },
+        "evolutions": {
+          "type": "array", "items": { "$ref": "acquisition.schema.json#/$defs/evolution" }
+        },
+        "exclusions": {
+          "type": "array", "items": { "$ref": "acquisition.schema.json#/$defs/exclusion" }
+        }
+      }
+    }
+  }
+}

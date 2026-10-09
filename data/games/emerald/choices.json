@@ -1,0 +1,7 @@
+[
+  {"id":"starter-choice","name":"Birch’s starter choice","options":["treecko","torchic","mudkip"],"maximumSelections":1,"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
+  {"id":"roamer-choice","name":"TV report after the League","options":["latias","latios"],"maximumSelections":1,"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
+  {"id":"johto-choice","name":"Birch’s Hoenn Pokédex reward","options":["chikorita","cyndaquil","totodile"],"maximumSelections":1,"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
+  {"id":"fossil-choice","name":"Mirage Tower fossil","options":["root-fossil","claw-fossil"],"maximumSelections":1,"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
+  {"id":"scanner-choice","name":"Captain Stern's Scanner reward","options":["deep-sea-tooth","deep-sea-scale"],"maximumSelections":1,"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}}
+]

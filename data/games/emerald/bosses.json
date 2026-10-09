@@ -1,0 +1,15 @@
+[
+  {"id":"roxanne","name":"Roxanne","kind":"gym","highestLevel":15,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"brawly","name":"Brawly","kind":"gym","highestLevel":19,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"wattson","name":"Wattson","kind":"gym","highestLevel":24,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"flannery","name":"Flannery","kind":"gym","highestLevel":29,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"norman","name":"Norman","kind":"gym","highestLevel":31,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"winona","name":"Winona","kind":"gym","highestLevel":33,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"tate-and-liza","name":"Tate & Liza","kind":"gym","highestLevel":42,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"juan","name":"Juan","kind":"gym","highestLevel":46,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"sidney","name":"Sidney","kind":"elite-four","highestLevel":49,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"phoebe","name":"Phoebe","kind":"elite-four","highestLevel":51,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"glacia","name":"Glacia","kind":"elite-four","highestLevel":53,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"drake","name":"Drake","kind":"elite-four","highestLevel":55,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"wallace","name":"Wallace","kind":"champion","highestLevel":58,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}}
+]

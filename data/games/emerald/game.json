@@ -1,0 +1,13 @@
+{
+  "id": "emerald",
+  "name": "Pokémon Emerald",
+  "generation": 3,
+  "region": "Hoenn",
+  "firstMilestoneId": "littleroot",
+  "review": {
+    "referenceIds": [
+      "scripts"
+    ],
+    "checkedOn": "2026-10-07"
+  }
+}

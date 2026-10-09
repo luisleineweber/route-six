@@ -1,0 +1,104 @@
+@import './styles/controls.css';
+@import './styles/settings.css';
+@import './styles/team.css';
+@import './styles/catalogue.css';
+@import './styles/details.css';
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces: groups are told apart by tone and space, not by lines. */
+  --bg: oklch(0.985 0.004 160);
+  --surface: oklch(1 0 0);
+  --tile: oklch(0.955 0.01 160);
+  --tile-hover: oklch(0.932 0.017 160);
+
+  --ink: oklch(0.25 0.025 160);
+  --muted: oklch(0.47 0.022 160);
+  --control-line: oklch(0.62 0.02 160);
+
+  /* Emerald accent: primary actions and the current selection only. */
+  --accent: oklch(0.47 0.11 160);
+  --accent-hover: oklch(0.4 0.1 160);
+  --accent-tint: oklch(0.932 0.042 160);
+  --accent-ink: oklch(0.37 0.09 160);
+  --focus: oklch(0.52 0.19 262);
+
+  --ok: oklch(0.45 0.11 155);
+  --later: oklch(0.48 0.1 70);
+  --blocked: oklch(0.5 0.15 30);
+  --warning-bg: oklch(0.955 0.045 85);
+  --warning-ink: oklch(0.4 0.09 65);
+  --danger-bg: oklch(0.957 0.032 28);
+  --danger-ink: oklch(0.42 0.14 28);
+
+  --radius-control: 0.5rem;
+  --radius-tile: 1rem;
+  --shadow-ring: 0 0 0 1px oklch(0 0 0 / 0.07), 0 1px 2px -1px oklch(0 0 0 / 0.07), 0 2px 4px oklch(0 0 0 / 0.04);
+  --page-width: 84rem;
+  --sidebar-width: 17rem;
+  --page-gap: 3rem;
+}
+
+* { box-sizing: border-box; }
+html { scroll-padding-top: 1.5rem; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 0.9375rem/1.55 'Segoe UI Variable Text', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+button, input, select { font: inherit; }
+button, a, input, select { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: 0.45; }
+button, a { touch-action: manipulation; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+a { color: var(--accent-ink); text-underline-offset: 0.2em; }
+h1, h2, h3, h4, p, dl, dd, figure { margin: 0; }
+h1 { font-size: 1.75rem; line-height: 1.2; letter-spacing: -0.02em; font-weight: 700; text-wrap: balance; }
+h2 { font-size: 1.25rem; line-height: 1.3; font-weight: 650; text-wrap: balance; }
+h3 { font-size: 1rem; line-height: 1.3; font-weight: 600; }
+h4 { font-size: 0.9375rem; font-weight: 600; }
+p { text-wrap: pretty; max-width: 68ch; }
+ul, ol { margin: 0; padding-inline-start: 1.25rem; }
+::selection { background: oklch(0.88 0.07 160); color: var(--ink); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.small { font-size: 0.8125rem; }
+.muted { color: var(--muted); }
+
+.skip-link { position: fixed; inset-block-start: -5rem; inset-inline-start: 1rem; z-index: 30; padding: 0.75rem 1.25rem; border-radius: var(--radius-control); background: var(--surface); box-shadow: var(--shadow-ring); font-weight: 600; }
+.skip-link:focus { inset-block-start: 1rem; }
+
+.header-inner, .app-shell, .app-footer { max-width: var(--page-width); margin-inline: auto; padding-inline: 1.25rem; }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 2rem; padding-block: 1rem 0.25rem; }
+.brand { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.01em; }
+.planner-nav { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.planner-nav button { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.5rem; padding-inline: 1rem; border: 0; border-radius: 999px; background: transparent; color: var(--muted); font-weight: 600; transition: background-color 150ms ease-out, color 150ms ease-out; }
+.planner-nav button:hover { background: var(--tile); color: var(--ink); }
+.planner-nav button.selected { background: var(--accent-tint); color: var(--accent-ink); }
+
+.app-shell { display: grid; gap: 1.5rem; align-items: start; padding-block: 1rem 3rem; }
+main { min-width: 0; outline: none; }
+main > * + * { margin-top: var(--page-gap); }
+main > .section-heading:first-child { margin-bottom: 1.25rem; }
+main > .section-heading:first-child + * { margin-top: 0; }
+main > .error-message { margin-top: 0; margin-bottom: 1.25rem; }
+main > .error-message + * { margin-top: 0; }
+.app-footer { padding-block: 0 2.5rem; color: var(--muted); font-size: 0.8125rem; }
+
+.error-message { padding: 1.25rem; border-radius: var(--radius-tile); background: var(--danger-bg); color: var(--ink); }
+.error-message strong { color: var(--danger-ink); }
+.error-message p { overflow-wrap: anywhere; margin-block: 0.5rem 1rem; }
+.startup-error { max-width: 40rem; margin: 4rem auto; padding-inline: 1.5rem; }
+.startup-error p { white-space: pre-wrap; overflow-wrap: anywhere; margin-block: 1rem; }
+
+/* Keep the 60rem breakpoint in sync with `wideLayout` in use-media-query.ts. */
+@media (min-width: 60rem) {
+  .header-inner, .app-shell, .app-footer { grid-template-columns: var(--sidebar-width) minmax(0, 1fr); column-gap: var(--page-gap); padding-inline: 2rem; }
+  .header-inner { display: grid; padding-block: 1.5rem 0; }
+  .app-shell { padding-block: 1.5rem 3rem; }
+  .app-footer { display: grid; }
+  .app-footer p { grid-column: 2; }
+}
+@media (min-width: 60rem) and (max-width: 72rem) { :root { --page-gap: 2rem; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
