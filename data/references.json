@@ -89,5 +89,12 @@
     "locator": "src/wild_encounter.c",
     "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/wild_encounter.c",
     "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "hoenn-dex",
+    "title": "Emerald Hoenn Pokedex order",
+    "locator": "include/constants/pokedex.h",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/include/constants/pokedex.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
   }
 ]

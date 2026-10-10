@@ -57,6 +57,7 @@ interface Game {
 
 interface PokemonProfile {
   pokemonId: Id;
+  regionalDex?: number; // Omit for species outside the regional Pokédex.
   types: [Id] | [Id, Id];
   breeding: {
     eggGroupIds: [EggGroupId] | [EggGroupId, EggGroupId];

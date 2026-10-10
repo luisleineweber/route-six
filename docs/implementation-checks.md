@@ -82,3 +82,38 @@ The local data produces large bundle chunks. Vite reports a size warning.
 The guide models what a player could obtain. It uses memory for the current
 team and settings. It does not track a game save, bag, learned moves, abilities,
 missed catches, or completed optional visits.
+
+## Planner modes: 10 October 2026
+
+The Team Planner shows all 386 species without an access check. It keeps the
+six team slots, type analysis, search, type filters, and simple Pokémon details.
+It shows no progress settings, level limit, access status, or source text.
+
+The Progress Planner keeps access checks and source details. Its initial
+target is Current progress. Its initial progress point is Elite Four, before
+Sidney. Both views keep the same team and progress settings when the view changes.
+
+Both catalogues sort the 202 Hoenn Pokédex species first. The remaining species
+follow in National Dex order. Each Hoenn number was checked against
+`include/constants/pokedex.h` at the pinned Emerald revision. Data records keep
+the source reference and review date. Validation rejects duplicate regional
+numbers and gaps in their sequence.
+
+The shared browser checks covered these results:
+
+- Team view shows 386 results without a worker loading state or access labels.
+- Progress view starts at Elite Four with Current progress and the level limit on.
+- Team members, selected progress, and the level setting survive view changes.
+- The catalogue boundary is Deoxys, Hoenn #202, then Bulbasaur, National #001.
+- Six filled slots disable further adds. Replace works with pointer and keyboard
+  input. Removing a member enables adds again.
+- Team details show identity and type weaknesses. Escape closes the dialog and
+  returns focus to its opening control.
+- Both views fit at 320 and 1440 pixels without horizontal page scrolling.
+- National Dex labels do not cover the Add control at 320 pixels.
+- Axe WCAG A/AA checks report zero violations in both views and Team details.
+
+The current test suite passes 67 tests in eight files. The tests cover the
+Elite Four default, regional Pokédex order, and invalid regional Dex data.
+`npm run build` passes the data check, TypeScript check, and production build.
+The existing warning for large local data bundles remains.

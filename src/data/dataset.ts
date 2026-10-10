@@ -6,4 +6,3 @@ if (!checked.ok) throw new Error(checked.error.map(e => `${e.fieldPath} [${e.rec
 export const dataset = checked.value;
 export const emerald = dataset.games[0];
 export const pokemonById = new Map(dataset.pokemon.map(p => [p.id, p]));
-export const profilesById = new Map(emerald.profiles.map(p => [p.pokemonId, p]));

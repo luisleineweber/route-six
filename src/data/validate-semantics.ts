@@ -49,6 +49,11 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
       if (!g.profiles.some(profile => profile.pokemonId === p.id)) issue(p.id, base+'pokemon.json', 'Missing game profile.');
     }
     unique(g.milestones, m => m.displayOrder, base+'progression.json');
+    const regionalDex = g.profiles.flatMap(profile => profile.regionalDex === undefined ? [] : [profile.regionalDex]);
+    unique(regionalDex, dex => dex, base+'pokemon.json/regionalDex');
+    if (regionalDex.length && (Math.min(...regionalDex) !== 1 || Math.max(...regionalDex) !== regionalDex.length)) {
+      issue(g.game.id, base+'pokemon.json/regionalDex', 'Regional Pokédex numbers must be contiguous from 1.');
+    }
     if (!milestones.has(g.game.firstMilestoneId)) issue(g.game.id, base+'game.json', 'Unknown first milestone.');
     const visiting = new Set<string>(); const visited = new Set<string>();
     const walk = (id: string): boolean => {

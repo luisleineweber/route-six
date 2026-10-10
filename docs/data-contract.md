@@ -58,7 +58,11 @@ the four supplied files. Validation must not depend on a remote schema server.
 
 Shared Pokémon records contain ID, National Dex number, name, introduction
 generation, and review information. Game profiles contain types, Egg Groups,
-and possible genders. Game evolution records contain version-specific rules.
+possible genders, and an optional `regionalDex` number. Omit `regionalDex` for
+species outside the game's regional Pokédex. Regional numbers must be unique
+and form a sequence from 1. Both planner catalogues show these species first
+in regional order, then the remaining species in National Dex order.
+Game evolution records contain version-specific rules.
 This avoids assigning later-generation
 types or evolutions to Emerald.
 

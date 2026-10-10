@@ -20,6 +20,7 @@
       "required": ["pokemonId", "types", "breeding", "review"],
       "properties": {
         "pokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "regionalDex": { "type": "integer", "minimum": 1, "maximum": 202 },
         "types": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1, "maxItems": 2 },
         "breeding": { "$ref": "#/$defs/breedingProfile" },
         "review": { "$ref": "common.schema.json#/$defs/review" }

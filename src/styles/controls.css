@@ -41,9 +41,9 @@ input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1
 .text-button:hover { background: var(--accent-tint); }
 
 /* Disclosure links that open more text */
-:is(.settings-help, .data-references) > summary { display: inline-flex; align-items: center; gap: 0.375rem; min-height: 2.5rem; color: var(--accent-ink); font-size: 0.8125rem; font-weight: 600; list-style: none; cursor: pointer; }
-:is(.settings-help, .data-references) > summary::-webkit-details-marker { display: none; }
-:is(.settings-help, .data-references) > p, :is(.settings-help, .data-references) > ul { margin-top: 0.25rem; color: var(--muted); font-size: 0.8125rem; }
+.data-references > summary { display: inline-flex; align-items: center; gap: 0.375rem; min-height: 2.5rem; color: var(--accent-ink); font-size: 0.8125rem; font-weight: 600; list-style: none; cursor: pointer; }
+.data-references > summary::-webkit-details-marker { display: none; }
+.data-references > p, .data-references > ul { margin-top: 0.25rem; color: var(--muted); font-size: 0.8125rem; }
 .chevron { flex-shrink: 0; color: var(--muted); transition: rotate 150ms ease-out; }
 details[open] > summary > .chevron { rotate: 180deg; }
 

@@ -7,15 +7,22 @@ export interface PlannerState {
   target: PlanningTarget;
   team: (string | null)[];
 }
-export const initialState: PlannerState = { gameId: 'emerald', milestoneId: 'route-102', respectLevelLimit: true,
-  target: 'whole-game', team: Array(6).fill(null) };
+export const initialState: PlannerState = { gameId: 'emerald', milestoneId: 'league', respectLevelLimit: true,
+  target: 'current-progress', team: Array(6).fill(null) };
 
 export type PlannerAction =
+  | { type: 'game'; gameId: string; milestoneId: string; pokemonIds: string[] }
   | { type: 'settings'; values: Partial<Omit<PlannerState, 'team'>> }
   | { type: 'add'; pokemonId: string; slot: number | null }
   | { type: 'remove'; slot: number };
 
 export function plannerReducer(state: PlannerState, action: PlannerAction): PlannerState {
+  if (action.type === 'game') {
+    if (action.gameId === state.gameId) return state;
+    const pokemonIds = new Set(action.pokemonIds);
+    return { ...state, gameId: action.gameId, milestoneId: action.milestoneId,
+      team: state.team.map(id => id !== null && pokemonIds.has(id) ? id : null) };
+  }
   if (action.type === 'settings') return { ...state, ...action.values };
   const team = [...state.team];
   if (action.type === 'remove') team[action.slot] = null;

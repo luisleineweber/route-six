@@ -1,35 +1,44 @@
-import { analyzeTypes } from '../../domain/team/analyze-types';
-import { emerald } from '../../data/dataset';
-import { TypeBadge, TypeIcon, typeName } from '../../components/PokemonIdentity';
+import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types';
+import { pokemonById } from '../../data/dataset';
+import { useGameData } from '../planner/GameContext';
+import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 
-function TypeCounts({ counts, empty }: { counts: Record<string, number>; empty: string }) {
-  const types = emerald.typeChart.typeIds.filter(type => counts[type]).sort((a, b) => counts[b] - counts[a]);
-  if (!types.length) return <span className="muted">{empty}</span>;
-  return <ul className="type-counts">{types.map(type => <li key={type}><TypeBadge type={type} /><span className="type-count">×{counts[type]}</span></li>)}</ul>;
-}
-
-export function TypeAnalysis({ team }: { team: string[] }) {
-  const analysis = analyzeTypes(emerald, team);
+export function TypeAnalysis({ team }: { team: (string | null)[] }) {
+  const game = useGameData();
+  const members = team.filter((id): id is string => id !== null);
+  const analysis = analyzeTypes(game, members);
   const covered = new Set(analysis.coveredTypes);
   return <section className="analysis" aria-labelledby="analysis-title">
     <h2 id="analysis-title">Type analysis</h2>
-    {!team.length ? <p className="muted">Add a Pokémon to see weaknesses and attack coverage.</p> : <>
-      <p className="muted">Types only. Abilities, items, and learned moves are not included.</p>
-      <dl className="analysis-rows">
-        <div>
-          <dt>Attack coverage</dt>
-          <dd>
-            <p><strong className="coverage-number">{covered.size} of {analysis.totalTypes}</strong> types can be hit super effectively by your team’s types.</p>
-            <ul className="coverage-strip">{emerald.typeChart.typeIds.map(type => <li key={type} className={covered.has(type) ? 'covered' : 'uncovered'} title={`${typeName(type)}: ${covered.has(type) ? 'covered' : 'not covered'}`}>
-              <TypeIcon type={type} size={28} /><span className="sr-only">{typeName(type)}: {covered.has(type) ? 'covered' : 'not covered'}</span></li>)}</ul>
-          </dd>
-        </div>
-        <div><dt>Weak to</dt><dd><TypeCounts counts={analysis.weaknesses} empty="No weaknesses." /></dd></div>
-        <div><dt>Resists</dt><dd><TypeCounts counts={analysis.resistances} empty="No resistances." /></dd></div>
-        <div><dt>Immune to</dt><dd><TypeCounts counts={analysis.immunities} empty="No immunities." /></dd></div>
-        <div><dt>Repeated types</dt><dd><TypeCounts counts={analysis.repeatedTypes} empty="No repeated types." /></dd></div>
-      </dl>
-      <p className="muted">×2 means two team members.</p>
+    {!members.length ? <p className="muted">Add a Pokémon to see weaknesses and attack coverage.</p> : <>
+      <div className="defense-chart">
+        <h3>Team defense</h3>
+        <ul className="defense-grid" aria-label="Defense against each attack type">{game.typeChart.typeIds.map(type => {
+          const summary = `${typeName(type)}: ${analysis.weaknesses[type]} weak, ${analysis.resistances[type]} resist, ${analysis.immunities[type]} immune`;
+          return <li key={type} className="defense-type">
+            <TypeIcon type={type} size={28} />
+            <span className="sr-only">{summary}.</span>
+            <span className="sr-only">{team.map((id, index) => id ? `Slot ${index + 1}, ${pokemonById.get(id)!.name}: ${damageMultiplier(game, type, id)} times damage. ` : `Slot ${index + 1}: empty. `).join('')}</span>
+            <span className="defense-marks" aria-hidden="true" title={summary}>{Array.from({length:6}, (_, index) => {
+              const id = team[index];
+              const multiplier = id ? damageMultiplier(game, type, id) : 1;
+              const status = !id ? 'empty' : multiplier === 0 ? 'immune' : multiplier < 1 ? 'resist' : multiplier > 1 ? 'weak' : 'neutral';
+              return <span key={index} className={`defense-mark defense-${status}`} title={id ? `${pokemonById.get(id)!.name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'}>{status === 'immune' ? '○' : status === 'weak' ? '+' : status === 'resist' ? '−' : ''}</span>;
+            })}</span>
+          </li>;
+        })}</ul>
+        <ul className="defense-legend" aria-label="Chart legend">
+          <li><span className="defense-mark defense-weak" aria-hidden="true">+</span><span className="sr-only">Weak</span></li>
+          <li><span className="defense-mark defense-resist" aria-hidden="true">−</span><span className="sr-only">Resists</span></li>
+          <li><span className="defense-mark defense-immune" aria-hidden="true">○</span>Immune</li>
+          <li>Team slots 1–6, left to right</li>
+        </ul>
+      </div>
+      <div className="attack-chart"><h3>Attack coverage <span className="count">{covered.size} / {analysis.totalTypes}</span></h3>
+        <ul className="coverage-strip">{game.typeChart.typeIds.map(type => <li key={type} className={covered.has(type) ? 'covered' : 'uncovered'} title={`${typeName(type)}: ${covered.has(type) ? 'covered' : 'not covered'}`}>
+          <TypeIcon type={type} size={28} /><span className="sr-only">{typeName(type)}: {covered.has(type) ? 'covered' : 'not covered'}</span></li>)}</ul>
+      </div>
+      <p className="analysis-note">Types only. Abilities, items, and moves are not included.</p>
     </>}
   </section>;
 }

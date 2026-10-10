@@ -48,6 +48,7 @@ export interface Game {
 
 export interface PokemonProfile {
   pokemonId: Id;
+  regionalDex?: number;
   types: [Id] | [Id, Id];
   breeding: {
     eggGroupIds: [EggGroupId] | [EggGroupId, EggGroupId];

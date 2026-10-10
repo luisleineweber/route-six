@@ -1,7 +1,10 @@
 # Pokémon Playthrough Planner
 
 This project is a React, TypeScript, and Vite field guide for Pokémon Emerald.
-It has a Team Planner and a Progress Planner. Both use the same access rules.
+It has a Team Planner and a Progress Planner. The Team Planner gives a simple
+team overview. The Progress Planner checks access at the selected progress.
+Both views share the six team slots. Sort each catalogue by the regional
+Pokédex first, then by National Dex for the remaining species.
 
 Maintain game data by hand in `data/`. Keep a reference and review date for each
 record. Use the pinned Emerald source revision for review. Do not add a data

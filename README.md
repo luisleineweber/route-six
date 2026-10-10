@@ -1,7 +1,7 @@
 # Pokémon Playthrough Planner
 
-Plan a team of up to six Pokémon and check what is available at a selected point
-in Pokémon Emerald. Team Planner and Progress Planner use the same access rules.
+Build a team of up to six Pokémon in the Team Planner. Use the Progress Planner
+to check access at a selected point in Pokémon Emerald. Both views share the team.
 
 The MVP is implemented in a clear field guide style (see [DESIGN.md](DESIGN.md)). The local data set has
 386 species, all 34 Hoenn routes, 148 progress points, 914 acquisition sources,
@@ -29,18 +29,23 @@ project documents into `dist/docs`. The app needs no service or API at runtime.
 ## Features
 
 - Six team slots with add, replace, and remove controls.
-- Shared progress, planning target, and level settings in both planners.
+- Simple Team Planner with all 386 species, team slots, and type analysis.
+- Progress Planner with access status, sources, team checks, and level settings.
+- Progress Planner starts at Elite Four with the Current progress target.
+- Team members and progress settings stay in memory when the view changes.
+- Hoenn Pokédex order first, then National Dex order for the remaining species.
 - Wild and fixed encounters, gifts, eggs, fossils, game trades, and breeding.
 - Evolution requirements and first access points with source references.
 - Team checks for exclusive choices, finite items, and reusable parent pairs.
 - Emerald type weaknesses, resistances, immunities, repeated types, and coverage.
-- Search by name, type, or Dex number. Filter by status, type logo, and source.
-- Status chips show how many Pokémon each status has under the other filters.
+- Search by name, type, or regional or National Dex number. Filter by type logo.
+- Progress Planner status chips show counts under the other filters.
 - Keyboard controls, visible status labels, and layouts for small screens.
 
 The guide shows what you could obtain. It does not track your exact bag or game
 save. Team and settings stay in memory while the app is open. A reload starts
-a new plan. Player trades and external distribution events stay excluded.
+a new plan. The Progress Planner keeps player trades and external distribution
+events excluded from access. The Team Planner lets you select any game profile.
 
 ## Checks
 
@@ -67,8 +72,9 @@ See [implementation checks](docs/implementation-checks.md) and the complete
 Maintain all game and Pokémon data by hand. The plan has no automated data import
 or runtime data API.
 
-The first full access check runs in a worker. The interface stays usable while
-it checks later progress and breeding. Later queries reuse checked rule states.
+The first full Progress Planner access check runs in a worker. The interface
+stays usable while it checks later progress and breeding. Later queries reuse
+checked rule states. The Team Planner needs no access check.
 
 The Pokémon Emerald logo in `public/games/` is an original drawing for this
 project. The type logos in `public/types/` come from

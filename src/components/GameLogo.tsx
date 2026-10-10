@@ -1,5 +1,7 @@
-const logos: Record<string, string> = { emerald: '/games/emerald.svg' };
+import { gameCatalogue } from '../data/game-catalogue';
 
-export function GameLogo({ gameId, size = 40 }: { gameId: string; size?: number }) {
-  return <img className="game-logo" src={logos[gameId]} alt="" width={size} height={size} decoding="async" />;
+export function GameLogo({ gameId, lazy = false }: { gameId: string; lazy?: boolean }) {
+  const game = gameCatalogue.find(game => game.id === gameId);
+  if (!game) throw new Error(`Missing game logo: ${gameId}`);
+  return <img className="game-logo" src={game.logoSrc} alt="" width={112} height={56} decoding="async" loading={lazy ? 'lazy' : 'eager'} />;
 }

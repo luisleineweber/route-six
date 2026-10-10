@@ -1,4 +1,5 @@
-import { pokemonById, profilesById } from '../data/dataset';
+import { pokemonById } from '../data/dataset';
+import { useGameData } from '../features/planner/GameContext';
 
 export const typeName = (type: string) => type[0].toUpperCase() + type.slice(1);
 
@@ -23,5 +24,8 @@ export function PokemonSprite({ id, size = 'md' }: { id: string; size?: keyof ty
 }
 
 export function PokemonTypes({ id, compact = false }: { id: string; compact?: boolean }) {
-  return <div className="type-list">{profilesById.get(id)!.types.map(type => <TypeBadge key={type} type={type} compact={compact} />)}</div>;
+  const game = useGameData();
+  const profile = game.profiles.find(profile => profile.pokemonId === id);
+  if (!profile) throw new Error(`Missing Pokémon profile in ${game.game.name}: ${id}`);
+  return <div className="type-list">{profile.types.map(type => <TypeBadge key={type} type={type} compact={compact} />)}</div>;
 }
