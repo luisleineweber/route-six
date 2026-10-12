@@ -92,13 +92,13 @@ interface Milestone {
   review: Review;
 }
 
-interface Boss {
+type Boss = {
   id: Id;
   name: string;
-  kind: "gym" | "elite-four" | "champion";
   highestLevel: Level;
   review: Review;
-}
+} & ({ kind: "gym"; badgeNumber: number; specialtyTypeId: Id }
+  | { kind: "elite-four" | "champion" });
 
 interface Location {
   id: Id;

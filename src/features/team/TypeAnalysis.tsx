@@ -23,16 +23,11 @@ export function TypeAnalysis({ team }: { team: (string | null)[] }) {
               const id = team[index];
               const multiplier = id ? damageMultiplier(game, type, id) : 1;
               const status = !id ? 'empty' : multiplier === 0 ? 'immune' : multiplier < 1 ? 'resist' : multiplier > 1 ? 'weak' : 'neutral';
-              return <span key={index} className={`defense-mark defense-${status}`} title={id ? `${pokemonById.get(id)!.name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'}>{status === 'immune' ? '○' : status === 'weak' ? '+' : status === 'resist' ? '−' : ''}</span>;
+              return <span key={index} className={`defense-mark defense-${status}`} title={id ? `${pokemonById.get(id)!.name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'} />;
             })}</span>
           </li>;
         })}</ul>
-        <ul className="defense-legend" aria-label="Chart legend">
-          <li><span className="defense-mark defense-weak" aria-hidden="true">+</span><span className="sr-only">Weak</span></li>
-          <li><span className="defense-mark defense-resist" aria-hidden="true">−</span><span className="sr-only">Resists</span></li>
-          <li><span className="defense-mark defense-immune" aria-hidden="true">○</span>Immune</li>
-          <li>Team slots 1–6, left to right</li>
-        </ul>
+        <p className="defense-hint">Team slots 1–6, left to right</p>
       </div>
       <div className="attack-chart"><h3>Attack coverage <span className="count">{covered.size} / {analysis.totalTypes}</span></h3>
         <ul className="coverage-strip">{game.typeChart.typeIds.map(type => <li key={type} className={covered.has(type) ? 'covered' : 'uncovered'} title={`${typeName(type)}: ${covered.has(type) ? 'covered' : 'not covered'}`}>

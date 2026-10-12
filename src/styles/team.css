@@ -41,5 +41,7 @@
   .empty-slot-button { flex: 1; flex-direction: column; justify-content: center; }
 }
 @container (min-width: 52rem) { .team-slots { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+.planner-heading { align-items: center; }
+.planner-heading .team-export { margin-bottom: 0; }
 .team-export { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.5rem 1rem; margin-bottom: 1rem; }
 .team-export p:empty { display: none; }

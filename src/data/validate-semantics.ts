@@ -38,6 +38,14 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
     const locations = new Set(g.locations.map(l => l.id));
     const bosses = new Set(g.bosses.map(b => b.id));
     const types = new Set(g.typeChart.typeIds);
+    const gyms = g.bosses.filter(boss => boss.kind === 'gym');
+    unique(gyms, gym => gym.badgeNumber, base+'bosses.json/badgeNumber');
+    if (gyms.some(gym => gym.badgeNumber > gyms.length)) {
+      issue(g.game.id, base+'bosses.json/badgeNumber', 'Gym badge numbers must be contiguous from 1.');
+    }
+    for (const gym of gyms) {
+      if (!types.has(gym.specialtyTypeId)) issue(gym.id, base+'bosses.json/specialtyTypeId', `Unknown Gym type: ${gym.specialtyTypeId}`);
+    }
     const count = types.size;
     if (g.typeChart.matrix.length !== count || g.typeChart.matrix.some(row => row.length !== count)) issue(g.game.id, base+'type-chart.json', 'Type chart must be square and complete.');
     for (const profile of g.profiles) {

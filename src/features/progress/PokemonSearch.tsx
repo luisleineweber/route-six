@@ -1,19 +1,31 @@
-import { useMemo, useState } from 'react';
-import { ChevronRight, Plus, Search, X } from 'lucide-react';
+import { Fragment, useMemo, useState } from 'react';
+import { Search, X } from 'lucide-react';
 import { dataset, pokemonById } from '../../data/dataset';
 import { useGameData } from '../planner/GameContext';
 import { defaultCatalogueStatus, matchesCatalogueStatus, type CatalogueStatus } from './catalogue-filter';
-import { PokemonSprite, PokemonTypes, TypeIcon, typeName } from '../../components/PokemonIdentity';
+import { TypeIcon, typeName } from '../../components/PokemonIdentity';
+import { PokemonCatalogueCard } from './PokemonCatalogueCard';
 import { statusIcons, statusNames } from '../../components/StatusLabel';
-import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget, PokemonSource } from '../../domain/types';
+import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
 import { sortPokemonByPokedex } from '../planner/pokedex-order';
+import { pathSource } from '../../components/acquisition-presentation';
 
-function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null, baseSource: PokemonSource | null) {
+function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null) {
   if (entry.status === 'unavailable') return entry.blockers.find(b => b.code === 'other-version' || b.code === 'external-event')?.message;
   if (entry.status === 'blocked') return entry.blockers[0]?.message;
-  if (path?.breedingSteps.length) return 'Day Care breeding';
-  if (path?.evolutionIds.length) return `Evolve ${pokemonById.get(game.evolutions.find(e => e.id === path.evolutionIds[0])!.fromPokemonId)!.name}`;
-  return baseSource ? game.locations.find(l => l.id === baseSource.locationId)!.name : 'View acquisition paths';
+  if (!path) return 'View acquisition paths';
+  if (path.evolutionIds.length) {
+    const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
+    const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
+    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
+    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
+    if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
+    return details.join(' · ');
+  }
+  const source = pathSource(game, path);
+  const details = [game.locations.find(location => location.id === source.locationId)!.name];
+  if (path.breedingSteps.length) details.push('Breeding');
+  return details.join(' · ');
 }
 
 export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onDetails, onCancel }: {
@@ -40,6 +52,8 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     const entry = snapshot?.entries[pokemon.id];
     return !progressPage || !snapshot || !entry || matchesCatalogueStatus(entry, status);
   }), game), [matching,status,snapshot,progressPage,game]);
+  const regionalVisible = visible.filter(pokemon => profiles.get(pokemon.id)?.regionalDex !== undefined);
+  const nationalVisible = visible.filter(pokemon => profiles.get(pokemon.id)?.regionalDex === undefined);
   const canAdd = activeSlot !== null || team.includes(null);
   const clearFilters = () => { setQuery('');setType('');setStatusChoice(null); };
   const statusChips = [{ id: 'obtainable' as CatalogueStatus, name: 'All in game', count: (counts?.available ?? 0) + (counts?.later ?? 0), Icon: null }, ...Object.entries(statusNames).map(([id,name]) => ({ id: id as CatalogueStatus, name, count: counts?.[id] ?? 0, Icon: statusIcons[id as keyof typeof statusIcons] }))];
@@ -61,23 +75,31 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
         <div className="pokemon-grid" aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i} />)}</div>
       </>
       : !visible.length ? <div className="empty-results"><Search size={26} aria-hidden="true" /><h3>No Pokémon match these filters.</h3><p>{progressPage ? 'Change the name, type, or Dex number.' : 'Change the name or type.'}</p><button className="secondary-button" onClick={clearFilters}>Clear filters</button></div>
-      : <div className="pokemon-grid">{visible.map(pokemon => {
+      : <div className="pokemon-grid">{visible.map((pokemon, index) => {
         const entry = snapshot?.entries[pokemon.id];
-        const pathId = entry ? entry.currentPathIds[0] ?? entry.futurePathIds[0] : null;
+        // Keep the source location and first-access point on the same future path.
+        const pathId = entry ? entry.currentPathIds[0]
+          ?? entry.futurePathIds.find(id => snapshot!.paths[id].firstMilestoneIds.includes(entry.firstMilestoneIds[0]))
+          ?? entry.futurePathIds[0] : null;
         const path = pathId && snapshot ? snapshot.paths[pathId] : null;
-        const baseSource = path ? game.sources.find(s => s.id === path.sourceIds[0]) ?? null : null;
         const earliest = entry?.firstMilestoneIds.map(id=>game.milestones.find(m=>m.id===id)!.name) ?? [];
         const profile = profiles.get(pokemon.id)!;
+        const isNational = profile.regionalDex === undefined;
+        const startsRegionalGroup = !isNational && index === 0;
+        const startsNationalGroup = isNational && (index === 0 || profiles.get(visible[index - 1].id)?.regionalDex !== undefined);
         const StatusIcon = entry ? statusIcons[entry.status] : null;
         const accessLabel = entry ? { available: 'Now', later: 'Later', blocked: 'Blocked', unavailable: 'Unavailable' }[entry.status] : '';
-        return <article className="pokemon-card" key={pokemon.id}>
-          <span className="dex-number" title={profile.regionalDex ? `${game.game.region} Pokédex` : 'National Pokédex'}><span className="dex-name">{profile.regionalDex ? game.game.region : 'National'} </span>#{String(profile.regionalDex ?? pokemon.nationalDex).padStart(3,'0')}</span>
-          <button className="icon-button add-button" aria-label={`${activeSlot!==null?'Set':'Add'} ${pokemon.name}${activeSlot!==null?` in slot ${activeSlot+1}`:' to team'}`} disabled={!canAdd} onClick={()=>onAdd(pokemon.id)}><Plus size={18} aria-hidden="true" /></button>
-          <h3 className="card-identity"><button className="card-link" title={pokemon.name} aria-label={`View ${pokemon.name} details`} onClick={()=>onDetails(pokemon.id)}><PokemonSprite id={pokemon.id} /><span className="card-name">{pokemon.name}</span>{progressPage && <span className="card-details-cue" aria-hidden="true">Details <ChevronRight size={13} /></span>}</button></h3>
-          <PokemonTypes id={pokemon.id} compact />
-          {progressPage && entry && <><p className={`source-summary access-summary status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path, baseSource)}</span></p>
+        return <Fragment key={pokemon.id}>
+          {startsRegionalGroup && <div className="dex-grid-heading"><h3>{game.game.region} Pokédex</h3><span className="dex-group-count">{regionalVisible.length} Pokémon</span></div>}
+          {startsNationalGroup && <>
+            <div className="dex-grid-heading national-dex-heading"><h3>National Pokédex</h3><span className="dex-group-count">{nationalVisible.length} Pokémon</span></div>
+            {game.game.id === 'emerald' && <p className="dex-grid-note">The National Pokédex unlocks after the Hall of Fame. Some species are available earlier.</p>}
+          </>}
+          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
+          {progressPage && entry && <><p className={`source-summary access-summary status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
           {entry.status==='later' && <p className="source-summary">First access: {earliest[0]}{earliest.length>1?` (+${earliest.length-1} alternatives)`:''}</p>}</>}
-        </article>;
+          </PokemonCatalogueCard>
+        </Fragment>;
       })}</div>}
   </section>;
 }

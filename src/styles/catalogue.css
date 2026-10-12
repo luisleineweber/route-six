@@ -6,6 +6,11 @@
 
 .team-catalogue { --grid-columns: 9; }
 .progress-catalogue { --grid-columns: 6; }
+.dex-grid-heading { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 0.75rem; margin-top: 0.75rem; }
+.dex-grid-heading.national-dex-heading { margin-top: 1.25rem; }
+.pokemon-grid > .dex-grid-heading:first-child { margin-top: 0; }
+.dex-group-count { color: var(--muted); font-size: 0.8125rem; font-variant-numeric: tabular-nums; }
+.dex-grid-note { grid-column: 1 / -1; margin-top: -0.5rem; color: var(--muted); font-size: 0.875rem; }
 .pokemon-grid { --screen-columns: 2; display: grid; grid-template-columns: repeat(min(var(--grid-columns), var(--screen-columns)), minmax(0, 1fr)); gap: 0.75rem; }
 @container (min-width: 30rem) { .pokemon-grid { --screen-columns: 4; } }
 @container (min-width: 40rem) { .pokemon-grid { --screen-columns: 6; } }
@@ -27,11 +32,16 @@
 .access-summary { align-items: flex-start; justify-content: center; font-weight: 400; }
 .access-summary > svg { flex-shrink: 0; margin-top: 0.125rem; }
 
-.team-catalogue .pokemon-card { padding: 2rem 0.5rem 3rem; }
+.team-catalogue .pokemon-card { padding: 2rem 0.5rem 1.25rem; }
 .team-catalogue .card-identity { margin-top: 0; }
 .team-catalogue .card-link::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius-tile); }
 .team-catalogue .pokemon-card:has(.card-link:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
 .team-catalogue .pokemon-card > .type-list { position: absolute; inset-block-end: 0.75rem; inset-inline-end: 0.75rem; }
+.team-catalogue .pokemon-card > .type-list.joined-types { gap: 0; }
+.team-catalogue .joined-types .type-badge { width: 12px; height: 24px; overflow: hidden; }
+.team-catalogue .joined-types .type-badge:first-child { border-radius: 50% 0 0 50%; }
+.team-catalogue .joined-types .type-badge:last-child { border-radius: 0 50% 50% 0; }
+.team-catalogue .joined-types .type-badge:last-child .type-icon { translate: -12px 0; }
 .team-catalogue .add-button { inset-block-start: -0.5rem; inset-inline-end: -0.5rem; z-index: 2; opacity: 0; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
 .team-catalogue .pokemon-card:hover .add-button,
 .team-catalogue .pokemon-card:focus-within .add-button { opacity: 1; }

@@ -2,7 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { emerald } from '../src/data/dataset';
 import type { AcquisitionPath, AvailabilitySnapshot } from '../src/domain/types';
 import { initialState } from '../src/features/planner/state';
-import { buildTeamExport, progressDetails } from '../src/features/export/export-model';
+import { buildTeamExport } from '../src/features/export/export-model';
+import { progressContent } from '../src/features/export/progress-content';
 
 function path(id: string, sourceId: string, evolutionIds: string[] = []): AcquisitionPath {
   return { id, pokemonId: 'raichu', sourceIds: [sourceId], evolutionIds, breedingSteps: [],
@@ -25,11 +26,11 @@ describe('team PNG content', () => {
     expect(model.defense.find(row => row.type === 'grass')!.multipliers).toEqual([null, 4, null, null, null, null]);
     expect(model.defense.find(row => row.type === 'electric')!.multipliers[1]).toBe(0);
     expect(model.coverage).toContain('fire');
-    expect(model.slots[1].details).toEqual([]);
+    expect(model.slots[1].progress).toBeNull();
     expect(model.subtitle).not.toContain('Level');
   });
 
-  it('shows two distinct locations with evolution tied to each source', () => {
+  it('selects one simple source and keeps its evolution sequence', () => {
     const stone = emerald.evolutions.find(rule => rule.fromPokemonId === 'pikachu' && rule.toPokemonId === 'raichu')!;
     const south = path('south', 'wild-safari-zone-south-grass-pikachu', [stone.id]);
     const duplicate = path('duplicate', 'wild-safari-zone-southwest-grass-pikachu', [stone.id]);
@@ -40,12 +41,10 @@ describe('team PNG content', () => {
     const extra = path('extra', third.id);
     const state = snapshot([south, duplicate, direct, extra], ['south', 'duplicate', 'direct', 'extra']);
     const before = structuredClone(state);
-    const text = progressDetails(game, state, 'raichu').join('\n');
-    expect(text).toContain('1. Safari Zone');
-    expect(text).toContain('Pikachu → Raichu: use Thunder Stone.');
-    expect(text).toContain('2. Route 101');
-    expect(text).toContain('No evolution needed.');
-    expect(text).not.toContain('Route 102');
+    const content = progressContent(game, state, 'raichu');
+    expect(content.location).toBe('Route 101');
+    expect(content.stages.map(stage => stage.name)).toEqual(['Raichu']);
+    expect(content.acquisition).toEqual([]);
     expect(state).toEqual(before);
   });
 
@@ -53,16 +52,73 @@ describe('team PNG content', () => {
     const current = path('current', 'wild-safari-zone-south-grass-pikachu');
     const future = path('future', 'wild-safari-zone-southwest-grass-pikachu');
     const state = snapshot([current, future], ['current'], ['future']);
-    state.paths.future.minimumLevel = 40;
-    expect(progressDetails(emerald, state, 'raichu').join(' ')).not.toContain('Lv. 40');
+    const stone = emerald.evolutions.find(rule => rule.fromPokemonId === 'pikachu' && rule.toPokemonId === 'raichu')!;
+    state.paths.future.evolutionIds = [stone.id];
+    expect(progressContent(emerald, state, 'raichu').stages).toHaveLength(1);
     state.entries.raichu.currentPathIds = [];
-    expect(progressDetails(emerald, state, 'raichu').join(' ')).toContain('Lv. 40');
+    expect(progressContent(emerald, state, 'raichu').stages[1]).toMatchObject({ name: 'Raichu', dex: 26, requirement: 'Thunder Stone' });
   });
 
-  it('shows the blocked reason when there is no path', () => {
+  it('keeps absent sources explicit without exporting warning paragraphs', () => {
     const state = snapshot([], []);
     state.entries.raichu.blockers = [{ code: 'item', relatedId: 'thunder-stone', message: 'Thunder Stone is required.' }];
-    expect(progressDetails(emerald, state, 'raichu')).toEqual(['No valid acquisition path.', 'Thunder Stone is required.']);
+    expect(progressContent(emerald, state, 'raichu')).toMatchObject({ location: null, missingSource: {
+      title: 'Requirements not met', explanation: 'Thunder Stone is required.',
+    } });
+    const model = buildTeamExport(emerald, { ...initialState, milestoneId: state.query.milestoneId, team: ['raichu', null, null, null, null, null] }, true, state);
+    expect(model.notes).toEqual([]);
+    expect(model.slots[0]).not.toHaveProperty('status');
+  });
+
+  it('explains why a species from another version cannot be obtained', () => {
+    const state = snapshot([], []);
+    const exclusion = emerald.exclusions.find(exclusion => exclusion.pokemonId === 'surskit')!;
+    state.entries.surskit = { ...state.entries.raichu, pokemonId: 'surskit', status: 'unavailable',
+      blockers: [{ code: exclusion.reason, relatedId: 'surskit', message: exclusion.explanation }] };
+    expect(progressContent(emerald, state, 'surskit').missingSource).toEqual({
+      title: 'Not obtainable in Emerald',
+      explanation: 'Requires another game version or a player trade. Player trades are excluded from this planner.',
+    });
+  });
+
+  it('distinguishes external events from an unmet level limit', () => {
+    const state = snapshot([], []);
+    state.entries.raichu.blockers = [{ code: 'external-event', relatedId: null, message: 'External event.' }];
+    expect(progressContent(emerald, state, 'raichu').missingSource!.explanation).toContain('external distribution event');
+    state.entries.raichu.blockers = [{ code: 'level-limit', relatedId: null, message: 'Evolution needs level 30; the current limit is 20.' }];
+    expect(progressContent(emerald, state, 'raichu').missingSource).toEqual({
+      title: 'Requirements not met', explanation: 'Evolution needs level 30; the current limit is 20.',
+    });
+  });
+
+  it('prefers a direct catch over a lower-level breeding alternative', () => {
+    const caught = path('caught', 'wild-safari-zone-south-grass-pikachu');
+    const source = emerald.sources.find(source => source.pokemonId === 'pichu' && source.details.kind === 'breeding')!;
+    const bred = { ...caught, id: 'bred', sourceIds: [source.id], minimumLevel: 5,
+      breedingSteps: [{ sourceId: source.id, ruleId: 'test', parents: [{ pokemonId: 'pikachu', gender: 'female', pathId: 'caught' }, { pokemonId: 'pikachu', gender: 'male', pathId: 'caught' }] }] } as AcquisitionPath;
+    const state = snapshot([bred, caught], ['bred', 'caught']);
+    expect(progressContent(emerald, state, 'raichu').location).toBe('Safari Zone');
+  });
+
+  it('exports all three stages with short level labels and predecessor sprites', () => {
+    const source = emerald.sources.find(source => source.pokemonId === 'ralts' && source.details.kind === 'wild')!;
+    const rules = ['ralts', 'kirlia'].map(id => emerald.evolutions.find(rule => rule.fromPokemonId === id)!.id);
+    const evolved = path('evolved', source.id, rules);
+    const state = snapshot([evolved], ['evolved']);
+    expect(progressContent(emerald, state, 'raichu').stages).toEqual([
+      { name: 'Ralts', dex: 280, requirement: null, conditions: [] },
+      { name: 'Kirlia', dex: 281, requirement: 'Lv. 20', conditions: [] },
+      { name: 'Gardevoir', dex: 282, requirement: 'Lv. 30', conditions: [] },
+    ]);
+  });
+
+  it('keeps special evolution conditions with the correct stage', () => {
+    const rule = emerald.evolutions.find(rule => rule.fromPokemonId === 'feebas')!;
+    const source = emerald.sources.find(source => source.pokemonId === 'feebas' && source.details.kind === 'wild')!;
+    const evolved = path('evolved', source.id, [rule.id]);
+    const content = progressContent(emerald, snapshot([evolved], ['evolved']), 'raichu');
+    expect(content.stages[1].name).toBe('Milotic');
+    expect(content.stages[1].conditions.join(' ')).toContain('Beauty');
   });
 
   it('rejects absent or old progress results', () => {

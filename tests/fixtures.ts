@@ -17,7 +17,7 @@ export function fixture(ids:string[]): {data:Dataset; game:GameData} {
       {id:'optional',name:'Optional',kind:'area',phase:'main-story',displayOrder:1,previousIds:['future'],locationId:null,nextBossId:'third',review},
       {id:'end',name:'End',kind:'story',phase:'post-game',displayOrder:4,previousIds:['future'],locationId:null,nextBossId:null,review},
     ],
-    bosses:[{id:'first',name:'First',kind:'gym',highestLevel:15,review},{id:'second',name:'Second',kind:'gym',highestLevel:24,review},{id:'third',name:'Third',kind:'gym',highestLevel:50,review}],
+    bosses:[{id:'first',name:'First',kind:'gym',highestLevel:15,badgeNumber:1,specialtyTypeId:'rock',review},{id:'second',name:'Second',kind:'gym',highestLevel:24,badgeNumber:2,specialtyTypeId:'fighting',review},{id:'third',name:'Third',kind:'gym',highestLevel:50,badgeNumber:3,specialtyTypeId:'electric',review}],
     locations:[{id:'field',name:'Field',requirements:milestone('start'),review}],
     capabilities:[{id:'old-rod',name:'Old Rod',requirements:milestone('gate'),review},{id:'day-care',name:'Day Care',requirements:milestone('gate'),review},{id:'friendship',name:'Friendship',requirements:none,review}],
     items:[],choices:[],sources:[],breedingRules:[],evolutions:[],exclusions:[],

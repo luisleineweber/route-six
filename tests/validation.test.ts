@@ -15,6 +15,14 @@ describe('Data validation',()=>{
     expect(messages(changed(d=>{const g=d.games[0];g.profiles.find(p=>p.pokemonId==='mudkip')!.regionalDex=1;})).join()).toContain('Duplicate');
     expect(messages(changed(d=>{const g=d.games[0];g.profiles.find(p=>p.pokemonId==='deoxys')!.regionalDex=201;})).join()).toContain('contiguous');
   });
+  it('rejects missing Gym identity, invalid badge numbers, and unknown Gym types',()=>{
+    expect(messages(changed(d=>{Reflect.deleteProperty(d.games[0].bosses[0],'badgeNumber');})).join()).toContain('badgeNumber');
+    expect(messages(changed(d=>{Reflect.deleteProperty(d.games[0].bosses[0],'specialtyTypeId');})).join()).toContain('specialtyTypeId');
+    expect(messages(changed(d=>{const gym=d.games[0].bosses.find(b=>b.kind==='gym')!;gym.badgeNumber=0;})).join()).toContain('>= 1');
+    expect(messages(changed(d=>{const gym=d.games[0].bosses.find(b=>b.kind==='gym')!;gym.badgeNumber=9;})).join()).toContain('contiguous');
+    expect(messages(changed(d=>{const gym=d.games[0].bosses.find(b=>b.kind==='gym')!;gym.badgeNumber=2;})).join()).toContain('Duplicate');
+    expect(messages(changed(d=>{const gym=d.games[0].bosses.find(b=>b.kind==='gym')!;gym.specialtyTypeId='fairy';})).join()).toContain('Unknown Gym type');
+  });
   it('rejects unknown cross references and review references',()=>{expect(messages(changed(d=>d.games[0].sources[0].locationId='missing')).join()).toContain('Unknown location');expect(messages(changed(d=>d.pokemon[0].review.referenceIds=['missing'])).join()).toContain('Unknown review');});
   it('rejects milestone cycles and unrooted progress',()=>{expect(messages(changed(d=>d.games[0].milestones[0].previousIds=['route-102'])).join()).toContain('cycle');expect(messages(changed(d=>d.games[0].milestones[1].previousIds=[])).join()).toContain('rooted');});
   it('rejects missing game profiles and incomplete type charts',()=>{expect(messages(changed(d=>d.games[0].profiles.pop())).join()).toContain('Missing game profile');expect(messages(changed(d=>d.games[0].typeChart.matrix[0].pop())).join()).toContain('square and complete');});

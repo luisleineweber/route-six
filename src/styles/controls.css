@@ -90,6 +90,6 @@ details[open] > summary > .chevron { rotate: 180deg; }
 .notice-warning { background: var(--warning-bg); color: var(--warning-ink); }
 .notice-info { background: var(--tile); color: var(--muted); }
 .notice-info p { margin: 0; color: var(--muted); }
-.loading-note { display: flex; align-items: center; gap: 0.75rem; margin-top: 1rem; color: var(--muted); font-size: 0.875rem; }
+.loading-note { display: flex; align-items: center; gap: 0.75rem; max-width: none; margin-top: 1rem; color: var(--muted); font-size: 0.875rem; }
 .loading-dot { display: block; flex-shrink: 0; width: 1rem; height: 1rem; border: 2px solid var(--tile-hover); border-top-color: var(--accent); border-radius: 50%; animation: checking 800ms linear infinite; }
 @keyframes checking { to { rotate: 360deg; } }

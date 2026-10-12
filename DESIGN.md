@@ -32,17 +32,28 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
 
 The Team Planner shows team slots, type analysis, and a simple catalogue.
 Keep progress settings, access status, sources, and level limits in the
-Progress Planner. Start the Progress Planner at Elite Four with the Current
+Progress Planner. Start the Progress Planner at Victory Road with the Current
 progress target. Keep the team and progress settings when the view changes.
 
 Show Progress Planner settings in a top bar before the team slots and
 catalogue. Wrap controls into rows on narrow screens. Both modes use the full
-content width. Use Gym, story battle, and League checkpoints for progress.
+content width. Use only the eight Gym checkpoints, then Victory Road, in one
+flat list. Show each Gym's badge number, type, and leader. Do not use menu
+groups. Use a custom progress dropdown with type icons, a clear Gym number,
+and a second line for the leader and type. Mark the selected row with a check.
+One selected point sets current or goal progress.
 
 Show six slots in one row on wide screens, three per row on medium screens,
 and one compact row per slot on phones. Keep empty slots visible and mark each
 slot with its number. A tile has one main control that opens the details.
 Filled slots have one Remove control. Empty slots have one Add control.
+
+When the full team row scrolls above the viewport, show a full-width team bar
+at the top. Center six small 4:3 cards in one row. Use two rows of three on
+narrow screens. Split the upper area 60/40: sprite on the left, type logos on
+the right. Show the name below. Keep empty cards with a question mark and Add
+control. Show Remove on hover and keyboard focus, and keep it visible on touch
+screens. Keep search and keyboard focus below the bar.
 
 Combine weaknesses, resistances, and immunities in one compact defense chart.
 Show six marks per attack type, one per team member. Use distinct symbols and
@@ -52,7 +63,8 @@ Both catalogues use type logos and a search field. The Progress Planner also
 uses status chips that show their counts. Sort regional Pokédex species first
 in regional order. Then show the remaining species in National Dex order.
 Show the name of the Dex with its number.
-Use native selects, radio inputs, checkboxes, details, and a dialog.
+Use native radio inputs, checkboxes, details, and a dialog. Use the Radix Select
+primitive for the progress dropdown's keyboard access and focus handling.
 Build the level limit as a switch.
 Whole-game planning in the Progress Planner shows every obtainable species,
 including future sources. Keep source filters out of both catalogues.

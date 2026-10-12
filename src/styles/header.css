@@ -1,3 +1,4 @@
+.app-header { background-color: var(--bg); transition: background-color 180ms ease-out; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; padding-block: 1rem 0.25rem; }
 .header-planners { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 2rem; }
 .brand { display: flex; align-items: center; gap: 0.75rem; font-size: 1rem; font-weight: 700; line-height: 1.2; }

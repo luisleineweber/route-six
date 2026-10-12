@@ -83,13 +83,13 @@ export interface Milestone {
   review: Review;
 }
 
-export interface Boss {
+export type Boss = {
   id: Id;
   name: string;
-  kind: "gym" | "elite-four" | "champion";
   highestLevel: Level;
   review: Review;
-}
+} & ({ kind: "gym"; badgeNumber: number; specialtyTypeId: Id }
+  | { kind: "elite-four" | "champion" });
 
 export interface Location {
   id: Id;

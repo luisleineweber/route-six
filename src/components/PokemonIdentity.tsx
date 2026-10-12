@@ -23,9 +23,12 @@ export function PokemonSprite({ id, size = 'md' }: { id: string; size?: keyof ty
   return <img className="pokemon-sprite" src={`/pokemon/${pokemon.nationalDex}.png`} alt="" width={pixels} height={pixels} loading="lazy" />;
 }
 
-export function PokemonTypes({ id, compact = false }: { id: string; compact?: boolean }) {
+export function PokemonTypes({ id, compact = false, joined = false }: { id: string; compact?: boolean; joined?: boolean }) {
   const game = useGameData();
   const profile = game.profiles.find(profile => profile.pokemonId === id);
   if (!profile) throw new Error(`Missing Pokémon profile in ${game.game.name}: ${id}`);
-  return <div className="type-list">{profile.types.map(type => <TypeBadge key={type} type={type} compact={compact} />)}</div>;
+  const joinPair = joined && profile.types.length === 2;
+  return <div className={`type-list${joinPair ? ' joined-types' : ''}`} title={joinPair ? profile.types.map(typeName).join(' / ') : undefined}>
+    {profile.types.map(type => <TypeBadge key={type} type={type} compact={compact} />)}
+  </div>;
 }

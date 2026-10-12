@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { emerald } from '../src/data/dataset';
-import { progressCheckpoints } from '../src/features/planner/progress-checkpoints';
+import { progressCheckpointOptions, progressCheckpoints } from '../src/features/planner/progress-checkpoints';
 import { initialState, plannerReducer } from '../src/features/planner/state';
 import { sortPokemonByPokedex } from '../src/features/planner/pokedex-order';
 import { dataset } from '../src/data/dataset';
@@ -13,8 +13,9 @@ const entry = (status: AvailabilityEntry['status']): AvailabilityEntry => ({
 });
 
 describe('Shared planner catalogue', () => {
-  it('defaults to current access at the League checkpoint', () => {
-    expect(initialState).toMatchObject({ milestoneId: 'league', target: 'current-progress' });
+  it('defaults to current access at the final visible checkpoint', () => {
+    expect(initialState).toMatchObject({ milestoneId: 'victory-road', target: 'current-progress' });
+    expect(progressCheckpointOptions(emerald).at(-1)!.id).toBe(initialState.milestoneId);
   });
   it('shows present and future Pokémon for whole-game planning in either view', () => {
     const status = defaultCatalogueStatus('whole-game');
@@ -31,14 +32,25 @@ describe('Shared planner catalogue', () => {
 });
 
 describe('Progress checkpoints', () => {
-  it('keeps all Gyms and League battles, plus major story battles, in game order', () => {
+  it('identifies all eight Gyms by badge number and type', () => {
+    const options = progressCheckpointOptions(emerald);
+    const gyms = emerald.bosses.filter(boss => boss.kind === 'gym');
+    expect(gyms.map(gym => options.find(option => option.id === `${gym.id}-defeated`)!.label)).toEqual([
+      'Gym 1 · Rock · Roxanne', 'Gym 2 · Fighting · Brawly',
+      'Gym 3 · Electric · Wattson', 'Gym 4 · Fire · Flannery',
+      'Gym 5 · Normal · Norman', 'Gym 6 · Flying · Winona',
+      'Gym 7 · Psychic · Tate & Liza', 'Gym 8 · Water · Juan',
+    ]);
+  });
+  it('lists only the eight Gyms, then Victory Road', () => {
+    const options = progressCheckpointOptions(emerald);
+    expect(options.map(option => option.id)).toEqual([
+      'roxanne-defeated', 'brawly-defeated', 'wattson-defeated', 'flannery-defeated',
+      'norman-defeated', 'winona-defeated', 'tate-and-liza-defeated', 'juan-defeated', 'victory-road',
+    ]);
+    expect(options.at(-1)!.label).toBe('Victory Road');
     const points = progressCheckpoints(emerald);
-    expect(points[0].id).toBe(emerald.game.firstMilestoneId);
-    for (const boss of emerald.bosses) expect(points.some(point => point.id === `${boss.id}-defeated`)).toBe(true);
-    expect(points.map(point => point.id)).toEqual(expect.arrayContaining(['maxie-chimney', 'archie', 'steven-rematch']));
-    expect(points.some(point => point.id === 'route-110')).toBe(false);
     expect(points.map(point => point.displayOrder)).toEqual([...points.map(point => point.displayOrder)].sort((a, b) => a - b));
-    expect(points.some(point => point.id === 'league')).toBe(true);
   });
 });
 

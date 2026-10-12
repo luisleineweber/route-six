@@ -26,13 +26,16 @@ describe('acquisition presentation', () => {
     expect(pathOptionName(emerald, southwest)).toBe('Southwest');
   });
 
-  it('retains level and evolution alternatives within a source group', () => {
+  it('keeps direct sources and evolution paths separate without changing the proofs', () => {
     const first = path('first', 'wild-safari-zone-south-grass-pikachu');
-    const evolved = { ...first, id: 'evolved', minimumLevel: 30, evolutionIds: ['example-evolution'] };
+    const evolved = { ...first, id: 'evolved', pokemonId: 'raichu', minimumLevel: 30, evolutionIds: ['pikachu-to-raichu'] };
     const state = snapshot([first, evolved]);
     const before = structuredClone(state);
     const groups = groupAcquisitionPaths(emerald, state, ['first', 'evolved']);
-    expect(groups[0].paths).toEqual([first, evolved]);
+    expect(groups.map(group => group.title)).toEqual(['Safari Zone', 'Evolve Pikachu']);
+    expect(groups[0].paths).toEqual([first]);
+    expect(groups[1].paths).toEqual([evolved]);
+    expect(groups[1].method).toBe('Use Thunder Stone');
     expect(state).toEqual(before);
   });
 

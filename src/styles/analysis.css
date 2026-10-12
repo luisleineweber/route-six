@@ -3,14 +3,12 @@
 .defense-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr)); gap: 0.875rem 1rem; padding: 0; margin-block: 1rem; list-style: none; }
 .defense-type { display: flex; align-items: center; gap: 0.5rem; }
 .defense-marks { display: flex; gap: 3px; }
-.defense-mark { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 9px; height: 24px; border-radius: 2px; font-size: 13px; font-weight: 700; line-height: 1; background: var(--tile-hover); color: var(--muted); }
+.defense-mark { display: inline-flex; flex-shrink: 0; width: 9px; height: 24px; border-radius: 2px; background: var(--tile-hover); }
 .defense-empty { background: var(--tile); }
-.defense-weak { background: oklch(0.87 0.07 28); color: oklch(0.36 0.12 28); }
-.defense-resist { background: oklch(0.88 0.045 240); color: oklch(0.34 0.08 240); }
-.defense-immune { background: oklch(0.35 0.06 240); color: white; }
-.defense-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; padding: 0; list-style: none; color: var(--muted); font-size: 0.8125rem; }
-.defense-legend li { display: inline-flex; align-items: center; gap: 0.375rem; }
-.defense-legend .defense-mark { height: 18px; }
+.defense-weak { background: oklch(0.87 0.07 28); }
+.defense-resist { background: oklch(0.88 0.045 240); }
+.defense-immune { background: oklch(0.35 0.06 240); }
+.defense-hint { margin: 1rem 0; color: var(--muted); font-size: 0.8125rem; }
 .attack-chart { margin-top: 1.5rem; }
 .attack-chart h3 { display: flex; align-items: baseline; gap: 0.75rem; }
 .coverage-strip { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 0.75rem 0 0; list-style: none; }

@@ -85,8 +85,13 @@
         "name": { "$ref": "common.schema.json#/$defs/text" },
         "kind": { "enum": ["gym", "elite-four", "champion"] },
         "highestLevel": { "$ref": "common.schema.json#/$defs/level" },
+        "badgeNumber": { "type": "integer", "minimum": 1 },
+        "specialtyTypeId": { "$ref": "common.schema.json#/$defs/id" },
         "review": { "$ref": "common.schema.json#/$defs/review" }
-      }
+      },
+      "if": { "properties": { "kind": { "const": "gym" } } },
+      "then": { "required": ["badgeNumber", "specialtyTypeId"] },
+      "else": { "not": { "anyOf": [{ "required": ["badgeNumber"] }, { "required": ["specialtyTypeId"] }] } }
     },
     "location": {
       "type": "object", "additionalProperties": false,

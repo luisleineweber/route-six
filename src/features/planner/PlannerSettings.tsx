@@ -1,11 +1,12 @@
 import type { PlanningTarget } from '../../domain/types';
 import type { PlannerAction, PlannerState } from './state';
 import { useGameData } from './GameContext';
-import { progressCheckpoints } from './progress-checkpoints';
+import { progressCheckpointOptions } from './progress-checkpoints';
+import { ProgressSelector } from './ProgressSelector';
 
 const targets: { id: PlanningTarget; name: string; description: string }[] = [
   { id: 'whole-game', name: 'Whole game', description: 'Show all Pokémon you can obtain in this game.' },
-  { id: 'current-progress', name: 'Current progress', description: 'Check the team you can obtain now.' },
+  { id: 'current-progress', name: 'Current/Goal progress', description: 'Check the team you can obtain now.' },
 ];
 
 export function PlannerSettings({ state, dispatch }: { state: PlannerState; dispatch: React.Dispatch<PlannerAction> }) {
@@ -13,23 +14,14 @@ export function PlannerSettings({ state, dispatch }: { state: PlannerState; disp
   const milestone = game.milestones.find(m => m.id === state.milestoneId)!;
   const boss = game.bosses.find(b => b.id === milestone.nextBossId);
   const target = targets.find(t => t.id === state.target)!;
-  const points = progressCheckpoints(game);
-  const groupOf = (id: string, kind: string) => {
-    if (id === game.game.firstMilestoneId) return 'Start';
-    if (id === 'league') return 'Elite Four and Champion';
-    const opponent = game.bosses.find(b => `${b.id}-defeated` === id);
-    return opponent?.kind === 'gym' ? 'Gyms' : kind === 'boss' ? 'Elite Four and Champion' : 'Story battles';
-  };
-  const sections = ['Start', 'Gyms', 'Story battles', 'Elite Four and Champion'];
+  const points = progressCheckpointOptions(game);
   const update = (values: Partial<PlannerState>) => dispatch({ type: 'settings', values });
   return <section className="settings" aria-label="Planner settings">
       <div className="settings-fields">
         <div className="field">
-          <label htmlFor="milestone">Current progress</label>
-          <select id="milestone" value={state.milestoneId} onChange={e => update({ milestoneId: e.target.value })}>
-            {sections.map(section => <optgroup key={section} label={section}>{points.filter(m => groupOf(m.id, m.kind) === section)
-              .map(m => <option key={m.id} value={m.id}>{m.id === game.game.firstMilestoneId ? 'Start of game' : m.id === 'league' ? 'Elite Four' : m.name.replace(/^Defeat /, 'After defeating ')}</option>)}</optgroup>)}
-          </select>
+          <label id="milestone-label" htmlFor="milestone">Current/Goal progress</label>
+          <ProgressSelector value={state.milestoneId} options={points} onChange={milestoneId => update({ milestoneId })} />
+          <p id="milestone-hint" className="field-hint">Plan for after the selected Gym or Victory Road.</p>
         </div>
         <fieldset className="field segmented">
           <legend>Planning target</legend>

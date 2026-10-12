@@ -2,9 +2,12 @@
 @import './styles/header.css';
 @import './styles/settings.css';
 @import './styles/team.css';
+@import './styles/team-bar.css';
 @import './styles/analysis.css';
 @import './styles/catalogue.css';
+@import './styles/add-feedback.css';
 @import './styles/details.css';
+@import './styles/evolution.css';
 
 :root {
   color-scheme: light;
@@ -42,7 +45,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-padding-top: 1.5rem; }
+html { scroll-padding-top: calc(1.5rem + var(--team-bar-height, 0px)); }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font: 0.9375rem/1.55 'Segoe UI Variable Text', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;

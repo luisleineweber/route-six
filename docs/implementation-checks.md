@@ -117,3 +117,28 @@ The current test suite passes 67 tests in eight files. The tests cover the
 Elite Four default, regional Pokédex order, and invalid regional Dex data.
 `npm run build` passes the data check, TypeScript check, and production build.
 The existing warning for large local data bundles remains.
+
+## Fixed team bar: 10 October 2026
+
+Both planners show a full-width team bar after the full team scrolls above the
+viewport. The bar centers six small cards. Each card uses a 4:3 shape with a
+60/40 sprite and type area, then the name below. Narrow screens use two rows of
+three cards. Empty slots keep their card, question mark, and Add control.
+
+The browser checks covered these results:
+
+- Add from the bar fills the selected slot in the full team view.
+- Remove appears on hover and keyboard focus. Touch screens keep it visible
+  with a 44-pixel target. Remove returns focus to the empty slot.
+- Details close with Escape and return focus to the card.
+- A direct scroll jump shows the bar in both planners.
+- Search focus stays below the bar when a slot opens the catalogue.
+- Card names and types fit at 320, 390, 671, 672, 768, and 1440 pixels.
+- The team bar keeps its names inside the viewport at 200% text size.
+- Axe WCAG A/AA checks report zero violations on desktop and touch screens.
+- The browser reports no errors. The page has no horizontal overflow at the
+  checked widths with normal text size.
+
+The test suite passes 93 tests in 11 files. `npm run build` passes the data
+check, TypeScript check, and production build. The existing bundle size warning
+remains. Browser check files and screenshots are in `output/shots/`.

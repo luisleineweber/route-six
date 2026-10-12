@@ -7,7 +7,7 @@ export interface PlannerState {
   target: PlanningTarget;
   team: (string | null)[];
 }
-export const initialState: PlannerState = { gameId: 'emerald', milestoneId: 'league', respectLevelLimit: true,
+export const initialState: PlannerState = { gameId: 'emerald', milestoneId: 'victory-road', respectLevelLimit: true,
   target: 'current-progress', team: Array(6).fill(null) };
 
 export type PlannerAction =

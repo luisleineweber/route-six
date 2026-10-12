@@ -44,6 +44,12 @@ must not fetch or import data. Each file maps directly to a schema definition.
 | `choices.json` | Array | `game.schema.json#/$defs/choiceGroup` per entry. |
 | `sources.json` | Array | `acquisition.schema.json#/$defs/source` per entry. |
 | `breeding-rules.json` | Array | `game.schema.json#/$defs/breedingRule` per entry. |
+
+Gym opponents have a `badgeNumber` and `specialtyTypeId`. Badge numbers must
+form a sequence from 1. The specialty must be a type in the game's type chart.
+League opponents do not have these fields. Emerald's Gym scripts give the badge
+flags and type descriptions at the pinned source revision. These fields let the
+progress picker show the badge number and type beside the leader's name.
 | `evolutions.json` | Array | `acquisition.schema.json#/$defs/evolution` per entry. |
 | `exclusions.json` | Array | `acquisition.schema.json#/$defs/exclusion` per entry. |
 
