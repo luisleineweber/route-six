@@ -2,6 +2,7 @@ import { beforeAll, describe, expect, it } from 'vitest';
 import { dataset, emerald } from '../src/data/dataset';
 import { getAvailability } from '../src/domain/availability';
 import { checkTeam } from '../src/domain/team/check-team';
+import { firstAccessOptions } from '../src/components/acquisition-presentation';
 import type { AvailabilitySnapshot } from '../src/domain/types';
 
 let early:AvailabilitySnapshot;
@@ -10,6 +11,17 @@ const query=(milestoneId:string,respectLevelLimit=true)=>{const r=getAvailabilit
 beforeAll(()=>{early=query('route-102');late=query('national-dex');},60000);
 
 describe('Complete Emerald integration',()=>{
+  it('resolves first-access sources for every species at early and late progress',()=>{
+    for (const snapshot of [early, late]) {
+      for (const entry of Object.values(snapshot.entries)) {
+        for (const option of firstAccessOptions(emerald, snapshot, entry)) {
+          expect(option.path.pokemonId, entry.pokemonId).toBe(entry.pokemonId);
+        }
+      }
+      expect(firstAccessOptions(emerald, snapshot, snapshot.entries.makuhita)[0].label)
+        .toBe('Granite Cave — after “Sail with Mr. Briney”');
+    }
+  });
   it('covers the National Dex, all 34 routes and every League opponent',()=>{
     expect(dataset.pokemon.map(p=>p.nationalDex)).toEqual(Array.from({length:386},(_,i)=>i+1));expect(Object.keys(early.entries)).toHaveLength(386);
     for(let n=101;n<=134;n++)expect(emerald.milestones.some(m=>m.locationId===`route-${n}`&&m.kind==='route')).toBe(true);expect(emerald.bosses).toHaveLength(13);

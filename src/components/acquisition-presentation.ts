@@ -1,4 +1,4 @@
-import type { AcquisitionPath, AvailabilitySnapshot, GameData, SourceDetails } from '../domain/types';
+import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, SourceDetails } from '../domain/types';
 import { pokemonById } from '../data/dataset';
 import { evolutionLabels } from './evolution-presentation';
 
@@ -22,32 +22,32 @@ export function pathSource(game: GameData, path: AcquisitionPath) {
   return source;
 }
 
+function acquisitionGroup(game: GameData, path: AcquisitionPath) {
+  const evolutionId = path.evolutionIds.at(-1);
+  if (evolutionId) {
+    const evolution = game.evolutions.find(evolution => evolution.id === evolutionId);
+    if (!evolution) throw new Error(`Missing acquisition evolution: ${evolutionId}`);
+    return { id: JSON.stringify(['evolution', path.pokemonId, evolution.id]),
+      title: `Evolve ${pokemonById.get(evolution.fromPokemonId)!.name}`,
+      method: evolutionLabels(game, evolution).join(' · '), rodIcon: null };
+  }
+  const source = pathSource(game, path);
+  const location = game.locations.find(location => location.id === source.locationId)!;
+  const method = sourceMethod(source.details);
+  return { id: JSON.stringify([location.id, source.details.kind, source.details.kind === 'wild' ? source.details.method : null]),
+    title: source.details.kind === 'breeding' ? 'Day Care breeding' : location.name,
+    method: method.name, rodIcon: method.rodIcon };
+}
+
 export function groupAcquisitionPaths(game: GameData, snapshot: AvailabilitySnapshot, ids: string[]) {
-  const groups = new Map<string, { id: string; title: string; method: string; rodIcon: string | null; paths: AcquisitionPath[] }>();
+  const groups = new Map<string, ReturnType<typeof acquisitionGroup> & { paths: AcquisitionPath[] }>();
   for (const id of new Set(ids)) {
     const path = snapshot.paths[id];
-    const evolutionId = path.evolutionIds.at(-1);
-    if (evolutionId) {
-      const evolution = game.evolutions.find(evolution => evolution.id === evolutionId);
-      if (!evolution) throw new Error(`Missing acquisition evolution: ${evolutionId}`);
-      const key = JSON.stringify(['evolution', path.pokemonId, evolution.id]);
-      let group = groups.get(key);
-      if (!group) {
-        group = { id: key, title: `Evolve ${pokemonById.get(evolution.fromPokemonId)!.name}`,
-          method: evolutionLabels(game, evolution).join(' · '), rodIcon: null, paths: [] };
-        groups.set(key, group);
-      }
-      group.paths.push(path);
-      continue;
-    }
-    const source = pathSource(game, path);
-    const location = game.locations.find(location => location.id === source.locationId)!;
-    const method = sourceMethod(source.details);
-    const key = JSON.stringify([location.id, source.details.kind, source.details.kind === 'wild' ? source.details.method : null]);
-    let group = groups.get(key);
+    const description = acquisitionGroup(game, path);
+    let group = groups.get(description.id);
     if (!group) {
-      group = { id: key, title: source.details.kind === 'breeding' ? 'Day Care breeding' : location.name, method: method.name, rodIcon: method.rodIcon, paths: [] };
-      groups.set(key, group);
+      group = { ...description, paths: [] };
+      groups.set(group.id, group);
     }
     group.paths.push(path);
   }
@@ -57,6 +57,24 @@ export function groupAcquisitionPaths(game: GameData, snapshot: AvailabilitySnap
 export function firstAccessPoints(game: GameData, ids: string[]) {
   // Access points can belong to independent branches. Display order is not chronology.
   return [...new Set(ids)].map(id => game.milestones.find(point => point.id === id)!);
+}
+
+export function firstAccessLabel(game: GameData, path: AcquisitionPath, milestoneId: string) {
+  const point = game.milestones.find(point => point.id === milestoneId);
+  if (!point) throw new Error(`Missing first-access point: ${milestoneId}`);
+  const { title } = acquisitionGroup(game, path);
+  if (title === point.name) return title;
+  const relation = point.kind === 'route' || point.kind === 'area' ? 'at' : 'after';
+  return `${title} — ${relation} “${point.name}”`;
+}
+
+export function firstAccessOptions(game: GameData, snapshot: AvailabilitySnapshot, entry: AvailabilityEntry) {
+  const paths = [...new Set([...entry.currentPathIds, ...entry.futurePathIds])].map(id => snapshot.paths[id]);
+  return firstAccessPoints(game, entry.firstMilestoneIds).map(point => {
+    const path = paths.find(path => path.firstMilestoneIds.includes(point.id));
+    if (!path) throw new Error(`Missing acquisition path for ${entry.pokemonId} at ${point.id}`);
+    return { id: point.id, path, label: firstAccessLabel(game, path, point.id) };
+  });
 }
 
 export function distinctPathOptions(paths: AcquisitionPath[], snapshot: AvailabilitySnapshot) {

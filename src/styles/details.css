@@ -67,7 +67,7 @@
 .path-body li > p { margin-top: 0.25rem; color: var(--muted); }
 
 .data-references { font-size: 0.8125rem; }
-.dialog-footer { display: flex; flex-shrink: 0; justify-content: space-between; gap: 0.75rem; padding: 1.25rem 1.5rem; background: var(--surface); }
+.dialog-footer { display: flex; flex-shrink: 0; justify-content: flex-end; padding: 1.25rem 1.5rem; background: var(--surface); }
 
 @media (max-width: 30rem) {
   .dialog-head { position: relative; display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 0.75rem; padding: 1rem; }

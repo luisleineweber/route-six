@@ -8,7 +8,7 @@ import { PokemonCatalogueCard } from './PokemonCatalogueCard';
 import { statusIcons, statusNames } from '../../components/StatusLabel';
 import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
 import { sortPokemonByPokedex } from '../planner/pokedex-order';
-import { pathSource } from '../../components/acquisition-presentation';
+import { firstAccessOptions, pathSource } from '../../components/acquisition-presentation';
 
 function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null) {
   if (entry.status === 'unavailable') return entry.blockers.find(b => b.code === 'other-version' || b.code === 'external-event')?.message;
@@ -77,12 +77,12 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
       : !visible.length ? <div className="empty-results"><Search size={26} aria-hidden="true" /><h3>No Pokémon match these filters.</h3><p>{progressPage ? 'Change the name, type, or Dex number.' : 'Change the name or type.'}</p><button className="secondary-button" onClick={clearFilters}>Clear filters</button></div>
       : <div className="pokemon-grid">{visible.map((pokemon, index) => {
         const entry = snapshot?.entries[pokemon.id];
+        const earliest = entry?.status === 'later' && snapshot ? firstAccessOptions(game, snapshot, entry) : [];
         // Keep the source location and first-access point on the same future path.
         const pathId = entry ? entry.currentPathIds[0]
-          ?? entry.futurePathIds.find(id => snapshot!.paths[id].firstMilestoneIds.includes(entry.firstMilestoneIds[0]))
+          ?? earliest[0]?.path.id
           ?? entry.futurePathIds[0] : null;
         const path = pathId && snapshot ? snapshot.paths[pathId] : null;
-        const earliest = entry?.firstMilestoneIds.map(id=>game.milestones.find(m=>m.id===id)!.name) ?? [];
         const profile = profiles.get(pokemon.id)!;
         const isNational = profile.regionalDex === undefined;
         const startsRegionalGroup = !isNational && index === 0;
@@ -97,7 +97,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
           </>}
           <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
           {progressPage && entry && <><p className={`source-summary access-summary status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
-          {entry.status==='later' && <p className="source-summary">First access: {earliest[0]}{earliest.length>1?` (+${earliest.length-1} alternatives)`:''}</p>}</>}
+          {entry.status==='later' && earliest.length > 0 && <p className="source-summary">First access: {earliest[0].label}{earliest.length>1?` (+${earliest.length-1} alternatives)`:''}</p>}</>}
           </PokemonCatalogueCard>
         </Fragment>;
       })}</div>}

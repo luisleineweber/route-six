@@ -3,7 +3,7 @@ import { useGameData } from '../features/planner/GameContext';
 import { conditionText } from '../domain/availability/solve';
 import type { AcquisitionPath, AvailabilitySnapshot } from '../domain/types';
 import { RequirementList } from './RequirementList';
-import { firstAccessPoints, pathSource, sourceMethod } from './acquisition-presentation';
+import { firstAccessLabel, pathSource, sourceMethod } from './acquisition-presentation';
 
 export function AcquisitionPathBody({ path, snapshot }: { path: AcquisitionPath; snapshot: AvailabilitySnapshot }) {
   const game = useGameData();
@@ -20,7 +20,7 @@ export function AcquisitionPathBody({ path, snapshot }: { path: AcquisitionPath;
       <div><dt>Source level</dt><dd>{level}</dd></div>
       {source.details.kind === 'wild' && <div><dt>Encounter rate</dt><dd>{source.details.ratePercent}%</dd></div>}
       <div><dt>Minimum level</dt><dd>Lv. {path.minimumLevel}</dd></div>
-      {path.firstMilestoneIds.length > 0 && <div><dt>First access</dt><dd>{firstAccessPoints(game, path.firstMilestoneIds)[0].name}</dd></div>}
+      {path.firstMilestoneIds.length > 0 && <div><dt>First access</dt><dd>{firstAccessLabel(game, path, path.firstMilestoneIds[0])}</dd></div>}
     </dl>
       {source.id.startsWith('feebas-six-tiles') && <p>Fish on one of the six Feebas tiles on Route 119. Each cast on these tiles has a 50% Feebas check.</p>}
       {source.id.startsWith('outbreak-') && <p>This source needs its TV outbreak report after the Hall of Fame. The outbreak adds a 50% species check on this route. It is separate from the ordinary encounter table.</p>}

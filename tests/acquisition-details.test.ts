@@ -6,23 +6,26 @@ import type { AcquisitionPath, AvailabilitySnapshot } from '../src/domain/types'
 import { AcquisitionDetails } from '../src/components/AcquisitionDetails';
 import { GameContext } from '../src/features/planner/GameContext';
 
-function acquisitionPaths(paths: AcquisitionPath[], status: 'available' | 'later' = 'available') {
+function details(paths: AcquisitionPath[], status: 'available' | 'later' = 'available', firstMilestoneIds = paths[0].firstMilestoneIds) {
   const pokemonId = paths[0].pokemonId;
   const snapshot: AvailabilitySnapshot = {
     query: { gameId: 'emerald', milestoneId: 'victory-road', respectLevelLimit: false },
     levelLimit: null, choiceGroups: [], resourceLimits: {},
     entries: { [pokemonId]: {
       pokemonId, status, currentPathIds: status === 'available' ? paths.map(path => path.id) : [],
-      futurePathIds: status === 'later' ? paths.map(path => path.id) : [], firstMilestoneIds: [], blockers: [],
+      futurePathIds: status === 'later' ? paths.map(path => path.id) : [], firstMilestoneIds, blockers: [],
     } },
     paths: Object.fromEntries(paths.map(path => [path.id, path])),
   };
-  const html = renderToStaticMarkup(createElement(GameContext, { value: emerald },
+  return renderToStaticMarkup(createElement(GameContext, { value: emerald },
     createElement(AcquisitionDetails, {
       id: pokemonId, snapshot, progressPage: true, canAdd: true,
       onClose: () => {}, onAdd: () => {}, onNavigate: () => {},
     })));
-  return html.split('<h3>Acquisition paths</h3>')[1].split('<details class="progress-details">')[0];
+}
+
+function acquisitionPaths(paths: AcquisitionPath[], status: 'available' | 'later' = 'available') {
+  return details(paths, status).split('<h3>Acquisition paths</h3>')[1].split('<details class="progress-details">')[0];
 }
 
 const titles = (html: string) => [...html.matchAll(/<span class="path-title">([^<]+)/g)].map(match => match[1]);
@@ -82,5 +85,41 @@ describe('detail acquisition paths', () => {
     expect(titles(html)).toEqual(['Evolve Barboach']);
     expect(html).toContain('Barboach · Route 117 and Day Care · Breeding');
     expect(html).toContain('Parent pair');
+  });
+});
+
+describe('first access labels', () => {
+  it('shows a shared source and progress location once', () => {
+    const ralts = { ...evolved, pokemonId: 'ralts', evolutionIds: [],
+      sourceIds: ['wild-route-102-grass-ralts'], firstMilestoneIds: ['route-102'] };
+    const html = details([ralts]);
+    expect(html).toContain('<p>Route 102</p>');
+    expect(html).not.toContain('Route 102 — at “Route 102”');
+  });
+
+  it('connects the first catch location to its progress requirement in the summary and path details', () => {
+    const makuhita = { ...evolved, pokemonId: 'makuhita', evolutionIds: [], minimumLevel: 6,
+      sourceIds: ['wild-granite-cave-1f-grass-makuhita'], firstMilestoneIds: ['mr-briney'] };
+    const html = details([makuhita]);
+    const label = 'Granite Cave — after “Sail with Mr. Briney”';
+    expect(html).toContain(`<p>${label}</p>`);
+    expect(html).toContain(`<dt>First access</dt><dd>${label}</dd>`);
+  });
+
+  it('uses the evolution path that matches first access instead of a later direct catch', () => {
+    const caught = { ...evolved, id: 'caught', evolutionIds: [],
+      sourceIds: ['wild-meteor-falls-upper-super-rod-whiscash'], firstMilestoneIds: ['juan-defeated'] };
+    const early = { ...evolved, firstMilestoneIds: ['norman-defeated'] };
+    const html = details([caught, early], 'available', ['norman-defeated']);
+    expect(html).toContain('<p>Evolve Barboach — after “Defeat Norman and receive Surf”</p>');
+  });
+
+  it('ties each independent first-access point to its own source', () => {
+    const route = { ...evolved, id: 'route', pokemonId: 'magikarp', evolutionIds: [],
+      sourceIds: ['wild-route-123-old-rod-magikarp'], firstMilestoneIds: ['route-123'] };
+    const scope = { ...route, id: 'scope', sourceIds: ['wild-safari-zone-southwest-old-rod-magikarp'], firstMilestoneIds: ['devon-scope'] };
+    const html = details([scope, route], 'later', ['route-123', 'devon-scope']);
+    expect(html).toContain('<p>Route 123</p>');
+    expect(html).toContain('<li>Safari Zone — after “Receive the Devon Scope”</li>');
   });
 });
