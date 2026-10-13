@@ -1,0 +1,15 @@
+[
+  {"id":"brock","name":"Brock","kind":"gym","badgeNumber":1,"specialtyTypeId":"rock","highestLevel":14,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"misty","name":"Misty","kind":"gym","badgeNumber":2,"specialtyTypeId":"water","highestLevel":21,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"lt-surge","name":"Lt. Surge","kind":"gym","badgeNumber":3,"specialtyTypeId":"electric","highestLevel":24,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"erika","name":"Erika","kind":"gym","badgeNumber":4,"specialtyTypeId":"grass","highestLevel":29,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"koga","name":"Koga","kind":"gym","badgeNumber":5,"specialtyTypeId":"poison","highestLevel":43,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"sabrina","name":"Sabrina","kind":"gym","badgeNumber":6,"specialtyTypeId":"psychic","highestLevel":43,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"blaine","name":"Blaine","kind":"gym","badgeNumber":7,"specialtyTypeId":"fire","highestLevel":47,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"giovanni","name":"Giovanni","kind":"gym","badgeNumber":8,"specialtyTypeId":"ground","highestLevel":50,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"lorelei","name":"Lorelei","kind":"elite-four","highestLevel":54,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"bruno","name":"Bruno","kind":"elite-four","highestLevel":56,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"agatha","name":"Agatha","kind":"elite-four","highestLevel":58,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"lance","name":"Lance","kind":"elite-four","highestLevel":60,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"champion-rival","name":"Champion rival","kind":"champion","highestLevel":63,"review":{"referenceIds":["firered-bosses"],"checkedOn":"2026-10-12"}}
+]

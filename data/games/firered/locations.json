@@ -1,0 +1,2954 @@
+[
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City and Mt. Moon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City and Routes 24–25",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City and S.S. Anne",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Celadon City and Game Corner",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Fuchsia City and Safari Zone",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Saffron City and Silph Co.",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        },
+        {
+          "kind": "item",
+          "id": "tea",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Cinnabar Island and Pokémon Mansion",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-city",
+    "name": "Viridian City Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Indigo Plateau",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island",
+    "name": "One Island and Mt. Ember",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island",
+    "name": "Four Island and Icefall Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island",
+    "name": "Five Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island",
+    "name": "Six Island and Dotted Hole",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island",
+    "name": "Seven Island and Sevault Canyon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-monean-chamber",
+    "name": "SevenIsland TanobyRuins MoneanChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-liptoo-chamber",
+    "name": "SevenIsland TanobyRuins LiptooChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-weepth-chamber",
+    "name": "SevenIsland TanobyRuins WeepthChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-dilford-chamber",
+    "name": "SevenIsland TanobyRuins DilfordChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-scufib-chamber",
+    "name": "SevenIsland TanobyRuins ScufibChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-rixy-chamber",
+    "name": "SevenIsland TanobyRuins RixyChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-viapois-chamber",
+    "name": "SevenIsland TanobyRuins ViapoisChamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-forest",
+    "name": "ViridianForest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-1f",
+    "name": "MtMoon 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-b1f",
+    "name": "MtMoon B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-b2f",
+    "name": "MtMoon B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ssanne-exterior",
+    "name": "SSAnne Exterior",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "digletts-cave-b1f",
+    "name": "DiglettsCave B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-1f",
+    "name": "VictoryRoad 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "victory-road"
+        },
+        {
+          "kind": "capability",
+          "id": "strength-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-2f",
+    "name": "VictoryRoad 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "victory-road"
+        },
+        {
+          "kind": "capability",
+          "id": "strength-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-3f",
+    "name": "VictoryRoad 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "victory-road"
+        },
+        {
+          "kind": "capability",
+          "id": "strength-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-1f",
+    "name": "PokemonMansion 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-2f",
+    "name": "PokemonMansion 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-3f",
+    "name": "PokemonMansion 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-b1f",
+    "name": "PokemonMansion B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-center",
+    "name": "SafariZone Center",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-east",
+    "name": "SafariZone East",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-north",
+    "name": "SafariZone North",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-west",
+    "name": "SafariZone West",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-1f",
+    "name": "CeruleanCave 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-2f",
+    "name": "CeruleanCave 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-b1f",
+    "name": "CeruleanCave B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel-1f",
+    "name": "RockTunnel 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel-b1f",
+    "name": "RockTunnel B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-1f",
+    "name": "SeafoamIslands 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b1f",
+    "name": "SeafoamIslands B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b2f",
+    "name": "SeafoamIslands B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b3f",
+    "name": "SeafoamIslands B3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b4f",
+    "name": "SeafoamIslands B4F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-3f",
+    "name": "PokemonTower 3F",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-4f",
+    "name": "PokemonTower 4F",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-5f",
+    "name": "PokemonTower 5F",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-6f",
+    "name": "PokemonTower 6F",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-7f",
+    "name": "PokemonTower 7F",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "power-plant",
+    "name": "PowerPlant",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-exterior",
+    "name": "MtEmber Exterior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit-path-1f",
+    "name": "MtEmber SummitPath 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit-path-2f",
+    "name": "MtEmber SummitPath 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit-path-3f",
+    "name": "MtEmber SummitPath 3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-1f",
+    "name": "MtEmber RubyPath 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b1f",
+    "name": "MtEmber RubyPath B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b2f",
+    "name": "MtEmber RubyPath B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b3f",
+    "name": "MtEmber RubyPath B3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b1f-stairs",
+    "name": "MtEmber RubyPath B1F Stairs",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b2f-stairs",
+    "name": "MtEmber RubyPath B2F Stairs",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island-berry-forest",
+    "name": "ThreeIsland BerryForest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-entrance",
+    "name": "FourIsland IcefallCave Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-1f",
+    "name": "FourIsland IcefallCave 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-b1f",
+    "name": "FourIsland IcefallCave B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-back",
+    "name": "FourIsland IcefallCave Back",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "rainbow-pass"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-pattern-bush",
+    "name": "SixIsland PatternBush",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room1",
+    "name": "FiveIsland LostCave Room1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room2",
+    "name": "FiveIsland LostCave Room2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room3",
+    "name": "FiveIsland LostCave Room3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room4",
+    "name": "FiveIsland LostCave Room4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room5",
+    "name": "FiveIsland LostCave Room5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room6",
+    "name": "FiveIsland LostCave Room6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room7",
+    "name": "FiveIsland LostCave Room7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room8",
+    "name": "FiveIsland LostCave Room8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room9",
+    "name": "FiveIsland LostCave Room9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room10",
+    "name": "FiveIsland LostCave Room10",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room11",
+    "name": "FiveIsland LostCave Room11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room12",
+    "name": "FiveIsland LostCave Room12",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room13",
+    "name": "FiveIsland LostCave Room13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room14",
+    "name": "FiveIsland LostCave Room14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island-kindle-road",
+    "name": "OneIsland KindleRoad",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island-treasure-beach",
+    "name": "OneIsland TreasureBeach",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "two-island-cape-brink",
+    "name": "TwoIsland CapeBrink",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island-bond-bridge",
+    "name": "ThreeIsland BondBridge",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island-port",
+    "name": "ThreeIsland Port",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-resort-gorgeous",
+    "name": "FiveIsland ResortGorgeous",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-water-labyrinth",
+    "name": "FiveIsland WaterLabyrinth",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-meadow",
+    "name": "FiveIsland Meadow",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-memorial-pillar",
+    "name": "FiveIsland MemorialPillar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-outcast-island",
+    "name": "SixIsland OutcastIsland",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-green-path",
+    "name": "SixIsland GreenPath",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-water-path",
+    "name": "SixIsland WaterPath",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-ruin-valley",
+    "name": "SixIsland RuinValley",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-trainer-tower",
+    "name": "SevenIsland TrainerTower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-sevault-canyon-entrance",
+    "name": "SevenIsland SevaultCanyon Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-sevault-canyon",
+    "name": "SevenIsland SevaultCanyon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins",
+    "name": "SevenIsland TanobyRuins",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route1",
+    "name": "Route1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route2",
+    "name": "Route2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route3",
+    "name": "Route3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route4",
+    "name": "Route4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route5",
+    "name": "Route5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route6",
+    "name": "Route6",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route7",
+    "name": "Route7",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route8",
+    "name": "Route8",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route9",
+    "name": "Route9",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route10",
+    "name": "Route10",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route11",
+    "name": "Route11",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route12",
+    "name": "Route12",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route13",
+    "name": "Route13",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route14",
+    "name": "Route14",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route15",
+    "name": "Route15",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route16",
+    "name": "Route16",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route17",
+    "name": "Route17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route18",
+    "name": "Route18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route19",
+    "name": "Route19",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route20",
+    "name": "Route20",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route21-north",
+    "name": "Route21 North",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route21-south",
+    "name": "Route21 South",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route22",
+    "name": "Route22",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route23",
+    "name": "Route23",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route24",
+    "name": "Route24",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route25",
+    "name": "Route25",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-altering-cave",
+    "name": "SixIsland AlteringCave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Lavender Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout-b4f",
+    "name": "Rocket Hideout, B4F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route4-pokemon-center",
+    "name": "Route 4 Pokémon Center",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route2-east-building",
+    "name": "Route 2 East Building",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route12-fishing-house",
+    "name": "Route 12 Fishing House",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-fan-club",
+    "name": "Vermilion Pokémon Fan Club",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-game-corner-prize-room",
+    "name": "Celadon Game Corner Prize Room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "two-island-joyful-game-corner",
+    "name": "Two Island Joyful Game Corner",
+    "requirements": {
+      "kind": "milestone",
+      "id": "two-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route25-sea-cottage",
+    "name": "Route 25 Sea Cottage",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-anne-captains-office",
+    "name": "S.S. Anne Captain's Office",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route16-house",
+    "name": "Route 16 House",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-secret-house",
+    "name": "Safari Zone Secret House",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-wardens-house",
+    "name": "Fuchsia Warden's House",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-fishing-house",
+    "name": "Vermilion Fishing Guru's House",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-good-rod-house",
+    "name": "Fuchsia Good Rod House",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-bike-shop",
+    "name": "Cerulean Bike Shop",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-tea-condominium",
+    "name": "Celadon Condominiums, 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout-b2f",
+    "name": "Rocket Hideout, B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-restaurant",
+    "name": "Celadon Restaurant",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-museum-1f",
+    "name": "Pewter Museum, 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-lab-experiment-room",
+    "name": "Cinnabar Pokémon Lab, Experiment Room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-b2f-fossils",
+    "name": "Mt. Moon, B2F Fossil Room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island-ember-spa",
+    "name": "One Island Ember Spa",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavender-fuji-house",
+    "name": "Lavender Volunteer Pokémon House",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route2-mr-mime-house",
+    "name": "Route 2 Mr. Mime trade house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city-jynx-house",
+    "name": "Cerulean City Jynx trade house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route11-nidoran-aide",
+    "name": "Route 11 Nidoran trade building",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-farfetchd-house",
+    "name": "Vermilion City Farfetch'd trade house",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route11-nidorina-aide",
+    "name": "Route 11 Nidorina trade building",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route18-lickitung-aide",
+    "name": "Route 18 Lickitung trade building",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-lab-lounge",
+    "name": "Cinnabar Pokémon Lab Lounge",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-eevee-roof-room",
+    "name": "Celadon Condominiums Roof Room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-dojo",
+    "name": "Saffron Fighting Dojo",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        },
+        {
+          "kind": "item",
+          "id": "tea",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-co-7f",
+    "name": "Silph Co., 7F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "silph-co-rescued"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kanto-roaming-region",
+    "name": "Kanto roaming routes",
+    "requirements": {
+      "kind": "milestone",
+      "id": "network-machine"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit",
+    "name": "Mt. Ember summit",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations",
+        "firered-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-co-11f",
+    "name": "Silph Co., 11F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-access"
+        },
+        {
+          "kind": "item",
+          "id": "tea",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-rocket-warehouse",
+    "name": "Five Island Rocket Warehouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

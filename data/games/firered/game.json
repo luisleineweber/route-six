@@ -1,0 +1,126 @@
+{
+  "id": "firered",
+  "name": "Pokémon FireRed",
+  "generation": 3,
+  "region": "Kanto",
+  "firstMilestoneId": "pallet-town",
+  "review": {
+    "referenceIds": [
+      "firered-game"
+    ],
+    "checkedOn": "2026-10-12"
+  },
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "brock-defeated",
+        "label": "Gym 1 · Rock · Brock",
+        "title": "Gym 1",
+        "detail": "Brock · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "misty-defeated",
+        "label": "Gym 2 · Water · Misty",
+        "title": "Gym 2",
+        "detail": "Misty · Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "surge-defeated",
+        "label": "Gym 3 · Electric · Lt. Surge",
+        "title": "Gym 3",
+        "detail": "Lt. Surge · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "erika-defeated",
+        "label": "Gym 4 · Grass · Erika",
+        "title": "Gym 4",
+        "detail": "Erika · Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "koga-defeated",
+        "label": "Gym 5 · Poison · Koga",
+        "title": "Gym 5",
+        "detail": "Koga · Poison",
+        "typeId": "poison"
+      },
+      {
+        "milestoneId": "sabrina-defeated",
+        "label": "Gym 6 · Psychic · Sabrina",
+        "title": "Gym 6",
+        "detail": "Sabrina · Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "blaine-defeated",
+        "label": "Gym 7 · Fire · Blaine",
+        "title": "Gym 7",
+        "detail": "Blaine · Fire",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "giovanni-defeated",
+        "label": "Gym 8 · Ground · Giovanni",
+        "title": "Gym 8",
+        "detail": "Giovanni · Ground",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the Pokémon League",
+        "typeId": null
+      },
+      {
+        "milestoneId": "national-dex",
+        "label": "National Pokédex",
+        "title": "National Pokédex",
+        "detail": "One Island visited and at least 60 Pokémon caught after the League",
+        "typeId": null
+      },
+      {
+        "milestoneId": "four-island",
+        "label": "Four Island",
+        "title": "Four Island",
+        "detail": "Day Care and Icefall Cave access",
+        "typeId": null
+      },
+      {
+        "milestoneId": "icefall-rockets-cleared",
+        "label": "Icefall Cave",
+        "title": "Icefall Cave",
+        "detail": "Rescue Lorelei and defeat the Rocket grunts",
+        "typeId": null
+      },
+      {
+        "milestoneId": "five-island",
+        "label": "Five Island",
+        "title": "Five Island",
+        "detail": "Lost Cave and Rocket Warehouse access",
+        "typeId": null
+      },
+      {
+        "milestoneId": "seven-island",
+        "label": "Seven Island",
+        "title": "Seven Island",
+        "detail": "Tanoby Ruins and Trainer Tower access",
+        "typeId": null
+      },
+      {
+        "milestoneId": "network-machine",
+        "label": "Network Machine",
+        "title": "Network Machine",
+        "detail": "Ruby and Sapphire returned to Celio",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 5
+  }
+}

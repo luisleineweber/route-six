@@ -1,0 +1,2136 @@
+[
+  {
+    "pokemonId": "sandshrew",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sandslash",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vulpix",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ninetales",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bellsprout",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weepinbell",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "victreebel",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowbro",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "staryu",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "starmie",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magmar",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pinsir",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "FireRed has no ordinary in-game acquisition for this species. It requires an external distribution.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chikorita",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bayleef",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meganium",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cyndaquil",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "quilava",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "typhlosion",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "totodile",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "croconaw",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "feraligatr",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hoothoot",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "noctowl",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chinchou",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lanturn",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mareep",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flaaffy",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ampharos",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "marill",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "azumarill",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sudowoodo",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aipom",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sunkern",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sunflora",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "espeon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "umbreon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "misdreavus",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "girafarig",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pineco",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "forretress",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gligar",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snubbull",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "granbull",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shuckle",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sneasel",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "teddiursa",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ursaring",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "corsola",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "remoraid",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "octillery",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mantine",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "houndour",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "houndoom",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "stantler",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "smeargle",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magby",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "miltank",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lugia",
+    "reason": "external-event",
+    "explanation": "FireRed has no ordinary in-game acquisition for this species. It requires an external distribution.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ho-oh",
+    "reason": "external-event",
+    "explanation": "FireRed has no ordinary in-game acquisition for this species. It requires an external distribution.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "external-event",
+    "explanation": "FireRed has no ordinary in-game acquisition for this species. It requires an external distribution.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "treecko",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "grovyle",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sceptile",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "torchic",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "combusken",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blaziken",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mudkip",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "marshtomp",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swampert",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poochyena",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mightyena",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zigzagoon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "linoone",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wurmple",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "silcoon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beautifly",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cascoon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dustox",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lotad",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lombre",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ludicolo",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seedot",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nuzleaf",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shiftry",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "taillow",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swellow",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wingull",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pelipper",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ralts",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kirlia",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gardevoir",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "surskit",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "masquerain",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shroomish",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "breloom",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slakoth",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vigoroth",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slaking",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nincada",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ninjask",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shedinja",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "whismur",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "loudred",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "exploud",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "makuhita",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hariyama",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "azurill",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nosepass",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "skitty",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "delcatty",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sableye",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mawile",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aron",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lairon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aggron",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meditite",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "medicham",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electrike",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "manectric",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "plusle",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "minun",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "volbeat",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "illumise",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "roselia",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gulpin",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swalot",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "carvanha",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sharpedo",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wailmer",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wailord",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "numel",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "camerupt",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "torkoal",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spoink",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "grumpig",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spinda",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "trapinch",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vibrava",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flygon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cacnea",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cacturne",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swablu",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "altaria",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zangoose",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seviper",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lunatone",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "solrock",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "barboach",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "whiscash",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "corphish",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "crawdaunt",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "baltoy",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "claydol",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lileep",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cradily",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "anorith",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "armaldo",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "feebas",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "milotic",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "castform",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kecleon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shuppet",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "banette",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "duskull",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dusclops",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tropius",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chimecho",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "absol",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snorunt",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "glalie",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spheal",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sealeo",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "walrein",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "relicanth",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "luvdisc",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bagon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shelgon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "salamence",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beldum",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "metang",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "metagross",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "regirock",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "regice",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "registeel",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "latias",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "latios",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kyogre",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "groudon",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rayquaza",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jirachi",
+    "reason": "external-event",
+    "explanation": "FireRed has no ordinary in-game acquisition for this species. It requires an external distribution.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "deoxys",
+    "reason": "external-event",
+    "explanation": "FireRed has no ordinary in-game acquisition for this species. It requires an external distribution.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowpoke",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "clamperl",
+    "reason": "other-version",
+    "explanation": "FireRed has no native source for this base family in the reviewed Kanto and Sevii scope. Another game version or a player trade is required.",
+    "review": {
+      "referenceIds": [
+        "firered-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

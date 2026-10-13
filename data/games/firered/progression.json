@@ -1,0 +1,654 @@
+[
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [],
+    "locationId": "pallet-town",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Brock defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "pewter-city",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Misty defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "brock-defeated"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "surge-defeated",
+    "name": "Lt. Surge defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "misty-defeated"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Erika defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "surge-defeated"
+    ],
+    "locationId": "celadon-city",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "koga-defeated",
+    "name": "Koga defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "erika-defeated",
+      "fuji-rescued"
+    ],
+    "locationId": "fuchsia-city",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Sabrina defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Blaine defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "sabrina-defeated"
+    ],
+    "locationId": "cinnabar-island",
+    "nextBossId": "giovanni",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "giovanni-defeated",
+    "name": "Giovanni defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "blaine-defeated"
+    ],
+    "locationId": "viridian-city",
+    "nextBossId": "lorelei",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "giovanni-defeated"
+    ],
+    "locationId": "victory-road",
+    "nextBossId": "lorelei",
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lorelei-defeated",
+    "name": "Lorelei defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "bruno",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bruno-defeated",
+    "name": "Bruno defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "lorelei-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "agatha",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "agatha-defeated",
+    "name": "Agatha defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "bruno-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "lance",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lance-defeated",
+    "name": "Lance defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "agatha-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "champion-rival",
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "champion-rival-defeated",
+    "name": "Champion rival defeated",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "lance-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island",
+    "name": "One Island visit (Tri-Pass)",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "blaine-defeated"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "National Pokédex received (60 caught)",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 23,
+    "previousIds": [
+      "one-island",
+      "champion-rival-defeated"
+    ],
+    "locationId": "pallet-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ruby-returned",
+    "name": "Ruby returned to Celio",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 24,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rainbow-pass",
+    "name": "Rainbow Pass received",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 25,
+    "previousIds": [
+      "ruby-returned"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island",
+    "name": "Four Island access",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 26,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "four-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "icefall-rockets-cleared",
+    "name": "Icefall Cave Rockets defeated",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 27,
+    "previousIds": [
+      "four-island"
+    ],
+    "locationId": "four-island-icefall-cave-back",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island",
+    "name": "Five Island access",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 28,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "five-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island",
+    "name": "Six Island access",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 29,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "six-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island",
+    "name": "Seven Island access",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 30,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "seven-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sapphire-stolen",
+    "name": "Sapphire taken from Dotted Hole",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 31,
+    "previousIds": [
+      "six-island",
+      "icefall-rockets-cleared"
+    ],
+    "locationId": "six-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sapphire-returned",
+    "name": "Sapphire returned to Celio",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 32,
+    "previousIds": [
+      "sapphire-stolen",
+      "five-island",
+      "icefall-rockets-cleared"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "network-machine",
+    "name": "Network Machine complete",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 33,
+    "previousIds": [
+      "ruby-returned",
+      "sapphire-returned"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "two-island",
+    "name": "Two Island visit",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "one-island"
+    ],
+    "locationId": "two-island-cape-brink",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island",
+    "name": "Three Island visit",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "one-island"
+    ],
+    "locationId": "three-island-port",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lostelle-rescued",
+    "name": "Lostelle rescued",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "three-island"
+    ],
+    "locationId": "three-island-berry-forest",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout-cleared",
+    "name": "Rocket Hideout cleared",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "misty-defeated"
+    ],
+    "locationId": "rocket-hideout-b4f",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuji-rescued",
+    "name": "Mr. Fuji rescued",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "rocket-hideout-cleared"
+    ],
+    "locationId": "lavender-fuji-house",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-co-rescued",
+    "name": "Silph Co. rescued",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "rocket-hideout-cleared"
+    ],
+    "locationId": "silph-co-11f",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression",
+        "firered-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "togepi-egg-opportunity",
+    "name": "Togepi egg reward available",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 34,
+    "previousIds": [
+      "national-dex",
+      "five-island"
+    ],
+    "locationId": "five-island-water-labyrinth",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm05-reward-opportunity",
+    "name": "HM05 reward available (10 seen)",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "brock-defeated"
+    ],
+    "locationId": "route2",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "firered-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

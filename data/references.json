@@ -901,5 +901,96 @@
     "locator": "data/wild/maps; scripts; data/pokemon/base_stats/mew.asm",
     "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data",
     "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "firered-species",
+    "title": "PokÃ©mon FireRed species, types, gender ratios, Egg Groups, and PokÃ©dex order",
+    "locator": "src/data/pokemon/species_info.h; src/data/pokemon/pokedex_orders.h; include/constants/pokedex.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-game",
+    "title": "PokÃ©mon FireRed version scope, unlock flags, and daycare rules",
+    "locator": "include/constants/pokedex.h; include/constants/flags.h; src/pokedex.c; data/maps/PalletTown/scripts.inc; data/scripts/day_care.inc; src/data/wild_encounters.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-type-chart",
+    "title": "Generation III types and effectiveness rules",
+    "locator": "include/constants/pokemon.h; src/battle_main.c (gTypeEffectiveness); src/battle_util.c",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-progression",
+    "title": "Kanto story flags, Gym badges, League, and Sevii post-game progression",
+    "locator": "include/constants/flags.h; data/maps/*/scripts.inc; data/maps/*/map.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-bosses",
+    "title": "Gym, Elite Four, Champion, and rival parties",
+    "locator": "src/data/trainer_parties.h; src/data/trainers.h; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-locations",
+    "title": "Kanto and Sevii map identities and access",
+    "locator": "data/maps/*/map.json; data/maps/*/scripts.inc; data/maps/*/text.inc; src/data/wild_encounters.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-capabilities",
+    "title": "Field moves, badges, rods, and key-item access checks",
+    "locator": "data/scripts/field_moves.inc; data/maps/*/scripts.inc; include/constants/flags.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/scripts",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-items",
+    "title": "Item definitions, map pickups, and item-gated progression",
+    "locator": "src/data/items.json; data/maps/*/scripts.inc; data/maps/*/map.json; data/scripts/item_ball_scripts.inc",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/items.json",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-choices",
+    "title": "Starter, fossil, dojo, Eevee, and one-time choices",
+    "locator": "data/maps/*/scripts.inc; src/data/wild_encounters.json; src/data/items.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-encounters",
+    "title": "FireRed wild, static, gift, and in-game trade sources",
+    "locator": "src/data/wild_encounters.json; data/maps/*/scripts.inc; data/maps/*/text.inc; src/data/ingame_trades.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-breeding",
+    "title": "FireRed daycare, egg, and offspring rules",
+    "locator": "data/scripts/day_care.inc; src/pokemon.c; src/data/pokemon/species_info.h; include/constants/daycare.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/scripts/day_care.inc",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-evolutions",
+    "title": "FireRed evolution triggers and restrictions",
+    "locator": "src/data/pokemon/evolution.h; src/evolution_scene.c; src/pokemon.c; include/constants/items.h; include/constants/flags.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon/evolution.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-exclusions",
+    "title": "FireRed version exclusives, National Dex restrictions, and event-only species",
+    "locator": "src/data/wild_encounters.json; data/maps/*/scripts.inc; src/pokedex.c; src/evolution_scene.c; include/constants/flags.h; src/data/pokemon/evolution.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
   }
 ]
