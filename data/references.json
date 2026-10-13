@@ -96,5 +96,110 @@
     "locator": "include/constants/pokedex.h",
     "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/include/constants/pokedex.h",
     "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "ruby-game",
+    "title": "Pokémon Ruby identity and game version",
+    "locator": "config.mk",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/config.mk",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-profiles",
+    "title": "Ruby species, types, genders, Egg Groups, and species IDs",
+    "locator": "src/data/pokemon/base_stats.h; include/constants/species.h",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-dex",
+    "title": "Ruby Hoenn Pokédex order",
+    "locator": "include/constants/species.h; src/pokemon_1.c; include/pokedex.h",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-type-chart",
+    "title": "Ruby Generation III type effectiveness",
+    "locator": "data/type_effectiveness.inc",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/type_effectiveness.inc",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-progression",
+    "title": "Ruby story flags, access events, and ordinary postgame events",
+    "locator": "data/maps/*/scripts.inc; data/scripts/; data/event_scripts.s",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-bosses",
+    "title": "Ruby Gym, rival, villain, and League parties",
+    "locator": "src/data/trainer_parties.h; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/trainer_parties.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-locations",
+    "title": "Ruby map identities and region layout",
+    "locator": "data/maps/*/map.json; data/maps/map_groups.json",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-capabilities",
+    "title": "Ruby field moves and overworld capability scripts",
+    "locator": "data/field_move_scripts.inc; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-items",
+    "title": "Ruby item pickups, key items, and item gates",
+    "locator": "data/item_ball_scripts.inc; data/maps/Route111/scripts.inc; data/maps/MauvilleCity/scripts.inc; data/maps/NewMauville_Inside/scripts.inc; data/maps/Route121_SafariZoneEntrance/scripts.inc; data/maps/LilycoveCity_DepartmentStore_5F/scripts.inc; data/maps/SlateportCity_ContestLobby/scripts.inc; data/maps/*/scripts.inc; include/constants/items.h",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/item_ball_scripts.inc",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-choices",
+    "title": "Ruby one-time starter, fossil, and story choices",
+    "locator": "data/maps/Route111/scripts.inc; data/maps/SlateportCity_Harbor/scripts.inc; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-encounters",
+    "title": "Ruby wild encounter tables and encounter methods",
+    "locator": "src/data/wild_encounters.json; src/wild_encounter.c; src/time_events.c; data/maps/Route130/scripts.inc; data/maps/PacifidlogTown_House5/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-gifts-trades",
+    "title": "Ruby gift Pokémon, in-game trades, and static encounters",
+    "locator": "src/trade.c; data/maps/RustboroCity_House1/scripts.inc; data/maps/FortreeCity_House1/scripts.inc; data/maps/PacifidlogTown_House3/scripts.inc; data/maps/Route111/scripts.inc; data/maps/RustboroCity_DevonCorp_2F/scripts.inc; data/maps/*/scripts.inc; include/trade.h; src/roamer.c; data/scripts/tv.inc; data/maps/LilycoveCity_Harbor/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/trade.c#L851-L883",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-evolutions",
+    "title": "Ruby evolution methods, levels, and conditions",
+    "locator": "src/data/pokemon/evolution.h; src/pokemon_1.c; src/evolution_scene.c",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon/evolution.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-breeding",
+    "title": "Ruby Day Care compatibility, offspring, and hatch level",
+    "locator": "src/daycare.c; include/daycare.h; src/data/pokemon/base_stats.h",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/daycare.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-exclusions",
+    "title": "Ruby version and distribution availability boundaries",
+    "locator": "config.mk; data/maps/*/scripts.inc; src/mystery_event_script.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
   }
 ]
