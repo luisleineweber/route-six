@@ -1,0 +1,25 @@
+{
+  "id": "gold",
+  "name": "Pokémon Gold",
+  "generation": 2,
+  "region": "Johto and Kanto",
+  "firstMilestoneId": "new-bark-town",
+  "review": { "referenceIds": ["gold-progression", "gold-hatch", "gold-time"], "checkedOn": "2026-10-12" },
+  "planner": {
+    "defaultMilestoneId": "indigo-plateau",
+    "checkpoints": [
+      { "milestoneId": "falkner-defeated", "label": "Gym 1 · Flying · Falkner", "title": "Gym 1", "detail": "Falkner · Flying", "typeId": "flying" },
+      { "milestoneId": "bugsy-defeated", "label": "Gym 2 · Bug · Bugsy", "title": "Gym 2", "detail": "Bugsy · Bug", "typeId": "bug" },
+      { "milestoneId": "whitney-defeated", "label": "Gym 3 · Normal · Whitney", "title": "Gym 3", "detail": "Whitney · Normal", "typeId": "normal" },
+      { "milestoneId": "morty-defeated", "label": "Gym 4 · Ghost · Morty", "title": "Gym 4", "detail": "Morty · Ghost", "typeId": "ghost" },
+      { "milestoneId": "chuck-defeated", "label": "Gym 5 · Fighting · Chuck", "title": "Gym 5", "detail": "Chuck · Fighting", "typeId": "fighting" },
+      { "milestoneId": "jasmine-defeated", "label": "Gym 6 · Steel · Jasmine", "title": "Gym 6", "detail": "Jasmine · Steel", "typeId": "steel" },
+      { "milestoneId": "pryce-defeated", "label": "Gym 7 · Ice · Pryce", "title": "Gym 7", "detail": "Pryce · Ice", "typeId": "ice" },
+      { "milestoneId": "clair-defeated", "label": "Gym 8 · Dragon · Clair", "title": "Gym 8", "detail": "Clair · Dragon", "typeId": "dragon" },
+      { "milestoneId": "indigo-plateau", "label": "Pokémon League", "title": "League", "detail": "Elite Four and Champion Lance", "typeId": null },
+      { "milestoneId": "kanto-open", "label": "Kanto", "title": "Postgame", "detail": "Kanto is accessible", "typeId": null },
+      { "milestoneId": "red-defeated", "label": "Mt. Silver", "title": "Postgame", "detail": "Red at Mt. Silver", "typeId": null }
+    ]
+  },
+  "breeding": { "hatchLevel": 5 }
+}

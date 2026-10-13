@@ -1,0 +1,2236 @@
+[
+  {
+    "id": "breed-abra",
+    "parentPokemonIds": [
+      "abra",
+      "alakazam",
+      "kadabra"
+    ],
+    "offspringPokemonIds": [
+      "abra"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-aerodactyl",
+    "parentPokemonIds": [
+      "aerodactyl"
+    ],
+    "offspringPokemonIds": [
+      "aerodactyl"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-aipom",
+    "parentPokemonIds": [
+      "aipom"
+    ],
+    "offspringPokemonIds": [
+      "aipom"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-bellsprout",
+    "parentPokemonIds": [
+      "bellsprout",
+      "victreebel",
+      "weepinbell"
+    ],
+    "offspringPokemonIds": [
+      "bellsprout"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-bulbasaur",
+    "parentPokemonIds": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur"
+    ],
+    "offspringPokemonIds": [
+      "bulbasaur"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-caterpie",
+    "parentPokemonIds": [
+      "butterfree",
+      "caterpie",
+      "metapod"
+    ],
+    "offspringPokemonIds": [
+      "caterpie"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-chansey",
+    "parentPokemonIds": [
+      "blissey",
+      "chansey"
+    ],
+    "offspringPokemonIds": [
+      "chansey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-charmander",
+    "parentPokemonIds": [
+      "charizard",
+      "charmander",
+      "charmeleon"
+    ],
+    "offspringPokemonIds": [
+      "charmander"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-chikorita",
+    "parentPokemonIds": [
+      "bayleef",
+      "chikorita",
+      "meganium"
+    ],
+    "offspringPokemonIds": [
+      "chikorita"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-chinchou",
+    "parentPokemonIds": [
+      "chinchou",
+      "lanturn"
+    ],
+    "offspringPokemonIds": [
+      "chinchou"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-corsola",
+    "parentPokemonIds": [
+      "corsola"
+    ],
+    "offspringPokemonIds": [
+      "corsola"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-cubone",
+    "parentPokemonIds": [
+      "cubone",
+      "marowak"
+    ],
+    "offspringPokemonIds": [
+      "cubone"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-cyndaquil",
+    "parentPokemonIds": [
+      "cyndaquil",
+      "quilava",
+      "typhlosion"
+    ],
+    "offspringPokemonIds": [
+      "cyndaquil"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-delibird",
+    "parentPokemonIds": [
+      "delibird"
+    ],
+    "offspringPokemonIds": [
+      "delibird"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-diglett",
+    "parentPokemonIds": [
+      "diglett",
+      "dugtrio"
+    ],
+    "offspringPokemonIds": [
+      "diglett"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-doduo",
+    "parentPokemonIds": [
+      "dodrio",
+      "doduo"
+    ],
+    "offspringPokemonIds": [
+      "doduo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-dratini",
+    "parentPokemonIds": [
+      "dragonair",
+      "dragonite",
+      "dratini"
+    ],
+    "offspringPokemonIds": [
+      "dratini"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-drowzee",
+    "parentPokemonIds": [
+      "drowzee",
+      "hypno"
+    ],
+    "offspringPokemonIds": [
+      "drowzee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-dunsparce",
+    "parentPokemonIds": [
+      "dunsparce"
+    ],
+    "offspringPokemonIds": [
+      "dunsparce"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-eevee",
+    "parentPokemonIds": [
+      "eevee",
+      "espeon",
+      "flareon",
+      "jolteon",
+      "umbreon",
+      "vaporeon"
+    ],
+    "offspringPokemonIds": [
+      "eevee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-ekans",
+    "parentPokemonIds": [
+      "arbok",
+      "ekans"
+    ],
+    "offspringPokemonIds": [
+      "ekans"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-exeggcute",
+    "parentPokemonIds": [
+      "exeggcute",
+      "exeggutor"
+    ],
+    "offspringPokemonIds": [
+      "exeggcute"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-farfetchd",
+    "parentPokemonIds": [
+      "farfetchd"
+    ],
+    "offspringPokemonIds": [
+      "farfetchd"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-gastly",
+    "parentPokemonIds": [
+      "gastly",
+      "gengar",
+      "haunter"
+    ],
+    "offspringPokemonIds": [
+      "gastly"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-geodude",
+    "parentPokemonIds": [
+      "geodude",
+      "golem",
+      "graveler"
+    ],
+    "offspringPokemonIds": [
+      "geodude"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-girafarig",
+    "parentPokemonIds": [
+      "girafarig"
+    ],
+    "offspringPokemonIds": [
+      "girafarig"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-gligar",
+    "parentPokemonIds": [
+      "gligar"
+    ],
+    "offspringPokemonIds": [
+      "gligar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-goldeen",
+    "parentPokemonIds": [
+      "goldeen",
+      "seaking"
+    ],
+    "offspringPokemonIds": [
+      "goldeen"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-grimer",
+    "parentPokemonIds": [
+      "grimer",
+      "muk"
+    ],
+    "offspringPokemonIds": [
+      "grimer"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-growlithe",
+    "parentPokemonIds": [
+      "arcanine",
+      "growlithe"
+    ],
+    "offspringPokemonIds": [
+      "growlithe"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-heracross",
+    "parentPokemonIds": [
+      "heracross"
+    ],
+    "offspringPokemonIds": [
+      "heracross"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-hoothoot",
+    "parentPokemonIds": [
+      "hoothoot",
+      "noctowl"
+    ],
+    "offspringPokemonIds": [
+      "hoothoot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-hoppip",
+    "parentPokemonIds": [
+      "hoppip",
+      "jumpluff",
+      "skiploom"
+    ],
+    "offspringPokemonIds": [
+      "hoppip"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-horsea",
+    "parentPokemonIds": [
+      "horsea",
+      "kingdra",
+      "seadra"
+    ],
+    "offspringPokemonIds": [
+      "horsea"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-houndour",
+    "parentPokemonIds": [
+      "houndoom",
+      "houndour"
+    ],
+    "offspringPokemonIds": [
+      "houndour"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-kabuto",
+    "parentPokemonIds": [
+      "kabuto",
+      "kabutops"
+    ],
+    "offspringPokemonIds": [
+      "kabuto"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-kangaskhan",
+    "parentPokemonIds": [
+      "kangaskhan"
+    ],
+    "offspringPokemonIds": [
+      "kangaskhan"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-koffing",
+    "parentPokemonIds": [
+      "koffing",
+      "weezing"
+    ],
+    "offspringPokemonIds": [
+      "koffing"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-krabby",
+    "parentPokemonIds": [
+      "kingler",
+      "krabby"
+    ],
+    "offspringPokemonIds": [
+      "krabby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-lapras",
+    "parentPokemonIds": [
+      "lapras"
+    ],
+    "offspringPokemonIds": [
+      "lapras"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-larvitar",
+    "parentPokemonIds": [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    "offspringPokemonIds": [
+      "larvitar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-ledyba",
+    "parentPokemonIds": [
+      "ledian",
+      "ledyba"
+    ],
+    "offspringPokemonIds": [
+      "ledyba"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-lickitung",
+    "parentPokemonIds": [
+      "lickitung"
+    ],
+    "offspringPokemonIds": [
+      "lickitung"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-machop",
+    "parentPokemonIds": [
+      "machamp",
+      "machoke",
+      "machop"
+    ],
+    "offspringPokemonIds": [
+      "machop"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-magikarp",
+    "parentPokemonIds": [
+      "gyarados",
+      "magikarp"
+    ],
+    "offspringPokemonIds": [
+      "magikarp"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-magnemite",
+    "parentPokemonIds": [
+      "magnemite",
+      "magneton"
+    ],
+    "offspringPokemonIds": [
+      "magnemite"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-mankey",
+    "parentPokemonIds": [
+      "mankey",
+      "primeape"
+    ],
+    "offspringPokemonIds": [
+      "mankey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-mantine",
+    "parentPokemonIds": [
+      "mantine"
+    ],
+    "offspringPokemonIds": [
+      "mantine"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-mareep",
+    "parentPokemonIds": [
+      "ampharos",
+      "flaaffy",
+      "mareep"
+    ],
+    "offspringPokemonIds": [
+      "mareep"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-marill",
+    "parentPokemonIds": [
+      "azumarill",
+      "marill"
+    ],
+    "offspringPokemonIds": [
+      "marill"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-meowth",
+    "parentPokemonIds": [
+      "meowth",
+      "persian"
+    ],
+    "offspringPokemonIds": [
+      "meowth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-miltank",
+    "parentPokemonIds": [
+      "miltank"
+    ],
+    "offspringPokemonIds": [
+      "miltank"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-misdreavus",
+    "parentPokemonIds": [
+      "misdreavus"
+    ],
+    "offspringPokemonIds": [
+      "misdreavus"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-mr-mime",
+    "parentPokemonIds": [
+      "mr-mime"
+    ],
+    "offspringPokemonIds": [
+      "mr-mime"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-murkrow",
+    "parentPokemonIds": [
+      "murkrow"
+    ],
+    "offspringPokemonIds": [
+      "murkrow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-natu",
+    "parentPokemonIds": [
+      "natu",
+      "xatu"
+    ],
+    "offspringPokemonIds": [
+      "natu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidoran-f",
+    "parentPokemonIds": [
+      "nidoran-f"
+    ],
+    "offspringPokemonIds": [
+      "nidoran-f"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidoran-m",
+    "parentPokemonIds": [
+      "nidoran-m"
+    ],
+    "offspringPokemonIds": [
+      "nidoran-m"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidorino",
+    "parentPokemonIds": [
+      "nidoking",
+      "nidorino"
+    ],
+    "offspringPokemonIds": [
+      "nidorino"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-oddish",
+    "parentPokemonIds": [
+      "bellossom",
+      "gloom",
+      "oddish",
+      "vileplume"
+    ],
+    "offspringPokemonIds": [
+      "oddish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-omanyte",
+    "parentPokemonIds": [
+      "omanyte",
+      "omastar"
+    ],
+    "offspringPokemonIds": [
+      "omanyte"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-onix",
+    "parentPokemonIds": [
+      "onix",
+      "steelix"
+    ],
+    "offspringPokemonIds": [
+      "onix"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-paras",
+    "parentPokemonIds": [
+      "paras",
+      "parasect"
+    ],
+    "offspringPokemonIds": [
+      "paras"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-phanpy",
+    "parentPokemonIds": [
+      "donphan",
+      "phanpy"
+    ],
+    "offspringPokemonIds": [
+      "phanpy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-pidgey",
+    "parentPokemonIds": [
+      "pidgeot",
+      "pidgeotto",
+      "pidgey"
+    ],
+    "offspringPokemonIds": [
+      "pidgey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-pineco",
+    "parentPokemonIds": [
+      "forretress",
+      "pineco"
+    ],
+    "offspringPokemonIds": [
+      "pineco"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-pinsir",
+    "parentPokemonIds": [
+      "pinsir"
+    ],
+    "offspringPokemonIds": [
+      "pinsir"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-poliwag",
+    "parentPokemonIds": [
+      "politoed",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath"
+    ],
+    "offspringPokemonIds": [
+      "poliwag"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-ponyta",
+    "parentPokemonIds": [
+      "ponyta",
+      "rapidash"
+    ],
+    "offspringPokemonIds": [
+      "ponyta"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-porygon",
+    "parentPokemonIds": [
+      "porygon"
+    ],
+    "offspringPokemonIds": [
+      "porygon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-porygon2",
+    "parentPokemonIds": [
+      "porygon2"
+    ],
+    "offspringPokemonIds": [
+      "porygon2"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-psyduck",
+    "parentPokemonIds": [
+      "golduck",
+      "psyduck"
+    ],
+    "offspringPokemonIds": [
+      "psyduck"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-qwilfish",
+    "parentPokemonIds": [
+      "qwilfish"
+    ],
+    "offspringPokemonIds": [
+      "qwilfish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-rattata",
+    "parentPokemonIds": [
+      "raticate",
+      "rattata"
+    ],
+    "offspringPokemonIds": [
+      "rattata"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-remoraid",
+    "parentPokemonIds": [
+      "octillery",
+      "remoraid"
+    ],
+    "offspringPokemonIds": [
+      "remoraid"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-rhyhorn",
+    "parentPokemonIds": [
+      "rhydon",
+      "rhyhorn"
+    ],
+    "offspringPokemonIds": [
+      "rhyhorn"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-sandshrew",
+    "parentPokemonIds": [
+      "sandshrew",
+      "sandslash"
+    ],
+    "offspringPokemonIds": [
+      "sandshrew"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-scyther",
+    "parentPokemonIds": [
+      "scizor",
+      "scyther"
+    ],
+    "offspringPokemonIds": [
+      "scyther"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-seel",
+    "parentPokemonIds": [
+      "dewgong",
+      "seel"
+    ],
+    "offspringPokemonIds": [
+      "seel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-sentret",
+    "parentPokemonIds": [
+      "furret",
+      "sentret"
+    ],
+    "offspringPokemonIds": [
+      "sentret"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-shellder",
+    "parentPokemonIds": [
+      "cloyster",
+      "shellder"
+    ],
+    "offspringPokemonIds": [
+      "shellder"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-shuckle",
+    "parentPokemonIds": [
+      "shuckle"
+    ],
+    "offspringPokemonIds": [
+      "shuckle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-skarmory",
+    "parentPokemonIds": [
+      "skarmory"
+    ],
+    "offspringPokemonIds": [
+      "skarmory"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-slowpoke",
+    "parentPokemonIds": [
+      "slowbro",
+      "slowking",
+      "slowpoke"
+    ],
+    "offspringPokemonIds": [
+      "slowpoke"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-slugma",
+    "parentPokemonIds": [
+      "magcargo",
+      "slugma"
+    ],
+    "offspringPokemonIds": [
+      "slugma"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-smeargle",
+    "parentPokemonIds": [
+      "smeargle"
+    ],
+    "offspringPokemonIds": [
+      "smeargle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-sneasel",
+    "parentPokemonIds": [
+      "sneasel"
+    ],
+    "offspringPokemonIds": [
+      "sneasel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-snorlax",
+    "parentPokemonIds": [
+      "snorlax"
+    ],
+    "offspringPokemonIds": [
+      "snorlax"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-snubbull",
+    "parentPokemonIds": [
+      "granbull",
+      "snubbull"
+    ],
+    "offspringPokemonIds": [
+      "snubbull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-spearow",
+    "parentPokemonIds": [
+      "fearow",
+      "spearow"
+    ],
+    "offspringPokemonIds": [
+      "spearow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-spinarak",
+    "parentPokemonIds": [
+      "ariados",
+      "spinarak"
+    ],
+    "offspringPokemonIds": [
+      "spinarak"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-squirtle",
+    "parentPokemonIds": [
+      "blastoise",
+      "squirtle",
+      "wartortle"
+    ],
+    "offspringPokemonIds": [
+      "squirtle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-stantler",
+    "parentPokemonIds": [
+      "stantler"
+    ],
+    "offspringPokemonIds": [
+      "stantler"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-staryu",
+    "parentPokemonIds": [
+      "starmie",
+      "staryu"
+    ],
+    "offspringPokemonIds": [
+      "staryu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-sudowoodo",
+    "parentPokemonIds": [
+      "sudowoodo"
+    ],
+    "offspringPokemonIds": [
+      "sudowoodo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-sunkern",
+    "parentPokemonIds": [
+      "sunflora",
+      "sunkern"
+    ],
+    "offspringPokemonIds": [
+      "sunkern"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-swinub",
+    "parentPokemonIds": [
+      "piloswine",
+      "swinub"
+    ],
+    "offspringPokemonIds": [
+      "swinub"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-tangela",
+    "parentPokemonIds": [
+      "tangela"
+    ],
+    "offspringPokemonIds": [
+      "tangela"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-tauros",
+    "parentPokemonIds": [
+      "tauros"
+    ],
+    "offspringPokemonIds": [
+      "tauros"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-teddiursa",
+    "parentPokemonIds": [
+      "teddiursa",
+      "ursaring"
+    ],
+    "offspringPokemonIds": [
+      "teddiursa"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-tentacool",
+    "parentPokemonIds": [
+      "tentacool",
+      "tentacruel"
+    ],
+    "offspringPokemonIds": [
+      "tentacool"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-totodile",
+    "parentPokemonIds": [
+      "croconaw",
+      "feraligatr",
+      "totodile"
+    ],
+    "offspringPokemonIds": [
+      "totodile"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-venonat",
+    "parentPokemonIds": [
+      "venomoth",
+      "venonat"
+    ],
+    "offspringPokemonIds": [
+      "venonat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-voltorb",
+    "parentPokemonIds": [
+      "electrode",
+      "voltorb"
+    ],
+    "offspringPokemonIds": [
+      "voltorb"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-vulpix",
+    "parentPokemonIds": [
+      "ninetales",
+      "vulpix"
+    ],
+    "offspringPokemonIds": [
+      "vulpix"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-weedle",
+    "parentPokemonIds": [
+      "beedrill",
+      "kakuna",
+      "weedle"
+    ],
+    "offspringPokemonIds": [
+      "weedle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-wobbuffet",
+    "parentPokemonIds": [
+      "wobbuffet"
+    ],
+    "offspringPokemonIds": [
+      "wobbuffet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-wooper",
+    "parentPokemonIds": [
+      "quagsire",
+      "wooper"
+    ],
+    "offspringPokemonIds": [
+      "wooper"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-yanma",
+    "parentPokemonIds": [
+      "yanma"
+    ],
+    "offspringPokemonIds": [
+      "yanma"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-zubat",
+    "parentPokemonIds": [
+      "crobat",
+      "golbat",
+      "zubat"
+    ],
+    "offspringPokemonIds": [
+      "zubat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-pichu",
+    "parentPokemonIds": [
+      "pikachu",
+      "raichu"
+    ],
+    "offspringPokemonIds": [
+      "pichu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-cleffa",
+    "parentPokemonIds": [
+      "clefairy",
+      "clefable"
+    ],
+    "offspringPokemonIds": [
+      "cleffa"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-igglybuff",
+    "parentPokemonIds": [
+      "jigglypuff",
+      "wigglytuff"
+    ],
+    "offspringPokemonIds": [
+      "igglybuff"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-togepi",
+    "parentPokemonIds": [
+      "togetic"
+    ],
+    "offspringPokemonIds": [
+      "togepi"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-tyrogue",
+    "parentPokemonIds": [
+      "hitmonlee",
+      "hitmonchan",
+      "hitmontop"
+    ],
+    "offspringPokemonIds": [
+      "tyrogue"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-smoochum",
+    "parentPokemonIds": [
+      "jynx"
+    ],
+    "offspringPokemonIds": [
+      "smoochum"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-elekid",
+    "parentPokemonIds": [
+      "electabuzz"
+    ],
+    "offspringPokemonIds": [
+      "elekid"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-magby",
+    "parentPokemonIds": [
+      "magmar"
+    ],
+    "offspringPokemonIds": [
+      "magby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-species",
+        "gold-hatch"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

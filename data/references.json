@@ -189,6 +189,111 @@
     "revision": "af519899719f0754965776faac0e836a3b906e6d"
   },
   {
+    "id": "gold-species",
+    "title": "Gold species types, gender ratios and Egg Groups",
+    "locator": "data/pokemon/base_stats.asm and data/pokemon/base_stats/*.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon/base_stats",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-dex",
+    "title": "Gold Pokédex order and species list",
+    "locator": "data/pokemon/dex_order_new.asm and constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-type-chart",
+    "title": "Generation II type matchups",
+    "locator": "data/types/type_matchups.asm and engine/pokemon/types.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/types",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-encounters",
+    "title": "Gold wild encounters, fishing, swarms and roaming species",
+    "locator": "data/wild/johto_grass.asm, data/wild/kanto_grass.asm, data/wild/johto_water.asm, data/wild/kanto_water.asm, data/wild/fish.asm, data/wild/swarm_grass.asm, data/wild/swarm_water.asm, data/wild/roammon_maps.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-headbutt-contest",
+    "title": "Headbutt encounters and Bug-Catching Contest species",
+    "locator": "data/wild/treemons.asm, data/wild/treemon_maps.asm, data/wild/bug_contest_mons.asm, engine/events/treemons.asm, engine/overworld/events.asm, engine/events/bug_contest",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/wild",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-progression",
+    "title": "Gold story, route and event scripts",
+    "locator": "maps/*.asm and data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-bosses",
+    "title": "Gold Gym, Elite Four, Champion and Red teams",
+    "locator": "data/trainers/leaders.asm and data/trainers/parties.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/trainers",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-evolutions",
+    "title": "Gold evolution triggers and levels",
+    "locator": "data/pokemon/evos_attacks.asm and engine/pokemon/evolve.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-breeding",
+    "title": "Gold breeding, offspring and egg levels",
+    "locator": "engine/pokemon/breeding.asm, engine/events/daycare.asm and maps/Daycare.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-items",
+    "title": "Gold item placements, marts, berry trees and key items",
+    "locator": "maps/*.asm, data/items/marts.asm, data/items/fruit_trees.asm and constants/item_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/items",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-trades",
+    "title": "Gold in-game NPC trades",
+    "locator": "data/events/npc_trades.asm, constants/npc_trade_constants.asm and maps/*.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/events/npc_trades.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-choices",
+    "title": "Gold starter and one-time Pokémon choices",
+    "locator": "maps/NewBarkTown.asm, maps/SilverCaveRoom1.asm and event scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-time",
+    "title": "Gold time, weekday, swarm, phone and evolution conditions",
+    "locator": "home/time.asm, engine/events/checktime.asm, engine/pokemon/evolve.asm and engine/phone/phone.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-hatch",
+    "title": "Gold egg hatch level and hatch handling",
+    "locator": "engine/pokemon/breeding.asm and engine/events/happiness_egg.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon/breeding.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-exclusions",
+    "title": "Gold version, trade and event acquisition limits",
+    "locator": "data/wild/*.asm, data/pokemon/evos_attacks.asm, data/events/npc_trades.asm and event scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
     "id": "ruby-game",
     "title": "Pokémon Ruby identity and game version",
     "locator": "config.mk",

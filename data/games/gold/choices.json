@@ -1,0 +1,18 @@
+[
+  {
+    "id": "starter-choice",
+    "name": "Choose one Pokémon from Professor Elm",
+    "options": [
+      "chikorita",
+      "cyndaquil",
+      "totodile"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "gold-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

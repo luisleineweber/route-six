@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "new-bark-town",
+    "name": "New Bark Town and choose a starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "new-bark-town",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Route 29",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "new-bark-town"
+    ],
+    "locationId": "route-29",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-46",
+    "name": "Route 46",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "route-29"
+    ],
+    "locationId": "route-46",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "cherrygrove-city",
+    "name": "Cherrygrove City and Pokégear",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "route-29"
+    ],
+    "locationId": "cherrygrove-city",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-31",
+    "name": "Route 31",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "cherrygrove-city"
+    ],
+    "locationId": "route-31",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "route-30",
+    "name": "Route 30 and Mr. Pokémon",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "cherrygrove-city"
+    ],
+    "locationId": "route-30",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "falkner-defeated",
+    "name": "Defeat Falkner in Violet City",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "route-30"
+    ],
+    "locationId": "violet-city",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-32",
+    "name": "Route 32 and Union Cave",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "falkner-defeated"
+    ],
+    "locationId": "route-32",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-33",
+    "name": "Route 33",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "route-32"
+    ],
+    "locationId": "route-33",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "azalea-town",
+    "name": "Azalea Town and Slowpoke Well",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "route-32"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bugsy-defeated",
+    "name": "Defeat Bugsy",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "azalea-town"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "goldenrod-city",
+    "name": "Ilex Forest and Goldenrod City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "whitney-defeated",
+    "name": "Defeat Whitney",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "goldenrod-city"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ecruteak-city",
+    "name": "Route 36 and Ecruteak City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-43",
+    "name": "Route 43",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "route-43",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "roaming-beasts-released",
+    "name": "Release the legendary beasts in Burned Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "burned-tower",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "morty-defeated",
+    "name": "Release the legendary beasts and defeat Morty",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "roaming-beasts-released"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cianwood-city",
+    "name": "Olivine Lighthouse and Cianwood City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "chuck-defeated",
+    "name": "Defeat Chuck",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "cianwood-city"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "jasmine-defeated",
+    "name": "Cure Amphy and defeat Jasmine",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "chuck-defeated"
+    ],
+    "locationId": "olivine-city",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pryce-defeated",
+    "name": "Defeat Pryce after the Lake of Rage event",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "jasmine-defeated"
+    ],
+    "locationId": "mahogany-town",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "clair-defeated",
+    "name": "Clear Team Rocket and defeat Clair",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "pryce-defeated"
+    ],
+    "locationId": "blackthorn-city",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-26",
+    "name": "Route 26",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "route-26",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-27",
+    "name": "Route 27",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "route-27",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Defeat the Elite Four and Champion Lance",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kanto-open",
+    "name": "Take the S.S. Aqua to Kanto",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 25,
+    "previousIds": [
+      "indigo-plateau"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-1",
+    "name": "Route 1",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 26,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-1",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-2",
+    "name": "Route 2",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 27,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-2",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-3",
+    "name": "Route 3",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 28,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-3",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-4",
+    "name": "Route 4",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 29,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-4",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-5",
+    "name": "Route 5",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 30,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-5",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-6",
+    "name": "Route 6",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 31,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-6",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-7",
+    "name": "Route 7",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 32,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-7",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-8",
+    "name": "Route 8",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 33,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-8",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-9",
+    "name": "Route 9",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 34,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-9",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-11",
+    "name": "Route 11",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 35,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-11",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-12",
+    "name": "Route 12",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 36,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-12",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-13",
+    "name": "Route 13",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 37,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-13",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-14",
+    "name": "Route 14",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 38,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-14",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-15",
+    "name": "Route 15",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 39,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-15",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-16",
+    "name": "Route 16",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 40,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-16",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-17",
+    "name": "Route 17",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 41,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-17",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-18",
+    "name": "Route 18",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 42,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-18",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-19",
+    "name": "Route 19",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 43,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-19",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-20",
+    "name": "Route 20",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 44,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-20",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-21",
+    "name": "Route 21",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 45,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-21",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-22",
+    "name": "Route 22",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 46,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-22",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-24",
+    "name": "Route 24",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 47,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-24",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-25",
+    "name": "Route 25",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 48,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-25",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-28",
+    "name": "Route 28",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 49,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-28",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-40",
+    "name": "Route 40",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 50,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-40",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-41",
+    "name": "Route 41",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 51,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-41",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Defeat Brock",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 52,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "pewter-city",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Defeat Misty",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 53,
+    "previousIds": [
+      "brock-defeated"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lt-surge-defeated",
+    "name": "Defeat Lt. Surge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 54,
+    "previousIds": [
+      "misty-defeated"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Defeat Erika",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 55,
+    "previousIds": [
+      "lt-surge-defeated"
+    ],
+    "locationId": "celadon-city",
+    "nextBossId": "janine",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "janine-defeated",
+    "name": "Defeat Janine",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 56,
+    "previousIds": [
+      "erika-defeated"
+    ],
+    "locationId": "fuchsia-city",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Defeat Sabrina",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 57,
+    "previousIds": [
+      "janine-defeated"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Defeat Blaine on Seafoam Islands",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 58,
+    "previousIds": [
+      "sabrina-defeated"
+    ],
+    "locationId": "seafoam-islands",
+    "nextBossId": "blue",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blue-defeated",
+    "name": "Defeat Blue",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 59,
+    "previousIds": [
+      "blaine-defeated"
+    ],
+    "locationId": "viridian-city",
+    "nextBossId": "red",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "red-defeated",
+    "name": "Defeat Red at Mt. Silver",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 60,
+    "previousIds": [
+      "blue-defeated"
+    ],
+    "locationId": "mt-silver",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Route 34 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "route-34",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Route 35 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "goldenrod-city"
+    ],
+    "locationId": "route-35",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-36",
+    "name": "Route 36 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "route-36",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Route 37 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "route-37",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Route 38 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-38",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Route 39 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-39",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-42",
+    "name": "Route 42 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-42",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lake-of-rage-event",
+    "name": "Witness the Red Gyarados and clear Team Rocket",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "route-42"
+    ],
+    "locationId": "lake-of-rage",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "initial-route-44",
+    "name": "Route 44",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "lake-of-rage-event"
+    ],
+    "locationId": "route-44",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  },
+  {
+    "id": "initial-route-45",
+    "name": "Route 45",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "lake-of-rage-event"
+    ],
+    "locationId": "route-45",
+    "review": {
+      "referenceIds": [
+        "gold-progression",
+        "gold-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "nextBossId": null
+  }
+]
