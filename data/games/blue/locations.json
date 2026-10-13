@@ -1,0 +1,873 @@
+[
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-city",
+    "name": "Viridian City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-1"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-forest",
+    "name": "Viridian Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-forest"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon",
+    "name": "Mt. Moon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-3"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mt-moon"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mt-moon"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Route 24",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Route 25",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-anne",
+    "name": "S.S. Anne",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-9"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Lavender Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-10"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Celadon City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lavender-town"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout",
+    "name": "Rocket Hideout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celadon-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower",
+    "name": "Pokémon Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celadon-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lavender-town"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celadon-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Saffron City",
+    "requirements": {
+      "kind": "capability",
+      "id": "saffron-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-co",
+    "name": "Silph Co.",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-open"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pokemon-tower-cleared"
+        },
+        {
+          "kind": "milestone",
+          "id": "fuchsia-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Fuchsia City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities",
+        "blue-items",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "koga-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion",
+    "name": "Pokémon Mansion",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "requirements": {
+      "kind": "milestone",
+      "id": "koga-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "giovanni-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Indigo Plateau",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "champion-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Route 10",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-9"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-tower-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-tower-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-tower-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-outside"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities",
+        "blue-items",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities",
+        "blue-items",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities",
+        "blue-items",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Route 19",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Route 20",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Route 21",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Route 22",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-23",
+    "name": "Route 23",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "power-plant",
+    "name": "Power Plant",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "digletts-cave",
+    "name": "Diglett's Cave",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-18-gate",
+    "name": "Route 18 Gate",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities",
+        "blue-items",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-12-super-rod-house",
+    "name": "Route 12 Super Rod House",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pokemon-tower-cleared"
+        },
+        {
+          "kind": "milestone",
+          "id": "fuchsia-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-16-fly-house",
+    "name": "Route 16 Fly House",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "cut-outside"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-locations",
+        "blue-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

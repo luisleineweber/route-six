@@ -1,0 +1,90 @@
+{
+  "id": "blue",
+  "name": "Pokémon Blue",
+  "generation": 1,
+  "region": "Kanto",
+  "firstMilestoneId": "pallet-town",
+  "review": {
+    "referenceIds": [
+      "blue-game",
+      "blue-progression"
+    ],
+    "checkedOn": "2026-10-12"
+  },
+  "planner": {
+    "defaultMilestoneId": "champion-defeated",
+    "checkpoints": [
+      {
+        "milestoneId": "brock-defeated",
+        "label": "Gym 1 · Rock · Brock",
+        "title": "Gym 1",
+        "detail": "Brock · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "misty-defeated",
+        "label": "Gym 2 · Water · Misty",
+        "title": "Gym 2",
+        "detail": "Misty · Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "lt-surge-defeated",
+        "label": "Gym 3 · Electric · Lt. Surge",
+        "title": "Gym 3",
+        "detail": "Lt. Surge · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "erika-defeated",
+        "label": "Gym 4 · Grass · Erika",
+        "title": "Gym 4",
+        "detail": "Erika · Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "koga-defeated",
+        "label": "Gym 5 · Poison · Koga",
+        "title": "Gym 5",
+        "detail": "Koga · Poison",
+        "typeId": "poison"
+      },
+      {
+        "milestoneId": "sabrina-defeated",
+        "label": "Gym 6 · Psychic · Sabrina",
+        "title": "Gym 6",
+        "detail": "Sabrina · Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "blaine-defeated",
+        "label": "Gym 7 · Fire · Blaine",
+        "title": "Gym 7",
+        "detail": "Blaine · Fire",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "giovanni-defeated",
+        "label": "Gym 8 · Ground · Giovanni",
+        "title": "Gym 8",
+        "detail": "Giovanni · Ground",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "champion-defeated",
+        "label": "Pokémon League",
+        "title": "Champion",
+        "detail": "Indigo Plateau",
+        "typeId": null
+      },
+      {
+        "milestoneId": "cerulean-cave-open",
+        "label": "Cerulean Cave",
+        "title": "Postgame",
+        "detail": "Cerulean Cave is open",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": null
+}

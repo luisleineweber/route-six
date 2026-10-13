@@ -292,5 +292,96 @@
     "locator": "config.mk; data/maps/*/scripts.inc; src/mystery_event_script.c",
     "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
     "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "blue-species",
+    "title": "Pokémon Blue species, types, and Pokédex order",
+    "locator": "data/pokemon/base_stats.asm; data/pokemon/dex_order.asm; constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-game",
+    "title": "Pokémon Blue version scope and game rules",
+    "locator": "README.md; constants/pokemon_constants.asm; constants/type_constants.asm; data/maps/headers",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-type-chart",
+    "title": "Generation I type IDs and effectiveness rules",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm; engine/battle/core.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/types",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-progression",
+    "title": "Kanto story events, badges, and map progression",
+    "locator": "scripts; data/maps/objects; constants/event_constants.asm; constants/map_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-bosses",
+    "title": "Blue Gym, Elite Four, and Champion parties",
+    "locator": "data/trainers/parties.asm; data/trainers/names.asm; data/trainers/special_moves.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/trainers",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-locations",
+    "title": "Kanto map identities and access scripts",
+    "locator": "data/maps/headers; data/maps/objects; scripts; data/maps/dungeon_maps.asm; data/maps/force_bike_surf.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-capabilities",
+    "title": "Field moves, badges, and overworld access checks",
+    "locator": "scripts; data/maps/badge_maps.asm; data/maps/force_bike_surf.asm; data/items/use_overworld.asm; constants/event_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-items",
+    "title": "Blue item pickups, marts, key items, and fossils",
+    "locator": "data/items; data/events/hidden_item_coords.asm; data/maps/objects; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/items",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-choices",
+    "title": "Starter, Eevee, dojo, fossil, and Game Corner choices",
+    "locator": "scripts; data/events/prizes.asm; data/events/prize_mon_levels.asm; data/events/trades.asm; data/maps/objects/*Trade*.asm; data/maps/objects/PowerPlant.asm; scripts/PowerPlant.asm; data/maps/toggleable_objects.asm; constants/event_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/events",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-encounters",
+    "title": "Pokémon Blue wild encounter tables and methods",
+    "locator": "data/wild/probabilities.asm; data/wild/grass_water.asm; data/wild/good_rod.asm; data/wild/super_rod.asm; data/wild/maps; Blue/Red version conditionals in encounter files",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/wild",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-breeding",
+    "title": "Pokémon Blue breeding support check",
+    "locator": "No breeding system exists in Generation I; reviewed against the pinned Red/Blue game source",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-evolutions",
+    "title": "Blue level, stone, and trade evolution data",
+    "locator": "data/pokemon/evos_moves.asm; constants/item_constants.asm; scripts",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-exclusions",
+    "title": "Blue version exclusives and external Mew distribution",
+    "locator": "data/wild/maps; scripts; data/pokemon/mew.asm; Blue/Red version conditionals",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
   }
 ]

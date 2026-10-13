@@ -1,0 +1,134 @@
+[
+  {
+    "pokemonId": "ekans",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arbok",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "oddish",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gloom",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vileplume",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mankey",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "primeape",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "growlithe",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arcanine",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "scyther",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electabuzz",
+    "reason": "other-version",
+    "explanation": "This species has no native acquisition in the English Blue version; it is exclusive to English Red in the reviewed release.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "English Blue has no ordinary native Mew acquisition. Glitch-based acquisition and external distributions are outside this planner scope.",
+    "review": {
+      "referenceIds": [
+        "blue-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]
