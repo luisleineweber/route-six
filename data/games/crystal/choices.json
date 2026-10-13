@@ -1,0 +1,39 @@
+[
+    {
+        "id":  "starter-choice",
+        "name":  "Choose one of three starters",
+        "options":  [
+                        "chikorita",
+                        "cyndaquil",
+                        "totodile"
+                    ],
+        "maximumSelections":  1,
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-choices"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "odd-egg-choice",
+        "name":  "Choose one Odd Egg hatch outcome",
+        "options":  [
+                        "pichu",
+                        "cleffa",
+                        "igglybuff",
+                        "smoochum",
+                        "magby",
+                        "elekid",
+                        "tyrogue"
+                    ],
+        "maximumSelections":  1,
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-hatch",
+                                            "crystal-choices"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    }
+]

@@ -504,6 +504,111 @@
     "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
   },
   {
+    "id": "crystal-species",
+    "title": "Crystal species types, gender ratios, Egg Groups and regional Pokédex",
+    "locator": "data/pokemon/base_stats.asm; data/pokemon/names.asm; data/pokemon/dex_order_new.asm; constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/pokemon",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-type-chart",
+    "title": "Generation II type chart and type effectiveness",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm; engine/pokemon/types.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/types",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-game",
+    "title": "Crystal version identity and game constants",
+    "locator": "README.md; constants/pokemon_constants.asm; constants/map_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-progression",
+    "title": "Crystal story flags, routes, events and postgame progression",
+    "locator": "data/maps/maps.asm; data/maps/scripts.asm; data/maps/map_data.asm; maps/*.asm; constants/event_flags.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/maps",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-bosses",
+    "title": "Crystal Gym, Elite Four, Champion and Red parties",
+    "locator": "data/trainers/leaders.asm; data/trainers/parties.asm; maps/*.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/trainers",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-locations",
+    "title": "Crystal map identities and map access scripts",
+    "locator": "data/maps/attributes.asm; data/maps/maps.asm; data/maps/map_data.asm; maps/*.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/maps",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-capabilities",
+    "title": "Crystal field moves, badges and overworld checks",
+    "locator": "engine/events/field_moves.asm; engine/events/overworld.asm; data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/events",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-items",
+    "title": "Crystal item placements, marts, fruit trees and key items",
+    "locator": "data/items/marts.asm; data/items/fruit_trees.asm; maps/*.asm; data/maps/scripts.asm; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/items",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-choices",
+    "title": "Crystal starter, one-time gifts, Odd Egg and Kanto starter choices",
+    "locator": "maps/NewBarkTown.asm; maps/GoldenrodCity.asm; maps/OaksLab.asm; data/events/odd_eggs.asm; data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/maps",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-encounters",
+    "title": "Crystal Johto and Kanto encounters, fishing, Headbutt, swarms and roaming Pokémon",
+    "locator": "data/wild/johto_grass.asm; data/wild/kanto_grass.asm; data/wild/johto_water.asm; data/wild/kanto_water.asm; data/wild/fish.asm; data/wild/treemons.asm; data/wild/treemon_maps.asm; data/wild/swarm_grass.asm; data/wild/swarm_water.asm; data/wild/roammon_maps.asm; data/wild/bug_contest_mons.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/wild",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-breeding",
+    "title": "Crystal Day-Care compatibility and offspring rules",
+    "locator": "engine/pokemon/breeding.asm; engine/events/daycare.asm; maps/Daycare.asm; data/pokemon/base_stats.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/pokemon/breeding.asm",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-hatch",
+    "title": "Crystal egg hatch level and hatch handling",
+    "locator": "engine/pokemon/breeding.asm; engine/events/happiness_egg.asm; data/events/odd_eggs.asm",
+    "url": "https://github.com/pret/pokecrystal/blob/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/pokemon/breeding.asm",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-evolutions",
+    "title": "Crystal level, item, trade, friendship, time and stat evolution rules",
+    "locator": "data/pokemon/evos_attacks.asm; engine/pokemon/evolve.asm; constants/pokemon_data_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/pokemon",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-time",
+    "title": "Crystal clock, weekday, day-part, daily and swarm rules",
+    "locator": "home/time.asm; engine/events/checktime.asm; engine/pokemon/evolve.asm; engine/phone/phone.asm; data/wild/swarm_grass.asm; data/wild/swarm_water.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/events",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-exclusions",
+    "title": "Crystal version differences, trade evolutions and event-only access",
+    "locator": "data/wild/*.asm; data/pokemon/evos_attacks.asm; data/events/odd_eggs.asm; data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
     "id": "blue-species",
     "title": "Pokémon Blue species, types, and Pokédex order",
     "locator": "data/pokemon/base_stats.asm; data/pokemon/dex_order.asm; constants/pokemon_constants.asm",
