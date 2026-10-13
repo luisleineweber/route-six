@@ -1,0 +1,2136 @@
+[
+  {
+    "pokemonId": "bulbasaur",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ivysaur",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venusaur",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmander",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmeleon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charizard",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "squirtle",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wartortle",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blastoise",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "caterpie",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "metapod",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "butterfree",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weedle",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kakuna",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beedrill",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pidgey",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pidgeotto",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pidgeot",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rattata",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "raticate",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spearow",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "fearow",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ekans",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arbok",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoran-f",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidorina",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoqueen",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoran-m",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidorino",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoking",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "clefairy",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "clefable",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "paras",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "parasect",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venonat",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venomoth",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "diglett",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dugtrio",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meowth",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "persian",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mankey",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "primeape",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "growlithe",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arcanine",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poliwag",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poliwhirl",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poliwrath",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bellsprout",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weepinbell",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "victreebel",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ponyta",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rapidash",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowpoke",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowbro",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "farfetchd",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seel",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dewgong",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shellder",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cloyster",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gastly",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "haunter",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gengar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "onix",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "drowzee",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hypno",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "krabby",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kingler",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "exeggcute",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "exeggutor",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cubone",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "marowak",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hitmonlee",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hitmonchan",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lickitung",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chansey",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tangela",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kangaskhan",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mr-mime",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "scyther",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jynx",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electabuzz",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magmar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tauros",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lapras",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ditto",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "eevee",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vaporeon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jolteon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flareon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "porygon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omanyte",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omastar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabuto",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabutops",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aerodactyl",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snorlax",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "articuno",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zapdos",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "moltres",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dratini",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dragonair",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dragonite",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mewtwo",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chikorita",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bayleef",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meganium",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cyndaquil",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "quilava",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "typhlosion",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "totodile",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "croconaw",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "feraligatr",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sentret",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "furret",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hoothoot",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "noctowl",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ledyba",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ledian",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spinarak",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ariados",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cleffa",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "togepi",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "togetic",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mareep",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flaaffy",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ampharos",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sudowoodo",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "politoed",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hoppip",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "skiploom",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jumpluff",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aipom",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sunkern",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sunflora",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "yanma",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wooper",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "quagsire",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "espeon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "umbreon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "murkrow",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowking",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "misdreavus",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "unown",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pineco",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "forretress",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dunsparce",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gligar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "steelix",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snubbull",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "granbull",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "qwilfish",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "scizor",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shuckle",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sneasel",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "teddiursa",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ursaring",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swinub",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "piloswine",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "remoraid",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "octillery",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "delibird",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mantine",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "houndour",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "houndoom",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "porygon2",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "stantler",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "smeargle",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tyrogue",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hitmontop",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "smoochum",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "elekid",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magby",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "miltank",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blissey",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "raikou",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "entei",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "suicune",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "larvitar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pupitar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tyranitar",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lugia",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ho-oh",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seedot",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nuzleaf",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shiftry",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mawile",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zangoose",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "solrock",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "latios",
+    "reason": "external-event",
+    "explanation": "The pinned Sapphire scripts make Latios available only through the external Eon Ticket event.",
+    "review": {
+      "referenceIds": [
+        "sapphire-postgame"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "groudon",
+    "reason": "other-version",
+    "explanation": "The pinned Sapphire encounter tables and ordinary event scripts have no native source for this species. Another game version or an excluded player trade is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jirachi",
+    "reason": "external-event",
+    "explanation": "The pinned Sapphire scripts have no native Jirachi source; external distribution is required.",
+    "review": {
+      "referenceIds": [
+        "sapphire-postgame"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "deoxys",
+    "reason": "external-event",
+    "explanation": "The pinned Sapphire scripts make Deoxys available only through the external AuroraTicket event.",
+    "review": {
+      "referenceIds": [
+        "sapphire-postgame"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

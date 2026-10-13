@@ -1,0 +1,99 @@
+{
+  "id": "sapphire",
+  "name": "Pokémon Sapphire",
+  "generation": 3,
+  "region": "Hoenn",
+  "firstMilestoneId": "littleroot",
+  "review": {
+    "referenceIds": [
+      "sapphire-progression",
+      "sapphire-hatch"
+    ],
+    "checkedOn": "2026-10-12"
+  },
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "roxanne-defeated",
+        "label": "Gym 1 · Rock · Roxanne",
+        "title": "Gym 1",
+        "detail": "Roxanne · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "brawly-defeated",
+        "label": "Gym 2 · Fighting · Brawly",
+        "title": "Gym 2",
+        "detail": "Brawly · Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "wattson-defeated",
+        "label": "Gym 3 · Electric · Wattson",
+        "title": "Gym 3",
+        "detail": "Wattson · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "flannery-defeated",
+        "label": "Gym 4 · Fire · Flannery",
+        "title": "Gym 4",
+        "detail": "Flannery · Fire",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "norman-defeated",
+        "label": "Gym 5 · Normal · Norman",
+        "title": "Gym 5",
+        "detail": "Norman · Normal",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "winona-defeated",
+        "label": "Gym 6 · Flying · Winona",
+        "title": "Gym 6",
+        "detail": "Winona · Flying",
+        "typeId": "flying"
+      },
+      {
+        "milestoneId": "tate-and-liza-defeated",
+        "label": "Gym 7 · Psychic · Tate & Liza",
+        "title": "Gym 7",
+        "detail": "Tate & Liza · Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "wallace-defeated",
+        "label": "Gym 8 · Water · Wallace",
+        "title": "Gym 8",
+        "detail": "Wallace · Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      },
+      {
+        "label": "Champion Steven",
+        "title": "Hall of Fame",
+        "detail": "Defeat Steven",
+        "typeId": null,
+        "milestoneId": "steven-defeated"
+      },
+      {
+        "label": "Postgame: Latias roams",
+        "title": "Postgame",
+        "detail": "After the Hall of Fame TV report",
+        "typeId": null,
+        "milestoneId": "latias-roams"
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 5
+  }
+}

@@ -1,0 +1,2380 @@
+[
+  {
+    "id": "littleroot",
+    "name": "Littleroot Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "littleroot",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Rescue Birch and choose a starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "littleroot"
+    ],
+    "locationId": "route-101",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-101",
+    "name": "Route 101",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "route-101",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "oldale",
+    "name": "Oldale Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "route-101"
+    ],
+    "locationId": "oldale",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-103",
+    "name": "Route 103: first visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "oldale"
+    ],
+    "locationId": "route-103",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokedex",
+    "name": "Rival battle and Pokédex",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "route-103"
+    ],
+    "locationId": "littleroot",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-102",
+    "name": "Route 102",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "pokedex"
+    ],
+    "locationId": "route-102",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "petalburg",
+    "name": "Petalburg City and Wally",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "route-102"
+    ],
+    "locationId": "petalburg",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-104",
+    "name": "Route 104: south",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "petalburg"
+    ],
+    "locationId": "route-104",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "petalburg-woods",
+    "name": "Petalburg Woods",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "route-104"
+    ],
+    "locationId": "petalburg-woods",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "devon-woods",
+    "name": "Rescue the Devon researcher",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "petalburg-woods"
+    ],
+    "locationId": "petalburg-woods",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-104-north",
+    "name": "Route 104: north",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "devon-woods"
+    ],
+    "locationId": "route-104",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rustboro",
+    "name": "Rustboro City: before Roxanne",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "route-104-north"
+    ],
+    "locationId": "rustboro",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-116",
+    "name": "Route 116",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "rustboro"
+    ],
+    "locationId": "route-116",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rusturf-tunnel",
+    "name": "Rusturf Tunnel: first visit",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "route-116"
+    ],
+    "locationId": "rusturf-tunnel",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-115",
+    "name": "Route 115: south",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "rustboro"
+    ],
+    "locationId": "route-115",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "roxanne-defeated",
+    "name": "Defeat Roxanne",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "rustboro"
+    ],
+    "locationId": "rustboro",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "devon-goods",
+    "name": "Recover Devon Goods and rescue Peeko",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "roxanne-defeated",
+      "rusturf-tunnel"
+    ],
+    "locationId": "rusturf-tunnel",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "devon-president",
+    "name": "Receive the Letter and PokéNav",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "devon-goods"
+    ],
+    "locationId": "rustboro",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mr-briney",
+    "name": "Sail with Mr. Briney",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "devon-president"
+    ],
+    "locationId": "route-104",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-105",
+    "name": "Route 105: boat passage",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "mr-briney"
+    ],
+    "locationId": "route-105",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dewford",
+    "name": "Dewford Town: before Brawly",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "mr-briney"
+    ],
+    "locationId": "dewford",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Receive the Old Rod",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "dewford"
+    ],
+    "locationId": "dewford",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-106",
+    "name": "Route 106",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "dewford"
+    ],
+    "locationId": "route-106",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "granite-cave",
+    "name": "Granite Cave",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "route-106"
+    ],
+    "locationId": "granite-cave",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "brawly-defeated",
+    "name": "Defeat Brawly",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "dewford"
+    ],
+    "locationId": "dewford",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "steven-letter",
+    "name": "Deliver the Letter to Steven",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "granite-cave"
+    ],
+    "locationId": "granite-cave",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-107",
+    "name": "Route 107: boat passage",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "dewford"
+    ],
+    "locationId": "route-107",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-108",
+    "name": "Route 108: boat passage",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "steven-letter"
+    ],
+    "locationId": "route-108",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-109",
+    "name": "Route 109: beach",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "steven-letter"
+    ],
+    "locationId": "route-109",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "slateport",
+    "name": "Slateport City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "route-109"
+    ],
+    "locationId": "slateport",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "museum",
+    "name": "Deliver Devon Goods at the museum",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "slateport"
+    ],
+    "locationId": "slateport",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-110",
+    "name": "Route 110",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "museum"
+    ],
+    "locationId": "route-110",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rival-110",
+    "name": "Defeat the rival on Route 110",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "route-110"
+    ],
+    "locationId": "route-110",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mauville",
+    "name": "Mauville City: before Wattson",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "rival-110"
+    ],
+    "locationId": "mauville",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bike",
+    "name": "Receive a Mach or Acro Bike",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "mauville"
+    ],
+    "locationId": "mauville",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-117",
+    "name": "Route 117 and Day Care",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "mauville"
+    ],
+    "locationId": "route-117",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "verdanturf",
+    "name": "Verdanturf Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "route-117"
+    ],
+    "locationId": "verdanturf",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rusturf-cleared",
+    "name": "Clear Rusturf Tunnel and receive Strength",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "verdanturf"
+    ],
+    "locationId": "rusturf-tunnel",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-118",
+    "name": "Route 118: west bank",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "mauville"
+    ],
+    "locationId": "route-118",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-111",
+    "name": "Route 111: south",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "mauville"
+    ],
+    "locationId": "route-111",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wattson-defeated",
+    "name": "Defeat Wattson",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "mauville"
+    ],
+    "locationId": "mauville",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Use Rock Smash outside battle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "wattson-defeated"
+    ],
+    "locationId": "mauville",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-112",
+    "name": "Route 112",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "rock-smash"
+    ],
+    "locationId": "route-112",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fiery-path",
+    "name": "Fiery Path",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "route-112"
+    ],
+    "locationId": "fiery-path",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-111-north",
+    "name": "Route 111: north",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "fiery-path"
+    ],
+    "locationId": "route-111",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-113",
+    "name": "Route 113",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "route-111-north"
+    ],
+    "locationId": "route-113",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fallarbor",
+    "name": "Fallarbor Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "route-113"
+    ],
+    "locationId": "fallarbor",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-114",
+    "name": "Route 114",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "fallarbor"
+    ],
+    "locationId": "route-114",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "meteor-falls",
+    "name": "Meteor Falls: first visit",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "route-114"
+    ],
+    "locationId": "meteor-falls",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "meteor-event",
+    "name": "Team Aqua takes the Meteorite",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "meteor-falls"
+    ],
+    "locationId": "meteor-falls",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-chimney",
+    "name": "Mt. Chimney and the cable car",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "meteor-event"
+    ],
+    "locationId": "mt-chimney",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "archie-chimney",
+    "name": "Defeat Archie at Mt. Chimney",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 52,
+    "previousIds": [
+      "mt-chimney"
+    ],
+    "locationId": "mt-chimney",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "jagged-pass",
+    "name": "Jagged Pass",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "archie-chimney"
+    ],
+    "locationId": "jagged-pass",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavaridge",
+    "name": "Lavaridge Town: before Flannery",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "jagged-pass"
+    ],
+    "locationId": "lavaridge",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wynaut-egg",
+    "name": "Receive the Wynaut Egg",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "lavaridge"
+    ],
+    "locationId": "lavaridge",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "flannery-defeated",
+    "name": "Defeat Flannery and receive Go-Goggles",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 56,
+    "previousIds": [
+      "lavaridge"
+    ],
+    "locationId": "lavaridge",
+    "nextBossId": "norman",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-111-desert",
+    "name": "Route 111: desert",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 57,
+    "previousIds": [
+      "flannery-defeated"
+    ],
+    "locationId": "route-111",
+    "nextBossId": "norman",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "norman-defeated",
+    "name": "Defeat Norman and receive Surf",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "flannery-defeated",
+      "brawly-defeated"
+    ],
+    "locationId": "petalburg",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-103-surf",
+    "name": "Route 103: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-103",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-104-surf",
+    "name": "Route 104: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-104",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-105-surf",
+    "name": "Route 105: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-105",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-106-surf",
+    "name": "Route 106: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-106",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-107-surf",
+    "name": "Route 107: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-107",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-108-surf",
+    "name": "Route 108: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-108",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "abandoned-ship",
+    "name": "Abandoned Ship: upper rooms",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "abandoned-ship",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-109-surf",
+    "name": "Route 109: Surf visit",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-109",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-115-surf",
+    "name": "Route 115: north with Surf",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-115",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "new-mauville",
+    "name": "New Mauville: generator task",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "new-mauville",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-118-east",
+    "name": "Route 118: east bank",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-118",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Receive the Good Rod",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 71,
+    "previousIds": [
+      "route-118-east"
+    ],
+    "locationId": "route-118",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-119",
+    "name": "Route 119",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 72,
+    "previousIds": [
+      "route-118-east"
+    ],
+    "locationId": "route-119",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "weather-institute",
+    "name": "Free the Weather Institute and receive Castform",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 73,
+    "previousIds": [
+      "route-119"
+    ],
+    "locationId": "weather-institute",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rival-119",
+    "name": "Defeat the rival and receive Fly",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 74,
+    "previousIds": [
+      "weather-institute"
+    ],
+    "locationId": "route-119",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fortree",
+    "name": "Fortree City: before Winona",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 75,
+    "previousIds": [
+      "rival-119"
+    ],
+    "locationId": "fortree",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-120",
+    "name": "Route 120 and Steven",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 76,
+    "previousIds": [
+      "fortree"
+    ],
+    "locationId": "route-120",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "devon-scope",
+    "name": "Receive the Devon Scope",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 77,
+    "previousIds": [
+      "route-120"
+    ],
+    "locationId": "route-120",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-123",
+    "name": "Route 123",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 78,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-123",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "winona-defeated",
+    "name": "Defeat Winona",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 79,
+    "previousIds": [
+      "devon-scope"
+    ],
+    "locationId": "fortree",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-121",
+    "name": "Route 121",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 80,
+    "previousIds": [
+      "devon-scope"
+    ],
+    "locationId": "route-121",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 81,
+    "previousIds": [
+      "route-121"
+    ],
+    "locationId": "safari-zone",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lilycove",
+    "name": "Lilycove City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 82,
+    "previousIds": [
+      "route-121"
+    ],
+    "locationId": "lilycove",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-122",
+    "name": "Route 122",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 83,
+    "previousIds": [
+      "route-121"
+    ],
+    "locationId": "route-122",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-pyre",
+    "name": "Mt. Pyre",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 84,
+    "previousIds": [
+      "route-122"
+    ],
+    "locationId": "mt-pyre",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blue-orb",
+    "name": "Receive the Blue Orb from the Mt. Pyre elder",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 85,
+    "previousIds": [
+      "mt-pyre"
+    ],
+    "locationId": "mt-pyre",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "submarine",
+    "name": "Team Aqua steals the submarine",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 86,
+    "previousIds": [
+      "slateport",
+      "blue-orb"
+    ],
+    "locationId": "slateport",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "aqua-hideout",
+    "name": "Team Aqua Hideout",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 87,
+    "previousIds": [
+      "lilycove",
+      "submarine"
+    ],
+    "locationId": "aqua-hideout",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "aqua-hideout-cleared",
+    "name": "Clear Team Aqua Hideout",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 88,
+    "previousIds": [
+      "aqua-hideout"
+    ],
+    "locationId": "aqua-hideout",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-124",
+    "name": "Route 124",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 90,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-124",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mossdeep",
+    "name": "Mossdeep City: before Tate & Liza",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 91,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "mossdeep",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Receive the Super Rod",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 92,
+    "previousIds": [
+      "mossdeep"
+    ],
+    "locationId": "mossdeep",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-125",
+    "name": "Route 125",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 94,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-125",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "shoal-cave",
+    "name": "Shoal Cave: high and low tide",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 95,
+    "previousIds": [
+      "route-125"
+    ],
+    "locationId": "shoal-cave",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-126",
+    "name": "Route 126",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 96,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-126",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-127",
+    "name": "Route 127",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 97,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-127",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-128",
+    "name": "Route 128",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 98,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-128",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-129",
+    "name": "Route 129",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 99,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-129",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-130",
+    "name": "Route 130",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 100,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-130",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-131",
+    "name": "Route 131",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 101,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-131",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pacifidlog",
+    "name": "Pacifidlog Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 102,
+    "previousIds": [
+      "route-131"
+    ],
+    "locationId": "pacifidlog",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-132",
+    "name": "Route 132",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 103,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-132",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-133",
+    "name": "Route 133",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 104,
+    "previousIds": [
+      "aqua-hideout-cleared"
+    ],
+    "locationId": "route-133",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-134",
+    "name": "Route 134",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 105,
+    "previousIds": [
+      "norman-defeated"
+    ],
+    "locationId": "route-134",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sealed-chamber",
+    "name": "Sealed Chamber: unlock the Regis",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 106,
+    "previousIds": [
+      "route-134"
+    ],
+    "locationId": "sealed-chamber",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "island-cave",
+    "name": "Island Cave: Regice",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 107,
+    "previousIds": [
+      "sealed-chamber"
+    ],
+    "locationId": "island-cave",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "desert-ruins",
+    "name": "Desert Ruins: Regirock",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 108,
+    "previousIds": [
+      "sealed-chamber"
+    ],
+    "locationId": "desert-ruins",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ancient-tomb",
+    "name": "Ancient Tomb: Registeel",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 109,
+    "previousIds": [
+      "sealed-chamber"
+    ],
+    "locationId": "ancient-tomb",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tate-and-liza-defeated",
+    "name": "Defeat Tate & Liza",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 110,
+    "previousIds": [
+      "mossdeep"
+    ],
+    "locationId": "mossdeep",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "steven-dive",
+    "name": "Receive Dive from Steven in Mossdeep",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 93,
+    "previousIds": [
+      "mossdeep"
+    ],
+    "locationId": "mossdeep",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-124",
+    "name": "Underwater: Route 124",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 112,
+    "previousIds": [
+      "tate-and-liza-defeated"
+    ],
+    "locationId": "underwater-124",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-126",
+    "name": "Underwater: Route 126",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 113,
+    "previousIds": [
+      "tate-and-liza-defeated"
+    ],
+    "locationId": "underwater-126",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-127",
+    "name": "Underwater: Route 127",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 114,
+    "previousIds": [
+      "tate-and-liza-defeated"
+    ],
+    "locationId": "underwater-127",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-128",
+    "name": "Underwater: Route 128",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 115,
+    "previousIds": [
+      "tate-and-liza-defeated"
+    ],
+    "locationId": "underwater-128",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "abandoned-ship-dive",
+    "name": "Abandoned Ship: hidden rooms",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 116,
+    "previousIds": [
+      "tate-and-liza-defeated"
+    ],
+    "locationId": "abandoned-ship",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sootopolis",
+    "name": "Sootopolis City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 117,
+    "previousIds": [
+      "underwater-126"
+    ],
+    "locationId": "sootopolis",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafloor-cavern",
+    "name": "Seafloor Cavern",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 118,
+    "previousIds": [
+      "underwater-128"
+    ],
+    "locationId": "seafloor-cavern",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "archie-seafloor",
+    "name": "Stop Archie and awaken Kyogre",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 119,
+    "previousIds": [
+      "seafloor-cavern"
+    ],
+    "locationId": "seafloor-cavern",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cave-of-origin",
+    "name": "Cave of Origin and Wallace",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 120,
+    "previousIds": [
+      "archie-seafloor"
+    ],
+    "locationId": "cave-of-origin",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wallace-defeated",
+    "name": "Defeat Wallace and receive Waterfall",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 121,
+    "previousIds": [
+      "cave-of-origin"
+    ],
+    "locationId": "sootopolis",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sky-pillar",
+    "name": "Sky Pillar",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 135,
+    "previousIds": [
+      "steven-defeated"
+    ],
+    "locationId": "sky-pillar",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rayquaza",
+    "name": "Sky Pillar: Rayquaza encounter",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 136,
+    "previousIds": [
+      "sky-pillar"
+    ],
+    "locationId": "sky-pillar",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ever-grande",
+    "name": "Ever Grande City and Waterfall",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 124,
+    "previousIds": [
+      "wallace-defeated"
+    ],
+    "locationId": "ever-grande",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road and Wally",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 125,
+    "previousIds": [
+      "ever-grande"
+    ],
+    "locationId": "victory-road",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "league",
+    "name": "Pokémon League: before Sidney",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 126,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "league",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sidney-defeated",
+    "name": "Defeat Sidney",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 127,
+    "previousIds": [
+      "league"
+    ],
+    "locationId": "league",
+    "nextBossId": "phoebe",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "phoebe-defeated",
+    "name": "Defeat Phoebe",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 128,
+    "previousIds": [
+      "sidney-defeated"
+    ],
+    "locationId": "league",
+    "nextBossId": "glacia",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "glacia-defeated",
+    "name": "Defeat Glacia",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 129,
+    "previousIds": [
+      "phoebe-defeated"
+    ],
+    "locationId": "league",
+    "nextBossId": "drake",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "drake-defeated",
+    "name": "Defeat Drake",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 130,
+    "previousIds": [
+      "glacia-defeated"
+    ],
+    "locationId": "league",
+    "nextBossId": "steven",
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "steven-defeated",
+    "name": "Defeat Steven and enter the Hall of Fame",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 131,
+    "previousIds": [
+      "drake-defeated"
+    ],
+    "locationId": "league",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "beldum-gift",
+    "name": "Receive Beldum from Steven's house",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 132,
+    "previousIds": [
+      "steven-defeated"
+    ],
+    "locationId": "stevens-house",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "latias-roams",
+    "name": "TV report: Latias roams Hoenn",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 133,
+    "previousIds": [
+      "steven-defeated"
+    ],
+    "locationId": "littleroot",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "battle-tower",
+    "name": "Battle Tower",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 134,
+    "previousIds": [
+      "steven-defeated"
+    ],
+    "locationId": "battle-tower",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

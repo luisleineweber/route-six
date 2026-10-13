@@ -399,6 +399,118 @@
     "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
   },
   {
+    "id": "sapphire-species",
+    "title": "Sapphire species types, genders and Egg Groups",
+    "locator": "src/data/pokemon/base_stats.h and include/constants/species.h",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-dex",
+    "title": "Sapphire Hoenn and National Pokédex species order",
+    "locator": "include/constants/species.h; Hoenn dex constants and national dex constants",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/constants/species.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-type-chart",
+    "title": "Generation III type effectiveness",
+    "locator": "src/battle_util.c and battle damage type-effectiveness handling",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_util.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-encounters",
+    "title": "Sapphire wild encounter tables",
+    "locator": "src/data/wild_encounters.json and src/wild_encounter.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-progression",
+    "title": "Sapphire route, story and event scripts",
+    "locator": "data/maps/Route101 through Route134 scripts and map files; story map scripts; data/scripts/hall_of_fame.inc; data/scripts/tv.inc; data/event_scripts.s; src/field_control_avatar.c; src/pokemon_menu.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-bosses",
+    "title": "Sapphire Gym, Aqua, Elite Four and Champion parties",
+    "locator": "src/data/trainer_parties.h and trainer constants",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/trainer_parties.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-evolutions",
+    "title": "Sapphire evolution triggers and conditions",
+    "locator": "src/data/pokemon/evolution.h; src/pokemon_3.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-breeding",
+    "title": "Sapphire breeding compatibility and offspring rules",
+    "locator": "src/daycare.c and src/data/pokemon/base_stats.h",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/daycare.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-hatch",
+    "title": "Sapphire egg hatch level",
+    "locator": "include/daycare.h (EGG_HATCH_LEVEL)",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/daycare.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-items",
+    "title": "Sapphire item identities and placements",
+    "locator": "include/constants/items.h; data/item_ball_scripts.inc; data/maps/*/scripts.inc; shop inventories",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-trades",
+    "title": "Sapphire NPC trade offers and requirements",
+    "locator": "data/maps/*/scripts.inc; src/trader.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-choices",
+    "title": "Sapphire starters, fossils, one-time gifts and version choice",
+    "locator": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc; Route111 desert scripts; Route114 Fossil Maniac scripts; postgame scripts",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-postgame",
+    "title": "Sapphire postgame access, roamer and ordinary legendary events",
+    "locator": "data/scripts/hall_of_fame.inc; data/scripts/tv.inc; data/maps/*/scripts.inc; src/time_events.c; src/roamer.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-feebas",
+    "title": "Feebas fishing checks and Route 119 fishing spot rules",
+    "locator": "src/wild_encounter.c (CheckFeebas and FishingWildEncounter); data/maps/Route119",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/wild_encounter.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-mirage-island",
+    "title": "Mirage Island daily personality check and encounter access",
+    "locator": "src/time_events.c; data/maps/Route130/scripts.inc; data/maps/PacifidlogTown_House5/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-regi-puzzle",
+    "title": "Sealed Chamber and Regi unlock party requirements",
+    "locator": "data/maps/Underwater_Route134/scripts.inc; data/maps/SealedChamber_OuterRoom/scripts.inc; data/maps/SealedChamber_InnerRoom/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
     "id": "silver-species",
     "title": "Silver species types, gender ratios and Egg Groups",
     "locator": "data/pokemon/base_stats.asm and data/pokemon/base_stats/*.asm; review Silver conditionals",

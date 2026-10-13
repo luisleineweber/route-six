@@ -1,0 +1,1181 @@
+[
+  {
+    "id": "littleroot",
+    "name": "Littleroot Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "littleroot"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-101",
+    "name": "Route 101",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "oldale",
+    "name": "Oldale Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-101"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-103",
+    "name": "Route 103",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-101"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-102",
+    "name": "Route 102",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "petalburg",
+    "name": "Petalburg City and Wally",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-102"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-104",
+    "name": "Route 104",
+    "requirements": {
+      "kind": "milestone",
+      "id": "petalburg"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "petalburg-woods",
+    "name": "Petalburg Woods",
+    "requirements": {
+      "kind": "milestone",
+      "id": "petalburg"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rustboro",
+    "name": "Rustboro City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-woods"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-116",
+    "name": "Route 116",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-woods"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rusturf-tunnel",
+    "name": "Rusturf Tunnel",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-woods"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-115",
+    "name": "Route 115",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-woods"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-105",
+    "name": "Route 105",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mr-briney"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-106",
+    "name": "Route 106",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mr-briney"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-107",
+    "name": "Route 107",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mr-briney"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dewford",
+    "name": "Dewford Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mr-briney"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "granite-cave",
+    "name": "Granite Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mr-briney"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-108",
+    "name": "Route 108",
+    "requirements": {
+      "kind": "milestone",
+      "id": "steven-letter"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-109",
+    "name": "Route 109",
+    "requirements": {
+      "kind": "milestone",
+      "id": "steven-letter"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "slateport",
+    "name": "Slateport City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "steven-letter"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-110",
+    "name": "Route 110",
+    "requirements": {
+      "kind": "milestone",
+      "id": "museum"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mauville",
+    "name": "Mauville City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-110"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-117",
+    "name": "Route 117 and Day Care",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-110"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "verdanturf",
+    "name": "Verdanturf Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-110"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-118",
+    "name": "Route 118",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-110"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-111",
+    "name": "Route 111",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-110"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-112",
+    "name": "Route 112",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fiery-path",
+    "name": "Fiery Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-113",
+    "name": "Route 113",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fallarbor",
+    "name": "Fallarbor Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-114",
+    "name": "Route 114",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "meteor-falls",
+    "name": "Meteor Falls",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-chimney",
+    "name": "Mt. Chimney and the cable car",
+    "requirements": {
+      "kind": "milestone",
+      "id": "meteor-event"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "jagged-pass",
+    "name": "Jagged Pass",
+    "requirements": {
+      "kind": "milestone",
+      "id": "meteor-event"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavaridge",
+    "name": "Lavaridge Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "meteor-event"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "abandoned-ship",
+    "name": "Abandoned Ship",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "new-mauville",
+    "name": "New Mauville",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-119",
+    "name": "Route 119",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-123",
+    "name": "Route 123",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "weather-institute",
+    "name": "Weather Institute",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-119"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fortree",
+    "name": "Fortree City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-119"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-120",
+    "name": "Route 120 and Steven",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rival-119"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-121",
+    "name": "Route 121",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-scope"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-scope"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lilycove",
+    "name": "Lilycove City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-scope"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-122",
+    "name": "Route 122",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-scope"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-pyre",
+    "name": "Mt. Pyre",
+    "requirements": {
+      "kind": "milestone",
+      "id": "devon-scope"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "aqua-hideout",
+    "name": "Team Aqua Hideout",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "lilycove"
+        },
+        {
+          "kind": "milestone",
+          "id": "submarine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-124",
+    "name": "Route 124",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-125",
+    "name": "Route 125",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-126",
+    "name": "Route 126",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-127",
+    "name": "Route 127",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-128",
+    "name": "Route 128",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-129",
+    "name": "Route 129",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-130",
+    "name": "Route 130",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-131",
+    "name": "Route 131",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-132",
+    "name": "Route 132",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-133",
+    "name": "Route 133",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-134",
+    "name": "Route 134",
+    "requirements": {
+      "kind": "milestone",
+      "id": "norman-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mossdeep",
+    "name": "Mossdeep City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "shoal-cave",
+    "name": "Shoal Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-125"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pacifidlog",
+    "name": "Pacifidlog Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "aqua-hideout-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-124",
+    "name": "Underwater Route 124",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "aqua-hideout-cleared"
+        },
+        {
+          "kind": "capability",
+          "id": "dive"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-126",
+    "name": "Underwater Route 126",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "aqua-hideout-cleared"
+        },
+        {
+          "kind": "capability",
+          "id": "dive"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-127",
+    "name": "Underwater",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "aqua-hideout-cleared"
+        },
+        {
+          "kind": "capability",
+          "id": "dive"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "underwater-128",
+    "name": "Underwater",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "aqua-hideout-cleared"
+        },
+        {
+          "kind": "capability",
+          "id": "dive"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sootopolis",
+    "name": "Sootopolis City",
+    "requirements": {
+      "kind": "capability",
+      "id": "dive"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafloor-cavern",
+    "name": "Seafloor Cavern",
+    "requirements": {
+      "kind": "capability",
+      "id": "dive"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cave-of-origin",
+    "name": "Cave of Origin and Wallace",
+    "requirements": {
+      "kind": "milestone",
+      "id": "archie-seafloor"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sky-pillar",
+    "name": "Sky Pillar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "steven-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "sealed-chamber",
+    "name": "Sealed Chamber",
+    "requirements": {
+      "kind": "capability",
+      "id": "regi-puzzle"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "island-cave",
+    "name": "Island Cave",
+    "requirements": {
+      "kind": "capability",
+      "id": "regi-puzzle"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "desert-ruins",
+    "name": "Desert Ruins",
+    "requirements": {
+      "kind": "capability",
+      "id": "regi-puzzle"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ancient-tomb",
+    "name": "Ancient Tomb",
+    "requirements": {
+      "kind": "capability",
+      "id": "regi-puzzle"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ever-grande",
+    "name": "Ever Grande City and Waterfall",
+    "requirements": {
+      "kind": "capability",
+      "id": "waterfall"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road and Wally",
+    "requirements": {
+      "kind": "capability",
+      "id": "waterfall"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "league",
+    "name": "Pokémon League",
+    "requirements": {
+      "kind": "capability",
+      "id": "waterfall"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mirage-island",
+    "name": "Mirage Island",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-island"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-tidal",
+    "name": "S.S. Tidal",
+    "requirements": {
+      "kind": "milestone",
+      "id": "steven-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "battle-tower",
+    "name": "Battle Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "battle-tower"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "stevens-house",
+    "name": "Steven's House",
+    "requirements": {
+      "kind": "milestone",
+      "id": "steven-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]
