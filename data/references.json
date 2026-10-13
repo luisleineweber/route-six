@@ -98,6 +98,97 @@
     "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
   },
   {
+    "id": "red-species",
+    "title": "Pokémon Red species stats, types, and Pokédex order",
+    "locator": "data/pokemon/base_stats.asm; data/pokemon/dex_order.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-game",
+    "title": "Pokémon Red version scope and game rules",
+    "locator": "README.md; constants/pokemon_constants.asm; data/maps/headers",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-type-chart",
+    "title": "Generation I type IDs and effectiveness rules",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/types",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-progression",
+    "title": "Story events, badge flags, and map progression",
+    "locator": "data/maps/objects; data/maps/scripts; constants/event_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-bosses",
+    "title": "Gym, Elite Four, and Champion parties",
+    "locator": "data/trainers/parties.asm; data/trainers/names.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/trainers",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-locations",
+    "title": "Map identities and access scripts",
+    "locator": "data/maps/headers; data/maps/objects; data/maps/scripts; data/maps/blocks/Route2.blk; gfx/blocksets/overworld.bst; gfx/overworld.png",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-capabilities",
+    "title": "Field moves, badges, and overworld access checks",
+    "locator": "data/maps/scripts; engine/events; data/items/use_overworld.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/engine/events",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-items",
+    "title": "Item pickups, marts, key items, and fossils",
+    "locator": "data/items; data/events/hidden_item_coords.asm; data/maps/objects",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/items",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-choices",
+    "title": "Starter, Eevee, dojo, fossil, and Game Corner choices",
+    "locator": "data/maps/scripts; data/events/prizes.asm; data/events/prize_mon_levels.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/events",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-encounters",
+    "title": "Pokémon Red encounter, gift, prize, and NPC trade sources",
+    "locator": "data/wild/grass_water.asm; data/wild/probabilities.asm; data/wild/good_rod.asm; data/wild/super_rod.asm; data/wild/maps; data/events/trades.asm; data/events/prizes.asm; data/events/prize_mon_levels.asm; data/maps/objects/PowerPlant.asm; scripts/PowerPlant.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/wild",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-breeding",
+    "title": "Breeding support check",
+    "locator": "No breeding system exists in Generation I; reviewed against the Red/Blue game source",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-evolutions",
+    "title": "Level and item evolution data",
+    "locator": "data/pokemon/evos_moves.asm; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-exclusions",
+    "title": "Version exclusives and external Mew distribution",
+    "locator": "data/wild/maps; data/maps/scripts; data/pokemon/mew.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
     "id": "ruby-game",
     "title": "Pokémon Ruby identity and game version",
     "locator": "config.mk",

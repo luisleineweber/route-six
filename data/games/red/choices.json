@@ -1,0 +1,5 @@
+[
+  {"id":"starter-choice","name":"Oak's starter Pokémon","options":["bulbasaur","charmander","squirtle"],"maximumSelections":1,"review":{"referenceIds":["red-choices"],"checkedOn":"2026-10-12"}},
+  {"id":"dojo-choice","name":"Saffron Fighting Dojo prize","options":["hitmonlee","hitmonchan"],"maximumSelections":1,"review":{"referenceIds":["red-choices"],"checkedOn":"2026-10-12"}},
+  {"id":"fossil-choice","name":"Mt. Moon fossil","options":["dome-fossil","helix-fossil"],"maximumSelections":1,"review":{"referenceIds":["red-choices"],"checkedOn":"2026-10-12"}}
+]
