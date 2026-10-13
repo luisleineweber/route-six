@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "pallet-town",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose a starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": null,
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-city",
+    "name": "Viridian City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "viridian-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "viridian-city"
+    ],
+    "locationId": "pewter-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Defeat Brock",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "pewter-city"
+    ],
+    "locationId": null,
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "brock-defeated"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Defeat Misty",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": null,
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "misty-defeated"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lt-surge-defeated",
+    "name": "Defeat Lt. Surge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "vermilion-city"
+    ],
+    "locationId": null,
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower",
+    "name": "Reach Pokemon Tower",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "misty-defeated"
+    ],
+    "locationId": "pokemon-tower",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Reach Celadon City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "celadon-city",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Defeat Erika",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": null,
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-flute",
+    "name": "Receive the Poke Flute",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "pokemon-tower",
+      "celadon-city"
+    ],
+    "locationId": "lavender-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Reach Saffron City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Defeat Sabrina",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": null,
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Reach Fuchsia City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "celadon-city",
+      "pokemon-flute"
+    ],
+    "locationId": "fuchsia-city",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "koga-defeated",
+    "name": "Defeat Koga",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "fuchsia-city"
+    ],
+    "locationId": null,
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Reach Cinnabar Island",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "cinnabar-island",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Defeat Blaine",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "cinnabar-island"
+    ],
+    "locationId": null,
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island",
+    "name": "Visit One Island and receive the Tri-Pass",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "blaine-defeated"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-co",
+    "name": "Clear Silph Co.",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "pokemon-flute",
+      "celadon-city"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "giovanni",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-gym",
+    "name": "Open Viridian Gym",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "silph-co"
+    ],
+    "locationId": "viridian-gym",
+    "nextBossId": "giovanni",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "giovanni-defeated",
+    "name": "Defeat Giovanni",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "viridian-gym"
+    ],
+    "locationId": null,
+    "nextBossId": "giovanni",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Reach Victory Road",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "brock-defeated",
+      "misty-defeated",
+      "lt-surge-defeated",
+      "erika-defeated",
+      "koga-defeated",
+      "sabrina-defeated",
+      "blaine-defeated",
+      "giovanni-defeated"
+    ],
+    "locationId": "victory-road",
+    "nextBossId": "lorelei",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Reach Indigo Plateau",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "lorelei",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "league",
+    "name": "Enter the Pokemon League",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "indigo-plateau"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "lorelei",
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "champion-defeated",
+    "name": "Become the Champion",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "league"
+    ],
+    "locationId": null,
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "Unlock the National Pokedex (60 caught species)",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 27,
+    "previousIds": [
+      "champion-defeated",
+      "one-island"
+    ],
+    "locationId": "pallet-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ruby-returned",
+    "name": "Return the Ruby to Celio after National Pokedex unlock",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 28,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rainbow-pass",
+    "name": "Receive the Rainbow Pass",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 29,
+    "previousIds": [
+      "ruby-returned"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island",
+    "name": "Visit Four Island",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 30,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "four-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "icefall-rockets-cleared",
+    "name": "Icefall Cave Rockets defeated",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 31,
+    "previousIds": [
+      "four-island"
+    ],
+    "locationId": "four-island-icefall-cave-back",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "five-island",
+    "name": "Visit Five Island",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 32,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "five-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island",
+    "name": "Visit Six Island",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 33,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "six-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sapphire-returned",
+    "name": "Return the Sapphire to Celio",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 34,
+    "previousIds": [
+      "rainbow-pass",
+      "six-island",
+      "five-island",
+      "icefall-rockets-cleared"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island",
+    "name": "Visit Seven Island",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 35,
+    "previousIds": [
+      "rainbow-pass"
+    ],
+    "locationId": "seven-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "network-machine",
+    "name": "Complete Celio's Network Machine",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 36,
+    "previousIds": [
+      "sapphire-returned"
+    ],
+    "locationId": "one-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Reach Route 1",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "route-1",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Reach Route 2",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "viridian-city"
+    ],
+    "locationId": "route-2",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Reach Route 3",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "pewter-city"
+    ],
+    "locationId": "route-3",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Reach Route 4",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "route-3"
+    ],
+    "locationId": "route-4",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Reach Route 5",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-5",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Reach Route 6",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "vermilion-city"
+    ],
+    "locationId": "route-6",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Reach Route 7",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "route-7",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Reach Route 8",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "route-8",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Reach Route 9",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-9",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Reach Route 10",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "route-9"
+    ],
+    "locationId": "route-10",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Reach Route 11",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "vermilion-city"
+    ],
+    "locationId": "route-11",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Reach Route 12",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "pokemon-flute"
+    ],
+    "locationId": "route-12",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Reach Route 13",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "route-12"
+    ],
+    "locationId": "route-13",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Reach Route 14",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "route-13"
+    ],
+    "locationId": "route-14",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Reach Route 15",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "route-14"
+    ],
+    "locationId": "route-15",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Reach Route 16",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 52,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "route-16",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Reach Route 17",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "pokemon-flute"
+    ],
+    "locationId": "route-17",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Reach Route 18",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "fuchsia-city"
+    ],
+    "locationId": "route-18",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Reach Route 19",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "fuchsia-city"
+    ],
+    "locationId": "route-19",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Reach Route 20",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 56,
+    "previousIds": [
+      "cinnabar-island"
+    ],
+    "locationId": "route-20",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Reach Route 21",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 57,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "route-21",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Reach Route 22",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 58,
+    "previousIds": [
+      "viridian-city"
+    ],
+    "locationId": "route-22",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-23",
+    "name": "Reach Route 23",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "viridian-gym"
+    ],
+    "locationId": "route-23",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Reach Route 24",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-24",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Reach Route 25",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-25",
+    "nextBossId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-scripts"
+      ]
+    }
+  }
+]

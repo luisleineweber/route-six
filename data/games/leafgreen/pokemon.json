@@ -1,0 +1,9256 @@
+[
+  {
+    "pokemonId": "bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/1.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 1
+  },
+  {
+    "pokemonId": "ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/2.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 2
+  },
+  {
+    "pokemonId": "venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/3.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 3
+  },
+  {
+    "pokemonId": "charmander",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/4.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 4
+  },
+  {
+    "pokemonId": "charmeleon",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/5.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 5
+  },
+  {
+    "pokemonId": "charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/6.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 6
+  },
+  {
+    "pokemonId": "squirtle",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/7.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 7
+  },
+  {
+    "pokemonId": "wartortle",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/8.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 8
+  },
+  {
+    "pokemonId": "blastoise",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/9.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 9
+  },
+  {
+    "pokemonId": "caterpie",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/10.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 10
+  },
+  {
+    "pokemonId": "metapod",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/11.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 11
+  },
+  {
+    "pokemonId": "butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/12.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 12
+  },
+  {
+    "pokemonId": "weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/13.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 13
+  },
+  {
+    "pokemonId": "kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/14.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 14
+  },
+  {
+    "pokemonId": "beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/15.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 15
+  },
+  {
+    "pokemonId": "pidgey",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/16.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 16
+  },
+  {
+    "pokemonId": "pidgeotto",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/17.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 17
+  },
+  {
+    "pokemonId": "pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/18.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 18
+  },
+  {
+    "pokemonId": "rattata",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/19.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 19
+  },
+  {
+    "pokemonId": "raticate",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/20.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 20
+  },
+  {
+    "pokemonId": "spearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/21.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 21
+  },
+  {
+    "pokemonId": "fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/22.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 22
+  },
+  {
+    "pokemonId": "ekans",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/23.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 23
+  },
+  {
+    "pokemonId": "arbok",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/24.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 24
+  },
+  {
+    "pokemonId": "pikachu",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/25.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 25
+  },
+  {
+    "pokemonId": "raichu",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/26.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 26
+  },
+  {
+    "pokemonId": "sandshrew",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/27.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 27
+  },
+  {
+    "pokemonId": "sandslash",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/28.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 28
+  },
+  {
+    "pokemonId": "nidoran-f",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/29.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 29
+  },
+  {
+    "pokemonId": "nidorina",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/30.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 30
+  },
+  {
+    "pokemonId": "nidoqueen",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/31.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 31
+  },
+  {
+    "pokemonId": "nidoran-m",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/32.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 32
+  },
+  {
+    "pokemonId": "nidorino",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/33.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 33
+  },
+  {
+    "pokemonId": "nidoking",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/34.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 34
+  },
+  {
+    "pokemonId": "clefairy",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/35.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 35
+  },
+  {
+    "pokemonId": "clefable",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/36.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 36
+  },
+  {
+    "pokemonId": "vulpix",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/37.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 37
+  },
+  {
+    "pokemonId": "ninetales",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/38.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 38
+  },
+  {
+    "pokemonId": "jigglypuff",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/39.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 39
+  },
+  {
+    "pokemonId": "wigglytuff",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/40.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 40
+  },
+  {
+    "pokemonId": "zubat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/41.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 41
+  },
+  {
+    "pokemonId": "golbat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/42.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 42
+  },
+  {
+    "pokemonId": "oddish",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/43.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 43
+  },
+  {
+    "pokemonId": "gloom",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/44.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 44
+  },
+  {
+    "pokemonId": "vileplume",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/45.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 45
+  },
+  {
+    "pokemonId": "paras",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/46.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 46
+  },
+  {
+    "pokemonId": "parasect",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/47.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 47
+  },
+  {
+    "pokemonId": "venonat",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/48.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 48
+  },
+  {
+    "pokemonId": "venomoth",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/49.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 49
+  },
+  {
+    "pokemonId": "diglett",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/50.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 50
+  },
+  {
+    "pokemonId": "dugtrio",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/51.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 51
+  },
+  {
+    "pokemonId": "meowth",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/52.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 52
+  },
+  {
+    "pokemonId": "persian",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/53.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 53
+  },
+  {
+    "pokemonId": "psyduck",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/54.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 54
+  },
+  {
+    "pokemonId": "golduck",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/55.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 55
+  },
+  {
+    "pokemonId": "mankey",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/56.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 56
+  },
+  {
+    "pokemonId": "primeape",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/57.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 57
+  },
+  {
+    "pokemonId": "growlithe",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/58.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 58
+  },
+  {
+    "pokemonId": "arcanine",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/59.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 59
+  },
+  {
+    "pokemonId": "poliwag",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/60.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 60
+  },
+  {
+    "pokemonId": "poliwhirl",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/61.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 61
+  },
+  {
+    "pokemonId": "poliwrath",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/62.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 62
+  },
+  {
+    "pokemonId": "abra",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/63.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 63
+  },
+  {
+    "pokemonId": "kadabra",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/64.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 64
+  },
+  {
+    "pokemonId": "alakazam",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/65.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 65
+  },
+  {
+    "pokemonId": "machop",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/66.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 66
+  },
+  {
+    "pokemonId": "machoke",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/67.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 67
+  },
+  {
+    "pokemonId": "machamp",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/68.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 68
+  },
+  {
+    "pokemonId": "bellsprout",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/69.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 69
+  },
+  {
+    "pokemonId": "weepinbell",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/70.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 70
+  },
+  {
+    "pokemonId": "victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/71.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 71
+  },
+  {
+    "pokemonId": "tentacool",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/72.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 72
+  },
+  {
+    "pokemonId": "tentacruel",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/73.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 73
+  },
+  {
+    "pokemonId": "geodude",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/74.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 74
+  },
+  {
+    "pokemonId": "graveler",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/75.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 75
+  },
+  {
+    "pokemonId": "golem",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/76.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 76
+  },
+  {
+    "pokemonId": "ponyta",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/77.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 77
+  },
+  {
+    "pokemonId": "rapidash",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/78.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 78
+  },
+  {
+    "pokemonId": "slowpoke",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/79.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 79
+  },
+  {
+    "pokemonId": "slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/80.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 80
+  },
+  {
+    "pokemonId": "magnemite",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/81.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 81
+  },
+  {
+    "pokemonId": "magneton",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/82.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 82
+  },
+  {
+    "pokemonId": "farfetchd",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/83.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 83
+  },
+  {
+    "pokemonId": "doduo",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/84.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 84
+  },
+  {
+    "pokemonId": "dodrio",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/85.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 85
+  },
+  {
+    "pokemonId": "seel",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/86.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 86
+  },
+  {
+    "pokemonId": "dewgong",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/87.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 87
+  },
+  {
+    "pokemonId": "grimer",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/88.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 88
+  },
+  {
+    "pokemonId": "muk",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/89.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 89
+  },
+  {
+    "pokemonId": "shellder",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/90.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 90
+  },
+  {
+    "pokemonId": "cloyster",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/91.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 91
+  },
+  {
+    "pokemonId": "gastly",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/92.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 92
+  },
+  {
+    "pokemonId": "haunter",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/93.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 93
+  },
+  {
+    "pokemonId": "gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/94.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 94
+  },
+  {
+    "pokemonId": "onix",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/95.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 95
+  },
+  {
+    "pokemonId": "drowzee",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/96.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 96
+  },
+  {
+    "pokemonId": "hypno",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/97.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 97
+  },
+  {
+    "pokemonId": "krabby",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/98.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 98
+  },
+  {
+    "pokemonId": "kingler",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/99.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 99
+  },
+  {
+    "pokemonId": "voltorb",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/100.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 100
+  },
+  {
+    "pokemonId": "electrode",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/101.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 101
+  },
+  {
+    "pokemonId": "exeggcute",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/102.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 102
+  },
+  {
+    "pokemonId": "exeggutor",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/103.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 103
+  },
+  {
+    "pokemonId": "cubone",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/104.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 104
+  },
+  {
+    "pokemonId": "marowak",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/105.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 105
+  },
+  {
+    "pokemonId": "hitmonlee",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/106.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 106
+  },
+  {
+    "pokemonId": "hitmonchan",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/107.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 107
+  },
+  {
+    "pokemonId": "lickitung",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/108.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 108
+  },
+  {
+    "pokemonId": "koffing",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/109.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 109
+  },
+  {
+    "pokemonId": "weezing",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/110.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 110
+  },
+  {
+    "pokemonId": "rhyhorn",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/111.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 111
+  },
+  {
+    "pokemonId": "rhydon",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/112.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 112
+  },
+  {
+    "pokemonId": "chansey",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/113.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 113
+  },
+  {
+    "pokemonId": "tangela",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/114.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 114
+  },
+  {
+    "pokemonId": "kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/115.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 115
+  },
+  {
+    "pokemonId": "horsea",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/116.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 116
+  },
+  {
+    "pokemonId": "seadra",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/117.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 117
+  },
+  {
+    "pokemonId": "goldeen",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/118.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 118
+  },
+  {
+    "pokemonId": "seaking",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/119.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 119
+  },
+  {
+    "pokemonId": "staryu",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/120.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 120
+  },
+  {
+    "pokemonId": "starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/121.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 121
+  },
+  {
+    "pokemonId": "mr-mime",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/122.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 122
+  },
+  {
+    "pokemonId": "scyther",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/123.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 123
+  },
+  {
+    "pokemonId": "jynx",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/124.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 124
+  },
+  {
+    "pokemonId": "electabuzz",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/125.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 125
+  },
+  {
+    "pokemonId": "magmar",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/126.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 126
+  },
+  {
+    "pokemonId": "pinsir",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/127.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 127
+  },
+  {
+    "pokemonId": "tauros",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/128.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 128
+  },
+  {
+    "pokemonId": "magikarp",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/129.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 129
+  },
+  {
+    "pokemonId": "gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/130.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 130
+  },
+  {
+    "pokemonId": "lapras",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/131.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 131
+  },
+  {
+    "pokemonId": "ditto",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "ditto"
+      ]
+    },
+    "spriteSrc": "/pokemon/132.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 132
+  },
+  {
+    "pokemonId": "eevee",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/133.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 133
+  },
+  {
+    "pokemonId": "vaporeon",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/134.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 134
+  },
+  {
+    "pokemonId": "jolteon",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/135.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 135
+  },
+  {
+    "pokemonId": "flareon",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/136.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 136
+  },
+  {
+    "pokemonId": "porygon",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/137.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 137
+  },
+  {
+    "pokemonId": "omanyte",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/138.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 138
+  },
+  {
+    "pokemonId": "omastar",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/139.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 139
+  },
+  {
+    "pokemonId": "kabuto",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/140.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 140
+  },
+  {
+    "pokemonId": "kabutops",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/141.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 141
+  },
+  {
+    "pokemonId": "aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/142.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 142
+  },
+  {
+    "pokemonId": "snorlax",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/143.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 143
+  },
+  {
+    "pokemonId": "articuno",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/144.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 144
+  },
+  {
+    "pokemonId": "zapdos",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/145.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 145
+  },
+  {
+    "pokemonId": "moltres",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/146.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 146
+  },
+  {
+    "pokemonId": "dratini",
+    "types": [
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/147.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 147
+  },
+  {
+    "pokemonId": "dragonair",
+    "types": [
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/148.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 148
+  },
+  {
+    "pokemonId": "dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/149.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 149
+  },
+  {
+    "pokemonId": "mewtwo",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/150.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 150
+  },
+  {
+    "pokemonId": "mew",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/151.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "regionalDex": 151
+  },
+  {
+    "pokemonId": "chikorita",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/152.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bayleef",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/153.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meganium",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/154.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cyndaquil",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/155.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "quilava",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/156.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "typhlosion",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/157.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "totodile",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/158.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "croconaw",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/159.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "feraligatr",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/160.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sentret",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/161.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "furret",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/162.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hoothoot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/163.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "noctowl",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/164.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ledyba",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/165.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ledian",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/166.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spinarak",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/167.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ariados",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/168.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "crobat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/169.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chinchou",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/170.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lanturn",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/171.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pichu",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/172.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cleffa",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/173.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "igglybuff",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/174.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "togepi",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/175.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "togetic",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/176.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "natu",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/177.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "xatu",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/178.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mareep",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/179.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flaaffy",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/180.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ampharos",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/181.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bellossom",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/182.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "marill",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/183.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "azumarill",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/184.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sudowoodo",
+    "types": [
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/185.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "politoed",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/186.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hoppip",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/187.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "skiploom",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/188.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jumpluff",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/189.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aipom",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/190.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sunkern",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/191.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sunflora",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/192.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "yanma",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/193.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wooper",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/194.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "quagsire",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/195.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "espeon",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/196.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "umbreon",
+    "types": [
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/197.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "murkrow",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/198.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowking",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/199.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "misdreavus",
+    "types": [
+      "ghost"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/200.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "unown",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/201.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wobbuffet",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/202.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "girafarig",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/203.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pineco",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/204.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "forretress",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/205.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dunsparce",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/206.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gligar",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/207.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "steelix",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/208.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snubbull",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/209.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "granbull",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/210.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "qwilfish",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/211.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "scizor",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/212.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shuckle",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/213.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "heracross",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/214.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sneasel",
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/215.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "teddiursa",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/216.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ursaring",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/217.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slugma",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/218.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magcargo",
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/219.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swinub",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/220.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "piloswine",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/221.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "corsola",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/222.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "remoraid",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/223.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "octillery",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/224.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "delibird",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/225.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mantine",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/226.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "skarmory",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/227.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "houndour",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/228.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "houndoom",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/229.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kingdra",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/230.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "phanpy",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/231.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "donphan",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/232.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "porygon2",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/233.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "stantler",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/234.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "smeargle",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/235.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tyrogue",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/236.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hitmontop",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/237.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "smoochum",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/238.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "elekid",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/239.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magby",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/240.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "miltank",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/241.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blissey",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/242.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "raikou",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/243.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "entei",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/244.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "suicune",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/245.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "larvitar",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/246.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pupitar",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/247.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tyranitar",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/248.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lugia",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/249.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ho-oh",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/250.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/251.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "treecko",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/252.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "grovyle",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/253.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sceptile",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/254.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "torchic",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/255.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "combusken",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/256.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blaziken",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/257.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mudkip",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/258.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "marshtomp",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/259.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swampert",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/260.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poochyena",
+    "types": [
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/261.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mightyena",
+    "types": [
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/262.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zigzagoon",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/263.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "linoone",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/264.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wurmple",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/265.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "silcoon",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/266.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beautifly",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/267.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cascoon",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/268.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dustox",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/269.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lotad",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/270.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lombre",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/271.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ludicolo",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/272.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seedot",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/273.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nuzleaf",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/274.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shiftry",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/275.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "taillow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/276.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swellow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/277.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wingull",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/278.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pelipper",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "flying"
+      ]
+    },
+    "spriteSrc": "/pokemon/279.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ralts",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/280.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kirlia",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/281.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gardevoir",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/282.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "surskit",
+    "types": [
+      "bug",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/283.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "masquerain",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/284.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shroomish",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/285.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "breloom",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/286.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slakoth",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/287.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vigoroth",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/288.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slaking",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/289.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nincada",
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/290.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ninjask",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/291.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shedinja",
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/292.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "whismur",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/293.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "loudred",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/294.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "exploud",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/295.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "makuhita",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/296.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hariyama",
+    "types": [
+      "fighting"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/297.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "azurill",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/298.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nosepass",
+    "types": [
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/299.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "skitty",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/300.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "delcatty",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/301.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sableye",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/302.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mawile",
+    "types": [
+      "steel"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/303.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aron",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/304.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lairon",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/305.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aggron",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster"
+      ]
+    },
+    "spriteSrc": "/pokemon/306.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meditite",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/307.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "medicham",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/308.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electrike",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/309.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "manectric",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/310.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "plusle",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/311.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "minun",
+    "types": [
+      "electric"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy"
+      ]
+    },
+    "spriteSrc": "/pokemon/312.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "volbeat",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug",
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/313.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "illumise",
+    "types": [
+      "bug"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug",
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/314.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "roselia",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/315.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gulpin",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/316.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swalot",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/317.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "carvanha",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/318.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sharpedo",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/319.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wailmer",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/320.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wailord",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/321.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "numel",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/322.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "camerupt",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/323.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "torkoal",
+    "types": [
+      "fire"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/324.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spoink",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/325.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "grumpig",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/326.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spinda",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/327.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "trapinch",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/328.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vibrava",
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/329.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flygon",
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "bug"
+      ]
+    },
+    "spriteSrc": "/pokemon/330.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cacnea",
+    "types": [
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass",
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/331.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cacturne",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "grass",
+        "human-like"
+      ]
+    },
+    "spriteSrc": "/pokemon/332.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "swablu",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/333.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "altaria",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "flying",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/334.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zangoose",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/335.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seviper",
+    "types": [
+      "poison"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/336.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lunatone",
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/337.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "solrock",
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/338.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "barboach",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/339.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "whiscash",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/340.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "corphish",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/341.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "crawdaunt",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/342.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "baltoy",
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/343.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "claydol",
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/344.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lileep",
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/345.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cradily",
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/346.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "anorith",
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/347.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "armaldo",
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-3"
+      ]
+    },
+    "spriteSrc": "/pokemon/348.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "feebas",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/349.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "milotic",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/350.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "castform",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/351.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kecleon",
+    "types": [
+      "normal"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/352.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shuppet",
+    "types": [
+      "ghost"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/353.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "banette",
+    "types": [
+      "ghost"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/354.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "duskull",
+    "types": [
+      "ghost"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/355.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dusclops",
+    "types": [
+      "ghost"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/356.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tropius",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "monster",
+        "grass"
+      ]
+    },
+    "spriteSrc": "/pokemon/357.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chimecho",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "amorphous"
+      ]
+    },
+    "spriteSrc": "/pokemon/358.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "absol",
+    "types": [
+      "dark"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/359.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wynaut",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/360.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snorunt",
+    "types": [
+      "ice"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/361.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "glalie",
+    "types": [
+      "ice"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "fairy",
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/362.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spheal",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/363.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sealeo",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/364.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "walrein",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "field"
+      ]
+    },
+    "spriteSrc": "/pokemon/365.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "clamperl",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/366.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "huntail",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/367.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gorebyss",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1"
+      ]
+    },
+    "spriteSrc": "/pokemon/368.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "relicanth",
+    "types": [
+      "water",
+      "rock"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-1",
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/369.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "luvdisc",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "water-2"
+      ]
+    },
+    "spriteSrc": "/pokemon/370.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bagon",
+    "types": [
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/371.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shelgon",
+    "types": [
+      "dragon"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/372.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "salamence",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "genders": [
+      "male",
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "dragon"
+      ]
+    },
+    "spriteSrc": "/pokemon/373.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beldum",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/374.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "metang",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/375.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "metagross",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "mineral"
+      ]
+    },
+    "spriteSrc": "/pokemon/376.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "regirock",
+    "types": [
+      "rock"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/377.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "regice",
+    "types": [
+      "ice"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/378.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "registeel",
+    "types": [
+      "steel"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/379.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "latias",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "genders": [
+      "female"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/380.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "latios",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "genders": [
+      "male"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/381.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kyogre",
+    "types": [
+      "water"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/382.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "groudon",
+    "types": [
+      "ground"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/383.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rayquaza",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/384.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jirachi",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/385.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "deoxys",
+    "types": [
+      "psychic"
+    ],
+    "genders": [
+      "genderless"
+    ],
+    "breeding": {
+      "eggGroupIds": [
+        "undiscovered"
+      ]
+    },
+    "spriteSrc": "/pokemon/386.png",
+    "review": {
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-dex"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

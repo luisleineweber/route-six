@@ -992,5 +992,96 @@
     "locator": "src/data/wild_encounters.json; data/maps/*/scripts.inc; src/pokedex.c; src/evolution_scene.c; include/constants/flags.h; src/data/pokemon/evolution.h",
     "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
     "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-overview",
+    "title": "pret/pokefirered LeafGreen source reconstruction",
+    "locator": "Repository identity, supported ROM targets, and project scope",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-species",
+    "title": "pret/pokefirered species data",
+    "locator": "src/data/pokemon/species_info.h; LeafGreen species type, gender ratio, egg groups, and species data",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon/species_info.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-dex",
+    "title": "pret/pokefirered PokÃ©dex ordering",
+    "locator": "src/data/pokemon/pokedex_orders.h and src/data/pokemon/pokedex_entries.h; regional and National Pokedex orders and availability",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-evolution",
+    "title": "pret/pokefirered evolution data",
+    "locator": "src/data/pokemon/evolution.h; level, item, friendship, and trade evolution rules",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon/evolution.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-encounters",
+    "title": "pret/pokefirered wild encounters",
+    "locator": "src/data/wild_encounters.json; LeafGreen version encounter tables and encounter levels by map",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/wild_encounters.json",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-scripts",
+    "title": "pret/pokefirered LeafGreen map scripts and events",
+    "locator": "data/maps/*/scripts.inc and data/maps/*/map.json; inspect each Kanto and Sevii map for progression flags, gifts, static encounters, item access, and version checks",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-bosses",
+    "title": "pret/pokefirered trainer parties",
+    "locator": "src/data/trainer_parties.h and data/maps/*/scripts.inc; Gym, rival, and League parties and levels",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/trainer_parties.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-items",
+    "title": "pret/pokefirered item definitions and item placements",
+    "locator": "src/data/items.json; data/maps/*/scripts.inc; item definitions, field items, shop rewards, and key item events",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/items.json",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-type-chart",
+    "title": "pret/pokefirered battle type rules",
+    "locator": "src/battle_util.c and include/constants/battle.h; Generation III type effectiveness values",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-version",
+    "title": "pret/pokefirered version-specific rules",
+    "locator": "include/constants/flags.h; include/constants/species.h; data/maps/*/scripts.inc; LeafGreen version flags and version-exclusive gifts/encounters",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/include/constants",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-daycare",
+    "title": "pret/pokefirered breeding rules",
+    "locator": "src/daycare.c and include/constants/daycare.h; breeding, egg creation, compatibility, and hatch rules",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/daycare.c",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-trades",
+    "title": "LeafGreen in-game trades",
+    "locator": "src/data/ingame_trades.h; data/maps/*/scripts.inc; requested and received species for all nine NPC trades",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/ingame_trades.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-roamers",
+    "title": "LeafGreen roaming beasts",
+    "locator": "src/roamer.c; data/maps/OneIsland_PokemonCenter_1F/scripts.inc; level, starter mapping, roaming region, and Sapphire-return release event",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/roamer.c",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
   }
 ]

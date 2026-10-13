@@ -1,0 +1,2704 @@
+[
+  {
+    "pokemonId": "absol",
+    "reason": "other-version",
+    "explanation": "absol has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "aggron",
+    "reason": "other-version",
+    "explanation": "aggron has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "aipom",
+    "reason": "other-version",
+    "explanation": "aipom has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "altaria",
+    "reason": "other-version",
+    "explanation": "altaria has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ampharos",
+    "reason": "other-version",
+    "explanation": "ampharos has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "anorith",
+    "reason": "other-version",
+    "explanation": "anorith has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "arbok",
+    "reason": "other-version",
+    "explanation": "arbok has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "arcanine",
+    "reason": "other-version",
+    "explanation": "arcanine has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "armaldo",
+    "reason": "other-version",
+    "explanation": "armaldo has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "aron",
+    "reason": "other-version",
+    "explanation": "aron has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "bagon",
+    "reason": "other-version",
+    "explanation": "bagon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "baltoy",
+    "reason": "other-version",
+    "explanation": "baltoy has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "banette",
+    "reason": "other-version",
+    "explanation": "banette has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "barboach",
+    "reason": "other-version",
+    "explanation": "barboach has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "bayleef",
+    "reason": "other-version",
+    "explanation": "bayleef has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "beautifly",
+    "reason": "other-version",
+    "explanation": "beautifly has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "beldum",
+    "reason": "other-version",
+    "explanation": "beldum has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "bellossom",
+    "reason": "other-version",
+    "explanation": "bellossom has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "blaziken",
+    "reason": "other-version",
+    "explanation": "blaziken has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "breloom",
+    "reason": "other-version",
+    "explanation": "breloom has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "cacnea",
+    "reason": "other-version",
+    "explanation": "cacnea has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "cacturne",
+    "reason": "other-version",
+    "explanation": "cacturne has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "camerupt",
+    "reason": "other-version",
+    "explanation": "camerupt has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "carvanha",
+    "reason": "other-version",
+    "explanation": "carvanha has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "cascoon",
+    "reason": "other-version",
+    "explanation": "cascoon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "castform",
+    "reason": "other-version",
+    "explanation": "castform has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "external-event",
+    "explanation": "celebi requires an external event distribution in LeafGreen.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "chikorita",
+    "reason": "other-version",
+    "explanation": "chikorita has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "chimecho",
+    "reason": "other-version",
+    "explanation": "chimecho has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "chinchou",
+    "reason": "other-version",
+    "explanation": "chinchou has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "clamperl",
+    "reason": "other-version",
+    "explanation": "clamperl has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "claydol",
+    "reason": "other-version",
+    "explanation": "claydol has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "cloyster",
+    "reason": "other-version",
+    "explanation": "cloyster has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "combusken",
+    "reason": "other-version",
+    "explanation": "combusken has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "corphish",
+    "reason": "other-version",
+    "explanation": "corphish has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "corsola",
+    "reason": "other-version",
+    "explanation": "corsola has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "cradily",
+    "reason": "other-version",
+    "explanation": "cradily has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "crawdaunt",
+    "reason": "other-version",
+    "explanation": "crawdaunt has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "croconaw",
+    "reason": "other-version",
+    "explanation": "croconaw has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "cyndaquil",
+    "reason": "other-version",
+    "explanation": "cyndaquil has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "delcatty",
+    "reason": "other-version",
+    "explanation": "delcatty has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "delibird",
+    "reason": "other-version",
+    "explanation": "delibird has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "deoxys",
+    "reason": "external-event",
+    "explanation": "deoxys requires an external event distribution in LeafGreen.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "dusclops",
+    "reason": "other-version",
+    "explanation": "dusclops has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "duskull",
+    "reason": "other-version",
+    "explanation": "duskull has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "dustox",
+    "reason": "other-version",
+    "explanation": "dustox has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ekans",
+    "reason": "other-version",
+    "explanation": "ekans has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "electabuzz",
+    "reason": "other-version",
+    "explanation": "electabuzz has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "electrike",
+    "reason": "other-version",
+    "explanation": "electrike has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "elekid",
+    "reason": "other-version",
+    "explanation": "elekid has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "espeon",
+    "reason": "other-version",
+    "explanation": "espeon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "exploud",
+    "reason": "other-version",
+    "explanation": "exploud has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "feebas",
+    "reason": "other-version",
+    "explanation": "feebas has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "feraligatr",
+    "reason": "other-version",
+    "explanation": "feraligatr has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "flaaffy",
+    "reason": "other-version",
+    "explanation": "flaaffy has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "flygon",
+    "reason": "other-version",
+    "explanation": "flygon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "forretress",
+    "reason": "other-version",
+    "explanation": "forretress has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "gardevoir",
+    "reason": "other-version",
+    "explanation": "gardevoir has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "girafarig",
+    "reason": "other-version",
+    "explanation": "girafarig has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "glalie",
+    "reason": "other-version",
+    "explanation": "glalie has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "gligar",
+    "reason": "other-version",
+    "explanation": "gligar has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "gloom",
+    "reason": "other-version",
+    "explanation": "gloom has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "golduck",
+    "reason": "other-version",
+    "explanation": "golduck has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "granbull",
+    "reason": "other-version",
+    "explanation": "granbull has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "groudon",
+    "reason": "other-version",
+    "explanation": "groudon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "grovyle",
+    "reason": "other-version",
+    "explanation": "grovyle has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "growlithe",
+    "reason": "other-version",
+    "explanation": "growlithe has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "grumpig",
+    "reason": "other-version",
+    "explanation": "grumpig has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "gulpin",
+    "reason": "other-version",
+    "explanation": "gulpin has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "hariyama",
+    "reason": "other-version",
+    "explanation": "hariyama has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ho-oh",
+    "reason": "external-event",
+    "explanation": "ho-oh requires an external event distribution in LeafGreen.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "hoothoot",
+    "reason": "other-version",
+    "explanation": "hoothoot has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "houndoom",
+    "reason": "other-version",
+    "explanation": "houndoom has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "houndour",
+    "reason": "other-version",
+    "explanation": "houndour has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "illumise",
+    "reason": "other-version",
+    "explanation": "illumise has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "jirachi",
+    "reason": "external-event",
+    "explanation": "jirachi requires an external event distribution in LeafGreen.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "kecleon",
+    "reason": "other-version",
+    "explanation": "kecleon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "kirlia",
+    "reason": "other-version",
+    "explanation": "kirlia has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "kyogre",
+    "reason": "other-version",
+    "explanation": "kyogre has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lairon",
+    "reason": "other-version",
+    "explanation": "lairon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lanturn",
+    "reason": "other-version",
+    "explanation": "lanturn has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "latias",
+    "reason": "other-version",
+    "explanation": "latias has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "latios",
+    "reason": "other-version",
+    "explanation": "latios has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lileep",
+    "reason": "other-version",
+    "explanation": "lileep has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "linoone",
+    "reason": "other-version",
+    "explanation": "linoone has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lombre",
+    "reason": "other-version",
+    "explanation": "lombre has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lotad",
+    "reason": "other-version",
+    "explanation": "lotad has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "loudred",
+    "reason": "other-version",
+    "explanation": "loudred has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ludicolo",
+    "reason": "other-version",
+    "explanation": "ludicolo has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lugia",
+    "reason": "external-event",
+    "explanation": "lugia requires an external event distribution in LeafGreen.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "lunatone",
+    "reason": "other-version",
+    "explanation": "lunatone has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "luvdisc",
+    "reason": "other-version",
+    "explanation": "luvdisc has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "makuhita",
+    "reason": "other-version",
+    "explanation": "makuhita has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "manectric",
+    "reason": "other-version",
+    "explanation": "manectric has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "mareep",
+    "reason": "other-version",
+    "explanation": "mareep has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "marshtomp",
+    "reason": "other-version",
+    "explanation": "marshtomp has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "masquerain",
+    "reason": "other-version",
+    "explanation": "masquerain has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "mawile",
+    "reason": "other-version",
+    "explanation": "mawile has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "medicham",
+    "reason": "other-version",
+    "explanation": "medicham has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "meditite",
+    "reason": "other-version",
+    "explanation": "meditite has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "meganium",
+    "reason": "other-version",
+    "explanation": "meganium has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "metagross",
+    "reason": "other-version",
+    "explanation": "metagross has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "metang",
+    "reason": "other-version",
+    "explanation": "metang has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "mew requires an external event distribution in LeafGreen.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "mightyena",
+    "reason": "other-version",
+    "explanation": "mightyena has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "milotic",
+    "reason": "other-version",
+    "explanation": "milotic has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "miltank",
+    "reason": "other-version",
+    "explanation": "miltank has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "minun",
+    "reason": "other-version",
+    "explanation": "minun has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "mudkip",
+    "reason": "other-version",
+    "explanation": "mudkip has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "murkrow",
+    "reason": "other-version",
+    "explanation": "murkrow has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "nincada",
+    "reason": "other-version",
+    "explanation": "nincada has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ninjask",
+    "reason": "other-version",
+    "explanation": "ninjask has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "noctowl",
+    "reason": "other-version",
+    "explanation": "noctowl has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "nosepass",
+    "reason": "other-version",
+    "explanation": "nosepass has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "numel",
+    "reason": "other-version",
+    "explanation": "numel has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "nuzleaf",
+    "reason": "other-version",
+    "explanation": "nuzleaf has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "oddish",
+    "reason": "other-version",
+    "explanation": "oddish has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "pelipper",
+    "reason": "other-version",
+    "explanation": "pelipper has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "pineco",
+    "reason": "other-version",
+    "explanation": "pineco has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "plusle",
+    "reason": "other-version",
+    "explanation": "plusle has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "poochyena",
+    "reason": "other-version",
+    "explanation": "poochyena has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "psyduck",
+    "reason": "other-version",
+    "explanation": "psyduck has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "quagsire",
+    "reason": "other-version",
+    "explanation": "quagsire has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "quilava",
+    "reason": "other-version",
+    "explanation": "quilava has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "qwilfish",
+    "reason": "other-version",
+    "explanation": "qwilfish has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ralts",
+    "reason": "other-version",
+    "explanation": "ralts has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "rayquaza",
+    "reason": "other-version",
+    "explanation": "rayquaza has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "regice",
+    "reason": "other-version",
+    "explanation": "regice has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "regirock",
+    "reason": "other-version",
+    "explanation": "regirock has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "registeel",
+    "reason": "other-version",
+    "explanation": "registeel has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "relicanth",
+    "reason": "other-version",
+    "explanation": "relicanth has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "roselia",
+    "reason": "other-version",
+    "explanation": "roselia has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sableye",
+    "reason": "other-version",
+    "explanation": "sableye has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "salamence",
+    "reason": "other-version",
+    "explanation": "salamence has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sceptile",
+    "reason": "other-version",
+    "explanation": "sceptile has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "scyther",
+    "reason": "other-version",
+    "explanation": "scyther has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sealeo",
+    "reason": "other-version",
+    "explanation": "sealeo has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "seedot",
+    "reason": "other-version",
+    "explanation": "seedot has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "seviper",
+    "reason": "other-version",
+    "explanation": "seviper has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sharpedo",
+    "reason": "other-version",
+    "explanation": "sharpedo has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shedinja",
+    "reason": "other-version",
+    "explanation": "shedinja has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shelgon",
+    "reason": "other-version",
+    "explanation": "shelgon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shellder",
+    "reason": "other-version",
+    "explanation": "shellder has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shiftry",
+    "reason": "other-version",
+    "explanation": "shiftry has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shroomish",
+    "reason": "other-version",
+    "explanation": "shroomish has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shuckle",
+    "reason": "other-version",
+    "explanation": "shuckle has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "shuppet",
+    "reason": "other-version",
+    "explanation": "shuppet has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "silcoon",
+    "reason": "other-version",
+    "explanation": "silcoon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "skarmory",
+    "reason": "other-version",
+    "explanation": "skarmory has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "skitty",
+    "reason": "other-version",
+    "explanation": "skitty has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "slaking",
+    "reason": "other-version",
+    "explanation": "slaking has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "slakoth",
+    "reason": "other-version",
+    "explanation": "slakoth has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "smeargle",
+    "reason": "other-version",
+    "explanation": "smeargle has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "snorunt",
+    "reason": "other-version",
+    "explanation": "snorunt has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "snubbull",
+    "reason": "other-version",
+    "explanation": "snubbull has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "solrock",
+    "reason": "other-version",
+    "explanation": "solrock has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "spheal",
+    "reason": "other-version",
+    "explanation": "spheal has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "spinda",
+    "reason": "other-version",
+    "explanation": "spinda has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "spoink",
+    "reason": "other-version",
+    "explanation": "spoink has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "stantler",
+    "reason": "other-version",
+    "explanation": "stantler has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sudowoodo",
+    "reason": "other-version",
+    "explanation": "sudowoodo has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sunflora",
+    "reason": "other-version",
+    "explanation": "sunflora has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "sunkern",
+    "reason": "other-version",
+    "explanation": "sunkern has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "surskit",
+    "reason": "other-version",
+    "explanation": "surskit has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "swablu",
+    "reason": "other-version",
+    "explanation": "swablu has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "swalot",
+    "reason": "other-version",
+    "explanation": "swalot has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "swampert",
+    "reason": "other-version",
+    "explanation": "swampert has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "swellow",
+    "reason": "other-version",
+    "explanation": "swellow has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "taillow",
+    "reason": "other-version",
+    "explanation": "taillow has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "teddiursa",
+    "reason": "other-version",
+    "explanation": "teddiursa has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "torchic",
+    "reason": "other-version",
+    "explanation": "torchic has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "torkoal",
+    "reason": "other-version",
+    "explanation": "torkoal has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "totodile",
+    "reason": "other-version",
+    "explanation": "totodile has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "trapinch",
+    "reason": "other-version",
+    "explanation": "trapinch has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "treecko",
+    "reason": "other-version",
+    "explanation": "treecko has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "tropius",
+    "reason": "other-version",
+    "explanation": "tropius has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "typhlosion",
+    "reason": "other-version",
+    "explanation": "typhlosion has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "umbreon",
+    "reason": "other-version",
+    "explanation": "umbreon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "ursaring",
+    "reason": "other-version",
+    "explanation": "ursaring has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "vibrava",
+    "reason": "other-version",
+    "explanation": "vibrava has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "vigoroth",
+    "reason": "other-version",
+    "explanation": "vigoroth has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "vileplume",
+    "reason": "other-version",
+    "explanation": "vileplume has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "volbeat",
+    "reason": "other-version",
+    "explanation": "volbeat has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "wailmer",
+    "reason": "other-version",
+    "explanation": "wailmer has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "wailord",
+    "reason": "other-version",
+    "explanation": "wailord has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "walrein",
+    "reason": "other-version",
+    "explanation": "walrein has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "whiscash",
+    "reason": "other-version",
+    "explanation": "whiscash has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "whismur",
+    "reason": "other-version",
+    "explanation": "whismur has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "wingull",
+    "reason": "other-version",
+    "explanation": "wingull has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "wooper",
+    "reason": "other-version",
+    "explanation": "wooper has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "wurmple",
+    "reason": "other-version",
+    "explanation": "wurmple has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "zangoose",
+    "reason": "other-version",
+    "explanation": "zangoose has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "pokemonId": "zigzagoon",
+    "reason": "other-version",
+    "explanation": "zigzagoon has no native LeafGreen source or enabled evolution path; it requires another game or player trade.",
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-species",
+        "leafgreen-encounters",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  }
+]

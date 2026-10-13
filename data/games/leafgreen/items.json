@@ -1,0 +1,593 @@
+[
+  {
+    "id": "bike-voucher",
+    "name": "Bike Voucher",
+    "sources": [
+      {
+        "id": "bike-voucher-from-fan-club",
+        "locationId": "vermilion-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "vermilion-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "sources": [
+      {
+        "id": "bicycle-from-voucher",
+        "locationId": "cerulean-city",
+        "requirements": {
+          "kind": "item",
+          "id": "bike-voucher",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "sources": [
+      {
+        "id": "tea-from-celadon-resident",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "poke-flute",
+    "name": "Poké Flute",
+    "sources": [
+      {
+        "id": "poke-flute-from-mr-fuji",
+        "locationId": "lavender-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pokemon-tower"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm-waterfall",
+    "name": "HM07 Waterfall",
+    "sources": [
+      {
+        "id": "hm-waterfall-icefall-cave",
+        "locationId": "four-island-icefall-cave-1f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "four-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "helix-fossil-mt-moon",
+        "locationId": "mt-moon-b2f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "mt-moon-fossil",
+          "optionId": "helix-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "dome-fossil-mt-moon",
+        "locationId": "mt-moon-b2f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "mt-moon-fossil",
+          "optionId": "dome-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "old-amber-pewter-museum",
+        "locationId": "pewter-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "coin-case",
+    "name": "Coin Case",
+    "sources": [
+      {
+        "id": "coin-case-celadon-restaurant",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-celadon-store",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-stone-celadon-store",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-celadon-store",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-celadon-store",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-stone-mt-moon",
+        "locationId": "mt-moon-b2f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-two-island-gift",
+        "locationId": "two-island",
+        "requirements": {
+          "kind": "capability",
+          "id": "tri-pass"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up-Grade",
+    "sources": [],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "sun-stone-seven-island",
+        "locationId": "seven-island-sevault-canyon",
+        "requirements": {
+          "kind": "milestone",
+          "id": "seven-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "checkedOn": "2026-10-12",
+          "referenceIds": [
+            "leafgreen-items",
+            "leafgreen-scripts"
+          ]
+        }
+      }
+    ],
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts",
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "lax-incense-lost-cave",
+        "locationId": "five-island-lost-cave-room11",
+        "requirements": {
+          "kind": "milestone",
+          "id": "five-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "sea-incense-lost-cave",
+        "locationId": "five-island-lost-cave-room12",
+        "requirements": {
+          "kind": "milestone",
+          "id": "five-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "leafgreen-scripts"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "leafgreen-items",
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

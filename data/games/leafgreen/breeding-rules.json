@@ -1,0 +1,3057 @@
+[
+  {
+    "id": "breed-bulbasaur",
+    "parentPokemonIds": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur"
+    ],
+    "offspringPokemonIds": [
+      "bulbasaur"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-charmander",
+    "parentPokemonIds": [
+      "charmander",
+      "charmeleon",
+      "charizard"
+    ],
+    "offspringPokemonIds": [
+      "charmander"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-squirtle",
+    "parentPokemonIds": [
+      "squirtle",
+      "wartortle",
+      "blastoise"
+    ],
+    "offspringPokemonIds": [
+      "squirtle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-caterpie",
+    "parentPokemonIds": [
+      "caterpie",
+      "metapod",
+      "butterfree"
+    ],
+    "offspringPokemonIds": [
+      "caterpie"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-weedle",
+    "parentPokemonIds": [
+      "weedle",
+      "kakuna",
+      "beedrill"
+    ],
+    "offspringPokemonIds": [
+      "weedle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-pidgey",
+    "parentPokemonIds": [
+      "pidgey",
+      "pidgeotto",
+      "pidgeot"
+    ],
+    "offspringPokemonIds": [
+      "pidgey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-rattata",
+    "parentPokemonIds": [
+      "rattata",
+      "raticate"
+    ],
+    "offspringPokemonIds": [
+      "rattata"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-spearow",
+    "parentPokemonIds": [
+      "spearow",
+      "fearow"
+    ],
+    "offspringPokemonIds": [
+      "spearow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-ekans",
+    "parentPokemonIds": [
+      "ekans",
+      "arbok"
+    ],
+    "offspringPokemonIds": [
+      "ekans"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-pichu",
+    "parentPokemonIds": [
+      "pikachu",
+      "raichu"
+    ],
+    "offspringPokemonIds": [
+      "pichu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-sandshrew",
+    "parentPokemonIds": [
+      "sandshrew",
+      "sandslash"
+    ],
+    "offspringPokemonIds": [
+      "sandshrew"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-cleffa",
+    "parentPokemonIds": [
+      "clefairy",
+      "clefable"
+    ],
+    "offspringPokemonIds": [
+      "cleffa"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-vulpix",
+    "parentPokemonIds": [
+      "vulpix",
+      "ninetales"
+    ],
+    "offspringPokemonIds": [
+      "vulpix"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-igglybuff",
+    "parentPokemonIds": [
+      "jigglypuff",
+      "wigglytuff"
+    ],
+    "offspringPokemonIds": [
+      "igglybuff"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-zubat",
+    "parentPokemonIds": [
+      "zubat",
+      "golbat",
+      "crobat"
+    ],
+    "offspringPokemonIds": [
+      "zubat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-oddish",
+    "parentPokemonIds": [
+      "oddish",
+      "gloom",
+      "vileplume",
+      "bellossom"
+    ],
+    "offspringPokemonIds": [
+      "oddish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-paras",
+    "parentPokemonIds": [
+      "paras",
+      "parasect"
+    ],
+    "offspringPokemonIds": [
+      "paras"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-venonat",
+    "parentPokemonIds": [
+      "venonat",
+      "venomoth"
+    ],
+    "offspringPokemonIds": [
+      "venonat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-diglett",
+    "parentPokemonIds": [
+      "diglett",
+      "dugtrio"
+    ],
+    "offspringPokemonIds": [
+      "diglett"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-meowth",
+    "parentPokemonIds": [
+      "meowth",
+      "persian"
+    ],
+    "offspringPokemonIds": [
+      "meowth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-psyduck",
+    "parentPokemonIds": [
+      "psyduck",
+      "golduck"
+    ],
+    "offspringPokemonIds": [
+      "psyduck"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-mankey",
+    "parentPokemonIds": [
+      "mankey",
+      "primeape"
+    ],
+    "offspringPokemonIds": [
+      "mankey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-growlithe",
+    "parentPokemonIds": [
+      "growlithe",
+      "arcanine"
+    ],
+    "offspringPokemonIds": [
+      "growlithe"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-poliwag",
+    "parentPokemonIds": [
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "politoed"
+    ],
+    "offspringPokemonIds": [
+      "poliwag"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-abra",
+    "parentPokemonIds": [
+      "abra",
+      "kadabra",
+      "alakazam"
+    ],
+    "offspringPokemonIds": [
+      "abra"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-machop",
+    "parentPokemonIds": [
+      "machop",
+      "machoke",
+      "machamp"
+    ],
+    "offspringPokemonIds": [
+      "machop"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-bellsprout",
+    "parentPokemonIds": [
+      "bellsprout",
+      "weepinbell",
+      "victreebel"
+    ],
+    "offspringPokemonIds": [
+      "bellsprout"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-tentacool",
+    "parentPokemonIds": [
+      "tentacool",
+      "tentacruel"
+    ],
+    "offspringPokemonIds": [
+      "tentacool"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-geodude",
+    "parentPokemonIds": [
+      "geodude",
+      "graveler",
+      "golem"
+    ],
+    "offspringPokemonIds": [
+      "geodude"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-ponyta",
+    "parentPokemonIds": [
+      "ponyta",
+      "rapidash"
+    ],
+    "offspringPokemonIds": [
+      "ponyta"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-slowpoke",
+    "parentPokemonIds": [
+      "slowpoke",
+      "slowbro",
+      "slowking"
+    ],
+    "offspringPokemonIds": [
+      "slowpoke"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-magnemite",
+    "parentPokemonIds": [
+      "magnemite",
+      "magneton"
+    ],
+    "offspringPokemonIds": [
+      "magnemite"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-farfetchd",
+    "parentPokemonIds": [
+      "farfetchd"
+    ],
+    "offspringPokemonIds": [
+      "farfetchd"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-doduo",
+    "parentPokemonIds": [
+      "doduo",
+      "dodrio"
+    ],
+    "offspringPokemonIds": [
+      "doduo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-seel",
+    "parentPokemonIds": [
+      "seel",
+      "dewgong"
+    ],
+    "offspringPokemonIds": [
+      "seel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-grimer",
+    "parentPokemonIds": [
+      "grimer",
+      "muk"
+    ],
+    "offspringPokemonIds": [
+      "grimer"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-shellder",
+    "parentPokemonIds": [
+      "shellder",
+      "cloyster"
+    ],
+    "offspringPokemonIds": [
+      "shellder"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-gastly",
+    "parentPokemonIds": [
+      "gastly",
+      "haunter",
+      "gengar"
+    ],
+    "offspringPokemonIds": [
+      "gastly"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-onix",
+    "parentPokemonIds": [
+      "onix",
+      "steelix"
+    ],
+    "offspringPokemonIds": [
+      "onix"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-drowzee",
+    "parentPokemonIds": [
+      "drowzee",
+      "hypno"
+    ],
+    "offspringPokemonIds": [
+      "drowzee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-krabby",
+    "parentPokemonIds": [
+      "krabby",
+      "kingler"
+    ],
+    "offspringPokemonIds": [
+      "krabby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-voltorb",
+    "parentPokemonIds": [
+      "voltorb",
+      "electrode"
+    ],
+    "offspringPokemonIds": [
+      "voltorb"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-exeggcute",
+    "parentPokemonIds": [
+      "exeggcute",
+      "exeggutor"
+    ],
+    "offspringPokemonIds": [
+      "exeggcute"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-cubone",
+    "parentPokemonIds": [
+      "cubone",
+      "marowak"
+    ],
+    "offspringPokemonIds": [
+      "cubone"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-tyrogue",
+    "parentPokemonIds": [
+      "hitmonlee",
+      "hitmonchan",
+      "hitmontop"
+    ],
+    "offspringPokemonIds": [
+      "tyrogue"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-lickitung",
+    "parentPokemonIds": [
+      "lickitung"
+    ],
+    "offspringPokemonIds": [
+      "lickitung"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-koffing",
+    "parentPokemonIds": [
+      "koffing",
+      "weezing"
+    ],
+    "offspringPokemonIds": [
+      "koffing"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-rhyhorn",
+    "parentPokemonIds": [
+      "rhyhorn",
+      "rhydon"
+    ],
+    "offspringPokemonIds": [
+      "rhyhorn"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-chansey",
+    "parentPokemonIds": [
+      "chansey",
+      "blissey"
+    ],
+    "offspringPokemonIds": [
+      "chansey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-tangela",
+    "parentPokemonIds": [
+      "tangela"
+    ],
+    "offspringPokemonIds": [
+      "tangela"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-kangaskhan",
+    "parentPokemonIds": [
+      "kangaskhan"
+    ],
+    "offspringPokemonIds": [
+      "kangaskhan"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-horsea",
+    "parentPokemonIds": [
+      "horsea",
+      "seadra",
+      "kingdra"
+    ],
+    "offspringPokemonIds": [
+      "horsea"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-goldeen",
+    "parentPokemonIds": [
+      "goldeen",
+      "seaking"
+    ],
+    "offspringPokemonIds": [
+      "goldeen"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-staryu",
+    "parentPokemonIds": [
+      "staryu",
+      "starmie"
+    ],
+    "offspringPokemonIds": [
+      "staryu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-mr-mime",
+    "parentPokemonIds": [
+      "mr-mime"
+    ],
+    "offspringPokemonIds": [
+      "mr-mime"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-scyther",
+    "parentPokemonIds": [
+      "scyther",
+      "scizor"
+    ],
+    "offspringPokemonIds": [
+      "scyther"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-smoochum",
+    "parentPokemonIds": [
+      "jynx"
+    ],
+    "offspringPokemonIds": [
+      "smoochum"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-elekid",
+    "parentPokemonIds": [
+      "electabuzz"
+    ],
+    "offspringPokemonIds": [
+      "elekid"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-magby",
+    "parentPokemonIds": [
+      "magmar"
+    ],
+    "offspringPokemonIds": [
+      "magby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-pinsir",
+    "parentPokemonIds": [
+      "pinsir"
+    ],
+    "offspringPokemonIds": [
+      "pinsir"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-tauros",
+    "parentPokemonIds": [
+      "tauros"
+    ],
+    "offspringPokemonIds": [
+      "tauros"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-magikarp",
+    "parentPokemonIds": [
+      "magikarp",
+      "gyarados"
+    ],
+    "offspringPokemonIds": [
+      "magikarp"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-lapras",
+    "parentPokemonIds": [
+      "lapras"
+    ],
+    "offspringPokemonIds": [
+      "lapras"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-eevee",
+    "parentPokemonIds": [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon"
+    ],
+    "offspringPokemonIds": [
+      "eevee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-porygon",
+    "parentPokemonIds": [
+      "porygon",
+      "porygon2"
+    ],
+    "offspringPokemonIds": [
+      "porygon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-omanyte",
+    "parentPokemonIds": [
+      "omanyte",
+      "omastar"
+    ],
+    "offspringPokemonIds": [
+      "omanyte"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-kabuto",
+    "parentPokemonIds": [
+      "kabuto",
+      "kabutops"
+    ],
+    "offspringPokemonIds": [
+      "kabuto"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-aerodactyl",
+    "parentPokemonIds": [
+      "aerodactyl"
+    ],
+    "offspringPokemonIds": [
+      "aerodactyl"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-snorlax",
+    "parentPokemonIds": [
+      "snorlax"
+    ],
+    "offspringPokemonIds": [
+      "snorlax"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-dratini",
+    "parentPokemonIds": [
+      "dratini",
+      "dragonair",
+      "dragonite"
+    ],
+    "offspringPokemonIds": [
+      "dratini"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-chikorita",
+    "parentPokemonIds": [
+      "chikorita",
+      "bayleef",
+      "meganium"
+    ],
+    "offspringPokemonIds": [
+      "chikorita"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-cyndaquil",
+    "parentPokemonIds": [
+      "cyndaquil",
+      "quilava",
+      "typhlosion"
+    ],
+    "offspringPokemonIds": [
+      "cyndaquil"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-totodile",
+    "parentPokemonIds": [
+      "totodile",
+      "croconaw",
+      "feraligatr"
+    ],
+    "offspringPokemonIds": [
+      "totodile"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-sentret",
+    "parentPokemonIds": [
+      "sentret",
+      "furret"
+    ],
+    "offspringPokemonIds": [
+      "sentret"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-hoothoot",
+    "parentPokemonIds": [
+      "hoothoot",
+      "noctowl"
+    ],
+    "offspringPokemonIds": [
+      "hoothoot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-ledyba",
+    "parentPokemonIds": [
+      "ledyba",
+      "ledian"
+    ],
+    "offspringPokemonIds": [
+      "ledyba"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-spinarak",
+    "parentPokemonIds": [
+      "spinarak",
+      "ariados"
+    ],
+    "offspringPokemonIds": [
+      "spinarak"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-chinchou",
+    "parentPokemonIds": [
+      "chinchou",
+      "lanturn"
+    ],
+    "offspringPokemonIds": [
+      "chinchou"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-togepi",
+    "parentPokemonIds": [
+      "togetic"
+    ],
+    "offspringPokemonIds": [
+      "togepi"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-natu",
+    "parentPokemonIds": [
+      "natu",
+      "xatu"
+    ],
+    "offspringPokemonIds": [
+      "natu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-mareep",
+    "parentPokemonIds": [
+      "mareep",
+      "flaaffy",
+      "ampharos"
+    ],
+    "offspringPokemonIds": [
+      "mareep"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-sudowoodo",
+    "parentPokemonIds": [
+      "sudowoodo"
+    ],
+    "offspringPokemonIds": [
+      "sudowoodo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-hoppip",
+    "parentPokemonIds": [
+      "hoppip",
+      "skiploom",
+      "jumpluff"
+    ],
+    "offspringPokemonIds": [
+      "hoppip"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-aipom",
+    "parentPokemonIds": [
+      "aipom"
+    ],
+    "offspringPokemonIds": [
+      "aipom"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-sunkern",
+    "parentPokemonIds": [
+      "sunkern",
+      "sunflora"
+    ],
+    "offspringPokemonIds": [
+      "sunkern"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-yanma",
+    "parentPokemonIds": [
+      "yanma"
+    ],
+    "offspringPokemonIds": [
+      "yanma"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-wooper",
+    "parentPokemonIds": [
+      "wooper",
+      "quagsire"
+    ],
+    "offspringPokemonIds": [
+      "wooper"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-murkrow",
+    "parentPokemonIds": [
+      "murkrow"
+    ],
+    "offspringPokemonIds": [
+      "murkrow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-misdreavus",
+    "parentPokemonIds": [
+      "misdreavus"
+    ],
+    "offspringPokemonIds": [
+      "misdreavus"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-girafarig",
+    "parentPokemonIds": [
+      "girafarig"
+    ],
+    "offspringPokemonIds": [
+      "girafarig"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-pineco",
+    "parentPokemonIds": [
+      "pineco",
+      "forretress"
+    ],
+    "offspringPokemonIds": [
+      "pineco"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-dunsparce",
+    "parentPokemonIds": [
+      "dunsparce"
+    ],
+    "offspringPokemonIds": [
+      "dunsparce"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-gligar",
+    "parentPokemonIds": [
+      "gligar"
+    ],
+    "offspringPokemonIds": [
+      "gligar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-snubbull",
+    "parentPokemonIds": [
+      "snubbull",
+      "granbull"
+    ],
+    "offspringPokemonIds": [
+      "snubbull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-qwilfish",
+    "parentPokemonIds": [
+      "qwilfish"
+    ],
+    "offspringPokemonIds": [
+      "qwilfish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-shuckle",
+    "parentPokemonIds": [
+      "shuckle"
+    ],
+    "offspringPokemonIds": [
+      "shuckle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-heracross",
+    "parentPokemonIds": [
+      "heracross"
+    ],
+    "offspringPokemonIds": [
+      "heracross"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-sneasel",
+    "parentPokemonIds": [
+      "sneasel"
+    ],
+    "offspringPokemonIds": [
+      "sneasel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-teddiursa",
+    "parentPokemonIds": [
+      "teddiursa",
+      "ursaring"
+    ],
+    "offspringPokemonIds": [
+      "teddiursa"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-slugma",
+    "parentPokemonIds": [
+      "slugma",
+      "magcargo"
+    ],
+    "offspringPokemonIds": [
+      "slugma"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-swinub",
+    "parentPokemonIds": [
+      "swinub",
+      "piloswine"
+    ],
+    "offspringPokemonIds": [
+      "swinub"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-corsola",
+    "parentPokemonIds": [
+      "corsola"
+    ],
+    "offspringPokemonIds": [
+      "corsola"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-remoraid",
+    "parentPokemonIds": [
+      "remoraid",
+      "octillery"
+    ],
+    "offspringPokemonIds": [
+      "remoraid"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-delibird",
+    "parentPokemonIds": [
+      "delibird"
+    ],
+    "offspringPokemonIds": [
+      "delibird"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-mantine",
+    "parentPokemonIds": [
+      "mantine"
+    ],
+    "offspringPokemonIds": [
+      "mantine"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-skarmory",
+    "parentPokemonIds": [
+      "skarmory"
+    ],
+    "offspringPokemonIds": [
+      "skarmory"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-houndour",
+    "parentPokemonIds": [
+      "houndour",
+      "houndoom"
+    ],
+    "offspringPokemonIds": [
+      "houndour"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-phanpy",
+    "parentPokemonIds": [
+      "phanpy",
+      "donphan"
+    ],
+    "offspringPokemonIds": [
+      "phanpy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-stantler",
+    "parentPokemonIds": [
+      "stantler"
+    ],
+    "offspringPokemonIds": [
+      "stantler"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-smeargle",
+    "parentPokemonIds": [
+      "smeargle"
+    ],
+    "offspringPokemonIds": [
+      "smeargle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-miltank",
+    "parentPokemonIds": [
+      "miltank"
+    ],
+    "offspringPokemonIds": [
+      "miltank"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-larvitar",
+    "parentPokemonIds": [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    "offspringPokemonIds": [
+      "larvitar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-treecko",
+    "parentPokemonIds": [
+      "treecko",
+      "grovyle",
+      "sceptile"
+    ],
+    "offspringPokemonIds": [
+      "treecko"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-torchic",
+    "parentPokemonIds": [
+      "torchic",
+      "combusken",
+      "blaziken"
+    ],
+    "offspringPokemonIds": [
+      "torchic"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-mudkip",
+    "parentPokemonIds": [
+      "mudkip",
+      "marshtomp",
+      "swampert"
+    ],
+    "offspringPokemonIds": [
+      "mudkip"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-poochyena",
+    "parentPokemonIds": [
+      "poochyena",
+      "mightyena"
+    ],
+    "offspringPokemonIds": [
+      "poochyena"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-zigzagoon",
+    "parentPokemonIds": [
+      "zigzagoon",
+      "linoone"
+    ],
+    "offspringPokemonIds": [
+      "zigzagoon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-wurmple",
+    "parentPokemonIds": [
+      "wurmple",
+      "silcoon",
+      "beautifly",
+      "cascoon",
+      "dustox"
+    ],
+    "offspringPokemonIds": [
+      "wurmple"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-lotad",
+    "parentPokemonIds": [
+      "lotad",
+      "lombre",
+      "ludicolo"
+    ],
+    "offspringPokemonIds": [
+      "lotad"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-seedot",
+    "parentPokemonIds": [
+      "seedot",
+      "nuzleaf",
+      "shiftry"
+    ],
+    "offspringPokemonIds": [
+      "seedot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-taillow",
+    "parentPokemonIds": [
+      "taillow",
+      "swellow"
+    ],
+    "offspringPokemonIds": [
+      "taillow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-wingull",
+    "parentPokemonIds": [
+      "wingull",
+      "pelipper"
+    ],
+    "offspringPokemonIds": [
+      "wingull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-ralts",
+    "parentPokemonIds": [
+      "ralts",
+      "kirlia",
+      "gardevoir"
+    ],
+    "offspringPokemonIds": [
+      "ralts"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-surskit",
+    "parentPokemonIds": [
+      "surskit",
+      "masquerain"
+    ],
+    "offspringPokemonIds": [
+      "surskit"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-shroomish",
+    "parentPokemonIds": [
+      "shroomish",
+      "breloom"
+    ],
+    "offspringPokemonIds": [
+      "shroomish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-slakoth",
+    "parentPokemonIds": [
+      "slakoth",
+      "vigoroth",
+      "slaking"
+    ],
+    "offspringPokemonIds": [
+      "slakoth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-nincada",
+    "parentPokemonIds": [
+      "nincada",
+      "ninjask"
+    ],
+    "offspringPokemonIds": [
+      "nincada"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-whismur",
+    "parentPokemonIds": [
+      "whismur",
+      "loudred",
+      "exploud"
+    ],
+    "offspringPokemonIds": [
+      "whismur"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-makuhita",
+    "parentPokemonIds": [
+      "makuhita",
+      "hariyama"
+    ],
+    "offspringPokemonIds": [
+      "makuhita"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-nosepass",
+    "parentPokemonIds": [
+      "nosepass"
+    ],
+    "offspringPokemonIds": [
+      "nosepass"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-skitty",
+    "parentPokemonIds": [
+      "skitty",
+      "delcatty"
+    ],
+    "offspringPokemonIds": [
+      "skitty"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-sableye",
+    "parentPokemonIds": [
+      "sableye"
+    ],
+    "offspringPokemonIds": [
+      "sableye"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-mawile",
+    "parentPokemonIds": [
+      "mawile"
+    ],
+    "offspringPokemonIds": [
+      "mawile"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-aron",
+    "parentPokemonIds": [
+      "aron",
+      "lairon",
+      "aggron"
+    ],
+    "offspringPokemonIds": [
+      "aron"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-meditite",
+    "parentPokemonIds": [
+      "meditite",
+      "medicham"
+    ],
+    "offspringPokemonIds": [
+      "meditite"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-electrike",
+    "parentPokemonIds": [
+      "electrike",
+      "manectric"
+    ],
+    "offspringPokemonIds": [
+      "electrike"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-plusle",
+    "parentPokemonIds": [
+      "plusle"
+    ],
+    "offspringPokemonIds": [
+      "plusle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-minun",
+    "parentPokemonIds": [
+      "minun"
+    ],
+    "offspringPokemonIds": [
+      "minun"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-roselia",
+    "parentPokemonIds": [
+      "roselia"
+    ],
+    "offspringPokemonIds": [
+      "roselia"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-gulpin",
+    "parentPokemonIds": [
+      "gulpin",
+      "swalot"
+    ],
+    "offspringPokemonIds": [
+      "gulpin"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-carvanha",
+    "parentPokemonIds": [
+      "carvanha",
+      "sharpedo"
+    ],
+    "offspringPokemonIds": [
+      "carvanha"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-wailmer",
+    "parentPokemonIds": [
+      "wailmer",
+      "wailord"
+    ],
+    "offspringPokemonIds": [
+      "wailmer"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-numel",
+    "parentPokemonIds": [
+      "numel",
+      "camerupt"
+    ],
+    "offspringPokemonIds": [
+      "numel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-torkoal",
+    "parentPokemonIds": [
+      "torkoal"
+    ],
+    "offspringPokemonIds": [
+      "torkoal"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-spoink",
+    "parentPokemonIds": [
+      "spoink",
+      "grumpig"
+    ],
+    "offspringPokemonIds": [
+      "spoink"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-spinda",
+    "parentPokemonIds": [
+      "spinda"
+    ],
+    "offspringPokemonIds": [
+      "spinda"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-trapinch",
+    "parentPokemonIds": [
+      "trapinch",
+      "vibrava",
+      "flygon"
+    ],
+    "offspringPokemonIds": [
+      "trapinch"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-cacnea",
+    "parentPokemonIds": [
+      "cacnea",
+      "cacturne"
+    ],
+    "offspringPokemonIds": [
+      "cacnea"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-swablu",
+    "parentPokemonIds": [
+      "swablu",
+      "altaria"
+    ],
+    "offspringPokemonIds": [
+      "swablu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-zangoose",
+    "parentPokemonIds": [
+      "zangoose"
+    ],
+    "offspringPokemonIds": [
+      "zangoose"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-seviper",
+    "parentPokemonIds": [
+      "seviper"
+    ],
+    "offspringPokemonIds": [
+      "seviper"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-lunatone",
+    "parentPokemonIds": [
+      "lunatone"
+    ],
+    "offspringPokemonIds": [
+      "lunatone"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-solrock",
+    "parentPokemonIds": [
+      "solrock"
+    ],
+    "offspringPokemonIds": [
+      "solrock"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-barboach",
+    "parentPokemonIds": [
+      "barboach",
+      "whiscash"
+    ],
+    "offspringPokemonIds": [
+      "barboach"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-corphish",
+    "parentPokemonIds": [
+      "corphish",
+      "crawdaunt"
+    ],
+    "offspringPokemonIds": [
+      "corphish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-baltoy",
+    "parentPokemonIds": [
+      "baltoy",
+      "claydol"
+    ],
+    "offspringPokemonIds": [
+      "baltoy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-lileep",
+    "parentPokemonIds": [
+      "lileep",
+      "cradily"
+    ],
+    "offspringPokemonIds": [
+      "lileep"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-anorith",
+    "parentPokemonIds": [
+      "anorith",
+      "armaldo"
+    ],
+    "offspringPokemonIds": [
+      "anorith"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-feebas",
+    "parentPokemonIds": [
+      "feebas",
+      "milotic"
+    ],
+    "offspringPokemonIds": [
+      "feebas"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-castform",
+    "parentPokemonIds": [
+      "castform"
+    ],
+    "offspringPokemonIds": [
+      "castform"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-kecleon",
+    "parentPokemonIds": [
+      "kecleon"
+    ],
+    "offspringPokemonIds": [
+      "kecleon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-shuppet",
+    "parentPokemonIds": [
+      "shuppet",
+      "banette"
+    ],
+    "offspringPokemonIds": [
+      "shuppet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-duskull",
+    "parentPokemonIds": [
+      "duskull",
+      "dusclops"
+    ],
+    "offspringPokemonIds": [
+      "duskull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-tropius",
+    "parentPokemonIds": [
+      "tropius"
+    ],
+    "offspringPokemonIds": [
+      "tropius"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-chimecho",
+    "parentPokemonIds": [
+      "chimecho"
+    ],
+    "offspringPokemonIds": [
+      "chimecho"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-absol",
+    "parentPokemonIds": [
+      "absol"
+    ],
+    "offspringPokemonIds": [
+      "absol"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-snorunt",
+    "parentPokemonIds": [
+      "snorunt",
+      "glalie"
+    ],
+    "offspringPokemonIds": [
+      "snorunt"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-spheal",
+    "parentPokemonIds": [
+      "spheal",
+      "sealeo",
+      "walrein"
+    ],
+    "offspringPokemonIds": [
+      "spheal"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-clamperl",
+    "parentPokemonIds": [
+      "clamperl",
+      "huntail",
+      "gorebyss"
+    ],
+    "offspringPokemonIds": [
+      "clamperl"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-relicanth",
+    "parentPokemonIds": [
+      "relicanth"
+    ],
+    "offspringPokemonIds": [
+      "relicanth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-luvdisc",
+    "parentPokemonIds": [
+      "luvdisc"
+    ],
+    "offspringPokemonIds": [
+      "luvdisc"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-bagon",
+    "parentPokemonIds": [
+      "bagon",
+      "shelgon",
+      "salamence"
+    ],
+    "offspringPokemonIds": [
+      "bagon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-beldum",
+    "parentPokemonIds": [
+      "beldum",
+      "metang",
+      "metagross"
+    ],
+    "offspringPokemonIds": [
+      "beldum"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-nidoran",
+    "parentPokemonIds": [
+      "nidoran-f",
+      "nidoran-m",
+      "nidorino",
+      "nidoking"
+    ],
+    "offspringPokemonIds": [
+      "nidoran-f",
+      "nidoran-m"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-illumise",
+    "parentPokemonIds": [
+      "illumise"
+    ],
+    "offspringPokemonIds": [
+      "illumise",
+      "volbeat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-volbeat-ditto",
+    "parentPokemonIds": [
+      "volbeat"
+    ],
+    "offspringPokemonIds": [
+      "volbeat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-marill",
+    "parentPokemonIds": [
+      "marill",
+      "azumarill"
+    ],
+    "offspringPokemonIds": [
+      "marill"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-wobbuffet",
+    "parentPokemonIds": [
+      "wobbuffet"
+    ],
+    "offspringPokemonIds": [
+      "wobbuffet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
+    }
+  },
+  {
+    "id": "breed-azurill",
+    "parentPokemonIds": [
+      "marill",
+      "azumarill"
+    ],
+    "offspringPokemonIds": [
+      "azurill"
+    ],
+    "requiredHeldItemId": "sea-incense",
+    "review": {
+      "referenceIds": [
+        "leafgreen-daycare"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-wynaut",
+    "parentPokemonIds": [
+      "wobbuffet"
+    ],
+    "offspringPokemonIds": [
+      "wynaut"
+    ],
+    "requiredHeldItemId": "lax-incense",
+    "review": {
+      "referenceIds": [
+        "leafgreen-daycare"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

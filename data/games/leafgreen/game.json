@@ -1,0 +1,148 @@
+{
+  "id": "leafgreen",
+  "name": "Pokémon LeafGreen",
+  "generation": 3,
+  "region": "Kanto",
+  "firstMilestoneId": "pallet-town",
+  "review": {
+    "referenceIds": [
+      "leafgreen-overview",
+      "leafgreen-scripts"
+    ],
+    "checkedOn": "2026-10-12"
+  },
+  "planner": {
+    "defaultMilestoneId": "brock-defeated",
+    "checkpoints": [
+      {
+        "milestoneId": "brock-defeated",
+        "label": "Gym 1 - Rock - Brock",
+        "title": "Gym 1",
+        "detail": "Brock - Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "misty-defeated",
+        "label": "Gym 2 - Water - Misty",
+        "title": "Gym 2",
+        "detail": "Misty - Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "lt-surge-defeated",
+        "label": "Gym 3 - Electric - Lt. Surge",
+        "title": "Gym 3",
+        "detail": "Lt. Surge - Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "erika-defeated",
+        "label": "Gym 4 - Grass - Erika",
+        "title": "Gym 4",
+        "detail": "Erika - Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "koga-defeated",
+        "label": "Gym 5 - Poison - Koga",
+        "title": "Gym 5",
+        "detail": "Koga - Poison",
+        "typeId": "poison"
+      },
+      {
+        "milestoneId": "sabrina-defeated",
+        "label": "Gym 6 - Psychic - Sabrina",
+        "title": "Gym 6",
+        "detail": "Sabrina - Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "blaine-defeated",
+        "label": "Gym 7 - Fire - Blaine",
+        "title": "Gym 7",
+        "detail": "Blaine - Fire",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "giovanni-defeated",
+        "label": "Gym 8 - Ground - Giovanni",
+        "title": "Gym 8",
+        "detail": "Giovanni - Ground",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Before the Pokemon League",
+        "detail": "Victory Road",
+        "typeId": null
+      },
+      {
+        "milestoneId": "champion-defeated",
+        "label": "Pokemon League Champion",
+        "title": "Main story complete",
+        "detail": "Hall of Fame",
+        "typeId": null
+      },
+      {
+        "milestoneId": "one-island",
+        "label": "One Island",
+        "title": "Sevii Islands",
+        "detail": "Tri-Pass opens Islands One to Three before the League",
+        "typeId": null
+      },
+      {
+        "milestoneId": "national-dex",
+        "label": "National Pokedex",
+        "title": "Post-game",
+        "detail": "After the League and One Island; Oak checks for 60 caught species",
+        "typeId": null
+      },
+      {
+        "milestoneId": "rainbow-pass",
+        "label": "Rainbow Pass",
+        "title": "Post-game",
+        "detail": "Given after returning the Ruby; opens Islands Four to Seven",
+        "typeId": null
+      },
+      {
+        "milestoneId": "four-island",
+        "label": "Four Island",
+        "title": "Four Island",
+        "detail": "Day Care and Icefall Cave",
+        "typeId": null
+      },
+      {
+        "milestoneId": "icefall-rockets-cleared",
+        "label": "Icefall Cave Rockets defeated",
+        "title": "Icefall Cave",
+        "detail": "Help Lorelei and open Dotted Hole access",
+        "typeId": null
+      },
+      {
+        "milestoneId": "five-island",
+        "label": "Five Island",
+        "title": "Five Island",
+        "detail": "Lost Cave and Water Labyrinth",
+        "typeId": null
+      },
+      {
+        "milestoneId": "seven-island",
+        "label": "Seven Island",
+        "title": "Seven Island",
+        "detail": "Sevault Canyon and Tanoby Ruins",
+        "typeId": null
+      },
+      {
+        "milestoneId": "network-machine",
+        "label": "Network Machine",
+        "title": "Post-game",
+        "detail": "Celio links Kanto and Hoenn after the Sapphire is returned",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 5
+  }
+}
