@@ -1,0 +1,97 @@
+{
+  "id": "yellow",
+  "name": "Pokémon Yellow",
+  "generation": 1,
+  "region": "Kanto",
+  "firstMilestoneId": "pallet-town",
+  "review": {
+    "referenceIds": [
+      "yellow-game",
+      "yellow-progression"
+    ],
+    "checkedOn": "2026-10-12"
+  },
+  "planner": {
+    "defaultMilestoneId": "pallet-town",
+    "checkpoints": [
+      {
+        "milestoneId": "pallet-town",
+        "label": "Start",
+        "title": "Start",
+        "detail": "Begin in Pallet Town with the starter Pikachu.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "brock-defeated",
+        "label": "Boulder Badge",
+        "title": "Boulder Badge",
+        "detail": "Brock is defeated in Pewter City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "misty-defeated",
+        "label": "Cascade Badge",
+        "title": "Cascade Badge",
+        "detail": "Misty is defeated in Cerulean City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "lt-surge-defeated",
+        "label": "Thunder Badge",
+        "title": "Thunder Badge",
+        "detail": "Lt. Surge is defeated in Vermilion City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "erika-defeated",
+        "label": "Rainbow Badge",
+        "title": "Rainbow Badge",
+        "detail": "Erika is defeated in Celadon City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "koga-defeated",
+        "label": "Soul Badge",
+        "title": "Soul Badge",
+        "detail": "Koga is defeated in Fuchsia City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "sabrina-defeated",
+        "label": "Marsh Badge",
+        "title": "Marsh Badge",
+        "detail": "Sabrina is defeated in Saffron City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "blaine-defeated",
+        "label": "Volcano Badge",
+        "title": "Volcano Badge",
+        "detail": "Blaine is defeated on Cinnabar Island.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "giovanni-defeated",
+        "label": "Earth Badge",
+        "title": "Earth Badge",
+        "detail": "Giovanni is defeated in Viridian City.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "champion-defeated",
+        "label": "Champion",
+        "title": "Champion",
+        "detail": "The Elite Four and Rival are defeated.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "cerulean-cave-open",
+        "label": "Cerulean Cave",
+        "title": "Cerulean Cave",
+        "detail": "The post-game cave is open after the Hall of Fame.",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": null
+}

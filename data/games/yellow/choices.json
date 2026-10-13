@@ -1,0 +1,32 @@
+[
+    {
+        "id":  "dojo-choice",
+        "name":  "Saffron Fighting Dojo prize",
+        "options":  [
+                        "hitmonlee",
+                        "hitmonchan"
+                    ],
+        "maximumSelections":  1,
+        "review":  {
+                       "referenceIds":  [
+                                            "yellow-choices"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "fossil-choice",
+        "name":  "Mt. Moon fossil",
+        "options":  [
+                        "dome-fossil",
+                        "helix-fossil"
+                    ],
+        "maximumSelections":  1,
+        "review":  {
+                       "referenceIds":  [
+                                            "yellow-choices"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    }
+]

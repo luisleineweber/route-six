@@ -1,0 +1,174 @@
+[
+  {
+    "id": "brock",
+    "name": "Brock",
+    "kind": "gym",
+    "badgeNumber": 1,
+    "specialtyTypeId": "rock",
+    "highestLevel": 12,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty",
+    "name": "Misty",
+    "kind": "gym",
+    "badgeNumber": 2,
+    "specialtyTypeId": "water",
+    "highestLevel": 21,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lt-surge",
+    "name": "Lt. Surge",
+    "kind": "gym",
+    "badgeNumber": 3,
+    "specialtyTypeId": "electric",
+    "highestLevel": 28,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika",
+    "name": "Erika",
+    "kind": "gym",
+    "badgeNumber": 4,
+    "specialtyTypeId": "grass",
+    "highestLevel": 32,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "koga",
+    "name": "Koga",
+    "kind": "gym",
+    "badgeNumber": 5,
+    "specialtyTypeId": "poison",
+    "highestLevel": 50,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina",
+    "name": "Sabrina",
+    "kind": "gym",
+    "badgeNumber": 6,
+    "specialtyTypeId": "psychic",
+    "highestLevel": 50,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine",
+    "name": "Blaine",
+    "kind": "gym",
+    "badgeNumber": 7,
+    "specialtyTypeId": "fire",
+    "highestLevel": 54,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "giovanni",
+    "name": "Giovanni",
+    "kind": "gym",
+    "badgeNumber": 8,
+    "specialtyTypeId": "ground",
+    "highestLevel": 55,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lorelei",
+    "name": "Lorelei",
+    "kind": "elite-four",
+    "highestLevel": 56,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "kind": "elite-four",
+    "highestLevel": 58,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "agatha",
+    "name": "Agatha",
+    "kind": "elite-four",
+    "highestLevel": 60,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "kind": "elite-four",
+    "highestLevel": 62,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "champion",
+    "name": "Rival",
+    "kind": "champion",
+    "highestLevel": 65,
+    "review": {
+      "referenceIds": [
+        "yellow-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

@@ -383,5 +383,96 @@
     "locator": "data/wild/maps; scripts; data/pokemon/mew.asm; Blue/Red version conditionals",
     "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data",
     "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "yellow-species",
+    "title": "Pokémon Yellow species stats, types, and Pokédex order",
+    "locator": "data/pokemon/base_stats/*.asm; constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/pokemon",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-game",
+    "title": "Pokémon Yellow version identity and rules",
+    "locator": "README.md; constants/pokemon_constants.asm; data/maps/headers",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-type-chart",
+    "title": "Generation I type IDs and effectiveness rules",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/types",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-progression",
+    "title": "Story events, badge flags, and map progression",
+    "locator": "data/maps/objects; scripts; constants/event_constants.asm; data/maps/badge_maps.asm; maps.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-bosses",
+    "title": "Gym, Elite Four, and Champion parties",
+    "locator": "data/trainers/parties.asm; data/trainers/names.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/trainers",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-locations",
+    "title": "Map identities and map access scripts",
+    "locator": "data/maps/headers; data/maps/objects; scripts; maps.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-capabilities",
+    "title": "Field moves, badges, and overworld access checks",
+    "locator": "scripts; engine/items/item_effects.asm; data/items/use_overworld.asm; data/maps/badge_maps.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-items",
+    "title": "Item pickups, marts, key items, and fossils",
+    "locator": "data/items; data/events/hidden_item_coords.asm; data/maps/objects; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/items",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-choices",
+    "title": "Pikachu starter and one-time gifts, fossils, dojo, and Eevee choices",
+    "locator": "scripts; data/events/prizes.asm; data/events/prize_mon_levels.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/events",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-encounters",
+    "title": "Pokémon Yellow wild encounter tables and methods",
+    "locator": "data/wild/maps/*.asm; data/wild/probabilities.asm; data/wild/good_rod.asm; data/wild/super_rod.asm; engine/items/item_effects.asm; engine/items/super_rod.asm; constants/pokemon_data_constants.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/wild",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-breeding",
+    "title": "Breeding support check",
+    "locator": "Pokémon Yellow has no breeding system; reviewed against the pinned game source",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-evolutions",
+    "title": "Level, stone, and trade evolution data, including the starter Pikachu exception",
+    "locator": "data/pokemon/evos_moves.asm; constants/item_constants.asm; engine/items/item_effects.asm; engine/pikachu/pikachu_status.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/pokemon",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-exclusions",
+    "title": "Native-access exclusions and external Mew distribution",
+    "locator": "data/wild/maps; scripts; data/pokemon/base_stats/mew.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
   }
 ]
