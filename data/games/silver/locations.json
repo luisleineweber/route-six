@@ -1,0 +1,2445 @@
+[
+  {
+    "id": "azalea-town",
+    "name": "Azalea Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blackthorn-city",
+    "name": "Blackthorn City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "burned-tower",
+    "name": "Burned Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Celadon City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City and Power Plant",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cherrygrove-city",
+    "name": "Cherrygrove City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-29"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cianwood-city",
+    "name": "Cianwood City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragons-den",
+    "name": "Dragon's Den",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ecruteak-city",
+    "name": "Ecruteak City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Fuchsia City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "goldenrod-city",
+    "name": "Goldenrod City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ice-path",
+    "name": "Ice Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ilex-forest",
+    "name": "Ilex Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Indigo Plateau and Pokémon League",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lake-of-rage",
+    "name": "Lake of Rage",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lighthouse",
+    "name": "Olivine Lighthouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mahogany-town",
+    "name": "Mahogany Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-mortar",
+    "name": "Mt. Mortar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-silver",
+    "name": "Mt. Silver",
+    "requirements": {
+      "kind": "milestone",
+      "id": "blue-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "national-park",
+    "name": "National Park and Bug-Catching Contest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "new-bark-town",
+    "name": "New Bark Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "olivine-city",
+    "name": "Olivine City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "radio-tower",
+    "name": "Goldenrod Radio Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout",
+    "name": "Team Rocket Hideout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Route 29",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-30",
+    "name": "Route 30",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cherrygrove-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-32",
+    "name": "Route 32",
+    "requirements": {
+      "kind": "milestone",
+      "id": "falkner-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Route 34",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Route 35",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-36",
+    "name": "Route 36",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Route 37",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Route 38",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Route 39",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-42",
+    "name": "Route 42",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Saffron City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "slowpoke-well",
+    "name": "Slowpoke Well",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sprout-tower",
+    "name": "Sprout Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "union-cave",
+    "name": "Union Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "falkner-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City and S.S. Aqua",
+    "requirements": {
+      "kind": "milestone",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "violet-city",
+    "name": "Violet City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-city",
+    "name": "Viridian City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "whirl-islands",
+    "name": "Whirl Islands",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-azalea-town",
+    "name": "Azalea Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-blackthorn-city",
+    "name": "Blackthorn City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-burned-tower-1f",
+    "name": "Burned Tower 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-burned-tower-b1f",
+    "name": "Burned Tower B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-celadon-city",
+    "name": "Celadon City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-cerulean-city",
+    "name": "Cerulean City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-cherrygrove-city",
+    "name": "Cherrygrove City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-cianwood-city",
+    "name": "Cianwood City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-cinnabar-island",
+    "name": "Cinnabar Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-dark-cave-blackthorn-entrance",
+    "name": "Dark Cave Blackthorn Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-dark-cave-violet-entrance",
+    "name": "Dark Cave Violet Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-digletts-cave",
+    "name": "Digletts Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-dragons-den-b1f",
+    "name": "Dragons Den B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "lake-of-rage-event"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ecruteak-city",
+    "name": "Ecruteak City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-fuchsia-city",
+    "name": "Fuchsia City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ice-path-1f",
+    "name": "Ice Path 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ice-path-b1f",
+    "name": "Ice Path B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ice-path-b2f-blackthorn-side",
+    "name": "Ice Path B2F Blackthorn Side",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ice-path-b2f-mahogany-side",
+    "name": "Ice Path B2F Mahogany Side",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ice-path-b3f",
+    "name": "Ice Path B3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ilex-forest",
+    "name": "Ilex Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-lake-of-rage",
+    "name": "Lake Of Rage",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-mount-moon",
+    "name": "Mount Moon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-mount-mortar-1f-inside",
+    "name": "Mount Mortar 1F Inside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-mount-mortar-1f-outside",
+    "name": "Mount Mortar 1F Outside",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-mount-mortar-2f-inside",
+    "name": "Mount Mortar 2F Inside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-mount-mortar-b1f",
+    "name": "Mount Mortar B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-national-park",
+    "name": "National Park",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-national-park-bug-contest",
+    "name": "National Park Bug Contest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-new-bark-town",
+    "name": "New Bark Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-olivine-city",
+    "name": "Olivine City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-olivine-port",
+    "name": "Olivine Port",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-pallet-town",
+    "name": "Pallet Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-rock-tunnel-1f",
+    "name": "Rock Tunnel 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-rock-tunnel-b1f",
+    "name": "Rock Tunnel B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-1",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-10-north",
+    "name": "Route 10 North",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-12",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-16",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-19",
+    "name": "Route 19",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-2",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-20",
+    "name": "Route 20",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-21",
+    "name": "Route 21",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-22",
+    "name": "Route 22",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-24",
+    "name": "Route 24",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-25",
+    "name": "Route 25",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-26",
+    "name": "Route 26",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-27",
+    "name": "Route 27",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-28",
+    "name": "Route 28",
+    "requirements": {
+      "kind": "milestone",
+      "id": "blue-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-29",
+    "name": "Route 29",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-30",
+    "name": "Route 30",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cherrygrove-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-31",
+    "name": "Route 31",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cherrygrove-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-32",
+    "name": "Route 32",
+    "requirements": {
+      "kind": "milestone",
+      "id": "falkner-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-33",
+    "name": "Route 33",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-34",
+    "name": "Route 34",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-35",
+    "name": "Route 35",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-36",
+    "name": "Route 36",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-37",
+    "name": "Route 37",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-38",
+    "name": "Route 38",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-39",
+    "name": "Route 39",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-40",
+    "name": "Route 40",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-41",
+    "name": "Route 41",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-42",
+    "name": "Route 42",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-43",
+    "name": "Route 43",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-44",
+    "name": "Route 44",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-of-rage-event"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-45",
+    "name": "Route 45",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-46",
+    "name": "Route 46",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ruins-of-alph-inner-chamber",
+    "name": "Ruins Of Alph Inner Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-ruins-of-alph-outside",
+    "name": "Ruins Of Alph Outside",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-silver-cave-item-rooms",
+    "name": "Silver Cave Item Rooms",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-silver-cave-outside",
+    "name": "Silver Cave Outside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-silver-cave-room-1",
+    "name": "Silver Cave Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-silver-cave-room-2",
+    "name": "Silver Cave Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-silver-cave-room-3",
+    "name": "Silver Cave Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-slowpoke-well-b1f",
+    "name": "Slowpoke Well B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-slowpoke-well-b2f",
+    "name": "Slowpoke Well B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-sprout-tower-2f",
+    "name": "Sprout Tower 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-sprout-tower-3f",
+    "name": "Sprout Tower 3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-2f",
+    "name": "Tin Tower 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-3f",
+    "name": "Tin Tower 3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-4f",
+    "name": "Tin Tower 4F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-5f",
+    "name": "Tin Tower 5F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-6f",
+    "name": "Tin Tower 6F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-7f",
+    "name": "Tin Tower 7F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-8f",
+    "name": "Tin Tower 8F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tin-tower-9f",
+    "name": "Tin Tower 9F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-tohjo-falls",
+    "name": "Tohjo Falls",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-union-cave-1f",
+    "name": "Union Cave 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-union-cave-b1f",
+    "name": "Union Cave B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-union-cave-b2f",
+    "name": "Union Cave B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-vermilion-city",
+    "name": "Vermilion City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-vermilion-port",
+    "name": "Vermilion Port",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-violet-city",
+    "name": "Violet City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-viridian-city",
+    "name": "Viridian City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-b1f",
+    "name": "Whirl Island B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-b2f",
+    "name": "Whirl Island B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "whirlpool"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-cave",
+    "name": "Whirl Island Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "whirlpool"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-lugia-chamber",
+    "name": "Whirl Island Lugia Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "whirlpool"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-ne",
+    "name": "Whirl Island Ne",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-nw",
+    "name": "Whirl Island Nw",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-se",
+    "name": "Whirl Island Se",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wild-whirl-island-sw",
+    "name": "Whirl Island Sw",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "roaming-johto",
+    "name": "Johto roaming area",
+    "requirements": {
+      "kind": "capability",
+      "id": "roaming-legendaries"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

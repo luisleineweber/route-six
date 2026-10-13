@@ -399,6 +399,111 @@
     "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
   },
   {
+    "id": "silver-species",
+    "title": "Silver species types, gender ratios and Egg Groups",
+    "locator": "data/pokemon/base_stats.asm and data/pokemon/base_stats/*.asm; review Silver conditionals",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon/base_stats",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-dex",
+    "title": "Silver Pokédex order and species list",
+    "locator": "data/pokemon/dex_order_new.asm and constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-type-chart",
+    "title": "Generation II type matchups in Silver",
+    "locator": "data/types/type_matchups.asm and engine/pokemon/types.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/types",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-encounters",
+    "title": "Silver land, water and fishing encounters",
+    "locator": "data/wild/johto_grass.asm, data/wild/kanto_grass.asm, data/wild/johto_water.asm, data/wild/kanto_water.asm, data/wild/fish.asm, data/wild/probabilities.asm, data/maps/maps.asm and Silver-specific conditionals",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/wild",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-special-encounters",
+    "title": "Silver Headbutt, Bug-Catching Contest, swarm and roaming encounters",
+    "locator": "data/wild/treemons.asm, data/wild/treemon_maps.asm, data/wild/bug_contest_mons.asm, data/wild/swarm_grass.asm, data/wild/swarm_water.asm, data/wild/roammon_maps.asm, engine/events/treemons.asm, engine/overworld/wildmons.asm and their map/event handlers",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/wild",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-progression",
+    "title": "Silver Johto and Kanto story, route and event scripts",
+    "locator": "maps/*.asm and data/maps/scripts.asm; check Silver-specific map and script conditionals",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-bosses",
+    "title": "Silver Gym, Elite Four, Champion and Red teams",
+    "locator": "data/trainers/leaders.asm and data/trainers/parties.asm; select Silver trainer parties",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/trainers",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-evolutions",
+    "title": "Silver evolution triggers, levels and conditions",
+    "locator": "data/pokemon/evos_attacks.asm and engine/pokemon/evolve.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-breeding",
+    "title": "Silver breeding, offspring, compatibility and Day Care access",
+    "locator": "engine/pokemon/breeding.asm, engine/events/daycare.asm and maps/Daycare.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-items",
+    "title": "Silver item placements, marts, fruit trees and key items",
+    "locator": "maps/*.asm, data/items/marts.asm, data/items/fruit_trees.asm and constants/item_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/items",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-trades",
+    "title": "Silver in-game NPC trades",
+    "locator": "data/events/npc_trades.asm, constants/npc_trade_constants.asm and Silver trade scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/events/npc_trades.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-choices",
+    "title": "Silver starter, one-time gifts and choice events",
+    "locator": "maps/NewBarkTown.asm, maps/SilverCaveRoom1.asm and one-time event scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-time",
+    "title": "Silver clock, weekday, swarm, phone and timed evolution rules",
+    "locator": "home/time.asm, engine/events/checktime.asm, engine/pokemon/evolve.asm and engine/phone/phone.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-hatch",
+    "title": "Silver egg hatch level and hatch handling",
+    "locator": "engine/pokemon/breeding.asm and engine/events/happiness_egg.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon/breeding.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-exclusions",
+    "title": "Silver version, player-trade and external-event acquisition limits",
+    "locator": "Silver-specific data/wild/*.asm, data/pokemon/evos_attacks.asm, data/events/npc_trades.asm and map event scripts",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
     "id": "blue-species",
     "title": "Pokémon Blue species, types, and Pokédex order",
     "locator": "data/pokemon/base_stats.asm; data/pokemon/dex_order.asm; constants/pokemon_constants.asm",

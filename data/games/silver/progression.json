@@ -1,0 +1,715 @@
+[
+  {
+    "id": "new-bark-town",
+    "name": "New Bark Town and choose a starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "new-bark-town",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Route 29",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "new-bark-town"
+    ],
+    "locationId": "route-29",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cherrygrove-city",
+    "name": "Cherrygrove City and Pokégear",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "route-29"
+    ],
+    "locationId": "cherrygrove-city",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-30",
+    "name": "Route 30 and Mr. Pokémon",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "cherrygrove-city"
+    ],
+    "locationId": "route-30",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "falkner-defeated",
+    "name": "Defeat Falkner in Violet City",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "route-30"
+    ],
+    "locationId": "violet-city",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-32",
+    "name": "Route 32 and Union Cave",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "falkner-defeated"
+    ],
+    "locationId": "route-32",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "azalea-town",
+    "name": "Azalea Town and Slowpoke Well",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "route-32"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bugsy-defeated",
+    "name": "Defeat Bugsy",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "azalea-town"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "goldenrod-city",
+    "name": "Ilex Forest and Goldenrod City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "whitney-defeated",
+    "name": "Defeat Whitney",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "goldenrod-city"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ecruteak-city",
+    "name": "Route 36 and Ecruteak City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "morty-defeated",
+    "name": "Release the legendary beasts and defeat Morty",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cianwood-city",
+    "name": "Olivine Lighthouse and Cianwood City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "chuck-defeated",
+    "name": "Defeat Chuck",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "cianwood-city"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "jasmine-defeated",
+    "name": "Cure Amphy and defeat Jasmine",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "chuck-defeated"
+    ],
+    "locationId": "olivine-city",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pryce-defeated",
+    "name": "Defeat Pryce after the Lake of Rage event",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "jasmine-defeated"
+    ],
+    "locationId": "mahogany-town",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "radio-tower-cleared",
+    "name": "Clear Team Rocket from the Radio Tower and receive the Silver Wing",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "pryce-defeated"
+    ],
+    "locationId": "radio-tower",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "clair-defeated",
+    "name": "Defeat Clair after clearing Team Rocket from the Radio Tower",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "radio-tower-cleared"
+    ],
+    "locationId": "blackthorn-city",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Defeat the Elite Four and Champion Lance",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kanto-open",
+    "name": "Take the S.S. Aqua to Kanto",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 19,
+    "previousIds": [
+      "indigo-plateau"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Defeat Brock",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 20,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "pewter-city",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Defeat Misty",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 21,
+    "previousIds": [
+      "brock-defeated"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lt-surge-defeated",
+    "name": "Defeat Lt. Surge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 22,
+    "previousIds": [
+      "misty-defeated"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Defeat Erika",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 23,
+    "previousIds": [
+      "lt-surge-defeated"
+    ],
+    "locationId": "celadon-city",
+    "nextBossId": "janine",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "janine-defeated",
+    "name": "Defeat Janine",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 24,
+    "previousIds": [
+      "erika-defeated"
+    ],
+    "locationId": "fuchsia-city",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Defeat Sabrina",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 25,
+    "previousIds": [
+      "janine-defeated"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Defeat Blaine on Seafoam Islands",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 26,
+    "previousIds": [
+      "sabrina-defeated"
+    ],
+    "locationId": "seafoam-islands",
+    "nextBossId": "blue",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blue-defeated",
+    "name": "Defeat Blue",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 27,
+    "previousIds": [
+      "blaine-defeated"
+    ],
+    "locationId": "viridian-city",
+    "nextBossId": "red",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "red-defeated",
+    "name": "Defeat Red at Mt. Silver",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 28,
+    "previousIds": [
+      "blue-defeated"
+    ],
+    "locationId": "mt-silver",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Route 34 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "route-34",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Route 35 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "goldenrod-city"
+    ],
+    "locationId": "route-35",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-36",
+    "name": "Route 36 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "route-36",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Route 37 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "route-37",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Route 38 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-38",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Route 39 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-39",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-42",
+    "name": "Route 42 access",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-42",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lake-of-rage-event",
+    "name": "Witness the Red Gyarados and clear Team Rocket",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "route-42"
+    ],
+    "locationId": "lake-of-rage",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "beasts-released",
+    "name": "Release the legendary beasts in Burned Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]
