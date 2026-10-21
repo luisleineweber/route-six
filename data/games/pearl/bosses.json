@@ -1,0 +1,15 @@
+[
+  {"id":"roark","name":"Roark","kind":"gym","badgeNumber":1,"specialtyTypeId":"rock","highestLevel":14,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"gardenia","name":"Gardenia","kind":"gym","badgeNumber":2,"specialtyTypeId":"grass","highestLevel":22,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"maylene","name":"Maylene","kind":"gym","badgeNumber":3,"specialtyTypeId":"fighting","highestLevel":30,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"wake","name":"Wake","kind":"gym","badgeNumber":4,"specialtyTypeId":"water","highestLevel":30,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"fantina","name":"Fantina","kind":"gym","badgeNumber":5,"specialtyTypeId":"ghost","highestLevel":36,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"byron","name":"Byron","kind":"gym","badgeNumber":6,"specialtyTypeId":"steel","highestLevel":39,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"candice","name":"Candice","kind":"gym","badgeNumber":7,"specialtyTypeId":"ice","highestLevel":42,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"volkner","name":"Volkner","kind":"gym","badgeNumber":8,"specialtyTypeId":"electric","highestLevel":49,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"aaron","name":"Aaron","kind":"elite-four","highestLevel":57,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"bertha","name":"Bertha","kind":"elite-four","highestLevel":59,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"flint","name":"Flint","kind":"elite-four","highestLevel":61,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"lucian","name":"Lucian","kind":"elite-four","highestLevel":63,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"cynthia","name":"Cynthia","kind":"champion","highestLevel":66,"review":{"referenceIds":["pearl-bosses"],"checkedOn":"2026-10-13"}}
+]

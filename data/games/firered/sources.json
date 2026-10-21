@@ -72433,7 +72433,10 @@
     "requirements": {
       "kind": "all",
       "requirements": [
-        { "kind": "capability", "id": "strength-access" }
+        {
+          "kind": "capability",
+          "id": "strength-access"
+        }
       ]
     },
     "level": {
@@ -79428,6 +79431,40 @@
         "firered-breeding"
       ],
       "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidoran-male-ditto-egg",
+    "pokemonId": "nidoran-m",
+    "locationId": "four-island",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "day-care-access"
+        }
+      ]
+    },
+    "level": {
+      "kind": "fixed",
+      "value": 5
+    },
+    "genders": [
+      "male"
+    ],
+    "maxUses": null,
+    "choice": null,
+    "details": {
+      "kind": "breeding",
+      "ruleId": "breed-nidoran-male-ditto",
+      "capabilityId": "day-care-access"
+    },
+    "review": {
+      "referenceIds": [
+        "firered-breeding"
+      ],
+      "checkedOn": "2026-10-21"
     }
   }
 ]

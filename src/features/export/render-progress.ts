@@ -38,7 +38,8 @@ export function renderProgressPng(model: TeamExport, images: Map<string, HTMLIma
   if (!ctx) throw new Error('The browser could not create the PNG.');
   setFont(ctx, 20);
   const subtitle = wrap(ctx, model.subtitle, width - margin * 2);
-  const top = 108 + subtitle.length * lineHeight;
+  const notes = model.notes.flatMap(note => wrap(ctx, note, width - margin * 2));
+  const top = 108 + (subtitle.length + notes.length) * lineHeight;
   const layouts = model.slots.map(slot => layoutContent(ctx, slot));
   const rowHeights = [0, 1, 2].map(row => Math.max(...layouts.slice(row * 2, row * 2 + 2).map(layout => layout.height)));
   const height = top + rowHeights.reduce((sum, height) => sum + height, 0) + gap * 2 + margin;
@@ -48,6 +49,8 @@ export function renderProgressPng(model: TeamExport, images: Map<string, HTMLIma
   ctx.fillStyle = colors.ink; setFont(ctx, 32, true); ctx.fillText(model.title, margin, 36);
   setFont(ctx, 20); ctx.fillStyle = colors.muted;
   subtitle.forEach((line, i) => ctx.fillText(line, margin, 84 + i * lineHeight));
+  ctx.fillStyle = colors.weak;
+  notes.forEach((line, i) => ctx.fillText(line, margin, 84 + (subtitle.length + i) * lineHeight));
 
   model.slots.forEach((slot, index) => {
     const row = Math.floor(index / 2);
@@ -62,7 +65,7 @@ export function renderProgressPng(model: TeamExport, images: Map<string, HTMLIma
       return;
     }
     ctx.imageSmoothingEnabled = false;
-    ctx.drawImage(images.get(`/pokemon/${slot.dex}.png`)!, x + inset, y + 40, 88, 88);
+    ctx.drawImage(images.get(slot.spriteSrc!)!, x + inset, y + 40, 88, 88);
     ctx.imageSmoothingEnabled = true;
     setFont(ctx, 28, true); ctx.fillStyle = colors.ink;
     ctx.fillText(slot.name, x + inset + 112, y + 52);
@@ -88,7 +91,7 @@ export function renderProgressPng(model: TeamExport, images: Map<string, HTMLIma
     layout.stages.forEach((stage, i) => {
       const center = x + inset + (i + 0.5) * layout.stageWidth;
       ctx.imageSmoothingEnabled = false;
-      ctx.drawImage(images.get(`/pokemon/${stage.dex}.png`)!, center - 36, evolutionY + 36, 72, 72);
+      ctx.drawImage(images.get(stage.spriteSrc)!, center - 36, evolutionY + 36, 72, 72);
       ctx.imageSmoothingEnabled = true;
       ctx.textAlign = 'center'; setFont(ctx, 18, true); ctx.fillStyle = colors.ink;
       ctx.fillText(stage.name, center, evolutionY + 114);

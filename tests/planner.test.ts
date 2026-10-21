@@ -1,9 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { emerald } from '../src/data/dataset';
+import { dataset, emerald, initialState } from './local-data';
 import { progressCheckpointOptions, progressCheckpoints } from '../src/features/planner/progress-checkpoints';
-import { initialState, plannerReducer } from '../src/features/planner/state';
+import { plannerReducer } from '../src/features/planner/state';
 import { sortPokemonByPokedex } from '../src/features/planner/pokedex-order';
-import { dataset } from '../src/data/dataset';
 import { defaultCatalogueStatus, matchesCatalogueStatus } from '../src/features/progress/catalogue-filter';
 import type { AvailabilityEntry } from '../src/domain/types';
 
@@ -69,7 +68,8 @@ describe('Game selection', () => {
 
 describe('Pokédex ordering', () => {
   it('sorts Hoenn species first, then other species by National Dex without changing the input', () => {
-    const input = [...dataset.pokemon].reverse();
+    const supported = new Set(emerald.profiles.map(profile => profile.pokemonId));
+    const input = dataset.pokemon.filter(pokemon => supported.has(pokemon.id)).reverse();
     const sorted = sortPokemonByPokedex(input, emerald);
     const regional = emerald.profiles.filter(profile => profile.regionalDex !== undefined)
       .sort((a, b) => a.regionalDex! - b.regionalDex!);

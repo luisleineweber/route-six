@@ -4,6 +4,8 @@ import { ancestors, limitsFor, type AccessContext } from './context';
 import { pokemonBlockers } from './blockers';
 import { pathSignature, type ProofPath } from '../proofs';
 import { leaves } from '../requirements';
+import { pokemonSelections, selectionId } from '../pokemon-selection';
+import { isExclusionBlocker } from './exclusions';
 
 const contexts = new WeakMap<GameData, Map<string, AccessContext>>();
 const relevantIds = new WeakMap<GameData, Set<string>>();
@@ -12,8 +14,14 @@ function context(game: GameData, milestoneId: string, limit: boolean, history: S
   if (!cache) { cache = new Map(); contexts.set(game, cache); }
   let relevant = relevantIds.get(game);
   if (!relevant) {
-    relevant = new Set([...game.locations, ...game.capabilities, ...game.sources, ...game.evolutions,
+    relevant = new Set([...game.locations, ...game.capabilities, ...game.sources, ...game.evolutions, ...(game.formChanges ?? []),
       ...game.items.flatMap(i => i.sources)].flatMap(r => leaves(r.requirements)).filter(r => r.kind === 'milestone').map(r => r.id));
+    for (const evolution of game.evolutions) for (const condition of evolution.conditions) {
+      if (condition.kind !== 'known-move') continue;
+      for (const route of condition.learning) if (route.kind === 'teach') {
+        for (const leaf of leaves(route.requirements)) if (leaf.kind === 'milestone') relevant.add(leaf.id);
+      }
+    }
     relevantIds.set(game, relevant);
   }
   const selected = game.milestones.find(m => m.id === milestoneId)!;
@@ -28,7 +36,15 @@ function context(game: GameData, milestoneId: string, limit: boolean, history: S
       && (limit ? game.bosses.find(b => b.id === m.nextBossId)?.highestLevel ?? 100 : 100) === bossLevel
       && stateKey(m.id) === stateKey(milestoneId));
     const first = equivalents[0];
-    value = solve(game, first, limit, history, `${first.id}:context-${cache.size}`);
+    const reached = new Set([...ancestors(game, first.id), ...history]);
+    let earlier: AccessContext | undefined;
+    let largest = 0;
+    for (const candidate of cache.values()) {
+      if (candidate.limit > bossLevel || [...candidate.reached].some(id => !reached.has(id))) continue;
+      const size = [...candidate.paths.values()].reduce((total, paths) => total + paths.length, 0);
+      if (size > largest) { earlier = candidate; largest = size; }
+    }
+    value = solve(game, first, limit, history, `${first.id}:context-${cache.size}`, earlier);
     const firstIds = firstPoints(game, equivalents.map(m => m.id));
     for (const paths of value.paths.values()) for (const path of paths) path.firstMilestoneIds = firstIds;
     cache.set(key, value);
@@ -43,6 +59,7 @@ function firstPoints(game: GameData, ids: string[]): string[] {
 export function getAvailability(data: Dataset, query: AvailabilityQuery): Result<AvailabilitySnapshot, QueryError> {
   const game = data.games.find(g => g.game.id === query.gameId);
   if (!game) return { ok: false, error: { code: 'unknown-game', gameId: query.gameId } };
+  if (game.game.planner === null) return { ok: false, error: { code: 'progress-not-ready', gameId: query.gameId } };
   const milestone = game.milestones.find(m => m.id === query.milestoneId);
   if (!milestone) return { ok: false, error: { code: 'unknown-milestone', milestoneId: query.milestoneId } };
   const current = context(game, milestone.id, query.respectLevelLimit);
@@ -65,11 +82,12 @@ export function getAvailability(data: Dataset, query: AvailabilityQuery): Result
     visitedContexts.add(ctx);
     for (const [id, paths] of ctx.paths) futurePaths.set(id, [...(futurePaths.get(id) ?? []), ...paths]);
   }
-  for (const pokemon of data.pokemon.filter(p => p.introducedGeneration <= game.game.generation)) {
-    const now = currentPaths.get(pokemon.id) ?? [];
-    const later = futurePaths.get(pokemon.id) ?? [];
-    const blockers = now.length ? [] : pokemonBlockers(game, current, pokemon.id);
-    const unavailable = !later.length && blockers.some(b => b.code === 'other-version' || b.code === 'external-event');
+  for (const profile of pokemonSelections(game)) {
+    const id = selectionId(profile.pokemonId, profile.formId);
+    const now = currentPaths.get(id) ?? [];
+    const later = futurePaths.get(id) ?? [];
+    const blockers = now.length ? [] : pokemonBlockers(game, current, id);
+    const unavailable = !later.length && blockers.some(isExclusionBlocker);
     const firstMilestoneIds = firstPoints(game, [...new Set([...now, ...later].flatMap(p => p.firstMilestoneIds))]);
     const canonical = new Map<string, ProofPath>();
     const compact = (paths: ProofPath[]) => paths.map(path => {
@@ -86,7 +104,7 @@ export function getAvailability(data: Dataset, query: AvailabilityQuery): Result
     });
     const compactNow = compact(now); const compactLater = compact(later);
     for (const path of [...compactNow, ...compactLater]) snapshot.paths[path.id] = path;
-    snapshot.entries[pokemon.id] = { pokemonId: pokemon.id, status: now.length ? 'available' : later.length ? 'later' : unavailable ? 'unavailable' : 'blocked',
+    snapshot.entries[id] = { pokemonId: profile.pokemonId, status: now.length ? 'available' : later.length ? 'later' : unavailable ? 'unavailable' : 'blocked',
       currentPathIds: [...new Set(compactNow.map(p => p.id))], futurePathIds: [...new Set(compactLater.map(p => p.id))], firstMilestoneIds, blockers };
   }
   for (const path of Object.values(snapshot.paths)) path.breedingSteps = path.breedingSteps.map(step => ({ ...step,

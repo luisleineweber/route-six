@@ -1,0 +1,18 @@
+{
+  "id": "omega-ruby",
+  "name": "Pokémon Omega Ruby",
+  "generation": 6,
+  "region": "Hoenn",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "omega-ruby-profiles",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}

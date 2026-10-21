@@ -1,0 +1,15 @@
+[
+  {"id":"roxanne","name":"Roxanne","kind":"gym","highestLevel":14,"badgeNumber":1,"specialtyTypeId":"rock","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"brawly","name":"Brawly","kind":"gym","highestLevel":16,"badgeNumber":2,"specialtyTypeId":"fighting","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"wattson","name":"Wattson","kind":"gym","highestLevel":21,"badgeNumber":3,"specialtyTypeId":"electric","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"flannery","name":"Flannery","kind":"gym","highestLevel":28,"badgeNumber":4,"specialtyTypeId":"fire","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"norman","name":"Norman","kind":"gym","highestLevel":30,"badgeNumber":5,"specialtyTypeId":"normal","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"winona","name":"Winona","kind":"gym","highestLevel":35,"badgeNumber":6,"specialtyTypeId":"flying","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"tate-and-liza","name":"Tate & Liza","kind":"gym","highestLevel":45,"badgeNumber":7,"specialtyTypeId":"psychic","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"wallace","name":"Wallace","kind":"gym","highestLevel":46,"badgeNumber":8,"specialtyTypeId":"water","review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"sidney","name":"Sidney","kind":"elite-four","highestLevel":52,"review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"phoebe","name":"Phoebe","kind":"elite-four","highestLevel":53,"review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"glacia","name":"Glacia","kind":"elite-four","highestLevel":54,"review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"drake","name":"Drake","kind":"elite-four","highestLevel":55,"review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"steven","name":"Steven Stone","kind":"champion","highestLevel":59,"review":{"referenceIds":["alpha-sapphire-bosses"],"checkedOn":"2026-10-13"}}
+]

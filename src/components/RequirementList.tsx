@@ -1,4 +1,4 @@
-import { pokemonById } from '../data/dataset';
+import { pokemonIdentity } from '../data/dataset';
 import { useGameData } from '../features/planner/GameContext';
 import type { Requirement } from '../domain/types';
 
@@ -11,8 +11,9 @@ export function RequirementList({ requirement }: { requirement:Requirement }) {
   }
   switch(requirement.kind){
     case 'milestone': return <>{game.milestones.find(m=>m.id===requirement.id)!.name}.</>;
+    case 'location': return <>Reach {game.locations.find(location=>location.id===requirement.id)!.name}.</>;
     case 'capability': return <>{game.capabilities.find(c=>c.id===requirement.id)!.name}.</>;
     case 'item': return <>{game.items.find(i=>i.id===requirement.id)!.name} ×{requirement.quantity} ({requirement.consumed?'consumed':'kept'}).</>;
-    case 'pokemon': return <>{pokemonById.get(requirement.id)!.name} ×{requirement.quantity} ({requirement.consumed?'given away':'kept'}).</>;
+    case 'pokemon': return <>{pokemonIdentity(requirement.id).name} ×{requirement.quantity} ({requirement.consumed?'given away':'kept'}).</>;
   }
 }

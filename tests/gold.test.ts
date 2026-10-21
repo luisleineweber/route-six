@@ -82,7 +82,7 @@ describe('Pokémon Gold reviewed data', () => {
       ]) },
     });
     expect(exclusions.some((exclusion) => exclusion.pokemonId === 'lugia')).toBe(false);
-    expect(sources.filter((source) => source.details.kind === 'breeding')).toHaveLength(118);
+    expect(sources.filter((source) => source.details.kind === 'breeding')).toHaveLength(119);
     expect(breedingRules.some(rule => rule.offspringPokemonIds.includes('ditto'))).toBe(false);
     expect(exclusions).toHaveLength(42);
     const covered = new Set(sources.filter((source) => source.details.kind !== 'breeding')

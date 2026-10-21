@@ -3,13 +3,16 @@ import { Check, ChevronRight, Plus } from 'lucide-react';
 import { pokemonById } from '../../data/dataset';
 import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
 import { useGameData } from '../planner/GameContext';
+import { regionalDexName } from '../planner/pokedex-order';
 
-export function PokemonCatalogueCard({ pokemonId, regionalDex, progressPage, activeSlot, canAdd, onAdd, onDetails, children }: {
-  pokemonId: string; regionalDex?: number; progressPage: boolean; activeSlot: number | null; canAdd: boolean;
+export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectionId, progressPage, activeSlot, canAdd, onAdd, onDetails, children }: {
+  pokemonId: string; regionalDex?: number; regionalDexSectionId?: string; progressPage: boolean; activeSlot: number | null; canAdd: boolean;
   onAdd: (id: string) => void; onDetails: (id: string) => void; children?: ReactNode;
 }) {
   const game = useGameData();
   const pokemon = pokemonById.get(pokemonId)!;
+  const hasRegionalDex = regionalDex !== undefined;
+  const dexName = hasRegionalDex ? regionalDexName(game, regionalDexSectionId) : 'National';
   const [feedback, setFeedback] = useState(0);
   useEffect(() => {
     if (!feedback) return;
@@ -18,7 +21,7 @@ export function PokemonCatalogueCard({ pokemonId, regionalDex, progressPage, act
   }, [feedback]);
 
   return <article className={`pokemon-card${feedback ? ' pokemon-added' : ''}`}>
-    <span className="dex-number" title={regionalDex ? `${game.game.region} Pokédex` : 'National Pokédex'}><span className="dex-name">{regionalDex ? game.game.region : 'National'} </span>#{String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}</span>
+    <span className="dex-number" title={`${dexName} Pokédex`}><span className="dex-name">{dexName} </span>#{String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}</span>
     <button className="icon-button add-button" aria-label={`${activeSlot !== null ? 'Set' : 'Add'} ${pokemon.name}${activeSlot !== null ? ` in slot ${activeSlot + 1}` : ' to team'}`} disabled={!canAdd} onClick={() => {
       onAdd(pokemonId);
       setFeedback(value => value + 1);

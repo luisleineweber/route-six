@@ -1,6 +1,7 @@
-import type { GameData, Milestone, Requirement } from '../types';
+import type { GameData, Milestone, PokemonProfile, Requirement } from '../types';
 import type { ProofPath } from '../proofs';
 import { mergeChoices, unique } from '../proofs';
+import { itemSourceWitnesses, usefulItemWitnesses } from './item-sources';
 
 export interface Witness {
   choices: ProofPath['choices'];
@@ -40,13 +41,18 @@ export interface AccessContext {
   paths: Map<string, ProofPath[]>;
   resourceLimits: Record<string, number | null>;
   requirementCache?: Map<string, Witness[]>;
-  partnerCache?: ProofPath[];
+  partnerCache?: Map<string, ProofPath[]>;
+  breedingProfiles?: Map<string, PokemonProfile>;
 }
 
 export function limitsFor(game: GameData): Record<string, number | null> {
   return Object.fromEntries([
     ...game.sources.map(s => [`source:${s.id}`, s.maxUses]),
     ...game.items.flatMap(item => item.sources.map(s => [`item-source:${s.id}`, s.maxUses])),
+    ...game.items.flatMap(item => item.sources.flatMap(source => source.details?.kind === 'wild-held-item'
+      ? [[`wild-loot:${source.details.pokemonSourceId}`, game.sources.find(capture => capture.id === source.details!.pokemonSourceId)!.maxUses]] : [])),
+    ...game.items.flatMap(item => item.sources.flatMap(source => source.details?.kind === 'received-held-item'
+      ? [[`received-loot:${source.details.pokemonSourceId}`, 1]] : [])),
   ]);
 }
 
@@ -70,6 +76,11 @@ function evaluateRequirement(ctx: AccessContext, req: Requirement, seen: Set<str
   const key = `${req.kind}:${req.id}`;
   if (seen.has(key)) return [];
   const nextSeen = new Set([...seen, key]);
+  if (req.kind === 'location') {
+    const location = ctx.game.locations.find(location => location.id === req.id);
+    if (!location) throw new Error(`Missing location: ${req.id}`);
+    return requirementWitnesses(ctx, location.requirements, nextSeen);
+  }
   if (req.kind === 'capability') {
     const capability = ctx.game.capabilities.find(c => c.id === req.id);
     if (!capability) throw new Error(`Missing capability: ${req.id}`);
@@ -83,20 +94,29 @@ function evaluateRequirement(ctx: AccessContext, req: Requirement, seen: Set<str
   }
   const item = ctx.game.items.find(i => i.id === req.id);
   if (!item) throw new Error(`Missing item: ${req.id}`);
-  return item.sources.flatMap(source => {
+  return usefulItemWitnesses(ctx, item.sources.flatMap(source => {
     const location = ctx.game.locations.find(l => l.id === source.locationId)!;
-    return requirementWitnesses(ctx, { kind: 'all', requirements: [location.requirements, source.requirements] }, nextSeen).map(witness => ({ ...witness,
+    const access = requirementWitnesses(ctx, { kind: 'all', requirements: [location.requirements, source.requirements] }, nextSeen);
+    const holders = source.details ? itemSourceWitnesses(ctx, source) : [];
+    const witnesses = source.details ? access.flatMap(a => holders.map(b => mergeWitness(a, b))) : access;
+    return witnesses.map(witness => ({ ...witness,
       choices: mergeChoices([...witness.choices, ...(source.choice ? [source.choice] : [])]),
-      itemUses: [...witness.itemUses, { resourceId: `item-source:${source.id}`, token: `${req.id}:${source.id}`, quantity: req.quantity, consumed: req.consumed }],
+      itemUses: [...witness.itemUses.map(use => !req.consumed && use.consumed && !use.ownerOrigin && !use.acquisitionId
+        ? { ...use, acquisitionId: `item-source:${source.id}`, quantity: use.quantity * req.quantity } : use),
+        ...(source.details?.kind === 'wild-held-item' || source.details?.kind === 'received-held-item'
+          ? [{ resourceId: `${source.details.kind === 'wild-held-item' ? 'wild' : 'received'}-loot:${source.details.pokemonSourceId}`,
+          token: `extract:${source.id}`, quantity: req.quantity, consumed: true,
+          ...(!req.consumed ? { acquisitionId: `item-source:${source.id}` } : {}) }] : []),
+        { resourceId: `item-source:${source.id}`, token: `${req.id}:${source.id}`, quantity: req.quantity, consumed: req.consumed }],
     }));
-  });
+  }));
 }
 
 /** Keep every finite/choice alternative. Equivalent repeatable parents need one lowest-level witness. */
 export function usefulPaths(ctx: AccessContext, paths: ProofPath[]): ProofPath[] {
   const useful = new Map<string, ProofPath>();
   for (const path of paths) {
-    const key = JSON.stringify([path.pokemonId, path.genders, path.choices,
+    const key = JSON.stringify([path.pokemonId, path.formId ?? null, path.genders, path.choices, path.knownMoveIds ?? [],
       path.individuals.filter(i => ctx.resourceLimits[i.origin] !== null),
       path.itemUses.filter(i => ctx.resourceLimits[i.resourceId] !== null),
     ]);

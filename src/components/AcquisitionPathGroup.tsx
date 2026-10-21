@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { pokemonById } from '../data/dataset';
 import { useGameData } from '../features/planner/GameContext';
 import type { AvailabilitySnapshot } from '../domain/types';
 import { AcquisitionPathBody } from './AcquisitionPathBody';
-import { distinctPathOptions, groupAcquisitionPaths, pathOptionName } from './acquisition-presentation';
+import { distinctPathOptions, groupAcquisitionPaths, pathOptionName, breedingParentName } from './acquisition-presentation';
 
 type PathGroup = ReturnType<typeof groupAcquisitionPaths>[number];
 
@@ -22,7 +21,7 @@ export function AcquisitionPathGroup({ group, snapshot }: { group: PathGroup; sn
     {options.length === 1 ? <AcquisitionPathBody path={options[0]} snapshot={snapshot} /> : <div className="path-options">
       {options.slice(0, count).map((path, index) => <details className="path-option" key={path.id} open={index === 0}>
         <summary><span>{!path.evolutionIds.length && path.breedingSteps.length
-          ? path.breedingSteps[0].parents.map(parent => pokemonById.get(parent.pokemonId)!.name).join(' + ')
+          ? path.breedingSteps[0].parents.map(parent => breedingParentName(parent,snapshot)).join(' + ')
           : pathOptionName(game, path)}<span className="path-subtitle">Option {index + 1} · From Lv. {path.minimumLevel}</span></span><ChevronDown className="chevron" size={16} aria-hidden="true" /></summary>
         <AcquisitionPathBody path={path} snapshot={snapshot} />
       </details>)}

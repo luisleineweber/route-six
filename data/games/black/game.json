@@ -1,0 +1,18 @@
+{
+  "id": "black",
+  "name": "Pokémon Black",
+  "generation": 5,
+  "region": "Unova",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "black-personal-table",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}

@@ -1,7 +1,7 @@
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { expect, it } from 'vitest';
-import { emerald } from '../src/data/dataset';
+import { emerald } from './local-data';
 import { GameContext } from '../src/features/planner/GameContext';
 import { TypeAnalysis } from '../src/features/team/TypeAnalysis';
 

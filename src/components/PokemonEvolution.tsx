@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
-import { pokemonById } from '../data/dataset';
+import { pokemonIdentity } from '../data/dataset';
+import { selectionId } from '../domain/pokemon-selection';
 import { useGameData } from '../features/planner/GameContext';
 import type { Evolution, GameData } from '../domain/types';
 import { PokemonSprite } from './PokemonIdentity';
@@ -8,8 +9,8 @@ import { evolutionFamily, evolutionLabels } from './evolution-presentation';
 function EvolutionStage({ id, currentId, evolutions, game, onSelect }: {
   id: string; currentId: string; evolutions: Evolution[]; game: GameData; onSelect: (id: string) => void;
 }) {
-  const pokemon = pokemonById.get(id)!;
-  const next = evolutions.filter(evolution => evolution.fromPokemonId === id);
+  const pokemon = pokemonIdentity(id);
+  const next = evolutions.filter(evolution => selectionId(evolution.fromPokemonId, evolution.fromFormId) === id);
   return <div className="evolution-stage">
     <button type="button" className="evolution-pokemon" aria-current={id === currentId ? 'true' : undefined}
       aria-label={`View ${pokemon.name} details`} onClick={() => onSelect(id)}>
@@ -18,9 +19,12 @@ function EvolutionStage({ id, currentId, evolutions, game, onSelect }: {
     {next.length > 0 && <ul className="evolution-branches">
       {next.map(evolution => <li key={evolution.id}>
         <div className="evolution-method"><ArrowRight size={18} aria-hidden="true" />
-          <ul>{evolutionLabels(game, evolution).map(label => <li key={label}>{label}</li>)}</ul>
+          <ul>
+            {next.length > 1 && <li>From {pokemon.name}</li>}
+            {evolutionLabels(game, evolution).map(label => <li key={label}>{label}</li>)}
+          </ul>
         </div>
-        <EvolutionStage id={evolution.toPokemonId} currentId={currentId} evolutions={evolutions} game={game} onSelect={onSelect} />
+        <EvolutionStage id={selectionId(evolution.toPokemonId, evolution.toFormId)} currentId={currentId} evolutions={evolutions} game={game} onSelect={onSelect} />
       </li>)}
     </ul>}
   </div>;

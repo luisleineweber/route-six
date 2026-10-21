@@ -130547,7 +130547,7 @@
   },
   {
     "id": "breed-nidorino",
-    "pokemonId": "nidorino",
+    "pokemonId": "nidoran-m",
     "locationId": "route-34",
     "requirements": {
       "kind": "all",
@@ -130578,7 +130578,7 @@
         "gold-hatch",
         "gold-progression"
       ],
-      "checkedOn": "2026-10-12"
+      "checkedOn": "2026-10-21"
     }
   },
   {
@@ -132831,6 +132831,42 @@
         "gold-items"
       ],
       "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidoran-m-from-nidoran-f",
+    "pokemonId": "nidoran-m",
+    "locationId": "route-34",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "day-care"
+        }
+      ]
+    },
+    "level": {
+      "kind": "fixed",
+      "value": 5
+    },
+    "genders": [
+      "male"
+    ],
+    "maxUses": null,
+    "choice": null,
+    "details": {
+      "kind": "breeding",
+      "ruleId": "breed-nidoran-f",
+      "capabilityId": "day-care"
+    },
+    "review": {
+      "referenceIds": [
+        "gold-breeding",
+        "gold-hatch",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-21"
     }
   }
 ]

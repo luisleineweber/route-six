@@ -1,0 +1,174 @@
+[
+  {
+    "id": "roark",
+    "name": "Roark",
+    "kind": "gym",
+    "highestLevel": 14,
+    "badgeNumber": 1,
+    "specialtyTypeId": "rock",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "gardenia",
+    "name": "Gardenia",
+    "kind": "gym",
+    "highestLevel": 22,
+    "badgeNumber": 2,
+    "specialtyTypeId": "grass",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "fantina",
+    "name": "Fantina",
+    "kind": "gym",
+    "highestLevel": 26,
+    "badgeNumber": 3,
+    "specialtyTypeId": "ghost",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "maylene",
+    "name": "Maylene",
+    "kind": "gym",
+    "highestLevel": 32,
+    "badgeNumber": 4,
+    "specialtyTypeId": "fighting",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "wake",
+    "name": "Wake",
+    "kind": "gym",
+    "highestLevel": 37,
+    "badgeNumber": 5,
+    "specialtyTypeId": "water",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "byron",
+    "name": "Byron",
+    "kind": "gym",
+    "highestLevel": 41,
+    "badgeNumber": 6,
+    "specialtyTypeId": "steel",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "candice",
+    "name": "Candice",
+    "kind": "gym",
+    "highestLevel": 44,
+    "badgeNumber": 7,
+    "specialtyTypeId": "ice",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "volkner",
+    "name": "Volkner",
+    "kind": "gym",
+    "highestLevel": 50,
+    "badgeNumber": 8,
+    "specialtyTypeId": "electric",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron",
+    "kind": "elite-four",
+    "highestLevel": 53,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "bertha",
+    "name": "Bertha",
+    "kind": "elite-four",
+    "highestLevel": 55,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "flint",
+    "name": "Flint",
+    "kind": "elite-four",
+    "highestLevel": 57,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "lucian",
+    "name": "Lucian",
+    "kind": "elite-four",
+    "highestLevel": 59,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  },
+  {
+    "id": "cynthia",
+    "name": "Cynthia",
+    "kind": "champion",
+    "highestLevel": 62,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "platinum-bosses"
+      ]
+    }
+  }
+]

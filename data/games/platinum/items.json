@@ -1,0 +1,3105 @@
+[
+  {
+    "id": "hm01",
+    "name": "Hm01",
+    "sources": [
+      {
+        "id": "hm01-native-source",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "eterna-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm02",
+    "name": "Hm02",
+    "sources": [
+      {
+        "id": "hm02-native-source",
+        "locationId": "veilstone-city-galactic-warehouse",
+        "requirements": {
+          "kind": "milestone",
+          "id": "veilstone-warehouse-fly"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm03",
+    "name": "Hm03",
+    "sources": [
+      {
+        "id": "hm03-native-source",
+        "locationId": "celestic-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celestic"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm04",
+    "name": "Hm04",
+    "sources": [
+      {
+        "id": "hm04-native-source",
+        "locationId": "iron-island",
+        "requirements": {
+          "kind": "milestone",
+          "id": "canalave"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm05",
+    "name": "Hm05",
+    "sources": [
+      {
+        "id": "hm05-native-source",
+        "locationId": "solaceon-ruins-room-7",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm06",
+    "name": "Hm06",
+    "sources": [
+      {
+        "id": "hm06-native-source",
+        "locationId": "oreburgh-gate",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm07",
+    "name": "Hm07",
+    "sources": [
+      {
+        "id": "hm07-native-source",
+        "locationId": "sunyshore-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "sunyshore-gym"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hm08",
+    "name": "Hm08",
+    "sources": [
+      {
+        "id": "hm08-native-source",
+        "locationId": "route-217",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Old Rod",
+    "sources": [
+      {
+        "id": "old-rod-native-source",
+        "locationId": "route-218-gate-to-jubilife-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Good Rod",
+    "sources": [
+      {
+        "id": "good-rod-native-source",
+        "locationId": "route-209",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "sources": [
+      {
+        "id": "super-rod-native-source",
+        "locationId": "fight-area",
+        "requirements": {
+          "kind": "milestone",
+          "id": "battle-zone"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "explorer-kit",
+    "name": "Explorer Kit",
+    "sources": [
+      {
+        "id": "explorer-kit-native-source",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "secret-potion",
+    "name": "Secret Potion",
+    "sources": [
+      {
+        "id": "secret-potion-native-source",
+        "locationId": "valor-lakefront",
+        "requirements": {
+          "kind": "milestone",
+          "id": "valor-lakefront"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lunar-wing",
+    "name": "Lunar Wing",
+    "sources": [
+      {
+        "id": "lunar-wing-native-source",
+        "locationId": "fullmoon-island-forest",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fullmoon-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "sea-incense-placement-01",
+        "locationId": "route-204",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "luck-incense",
+    "name": "Luck Incense",
+    "sources": [
+      {
+        "id": "luck-incense-placement-02",
+        "locationId": "ravaged-path",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "sources": [
+      {
+        "id": "dawn-stone-placement-03",
+        "locationId": "mt-coronet-1f-south",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "dawn-stone-placement-23",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-pickup-dawn-stone-51-60",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 51,
+          "maximumLevel": 60,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "pt-pickup-dawn-stone-61-70",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 61,
+          "maximumLevel": 70,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "pt-pickup-dawn-stone-71-80",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 71,
+          "maximumLevel": 80,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-dawn-stone-81-90",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 81,
+          "maximumLevel": 90,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-dawn-stone-91-100",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 91,
+          "maximumLevel": 100,
+          "ratePercent": 1.0
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "rose-incense",
+    "name": "Rose Incense",
+    "sources": [
+      {
+        "id": "rose-incense-placement-04",
+        "locationId": "route-212",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-placement-05",
+        "locationId": "route-213",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oval-stone",
+    "name": "Oval Stone",
+    "sources": [
+      {
+        "id": "oval-stone-placement-06",
+        "locationId": "lost-tower-2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "odd-incense",
+    "name": "Odd Incense",
+    "sources": [
+      {
+        "id": "odd-incense-placement-07",
+        "locationId": "solaceon-ruins",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pure-incense",
+    "name": "Pure Incense",
+    "sources": [
+      {
+        "id": "pure-incense-placement-08",
+        "locationId": "route-221",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "full-incense",
+    "name": "Full Incense",
+    "sources": [
+      {
+        "id": "full-incense-placement-09",
+        "locationId": "veilstone-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "sources": [
+      {
+        "id": "dusk-stone-placement-10",
+        "locationId": "veilstone-city-galactic-warehouse",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "dusk-stone-placement-18",
+        "locationId": "victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-31-40",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 31,
+          "maximumLevel": 40,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-41-50",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 41,
+          "maximumLevel": 50,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-51-60",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 51,
+          "maximumLevel": 60,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-61-70",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 61,
+          "maximumLevel": 70,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-71-80",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 71,
+          "maximumLevel": 80,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-81-90",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 81,
+          "maximumLevel": 90,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-dusk-stone-91-100",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 91,
+          "maximumLevel": 100,
+          "ratePercent": 1.0
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "wave-incense",
+    "name": "Wave Incense",
+    "sources": [
+      {
+        "id": "wave-incense-placement-11",
+        "locationId": "route-210-north",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "surf"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "rock-incense",
+    "name": "Rock Incense",
+    "sources": [
+      {
+        "id": "rock-incense-placement-12",
+        "locationId": "fuego-ironworks",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-placement-13",
+        "locationId": "fuego-ironworks",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "sources": [
+      {
+        "id": "protector-placement-14",
+        "locationId": "iron-island",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "protector-placement-24",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "sources": [
+      {
+        "id": "shiny-stone-placement-15",
+        "locationId": "iron-island",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "shiny-stone-placement-25",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-pickup-shiny-stone-41-50",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 41,
+          "maximumLevel": 50,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "pt-pickup-shiny-stone-51-60",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 51,
+          "maximumLevel": 60,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "pt-pickup-shiny-stone-61-70",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 61,
+          "maximumLevel": 70,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-shiny-stone-71-80",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 71,
+          "maximumLevel": 80,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-shiny-stone-81-90",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 81,
+          "maximumLevel": 90,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "pt-pickup-shiny-stone-91-100",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 91,
+          "maximumLevel": 100,
+          "ratePercent": 1.0
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "thunderstone",
+    "name": "Thunderstone",
+    "sources": [
+      {
+        "id": "thunderstone-placement-16",
+        "locationId": "sunyshore-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "sources": [
+      {
+        "id": "razor-claw-placement-17",
+        "locationId": "victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "razor-claw-placement-19",
+        "locationId": "route-224",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "razor-fang",
+    "name": "Razor Fang",
+    "sources": [
+      {
+        "id": "razor-fang-placement-20",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "razor-fang-placement-28",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "lax-incense-placement-21",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "dubious-disc",
+    "name": "Dubious Disc",
+    "sources": [
+      {
+        "id": "dubious-disc-placement-22",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "dubious-disc-placement-30",
+        "locationId": "galactic-hq",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "reaper-cloth",
+    "name": "Reaper Cloth",
+    "sources": [
+      {
+        "id": "reaper-cloth-placement-26",
+        "locationId": "route-229",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "reaper-cloth-placement-32",
+        "locationId": "acuity-lakefront",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-placement-27",
+        "locationId": "floaroma-meadow",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "upgrade",
+    "name": "Upgrade",
+    "sources": [
+      {
+        "id": "upgrade-placement-29",
+        "locationId": "team-galactic-eterna-building",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "upgrade-placement-31",
+        "locationId": "route-224",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "upgrade-placement-37",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "sources": [
+      {
+        "id": "magmarizer-placement-33",
+        "locationId": "route-214",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "sources": [
+      {
+        "id": "electirizer-placement-34",
+        "locationId": "valley-windworks-outside",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "metal-coat-placement-35",
+        "locationId": "iron-island",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hard-stone",
+    "name": "Hard Stone",
+    "sources": [
+      {
+        "id": "hard-stone-placement-36",
+        "locationId": "rock-peak-ruins",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "armor-fossil",
+    "name": "Armor Fossil",
+    "sources": [
+      {
+        "id": "armor-fossil-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": {
+          "groupId": "underground-fossil-trainer-id-parity",
+          "optionId": "even-trainer-id"
+        },
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "claw-fossil",
+    "name": "Claw Fossil",
+    "sources": [
+      {
+        "id": "claw-fossil-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "dome-fossil-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "helix-fossil-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "old-amber-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "root-fossil",
+    "name": "Root Fossil",
+    "sources": [
+      {
+        "id": "root-fossil-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "skull-fossil",
+    "name": "Skull Fossil",
+    "sources": [
+      {
+        "id": "skull-fossil-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": {
+          "groupId": "underground-fossil-trainer-id-parity",
+          "optionId": "odd-trainer-id"
+        },
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "griseous-orb",
+    "name": "Griseous Orb",
+    "sources": [
+      {
+        "id": "griseous-orb-turnback-cave",
+        "locationId": "distortion-world-turnback-cave-room",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "giratina",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "heart-scale",
+    "name": "Heart Scale",
+    "sources": [
+      {
+        "id": "heart-scale-underground-mining",
+        "locationId": "sinnoh-underground",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-game",
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-heart-scale-hidden-route-213",
+        "locationId": "route-213",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-heart-scale-hidden-route-223",
+        "locationId": "route-223",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-heart-scale-hidden-route-224",
+        "locationId": "route-224",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "held-heart-scale-pt-wild-171-route-224-super-rod-2",
+        "locationId": "route-224",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-171-route-224-super-rod-2",
+          "ratePercent": 50
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "pt-moon-stone-hidden-eterna",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-moon-stone-underground",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "held-moon-stone-pt-wild-20-mt-coronet-1f-north-room-2-grass-3-morning",
+        "locationId": "mt-coronet-1f-north-room-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-20-mt-coronet-1f-north-room-2-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-moon-stone-pt-wild-10-mt-coronet-1f-south-grass-3-morning",
+        "locationId": "mt-coronet-1f-south",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-10-mt-coronet-1f-south-grass-3-morning",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "pt-sun-stone-hidden-valor-lakefront",
+        "locationId": "valor-lakefront",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-sun-stone-underground",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Pok? Ball",
+    "sources": [
+      {
+        "id": "pt-poke-ball-jubilife-mart",
+        "locationId": "jubilife-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "oreburgh-gym"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-poke-ball-route-202-gift",
+        "locationId": "route-202",
+        "requirements": {
+          "kind": "milestone",
+          "id": "jubilife"
+        },
+        "maxUses": 5,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-poke-ball-hidden-route-207",
+        "locationId": "route-207",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-poke-ball-route-203",
+        "locationId": "route-203",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "held-deep-sea-scale-pt-wild-179-route-220-super-rod-2",
+        "locationId": "route-220",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-179-route-220-super-rod-2",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-deep-sea-scale-pt-wild-181-route-226-super-rod-2",
+        "locationId": "route-226",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-181-route-226-super-rod-2",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "held-deep-sea-tooth-pt-wild-23-great-marsh-1-super-rod-1",
+        "locationId": "great-marsh-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-23-great-marsh-1-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-deep-sea-tooth-pt-wild-24-great-marsh-2-super-rod-1",
+        "locationId": "great-marsh-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-24-great-marsh-2-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-deep-sea-tooth-pt-wild-25-great-marsh-3-super-rod-1",
+        "locationId": "great-marsh-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-25-great-marsh-3-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-deep-sea-tooth-pt-wild-26-great-marsh-4-super-rod-1",
+        "locationId": "great-marsh-4",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-26-great-marsh-4-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-deep-sea-tooth-pt-wild-27-great-marsh-5-super-rod-1",
+        "locationId": "great-marsh-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-27-great-marsh-5-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-deep-sea-tooth-pt-wild-28-great-marsh-6-super-rod-1",
+        "locationId": "great-marsh-6",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-28-great-marsh-6-super-rod-1",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "held-dragon-scale-pt-wild-181-route-226-good-rod-1",
+        "locationId": "route-226",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-181-route-226-good-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-dragon-scale-pt-wild-181-route-226-super-rod-1",
+        "locationId": "route-226",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-181-route-226-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-dragon-scale-pt-wild-15-mt-coronet-4f-rooms-1-and-2-super-rod-1",
+        "locationId": "mt-coronet-4f-rooms-1-and-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-15-mt-coronet-4f-rooms-1-and-2-super-rod-1",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "pt-kings-rock-hidden-celestic",
+        "locationId": "celestic-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      },
+      {
+        "id": "pt-pickup-kings-rock-11-20",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 11,
+          "maximumLevel": 20,
+          "ratePercent": 0.1
+        }
+      },
+      {
+        "id": "pt-pickup-kings-rock-21-30",
+        "locationId": "route-205",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "pt-wild-145-route-205-south-grass-6-morning",
+          "minimumLevel": 21,
+          "maximumLevel": 30,
+          "ratePercent": 0.1
+        }
+      },
+      {
+        "id": "held-kings-rock-pt-wild-173-route-227-surf-0",
+        "locationId": "route-227",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-173-route-227-surf-0",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "held-kings-rock-pt-wild-174-route-228-surf-0",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "pt-wild-174-route-228-surf-0",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "cheri-berry",
+    "name": "Cheri Berry",
+    "sources": [
+      {
+        "id": "pt-cheri-berry-floaroma-daily-gift",
+        "locationId": "floaroma-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "sources": [
+      {
+        "id": "pt-chesto-berry-floaroma-daily-gift",
+        "locationId": "floaroma-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "sources": [
+      {
+        "id": "pt-pecha-berry-floaroma-daily-gift",
+        "locationId": "floaroma-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "sources": [
+      {
+        "id": "pt-rawst-berry-floaroma-daily-gift",
+        "locationId": "floaroma-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "sources": [
+      {
+        "id": "pt-aspear-berry-floaroma-daily-gift",
+        "locationId": "floaroma-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "poffin-case",
+    "name": "Poffin Case",
+    "sources": [
+      {
+        "id": "pt-poffin-case-hearthome",
+        "locationId": "hearthome-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "hearthome"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    "sources": [
+      {
+        "id": "honey-floaroma-meadow-merchant",
+        "locationId": "floaroma-meadow-south",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    "sources": [
+      {
+        "id": "pt-fixed-bicycle",
+        "locationId": "eterna-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "eterna-galactic-clear"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "id": "adamant-orb",
+    "name": "Adamant Orb",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    "sources": [
+      {
+        "id": "pt-fixed-adamant-orb",
+        "locationId": "mt-coronet-4f-rooms-1-and-2",
+        "requirements": {
+          "kind": "capability",
+          "id": "waterfall"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lustrous-orb",
+    "name": "Lustrous Orb",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    "sources": [
+      {
+        "id": "pt-fixed-lustrous-orb",
+        "locationId": "mt-coronet-4f-rooms-1-and-2",
+        "requirements": {
+          "kind": "capability",
+          "id": "waterfall"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dry-sweet-poffin",
+    "name": "Dry-Sweet Poffin, Lv. 32",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    },
+    "sources": [
+      {
+        "id": "pt-dry-sweet-poffin-veilstone-store",
+        "locationId": "veilstone-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "veilstone"
+            },
+            {
+              "kind": "item",
+              "id": "poffin-case",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "platinum-source"
+          ],
+          "checkedOn": "2026-10-17"
+        }
+      }
+    ]
+  }
+]

@@ -6,10 +6,12 @@ eyebrow labels, hero text, or decorative stamps.
 
 ## Colour
 
-Define colours in OKLCH. Surfaces are near-white with a faint green tint. Use
-the emerald accent for primary actions and the current selection only. Pair
-each status colour with a name and an icon. Type colours come only from the
-type logos.
+Define colours in OKLCH. Keep the content surfaces white and neutral grey.
+Use a dark, strong colour from the selected game for the header, primary
+actions, and current selections. Show the field guide icon and header text in
+white. Mark the active planner with a white background and dark text. Keep
+hover and focus states clear on the dark header. Pair each status colour with
+a name and an icon. Type colours come only from the type logos.
 
 ## Type
 

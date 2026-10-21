@@ -1,17 +1,19 @@
-import type { PlanningTarget } from '../../domain/types';
+import type { GameData, PlanningTarget } from '../../domain/types';
 
 export interface PlannerState {
   gameId: string;
-  milestoneId: string;
+  milestoneId: string | null;
   respectLevelLimit: boolean;
   target: PlanningTarget;
   team: (string | null)[];
 }
-export const initialState: PlannerState = { gameId: 'emerald', milestoneId: 'victory-road', respectLevelLimit: true,
-  target: 'current-progress', team: Array(6).fill(null) };
+export function createInitialState(game: GameData): PlannerState {
+  return { gameId: game.game.id, milestoneId: game.game.planner?.defaultMilestoneId ?? null, respectLevelLimit: true,
+    target: 'current-progress', team: Array(6).fill(null) };
+}
 
 export type PlannerAction =
-  | { type: 'game'; gameId: string; milestoneId: string; pokemonIds: string[] }
+  | { type: 'game'; gameId: string; milestoneId: string | null; pokemonIds: string[] }
   | { type: 'settings'; values: Partial<Omit<PlannerState, 'team'>> }
   | { type: 'add'; pokemonId: string; slot: number | null }
   | { type: 'remove'; slot: number };

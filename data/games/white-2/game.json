@@ -1,0 +1,18 @@
+{
+  "id": "white-2",
+  "name": "Pokémon White 2",
+  "generation": 5,
+  "region": "Unova",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "white-2-pkhex-personal",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}

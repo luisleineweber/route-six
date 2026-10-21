@@ -2938,10 +2938,7 @@
   {
     "id": "breed-nidoran",
     "parentPokemonIds": [
-      "nidoran-f",
-      "nidoran-m",
-      "nidorino",
-      "nidoking"
+      "nidoran-f"
     ],
     "offspringPokemonIds": [
       "nidoran-f",
@@ -2949,7 +2946,7 @@
     ],
     "requiredHeldItemId": null,
     "review": {
-      "checkedOn": "2026-10-12",
+      "checkedOn": "2026-10-21",
       "referenceIds": [
         "leafgreen-daycare"
       ]
@@ -3052,6 +3049,24 @@
         "leafgreen-daycare"
       ],
       "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidoran-male-ditto",
+    "parentPokemonIds": [
+      "nidoran-m",
+      "nidorino",
+      "nidoking"
+    ],
+    "offspringPokemonIds": [
+      "nidoran-m"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "checkedOn": "2026-10-21",
+      "referenceIds": [
+        "leafgreen-daycare"
+      ]
     }
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "id": "alpha-sapphire",
+  "name": "Pokémon Alpha Sapphire",
+  "generation": 6,
+  "region": "Hoenn",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "alpha-sapphire-pkhex",
+      "alpha-sapphire-hoenn-dex",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}

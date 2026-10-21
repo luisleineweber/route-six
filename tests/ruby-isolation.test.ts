@@ -31,7 +31,7 @@ describe('Emerald and Ruby isolation', () => {
       team: ['treecko', null, 'surskit', null, null, 'latios'],
     };
     const next = plannerReducer(state, {
-      type: 'game', gameId: 'ruby', milestoneId: ruby.value.game.planner.defaultMilestoneId,
+      type: 'game', gameId: 'ruby', milestoneId: ruby.value.game.planner!.defaultMilestoneId,
       pokemonIds: ruby.value.profiles.map(profile => profile.pokemonId),
     });
     expect(next).toMatchObject({

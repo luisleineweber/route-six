@@ -1,7 +1,8 @@
 import type { GameData, TypeAnalysis } from '../types';
+import { selectionProfile } from '../pokemon-selection';
 
 export function damageMultiplier(game: GameData, attack: string, defender: string): number {
-  const profile = game.profiles.find(p => p.pokemonId === defender);
+  const profile = selectionProfile(game, defender);
   const a = game.typeChart.typeIds.indexOf(attack);
   if (!profile || a < 0) throw new Error(`Unknown type profile: ${attack} → ${defender}`);
   return profile.types.reduce((n, type) => {
@@ -18,7 +19,7 @@ export function analyzeTypes(game: GameData, team: string[]): TypeAnalysis {
   const result: TypeAnalysis = { weaknesses: empty(), resistances: empty(), immunities: empty(), repeatedTypes: {}, coveredTypes: [], totalTypes: types.length };
   const counts = empty();
   for (const id of team) {
-    const profile = game.profiles.find(p => p.pokemonId === id);
+    const profile = selectionProfile(game, id);
     if (!profile) throw new Error(`Missing Pokémon profile: ${id}`);
     for (const type of profile.types) counts[type]++;
     for (const attack of types) {

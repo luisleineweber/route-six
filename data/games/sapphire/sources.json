@@ -71032,5 +71032,41 @@
       ],
       "checkedOn": "2026-10-12"
     }
+  },
+  {
+    "id": "breed-nidoran-male-ditto-egg",
+    "pokemonId": "nidoran-m",
+    "locationId": "route-117",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "day-care"
+        }
+      ]
+    },
+    "level": {
+      "kind": "fixed",
+      "value": 5
+    },
+    "genders": [
+      "male"
+    ],
+    "maxUses": null,
+    "choice": null,
+    "details": {
+      "kind": "breeding",
+      "ruleId": "breed-nidoran-male-ditto",
+      "capabilityId": "day-care"
+    },
+    "review": {
+      "referenceIds": [
+        "sapphire-breeding",
+        "sapphire-progression",
+        "sapphire-hatch"
+      ],
+      "checkedOn": "2026-10-21"
+    }
   }
 ]

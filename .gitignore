@@ -5,3 +5,8 @@ dist/
 artifacts/
 output/
 .playwright-cli/
+.crystal-source-review/
+.firered-source-review/
+.gold-source-review/
+.sapphire-source-review/
+.soulsilver-source-review/

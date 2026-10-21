@@ -2938,10 +2938,7 @@
   {
     "id": "breed-nidoran",
     "parentPokemonIds": [
-      "nidoran-f",
-      "nidoran-m",
-      "nidorino",
-      "nidoking"
+      "nidoran-f"
     ],
     "offspringPokemonIds": [
       "nidoran-f",
@@ -2952,7 +2949,7 @@
       "referenceIds": [
         "sapphire-breeding"
       ],
-      "checkedOn": "2026-10-12"
+      "checkedOn": "2026-10-21"
     }
   },
   {
@@ -3052,6 +3049,24 @@
         "sapphire-breeding"
       ],
       "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "breed-nidoran-male-ditto",
+    "parentPokemonIds": [
+      "nidoran-m",
+      "nidorino",
+      "nidoking"
+    ],
+    "offspringPokemonIds": [
+      "nidoran-m"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "sapphire-breeding"
+      ],
+      "checkedOn": "2026-10-21"
     }
   }
 ]

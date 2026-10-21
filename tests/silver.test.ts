@@ -165,7 +165,7 @@ describe('Silver reviewed data layer', () => {
       ],
     });
     expect(sources.every(source => profileIds.has(source.pokemonId) && locationIds.has(source.locationId)
-      && source.review.checkedOn === '2026-10-12')).toBe(true);
+      && source.review.checkedOn === (source.id === 'breed-nidorino' ? '2026-10-21' : '2026-10-12'))).toBe(true);
     const wildSources = sources.filter(source => source.details.kind === 'wild');
     expect(wildSources.every(source => source.review.referenceIds.every(id =>
       ['silver-encounters', 'silver-special-encounters'].includes(id)))).toBe(true);

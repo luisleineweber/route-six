@@ -17,13 +17,41 @@ export interface ProofPath extends AcquisitionPath {
   individuals: IndividualProof[];
   ancestors: string[];
   conditions: string[];
-  itemUses: { resourceId: string; token: string; quantity: number; consumed: boolean; ownerOrigin?: string }[];
+  knownMoveIds?: string[];
+  itemUses: { resourceId: string; token: string; quantity: number; consumed: boolean;
+    ownerOrigin?: string; acquisitionId?: string; heldByOrigin?: string }[];
 }
 
 export function unique<T>(values: T[]): T[] { return [...new Set(values)]; }
 
 export function mergeChoices(choices: ChoiceSelection[]): ChoiceSelection[] {
   return [...new Map(choices.map(c => [`${c.groupId}:${c.optionId}`, c])).values()];
+}
+
+/** Repeated access requirements reuse the same retained key or held item. */
+export function compactItemUses(uses: ProofPath['itemUses']): ProofPath['itemUses'] {
+  const retained = new Map<string, ProofPath['itemUses'][number]>();
+  const acquisitions = new Map<string, ProofPath['itemUses'][number]>();
+  const held = new Map<string, ProofPath['itemUses'][number]>();
+  const consumed = uses.filter(use => use.consumed && !use.acquisitionId);
+  for (const use of uses) if (use.acquisitionId) {
+    const key = `${use.resourceId}:${use.acquisitionId}`;
+    const previous = acquisitions.get(key);
+    acquisitions.set(key, { ...use, quantity: Math.max(previous?.quantity ?? 0, use.quantity) });
+  }
+  for (const use of uses) if (!use.consumed && use.heldByOrigin) {
+    const key = `${use.resourceId}:${use.heldByOrigin}`;
+    const previous = held.get(key);
+    held.set(key, { ...use, token: use.resourceId, quantity: Math.max(previous?.quantity ?? 0, use.quantity) });
+  }
+  for (const use of uses) if (!use.consumed && !use.heldByOrigin) {
+    const previous = retained.get(use.resourceId);
+    retained.set(use.resourceId, { resourceId: use.resourceId, token: use.resourceId,
+      quantity: Math.max(previous?.quantity ?? 0, use.quantity), consumed: false });
+  }
+  return [...consumed, ...[...acquisitions.values()].sort((a, b) => a.resourceId.localeCompare(b.resourceId)),
+    ...[...held.values()].sort((a, b) => a.resourceId.localeCompare(b.resourceId)),
+    ...[...retained.values()].sort((a, b) => a.resourceId.localeCompare(b.resourceId))];
 }
 
 export function claimsFor(path: Pick<ProofPath, 'individuals' | 'itemUses'>): ResourceClaim[] {
@@ -44,5 +72,6 @@ export function claimsFor(path: Pick<ProofPath, 'individuals' | 'itemUses'>): Re
 
 export function pathSignature(path: ProofPath): string {
   return JSON.stringify([path.pokemonId, path.minimumLevel, path.genders, path.sourceIds,
-    path.evolutionIds, path.choices, path.individuals, path.itemUses, path.conditions]);
+    path.evolutionIds, path.choices, path.individuals, path.itemUses, path.conditions, path.knownMoveIds ?? [],
+    path.formId ?? null, path.formChangeIds ?? []]);
 }

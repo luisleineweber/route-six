@@ -1,0 +1,1200 @@
+[
+  {
+    "id": "vaniville-town",
+    "name": "Vaniville Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "vaniville"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "aquacorde-town",
+    "name": "Aquacorde Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-2",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-2"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "santalune-forest",
+    "name": "Santalune Forest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "santalune-forest"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-3"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "santalune-city",
+    "name": "Santalune City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "santalune-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-22",
+    "name": "Route 22",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "santalune-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-4"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lumiose-city",
+    "name": "Lumiose City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "lumiose-south"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-5"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "camphrier-town",
+    "name": "Camphrier Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "camphrier"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-berry-fields",
+    "name": "Berry Fields",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-7-east"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-6"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "parfum-palace",
+    "name": "Parfum Palace",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "parfum-palace"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snorlax-clear"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "connecting-cave",
+    "name": "Connecting Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "connecting-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-8-upper"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "ambrette-town",
+    "name": "Ambrette Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ambrette"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-9"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "glittering-cave",
+    "name": "Glittering Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "glittering-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-8-beach",
+    "name": "Route 8 beach",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-8-beach"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "cyllage-city",
+    "name": "Cyllage City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cyllage"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-10",
+    "name": "Route 10",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cyllage"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "geosenge-town",
+    "name": "Geosenge Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "geosenge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-11"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "reflection-cave",
+    "name": "Reflection Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "reflection-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "shalour-city",
+    "name": "Shalour City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "shalour"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "tower-of-mastery",
+    "name": "Tower of Mastery",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "tower-mastery"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-12",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-12"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "azure-bay",
+    "name": "Azure Bay",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-12"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "coumarine-city",
+    "name": "Coumarine City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "coumarine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "coumarine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-power-plant",
+    "name": "Kalos Power Plant",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "power-plant-clear"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-14"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "laverre-city",
+    "name": "Laverre City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "laverre"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "poke-ball-factory",
+    "name": "Poke Ball Factory",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "poke-ball-factory"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-15"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-16",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-15"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lost-hotel",
+    "name": "Lost Hotel",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-15"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dendemille-town",
+    "name": "Dendemille Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "dendemille"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "frost-cavern",
+    "name": "Frost Cavern",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "frost-cavern"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-17"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "anistar-city",
+    "name": "Anistar City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "anistar"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lysandre-labs",
+    "name": "Lysandre Labs",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "lysandre-labs"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "team-flare-secret-hq",
+    "name": "Team Flare Secret HQ",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "legendary-encounter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-18"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "terminus-cave",
+    "name": "Terminus Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-18"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "couriway-town",
+    "name": "Couriway Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "couriway"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-19",
+    "name": "Route 19",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-19"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "snowbelle-city",
+    "name": "Snowbelle City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snowbelle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-20",
+    "name": "Route 20",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-20"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pokemon-village",
+    "name": "Pokémon Village",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pokemon-village"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-route-21",
+    "name": "Route 21",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snowbelle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Pokémon League",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pokemon-league"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kiloude-city",
+    "name": "Kiloude City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kiloude"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "sea-spirits-den",
+    "name": "Sea Spirit's Den",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-12"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "unknown-dungeon",
+    "name": "Unknown Dungeon",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "post-credits"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "terminus-cave-zygarde-room",
+    "name": "Terminus Cave: Zygarde's chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "post-credits"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kalos-hotels",
+    "name": "Kalos hotels",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "camphrier"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-20-moss-rock",
+    "name": "Route 20: Moss Rock",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-20"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "frost-cavern-ice-rock",
+    "name": "Frost Cavern: Ice Rock",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "frost-cavern"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

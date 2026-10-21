@@ -1,0 +1,174 @@
+[
+  {
+    "id": "roark",
+    "name": "Roark",
+    "kind": "gym",
+    "highestLevel": 14,
+    "badgeNumber": 1,
+    "specialtyTypeId": "rock",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "gardenia",
+    "name": "Gardenia",
+    "kind": "gym",
+    "highestLevel": 22,
+    "badgeNumber": 2,
+    "specialtyTypeId": "grass",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "maylene",
+    "name": "Maylene",
+    "kind": "gym",
+    "highestLevel": 30,
+    "badgeNumber": 3,
+    "specialtyTypeId": "fighting",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "crasher-wake",
+    "name": "Crasher Wake",
+    "kind": "gym",
+    "highestLevel": 30,
+    "badgeNumber": 4,
+    "specialtyTypeId": "water",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "fantina",
+    "name": "Fantina",
+    "kind": "gym",
+    "highestLevel": 36,
+    "badgeNumber": 5,
+    "specialtyTypeId": "ghost",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "byron",
+    "name": "Byron",
+    "kind": "gym",
+    "highestLevel": 39,
+    "badgeNumber": 6,
+    "specialtyTypeId": "steel",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "candice",
+    "name": "Candice",
+    "kind": "gym",
+    "highestLevel": 42,
+    "badgeNumber": 7,
+    "specialtyTypeId": "ice",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "volkner",
+    "name": "Volkner",
+    "kind": "gym",
+    "highestLevel": 49,
+    "badgeNumber": 8,
+    "specialtyTypeId": "electric",
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron",
+    "kind": "elite-four",
+    "highestLevel": 57,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "bertha",
+    "name": "Bertha",
+    "kind": "elite-four",
+    "highestLevel": 59,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "flint",
+    "name": "Flint",
+    "kind": "elite-four",
+    "highestLevel": 61,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "lucian",
+    "name": "Lucian",
+    "kind": "elite-four",
+    "highestLevel": 63,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  },
+  {
+    "id": "cynthia",
+    "name": "Cynthia",
+    "kind": "champion",
+    "highestLevel": 66,
+    "review": {
+      "checkedOn": "2026-10-13",
+      "referenceIds": [
+        "diamond-trainers"
+      ]
+    }
+  }
+]

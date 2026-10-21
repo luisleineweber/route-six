@@ -5,8 +5,9 @@
   "$defs": {
     "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "text": { "type": "string", "minLength": 1 },
+    "optionalId": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/id" }] },
     "level": { "type": "integer", "minimum": 1, "maximum": 100 },
-    "gender": { "enum": ["male", "female", "genderless"] },
+    "gender": { "enum": ["male", "female", "genderless", "not-applicable"] },
     "genders": {
       "type": "array", "minItems": 1, "uniqueItems": true,
       "items": { "$ref": "#/$defs/gender" }
@@ -50,6 +51,17 @@
         "review": { "$ref": "#/$defs/review" }
       }
     },
+    "pokemonForm": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "pokemonId", "name", "introducedGeneration", "review"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "pokemonId": { "$ref": "#/$defs/id" },
+        "name": { "$ref": "#/$defs/text" },
+        "introducedGeneration": { "type": "integer", "minimum": 1 },
+        "review": { "$ref": "#/$defs/review" }
+      }
+    },
     "choiceSelection": {
       "type": "object", "additionalProperties": false,
       "required": ["groupId", "optionId"],
@@ -86,7 +98,7 @@
           "type": "object", "additionalProperties": false,
           "required": ["kind", "id"],
           "properties": {
-            "kind": { "enum": ["milestone", "capability"] },
+            "kind": { "enum": ["milestone", "location", "capability"] },
             "id": { "$ref": "#/$defs/id" }
           }
         },

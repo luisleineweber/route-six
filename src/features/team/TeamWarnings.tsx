@@ -1,5 +1,5 @@
 import { CheckCircle2, Info, TriangleAlert } from 'lucide-react';
-import { pokemonById } from '../../data/dataset';
+import { pokemonNames, pokemonIdentity } from '../../data/dataset';
 import { checkTeam } from '../../domain/team/check-team';
 import type { AvailabilitySnapshot, PlanningTarget } from '../../domain/types';
 
@@ -11,8 +11,8 @@ export function TeamWarnings({ snapshot, team, target }: { snapshot: Availabilit
   return <div className={`notice ${check.feasible ? 'notice-success' : 'notice-warning'}`} role="status">
     <Icon size={20} aria-hidden="true" />
     <div><strong>{check.feasible ? (later.length ? 'This team works for the whole game.' : 'This team can be obtained now.') : 'Your team needs a change.'}</strong>
-      {check.warnings.map((w, i) => <p key={i}>{w.message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonById.get(word)?.name ?? word)}</p>)}
-      {check.feasible && later.length > 0 && <p>{later.map(id => pokemonById.get(id)!.name).join(', ')} {later.length === 1 ? 'is' : 'are'} available later. Your team stays in the plan.</p>}
+      {check.warnings.map((w, i) => <p key={i}>{w.message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonNames.get(word) ?? word)}</p>)}
+      {check.feasible && later.length > 0 && <p>{later.map(id => pokemonIdentity(id).name).join(', ')} {later.length === 1 ? 'is' : 'are'} available later. Your team stays in the plan.</p>}
     </div>
   </div>;
 }

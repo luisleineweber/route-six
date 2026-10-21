@@ -89872,7 +89872,7 @@
   },
   {
     "id": "breed-nidorino",
-    "pokemonId": "nidorino",
+    "pokemonId": "nidoran-m",
     "locationId": "route-34",
     "requirements": {
       "kind": "all",
@@ -89903,7 +89903,7 @@
         "silver-hatch",
         "silver-progression"
       ],
-      "checkedOn": "2026-10-12"
+      "checkedOn": "2026-10-21"
     }
   },
   {

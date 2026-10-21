@@ -1,0 +1,18 @@
+{
+  "id": "heartgold",
+  "name": "Pokémon HeartGold",
+  "generation": 4,
+  "region": "Johto",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "heartgold-source",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}

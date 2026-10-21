@@ -1,0 +1,237 @@
+[
+  {
+    "id": "burmy-sandy",
+    "pokemonId": "burmy",
+    "name": "Sandy Cloak",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "burmy-trash",
+    "pokemonId": "burmy",
+    "name": "Trash Cloak",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "wormadam-sandy",
+    "pokemonId": "wormadam",
+    "name": "Sandy Cloak",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "wormadam-trash",
+    "pokemonId": "wormadam",
+    "name": "Trash Cloak",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "shellos-east",
+    "pokemonId": "shellos",
+    "name": "East Sea",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "gastrodon-east",
+    "pokemonId": "gastrodon",
+    "name": "East Sea",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "giratina-origin",
+    "pokemonId": "giratina",
+    "name": "Origin Forme",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-form-sprites"
+      ],
+      "checkedOn": "2026-10-15"
+    }
+  },
+  {
+    "id": "rotom-heat",
+    "pokemonId": "rotom",
+    "name": "Heat Rotom",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rotom-wash",
+    "pokemonId": "rotom",
+    "name": "Wash Rotom",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rotom-frost",
+    "pokemonId": "rotom",
+    "name": "Frost Rotom",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rotom-fan",
+    "pokemonId": "rotom",
+    "name": "Fan Rotom",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rotom-mow",
+    "pokemonId": "rotom",
+    "name": "Mow Rotom",
+    "introducedGeneration": 4,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "meowstic-female",
+    "pokemonId": "meowstic",
+    "name": "Female",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pumpkaboo-small",
+    "pokemonId": "pumpkaboo",
+    "name": "Small Size",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pumpkaboo-large",
+    "pokemonId": "pumpkaboo",
+    "name": "Large Size",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pumpkaboo-super",
+    "pokemonId": "pumpkaboo",
+    "name": "Super Size",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "gourgeist-small",
+    "pokemonId": "gourgeist",
+    "name": "Small Size",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "gourgeist-large",
+    "pokemonId": "gourgeist",
+    "name": "Large Size",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "gourgeist-super",
+    "pokemonId": "gourgeist",
+    "name": "Super Size",
+    "introducedGeneration": 6,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

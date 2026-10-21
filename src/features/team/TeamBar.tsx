@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type RefObject } from 'react';
 import { Plus, X } from 'lucide-react';
-import { pokemonById } from '../../data/dataset';
+import { pokemonIdentity } from '../../data/dataset';
 import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
 
 type TeamBarActions = {
@@ -14,7 +14,7 @@ function TeamBarCard({ id, index, activeSlot, onChoose, onDetails, onRemove }: T
   id: string | null;
   index: number;
 }) {
-  const name = id ? pokemonById.get(id)!.name : null;
+  const name = id ? pokemonIdentity(id).name : null;
   const control = useRef<HTMLButtonElement>(null);
   return <article className={`team-bar-card ${id ? 'filled' : 'empty'} ${activeSlot === index ? 'active-slot' : ''}`} aria-label={`Team slot ${index + 1}${name ? ': ' + name : ': empty'}`}>
     <span className="team-bar-number" aria-hidden="true">{index + 1}</span>
@@ -41,16 +41,17 @@ export function TeamBar({ team, teamRef, ...actions }: TeamBarActions & {
   const bar = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
   useEffect(() => {
+    const teamElement = teamRef.current!;
     let frame = 0;
     const update = () => {
       frame = 0;
-      setVisible(teamRef.current!.getBoundingClientRect().bottom <= 0);
+      setVisible(teamElement.getBoundingClientRect().bottom <= 0);
     };
     const schedule = () => {
       if (!frame) frame = requestAnimationFrame(update);
     };
     const observer = new ResizeObserver(schedule);
-    observer.observe(teamRef.current!);
+    observer.observe(teamElement);
     window.addEventListener('scroll', schedule, { passive: true });
     window.addEventListener('resize', schedule);
     update();
@@ -63,10 +64,11 @@ export function TeamBar({ team, teamRef, ...actions }: TeamBarActions & {
   }, [teamRef]);
   useEffect(() => {
     const root = document.documentElement;
+    const barElement = bar.current!;
     const observer = new ResizeObserver(() => {
-      root.style.setProperty('--team-bar-height', `${bar.current!.getBoundingClientRect().height}px`);
+      root.style.setProperty('--team-bar-height', `${barElement.getBoundingClientRect().height}px`);
     });
-    observer.observe(bar.current!);
+    observer.observe(barElement);
     return () => {
       observer.disconnect();
       root.style.removeProperty('--team-bar-height');

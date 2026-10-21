@@ -42,24 +42,28 @@ export function neededCopies(proofs: IndividualProof[]): number {
   return best;
 }
 
-interface ItemDemand { quantity: number; consumed: boolean; animals: IndividualProof[] }
+interface ItemDemand { quantity: number; consumed: boolean; held: boolean; animals: IndividualProof[]; acquisitions: Set<string> }
 
 export function itemQuantities(paths: Pick<ProofPath, 'individuals' | 'itemUses'>[]): Map<string, { consumed: number; retained: number }> {
   const items = new Map<string, Map<string, ItemDemand>>();
   for (const path of paths) for (const use of path.itemUses) {
     const uses = items.get(use.resourceId) ?? new Map<string, ItemDemand>();
-    const token = `${use.consumed ? 'consume' : 'retain'}:${use.token}`;
-    const demand = uses.get(token) ?? { quantity: 0, consumed: use.consumed, animals: [] };
+    const token = `${use.consumed ? 'consume' : use.heldByOrigin ? 'held' : 'retain'}:${use.token}`;
+    const demand = uses.get(token) ?? { quantity: 0, consumed: use.consumed, held: !!use.heldByOrigin,
+      animals: [], acquisitions: new Set<string>() };
     demand.quantity = Math.max(demand.quantity, use.quantity);
-    if (use.consumed) {
-      const owners = path.individuals.filter(animal => animal.origin === use.ownerOrigin);
+    if (use.consumed && use.acquisitionId) demand.acquisitions.add(use.acquisitionId);
+    else if (use.consumed || use.heldByOrigin) {
+      const owners = path.individuals.filter(animal => animal.origin === (use.heldByOrigin ?? use.ownerOrigin));
       if (!owners.length) throw new Error(`Item consumption has no action proof: ${use.token}`);
       for (const animal of owners) addIndividual(demand.animals, animal);
     }
     uses.set(token, demand); items.set(use.resourceId, uses);
   }
   return new Map([...items].map(([id, uses]) => [id, {
-    consumed: [...uses.values()].filter(use => use.consumed).reduce((sum, use) => sum + use.quantity * neededCopies(use.animals), 0),
-    retained: Math.max(0, ...[...uses.values()].filter(use => !use.consumed).map(use => use.quantity)),
+    consumed: [...uses.values()].filter(use => use.consumed).reduce((sum, use) =>
+      sum + use.quantity * (neededCopies(use.animals) + use.acquisitions.size), 0),
+    retained: Math.max(0, ...[...uses.values()].filter(use => !use.consumed && !use.held).map(use => use.quantity),
+      [...uses.values()].filter(use => use.held).reduce((sum, use) => sum + use.quantity * neededCopies(use.animals), 0)),
   }]));
 }

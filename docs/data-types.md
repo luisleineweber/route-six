@@ -1,8 +1,14 @@
 # TypeScript contract
 
-These declarations describe the proposed data and public results. They are
-specification examples, not application files. Tags make each case explicit.
+These declarations describe the current data and public results. They are
+specification examples. The application types are in `src/domain/types.ts`.
+Tags make each case explicit. The dataset schema version is 2.
 See [TypeScript union guidance](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions).
+
+The optional form and conditional encounter extensions are defined in
+[`src/domain/types.ts`](../src/domain/types.ts). Their ownership and selection
+rules are in [the data contract](data-contract.md#required-semantic-checks).
+The examples below show the common species and acquisition fields.
 
 ## Input data
 
@@ -42,6 +48,7 @@ type Requirement =
   | { kind: "all"; requirements: Requirement[] }
   | { kind: "any"; requirements: Requirement[] }
   | { kind: "milestone"; id: Id }
+  | { kind: "location"; id: Id }
   | { kind: "capability"; id: Id }
   | { kind: "item"; id: Id; quantity: number; consumed: boolean }
   | { kind: "pokemon"; id: Id; quantity: number; consumed: boolean };
@@ -52,17 +59,31 @@ interface Game {
   generation: number;
   region: string;
   firstMilestoneId: Id;
+  planner: {
+    defaultMilestoneId: Id;
+    checkpoints: ProgressCheckpoint[];
+  };
+  breeding: { hatchLevel: Level } | null;
   review: Review;
+}
+
+interface ProgressCheckpoint {
+  milestoneId: Id;
+  label: string;
+  title: string;
+  detail: string;
+  typeId: Id | null;
 }
 
 interface PokemonProfile {
   pokemonId: Id;
   regionalDex?: number; // Omit for species outside the regional Pokédex.
   types: [Id] | [Id, Id];
+  spriteSrc: string; // Local image path, checked at build time.
+  genders: Gender[];
   breeding: {
     eggGroupIds: [EggGroupId] | [EggGroupId, EggGroupId];
-    genders: Gender[];
-  };
+  } | null;
   review: Review;
 }
 
@@ -133,8 +154,14 @@ interface ItemSource {
   requirements: Requirement;
   maxUses: number | null;
   choice: ChoiceSelection | null;
+  details?: ItemSourceDetails;
   review: Review;
 }
+
+type ItemSourceDetails =
+  | { kind: "wild-held-item"; pokemonSourceId: Id; ratePercent: number }
+  | { kind: "received-held-item"; pokemonSourceId: Id }
+  | { kind: "pickup"; pokemonSourceId: Id; minimumLevel: Level; maximumLevel: Level; ratePercent: number };
 
 interface Item {
   id: Id;
@@ -151,13 +178,27 @@ type SourceLevel =
 type SourceDetails =
   | {
       kind: "wild";
-      method: "grass" | "surf" | "old-rod" | "good-rod" | "super-rod" | "rock-smash";
+      method: "grass" | "surf" | "old-rod" | "good-rod" | "super-rod" | "rock-smash"
+        | "headbutt" | "bug-contest" | "poke-radar" | "dark-grass" | "grass-spots"
+        | "cave-spots" | "bridge-spots" | "surf-spots" | "super-rod-spots"
+        | "horde" | "rough-terrain" | "yellow-flowers" | "red-flowers" | "purple-flowers"
+        | "ceiling-ambush" | "ground-ambush" | "rustling-bush-ambush" | "sky-ambush" | "trash-can-ambush";
       ratePercent: number;
     }
-  | { kind: "starter" | "gift" | "static" | "egg" }
+  | { kind: "starter" | "gift" | "static" | "roaming" | "egg" }
+  | { kind: "honey-tree"; rareTreeOnly: boolean }
+  | { kind: "berry-tree"; color: "red" | "blue" | "purple" | "green" | "yellow" | "pink" }
   | { kind: "fossil"; itemId: Id }
   | { kind: "game-trade"; offeredPokemonId: Id }
   | { kind: "breeding"; ruleId: Id; capabilityId: Id };
+
+type EncounterCondition =
+  | { kind: "time"; periods: ("morning" | "day" | "night")[] }
+  | { kind: "season"; seasons: ("spring" | "summer" | "autumn" | "winter")[] }
+  | { kind: "weekday"; day: "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday" | "sunday" }
+  | { kind: "swarm" }
+  | { kind: "daily"; system: "great-marsh" | "trophy-garden" }
+  | { kind: "feebas-tiles"; tileCount: number; replacementPercent: number };
 
 interface PokemonSource {
   id: Id;
@@ -166,9 +207,11 @@ interface PokemonSource {
   requirements: Requirement;
   level: SourceLevel;
   genders: Gender[];
+  knownMoveIds?: Id[];
   maxUses: number | null;
   choice: ChoiceSelection | null;
   details: SourceDetails;
+  encounterConditions?: EncounterCondition[];
   review: Review;
 }
 
@@ -178,7 +221,19 @@ type EvolutionCondition =
   | { kind: "time"; period: "day" | "night" }
   | { kind: "stats"; relation: "attack-lt-defense" | "attack-eq-defense" | "attack-gt-defense" }
   | { kind: "personality"; modulus: number; minimum: number; maximum: number }
-  | { kind: "party-space"; freeSlots: number };
+  | { kind: "party-space"; freeSlots: number }
+  | { kind: "location"; locationId: Id }
+  | { kind: "held-item"; itemId: Id }
+  | { kind: "party-pokemon"; pokemonId: Id }
+  | { kind: "party-type"; typeId: Id }
+  | { kind: "affection"; minimum: 50 }
+  | { kind: "weather"; weather: "rain" }
+  | { kind: "device-orientation"; orientation: "upside-down" }
+  | { kind: "known-move"; moveId: Id; moveName: string; learning: MoveLearning[] };
+
+type MoveLearning =
+  | { kind: "level-up"; level: Level }
+  | { kind: "teach"; minimumLevel: Level; requirements: Requirement };
 
 interface Evolution {
   id: Id;
@@ -217,10 +272,13 @@ interface GameData {
   exclusions: Exclusion[];
 }
 
-interface Dataset {
-  schemaVersion: 1;
+interface SharedData {
+  schemaVersion: 2;
   references: Reference[];
   pokemon: Pokemon[];
+}
+
+interface Dataset extends SharedData {
   games: GameData[];
 }
 ```
@@ -332,6 +390,7 @@ interface TypeAnalysis {
 }
 
 declare function validateDataset(input: unknown): Result<Dataset, ValidationIssue[]>;
+declare function validateSharedData(input: unknown): Result<SharedData, ValidationIssue[]>;
 // getAvailability requires data that passed structural and semantic validation.
 declare function getAvailability(data: Dataset, query: AvailabilityQuery): Result<AvailabilitySnapshot, QueryError>;
 declare function checkTeam(snapshot: AvailabilitySnapshot, team: Id[], target: PlanningTarget): TeamCheck;

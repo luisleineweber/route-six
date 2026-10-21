@@ -1,9 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { rawDataset } from '../src/data/load-dataset';
+import { dataset, rawDataset } from './local-data';
 import { validateDataset } from '../src/data/validate-dataset';
 import type { Dataset } from '../src/domain/types';
 
-function changed(edit:(data:Dataset)=>void) {const data=structuredClone(rawDataset) as Dataset;edit(data);return validateDataset(data);}
+function changed(edit:(data:Dataset)=>void) {
+  const data=structuredClone({...dataset,games:[dataset.games[0]]});
+  edit(data);
+  return validateDataset(data);
+}
 function messages(result:ReturnType<typeof validateDataset>) {return result.ok?[]:result.error.map(e=>e.message);}
 describe('Data validation',()=>{
   it('validates the complete local dataset',()=>{expect(validateDataset(rawDataset).ok).toBe(true);});
@@ -25,7 +29,7 @@ describe('Data validation',()=>{
   });
   it('rejects unknown cross references and review references',()=>{expect(messages(changed(d=>d.games[0].sources[0].locationId='missing')).join()).toContain('Unknown location');expect(messages(changed(d=>d.pokemon[0].review.referenceIds=['missing'])).join()).toContain('Unknown review');});
   it('rejects milestone cycles and unrooted progress',()=>{expect(messages(changed(d=>d.games[0].milestones[0].previousIds=['route-102'])).join()).toContain('cycle');expect(messages(changed(d=>d.games[0].milestones[1].previousIds=[])).join()).toContain('rooted');});
-  it('rejects missing game profiles and incomplete type charts',()=>{expect(messages(changed(d=>d.games[0].profiles.pop())).join()).toContain('Missing game profile');expect(messages(changed(d=>d.games[0].typeChart.matrix[0].pop())).join()).toContain('square and complete');});
+  it('rejects sources without game profiles and incomplete type charts',()=>{expect(messages(changed(d=>{d.games[0].profiles=d.games[0].profiles.filter(profile=>profile.pokemonId!=='ralts');})).join()).toContain('Unknown Pokémon');expect(messages(changed(d=>d.games[0].typeChart.matrix[0].pop())).join()).toContain('square and complete');});
   it('rejects reversed levels and impossible fixed genders',()=>{
     expect(messages(changed(d=>d.games[0].sources[0].level={kind:'range',minimum:20,maximum:2})).join()).toContain('reversed');expect(messages(changed(d=>d.games[0].sources.find(s=>s.pokemonId==='beldum')!.genders=['female'])).join()).toContain('Source genders');
   });

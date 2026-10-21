@@ -1,0 +1,712 @@
+[
+  {
+    "id": "cut",
+    "name": "Use Cut outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm01",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Use Surf outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pastoria-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm03",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Use Strength outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "canalave-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm04",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "defog",
+    "name": "Use Defog",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hearthome-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm05",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Use Rock Smash outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "oreburgh-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm06",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Use Waterfall outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "sunyshore-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm07",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "rock-climb",
+    "name": "Use Rock Climb outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snowpoint-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm08",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Fish with Old Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with Good Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with Super Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fight-area"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Use Solaceon Day Care",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "underground",
+    "name": "Use Underground and dig for fossils",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Fly outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-warehouse-fly"
+        },
+        {
+          "kind": "item",
+          "id": "hm02",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "burmy-plant-battle",
+    "name": "Have Burmy take part in a normal battle in grass",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "burmy-sandy-battle",
+    "name": "Have Burmy take part in a normal cave battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "burmy-trash-battle",
+    "name": "Have Burmy take part in a normal indoor trainer battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-profiles",
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "beauty",
+    "name": "Raise Beauty with a Poffin",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "poffin-case",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "item",
+          "id": "dry-sweet-poffin",
+          "quantity": 7,
+          "consumed": true
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Daytime on the game clock",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Raise friendship through play",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "move-reminder",
+    "name": "Use the Pastoria Move Reminder",
+    "requirements": {
+      "kind": "location",
+      "id": "pastoria-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Nighttime on the game clock",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Leave one party slot free",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "personality",
+    "name": "Select a wild or hatched personality outcome",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Train Attack and Defense for evolution",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "starter"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "honey-tree",
+    "name": "Slather a Honey Tree and wait 6–24 hours",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "poke-radar",
+    "name": "Use the Poké Radar in short grass",
+    "requirements": {
+      "kind": "capability",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "swarm",
+    "name": "Ask the counterpart’s sister for the daily swarm report",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-daily",
+    "name": "Enter the Great Marsh and check its daily encounters",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "trophy-garden-daily",
+    "name": "Ask Mr. Backlot to add a daily Trophy Garden Pokémon",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "location",
+          "id": "trophy-garden"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "see-10-unown-forms",
+    "name": "See 10 different Unown letter forms in Solaceon Ruins",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-ruins"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "see-26-unown-forms",
+    "name": "See 26 different Unown letter forms in Solaceon Ruins",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-ruins"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Ride the Bicycle from Rick in Eterna City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-galactic-clear"
+        },
+        {
+          "kind": "item",
+          "id": "bicycle",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "celestic-elder-legends",
+    "name": "Talk to the elder in Celestic Town after the Hall of Fame",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hall-of-fame"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oak-roamers",
+    "name": "Meet Oak at Pal Park, then speak to him in Eterna City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "Enable the National Pokedex after seeing all 210 Sinnoh entries",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex-before-hall"
+        },
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pastoria-access",
+    "name": "Visit Pastoria City through Route 213",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "early-pastoria"
+        },
+        {
+          "kind": "milestone",
+          "id": "pastoria"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  }
+]

@@ -261,8 +261,8 @@ describe('Sapphire reviewed catalogue layer', () => {
 
   it('keeps Sapphire gifts, fossils, trades, statics, and the three rod Feebas paths', () => {
     const byId = new Map(sources.map(source => [source.id, source]));
-    expect(sources).toHaveLength(1838);
-    expect(sources.filter(source => source.details.kind !== 'wild')).toHaveLength(204);
+    expect(sources).toHaveLength(1839);
+    expect(sources.filter(source => source.details.kind !== 'wild')).toHaveLength(205);
     expect(byId.get('sapphire-trade-makuhita')).toMatchObject({
       pokemonId: 'makuhita', level: { kind: 'match-traded-pokemon', pokemonId: 'slakoth' },
       details: { kind: 'game-trade', offeredPokemonId: 'slakoth' }, genders: ['male'], maxUses: 1,
@@ -313,7 +313,8 @@ describe('Sapphire reviewed catalogue layer', () => {
       .every(record => record.review.checkedOn === '2026-10-12')).toBe(true);
     expect(sources.find(source => source.id === 'sapphire-static-rayquaza')?.review.checkedOn).toBe('2026-10-13');
     expect(sources.filter(source => source.details.kind === 'breeding')
-      .every(record => record.review.checkedOn === '2026-10-13')).toBe(true);
+      .every(record => record.review.checkedOn === (record.id === 'breed-nidoran-male-ditto-egg'
+        ? '2026-10-21' : '2026-10-13'))).toBe(true);
     expect(itemRecords.every(record => record.review.checkedOn ===
       (record.id.endsWith('-stone') ? '2026-10-13' : '2026-10-12'))).toBe(true);
     expect(choices.every(record => record.review.checkedOn === '2026-10-12')).toBe(true);
@@ -325,7 +326,7 @@ describe('Sapphire reviewed catalogue layer', () => {
   it('covers every supported species with reviewed Sapphire evolution, breeding, or exclusion records', () => {
     const ids = new Set(profiles.map(profile => profile.pokemonId));
     expect(evolutions).toHaveLength(184);
-    expect(breedingRules).toHaveLength(180);
+    expect(breedingRules).toHaveLength(181);
     expect(new Set(exclusions.map(exclusion => exclusion.pokemonId)).size).toBe(exclusions.length);
     expect(new Set([...sources.map(source => source.pokemonId), ...evolutions.map(rule => rule.toPokemonId),
       ...breedingRules.flatMap(rule => rule.offspringPokemonIds), ...exclusions.map(exclusion => exclusion.pokemonId)])).toEqual(ids);
@@ -333,7 +334,9 @@ describe('Sapphire reviewed catalogue layer', () => {
       && rule.review.referenceIds.includes('sapphire-evolutions') && rule.review.checkedOn === '2026-10-12')).toBe(true);
     expect(breedingRules.every(rule => rule.parentPokemonIds.every(id => ids.has(id))
       && rule.offspringPokemonIds.every(id => ids.has(id))
-      && rule.review.referenceIds.includes('sapphire-breeding') && rule.review.checkedOn === '2026-10-12')).toBe(true);
+      && rule.review.referenceIds.includes('sapphire-breeding')
+      && rule.review.checkedOn === (['breed-nidoran', 'breed-nidoran-male-ditto'].includes(rule.id)
+        ? '2026-10-21' : '2026-10-12'))).toBe(true);
     expect(breedingRules.find(rule => rule.id === 'breed-wynaut')).toMatchObject({
       offspringPokemonIds: ['wynaut'], requiredHeldItemId: 'lax-incense',
     });
@@ -345,7 +348,7 @@ describe('Sapphire reviewed catalogue layer', () => {
     expect(evolutions.filter(rule => rule.trigger === 'player-trade')).toHaveLength(12);
     expect(exclusions.find(record => record.pokemonId === 'latios')?.reason).toBe('external-event');
     expect(exclusions.some(record => record.pokemonId === 'latias')).toBe(false);
-    expect([...evolutions, ...breedingRules, ...exclusions].every(record => record.review.checkedOn === '2026-10-12')).toBe(true);
+    expect([...evolutions, ...exclusions].every(record => record.review.checkedOn === '2026-10-12')).toBe(true);
   });
 
   it('checks early and postgame access, trade blockers, and finite native resources', () => {

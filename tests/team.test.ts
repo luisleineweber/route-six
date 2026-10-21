@@ -2,10 +2,10 @@ import { describe, expect, it } from 'vitest';
 import { getAvailability } from '../src/domain/availability';
 import { checkTeam } from '../src/domain/team/check-team';
 import { analyzeTypes, damageMultiplier } from '../src/domain/team/analyze-types';
-import { emerald } from '../src/data/dataset';
+import { emerald, initialState } from './local-data';
 import { breed, evolution, fixture, milestone, none, review, source } from './fixtures';
 import type { Dataset } from '../src/domain/types';
-import { initialState, plannerReducer } from '../src/features/planner/state';
+import { plannerReducer } from '../src/features/planner/state';
 
 function snapshot(data:Dataset,point='gate') {const r=getAvailability(data,{gameId:'emerald',milestoneId:point,respectLevelLimit:true});if(!r.ok)throw Error('Invalid test query');return r.value;}
 

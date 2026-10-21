@@ -1,5 +1,5 @@
 import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types';
-import { pokemonById } from '../../data/dataset';
+import { pokemonIdentity } from '../../data/dataset';
 import { useGameData } from '../planner/GameContext';
 import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 
@@ -18,12 +18,12 @@ export function TypeAnalysis({ team }: { team: (string | null)[] }) {
           return <li key={type} className="defense-type">
             <TypeIcon type={type} size={28} />
             <span className="sr-only">{summary}.</span>
-            <span className="sr-only">{team.map((id, index) => id ? `Slot ${index + 1}, ${pokemonById.get(id)!.name}: ${damageMultiplier(game, type, id)} times damage. ` : `Slot ${index + 1}: empty. `).join('')}</span>
+            <span className="sr-only">{team.map((id, index) => id ? `Slot ${index + 1}, ${pokemonIdentity(id).name}: ${damageMultiplier(game, type, id)} times damage. ` : `Slot ${index + 1}: empty. `).join('')}</span>
             <span className="defense-marks" aria-hidden="true" title={summary}>{Array.from({length:6}, (_, index) => {
               const id = team[index];
               const multiplier = id ? damageMultiplier(game, type, id) : 1;
               const status = !id ? 'empty' : multiplier === 0 ? 'immune' : multiplier < 1 ? 'resist' : multiplier > 1 ? 'weak' : 'neutral';
-              return <span key={index} className={`defense-mark defense-${status}`} title={id ? `${pokemonById.get(id)!.name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'} />;
+              return <span key={index} className={`defense-mark defense-${status}`} title={id ? `${pokemonIdentity(id).name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'} />;
             })}</span>
           </li>;
         })}</ul>

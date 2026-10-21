@@ -1,17 +1,18 @@
 import { Fragment, useMemo, useState } from 'react';
 import { Search, X } from 'lucide-react';
-import { dataset, pokemonById } from '../../data/dataset';
+import { sharedData, pokemonById } from '../../data/dataset';
 import { useGameData } from '../planner/GameContext';
 import { defaultCatalogueStatus, matchesCatalogueStatus, type CatalogueStatus } from './catalogue-filter';
 import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 import { PokemonCatalogueCard } from './PokemonCatalogueCard';
 import { statusIcons, statusNames } from '../../components/StatusLabel';
 import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
-import { sortPokemonByPokedex } from '../planner/pokedex-order';
+import { isExclusionBlocker } from '../../domain/availability/exclusions';
+import { regionalDexName, sortPokemonByPokedex } from '../planner/pokedex-order';
 import { firstAccessOptions, pathSource } from '../../components/acquisition-presentation';
 
 function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null) {
-  if (entry.status === 'unavailable') return entry.blockers.find(b => b.code === 'other-version' || b.code === 'external-event')?.message;
+  if (entry.status === 'unavailable') return entry.blockers.find(isExclusionBlocker)?.message;
   if (entry.status === 'blocked') return entry.blockers[0]?.message;
   if (!path) return 'View acquisition paths';
   if (path.evolutionIds.length) {
@@ -39,20 +40,25 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
   const [statusChoice,setStatusChoice] = useState<CatalogueStatus|null>(null);
   const status = statusChoice ?? defaultCatalogueStatus(target);
   // Everything except the status filter, so the status chips can count what each one would show.
-  const matching = useMemo(() => dataset.pokemon.filter(pokemon => {
+  const matching = useMemo(() => sharedData.pokemon.filter(pokemon => {
     const profile = profiles.get(pokemon.id);
     if (!profile) return false;
     const words = query.toLowerCase().trim().split(/\s+/);
-    if (!words.every(word => `${pokemon.name} ${pokemon.nationalDex} ${profile.regionalDex ?? ''} ${profile.types.join(' ')}`.toLowerCase().includes(word))) return false;
+    const dexName = profile.regionalDex === undefined ? 'National' : regionalDexName(game, profile.regionalDexSectionId);
+    if (!words.every(word => `${pokemon.name} ${pokemon.nationalDex} ${profile.regionalDex ?? ''} ${dexName} ${profile.types.join(' ')}`.toLowerCase().includes(word))) return false;
     if (type && !profile.types.includes(type)) return false;
     return true;
-  }), [query,type,profiles]);
+  }), [query,type,profiles,game]);
   const counts = useMemo(() => progressPage && snapshot ? matching.reduce((tally, pokemon) => { const key = snapshot.entries[pokemon.id].status; return { ...tally, [key]: (tally[key] ?? 0) + 1 }; }, {} as Record<string, number>) : null, [matching, snapshot, progressPage]);
   const visible = useMemo(() => sortPokemonByPokedex(matching.filter(pokemon => {
     const entry = snapshot?.entries[pokemon.id];
     return !progressPage || !snapshot || !entry || matchesCatalogueStatus(entry, status);
   }), game), [matching,status,snapshot,progressPage,game]);
-  const regionalVisible = visible.filter(pokemon => profiles.get(pokemon.id)?.regionalDex !== undefined);
+  const regionalCounts = new Map<string | undefined, number>();
+  for (const pokemon of visible) {
+    const profile = profiles.get(pokemon.id)!;
+    if (profile.regionalDex !== undefined) regionalCounts.set(profile.regionalDexSectionId, (regionalCounts.get(profile.regionalDexSectionId) ?? 0) + 1);
+  }
   const nationalVisible = visible.filter(pokemon => profiles.get(pokemon.id)?.regionalDex === undefined);
   const canAdd = activeSlot !== null || team.includes(null);
   const clearFilters = () => { setQuery('');setType('');setStatusChoice(null); };
@@ -85,17 +91,17 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
         const path = pathId && snapshot ? snapshot.paths[pathId] : null;
         const profile = profiles.get(pokemon.id)!;
         const isNational = profile.regionalDex === undefined;
-        const startsRegionalGroup = !isNational && index === 0;
+        const startsRegionalGroup = !isNational && (index === 0 || profile.regionalDexSectionId !== profiles.get(visible[index - 1].id)?.regionalDexSectionId);
         const startsNationalGroup = isNational && (index === 0 || profiles.get(visible[index - 1].id)?.regionalDex !== undefined);
         const StatusIcon = entry ? statusIcons[entry.status] : null;
         const accessLabel = entry ? { available: 'Now', later: 'Later', blocked: 'Blocked', unavailable: 'Unavailable' }[entry.status] : '';
         return <Fragment key={pokemon.id}>
-          {startsRegionalGroup && <div className="dex-grid-heading"><h3>{game.game.region} Pokédex</h3><span className="dex-group-count">{regionalVisible.length} Pokémon</span></div>}
+          {startsRegionalGroup && <div className="dex-grid-heading"><h3>{regionalDexName(game, profile.regionalDexSectionId)} Pokédex</h3><span className="dex-group-count">{regionalCounts.get(profile.regionalDexSectionId)} Pokémon</span></div>}
           {startsNationalGroup && <>
             <div className="dex-grid-heading national-dex-heading"><h3>National Pokédex</h3><span className="dex-group-count">{nationalVisible.length} Pokémon</span></div>
             {game.game.id === 'emerald' && <p className="dex-grid-note">The National Pokédex unlocks after the Hall of Fame. Some species are available earlier.</p>}
           </>}
-          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
+          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
           {progressPage && entry && <><p className={`source-summary access-summary status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
           {entry.status==='later' && earliest.length > 0 && <p className="source-summary">First access: {earliest[0].label}{earliest.length>1?` (+${earliest.length-1} alternatives)`:''}</p>}</>}
           </PokemonCatalogueCard>

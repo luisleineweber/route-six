@@ -1,0 +1,567 @@
+{
+  "id": "x",
+  "name": "Pokémon X",
+  "generation": 6,
+  "region": "Kalos",
+  "firstMilestoneId": "vaniville",
+  "planner": {
+    "defaultMilestoneId": "starter",
+    "checkpoints": [
+      {
+        "milestoneId": "vaniville",
+        "label": "Begin in Vaniville Town",
+        "title": "Begin in Vaniville Town",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "starter",
+        "label": "Choose one Kalos starter",
+        "title": "Choose one Kalos starter",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-2",
+        "label": "Learn to catch Pokemon on Route 2",
+        "title": "Learn to catch Pokemon on Route 2",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "santalune-forest",
+        "label": "Cross Santalune Forest",
+        "title": "Cross Santalune Forest",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-3",
+        "label": "Reach Route 3",
+        "title": "Reach Route 3",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "santalune-city",
+        "label": "Reach Santalune City",
+        "title": "Reach Santalune City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-22",
+        "label": "Visit Route 22 before the badge gate",
+        "title": "Visit Route 22 before the badge gate",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "santalune-gym",
+        "label": "Defeat Viola",
+        "title": "Defeat Viola",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-4",
+        "label": "Enter Route 4",
+        "title": "Enter Route 4",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "lumiose-south",
+        "label": "Meet Professor Sycamore and choose a Kanto starter",
+        "title": "Meet Professor Sycamore and choose a Kanto starter",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-5",
+        "label": "Enter Route 5",
+        "title": "Enter Route 5",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "camphrier",
+        "label": "Visit Camphrier and Shabboneau Castle",
+        "title": "Visit Camphrier and Shabboneau Castle",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-7-east",
+        "label": "Find Snorlax and visit the Berry Fields",
+        "title": "Find Snorlax and visit the Berry Fields",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-6",
+        "label": "Reach Route 6",
+        "title": "Reach Route 6",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "parfum-palace",
+        "label": "Return Furfrou and receive the Poke Flute",
+        "title": "Return Furfrou and receive the Poke Flute",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "snorlax-clear",
+        "label": "Finish the Route 7 Snorlax encounter",
+        "title": "Finish the Route 7 Snorlax encounter",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "connecting-cave",
+        "label": "Reach Connecting Cave",
+        "title": "Reach Connecting Cave",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-8-upper",
+        "label": "Reach the upper part of Route 8",
+        "title": "Reach the upper part of Route 8",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "ambrette",
+        "label": "Visit Ambrette Town and its Fossil Lab",
+        "title": "Visit Ambrette Town and its Fossil Lab",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-9",
+        "label": "Ride Rhyhorn along Route 9",
+        "title": "Ride Rhyhorn along Route 9",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "glittering-cave",
+        "label": "Enter Glittering Cave",
+        "title": "Enter Glittering Cave",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "fossil-lab-open",
+        "label": "Rescue the fossil assistant and choose a fossil",
+        "title": "Rescue the fossil assistant and choose a fossil",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-8-beach",
+        "label": "Enter the Route 8 beach through the Aquarium",
+        "title": "Enter the Route 8 beach through the Aquarium",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "cyllage",
+        "label": "Reach Cyllage City",
+        "title": "Reach Cyllage City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-10",
+        "label": "Visit Route 10",
+        "title": "Visit Route 10",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "cyllage-gym",
+        "label": "Defeat Grant",
+        "title": "Defeat Grant",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "geosenge",
+        "label": "Follow Team Flare through Geosenge and battle Korrina",
+        "title": "Follow Team Flare through Geosenge and battle Korrina",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-11",
+        "label": "Enter Route 11",
+        "title": "Enter Route 11",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "reflection-cave",
+        "label": "Cross Reflection Cave",
+        "title": "Cross Reflection Cave",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "shalour",
+        "label": "Reach Shalour City and meet the Mega Evolution guru",
+        "title": "Reach Shalour City and meet the Mega Evolution guru",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "shalour-gym",
+        "label": "Defeat Korrina at the Gym",
+        "title": "Defeat Korrina at the Gym",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "tower-mastery",
+        "label": "Receive the Mega Ring and complete the Lucario battle",
+        "title": "Receive the Mega Ring and complete the Lucario battle",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "surf-received",
+        "label": "Receive Surf at the Route 12 exit",
+        "title": "Receive Surf at the Route 12 exit",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-12",
+        "label": "Enter Route 12",
+        "title": "Enter Route 12",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "azure-bay",
+        "label": "Visit Azure Bay with Surf",
+        "title": "Visit Azure Bay with Surf",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "coumarine",
+        "label": "Reach Coumarine City",
+        "title": "Reach Coumarine City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-13",
+        "label": "Visit Route 13",
+        "title": "Visit Route 13",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "coumarine-gym",
+        "label": "Defeat Ramos",
+        "title": "Defeat Ramos",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "power-plant-clear",
+        "label": "Defeat Team Flare at the Kalos Power Plant",
+        "title": "Defeat Team Flare at the Kalos Power Plant",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "lumiose-north",
+        "label": "Restore power and enter northern Lumiose City",
+        "title": "Restore power and enter northern Lumiose City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "lumiose-gym",
+        "label": "Defeat Clemont",
+        "title": "Defeat Clemont",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-14",
+        "label": "Enter Route 14",
+        "title": "Enter Route 14",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "laverre",
+        "label": "Visit the Haunted House and reach Laverre City",
+        "title": "Visit the Haunted House and reach Laverre City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "laverre-gym",
+        "label": "Defeat Valerie",
+        "title": "Defeat Valerie",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "poke-ball-factory",
+        "label": "Rescue the Poke Ball Factory",
+        "title": "Rescue the Poke Ball Factory",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-15",
+        "label": "Enter Route 15",
+        "title": "Enter Route 15",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-16",
+        "label": "Visit Route 16 with Strength",
+        "title": "Visit Route 16 with Strength",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "lost-hotel",
+        "label": "Enter the Lost Hotel",
+        "title": "Enter the Lost Hotel",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "dendemille",
+        "label": "Reach Dendemille Town",
+        "title": "Reach Dendemille Town",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "frost-cavern",
+        "label": "Enter Frost Cavern",
+        "title": "Enter Frost Cavern",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "frost-cavern-clear",
+        "label": "Defeat Team Flare and return the Mamoswine",
+        "title": "Defeat Team Flare and return the Mamoswine",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-17",
+        "label": "Ride Mamoswine through Route 17",
+        "title": "Ride Mamoswine through Route 17",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "anistar",
+        "label": "Reach Anistar City",
+        "title": "Reach Anistar City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "anistar-gym",
+        "label": "Defeat Olympia",
+        "title": "Defeat Olympia",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "lysandre-labs",
+        "label": "Defeat Xerosic and find the Secret HQ",
+        "title": "Defeat Xerosic and find the Secret HQ",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "legendary-encounter",
+        "label": "Reach the legendary Pokemon in the Secret HQ",
+        "title": "Reach the legendary Pokemon in the Secret HQ",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "flare-defeated",
+        "label": "Defeat Lysandre and escape the Secret HQ",
+        "title": "Defeat Lysandre and escape the Secret HQ",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-18",
+        "label": "Enter Route 18",
+        "title": "Enter Route 18",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "terminus-cave",
+        "label": "Enter the ordinary floors of Terminus Cave",
+        "title": "Enter the ordinary floors of Terminus Cave",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "couriway",
+        "label": "Reach Couriway Town and battle Professor Sycamore",
+        "title": "Reach Couriway Town and battle Professor Sycamore",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-19",
+        "label": "Cross Route 19 and receive Waterfall from Shauna",
+        "title": "Cross Route 19 and receive Waterfall from Shauna",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "snowbelle",
+        "label": "Reach Snowbelle City",
+        "title": "Reach Snowbelle City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-20",
+        "label": "Enter the Winding Woods",
+        "title": "Enter the Winding Woods",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "pokemon-village",
+        "label": "Find Wulfric at Pokemon Village",
+        "title": "Find Wulfric at Pokemon Village",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "route-21",
+        "label": "Visit Route 21 before the badge gate",
+        "title": "Visit Route 21 before the badge gate",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "snowbelle-gym",
+        "label": "Defeat Wulfric",
+        "title": "Defeat Wulfric",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Enter Victory Road through the eight-badge gate",
+        "title": "Enter Victory Road through the eight-badge gate",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "pokemon-league",
+        "label": "Cross Victory Road and reach the Pokemon League",
+        "title": "Cross Victory Road and reach the Pokemon League",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-malva",
+        "label": "Defeat Malva",
+        "title": "Defeat Malva",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-wikstrom",
+        "label": "Defeat Wikstrom",
+        "title": "Defeat Wikstrom",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-drasna",
+        "label": "Defeat Drasna",
+        "title": "Defeat Drasna",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-siebold",
+        "label": "Defeat Siebold",
+        "title": "Defeat Siebold",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-four-clear",
+        "label": "Defeat all four Elite Four members",
+        "title": "Defeat all four Elite Four members",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "hall-of-fame",
+        "label": "Defeat Diantha and enter the Hall of Fame",
+        "title": "Defeat Diantha and enter the Hall of Fame",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "post-credits",
+        "label": "Battle AZ and watch the credits",
+        "title": "Battle AZ and watch the credits",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "kiloude",
+        "label": "Receive the TMV Pass and visit Kiloude City",
+        "title": "Receive the TMV Pass and visit Kiloude City",
+        "detail": "Includes the selected event and its required earlier events.",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "xy-reviewed-story"
+    ],
+    "checkedOn": "2026-10-21"
+  },
+  "regionalDexSections": [
+    {
+      "id": "central",
+      "name": "Central Kalos"
+    },
+    {
+      "id": "coastal",
+      "name": "Coastal Kalos"
+    },
+    {
+      "id": "mountain",
+      "name": "Mountain Kalos"
+    }
+  ]
+}

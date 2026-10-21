@@ -21,9 +21,9 @@ function loadImage(src: string): Promise<HTMLImageElement> {
 export async function renderTeamPng(model: TeamExport): Promise<Blob> {
   await document.fonts.ready;
   const urls = new Set(model.slots.flatMap(slot => [
-    ...(slot.dex === null ? [] : [`/pokemon/${slot.dex}.png`]),
+    ...(slot.spriteSrc === null ? [] : [slot.spriteSrc]),
     ...slot.types.map(type => `/types/${type}.svg`),
-    ...(slot.progress?.stages.map(stage => `/pokemon/${stage.dex}.png`) ?? []),
+    ...(slot.progress?.stages.map(stage => stage.spriteSrc) ?? []),
   ]));
   model.defense.forEach(row => urls.add(`/types/${row.type}.svg`));
   const images = new Map(await Promise.all([...urls].map(async url => [url, await loadImage(url)] as const)));
@@ -55,7 +55,7 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
     setFont(ctx, 16); ctx.fillStyle = colors.muted; ctx.fillText(`Slot ${index + 1}`, x + 20, y + 16);
     if (slot.dex !== null) {
       ctx.imageSmoothingEnabled = false;
-      ctx.drawImage(images.get(`/pokemon/${slot.dex}.png`)!, x + 16, y + 48, 80, 80);
+      ctx.drawImage(images.get(slot.spriteSrc!)!, x + 16, y + 48, 80, 80);
       ctx.imageSmoothingEnabled = true;
     }
     ctx.fillStyle = colors.ink; setFont(ctx, 24, true);

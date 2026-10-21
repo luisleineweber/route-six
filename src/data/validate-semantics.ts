@@ -1,6 +1,10 @@
 import type { Dataset, Requirement, Review, ValidationIssue } from '../domain/types';
 import { validateAcquisition } from './validate-acquisition';
 import { leaves } from '../domain/requirements';
+import { validateRegionalDex } from './validate-regional-dex';
+import { evolutionRequirements } from '../domain/availability/evolution-actions';
+import { pokemonSelections, selectionId } from '../domain/pokemon-selection';
+import { validateForms } from './validate-forms';
 
 export function validateSemantics(data: Dataset): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
@@ -23,11 +27,14 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
   };
   const pokemon = new Map(data.pokemon.map(p => [p.id, p]));
   for (const p of data.pokemon) review(p.review, p.id, 'data/pokemon.json');
+  issues.push(...validateForms(data));
   for (const g of data.games) {
+    issues.push(...validateForms(data, g));
     const base = `data/games/${g.game.id}/`;
     const collections = { pokemon: g.profiles, progression: g.milestones, bosses: g.bosses,
       locations: g.locations, capabilities: g.capabilities, items: g.items, choices: g.choices,
-      sources: g.sources, 'breeding-rules': g.breedingRules, evolutions: g.evolutions, exclusions: g.exclusions };
+      sources: g.sources, 'breeding-rules': g.breedingRules, evolutions: g.evolutions, exclusions: g.exclusions,
+      'form-changes': g.formChanges ?? [] };
     for (const [file, rows] of Object.entries(collections)) {
       unique(rows as { id?: string; pokemonId?: string }[], r => r.id ?? r.pokemonId!, base + file + '.json');
       for (const row of rows) review(row.review, 'id' in row ? row.id : row.pokemonId, base + file + '.json');
@@ -44,7 +51,7 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
       issue(g.game.id, base+'bosses.json/badgeNumber', 'Gym badge numbers must be contiguous from 1.');
     }
     for (const gym of gyms) {
-      if (!types.has(gym.specialtyTypeId)) issue(gym.id, base+'bosses.json/specialtyTypeId', `Unknown Gym type: ${gym.specialtyTypeId}`);
+      if (gym.specialtyTypeId !== null && !types.has(gym.specialtyTypeId)) issue(gym.id, base+'bosses.json/specialtyTypeId', `Unknown Gym type: ${gym.specialtyTypeId}`);
     }
     const count = types.size;
     if (g.typeChart.matrix.length !== count || g.typeChart.matrix.some(row => row.length !== count)) issue(g.game.id, base+'type-chart.json', 'Type chart must be square and complete.');
@@ -53,16 +60,36 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
       if (!p || p.introducedGeneration > g.game.generation) issue(profile.pokemonId, base+'pokemon.json', 'Species is missing or does not exist in this generation.');
       for (const t of profile.types) if (!types.has(t)) issue(profile.pokemonId, base+'pokemon.json', `Unknown game type: ${t}`);
     }
-    for (const p of data.pokemon.filter(p => p.introducedGeneration <= g.game.generation)) {
-      if (!g.profiles.some(profile => profile.pokemonId === p.id)) issue(p.id, base+'pokemon.json', 'Missing game profile.');
+    for (const profile of g.profiles) {
+      if ((profile.breeding !== null) !== (g.game.breeding !== null)) {
+        issue(profile.pokemonId, base+'pokemon.json/breeding', 'Breeding profile must match the game breeding setting.');
+      }
+      if (profile.genders.includes('not-applicable') && (g.game.breeding !== null || profile.genders.length !== 1)) {
+        issue(profile.pokemonId, base+'pokemon.json/genders', 'An absent gender must stand alone in a game without breeding.');
+      }
     }
+    if (g.game.breeding === null && g.breedingRules.length) issue(g.game.id, base+'breeding-rules.json', 'Breeding is not supported in this game.');
     unique(g.milestones, m => m.displayOrder, base+'progression.json');
-    const regionalDex = g.profiles.flatMap(profile => profile.regionalDex === undefined ? [] : [profile.regionalDex]);
-    unique(regionalDex, dex => dex, base+'pokemon.json/regionalDex');
-    if (regionalDex.length && (Math.min(...regionalDex) !== 1 || Math.max(...regionalDex) !== regionalDex.length)) {
-      issue(g.game.id, base+'pokemon.json/regionalDex', 'Regional Pokédex numbers must be contiguous from 1.');
+    issues.push(...validateRegionalDex(g, base));
+    if (g.game.planner === null) {
+      if (g.game.firstMilestoneId !== null) issue(g.game.id, base+'game.json/firstMilestoneId', 'A team-only game must have no first milestone.');
+      for (const [file, rows] of Object.entries(collections)) {
+        if (file !== 'pokemon' && file !== 'bosses' && rows.length) {
+          issue(g.game.id, base+file+'.json', 'Progress records require a reviewed planner.');
+        }
+      }
+      continue;
     }
-    if (!milestones.has(g.game.firstMilestoneId)) issue(g.game.id, base+'game.json', 'Unknown first milestone.');
+    const checkpoints = g.game.planner.checkpoints;
+    unique(checkpoints, point => point.milestoneId, base+'game.json/planner/checkpoints');
+    for (const point of checkpoints) {
+      if (!milestones.has(point.milestoneId)) issue(point.milestoneId, base+'game.json/planner/checkpoints', 'Unknown checkpoint milestone.');
+      if (point.typeId !== null && !types.has(point.typeId)) issue(point.milestoneId, base+'game.json/planner/checkpoints', 'Unknown checkpoint type.');
+    }
+    if (!checkpoints.some(point => point.milestoneId === g.game.planner!.defaultMilestoneId)) {
+      issue(g.game.id, base+'game.json/planner/defaultMilestoneId', 'Default progress must be a declared checkpoint.');
+    }
+    if (g.game.firstMilestoneId === null || !milestones.has(g.game.firstMilestoneId)) issue(g.game.id, base+'game.json', 'Unknown first milestone.');
     const visiting = new Set<string>(); const visited = new Set<string>();
     const walk = (id: string): boolean => {
       if (visiting.has(id)) { issue(id, base+'progression.json', 'Milestone dependency cycle.'); return false; }
@@ -82,7 +109,7 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
     for (const location of g.locations.filter(l => /^route-\d+$/.test(l.id))) {
       if (!g.milestones.some(m => m.locationId === location.id && m.kind === 'route')) issue(location.id, base+'progression.json', 'Route has no initial-access milestone.');
     }
-    const sets = { milestone: new Set(milestones.keys()), capability: new Set(g.capabilities.map(c => c.id)), item: new Set(g.items.map(i => i.id)), pokemon: new Set(g.profiles.map(p => p.pokemonId)) };
+    const sets = { milestone: new Set(milestones.keys()), location: locations, capability: new Set(g.capabilities.map(c => c.id)), item: new Set(g.items.map(i => i.id)), pokemon: new Set(pokemonSelections(g).map(p => selectionId(p.pokemonId, p.formId))) };
     const checkRequirements = (requirements: Requirement, id: string, file: string) => {
       for (const leaf of leaves(requirements)) if (!sets[leaf.kind].has(leaf.id)) issue(id, base+file+'.json', `Unknown ${leaf.kind}: ${leaf.id}`);
     };
@@ -94,7 +121,13 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
       review(source.review, source.id, base+'items.json');
     }
     for (const s of g.sources) checkRequirements(s.requirements, s.id, 'sources');
-    for (const e of g.evolutions) checkRequirements(e.requirements, e.id, 'evolutions');
+    for (const change of g.formChanges ?? []) checkRequirements(change.requirements, change.id, 'form-changes');
+    for (const e of g.evolutions) {
+      checkRequirements(evolutionRequirements(e, g), e.id, 'evolutions');
+      for (const condition of e.conditions) if (condition.kind === 'known-move') {
+        for (const route of condition.learning) if (route.kind === 'teach') checkRequirements(route.requirements, e.id, 'evolutions');
+      }
+    }
     issues.push(...validateAcquisition(g, base));
   }
   return issues;

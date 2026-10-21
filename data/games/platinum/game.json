@@ -1,0 +1,226 @@
+{
+  "id": "platinum",
+  "name": "Pokémon Platinum",
+  "generation": 4,
+  "region": "Sinnoh",
+  "firstMilestoneId": "twinleaf",
+  "planner": {
+    "defaultMilestoneId": "starter",
+    "checkpoints": [
+      {
+        "milestoneId": "starter",
+        "label": "Starter choice: Choose one Sinnoh starter.",
+        "title": "Starter choice",
+        "detail": "Choose one Sinnoh starter.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "oreburgh-gym",
+        "label": "Gym 1: Roark · Rock",
+        "title": "Gym 1",
+        "detail": "Roark · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "windworks-clear",
+        "label": "Valley Windworks: Defeat Mars and free the building.",
+        "title": "Valley Windworks",
+        "detail": "Defeat Mars and free the building.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "eterna-city",
+        "label": "Eterna City: Before Gardenia.",
+        "title": "Eterna City",
+        "detail": "Before Gardenia.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "eterna-gym",
+        "label": "Gym 2: Gardenia · Grass",
+        "title": "Gym 2",
+        "detail": "Gardenia · Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "eterna-galactic-clear",
+        "label": "Eterna rescue: Defeat Jupiter and rescue Rick.",
+        "title": "Eterna rescue",
+        "detail": "Defeat Jupiter and rescue Rick.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "hearthome-gym",
+        "label": "Gym 3: Fantina · Ghost",
+        "title": "Gym 3",
+        "detail": "Fantina · Ghost",
+        "typeId": "ghost"
+      },
+      {
+        "milestoneId": "early-pastoria",
+        "label": "Early Pastoria visit: Visit through Route 213 before Maylene.",
+        "title": "Early Pastoria visit",
+        "detail": "Visit through Route 213 before Maylene.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "veilstone-gym",
+        "label": "Gym 4: Maylene · Fighting",
+        "title": "Gym 4",
+        "detail": "Maylene · Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "pastoria",
+        "label": "Pastoria City: Before Crasher Wake.",
+        "title": "Pastoria City",
+        "detail": "Before Crasher Wake.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "pastoria-gym",
+        "label": "Gym 5: Crasher Wake · Water",
+        "title": "Gym 5",
+        "detail": "Crasher Wake · Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "celestic",
+        "label": "Celestic Town: Defeat Cyrus and receive Surf.",
+        "title": "Celestic Town",
+        "detail": "Defeat Cyrus and receive Surf.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "canalave",
+        "label": "Canalave City: Before Byron.",
+        "title": "Canalave City",
+        "detail": "Before Byron.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "iron-island",
+        "label": "Iron Island: Complete Riley's cave visit.",
+        "title": "Iron Island",
+        "detail": "Complete Riley's cave visit.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "canalave-gym",
+        "label": "Gym 6: Byron · Steel",
+        "title": "Gym 6",
+        "detail": "Byron · Steel",
+        "typeId": "steel"
+      },
+      {
+        "milestoneId": "snowpoint-gym",
+        "label": "Gym 7: Candice · Ice",
+        "title": "Gym 7",
+        "detail": "Candice · Ice",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "veilstone-hq",
+        "label": "Galactic HQ: Free the lake guardians.",
+        "title": "Galactic HQ",
+        "detail": "Free the lake guardians.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "distortion-clear",
+        "label": "Distortion World: Defeat Cyrus and leave Distortion World.",
+        "title": "Distortion World",
+        "detail": "Defeat Cyrus and leave Distortion World.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "sunyshore-gym",
+        "label": "Gym 8: Volkner · Electric",
+        "title": "Gym 8",
+        "detail": "Volkner · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "league-aaron",
+        "label": "Elite Four: Aaron: Aaron defeated. Bertha is next.",
+        "title": "Elite Four: Aaron",
+        "detail": "Aaron defeated. Bertha is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-bertha",
+        "label": "Elite Four: Bertha: Bertha defeated. Flint is next.",
+        "title": "Elite Four: Bertha",
+        "detail": "Bertha defeated. Flint is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-flint",
+        "label": "Elite Four: Flint: Flint defeated. Lucian is next.",
+        "title": "Elite Four: Flint",
+        "detail": "Flint defeated. Lucian is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-lucian",
+        "label": "Elite Four: Lucian: Lucian defeated. Cynthia is next.",
+        "title": "Elite Four: Lucian",
+        "detail": "Lucian defeated. Cynthia is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "national-dex-before-hall",
+        "label": "Early National Dex: See all 210 entries before the first League clear.",
+        "title": "Early National Dex",
+        "detail": "See all 210 entries before the first League clear.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "hall-of-fame",
+        "label": "Hall of Fame: Complete the Sinnoh League.",
+        "title": "Hall of Fame",
+        "detail": "Complete the Sinnoh League.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "national-dex",
+        "label": "National Pokedex: After the League and all 210 entries seen.",
+        "title": "National Pokedex",
+        "detail": "After the League and all 210 entries seen.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "battle-zone",
+        "label": "Battle Zone: Open the postgame island routes.",
+        "title": "Battle Zone",
+        "detail": "Open the postgame island routes.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "stark-mountain",
+        "label": "Stark Mountain: Return the Magma Stone and awaken Heatran.",
+        "title": "Stark Mountain",
+        "detail": "Return the Magma Stone and awaken Heatran.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "fullmoon-island",
+        "label": "Fullmoon Island: Resolve the sailor's family event.",
+        "title": "Fullmoon Island",
+        "detail": "Resolve the sailor's family event.",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "platinum-game",
+      "platinum-profiles",
+      "platinum-source"
+    ],
+    "checkedOn": "2026-10-17"
+  }
+}

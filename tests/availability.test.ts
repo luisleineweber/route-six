@@ -89,7 +89,7 @@ describe('Breeding proofs',()=>{
   it('waits for Day Care and has concrete parents at the real hatch level',()=>{
     const {data,game}=fixture(['treecko','poochyena']);source(game,'treecko','treecko',5,none,{maxUses:1,genders:['female']});source(game,'mate','poochyena');
     // Treecko and Poochyena do not share Egg Groups. Use Treecko's Monster partner.
-    game.profiles.find(p=>p.pokemonId==='poochyena')!.breeding.eggGroupIds=['monster'];breed(game,'treecko-eggs',['treecko'],'treecko');
+    game.profiles.find(p=>p.pokemonId==='poochyena')!.breeding!.eggGroupIds=['monster'];breed(game,'treecko-eggs',['treecko'],'treecko');
     expect(query(data).entries.treecko.currentPathIds.some(id=>query(data).paths[id].breedingSteps.length)).toBe(false);
     const current=query(data,'gate');const eggs=current.entries.treecko.currentPathIds.map(id=>current.paths[id]).filter(p=>p.breedingSteps.length);expect(eggs.length).toBeGreaterThan(0);expect(eggs[0].minimumLevel).toBe(5);expect(eggs[0].breedingSteps[0].parents.map(p=>p.gender)).toEqual(['female','male']);
   });
@@ -103,7 +103,7 @@ describe('Breeding proofs',()=>{
     expect(solve(game,game.milestones[1],true).paths.get('treecko')!.some(p=>p.breedingSteps.length)).toBe(false);
   });
   it('requires incense, retains it, and enforces parent and hatch levels',()=>{
-    const {game}=fixture(['marill','azurill','poochyena']);source(game,'marill','marill',24,none,{genders:['female']});source(game,'mate','poochyena');game.profiles.find(p=>p.pokemonId==='poochyena')!.breeding.eggGroupIds=['water-1'];
+    const {game}=fixture(['marill','azurill','poochyena']);source(game,'marill','marill',24,none,{genders:['female']});source(game,'mate','poochyena');game.profiles.find(p=>p.pokemonId==='poochyena')!.breeding!.eggGroupIds=['water-1'];
     game.items.push({id:'incense',name:'Incense',sources:[{id:'incense-source',locationId:'field',requirements:milestone('future'),maxUses:1,choice:null,review}],review});breed(game,'azurill-eggs',['marill'],'azurill','incense');
     expect(solve(game,game.milestones[1],true).paths.has('azurill')).toBe(false);const future=solve(game,game.milestones[2],true).paths.get('azurill')![0];expect(future.claims.some(c=>c.resourceId==='item-source:incense-source'&&c.use==='retain')).toBe(true);
     game.bosses[1].highestLevel=23;expect(solve(game,game.milestones[1],true).paths.has('azurill')).toBe(false);

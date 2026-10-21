@@ -1,0 +1,199 @@
+[
+    {
+        "id":  "cheren",
+        "name":  "Cheren",
+        "kind":  "gym",
+        "highestLevel":  13,
+        "badgeNumber":  1,
+        "specialtyTypeId":  "normal",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "roxie",
+        "name":  "Roxie",
+        "kind":  "gym",
+        "highestLevel":  18,
+        "badgeNumber":  2,
+        "specialtyTypeId":  "poison",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "burgh",
+        "name":  "Burgh",
+        "kind":  "gym",
+        "highestLevel":  24,
+        "badgeNumber":  3,
+        "specialtyTypeId":  "bug",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "elesa",
+        "name":  "Elesa",
+        "kind":  "gym",
+        "highestLevel":  30,
+        "badgeNumber":  4,
+        "specialtyTypeId":  "electric",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "clay",
+        "name":  "Clay",
+        "kind":  "gym",
+        "highestLevel":  33,
+        "badgeNumber":  5,
+        "specialtyTypeId":  "ground",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "skyla",
+        "name":  "Skyla",
+        "kind":  "gym",
+        "highestLevel":  39,
+        "badgeNumber":  6,
+        "specialtyTypeId":  "flying",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "drayden",
+        "name":  "Drayden",
+        "kind":  "gym",
+        "highestLevel":  48,
+        "badgeNumber":  7,
+        "specialtyTypeId":  "dragon",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "marlon",
+        "name":  "Marlon",
+        "kind":  "gym",
+        "highestLevel":  51,
+        "badgeNumber":  8,
+        "specialtyTypeId":  "water",
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-gyms"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "shauntal",
+        "name":  "Shauntal",
+        "kind":  "elite-four",
+        "highestLevel":  58,
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-bosses"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "grimsley",
+        "name":  "Grimsley",
+        "kind":  "elite-four",
+        "highestLevel":  58,
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-bosses"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "caitlin",
+        "name":  "Caitlin",
+        "kind":  "elite-four",
+        "highestLevel":  58,
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-bosses"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "marshal",
+        "name":  "Marshal",
+        "kind":  "elite-four",
+        "highestLevel":  58,
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-bosses"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "iris",
+        "name":  "Iris",
+        "kind":  "champion",
+        "highestLevel":  59,
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses",
+                                            "black-2-serebii-bosses"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    },
+    {
+        "id":  "ghetsis",
+        "name":  "Ghetsis",
+        "kind":  "trainer",
+        "highestLevel":  52,
+        "review":  {
+                       "referenceIds":  [
+                                            "black-2-bosses"
+                                        ],
+                       "checkedOn":  "2026-10-13"
+                   }
+    }
+]

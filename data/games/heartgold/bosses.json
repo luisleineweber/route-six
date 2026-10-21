@@ -1,0 +1,174 @@
+[
+  {
+    "id": "falkner",
+    "name": "Falkner",
+    "kind": "gym",
+    "highestLevel": 13,
+    "badgeNumber": 1,
+    "specialtyTypeId": "flying",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "bugsy",
+    "name": "Bugsy",
+    "kind": "gym",
+    "highestLevel": 17,
+    "badgeNumber": 2,
+    "specialtyTypeId": "bug",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "whitney",
+    "name": "Whitney",
+    "kind": "gym",
+    "highestLevel": 19,
+    "badgeNumber": 3,
+    "specialtyTypeId": "normal",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "morty",
+    "name": "Morty",
+    "kind": "gym",
+    "highestLevel": 25,
+    "badgeNumber": 4,
+    "specialtyTypeId": "ghost",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "chuck",
+    "name": "Chuck",
+    "kind": "gym",
+    "highestLevel": 31,
+    "badgeNumber": 5,
+    "specialtyTypeId": "fighting",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine",
+    "kind": "gym",
+    "highestLevel": 35,
+    "badgeNumber": 6,
+    "specialtyTypeId": "steel",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "pryce",
+    "name": "Pryce",
+    "kind": "gym",
+    "highestLevel": 34,
+    "badgeNumber": 7,
+    "specialtyTypeId": "ice",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "clair",
+    "name": "Clair",
+    "kind": "gym",
+    "highestLevel": 41,
+    "badgeNumber": 8,
+    "specialtyTypeId": "dragon",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "will",
+    "name": "Will",
+    "kind": "elite-four",
+    "highestLevel": 42,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "koga",
+    "name": "Koga",
+    "kind": "elite-four",
+    "highestLevel": 44,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "kind": "elite-four",
+    "highestLevel": 46,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "karen",
+    "name": "Karen",
+    "kind": "elite-four",
+    "highestLevel": 47,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "kind": "champion",
+    "highestLevel": 50,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  }
+]

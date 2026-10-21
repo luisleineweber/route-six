@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { emerald } from '../src/data/dataset';
+import { emerald } from './local-data';
 import type { AcquisitionPath, AvailabilitySnapshot } from '../src/domain/types';
 import { distinctPathOptions, firstAccessPoints, groupAcquisitionPaths, pathOptionName } from '../src/components/acquisition-presentation';
 

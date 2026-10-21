@@ -72933,5 +72933,34 @@
       ],
       "checkedOn": "2026-10-13"
     }
+  },
+  {
+    "id": "breed-nidoran-male-ditto-egg",
+    "pokemonId": "nidoran-m",
+    "locationId": "four-island",
+    "requirements": {
+      "kind": "capability",
+      "id": "day-care"
+    },
+    "level": {
+      "kind": "fixed",
+      "value": 5
+    },
+    "genders": [
+      "male"
+    ],
+    "maxUses": null,
+    "choice": null,
+    "details": {
+      "kind": "breeding",
+      "ruleId": "breed-nidoran-male-ditto",
+      "capabilityId": "day-care"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-daycare"
+      ],
+      "checkedOn": "2026-10-21"
+    }
   }
 ]

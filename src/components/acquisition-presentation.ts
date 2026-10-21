@@ -1,17 +1,29 @@
-import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, SourceDetails } from '../domain/types';
-import { pokemonById } from '../data/dataset';
+import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, ParentWitness, SourceDetails } from '../domain/types';
+import { pokemonById, pokemonIdentity } from '../data/dataset';
+import { selectionId } from '../domain/pokemon-selection';
 import { evolutionLabels } from './evolution-presentation';
 
 const sourceMethodNames = {
   grass: 'Grass', surf: 'Surf', 'old-rod': 'Old Rod', 'good-rod': 'Good Rod',
   'super-rod': 'Super Rod', 'rock-smash': 'Rock Smash', starter: 'Starter',
-  gift: 'Gift', static: 'Fixed encounter', egg: 'Egg', fossil: 'Fossil revival',
+  headbutt: 'Headbutt', 'bug-contest': 'Bug-Catching Contest',
+  gift: 'Gift', static: 'Fixed encounter', roaming: 'Roaming encounter', egg: 'Egg', fossil: 'Fossil revival',
+  'honey-tree': 'Honey Tree', 'poke-radar': 'Poké Radar',
+  'dark-grass': 'Dark grass', 'grass-spots': 'Shaking grass', 'cave-spots': 'Dust cloud',
+  'bridge-spots': 'Bridge shadow', 'surf-spots': 'Surf in rippling water',
+  'super-rod-spots': 'Super Rod in rippling water',
+  horde: 'Horde', 'rough-terrain': 'Rough terrain', 'yellow-flowers': 'Yellow flowers',
+  'red-flowers': 'Red flowers', 'purple-flowers': 'Purple flowers',
+  'ceiling-ambush': 'Ceiling ambush', 'ground-ambush': 'Ground ambush',
+  'rustling-bush-ambush': 'Rustling bush', 'sky-ambush': 'Sky ambush',
+  'trash-can-ambush': 'Shaking trash can', 'berry-tree': 'Berry tree pests',
   'game-trade': 'In-game trade', breeding: 'Breeding',
 } as const;
 
 export function sourceMethod(details: SourceDetails) {
   const key = details.kind === 'wild' ? details.method : details.kind;
-  const rodIcon = key === 'old-rod' || key === 'good-rod' || key === 'super-rod' ? `/items/${key}.png` : null;
+  const rod = key === 'super-rod-spots' ? 'super-rod' : key;
+  const rodIcon = rod === 'old-rod' || rod === 'good-rod' || rod === 'super-rod' ? `/items/${rod}.png` : null;
   return { name: sourceMethodNames[key], rodIcon };
 }
 
@@ -22,13 +34,17 @@ export function pathSource(game: GameData, path: AcquisitionPath) {
   return source;
 }
 
+export function breedingParentName(parent: ParentWitness, snapshot: AvailabilitySnapshot): string {
+  return pokemonIdentity(selectionId(parent.pokemonId, parent.formId ?? snapshot.paths[parent.pathId]?.formId)).name;
+}
+
 function acquisitionGroup(game: GameData, path: AcquisitionPath) {
   const evolutionId = path.evolutionIds.at(-1);
   if (evolutionId) {
     const evolution = game.evolutions.find(evolution => evolution.id === evolutionId);
     if (!evolution) throw new Error(`Missing acquisition evolution: ${evolutionId}`);
     return { id: JSON.stringify(['evolution', path.pokemonId, evolution.id]),
-      title: `Evolve ${pokemonById.get(evolution.fromPokemonId)!.name}`,
+      title: `Evolve ${pokemonIdentity(selectionId(evolution.fromPokemonId, evolution.fromFormId)).name}`,
       method: evolutionLabels(game, evolution).join(' · '), rodIcon: null };
   }
   const source = pathSource(game, path);
@@ -86,7 +102,7 @@ export function distinctPathOptions(paths: AcquisitionPath[], snapshot: Availabi
         evolutionIds: proof?.evolutionIds, minimumLevel: proof?.minimumLevel, choices: proof?.choices, claims: proof?.claims };
     }) }));
     const key = JSON.stringify([path.sourceIds, path.evolutionIds, path.minimumLevel, parentSteps,
-      path.choices, path.claims, path.coProductIds, path.firstMilestoneIds]);
+      path.choices, path.claims, path.coProductIds, path.firstMilestoneIds, path.formId ?? null, path.formChangeIds ?? []]);
     if (!options.has(key)) options.set(key, path);
   }
   return [...options.values()];

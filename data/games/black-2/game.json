@@ -1,0 +1,18 @@
+{
+  "id": "black-2",
+  "name": "Pokémon Black 2",
+  "generation": 5,
+  "region": "Unova",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "black-2-personal-data",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}

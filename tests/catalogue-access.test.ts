@@ -1,7 +1,7 @@
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
-import { emerald } from '../src/data/dataset';
+import { emerald } from './local-data';
 import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData } from '../src/domain/types';
 import { GameContext } from '../src/features/planner/GameContext';
 import { PokemonSearch } from '../src/features/progress/PokemonSearch';

@@ -1,4 +1,4 @@
-import { dataset } from '../src/data/dataset';
+import { dataset } from './local-data';
 import type { Dataset, Evolution, GameData, PokemonSource, Requirement } from '../src/domain/types';
 
 export const none: Requirement = {kind:'all',requirements:[]};
@@ -8,7 +8,7 @@ export const capability = (id:string): Requirement => ({kind:'capability',id});
 
 export function fixture(ids:string[]): {data:Dataset; game:GameData} {
   const game:GameData = {
-    game:{id:'emerald',name:'Test Emerald',generation:3,region:'Hoenn',firstMilestoneId:'start',review},
+    game:{id:'emerald',name:'Test Emerald',generation:3,region:'Hoenn',firstMilestoneId:'start',planner:{defaultMilestoneId:'gate',checkpoints:[{milestoneId:'gate',label:'Gate',title:'Gate',detail:'Before the next task',typeId:null}]},breeding:{hatchLevel:5},review},
     profiles: structuredClone(dataset.games[0].profiles.filter(p=>ids.includes(p.pokemonId))), typeChart:dataset.games[0].typeChart,
     milestones:[
       {id:'start',name:'Start',kind:'story',phase:'main-story',displayOrder:0,previousIds:[],locationId:null,nextBossId:'first',review},
@@ -22,11 +22,11 @@ export function fixture(ids:string[]): {data:Dataset; game:GameData} {
     capabilities:[{id:'old-rod',name:'Old Rod',requirements:milestone('gate'),review},{id:'day-care',name:'Day Care',requirements:milestone('gate'),review},{id:'friendship',name:'Friendship',requirements:none,review}],
     items:[],choices:[],sources:[],breedingRules:[],evolutions:[],exclusions:[],
   };
-  return {game,data:{schemaVersion:1,references:dataset.references,pokemon:dataset.pokemon.filter(p=>ids.includes(p.id)),games:[game]}};
+  return {game,data:{schemaVersion:2,references:dataset.references,pokemon:dataset.pokemon.filter(p=>ids.includes(p.id)),games:[game]}};
 }
 
 export function source(game:GameData,id:string,pokemonId:string,level=5,requirements:Requirement=none,extra:Partial<PokemonSource>={}): PokemonSource {
-  const value:PokemonSource={id,pokemonId,locationId:'field',requirements,level:{kind:'fixed',value:level},genders:game.profiles.find(p=>p.pokemonId===pokemonId)!.breeding.genders,maxUses:null,choice:null,details:{kind:'gift'},review,...extra};
+  const value:PokemonSource={id,pokemonId,locationId:'field',requirements,level:{kind:'fixed',value:level},genders:game.profiles.find(p=>p.pokemonId===pokemonId)!.genders,maxUses:null,choice:null,details:{kind:'gift'},review,...extra};
   game.sources.push(value);return value;
 }
 export function evolution(game:GameData,from:string,to:string,level:number|null,extra:Partial<Evolution>={}): Evolution {

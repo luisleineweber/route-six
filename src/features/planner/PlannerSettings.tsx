@@ -11,6 +11,7 @@ const targets: { id: PlanningTarget; name: string; description: string }[] = [
 
 export function PlannerSettings({ state, dispatch }: { state: PlannerState; dispatch: React.Dispatch<PlannerAction> }) {
   const game = useGameData();
+  if (game.game.planner === null || state.milestoneId === null) throw new Error('Progress settings need reviewed progress data.');
   const milestone = game.milestones.find(m => m.id === state.milestoneId)!;
   const boss = game.bosses.find(b => b.id === milestone.nextBossId);
   const target = targets.find(t => t.id === state.target)!;
@@ -21,7 +22,7 @@ export function PlannerSettings({ state, dispatch }: { state: PlannerState; disp
         <div className="field">
           <label id="milestone-label" htmlFor="milestone">Current/Goal progress</label>
           <ProgressSelector value={state.milestoneId} options={points} onChange={milestoneId => update({ milestoneId })} />
-          <p id="milestone-hint" className="field-hint">Plan for after the selected Gym or Victory Road.</p>
+          <p id="milestone-hint" className="field-hint">Plan for the selected progress point.</p>
         </div>
         <fieldset className="field segmented">
           <legend>Planning target</legend>
@@ -34,7 +35,7 @@ export function PlannerSettings({ state, dispatch }: { state: PlannerState; disp
         <div className="field">
           <label className="level-label" htmlFor="level-limit">Use the level limit</label>
           <label className="switch-row" htmlFor="level-limit">
-            <span>{boss ? `${boss.name} · Lv. ${boss.highestLevel}` : 'League complete'}</span>
+            <span>{boss ? `${boss.name} · Lv. ${boss.highestLevel}` : 'No active level limit'}</span>
             <span className="switch-control"><span className="switch-state" aria-hidden="true">{state.respectLevelLimit ? 'On' : 'Off'}</span>
               <input id="level-limit" className="switch" type="checkbox" role="switch" aria-label="Use the level limit" checked={state.respectLevelLimit} onChange={e => update({ respectLevelLimit: e.target.checked })} /></span>
           </label>

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "viola",
+    "name": "Viola",
+    "kind": "gym",
+    "highestLevel": 12,
+    "badgeNumber": 1,
+    "specialtyTypeId": "bug",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "grant",
+    "name": "Grant",
+    "kind": "gym",
+    "highestLevel": 25,
+    "badgeNumber": 2,
+    "specialtyTypeId": "rock",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "korrina",
+    "name": "Korrina",
+    "kind": "gym",
+    "highestLevel": 32,
+    "badgeNumber": 3,
+    "specialtyTypeId": "fighting",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "ramos",
+    "name": "Ramos",
+    "kind": "gym",
+    "highestLevel": 34,
+    "badgeNumber": 4,
+    "specialtyTypeId": "grass",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "clemont",
+    "name": "Clemont",
+    "kind": "gym",
+    "highestLevel": 37,
+    "badgeNumber": 5,
+    "specialtyTypeId": "electric",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "valerie",
+    "name": "Valerie",
+    "kind": "gym",
+    "highestLevel": 42,
+    "badgeNumber": 6,
+    "specialtyTypeId": "fairy",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "olympia",
+    "name": "Olympia",
+    "kind": "gym",
+    "highestLevel": 48,
+    "badgeNumber": 7,
+    "specialtyTypeId": "psychic",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "wulfric",
+    "name": "Wulfric",
+    "kind": "gym",
+    "highestLevel": 59,
+    "badgeNumber": 8,
+    "specialtyTypeId": "ice",
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "malva",
+    "name": "Malva",
+    "kind": "elite-four",
+    "highestLevel": 65,
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "siebold",
+    "name": "Siebold",
+    "kind": "elite-four",
+    "highestLevel": 65,
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "wikstrom",
+    "name": "Wikstrom",
+    "kind": "elite-four",
+    "highestLevel": 65,
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "drasna",
+    "name": "Drasna",
+    "kind": "elite-four",
+    "highestLevel": 65,
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "diantha",
+    "name": "Diantha",
+    "kind": "champion",
+    "highestLevel": 68,
+    "review": {
+      "referenceIds": [
+        "y-bosses"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "lysandre-final",
+    "name": "Lysandre",
+    "kind": "trainer",
+    "highestLevel": 53,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

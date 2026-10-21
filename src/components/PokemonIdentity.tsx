@@ -1,5 +1,5 @@
-import { pokemonById } from '../data/dataset';
 import { useGameData } from '../features/planner/GameContext';
+import { selectionProfile } from '../domain/pokemon-selection';
 
 export const typeName = (type: string) => type[0].toUpperCase() + type.slice(1);
 
@@ -18,15 +18,15 @@ export function TypeBadge({ type, compact = false }: { type: string; compact?: b
 const spriteSizes = { md: 96, lg: 128 } as const;
 
 export function PokemonSprite({ id, size = 'md' }: { id: string; size?: keyof typeof spriteSizes }) {
-  const pokemon = pokemonById.get(id)!;
+  const game = useGameData();
+  const profile = selectionProfile(game, id);
   const pixels = spriteSizes[size];
-  return <img className="pokemon-sprite" src={`/pokemon/${pokemon.nationalDex}.png`} alt="" width={pixels} height={pixels} loading="lazy" />;
+  return <img className="pokemon-sprite" src={profile.spriteSrc} alt="" width={pixels} height={pixels} loading="lazy" />;
 }
 
 export function PokemonTypes({ id, compact = false, joined = false }: { id: string; compact?: boolean; joined?: boolean }) {
   const game = useGameData();
-  const profile = game.profiles.find(profile => profile.pokemonId === id);
-  if (!profile) throw new Error(`Missing Pokémon profile in ${game.game.name}: ${id}`);
+  const profile = selectionProfile(game, id);
   const joinPair = joined && profile.types.length === 2;
   return <div className={`type-list${joinPair ? ' joined-types' : ''}`} title={joinPair ? profile.types.map(typeName).join(' / ') : undefined}>
     {profile.types.map(type => <TypeBadge key={type} type={type} compact={compact} />)}

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "xy-burmy-base-to-burmy-sandy",
+    "pokemonId": "burmy",
+    "fromFormId": null,
+    "toFormId": "burmy-sandy",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-sandy-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-burmy-base-to-burmy-trash",
+    "pokemonId": "burmy",
+    "fromFormId": null,
+    "toFormId": "burmy-trash",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-trash-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-burmy-burmy-sandy-to-base",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-sandy",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-plant-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-burmy-burmy-sandy-to-burmy-trash",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-sandy",
+    "toFormId": "burmy-trash",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-trash-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-burmy-burmy-trash-to-base",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-trash",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-plant-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-burmy-burmy-trash-to-burmy-sandy",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-trash",
+    "toFormId": "burmy-sandy",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-sandy-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-base-to-rotom-heat",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-heat",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-rotom-heat-to-base",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-heat",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-base-to-rotom-wash",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-wash",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-rotom-wash-to-base",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-wash",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-base-to-rotom-frost",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-frost",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-rotom-frost-to-base",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-frost",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-base-to-rotom-fan",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-fan",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-rotom-fan-to-base",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-fan",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-base-to-rotom-mow",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-mow",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-rotom-rotom-mow-to-base",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-mow",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-giratina-base-to-giratina-origin",
+    "pokemonId": "giratina",
+    "fromFormId": null,
+    "toFormId": "giratina-origin",
+    "heldItemId": "griseous-orb",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "xy-giratina-giratina-origin-to-base",
+    "pokemonId": "giratina",
+    "fromFormId": "giratina-origin",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-forms"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

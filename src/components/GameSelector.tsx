@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Check, ChevronDown } from 'lucide-react';
-import { gameCatalogue, gameGroups, isGameReady } from '../data/game-catalogue';
+import { gameCatalogue, gameGroups, isGameReady, isProgressReady } from '../data/game-catalogue';
 import { GameLogo } from './GameLogo';
 
 export function GameSelector({ gameId, onChange }: { gameId: string; onChange: (id: string) => void }) {
@@ -25,14 +25,14 @@ export function GameSelector({ gameId, onChange }: { gameId: string; onChange: (
       <ChevronDown size={18} className="chevron" aria-hidden="true" />
     </summary>
     <div className="game-dropdown" role="region" aria-label="Choose a game">
-      <p className="game-menu-note">Emerald is ready. More games are planned.</p>
+      <p className="game-menu-note">Team ready supports teams and type checks. Ready also supports progress checks.</p>
       {gameGroups.map(group => <section className="game-generation" key={group.generation} aria-labelledby={`generation-${group.generation}`}>
         <h2 id={`generation-${group.generation}`}>Generation {group.generation}</h2>
         <div className="game-options">{group.games.map(game => <button key={game.id} type="button" className="game-option"
           disabled={!isGameReady(game.id)} aria-pressed={game.id === gameId} onClick={() => { onChange(game.id); close(); }}>
           <GameLogo gameId={game.id} lazy />
           <span>{game.name}</span>
-          <span className="game-option-status">{isGameReady(game.id) ? <><Check size={14} aria-hidden="true" /> Ready</> : 'Planned'}</span>
+          <span className="game-option-status">{isGameReady(game.id) ? <><Check size={14} aria-hidden="true" /> {isProgressReady(game.id) ? 'Ready' : 'Team ready'}</> : 'Planned'}</span>
         </button>)}</div>
       </section>)}
     </div>

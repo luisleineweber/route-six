@@ -187,7 +187,7 @@ describe('Pokémon Blue reviewed data', () => {
   });
   it('keeps the 13 boss records, postgame checkpoint, and nine native trades', () => {
     expect(blue.bosses).toHaveLength(13);
-    expect(blue.game.planner.defaultMilestoneId).toBe('champion-defeated');
+    expect(blue.game.planner!.defaultMilestoneId).toBe('champion-defeated');
     const trades = blue.sources.filter(source => source.details.kind === 'game-trade');
     expect(trades).toHaveLength(9);
     expect(trades.map(source => [source.details.kind === 'game-trade' ? source.details.offeredPokemonId : '', source.pokemonId]).sort()).toEqual([

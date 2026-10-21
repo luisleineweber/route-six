@@ -1,0 +1,3330 @@
+[
+  {
+    "id": "twinleaf",
+    "name": "Twinleaf",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-1"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-201",
+    "name": "Route 201",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-1"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "lake-verity",
+    "name": "Lake Verity",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-1"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sandgem",
+    "name": "Sandgem",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sandgem-pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-2"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-202",
+    "name": "Route 202",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sandgem-pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-2"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-219",
+    "name": "Route 219",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sandgem-pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-2"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "jubilife",
+    "name": "Jubilife",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-203",
+    "name": "Route 203",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-204-south",
+    "name": "Route 204 South",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-218",
+    "name": "Route 218",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "ravaged-path",
+    "name": "Ravaged Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh",
+    "name": "Oreburgh",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh-gate-1f",
+    "name": "Oreburgh Gate 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh-mine-b1f",
+    "name": "Oreburgh Mine B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh-mine-b2f",
+    "name": "Oreburgh Mine B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-207",
+    "name": "Route 207",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-204-north",
+    "name": "Route 204 North",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife-galactic"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "floaroma",
+    "name": "Floaroma",
+    "requirements": {
+      "kind": "milestone",
+      "id": "floaroma"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "valley-windworks-exterior",
+    "name": "Valley Windworks Exterior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "floaroma"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-205-south",
+    "name": "Route 205 South",
+    "requirements": {
+      "kind": "milestone",
+      "id": "floaroma"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "floaroma-meadow",
+    "name": "Floaroma Meadow",
+    "requirements": {
+      "kind": "milestone",
+      "id": "floaroma"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "valley-windworks-interior",
+    "name": "Valley Windworks Interior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "windworks-key"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-forest-interior",
+    "name": "Eterna Forest Interior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "windworks-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-205-north",
+    "name": "Route 205 North",
+    "requirements": {
+      "kind": "milestone",
+      "id": "windworks-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna",
+    "name": "Eterna",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-211-west",
+    "name": "Route 211 West",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-north-1f-room-1",
+    "name": "Mt. Coronet North 1F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-galactic-building",
+    "name": "Eterna Galactic Building",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-entrance",
+    "name": "Old Chateau Entrance",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-south-1f",
+    "name": "Mt. Coronet South 1F",
+    "requirements": {
+      "kind": "capability",
+      "id": "bicycle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-7"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-208",
+    "name": "Route 208",
+    "requirements": {
+      "kind": "capability",
+      "id": "bicycle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-7"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "hearthome",
+    "name": "Hearthome",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-209",
+    "name": "Route 209",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon",
+    "name": "Solaceon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-210-south",
+    "name": "Route 210 South",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-215",
+    "name": "Route 215",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone",
+    "name": "Veilstone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone-warehouse",
+    "name": "Veilstone Warehouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-214",
+    "name": "Route 214",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "valor-lakefront",
+    "name": "Valor Lakefront",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-213",
+    "name": "Route 213",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-212-north",
+    "name": "Route 212 North",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-212-south",
+    "name": "Route 212 South",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "trophy-garden",
+    "name": "Trophy Garden",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pastoria",
+    "name": "Pastoria",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-210-north",
+    "name": "Route 210 North",
+    "requirements": {
+      "kind": "milestone",
+      "id": "psyduck-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "celestic",
+    "name": "Celestic",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celestic"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "celestic-ruins",
+    "name": "Celestic Ruins",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celestic"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-211-east",
+    "name": "Route 211 East",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celestic"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "canalave",
+    "name": "Canalave",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fuego-ironworks-exterior",
+    "name": "Fuego Ironworks Exterior",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fuego-ironworks-interior",
+    "name": "Fuego Ironworks Interior",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-220",
+    "name": "Route 220",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-221",
+    "name": "Route 221",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-b1f",
+    "name": "Mt. Coronet B1F",
+    "requirements": {
+      "kind": "capability",
+      "id": "strength"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "acuity-lakefront",
+    "name": "Acuity Lakefront",
+    "requirements": {
+      "kind": "capability",
+      "id": "strength"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-216",
+    "name": "Route 216",
+    "requirements": {
+      "kind": "capability",
+      "id": "strength"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-217",
+    "name": "Route 217",
+    "requirements": {
+      "kind": "capability",
+      "id": "strength"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint",
+    "name": "Snowpoint",
+    "requirements": {
+      "kind": "milestone",
+      "id": "snowpoint"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-16"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "lake-acuity-galactic",
+    "name": "Lake Acuity Galactic",
+    "requirements": {
+      "kind": "milestone",
+      "id": "snowpoint-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "acuity-cavern",
+    "name": "Acuity Cavern",
+    "requirements": {
+      "kind": "milestone",
+      "id": "snowpoint-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone-hq-b2f",
+    "name": "Veilstone Hq B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "warehouse-open"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone-hq-lab",
+    "name": "Veilstone Hq Lab",
+    "requirements": {
+      "kind": "milestone",
+      "id": "galactic-key"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "valor-cavern",
+    "name": "Valor Cavern",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave-library"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "lake-verity-galactic",
+    "name": "Lake Verity Galactic",
+    "requirements": {
+      "kind": "milestone",
+      "id": "valor-cavern-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "verity-cavern",
+    "name": "Verity Cavern",
+    "requirements": {
+      "kind": "milestone",
+      "id": "valor-cavern-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "lake-valor",
+    "name": "Lake Valor",
+    "requirements": {
+      "kind": "milestone",
+      "id": "spear-pillar-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sunyshore",
+    "name": "Sunyshore",
+    "requirements": {
+      "kind": "milestone",
+      "id": "spear-pillar-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-19"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-222",
+    "name": "Route 222",
+    "requirements": {
+      "kind": "milestone",
+      "id": "spear-pillar-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-19"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-223",
+    "name": "Route 223",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sunyshore-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-20"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Pokemon League",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sunyshore-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-20"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fight-area",
+    "name": "Fight Area",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fight-area"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "survival-area",
+    "name": "Survival Area",
+    "requirements": {
+      "kind": "milestone",
+      "id": "survival-area"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-24"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "resort-area",
+    "name": "Resort Area",
+    "requirements": {
+      "kind": "milestone",
+      "id": "resort-area"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-26"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fullmoon-island",
+    "name": "Fullmoon Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fullmoon-island"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "spear-pillar",
+    "name": "Spear Pillar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone-hq"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sinnoh-roaming-routes",
+    "name": "Sinnoh Roaming Routes",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-area-1",
+    "name": "Great Marsh Area 1",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-area-2",
+    "name": "Great Marsh Area 2",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-area-3",
+    "name": "Great Marsh Area 3",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-area-4",
+    "name": "Great Marsh Area 4",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-area-5",
+    "name": "Great Marsh Area 5",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-area-6",
+    "name": "Great Marsh Area 6",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-1f",
+    "name": "Iron Island 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-b1f-room-1",
+    "name": "Iron Island B1F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-b1f-room-2",
+    "name": "Iron Island B1F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-b2f-room-1",
+    "name": "Iron Island B2F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-b2f-room-2",
+    "name": "Iron Island B2F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-b3f",
+    "name": "Iron Island B3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island-exterior",
+    "name": "Iron Island Exterior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-1f",
+    "name": "Old Chateau 1F",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-corridor",
+    "name": "Old Chateau 2F Corridor",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-room-1",
+    "name": "Old Chateau 2F Room 1",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-room-2",
+    "name": "Old Chateau 2F Room 2",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-room-3",
+    "name": "Old Chateau 2F Room 3",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-room-4",
+    "name": "Old Chateau 2F Room 4",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-room-5",
+    "name": "Old Chateau 2F Room 5",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-chateau-2f-side-rooms",
+    "name": "Old Chateau 2F Side Rooms",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-1f",
+    "name": "Route 209 Lost Tower 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-2f",
+    "name": "Route 209 Lost Tower 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-3f",
+    "name": "Route 209 Lost Tower 3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-4f",
+    "name": "Route 209 Lost Tower 4F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-5f",
+    "name": "Route 209 Lost Tower 5F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-temple-1f",
+    "name": "Snowpoint Temple 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b1f",
+    "name": "Snowpoint Temple B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b2f",
+    "name": "Snowpoint Temple B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b3f",
+    "name": "Snowpoint Temple B3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b4f",
+    "name": "Snowpoint Temple B4F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "hall-of-fame"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b5f",
+    "name": "Snowpoint Temple B5F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "hall-of-fame"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-1f-room-1",
+    "name": "Solaceon Ruins 1F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-1f-room-2",
+    "name": "Solaceon Ruins 1F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-2f",
+    "name": "Solaceon Ruins 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone"
+        },
+        {
+          "kind": "capability",
+          "id": "see-26-unown-forms"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b1f-main-room",
+    "name": "Solaceon Ruins B1F Main Room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b1f-room-1",
+    "name": "Solaceon Ruins B1F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b1f-room-2",
+    "name": "Solaceon Ruins B1F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b2f-main-room",
+    "name": "Solaceon Ruins B2F Main Room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b2f-room-1",
+    "name": "Solaceon Ruins B2F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b2f-room-2",
+    "name": "Solaceon Ruins B2F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b3f-main-room-1",
+    "name": "Solaceon Ruins B3F Main Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b3f-main-room-2",
+    "name": "Solaceon Ruins B3F Main Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b3f-room-1",
+    "name": "Solaceon Ruins B3F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b3f-room-2",
+    "name": "Solaceon Ruins B3F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b3f-room-3",
+    "name": "Solaceon Ruins B3F Room 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b4f-main-room",
+    "name": "Solaceon Ruins B4F Main Room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b4f-room-1",
+    "name": "Solaceon Ruins B4F Room 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b4f-room-2",
+    "name": "Solaceon Ruins B4F Room 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon-ruins-b4f-room-3",
+    "name": "Solaceon Ruins B4F Room 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "stark-mountain-exterior",
+    "name": "Stark Mountain Exterior",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "survival-area"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-25"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "stark-mountain-interior-1",
+    "name": "Stark Mountain Interior 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "survival-area"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-25"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "stark-mountain-interior-2",
+    "name": "Stark Mountain Interior 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "survival-area"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-25"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-1",
+    "name": "Turnback Cave Random Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-10",
+    "name": "Turnback Cave Random Room 10",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-11",
+    "name": "Turnback Cave Random Room 11",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-12",
+    "name": "Turnback Cave Random Room 12",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-13",
+    "name": "Turnback Cave Random Room 13",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-15",
+    "name": "Turnback Cave Random Room 15",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-16",
+    "name": "Turnback Cave Random Room 16",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-17",
+    "name": "Turnback Cave Random Room 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-18",
+    "name": "Turnback Cave Random Room 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-2",
+    "name": "Turnback Cave Random Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-3",
+    "name": "Turnback Cave Random Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-4",
+    "name": "Turnback Cave Random Room 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-5",
+    "name": "Turnback Cave Random Room 5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-6",
+    "name": "Turnback Cave Random Room 6",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-7",
+    "name": "Turnback Cave Random Room 7",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-8",
+    "name": "Turnback Cave Random Room 8",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-random-room-9",
+    "name": "Turnback Cave Random Room 9",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-206",
+    "name": "Route 206",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-7"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh-gate-b1f",
+    "name": "Oreburgh Gate B1F",
+    "requirements": {
+      "kind": "capability",
+      "id": "rock-smash"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-forest-exterior",
+    "name": "Eterna Forest Exterior",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "wayward-cave-1f",
+    "name": "Wayward Cave 1F",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-7"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "wayward-cave-b1f",
+    "name": "Wayward Cave B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "cut"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-7"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-north-1f-room-2",
+    "name": "Mt. Coronet North 1F Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-tunnel-room",
+    "name": "Mt. Coronet Tunnel Room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-south-2f",
+    "name": "Mt. Coronet South 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sendoff-spring",
+    "name": "Sendoff Spring",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "turnback-cave-giratina-room",
+    "name": "Turnback Cave Giratina Room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-28"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road-1f",
+    "name": "Victory Road 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-20"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road-2f",
+    "name": "Victory Road 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road-1f"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-20"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road-b1f",
+    "name": "Victory Road B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road-2f"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-20"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "ruin-maniac-cave-stage-1",
+    "name": "Ruin Maniac Cave Stage 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "ruin-maniac-cave-stage-2",
+    "name": "Ruin Maniac Cave Stage 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone"
+        },
+        {
+          "kind": "capability",
+          "id": "see-10-unown-forms"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "ruin-maniac-cave-stage-3",
+    "name": "Ruin Maniac Cave Stage 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone"
+        },
+        {
+          "kind": "capability",
+          "id": "see-26-unown-forms"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-south-3f",
+    "name": "Mt. Coronet South 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-south-mountainside",
+    "name": "Mt. Coronet South Mountainside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-north-mountainside",
+    "name": "Mt. Coronet North Mountainside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-4f-room-1",
+    "name": "Mt. Coronet 4F Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-4f-room-3",
+    "name": "Mt. Coronet 4F Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-5f",
+    "name": "Mt. Coronet 5F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "mount-coronet-6f",
+    "name": "Mt. Coronet 6F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road-1f-back-1",
+    "name": "Victory Road 1F Back 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-30"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road-1f-back-2",
+    "name": "Victory Road 1F Back 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-30"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road-1f-back-3",
+    "name": "Victory Road 1F Back 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-30"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-224",
+    "name": "Route 224",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-30"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-225",
+    "name": "Route 225",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fight-area"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-24"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-226",
+    "name": "Route 226",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "fight-area"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-24"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-227",
+    "name": "Route 227",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "fight-area"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-26"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-228",
+    "name": "Route 228",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fight-area"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-26"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-229",
+    "name": "Route 229",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fight-area"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-26"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "route-230",
+    "name": "Route 230",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fight-area"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-26"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  }
+]

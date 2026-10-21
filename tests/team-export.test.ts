@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { emerald } from '../src/data/dataset';
+import { emerald, initialState } from './local-data';
 import type { AcquisitionPath, AvailabilitySnapshot } from '../src/domain/types';
-import { initialState } from '../src/features/planner/state';
 import { buildTeamExport } from '../src/features/export/export-model';
 import { progressContent } from '../src/features/export/progress-content';
 
@@ -18,6 +17,20 @@ function snapshot(paths: AcquisitionPath[], current: string[], future: string[] 
 }
 
 describe('team PNG content', () => {
+  it('uses the selected game’s image paths for members and evolution stages', () => {
+    const game = structuredClone(emerald);
+    game.profiles.find(profile => profile.pokemonId === 'pikachu')!.spriteSrc = '/pokemon/alternate-pikachu.webp';
+    game.profiles.find(profile => profile.pokemonId === 'raichu')!.spriteSrc = '/pokemon/alternate-raichu.webp';
+    const evolution = game.evolutions.find(rule => rule.fromPokemonId === 'pikachu' && rule.toPokemonId === 'raichu')!;
+    const evolved = path('evolved', 'wild-safari-zone-south-grass-pikachu', [evolution.id]);
+    const result = snapshot([evolved], ['evolved']);
+    const state = { ...initialState, milestoneId: result.query.milestoneId, team: ['raichu', null, null, null, null, null] };
+    const model = buildTeamExport(game, state, true, result);
+    expect(model.slots[0].spriteSrc).toBe('/pokemon/alternate-raichu.webp');
+    expect(model.slots[0].progress!.stages.map(stage => stage.spriteSrc)).toEqual([
+      '/pokemon/alternate-pikachu.webp', '/pokemon/alternate-raichu.webp',
+    ]);
+  });
   it('keeps six slot positions and exact damage multipliers', () => {
     const model = buildTeamExport(emerald, { ...initialState, team: [null, 'swampert', null, null, null, null] }, false, null);
     expect(model.slots).toHaveLength(6);
@@ -70,6 +83,16 @@ describe('team PNG content', () => {
     expect(model.slots[0]).not.toHaveProperty('status');
   });
 
+  it('exports a team conflict when two members need the same finite source', () => {
+    const only = path('only', 'wild-safari-zone-south-grass-pikachu');
+    only.claims = [{ resourceId: 'source:test-gift', quantity: 1, use: 'consume' }];
+    const state = snapshot([only], ['only']);
+    state.resourceLimits['source:test-gift'] = 1;
+    const model = buildTeamExport(emerald, { ...initialState, milestoneId: state.query.milestoneId,
+      team: ['raichu', null, 'raichu', null, null, null] }, true, state);
+    expect(model.notes).toEqual([expect.stringContaining('Team conflict:')]);
+  });
+
   it('explains why a species from another version cannot be obtained', () => {
     const state = snapshot([], []);
     const exclusion = emerald.exclusions.find(exclusion => exclusion.pokemonId === 'surskit')!;
@@ -98,6 +121,9 @@ describe('team PNG content', () => {
       breedingSteps: [{ sourceId: source.id, ruleId: 'test', parents: [{ pokemonId: 'pikachu', gender: 'female', pathId: 'caught' }, { pokemonId: 'pikachu', gender: 'male', pathId: 'caught' }] }] } as AcquisitionPath;
     const state = snapshot([bred, caught], ['bred', 'caught']);
     expect(progressContent(emerald, state, 'raichu').location).toBe('Safari Zone');
+    const model = buildTeamExport(emerald, { ...initialState, milestoneId: state.query.milestoneId,
+      team: ['raichu', null, null, null, null, null] }, true, state);
+    expect(model.slots[0].progress!.location).toBe('Safari Zone');
   });
 
   it('exports all three stages with short level labels and predecessor sprites', () => {
@@ -106,9 +132,9 @@ describe('team PNG content', () => {
     const evolved = path('evolved', source.id, rules);
     const state = snapshot([evolved], ['evolved']);
     expect(progressContent(emerald, state, 'raichu').stages).toEqual([
-      { name: 'Ralts', dex: 280, requirement: null, conditions: [] },
-      { name: 'Kirlia', dex: 281, requirement: 'Lv. 20', conditions: [] },
-      { name: 'Gardevoir', dex: 282, requirement: 'Lv. 30', conditions: [] },
+      { name: 'Ralts', dex: 280, spriteSrc: '/pokemon/280.png', requirement: null, conditions: [] },
+      { name: 'Kirlia', dex: 281, spriteSrc: '/pokemon/281.png', requirement: 'Lv. 20', conditions: [] },
+      { name: 'Gardevoir', dex: 282, spriteSrc: '/pokemon/282.png', requirement: 'Lv. 30', conditions: [] },
     ]);
   });
 

@@ -1,5 +1,5 @@
 import { Plus, X } from 'lucide-react';
-import { pokemonById } from '../../data/dataset';
+import { pokemonIdentity } from '../../data/dataset';
 import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
 import { StatusLabel } from '../../components/StatusLabel';
 import type { AvailabilitySnapshot } from '../../domain/types';
@@ -9,7 +9,7 @@ export function TeamSlots({ team, snapshot, progressPage, activeSlot, onChoose, 
   onChoose: (slot: number) => void; onRemove: (slot: number) => void; onDetails: (id: string) => void;
 }) {
   return <div className="team-slots">{team.map((id, index) => {
-    const name = id ? pokemonById.get(id)!.name : null;
+    const name = id ? pokemonIdentity(id).name : null;
     return <article key={index} className={`team-slot ${id ? 'filled' : 'empty'} ${activeSlot === index ? 'active-slot' : ''}`} aria-label={`Team slot ${index + 1}${name ? ': ' + name : ': empty'}`}>
       <span className="slot-number" aria-hidden="true">{index + 1}</span>
       {id ? <>

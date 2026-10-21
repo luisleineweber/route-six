@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it } from 'vitest';
-import { dataset, emerald } from '../src/data/dataset';
+import { dataset, emerald } from './local-data';
 import { getAvailability } from '../src/domain/availability';
 import { checkTeam } from '../src/domain/team/check-team';
 import { firstAccessOptions } from '../src/components/acquisition-presentation';
@@ -23,7 +23,7 @@ describe('Complete Emerald integration',()=>{
     }
   });
   it('covers the National Dex, all 34 routes and every League opponent',()=>{
-    expect(dataset.pokemon.map(p=>p.nationalDex)).toEqual(Array.from({length:386},(_,i)=>i+1));expect(Object.keys(early.entries)).toHaveLength(386);
+    expect(dataset.pokemon.filter(p=>p.introducedGeneration<=emerald.game.generation).map(p=>p.nationalDex)).toEqual(Array.from({length:386},(_,i)=>i+1));expect(Object.keys(early.entries)).toHaveLength(386);
     for(let n=101;n<=134;n++)expect(emerald.milestones.some(m=>m.locationId===`route-${n}`&&m.kind==='route')).toBe(true);expect(emerald.bosses).toHaveLength(13);
   });
   it('has correct early sources and locked evolutions',()=>{

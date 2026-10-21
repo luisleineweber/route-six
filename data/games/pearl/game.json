@@ -1,0 +1,217 @@
+{
+  "id": "pearl",
+  "name": "Pokémon Pearl",
+  "generation": 4,
+  "region": "Sinnoh",
+  "firstMilestoneId": "twinleaf",
+  "planner": {
+    "defaultMilestoneId": "starter",
+    "checkpoints": [
+      {
+        "milestoneId": "starter",
+        "label": "Starter choice: Choose one Sinnoh starter.",
+        "title": "Starter choice",
+        "detail": "Choose one Sinnoh starter.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "oreburgh-gym",
+        "label": "Gym 1: Roark: Rock",
+        "title": "Gym 1",
+        "detail": "Roark: Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "windworks-clear",
+        "label": "Valley Windworks: Defeat Mars.",
+        "title": "Valley Windworks",
+        "detail": "Defeat Mars.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "eterna-city",
+        "label": "Eterna City: Before Gardenia.",
+        "title": "Eterna City",
+        "detail": "Before Gardenia.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "eterna-gym",
+        "label": "Gym 2: Gardenia: Grass",
+        "title": "Gym 2",
+        "detail": "Gardenia: Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "eterna-galactic-clear",
+        "label": "Eterna rescue: Rescue the bicycle seller.",
+        "title": "Eterna rescue",
+        "detail": "Rescue the bicycle seller.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "solaceon",
+        "label": "Solaceon Town: Day Care and Lost Tower are open.",
+        "title": "Solaceon Town",
+        "detail": "Day Care and Lost Tower are open.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "early-pastoria",
+        "label": "Early Pastoria visit: Visit before Maylene or Wake.",
+        "title": "Early Pastoria visit",
+        "detail": "Visit before Maylene or Wake.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "veilstone-gym",
+        "label": "Gym 3: Maylene: Fighting",
+        "title": "Gym 3",
+        "detail": "Maylene: Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "pastoria-gym",
+        "label": "Gym 4: Crasher Wake: Water",
+        "title": "Gym 4",
+        "detail": "Crasher Wake: Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "celestic-surf",
+        "label": "Celestic Town: Receive Surf. Its field badge is still required.",
+        "title": "Celestic Town",
+        "detail": "Receive Surf. Its field badge is still required.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "hearthome-gym",
+        "label": "Gym 5: Fantina: Ghost",
+        "title": "Gym 5",
+        "detail": "Fantina: Ghost",
+        "typeId": "ghost"
+      },
+      {
+        "milestoneId": "canalave",
+        "label": "Canalave City: Before Byron.",
+        "title": "Canalave City",
+        "detail": "Before Byron.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "iron-island",
+        "label": "Iron Island: Complete Riley's visit.",
+        "title": "Iron Island",
+        "detail": "Complete Riley's visit.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "canalave-gym",
+        "label": "Gym 6: Byron: Steel",
+        "title": "Gym 6",
+        "detail": "Byron: Steel",
+        "typeId": "steel"
+      },
+      {
+        "milestoneId": "snowpoint-gym",
+        "label": "Gym 7: Candice: Ice",
+        "title": "Gym 7",
+        "detail": "Candice: Ice",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "veilstone-hq",
+        "label": "Galactic HQ: Free the lake guardians.",
+        "title": "Galactic HQ",
+        "detail": "Free the lake guardians.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "spear-pillar-clear",
+        "label": "Spear Pillar: Finish the legendary encounter.",
+        "title": "Spear Pillar",
+        "detail": "Finish the legendary encounter.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "sunyshore-gym",
+        "label": "Gym 8: Volkner: Electric",
+        "title": "Gym 8",
+        "detail": "Volkner: Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "league-aaron",
+        "label": "Elite Four: Aaron: Bertha is next.",
+        "title": "Elite Four: Aaron",
+        "detail": "Bertha is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-bertha",
+        "label": "Elite Four: Bertha: Flint is next.",
+        "title": "Elite Four: Bertha",
+        "detail": "Flint is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-flint",
+        "label": "Elite Four: Flint: Lucian is next.",
+        "title": "Elite Four: Flint",
+        "detail": "Lucian is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "league-lucian",
+        "label": "Elite Four: Lucian: Cynthia is next.",
+        "title": "Elite Four: Lucian",
+        "detail": "Cynthia is next.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "national-dex-before-hall",
+        "label": "Early National Pokedex: See the last entries in the Champion battle, leave, and visit Rowan.",
+        "title": "Early National Pokedex",
+        "detail": "See the last entries in the Champion battle, leave, and visit Rowan.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "hall-of-fame",
+        "label": "Hall of Fame: Defeat Cynthia.",
+        "title": "Hall of Fame",
+        "detail": "Defeat Cynthia.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "national-dex",
+        "label": "National Pokedex: Show Rowan 150 seen Sinnoh entries.",
+        "title": "National Pokedex",
+        "detail": "Show Rowan 150 seen Sinnoh entries.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "survival-area",
+        "label": "Survival Area: The northern routes are open.",
+        "title": "Survival Area",
+        "detail": "The northern routes are open.",
+        "typeId": null
+      },
+      {
+        "milestoneId": "stark-stone-returned",
+        "label": "Stark Mountain: Buck has returned the Magma Stone.",
+        "title": "Stark Mountain",
+        "detail": "Buck has returned the Magma Stone.",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "pearl-native-progress"
+    ],
+    "checkedOn": "2026-10-19"
+  }
+}

@@ -27,18 +27,19 @@ describe('Crystal encounter source review', () => {
   it('matches the reviewed map, method, table, level, and rate inventory', () => {
     const profileById = new Map(profiles.map(profile => [profile.pokemonId, profile]));
     const locationIds = new Set(locations.map(location => location.id));
-    expect(sources).toHaveLength(2719);
+    expect(sources).toHaveLength(2720);
     expect(new Set(sources.map(source => source.id)).size).toBe(sources.length);
     expect(sources.every(source => source.genders.every(gender =>
         profileById.get(source.pokemonId)?.genders.includes(gender))
       && locationIds.has(source.locationId)
       && source.review.referenceIds.length > 0
-      && source.review.checkedOn === '2026-10-12')).toBe(true);
+      && source.review.checkedOn === (['breed-nidorino', 'breed-nidoran-m-from-nidoran-f'].includes(source.id)
+        ? '2026-10-21' : '2026-10-12'))).toBe(true);
     expect(sources.reduce<Record<string, number>>((counts, source) => {
       counts[source.details.kind] = (counts[source.details.kind] ?? 0) + 1;
       return counts;
     }, {})).toEqual({ wild: 2560, roaming: 2, static: 11, gift: 10, egg: 8,
-      'game-trade': 7, starter: 3, breeding: 118 });
+      'game-trade': 7, starter: 3, breeding: 119 });
     expect(sources.filter(source => source.details.kind === 'wild').reduce<Record<string, number>>((counts, source) => {
       const method = source.details.method!;
       counts[method] = (counts[method] ?? 0) + 1;

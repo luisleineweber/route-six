@@ -1,0 +1,4561 @@
+[
+  {
+    "id": "hm01",
+    "name": "HM01 Cut",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm01",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "milestone",
+          "id": "eterna-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm02",
+    "name": "HM02 Fly",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-10"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm02",
+        "locationId": "veilstone-warehouse",
+        "requirements": {
+          "kind": "milestone",
+          "id": "veilstone-warehouse-fly"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-10"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm03",
+    "name": "HM03 Surf",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm03",
+        "locationId": "celestic-ruins",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celestic-surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-13"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm04",
+    "name": "HM04 Strength",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm04",
+        "locationId": "route-209-lost-tower-5f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "hearthome-contest"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-8"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm05",
+    "name": "HM05 Defog",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm05",
+        "locationId": "great-marsh-area-6",
+        "requirements": {
+          "kind": "capability",
+          "id": "pastoria-access"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-12"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm06",
+    "name": "HM06 Rock Smash",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm06",
+        "locationId": "oreburgh-gate-1f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "oreburgh-gate"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-3"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm07",
+    "name": "HM07 Waterfall",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-19"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm07",
+        "locationId": "sunyshore",
+        "requirements": {
+          "kind": "milestone",
+          "id": "sunyshore-gym"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-19"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hm08",
+    "name": "HM08 Rock Climb",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-16"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-hm08",
+        "locationId": "route-217",
+        "requirements": {
+          "kind": "milestone",
+          "id": "snowpoint"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-16"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "works-key",
+    "name": "Works Key",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-works-key",
+        "locationId": "floaroma-meadow",
+        "requirements": {
+          "kind": "milestone",
+          "id": "windworks-key"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-5"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "secret-potion",
+    "name": "SecretPotion",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-secret-potion",
+        "locationId": "valor-lakefront",
+        "requirements": {
+          "kind": "milestone",
+          "id": "secret-potion"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-12"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "old-charm",
+    "name": "Old Charm",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-old-charm",
+        "locationId": "route-210-south",
+        "requirements": {
+          "kind": "milestone",
+          "id": "psyduck-clear"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-13"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "storage-key",
+    "name": "Storage Key",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-storage-key",
+        "locationId": "veilstone",
+        "requirements": {
+          "kind": "milestone",
+          "id": "storage-key"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-17"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "galactic-key",
+    "name": "Galactic Key",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    },
+    "sources": [
+      {
+        "id": "diamond-grant-galactic-key",
+        "locationId": "veilstone-hq-b2f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "galactic-key"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-17"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "diamond-fire-stone-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "diamond-water-stone-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "diamond-leaf-stone-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "thunderstone",
+    "name": "Thunderstone",
+    "sources": [
+      {
+        "id": "diamond-thunderstone-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "diamond-moon-stone-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m10-mount-coronet-south-1f-grass-2-morning",
+        "locationId": "mount-coronet-south-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m10-mount-coronet-south-1f-grass-2-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m10-mount-coronet-south-1f-grass-9-day",
+        "locationId": "mount-coronet-south-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m10-mount-coronet-south-1f-grass-9-day",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m11-mount-coronet-south-2f-grass-3-morning",
+        "locationId": "mount-coronet-south-2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m11-mount-coronet-south-2f-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m12-mount-coronet-south-3f-grass-3-morning",
+        "locationId": "mount-coronet-south-3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m12-mount-coronet-south-3f-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m13-mount-coronet-north-mountainside-grass-9-morning",
+        "locationId": "mount-coronet-north-mountainside",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m13-mount-coronet-north-mountainside-grass-9-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m14-mount-coronet-south-mountainside-grass-9-morning",
+        "locationId": "mount-coronet-south-mountainside",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m14-mount-coronet-south-mountainside-grass-9-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m15-mount-coronet-4f-room-1-grass-3-morning",
+        "locationId": "mount-coronet-4f-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m15-mount-coronet-4f-room-1-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m16-mount-coronet-4f-room-3-grass-3-morning",
+        "locationId": "mount-coronet-4f-room-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m16-mount-coronet-4f-room-3-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m17-mount-coronet-5f-grass-3-morning",
+        "locationId": "mount-coronet-5f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m17-mount-coronet-5f-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m18-mount-coronet-6f-grass-3-morning",
+        "locationId": "mount-coronet-6f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m18-mount-coronet-6f-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m19-mount-coronet-tunnel-room-grass-3-morning",
+        "locationId": "mount-coronet-tunnel-room",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m19-mount-coronet-tunnel-room-grass-3-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m20-mount-coronet-north-1f-room-2-grass-2-morning",
+        "locationId": "mount-coronet-north-1f-room-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m20-mount-coronet-north-1f-room-2-grass-2-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m21-mount-coronet-north-1f-room-1-grass-2-morning",
+        "locationId": "mount-coronet-north-1f-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m21-mount-coronet-north-1f-room-1-grass-2-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m21-mount-coronet-north-1f-room-1-grass-9-day",
+        "locationId": "mount-coronet-north-1f-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m21-mount-coronet-north-1f-room-1-grass-9-day",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-native-m22-mount-coronet-b1f-grass-2-morning",
+        "locationId": "mount-coronet-b1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m22-mount-coronet-b1f-grass-2-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-trophy-garden-rotation-4-slot-6",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-4-slot-6",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-trophy-garden-rotation-4-slot-7",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-4-slot-7",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-trophy-garden-rotation-5-slot-6",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-5-slot-6",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-moon-stone-held-diamond-trophy-garden-rotation-5-slot-7",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-5-slot-7",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "diamond-sun-stone-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "heart-scale",
+    "name": "Heart Scale",
+    "sources": [
+      {
+        "id": "diamond-heart-scale-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-heart-scale-held-diamond-native-m4-pokemon-league-super-rod-2",
+        "locationId": "pokemon-league",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m4-pokemon-league-super-rod-2",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "diamond-heart-scale-held-diamond-native-m171-route-224-super-rod-2",
+        "locationId": "route-224",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m171-route-224-super-rod-2",
+          "ratePercent": 50
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "skull-fossil",
+    "name": "Skull Fossil",
+    "sources": [
+      {
+        "id": "diamond-skull-fossil-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "capability",
+          "id": "underground"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-6",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "diamond-helix-fossil-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "underground"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "diamond-dome-fossil-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "underground"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "diamond-old-amber-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "underground"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "root-fossil",
+    "name": "Root Fossil",
+    "sources": [
+      {
+        "id": "diamond-root-fossil-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "underground"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "claw-fossil",
+    "name": "Claw Fossil",
+    "sources": [
+      {
+        "id": "diamond-claw-fossil-underground",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "underground"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Pok? Ball",
+    "sources": [
+      {
+        "id": "diamond-poke-ball-shop",
+        "locationId": "sandgem",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-2",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "sources": [
+      {
+        "id": "diamond-honey-meadow-shop",
+        "locationId": "floaroma-meadow",
+        "requirements": {
+          "kind": "milestone",
+          "id": "windworks-key"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-5",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "poffin-case",
+    "name": "Poffin Case",
+    "sources": [
+      {
+        "id": "diamond-poffin-case-fan-club-gift",
+        "locationId": "hearthome",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-8",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pamtre-berry",
+    "name": "Pamtre Berry",
+    "sources": [
+      {
+        "id": "diamond-pamtre-berry-amity-square",
+        "locationId": "hearthome",
+        "requirements": {
+          "kind": "any",
+          "requirements": [
+            {
+              "kind": "pokemon",
+              "id": "pikachu",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "clefairy",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "jigglypuff",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "psyduck",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "torchic",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "shroomish",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "skitty",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "pachirisu",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "drifloon",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "buneary",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "happiny",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-8",
+            "dp-item-locations",
+            "dp-amity-square"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "odd-incense",
+    "name": "Odd Incense",
+    "sources": [
+      {
+        "id": "diamond-odd-incense-ruins",
+        "locationId": "solaceon-ruins-b4f-main-room",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-9",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oval-stone",
+    "name": "Oval Stone",
+    "sources": [
+      {
+        "id": "diamond-oval-stone-lost-tower",
+        "locationId": "route-209-lost-tower-2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-8",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-oval-stone-held-diamond-native-m150-route-209-grass-8-morning",
+        "locationId": "route-209",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m150-route-209-grass-8-morning",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "diamond-oval-stone-held-diamond-native-m156-route-210-south-grass-8-morning",
+        "locationId": "route-210-south",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m156-route-210-south-grass-8-morning",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "diamond-oval-stone-held-diamond-trophy-garden-rotation-2-slot-6",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-2-slot-6",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "diamond-oval-stone-held-diamond-trophy-garden-rotation-2-slot-7",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-2-slot-7",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "diamond-oval-stone-held-diamond-trophy-garden-rotation-14-slot-6",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-14-slot-6",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "diamond-oval-stone-held-diamond-trophy-garden-rotation-14-slot-7",
+        "locationId": "trophy-garden",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-trophy-garden-rotation-14-slot-7",
+          "ratePercent": 50
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "diamond-sea-incense-route-204",
+        "locationId": "route-204-south",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-13",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "luck-incense",
+    "name": "Luck Incense",
+    "sources": [
+      {
+        "id": "diamond-luck-incense-ravaged-path",
+        "locationId": "ravaged-path",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-13",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "rose-incense",
+    "name": "Rose Incense",
+    "sources": [
+      {
+        "id": "diamond-rose-incense-route-212",
+        "locationId": "route-212-north",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-13",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "rock-incense",
+    "name": "Rock Incense",
+    "sources": [
+      {
+        "id": "diamond-rock-incense-ironworks",
+        "locationId": "fuego-ironworks-interior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-29",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "full-incense",
+    "name": "Full Incense",
+    "sources": [
+      {
+        "id": "diamond-full-incense-veilstone-cliff",
+        "locationId": "veilstone",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-17",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "wave-incense",
+    "name": "Wave Incense",
+    "sources": [
+      {
+        "id": "diamond-wave-incense-route-210-waterfall",
+        "locationId": "route-210-north",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "surf"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-19",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pure-incense",
+    "name": "Pure Incense",
+    "sources": [
+      {
+        "id": "diamond-pure-incense-route-221",
+        "locationId": "route-221",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "diamond-lax-incense-route-225-cut",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "capability",
+          "id": "cut"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-24",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "sources": [
+      {
+        "id": "diamond-dawn-stone-coronet-south-pool",
+        "locationId": "mount-coronet-south-1f",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-18",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-dawn-stone-route-225-cliff",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-24",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-dawn-stone-pickup-7",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 51,
+          "maximumLevel": 60,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "diamond-dawn-stone-pickup-10",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 61,
+          "maximumLevel": 70,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "diamond-dawn-stone-pickup-13",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 71,
+          "maximumLevel": 80,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-dawn-stone-pickup-16",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 81,
+          "maximumLevel": 90,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-dawn-stone-pickup-19",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 91,
+          "maximumLevel": 100,
+          "ratePercent": 1.0
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "sources": [
+      {
+        "id": "diamond-dusk-stone-warehouse-door",
+        "locationId": "veilstone-warehouse",
+        "requirements": {
+          "kind": "milestone",
+          "id": "warehouse-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-17",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-2",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 31,
+          "maximumLevel": 40,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-3",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 41,
+          "maximumLevel": 50,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-5",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 51,
+          "maximumLevel": 60,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-8",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 61,
+          "maximumLevel": 70,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-11",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 71,
+          "maximumLevel": 80,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-14",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 81,
+          "maximumLevel": 90,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-dusk-stone-pickup-17",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 91,
+          "maximumLevel": 100,
+          "ratePercent": 1.0
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "sources": [
+      {
+        "id": "diamond-shiny-stone-iron-island",
+        "locationId": "iron-island-b3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-14",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-route-228",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "capability",
+          "id": "bicycle"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-26",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-pickup-4",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 41,
+          "maximumLevel": 50,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-pickup-6",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 51,
+          "maximumLevel": 60,
+          "ratePercent": 0.4
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-pickup-9",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 61,
+          "maximumLevel": 70,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-pickup-12",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 71,
+          "maximumLevel": 80,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-pickup-15",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 81,
+          "maximumLevel": 90,
+          "ratePercent": 1.0
+        }
+      },
+      {
+        "id": "diamond-shiny-stone-pickup-18",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 91,
+          "maximumLevel": 100,
+          "ratePercent": 1.0
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "sources": [
+      {
+        "id": "diamond-razor-claw-victory-road",
+        "locationId": "victory-road-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "strength"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-climb"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-20",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "razor-fang",
+    "name": "Razor Fang",
+    "sources": [
+      {
+        "id": "diamond-razor-fang-battle-park-ground",
+        "locationId": "fight-area",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-23",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "upgrade",
+    "name": "Upgrade",
+    "sources": [
+      {
+        "id": "diamond-upgrade-oak-gift",
+        "locationId": "eterna",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            },
+            {
+              "kind": "capability",
+              "id": "surf"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-22",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "dubious-disc",
+    "name": "Dubious Disc",
+    "sources": [
+      {
+        "id": "diamond-dubious-disc-route-225-pond",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-24",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "sources": [
+      {
+        "id": "diamond-protector-route-228",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-26",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "diamond-metal-coat-byron-house",
+        "locationId": "iron-island-exterior",
+        "requirements": {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-14",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m9-fuego-ironworks-exterior-swarm-0",
+        "locationId": "fuego-ironworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m9-fuego-ironworks-exterior-swarm-0",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m11-mount-coronet-south-2f-grass-0-morning",
+        "locationId": "mount-coronet-south-2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m11-mount-coronet-south-2f-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m11-mount-coronet-south-2f-grass-8-morning",
+        "locationId": "mount-coronet-south-2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m11-mount-coronet-south-2f-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m12-mount-coronet-south-3f-grass-0-morning",
+        "locationId": "mount-coronet-south-3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m12-mount-coronet-south-3f-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m12-mount-coronet-south-3f-grass-8-morning",
+        "locationId": "mount-coronet-south-3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m12-mount-coronet-south-3f-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m13-mount-coronet-north-mountainside-grass-8-morning",
+        "locationId": "mount-coronet-north-mountainside",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m13-mount-coronet-north-mountainside-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m14-mount-coronet-south-mountainside-grass-8-morning",
+        "locationId": "mount-coronet-south-mountainside",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m14-mount-coronet-south-mountainside-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m15-mount-coronet-4f-room-1-grass-0-morning",
+        "locationId": "mount-coronet-4f-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m15-mount-coronet-4f-room-1-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m16-mount-coronet-4f-room-3-grass-0-morning",
+        "locationId": "mount-coronet-4f-room-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m16-mount-coronet-4f-room-3-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m17-mount-coronet-5f-grass-0-morning",
+        "locationId": "mount-coronet-5f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m17-mount-coronet-5f-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m18-mount-coronet-6f-grass-0-morning",
+        "locationId": "mount-coronet-6f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m18-mount-coronet-6f-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m19-mount-coronet-tunnel-room-grass-8-morning",
+        "locationId": "mount-coronet-tunnel-room",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m19-mount-coronet-tunnel-room-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m47-victory-road-1f-grass-5-morning",
+        "locationId": "victory-road-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m47-victory-road-1f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m48-victory-road-2f-grass-5-morning",
+        "locationId": "victory-road-2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m48-victory-road-2f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m49-victory-road-b1f-grass-5-morning",
+        "locationId": "victory-road-b1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m49-victory-road-b1f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m50-victory-road-1f-back-2-grass-5-morning",
+        "locationId": "victory-road-1f-back-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m50-victory-road-1f-back-2-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m51-victory-road-1f-back-1-grass-5-morning",
+        "locationId": "victory-road-1f-back-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m51-victory-road-1f-back-1-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m52-victory-road-1f-back-3-grass-5-morning",
+        "locationId": "victory-road-1f-back-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m52-victory-road-1f-back-3-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m63-turnback-cave-random-room-3-grass-1-morning",
+        "locationId": "turnback-cave-random-room-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m63-turnback-cave-random-room-3-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m63-turnback-cave-random-room-3-grass-8-morning",
+        "locationId": "turnback-cave-random-room-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m63-turnback-cave-random-room-3-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m64-turnback-cave-random-room-6-grass-1-morning",
+        "locationId": "turnback-cave-random-room-6",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m64-turnback-cave-random-room-6-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m64-turnback-cave-random-room-6-grass-8-morning",
+        "locationId": "turnback-cave-random-room-6",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m64-turnback-cave-random-room-6-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m65-turnback-cave-random-room-5-grass-1-morning",
+        "locationId": "turnback-cave-random-room-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m65-turnback-cave-random-room-5-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m65-turnback-cave-random-room-5-grass-8-morning",
+        "locationId": "turnback-cave-random-room-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m65-turnback-cave-random-room-5-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m66-turnback-cave-random-room-4-grass-1-morning",
+        "locationId": "turnback-cave-random-room-4",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m66-turnback-cave-random-room-4-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m66-turnback-cave-random-room-4-grass-8-morning",
+        "locationId": "turnback-cave-random-room-4",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m66-turnback-cave-random-room-4-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m67-turnback-cave-random-room-2-grass-1-morning",
+        "locationId": "turnback-cave-random-room-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m67-turnback-cave-random-room-2-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m67-turnback-cave-random-room-2-grass-8-morning",
+        "locationId": "turnback-cave-random-room-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m67-turnback-cave-random-room-2-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m68-turnback-cave-random-room-1-grass-1-morning",
+        "locationId": "turnback-cave-random-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m68-turnback-cave-random-room-1-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m68-turnback-cave-random-room-1-grass-8-morning",
+        "locationId": "turnback-cave-random-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m68-turnback-cave-random-room-1-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m69-turnback-cave-random-room-12-grass-1-morning",
+        "locationId": "turnback-cave-random-room-12",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m69-turnback-cave-random-room-12-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m69-turnback-cave-random-room-12-grass-8-morning",
+        "locationId": "turnback-cave-random-room-12",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m69-turnback-cave-random-room-12-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m70-turnback-cave-random-room-9-grass-1-morning",
+        "locationId": "turnback-cave-random-room-9",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m70-turnback-cave-random-room-9-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m70-turnback-cave-random-room-9-grass-8-morning",
+        "locationId": "turnback-cave-random-room-9",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m70-turnback-cave-random-room-9-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m71-turnback-cave-random-room-10-grass-1-morning",
+        "locationId": "turnback-cave-random-room-10",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m71-turnback-cave-random-room-10-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m71-turnback-cave-random-room-10-grass-8-morning",
+        "locationId": "turnback-cave-random-room-10",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m71-turnback-cave-random-room-10-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m72-turnback-cave-random-room-11-grass-1-morning",
+        "locationId": "turnback-cave-random-room-11",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m72-turnback-cave-random-room-11-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m72-turnback-cave-random-room-11-grass-8-morning",
+        "locationId": "turnback-cave-random-room-11",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m72-turnback-cave-random-room-11-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m73-turnback-cave-random-room-7-grass-1-morning",
+        "locationId": "turnback-cave-random-room-7",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m73-turnback-cave-random-room-7-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m73-turnback-cave-random-room-7-grass-8-morning",
+        "locationId": "turnback-cave-random-room-7",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m73-turnback-cave-random-room-7-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m74-turnback-cave-random-room-8-grass-1-morning",
+        "locationId": "turnback-cave-random-room-8",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m74-turnback-cave-random-room-8-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m74-turnback-cave-random-room-8-grass-8-morning",
+        "locationId": "turnback-cave-random-room-8",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m74-turnback-cave-random-room-8-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m75-turnback-cave-random-room-18-grass-1-morning",
+        "locationId": "turnback-cave-random-room-18",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m75-turnback-cave-random-room-18-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m75-turnback-cave-random-room-18-grass-8-morning",
+        "locationId": "turnback-cave-random-room-18",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m75-turnback-cave-random-room-18-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m76-turnback-cave-random-room-15-grass-1-morning",
+        "locationId": "turnback-cave-random-room-15",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m76-turnback-cave-random-room-15-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m76-turnback-cave-random-room-15-grass-8-morning",
+        "locationId": "turnback-cave-random-room-15",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m76-turnback-cave-random-room-15-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m77-turnback-cave-random-room-16-grass-1-morning",
+        "locationId": "turnback-cave-random-room-16",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m77-turnback-cave-random-room-16-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m77-turnback-cave-random-room-16-grass-8-morning",
+        "locationId": "turnback-cave-random-room-16",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m77-turnback-cave-random-room-16-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m78-turnback-cave-random-room-13-grass-1-morning",
+        "locationId": "turnback-cave-random-room-13",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m78-turnback-cave-random-room-13-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m78-turnback-cave-random-room-13-grass-8-morning",
+        "locationId": "turnback-cave-random-room-13",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m78-turnback-cave-random-room-13-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m79-turnback-cave-random-room-17-grass-1-morning",
+        "locationId": "turnback-cave-random-room-17",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m79-turnback-cave-random-room-17-grass-1-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m79-turnback-cave-random-room-17-grass-8-morning",
+        "locationId": "turnback-cave-random-room-17",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m79-turnback-cave-random-room-17-grass-8-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m106-snowpoint-temple-1f-grass-7-morning",
+        "locationId": "snowpoint-temple-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m106-snowpoint-temple-1f-grass-7-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m107-snowpoint-temple-b1f-grass-5-morning",
+        "locationId": "snowpoint-temple-b1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m107-snowpoint-temple-b1f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m108-snowpoint-temple-b2f-grass-5-morning",
+        "locationId": "snowpoint-temple-b2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m108-snowpoint-temple-b2f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m109-snowpoint-temple-b3f-grass-5-morning",
+        "locationId": "snowpoint-temple-b3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m109-snowpoint-temple-b3f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m110-snowpoint-temple-b4f-grass-5-morning",
+        "locationId": "snowpoint-temple-b4f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m110-snowpoint-temple-b4f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m111-snowpoint-temple-b5f-grass-5-morning",
+        "locationId": "snowpoint-temple-b5f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m111-snowpoint-temple-b5f-grass-5-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m112-wayward-cave-1f-grass-0-morning",
+        "locationId": "wayward-cave-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m112-wayward-cave-1f-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m113-wayward-cave-b1f-grass-0-morning",
+        "locationId": "wayward-cave-b1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m113-wayward-cave-b1f-grass-0-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m123-iron-island-b2f-room-2-grass-6-morning",
+        "locationId": "iron-island-b2f-room-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m123-iron-island-b2f-room-2-grass-6-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m124-iron-island-b3f-grass-6-morning",
+        "locationId": "iron-island-b3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m124-iron-island-b3f-grass-6-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m147-route-206-grass-6-morning",
+        "locationId": "route-206",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m147-route-206-grass-6-morning",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-metal-coat-held-diamond-native-m174-route-228-swarm-0",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m174-route-228-swarm-0",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "reaper-cloth",
+    "name": "Reaper Cloth",
+    "sources": [
+      {
+        "id": "diamond-reaper-cloth-turnback-three-rooms",
+        "locationId": "turnback-cave-giratina-room",
+        "requirements": {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-pearl-walkthrough-28",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "diamond-dragon-scale-held-diamond-native-m15-mount-coronet-4f-room-1-super-rod-1",
+        "locationId": "mount-coronet-4f-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m15-mount-coronet-4f-room-1-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-dragon-scale-held-diamond-native-m15-mount-coronet-4f-room-1-super-rod-3",
+        "locationId": "mount-coronet-4f-room-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m15-mount-coronet-4f-room-1-super-rod-3",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-dragon-scale-held-diamond-native-m181-route-226-good-rod-1",
+        "locationId": "route-226",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m181-route-226-good-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-dragon-scale-held-diamond-native-m181-route-226-super-rod-1",
+        "locationId": "route-226",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m181-route-226-super-rod-1",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m23-great-marsh-area-1-super-rod-1",
+        "locationId": "great-marsh-area-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m23-great-marsh-area-1-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m24-great-marsh-area-2-super-rod-1",
+        "locationId": "great-marsh-area-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m24-great-marsh-area-2-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m25-great-marsh-area-3-super-rod-1",
+        "locationId": "great-marsh-area-3",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m25-great-marsh-area-3-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m26-great-marsh-area-4-super-rod-1",
+        "locationId": "great-marsh-area-4",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m26-great-marsh-area-4-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m28-great-marsh-area-6-super-rod-1",
+        "locationId": "great-marsh-area-6",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m28-great-marsh-area-6-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m162-route-213-super-rod-2",
+        "locationId": "route-213",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m162-route-213-super-rod-2",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-tooth-held-diamond-native-m170-route-222-super-rod-2",
+        "locationId": "route-222",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m170-route-222-super-rod-2",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "diamond-kings-rock-held-diamond-native-m172-route-225-surf-1",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m172-route-225-surf-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-kings-rock-held-diamond-native-m172-route-225-super-rod-1",
+        "locationId": "route-225",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m172-route-225-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-kings-rock-held-diamond-native-m173-route-227-surf-0",
+        "locationId": "route-227",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m173-route-227-surf-0",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-kings-rock-held-diamond-native-m174-route-228-surf-0",
+        "locationId": "route-228",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m174-route-228-surf-0",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-kings-rock-pickup-0",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 11,
+          "maximumLevel": 20,
+          "ratePercent": 0.1
+        }
+      },
+      {
+        "id": "diamond-kings-rock-pickup-1",
+        "locationId": "valley-windworks-exterior",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "pickup",
+          "pokemonSourceId": "diamond-native-m7-valley-windworks-exterior-grass-1-morning",
+          "minimumLevel": 21,
+          "maximumLevel": 30,
+          "ratePercent": 0.1
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "diamond-deep-sea-scale-held-diamond-native-m179-route-220-super-rod-1",
+        "locationId": "route-220",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m179-route-220-super-rod-1",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-scale-held-diamond-native-m179-route-220-super-rod-3",
+        "locationId": "route-220",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m179-route-220-super-rod-3",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "diamond-deep-sea-scale-held-diamond-native-m181-route-226-super-rod-2",
+        "locationId": "route-226",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "diamond-native-progress",
+            "dp-item-locations"
+          ],
+          "checkedOn": "2026-10-19"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "diamond-native-m181-route-226-super-rod-2",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "soulsilver",
+  "name": "Pokémon SoulSilver",
+  "generation": 4,
+  "region": "Johto",
+  "firstMilestoneId": null,
+  "planner": null,
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "soulsilver-pret-2026-10-13",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-10-14"
+  }
+}
