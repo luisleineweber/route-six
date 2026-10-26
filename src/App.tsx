@@ -6,6 +6,7 @@ import { gameCatalogue } from './data/game-catalogue';
 import { gameLoadMessage, loadGame } from './data/game-loader';
 import type { GameData } from './domain/types';
 import { GameSelector } from './components/GameSelector';
+import { AppFooter } from './components/AppFooter';
 import { GameContext } from './features/planner/GameContext';
 import { PlannerSettings } from './features/planner/PlannerSettings';
 import { createInitialState, plannerReducer } from './features/planner/state';
@@ -109,7 +110,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
         </>}
       </main>
     </div>
-    <footer className="app-footer"><p>{game.profiles.length} species · Local game data · <a href="/docs/mvp-plan.html" target="_blank" rel="noreferrer">MVP specification</a></p></footer>
+    <AppFooter />
     <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
     <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={progressPage} onClose={()=>setDetails(null)} onAdd={add} canAdd={activeSlot!==null || state.team.includes(null)} />
     {progressPage && loading && <span className="sr-only" aria-live="polite">The guide is checking the selected progress and level setting.</span>}
