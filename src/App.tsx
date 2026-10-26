@@ -1,7 +1,6 @@
 import { useEffect, useReducer, useRef, useState } from 'react';
 import { Compass, Map, Users } from 'lucide-react';
 import { pokemonIdentity } from './data/dataset';
-import { pokemonSelections, selectionId } from './domain/pokemon-selection';
 import { gameCatalogue } from './data/game-catalogue';
 import { gameLoadMessage, loadGame } from './data/game-loader';
 import type { GameData } from './domain/types';
@@ -59,7 +58,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     }
     const next = result.value;
     setGame(next);
-    dispatch({type:'game',gameId:id,milestoneId:next.game.planner?.defaultMilestoneId ?? null,pokemonIds:pokemonSelections(next).map(profile=>selectionId(profile.pokemonId,profile.formId))});
+    dispatch({type:'game',gameId:id,milestoneId:next.game.planner?.defaultMilestoneId ?? null});
     setActiveSlot(null); setDetails(null);
   };
   const choose = (slot:number) => {

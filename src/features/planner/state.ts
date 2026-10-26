@@ -13,7 +13,7 @@ export function createInitialState(game: GameData): PlannerState {
 }
 
 export type PlannerAction =
-  | { type: 'game'; gameId: string; milestoneId: string | null; pokemonIds: string[] }
+  | { type: 'game'; gameId: string; milestoneId: string | null }
   | { type: 'settings'; values: Partial<Omit<PlannerState, 'team'>> }
   | { type: 'add'; pokemonId: string; slot: number | null }
   | { type: 'remove'; slot: number };
@@ -21,9 +21,8 @@ export type PlannerAction =
 export function plannerReducer(state: PlannerState, action: PlannerAction): PlannerState {
   if (action.type === 'game') {
     if (action.gameId === state.gameId) return state;
-    const pokemonIds = new Set(action.pokemonIds);
     return { ...state, gameId: action.gameId, milestoneId: action.milestoneId,
-      team: state.team.map(id => id !== null && pokemonIds.has(id) ? id : null) };
+      team: Array(6).fill(null) };
   }
   if (action.type === 'settings') return { ...state, ...action.values };
   const team = [...state.team];
