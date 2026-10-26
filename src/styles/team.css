@@ -45,3 +45,33 @@
 .planner-heading .team-export { margin-bottom: 0; }
 .team-export { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.5rem 1rem; margin-bottom: 1rem; }
 .team-export p:empty { display: none; }
+
+.team-access { margin-block-start: 1rem; font-size: 0.9375rem; }
+.team-access-summary { display: flex; align-items: start; gap: 0.5rem; color: var(--muted); }
+.team-access-summary > svg { flex-shrink: 0; margin-block-start: 0.15rem; }
+.team-access-summary p { max-width: none; }
+.team-access-success > svg { color: var(--ok); }
+.team-access-success p { color: var(--ink); }
+.team-access-success p span { color: var(--muted); }
+.team-access-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.375rem 1.5rem; }
+.team-access-status { display: flex; align-items: start; gap: 0.5rem; min-width: 0; }
+.team-access-status > svg { flex-shrink: 0; margin-block-start: 0.125rem; color: var(--warning-ink); }
+.team-access-heading h3 { font-size: 0.9375rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.team-access-hint { color: var(--muted); font-size: 0.8125rem; }
+.team-issue-list { display: grid; gap: 1rem; margin-block-start: 0.75rem; padding: 0; list-style: none; }
+.team-issue-list > li { display: grid; align-items: center; gap: 0.5rem 1.5rem; min-width: 0; }
+.team-issue-reason { min-width: 0; }
+.team-issue-reason h4 { font-size: 0.9375rem; line-height: 1.5; }
+.team-issue-reason p { margin-block-start: 0.125rem; color: var(--muted); font-size: 0.875rem; line-height: 1.5; overflow-wrap: anywhere; }
+.team-issue-members { display: flex; flex-wrap: wrap; gap: 0.5rem; min-width: 0; }
+.team-issue-details { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; max-width: 100%; padding: 0.5rem 0.875rem; border: 0; border-radius: var(--radius-control); background: var(--tile); color: var(--accent-ink); font-size: 0.875rem; font-weight: 600; line-height: 1.5; text-align: start; overflow-wrap: anywhere; transition: background-color 150ms ease-out; }
+.team-issue-details:hover { background: var(--tile-hover); }
+@media (prefers-reduced-motion: no-preference) {
+  .team-issue-details { transition: background-color 150ms ease-out, scale 100ms ease-out; }
+  .team-issue-details:active { scale: 0.96; }
+}
+@container (min-width: 42rem) {
+  .team-issue-list { gap: 0.625rem; padding-inline-start: 1.625rem; }
+  .team-issue-list > li { grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); }
+  .team-issue-reason:only-child { grid-column: 1 / -1; }
+}

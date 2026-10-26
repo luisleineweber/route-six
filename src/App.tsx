@@ -102,7 +102,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
         <section className="team-section" aria-labelledby="team-title">
           <h2 id="team-title" className="sr-only">Your team</h2>
           <div ref={teamSlots}><TeamSlots team={state.team} snapshot={progressPage ? snapshot : null} progressPage={progressPage} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} /></div>
-          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} /> : <p className="loading-note" role="status"><span className="loading-dot" />Checking team access{state.respectLevelLimit?' with the level limit':' without the level limit'}…</p>)}
+          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <p className="loading-note" role="status"><span className="loading-dot" />Checking team access{state.respectLevelLimit?' with the level limit':' without the level limit'}…</p>)}
         </section>
         {page==='team' && <TypeAnalysis team={state.team} />}
         <PokemonSearch key={`${state.gameId}:${state.target}`} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
