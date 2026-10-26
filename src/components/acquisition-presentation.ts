@@ -23,8 +23,9 @@ const sourceMethodNames = {
 export function sourceMethod(details: SourceDetails) {
   const key = details.kind === 'wild' ? details.method : details.kind;
   const rod = key === 'super-rod-spots' ? 'super-rod' : key;
-  const rodIcon = rod === 'old-rod' || rod === 'good-rod' || rod === 'super-rod' ? `/items/${rod}.png` : null;
-  return { name: sourceMethodNames[key], rodIcon };
+  const itemIcon = rod === 'old-rod' || rod === 'good-rod' || rod === 'super-rod' ? `/items/${rod}.png` : null;
+  const methodIcon = key === 'grass' ? '/methods/grass.svg' : key === 'surf' || key === 'surf-spots' ? '/methods/surf.svg' : null;
+  return { name: sourceMethodNames[key], iconSrc: itemIcon ?? methodIcon };
 }
 
 export function pathSource(game: GameData, path: AcquisitionPath) {
@@ -45,14 +46,14 @@ function acquisitionGroup(game: GameData, path: AcquisitionPath) {
     if (!evolution) throw new Error(`Missing acquisition evolution: ${evolutionId}`);
     return { id: JSON.stringify(['evolution', path.pokemonId, evolution.id]),
       title: `Evolve ${pokemonIdentity(selectionId(evolution.fromPokemonId, evolution.fromFormId)).name}`,
-      method: evolutionLabels(game, evolution).join(' · '), rodIcon: null };
+      method: evolutionLabels(game, evolution).join(' · '), iconSrc: null };
   }
   const source = pathSource(game, path);
   const location = game.locations.find(location => location.id === source.locationId)!;
   const method = sourceMethod(source.details);
   return { id: JSON.stringify([location.id, source.details.kind, source.details.kind === 'wild' ? source.details.method : null]),
     title: source.details.kind === 'breeding' ? 'Day Care breeding' : location.name,
-    method: method.name, rodIcon: method.rodIcon };
+    method: method.name, iconSrc: method.iconSrc };
 }
 
 export function groupAcquisitionPaths(game: GameData, snapshot: AvailabilitySnapshot, ids: string[]) {

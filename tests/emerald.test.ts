@@ -11,6 +11,20 @@ const query=(milestoneId:string,respectLevelLimit=true)=>{const r=getAvailabilit
 beforeAll(()=>{early=query('route-102');late=query('national-dex');},60000);
 
 describe('Complete Emerald integration',()=>{
+  it('makes the Weather Institute gift available after Norman, but not before Surf',()=>{
+    expect(query('flannery-defeated').entries.castform.status).toBe('later');
+    const current = query('norman-defeated');
+    expect(current.entries.castform.status).toBe('available');
+    expect(current.entries.castform.currentPathIds.some(id => current.paths[id].sourceIds.includes('castform-gift'))).toBe(true);
+  },60000);
+  it('waits for Mossdeep before granting Super Rod access to Staryu',()=>{
+    expect(query('aqua-hideout').entries.staryu.status).toBe('later');
+    expect(query('mossdeep').entries.staryu.status).toBe('available');
+  },60000);
+  it('makes Route 110 grass available from Slateport before the museum event',()=>{
+    expect(query('route-109').entries.electrike.status).toBe('later');
+    expect(query('slateport').entries.electrike.status).toBe('available');
+  },60000);
   it('resolves first-access sources for every species at early and late progress',()=>{
     for (const snapshot of [early, late]) {
       for (const entry of Object.values(snapshot.entries)) {

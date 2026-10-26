@@ -13,6 +13,16 @@ their own section. Locations and acquisition sources add their own gates.
 Source files: `data/games/emerald/progression.json` and `locations.json`.
 Review date: 7 October 2026. References are in `data/references.json`.
 
+Access corrections reviewed on 22 October 2026:
+
+- Route 110 grass opens from Slateport. The path north still needs the museum
+  event. See the pinned [Route 110 scripts](https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/maps/Route110/scripts.inc).
+- Surf opens the Weather Institute visit and its Castform gift after Norman.
+  The planner checks possible access, without a record of completed visits.
+  See the pinned [Weather Institute scripts](https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/maps/Route119_WeatherInstitute_2F/scripts.inc).
+- The Super Rod needs Mossdeep access. It does not unlock at Aqua Hideout.
+  See the pinned [Mossdeep gift script](https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/maps/MossdeepCity_House3/scripts.inc).
+
 | ID | Progress point | Section | Mandatory prior IDs |
 | --- | --- | --- | --- |
 | littleroot | Littleroot Town | Before Roxanne | Game start |
@@ -47,8 +57,8 @@ Review date: 7 October 2026. References are in `data/references.json`.
 | route-109 | Route 109: beach | Before Wattson | steven-letter |
 | slateport | Slateport City | Before Wattson | route-109 |
 | museum | Deliver Devon Goods at the museum | Before Wattson | slateport |
-| route-110 | Route 110 | Before Wattson | museum |
-| rival-110 | Defeat the rival on Route 110 | Before Wattson | route-110 |
+| route-110 | Route 110 | Before Wattson | slateport |
+| rival-110 | Defeat the rival on Route 110 | Before Wattson | route-110, museum |
 | mauville | Mauville City: before Wattson | Before Wattson | rival-110 |
 | bike | Receive a Mach or Acro Bike | Before Wattson | mauville |
 | route-117 | Route 117 and Day Care | Before Wattson | mauville |

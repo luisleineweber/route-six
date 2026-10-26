@@ -24,6 +24,8 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
     ...(slot.spriteSrc === null ? [] : [slot.spriteSrc]),
     ...slot.types.map(type => `/types/${type}.svg`),
     ...(slot.progress?.stages.map(stage => stage.spriteSrc) ?? []),
+    ...(slot.progress?.methodIconSrc ? [slot.progress.methodIconSrc] : []),
+    ...(slot.progress?.routeOptions.flatMap(option => option.methodIconSrc ? [option.methodIconSrc] : []) ?? []),
   ]));
   model.defense.forEach(row => urls.add(`/types/${row.type}.svg`));
   const images = new Map(await Promise.all([...urls].map(async url => [url, await loadImage(url)] as const)));

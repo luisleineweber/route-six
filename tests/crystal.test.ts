@@ -149,7 +149,7 @@ describe('Pokémon Crystal progress and field access', () => {
     const locationIds = new Set(locations.map(location => location.id));
     const bossIds = new Set(bosses.map(boss => boss.id));
     expect(game.firstMilestoneId).toBe('new-bark-town');
-    expect(game.planner.defaultMilestoneId).toBe('indigo-plateau');
+    expect(game.planner.defaultMilestoneId).toBe('clair-defeated');
     expect(game.planner.checkpoints.every(point => milestoneIds.has(point.milestoneId))).toBe(true);
     expect(progression.find(point => point.id === game.firstMilestoneId)?.previousIds).toEqual([]);
     expect(progression.every(point => point.previousIds.every(id => milestoneIds.has(id))

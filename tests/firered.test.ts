@@ -154,7 +154,11 @@ describe('FireRed reviewed profile and access layer', () => {
     expect(progression.find(milestone => milestone.id === 'network-machine')?.previousIds)
       .toEqual(['ruby-returned', 'sapphire-returned']);
     expect(game.planner.checkpoints.map(checkpoint => checkpoint.milestoneId))
-      .toEqual(expect.arrayContaining(['four-island', 'icefall-rockets-cleared', 'five-island', 'seven-island', 'network-machine']));
+      .toEqual([
+        'brock-defeated', 'misty-defeated', 'surge-defeated', 'erika-defeated',
+        'koga-defeated', 'sabrina-defeated', 'blaine-defeated', 'giovanni-defeated',
+        'victory-road',
+      ]);
     expect(['four-island', 'five-island', 'six-island', 'seven-island'].every(id =>
       progression.find(milestone => milestone.id === id)?.previousIds.includes('rainbow-pass'))).toBe(true);
     expect(game.planner.defaultMilestoneId).toBe('victory-road');

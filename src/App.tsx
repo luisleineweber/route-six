@@ -96,7 +96,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
       {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
       <main ref={main} id="main" tabIndex={-1}>
         <div className="section-heading planner-heading"><h1>{pages.find(p=>p.id===page)!.title}</h1>{!progressUnavailable && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
-        {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress data is not ready yet</h2><p>You can build a team and check its types for {game.game.name}. Access checks are still under review.</p><button className="secondary-button" onClick={()=>setPage('team')}>Open Team Planner</button></section> : <>
+        {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress data is not ready yet</h2><p>You can build a team and check its types for {game.game.name}. Access checks are still under review.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
         {game.game.planner === null && <p className="field-hint" role="status">Team Planner is ready for {game.game.name}. Progress checks are still under review.</p>}
         {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={()=>window.location.reload()}>Reload guide</button></div>}
         <section className="team-section" aria-labelledby="team-title">

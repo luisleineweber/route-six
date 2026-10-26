@@ -43,7 +43,8 @@
 .path-title { flex: 1; min-width: 0; }
 .path-subtitle { display: block; margin-top: 0.125rem; color: var(--muted); font-size: 0.8125rem; font-weight: 400; }
 .path-method { display: flex; align-items: center; gap: 0.375rem; }
-.rod-icon { flex-shrink: 0; width: 1.5rem; height: 1.5rem; image-rendering: pixelated; }
+.method-icon { flex: 0 0 auto; width: 1.5rem; height: 1.5rem; }
+.method-icon[src$=".png"] { image-rendering: pixelated; }
 .path-meta { color: var(--muted); font-size: 0.8125rem; font-weight: 400; font-variant-numeric: tabular-nums; }
 .path-body { padding: 1rem; font-size: 0.875rem; overflow-wrap: anywhere; }
 .source-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.875rem 1.25rem; }

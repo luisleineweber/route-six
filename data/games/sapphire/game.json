@@ -76,20 +76,6 @@
         "title": "Victory Road",
         "detail": "Before the League",
         "typeId": null
-      },
-      {
-        "label": "Champion Steven",
-        "title": "Hall of Fame",
-        "detail": "Defeat Steven",
-        "typeId": null,
-        "milestoneId": "steven-defeated"
-      },
-      {
-        "label": "Postgame: Latias roams",
-        "title": "Postgame",
-        "detail": "After the Hall of Fame TV report",
-        "typeId": null,
-        "milestoneId": "latias-roams"
       }
     ]
   },

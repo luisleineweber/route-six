@@ -25,12 +25,15 @@ describe('Pokémon Ruby reviewed data', () => {
     expect(ruby.profiles.map(profile => profile.regionalDex).filter(Boolean).sort((a,b) => a! - b!))
       .toEqual(Array.from({ length: 202 }, (_, index) => index + 1));
   });
-  it('uses Ruby gym and League order, Wallace, Steven, and Ruby postgame checkpoints', () => {
+  it('keeps Ruby progress checkpoints to its eight Gyms and Victory Road', () => {
     expect(ruby.bosses.map(boss => boss.id)).toEqual([
       'roxanne','brawly','wattson','flannery','norman','winona','tate-and-liza','wallace',
       'sidney','phoebe','glacia','drake','steven',
     ]);
-    expect(ruby.game.planner!.checkpoints.map(checkpoint => checkpoint.milestoneId)).toContain('wallace-defeated');
+    expect(ruby.game.planner!.checkpoints.map(checkpoint => checkpoint.milestoneId)).toEqual([
+      'roxanne-defeated', 'brawly-defeated', 'wattson-defeated', 'flannery-defeated',
+      'norman-defeated', 'winona-defeated', 'tate-and-liza-defeated', 'wallace-defeated', 'victory-road',
+    ]);
     expect(ruby.game.planner!.defaultMilestoneId).toBe('victory-road');
     expect(ruby.milestones).toHaveLength(131);
     expect(ruby.milestones.some(milestone => /mirage tower/i.test(milestone.name))).toBe(false);

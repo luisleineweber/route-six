@@ -8,6 +8,38 @@ const cardWidth = (width - 2 * margin - gap) / 2;
 const inset = 28;
 const lineHeight = 28;
 
+interface MethodRow {
+  prefix: string;
+  method: string;
+  iconSrc: string | null;
+}
+
+function layoutMethodRow(ctx: CanvasRenderingContext2D, row: MethodRow, width: number) {
+  setFont(ctx, 18);
+  if (!row.iconSrc) {
+    return { ...row, prefixLines: wrap(ctx, `${row.prefix} ${row.method}`.trim(), width), iconSize: 0, gap: 0 };
+  }
+  const iconSize = 20;
+  const gap = 6;
+  const methodWidth = ctx.measureText(row.method).width;
+  const prefixWidth = Math.max(1, width - iconSize - gap * 2 - methodWidth);
+  return { ...row, prefixLines: row.prefix ? wrap(ctx, row.prefix, prefixWidth) : [''], iconSize, gap };
+}
+
+function drawMethodRow(ctx: CanvasRenderingContext2D, row: ReturnType<typeof layoutMethodRow>, images: Map<string, HTMLImageElement>, x: number, y: number) {
+  setFont(ctx, 18); ctx.fillStyle = colors.muted;
+  if (!row.iconSrc) {
+    row.prefixLines.forEach((line, index) => ctx.fillText(line, x, y + index * lineHeight));
+    return;
+  }
+  row.prefixLines.forEach((line, index) => ctx.fillText(line, x, y + index * lineHeight));
+  const lastPrefix = row.prefixLines.at(-1) ?? '';
+  const methodX = x + ctx.measureText(lastPrefix).width + row.gap + row.iconSize + row.gap;
+  const icon = images.get(row.iconSrc);
+  if (icon) ctx.drawImage(icon, methodX - row.iconSize - row.gap, y + (row.prefixLines.length - 1) * lineHeight + 2, row.iconSize, row.iconSize);
+  ctx.fillText(row.method, methodX, y + (row.prefixLines.length - 1) * lineHeight);
+}
+
 function layoutContent(ctx: CanvasRenderingContext2D, slot: ExportSlot) {
   const content = slot.progress;
   const availableWidth = cardWidth - 2 * inset;
@@ -16,11 +48,19 @@ function layoutContent(ctx: CanvasRenderingContext2D, slot: ExportSlot) {
   setFont(ctx, 22, !!missingSource);
   const location = wrap(ctx, content?.location ?? missingSource?.title ?? '', availableWidth);
   setFont(ctx, 18);
-  const acquisition = content?.location ? [
-    `${content.stages[0]?.name ?? slot.name} · ${content.method}`,
-    ...content.acquisition,
-  ].flatMap(text => wrap(ctx, text, availableWidth)) : missingSource ? wrap(ctx, missingSource.explanation, availableWidth) : [];
-  const evolutionY = 176 + location.length * lineHeight + acquisition.length * lineHeight + 24;
+  const primaryMethod = content?.location ? layoutMethodRow(ctx, {
+    prefix: `${content.stages[0]?.name ?? slot.name} ·`, method: content.method, iconSrc: content.methodIconSrc,
+  }, availableWidth) : null;
+  const acquisition = content?.location ? content.acquisition.flatMap(text => wrap(ctx, text, availableWidth))
+    : missingSource ? wrap(ctx, missingSource.explanation, availableWidth) : [];
+  const routeOptions = (content?.routeOptions ?? []).map(option => layoutMethodRow(ctx, {
+    prefix: `${option.location} · ${option.sourceName} ·`, method: option.method, iconSrc: option.methodIconSrc,
+  }, availableWidth));
+  const optionLines = routeOptions.reduce((sum, option) => sum + option.prefixLines.length, 0);
+  const routeHeading = routeOptions.length > 0 ? 1 : 0;
+  const methodLines = primaryMethod?.prefixLines.length ?? 0;
+  const evolutionY = 176 + location.length * lineHeight + methodLines * lineHeight + acquisition.length * lineHeight
+    + (optionLines + routeHeading) * lineHeight + 24;
   const stages = content?.stages ?? [];
   const stageWidth = availableWidth / Math.max(1, stages.length);
   const requirements = stages.map(stage => wrap(ctx, stage.requirement ?? '', stageWidth - 16));
@@ -28,7 +68,7 @@ function layoutContent(ctx: CanvasRenderingContext2D, slot: ExportSlot) {
     .flatMap(text => wrap(ctx, text, availableWidth));
   const requirementHeight = Math.max(0, ...requirements.map(lines => lines.length)) * lineHeight;
   const chainHeight = stages.length > 1 ? 152 + requirementHeight : 56;
-  return { location, acquisition, evolutionY, stages, stageWidth, requirements, conditions,
+  return { location, primaryMethod, acquisition, routeOptions, evolutionY, stages, stageWidth, requirements, conditions,
     height: slot.dex === null ? 240 : evolutionY + chainHeight + conditions.length * lineHeight + inset };
 }
 
@@ -76,8 +116,24 @@ export function renderProgressPng(model: TeamExport, images: Map<string, HTMLIma
     const missingSource = slot.progress?.missingSource;
     setFont(ctx, 22, !!missingSource); ctx.fillStyle = missingSource ? colors.weak : colors.ink;
     layout.location.forEach((line, i) => ctx.fillText(line, x + inset, y + 176 + i * lineHeight));
+    let bodyY = y + 176 + layout.location.length * lineHeight;
+    if (layout.primaryMethod) {
+      drawMethodRow(ctx, layout.primaryMethod, images, x + inset, bodyY);
+      bodyY += layout.primaryMethod.prefixLines.length * lineHeight;
+    }
     setFont(ctx, 18); ctx.fillStyle = missingSource ? colors.ink : colors.muted;
-    layout.acquisition.forEach((line, i) => ctx.fillText(line, x + inset, y + 176 + (layout.location.length + i) * lineHeight));
+    layout.acquisition.forEach((line, i) => ctx.fillText(line, x + inset, bodyY + i * lineHeight));
+    bodyY += layout.acquisition.length * lineHeight;
+    if (layout.routeOptions.length) {
+      bodyY += 4;
+      setFont(ctx, 16, true); ctx.fillStyle = colors.ink;
+      ctx.fillText('Other encounter options', x + inset, bodyY);
+      bodyY += lineHeight;
+      for (const option of layout.routeOptions) {
+        drawMethodRow(ctx, option, images, x + inset, bodyY);
+        bodyY += option.prefixLines.length * lineHeight;
+      }
+    }
     if (!slot.progress?.location) return;
 
     const evolutionY = y + layout.evolutionY;

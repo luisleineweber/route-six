@@ -90,8 +90,8 @@ six team slots, type analysis, search, type filters, and simple Pokémon details
 It shows no progress settings, level limit, access status, or source text.
 
 The Progress Planner keeps access checks and source details. Its initial
-target is Current progress. Its initial progress point is Elite Four, before
-Sidney. Both views keep the same team and progress settings when the view changes.
+target is Current progress. Its initial progress point is Victory Road.
+Both views keep the same team and progress settings when the view changes.
 
 Both catalogues sort the 202 Hoenn Pokédex species first. The remaining species
 follow in National Dex order. Each Hoenn number was checked against

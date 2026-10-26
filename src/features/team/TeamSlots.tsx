@@ -1,3 +1,4 @@
+import { useLayoutEffect, useRef } from 'react';
 import { Plus, X } from 'lucide-react';
 import { pokemonIdentity } from '../../data/dataset';
 import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
@@ -8,17 +9,27 @@ export function TeamSlots({ team, snapshot, progressPage, activeSlot, onChoose, 
   team: (string | null)[]; snapshot: AvailabilitySnapshot | null; progressPage: boolean; activeSlot: number | null;
   onChoose: (slot: number) => void; onRemove: (slot: number) => void; onDetails: (id: string) => void;
 }) {
+  const emptyControls = useRef<(HTMLButtonElement | null)[]>([]);
+  const removedSlot = useRef<number | null>(null);
+  useLayoutEffect(() => {
+    if (removedSlot.current === null) return;
+    emptyControls.current[removedSlot.current]?.focus({ preventScroll: true });
+    removedSlot.current = null;
+  }, [team]);
   return <div className="team-slots">{team.map((id, index) => {
     const name = id ? pokemonIdentity(id).name : null;
     return <article key={index} className={`team-slot ${id ? 'filled' : 'empty'} ${activeSlot === index ? 'active-slot' : ''}`} aria-label={`Team slot ${index + 1}${name ? ': ' + name : ': empty'}`}>
       <span className="slot-number" aria-hidden="true">{index + 1}</span>
       {id ? <>
-        <button className="icon-button remove-button" aria-label={`Remove ${name} from slot ${index + 1}`} onClick={() => onRemove(index)}><X size={16} aria-hidden="true" /></button>
+        <button className="icon-button remove-button" aria-label={`Remove ${name} from slot ${index + 1}`} onClick={() => {
+          removedSlot.current = index;
+          onRemove(index);
+        }}><X size={16} aria-hidden="true" /></button>
         <PokemonSprite id={id} />
         <h3><button className="card-link" aria-label={`View ${name} details`} onClick={() => onDetails(id)}>{name}</button></h3>
         <PokemonTypes id={id} compact />
         {progressPage && (snapshot ? <StatusLabel status={snapshot.entries[id].status} /> : <span className="status-label status-pending">Checking access…</span>)}
-      </> : <button className="empty-slot-button" onClick={() => onChoose(index)}><span className="empty-plus"><Plus size={22} aria-hidden="true" /></span>Add Pokémon<span className="sr-only"> to slot {index + 1}</span></button>}
+      </> : <button ref={element => { emptyControls.current[index] = element; }} className="empty-slot-button" onClick={() => onChoose(index)}><span className="empty-plus"><Plus size={22} aria-hidden="true" /></span>Add Pokémon<span className="sr-only"> to slot {index + 1}</span></button>}
     </article>;
   })}</div>;
 }

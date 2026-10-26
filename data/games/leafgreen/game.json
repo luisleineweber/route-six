@@ -12,7 +12,7 @@
     "checkedOn": "2026-10-12"
   },
   "planner": {
-    "defaultMilestoneId": "brock-defeated",
+    "defaultMilestoneId": "victory-road",
     "checkpoints": [
       {
         "milestoneId": "brock-defeated",
@@ -75,69 +75,6 @@
         "label": "Victory Road",
         "title": "Before the Pokemon League",
         "detail": "Victory Road",
-        "typeId": null
-      },
-      {
-        "milestoneId": "champion-defeated",
-        "label": "Pokemon League Champion",
-        "title": "Main story complete",
-        "detail": "Hall of Fame",
-        "typeId": null
-      },
-      {
-        "milestoneId": "one-island",
-        "label": "One Island",
-        "title": "Sevii Islands",
-        "detail": "Tri-Pass opens Islands One to Three before the League",
-        "typeId": null
-      },
-      {
-        "milestoneId": "national-dex",
-        "label": "National Pokedex",
-        "title": "Post-game",
-        "detail": "After the League and One Island; Oak checks for 60 caught species",
-        "typeId": null
-      },
-      {
-        "milestoneId": "rainbow-pass",
-        "label": "Rainbow Pass",
-        "title": "Post-game",
-        "detail": "Given after returning the Ruby; opens Islands Four to Seven",
-        "typeId": null
-      },
-      {
-        "milestoneId": "four-island",
-        "label": "Four Island",
-        "title": "Four Island",
-        "detail": "Day Care and Icefall Cave",
-        "typeId": null
-      },
-      {
-        "milestoneId": "icefall-rockets-cleared",
-        "label": "Icefall Cave Rockets defeated",
-        "title": "Icefall Cave",
-        "detail": "Help Lorelei and open Dotted Hole access",
-        "typeId": null
-      },
-      {
-        "milestoneId": "five-island",
-        "label": "Five Island",
-        "title": "Five Island",
-        "detail": "Lost Cave and Water Labyrinth",
-        "typeId": null
-      },
-      {
-        "milestoneId": "seven-island",
-        "label": "Seven Island",
-        "title": "Seven Island",
-        "detail": "Sevault Canyon and Tanoby Ruins",
-        "typeId": null
-      },
-      {
-        "milestoneId": "network-machine",
-        "label": "Network Machine",
-        "title": "Post-game",
-        "detail": "Celio links Kanto and Hoenn after the Sapphire is returned",
         "typeId": null
       }
     ]

@@ -65,11 +65,12 @@ describe('Platinum progress data', () => {
     expect(hallOfFame.paths.has('regigigas')).toBe(false);
   });
 
-  it('exposes all eight badges, the League stages and the native Friday condition', () => {
+  it('exposes only the eight Gym checkpoints and Victory Road', () => {
     const points = new Set(game.game.planner!.checkpoints.map(point => point.milestoneId));
     for (const id of ['oreburgh-gym', 'eterna-gym', 'hearthome-gym', 'veilstone-gym',
       'pastoria-gym', 'canalave-gym', 'snowpoint-gym', 'sunyshore-gym',
-      'league-aaron', 'league-bertha', 'league-flint', 'league-lucian', 'hall-of-fame']) expect(points.has(id), id).toBe(true);
+      'victory-road']) expect(points.has(id), id).toBe(true);
+    expect(points).toHaveLength(9);
     expect(game.sources.find(source => source.id === 'drifloon-valley-windworks')).toMatchObject({
       maxUses: null, details: { kind: 'static' }, encounterConditions: [{ kind: 'weekday', day: 'friday' }],
       requirements: { kind: 'milestone', id: 'windworks-clear' },

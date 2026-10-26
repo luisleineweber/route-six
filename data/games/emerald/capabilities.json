@@ -1,7 +1,7 @@
 [
   {"id":"old-rod","name":"Old Rod","requirements":{"kind":"milestone","id":"dewford"},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
   {"id":"good-rod","name":"Good Rod","requirements":{"kind":"all","requirements":[{"kind":"capability","id":"surf"},{"kind":"milestone","id":"norman-defeated"}]},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
-  {"id":"super-rod","name":"Super Rod","requirements":{"kind":"milestone","id":"aqua-hideout"},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
+  {"id":"super-rod","name":"Super Rod","requirements":{"kind":"milestone","id":"mossdeep"},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-22"}},
   {"id":"cut","name":"Cut","requirements":{"kind":"milestone","id":"roxanne-defeated"},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
   {"id":"rock-smash","name":"Rock Smash","requirements":{"kind":"milestone","id":"wattson-defeated"},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},
   {"id":"strength","name":"Strength","requirements":{"kind":"milestone","id":"flannery-defeated"},"review":{"referenceIds":["scripts"],"checkedOn":"2026-10-07"}},

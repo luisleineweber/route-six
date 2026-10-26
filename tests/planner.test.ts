@@ -31,6 +31,23 @@ describe('Shared planner catalogue', () => {
 });
 
 describe('Progress checkpoints', () => {
+  it('limits each ready game to Gym 1–8 and Victory Road when present', () => {
+    for (const game of dataset.games.filter(game => game.game.planner !== null)) {
+      const options = progressCheckpointOptions(game);
+      const isGym = (option: typeof options[number]) => /^Gym [1-8]$/.test(option.title)
+        || /Badge$/.test(option.title) || /-gym$/.test(option.id);
+      const gymOptions = options.filter(isGym);
+      const hasVictoryRoad = game.milestones.some(milestone => milestone.id === 'victory-road');
+      expect(gymOptions, game.game.id).toHaveLength(8);
+      expect(options.filter(option => !isGym(option)).map(option => option.id), game.game.id)
+        .toEqual(hasVictoryRoad ? ['victory-road'] : []);
+      expect(options).toHaveLength(hasVictoryRoad ? 9 : 8);
+      expect(options.at(-1)?.id, game.game.id).toBe(hasVictoryRoad ? 'victory-road' : gymOptions[7].id);
+      expect(game.game.planner!.defaultMilestoneId, game.game.id)
+        .toBe(hasVictoryRoad ? 'victory-road' : gymOptions[7].id);
+    }
+  });
+
   it('identifies all eight Gyms by badge number and type', () => {
     const options = progressCheckpointOptions(emerald);
     const gyms = emerald.bosses.filter(boss => boss.kind === 'gym');

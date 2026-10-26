@@ -49,7 +49,9 @@ with the app. They do not download game data from an external service.
 5. Set `game.planner.defaultMilestoneId` and its `checkpoints`. Each checkpoint
    refers to a real milestone. Give it its visible label, title, detail, and
    nullable type ID. The existing milestone `displayOrder` determines order.
-   Checkpoints can describe story events without a Gym or a Victory Road.
+   Include Gym 1 through Gym 8, then Victory Road when the game has that
+   milestone. Do not add starter, story, League, or post-game checkpoints. Set
+   Victory Road as the default when it exists; otherwise use Gym 8.
    For reviewed team data without progress coverage, set both `game.planner`
    and `game.firstMilestoneId` to null. Keep the progress collections empty.
    This is an explicit pending review, not a claim that no encounters exist.

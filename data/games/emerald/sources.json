@@ -27579,7 +27579,7 @@
     "locationId": "weather-institute",
     "requirements": {
       "kind": "milestone",
-      "id": "weather-institute"
+      "id": "norman-defeated"
     },
     "level": {
       "kind": "fixed",
@@ -27598,7 +27598,7 @@
       "referenceIds": [
         "scripts"
       ],
-      "checkedOn": "2026-10-07"
+      "checkedOn": "2026-10-22"
     }
   },
   {

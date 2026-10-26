@@ -40,10 +40,12 @@ progress target. Keep the team and progress settings when the view changes.
 Show Progress Planner settings in a top bar before the team slots and
 catalogue. Wrap controls into rows on narrow screens. Both modes use the full
 content width. Use only the eight Gym checkpoints, then Victory Road, in one
-flat list. Show each Gym's badge number, type, and leader. Do not use menu
-groups. Use a custom progress dropdown with type icons, a clear Gym number,
-and a second line for the leader and type. Mark the selected row with a check.
-One selected point sets current or goal progress.
+flat list for every game. If a game has no Victory Road milestone, show only
+its eight Gyms. Start at Victory Road when it exists; otherwise start at Gym 8.
+Show each Gym's badge number, type, and leader. Do not use menu groups. Use a
+custom progress dropdown with type icons, a clear Gym number, and a second line
+for the leader and type. Mark the selected row with a check. One selected point
+sets current or goal progress.
 
 Show six slots in one row on wide screens, three per row on medium screens,
 and one compact row per slot on phones. Keep empty slots visible and mark each

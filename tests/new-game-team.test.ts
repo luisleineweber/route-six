@@ -22,7 +22,7 @@ describe('Generation IV–VI Team Planner data', () => {
     expect(isGameReady(id)).toBe(true);
     expect(isProgressReady(id)).toBe(progressGames.has(id));
     if (progressGames.has(id)) {
-      expect(game.planner?.defaultMilestoneId).toBe('starter');
+      expect(game.planner?.defaultMilestoneId).toBe('victory-road');
       expect(game.firstMilestoneId).not.toBeNull();
     } else {
       expect(game.planner).toBeNull();

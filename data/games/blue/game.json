@@ -12,7 +12,7 @@
     "checkedOn": "2026-10-12"
   },
   "planner": {
-    "defaultMilestoneId": "champion-defeated",
+    "defaultMilestoneId": "victory-road",
     "checkpoints": [
       {
         "milestoneId": "brock-defeated",
@@ -70,18 +70,11 @@
         "detail": "Giovanni · Ground",
         "typeId": "ground"
       },
-      {
-        "milestoneId": "champion-defeated",
-        "label": "Pokémon League",
-        "title": "Champion",
-        "detail": "Indigo Plateau",
-        "typeId": null
-      },
-      {
-        "milestoneId": "cerulean-cave-open",
-        "label": "Cerulean Cave",
-        "title": "Postgame",
-        "detail": "Cerulean Cave is open",
+            {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
         "typeId": null
       }
     ]

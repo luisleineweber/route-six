@@ -12,15 +12,8 @@
     "checkedOn": "2026-10-12"
   },
   "planner": {
-    "defaultMilestoneId": "pallet-town",
+    "defaultMilestoneId": "victory-road",
     "checkpoints": [
-      {
-        "milestoneId": "pallet-town",
-        "label": "Start",
-        "title": "Start",
-        "detail": "Begin in Pallet Town with the starter Pikachu.",
-        "typeId": null
-      },
       {
         "milestoneId": "brock-defeated",
         "label": "Boulder Badge",
@@ -77,18 +70,11 @@
         "detail": "Giovanni is defeated in Viridian City.",
         "typeId": null
       },
-      {
-        "milestoneId": "champion-defeated",
-        "label": "Champion",
-        "title": "Champion",
-        "detail": "The Elite Four and Rival are defeated.",
-        "typeId": null
-      },
-      {
-        "milestoneId": "cerulean-cave-open",
-        "label": "Cerulean Cave",
-        "title": "Cerulean Cave",
-        "detail": "The post-game cave is open after the Hall of Fame.",
+            {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
         "typeId": null
       }
     ]

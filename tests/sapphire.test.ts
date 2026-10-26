@@ -89,17 +89,18 @@ describe('Sapphire reviewed catalogue layer', () => {
     }
   });
 
-  it('uses Sapphire progress, Wallace, the League, and the pre-League default', () => {
+  it('uses Sapphire Gym and Victory Road checkpoints with the pre-League default', () => {
     const milestoneIds = new Set(milestones.map(milestone => milestone.id));
     const checkpointIds = game.planner.checkpoints.map(checkpoint => checkpoint.milestoneId);
     expect(game).toMatchObject({ id: 'sapphire', firstMilestoneId: 'littleroot' });
     expect(game.planner.defaultMilestoneId).toBe('victory-road');
-    expect(checkpointIds).toHaveLength(11);
-    expect(new Set(checkpointIds).size).toBe(11);
+    expect(checkpointIds).toHaveLength(9);
+    expect(new Set(checkpointIds).size).toBe(9);
     expect(checkpointIds.every(id => milestoneIds.has(id))).toBe(true);
-    expect(checkpointIds).toContain('wallace-defeated');
-    expect(checkpointIds).toContain('steven-defeated');
-    expect(checkpointIds).toContain('latias-roams');
+    expect(checkpointIds).toEqual([
+      'roxanne-defeated', 'brawly-defeated', 'wattson-defeated', 'flannery-defeated',
+      'norman-defeated', 'winona-defeated', 'tate-and-liza-defeated', 'wallace-defeated', 'victory-road',
+    ]);
     expect(bosses.filter(boss => boss.kind === 'gym').map(boss => boss.id))
       .toEqual(['roxanne','brawly','wattson','flannery','norman','winona','tate-and-liza','wallace']);
     expect(milestones.some(milestone => milestone.id === 'juan-defeated')).toBe(false);

@@ -126,7 +126,7 @@ describe('Pokémon Gold reviewed data', () => {
     const locationIds = new Set(locations.map((location) => location.id));
     const bossIds = new Set(bosses.map((boss) => boss.id));
     expect(game.firstMilestoneId).toBe('new-bark-town');
-    expect(game.planner.defaultMilestoneId).toBe('indigo-plateau');
+    expect(game.planner.defaultMilestoneId).toBe('clair-defeated');
     expect(milestoneById.get('route-29')?.previousIds).toContain('new-bark-town');
     expect(milestoneById.get('kanto-open')?.previousIds).toContain('indigo-plateau');
     expect(milestoneById.get('red-defeated')?.previousIds).toContain('blue-defeated');

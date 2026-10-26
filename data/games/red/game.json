@@ -9,7 +9,7 @@
     "checkedOn": "2026-10-12"
   },
   "planner": {
-    "defaultMilestoneId": "champion-defeated",
+    "defaultMilestoneId": "victory-road",
     "checkpoints": [
       {"milestoneId":"brock-defeated","label":"Gym 1 · Rock · Brock","title":"Gym 1","detail":"Brock · Rock","typeId":"rock"},
       {"milestoneId":"misty-defeated","label":"Gym 2 · Water · Misty","title":"Gym 2","detail":"Misty · Water","typeId":"water"},
@@ -19,8 +19,7 @@
       {"milestoneId":"sabrina-defeated","label":"Gym 6 · Psychic · Sabrina","title":"Gym 6","detail":"Sabrina · Psychic","typeId":"psychic"},
       {"milestoneId":"blaine-defeated","label":"Gym 7 · Fire · Blaine","title":"Gym 7","detail":"Blaine · Fire","typeId":"fire"},
       {"milestoneId":"giovanni-defeated","label":"Gym 8 · Ground · Giovanni","title":"Gym 8","detail":"Giovanni · Ground","typeId":"ground"},
-      {"milestoneId":"champion-defeated","label":"Pokémon League","title":"Champion","detail":"Indigo Plateau","typeId":null},
-      {"milestoneId":"cerulean-cave-open","label":"Cerulean Cave","title":"Postgame","detail":"Cerulean Cave is open","typeId":null}
+      {"milestoneId":"victory-road","label":"Victory Road","title":"Victory Road","detail":"Before the League","typeId":null}
     ]
   },
   "breeding": null

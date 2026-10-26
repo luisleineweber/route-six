@@ -185,9 +185,11 @@ describe('Pokémon Blue reviewed data', () => {
       else expect(entry.status, profile.pokemonId).toBe('available');
     }
   });
-  it('keeps the 13 boss records, postgame checkpoint, and nine native trades', () => {
+  it('keeps the 13 boss records, postgame data, and nine native trades', () => {
     expect(blue.bosses).toHaveLength(13);
-    expect(blue.game.planner!.defaultMilestoneId).toBe('champion-defeated');
+    expect(blue.game.planner!.defaultMilestoneId).toBe('victory-road');
+    expect(blue.game.planner!.checkpoints.map(point => point.milestoneId)).toHaveLength(9);
+    expect(blue.milestones.some(milestone => milestone.id === 'cerulean-cave-open')).toBe(true);
     const trades = blue.sources.filter(source => source.details.kind === 'game-trade');
     expect(trades).toHaveLength(9);
     expect(trades.map(source => [source.details.kind === 'game-trade' ? source.details.offeredPokemonId : '', source.pokemonId]).sort()).toEqual([

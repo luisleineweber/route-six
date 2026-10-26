@@ -13,7 +13,7 @@
     "checkedOn": "2026-10-12"
   },
   "planner": {
-    "defaultMilestoneId": "indigo-plateau",
+    "defaultMilestoneId": "clair-defeated",
     "checkpoints": [
       {
         "milestoneId": "falkner-defeated",
@@ -70,27 +70,6 @@
         "title": "Gym 8",
         "detail": "Clair · Dragon",
         "typeId": "dragon"
-      },
-      {
-        "milestoneId": "indigo-plateau",
-        "label": "Pokémon League",
-        "title": "League",
-        "detail": "Elite Four and Champion Lance",
-        "typeId": null
-      },
-      {
-        "milestoneId": "kanto-open",
-        "label": "Kanto",
-        "title": "Postgame",
-        "detail": "Kanto is accessible",
-        "typeId": null
-      },
-      {
-        "milestoneId": "red-defeated",
-        "label": "Mt. Silver",
-        "title": "Postgame",
-        "detail": "Red at Mt. Silver",
-        "typeId": null
       }
     ]
   },

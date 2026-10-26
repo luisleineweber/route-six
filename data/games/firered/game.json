@@ -75,48 +75,6 @@
         "title": "Victory Road",
         "detail": "Before the Pokémon League",
         "typeId": null
-      },
-      {
-        "milestoneId": "national-dex",
-        "label": "National Pokédex",
-        "title": "National Pokédex",
-        "detail": "One Island visited and at least 60 Pokémon caught after the League",
-        "typeId": null
-      },
-      {
-        "milestoneId": "four-island",
-        "label": "Four Island",
-        "title": "Four Island",
-        "detail": "Day Care and Icefall Cave access",
-        "typeId": null
-      },
-      {
-        "milestoneId": "icefall-rockets-cleared",
-        "label": "Icefall Cave",
-        "title": "Icefall Cave",
-        "detail": "Rescue Lorelei and defeat the Rocket grunts",
-        "typeId": null
-      },
-      {
-        "milestoneId": "five-island",
-        "label": "Five Island",
-        "title": "Five Island",
-        "detail": "Lost Cave and Rocket Warehouse access",
-        "typeId": null
-      },
-      {
-        "milestoneId": "seven-island",
-        "label": "Seven Island",
-        "title": "Seven Island",
-        "detail": "Tanoby Ruins and Trainer Tower access",
-        "typeId": null
-      },
-      {
-        "milestoneId": "network-machine",
-        "label": "Network Machine",
-        "title": "Network Machine",
-        "detail": "Ruby and Sapphire returned to Celio",
-        "typeId": null
       }
     ]
   },

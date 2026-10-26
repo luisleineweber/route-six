@@ -195,7 +195,7 @@ describe('Yellow reviewed core data', () => {
     expect(bosses.filter(boss => boss.kind === 'gym').map(boss => boss.badgeNumber))
       .toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
     expect(game.firstMilestoneId).toBe('pallet-town');
-    expect(game.planner.defaultMilestoneId).toBe('pallet-town');
+    expect(game.planner.defaultMilestoneId).toBe('victory-road');
   });
 
   it('covers the Yellow story, locations, and field access gates', () => {
