@@ -44,12 +44,12 @@
 .team-catalogue .joined-types .type-badge:last-child .type-icon { translate: -12px 0; }
 .team-catalogue .add-button { inset-block-start: -0.5rem; inset-inline-end: -0.5rem; z-index: 2; opacity: 0; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
 .team-catalogue .pokemon-card:hover .add-button,
-.team-catalogue .pokemon-card:focus-within .add-button { opacity: 1; }
-.team-catalogue .pokemon-card:is(:hover, :focus-within) .add-button:disabled { opacity: 0.45; }
+.team-catalogue .pokemon-card:has(:focus-visible) .add-button { opacity: 1; }
+.team-catalogue .pokemon-card:is(:hover, :has(:focus-visible)) .add-button:disabled { opacity: 0.45; }
 @media (hover: none), (pointer: coarse) { .team-catalogue .add-button { opacity: 1; } }
 @media (prefers-reduced-motion: no-preference) {
   .team-catalogue .pokemon-sprite { transition: translate 150ms ease-out; }
-  .team-catalogue .pokemon-card:is(:hover, :focus-within) .pokemon-sprite { translate: 0 -3px; }
+  .team-catalogue .pokemon-card:is(:hover, :has(:focus-visible)) .pokemon-sprite { translate: 0 -3px; }
 }
 
 @container pokemon-card (max-width: 10rem) {
