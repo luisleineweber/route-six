@@ -5,6 +5,7 @@ import { validateRegionalDex } from './validate-regional-dex';
 import { evolutionRequirements } from '../domain/availability/evolution-actions';
 import { pokemonSelections, selectionId } from '../domain/pokemon-selection';
 import { validateForms } from './validate-forms';
+import { validateCrossGameProfiles } from './validate-cross-game-profiles';
 
 export function validateSemantics(data: Dataset): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
@@ -130,5 +131,6 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
     }
     issues.push(...validateAcquisition(g, base));
   }
+  issues.push(...validateCrossGameProfiles(data.games));
   return issues;
 }

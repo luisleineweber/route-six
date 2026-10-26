@@ -3,7 +3,7 @@ import profiles from '../../../data/games/pearl/pokemon.json';
 import typeChart from '../../../data/games/pearl/type-chart.json';
 import milestones from '../../../data/games/pearl/progression.json';
 import bosses from '../../../data/games/pearl/bosses.json';
-import locations from '../../../data/games/pearl/locations.json';
+import locations from '../../../data/games/shared/diamond-pearl/locations.json';
 import capabilities from '../../../data/games/pearl/capabilities.json';
 import items from '../../../data/games/pearl/items.json';
 import choices from '../../../data/games/pearl/choices.json';

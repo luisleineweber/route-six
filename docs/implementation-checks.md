@@ -11,10 +11,18 @@ The interface uses the clear field guide style confirmed by the user.
 | Progress points | 148 |
 | Routes 101–134 | 34 |
 | Gym and League opponents | 13 |
-| Acquisition sources | 914 |
+| Acquisition sources | 915 |
 | Evolution rules | 184 |
-| Breeding rules | 180 |
+| Breeding rules | 181 |
 | Active Emerald types | 17 |
+
+Current Emerald counts checked on 26 October 2026.
+
+Data checks compare same-generation profiles across games. They check type
+order, Egg Groups, and available genders, including genders recorded in forms.
+Generation changes remain game-specific.
+Identical X/Y and Diamond/Pearl data files use shared files under
+`data/games/shared/` to prevent version copies from drifting.
 
 The [coverage list](emerald-coverage.md) names every progress point and its
 section. All data is maintained in local JSON. Each record has a review date and
