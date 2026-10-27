@@ -1,10 +1,9 @@
 import { useEffect, useLayoutEffect, useReducer, useRef, useState } from 'react';
-import { Compass, Map, Users } from 'lucide-react';
 import { pokemonIdentity } from './data/dataset';
 import { gameCatalogue } from './data/game-catalogue';
 import { gameLoadMessage, loadGame } from './data/game-loader';
 import type { GameData } from './domain/types';
-import { GameSelector } from './components/GameSelector';
+import { AppHeader, type PlannerPage } from './components/AppHeader';
 import { AppFooter } from './components/AppFooter';
 import { GameContext } from './features/planner/GameContext';
 import { PlannerSettings } from './features/planner/PlannerSettings';
@@ -19,11 +18,6 @@ import { PokemonSearch } from './features/progress/PokemonSearch';
 import { AcquisitionDetails } from './components/AcquisitionDetails';
 import { ExportTeamButton } from './features/export/ExportTeamButton';
 
-const pages = [
-  { id: 'team', name: 'Team Planner', title: 'Team planner', Icon: Users },
-  { id: 'progress', name: 'Progress Planner', title: 'Progress planner', Icon: Compass },
-] as const;
-
 export default function App({ initialGame }: { initialGame: GameData }) {
   const [state,dispatch] = useReducer(plannerReducer,initialGame,createInitialState);
   const [game,setGame] = useState(initialGame);
@@ -31,7 +25,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const [gameError,setGameError] = useState<string|null>(null);
   const currentState = useRef(state);
   useLayoutEffect(() => { currentState.current = state; }, [state]);
-  const [page,setPage] = useState<'team'|'progress'>('team');
+  const [page,setPage] = useState<PlannerPage>('team');
   const [activeSlot,setActiveSlot] = useState<number|null>(null);
   const [details,setDetails] = useState<string|null>(null);
   const [announcement,setAnnouncement] = useState('');
@@ -42,7 +36,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const {snapshot,loading,error} = useAvailability(state, progressPage);
   const gameOption = gameCatalogue.find(option => option.id === state.gameId)!;
   useEffect(() => {
-    document.title = `${game.game.name} · Pokémon Field Guide`;
+    document.title = `Route Six · ${game.game.name}`;
     document.documentElement.style.setProperty('--accent', gameOption.accentColor);
   }, [game, gameOption]);
   const team = state.team.filter((id):id is string=>id!==null);
@@ -81,22 +75,14 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   };
   return <GameContext value={game}>
     <a className="skip-link" href="#main">Skip to planner</a>
-    <header className="app-header">
-      <div className="header-inner">
-        <div className="header-planners">
-        <p className="brand"><Map size={28} aria-hidden="true" /><span>Pokémon<br />Field Guide</span></p>
-        <nav className="planner-nav" aria-label="Planner pages">{pages.map(({id,name,Icon}) => <button key={id} className={page===id?'selected':''} aria-current={page===id?'page':undefined} onClick={()=>setPage(id)}><Icon size={18} aria-hidden="true" /> {name}</button>)}</nav>
-        </div>
-        <GameSelector gameId={state.gameId} onChange={selectGame} />
-      </div>
-    </header>
+    <AppHeader gameId={state.gameId} onGameChange={selectGame} page={page} onPageChange={setPage} />
     {!progressUnavailable && <TeamBar team={state.team} teamRef={teamSlots} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} />}
     <div className="app-shell">
       {loadingGameId && <p role="status">Loading {gameCatalogue.find(option=>option.id===loadingGameId)!.name}…</p>}
       {gameError && <div className="error-message" role="alert"><strong>The selected game could not load.</strong><p>{gameError}</p><p>Select the game again to retry.</p></div>}
       {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
       <main ref={main} id="main" tabIndex={-1}>
-        <div className="section-heading planner-heading"><h1>{pages.find(p=>p.id===page)!.title}</h1>{!progressUnavailable && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
+        <div className="section-heading planner-heading"><h1>{page === 'team' ? 'Team planner' : 'Progress planner'}</h1>{!progressUnavailable && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
         {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress Planner is not available for {game.game.name} yet.</h2><p>You can still build a team and check its types.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
         {game.game.planner === null && <p className="field-hint" role="status">You can still use the Team Planner for {game.game.name}. Progress planning is not available yet.</p>}
         {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={()=>window.location.reload()}>Reload guide</button></div>}

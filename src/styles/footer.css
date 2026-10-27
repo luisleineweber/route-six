@@ -4,7 +4,7 @@
 .footer-main > section { min-width: 0; }
 .footer-main h2 { font-size: 1rem; line-height: 1.4; font-weight: 700; }
 .footer-about .footer-brand { display: flex; align-items: center; gap: 0.625rem; font-size: 1.125rem; }
-.footer-brand > svg { flex-shrink: 0; color: var(--accent-ink); }
+.footer-brand > .route-six-mark { width: 2rem; height: 2rem; color: var(--accent-ink); }
 .footer-about > p { max-width: 34ch; margin-top: 0.75rem; color: var(--muted); font-size: 0.875rem; }
 .footer-about > .footer-session { margin-top: 1.25rem; color: var(--ink); }
 .footer-facts { display: grid; gap: 0.375rem; margin-top: 0.875rem; font-size: 0.875rem; font-variant-numeric: tabular-nums; }

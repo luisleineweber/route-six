@@ -92,7 +92,6 @@ main > .error-message + * { margin-top: 0; }
 
 @media (min-width: 60rem) {
   .header-inner, .app-shell { padding-inline: 2rem; }
-  .header-inner { padding-block: 1.5rem 0.5rem; }
   .app-shell { padding-block: 1.5rem 3rem; }
 }
 @media (min-width: 60rem) and (max-width: 72rem) { :root { --page-gap: 2rem; } }

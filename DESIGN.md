@@ -1,4 +1,4 @@
-# Hoenn Field Guide
+# Route Six field guide
 
 Players use the guide next to their game in normal room light. Keep one calm
 light surface. Group content with space and tone. Do not use divider lines,
@@ -21,8 +21,13 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
 
 ## Identity
 
-- The header groups the site logo and both planner modes on one side. Show the
-  selected game's official logo on the other side (`public/games/`). Group the
+- Route Six is the working name. Its mark draws a six with a route and six
+  points, one for each team slot (`public/route-six.svg`). Use the same mark
+  in the footer and browser icon. Keep the mark white in the header.
+- The header has two rows. Put the name and mark on the leading side and the
+  selected game's official logo on the other side (`public/games/`). Put both
+  planner controls below, with a short description of each view. On phones,
+  put the game below the name and show only the planner names. Group the
   game menu by generation. Mark games without reviewed local data as planned.
 - Each of Emerald's 17 types has a round logo (`public/types/`, MIT licence).
   Slots and catalogue cards show the logo alone. The name stays available as a

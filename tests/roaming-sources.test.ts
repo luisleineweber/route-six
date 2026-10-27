@@ -17,7 +17,7 @@ describe('Roaming acquisition sources', () => {
   it('uses the release gate and permits only one catch of the same legend', () => {
     const { game, data, encounter } = roamingFixture();
     expect(validateDataset(data).ok).toBe(true);
-    expect(sourceMethod(encounter.details)).toEqual({ name: 'Roaming encounter', rodIcon: null });
+    expect(sourceMethod(encounter.details)).toEqual({ name: 'Roaming encounter', iconSrc: null });
     const early = getAvailability(data, { gameId: game.game.id, milestoneId: 'start', respectLevelLimit: false });
     const later = getAvailability(data, { gameId: game.game.id, milestoneId: 'gate', respectLevelLimit: false });
     expect(early.ok && early.value.entries.raikou.status).toBe('later');

@@ -486,3 +486,26 @@ All 27 focused export tests pass. Four new PNG samples render without browser
 errors in `output/png-export-review/readability/`. The checks confirm equal
 panel heights, aligned rows, and both missing evolution notes. The production
 build passes the data checks, TypeScript, Vite, and document copying.
+
+## Route Six header and first beta check: 27 October 2026
+
+Route Six is the selected working name. The header puts the name and route
+mark above the planner controls. The selected game stays in a separate area.
+The footer, loading text, page title, and browser icon use the new identity.
+The README now lists the current 16 games with both planners and eight games
+with Team Planner only. See [release readiness](release-readiness.md).
+
+The production build passes the checks for all 24 games, local images,
+TypeScript, Vite, and document copying. The existing data chunk warning
+remains. The nine focused footer and roaming tests pass. The roaming test
+expected the obsolete `rodIcon` field; the helper and its callers use
+`iconSrc`. The assertion now checks that current field.
+
+Browser checks cover the production page, both planner controls, shared
+team state, the game menu with Enter and Escape, and visible keyboard focus.
+The header fits at 320 and 768 pixels without horizontal page scrolling.
+The browser reports no app errors or warnings. Loaded images have no broken
+sources. Screenshots are in `output/route-six/`.
+
+The final full `npm test` run passes all 681 tests in 66 files. It takes
+522.97 seconds with the configured single worker. No tests fail or skip.

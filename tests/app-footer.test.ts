@@ -15,7 +15,7 @@ afterEach(() => vi.unstubAllEnvs());
 it('replaces the MVP line with game context, session guidance, and fan attribution', () => {
   const html = renderFooter();
   expect(html).toContain('<footer class="app-footer">');
-  expect(html).toContain('Pokémon Field Guide');
+  expect(html).toContain('Route Six');
   expect(html).toContain('Pokémon Emerald');
   expect(html).toContain('<dt>Region</dt><dd>Hoenn</dd>');
   expect(html).toContain('<dt>Generation</dt><dd>3</dd>');

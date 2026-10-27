@@ -1,4 +1,5 @@
-import { ArrowUp, BookOpen, ChevronDown, ExternalLink, Github, Map } from 'lucide-react';
+import { ArrowUp, BookOpen, ChevronDown, ExternalLink, Github } from 'lucide-react';
+import { RouteSixMark } from './RouteSixMark';
 import { useGameData } from '../features/planner/GameContext';
 
 export function AppFooter() {
@@ -9,7 +10,7 @@ export function AppFooter() {
     <div className="footer-inner">
       <div className="footer-main">
         <section className="footer-about" aria-labelledby="footer-brand">
-          <h2 id="footer-brand" className="footer-brand"><Map size={26} aria-hidden="true" />Pokémon Field Guide</h2>
+          <h2 id="footer-brand" className="footer-brand"><RouteSixMark />Route Six</h2>
           <p>Team planning and encounter guidance for your next playthrough.</p>
           <p className="footer-session">Plans reset when you reload. Export your team to keep a copy.</p>
         </section>

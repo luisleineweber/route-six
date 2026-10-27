@@ -1,4 +1,6 @@
-# Pokémon Playthrough Planner
+# Route Six
+
+Route Six is the working name for the Pokémon Playthrough Planner.
 
 Build a team of up to six Pokémon in the Team Planner. Use the Progress Planner
 to check access at a selected point in the selected game. Both views share the team.
@@ -7,16 +9,14 @@ The app uses a clear field guide style (see [DESIGN.md](DESIGN.md)). The shared
 catalogue has 721 species. Each game has its own supported profiles, type chart,
 encounters, progress gates, items, choices, evolutions, and breeding rules.
 
-The review covers Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire,
-Emerald, FireRed, LeafGreen, and Platinum. Emerald remains the default game. See
+Both planners support Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire,
+Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, X, and Y.
+Emerald remains the default game. See
 [game data status](docs/game-data-progress.md) for coverage and checks.
 
-Platinum now supports both planners. Its local data includes native encounters,
-story gates, items, choices, evolution, breeding, forms, and reviewed exclusions.
-
-Diamond, Pearl, HeartGold, SoulSilver, Black, White, Black 2, White 2,
-X, Y, Omega Ruby and Alpha Sapphire now support Team Planner. The selector
-marks them **Team ready**. Their Progress Planner data remains under review.
+HeartGold, SoulSilver, Black, White, Black 2, White 2, Omega Ruby, and
+Alpha Sapphire support Team Planner. Their Progress Planner data remains
+under review. The app shows this limit when you open that view.
 See [Generation IV–VI status](docs/generation-456-progress.md) for the open work.
 
 ## Run
@@ -43,7 +43,7 @@ project documents into `dist/docs`. The app needs no service or API at runtime.
 - Six team slots with add, replace, and remove controls.
 - Simple Team Planner with the selected game's supported species and type analysis.
 - Progress Planner with access status, sources, team checks, and level settings.
-- Emerald starts at Elite Four with the Current progress target.
+- Emerald starts at Victory Road with the Current progress target.
 - Team members and progress settings stay in memory when the view changes.
 - Regional Pokédex order first, then National Dex order for the remaining species.
 - Wild and fixed encounters, gifts, eggs, fossils, game trades, and breeding.
