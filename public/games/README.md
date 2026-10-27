@@ -1,53 +1,55 @@
-# Game logos
+# Spiellogos
 
-Official Pokémon game logos are stored locally for the game selector.
-Pokémon and these logos belong to Nintendo, Creatures, and GAME FREAK.
-The menu uses German logos, as requested for Emerald. X and Y use their
-English logos. All files were checked on 9 October 2026.
+Die Spielauswahl verwendet lokal gespeicherte englische Pokémon-Logos.
+Pokémon und diese Logos gehören Nintendo, Creatures und GAME FREAK.
+Die englische Beschriftung und die Bilddateien wurden am 26. Oktober 2026 geprüft.
 
-The Emerald logo is from the [PokéWiki image supplied by the user](https://www.pokewiki.de/images/8/8f/Pok%C3%A9mon_smaragd_Logo.png?20251116045406).
-The other German logos are from [PokéWiki](https://www.pokewiki.de/).
-X and Y are from [Bulbagarden Archives](https://archives.bulbagarden.net/).
+Die Logos stammen aus den [Bulbagarden Archives](https://archives.bulbagarden.net/),
+mit den unten gekennzeichneten Ausnahmen von Wikimedia Commons und Pokémon Wiki.
+Die Dateien sind auf maximal 480 × 240 Pixel verkleinert; transparente Außenränder
+wurden entfernt. Red und Blue sind getrennte Ausschnitte derselben Quelldatei.
+Bei Crystal wird nur das englische Logo aus der kombinierten Datei verwendet.
+Die Logos werden nicht zur Laufzeit von diesen Seiten geladen.
 
-| Local file | Source file title |
+| Lokale Datei | Quelldatei |
 | --- | --- |
-| red-logo.png | Pokémon Rot Logo.png |
-| blue-logo.png | Pokémon Blau Logo.png |
-| yellow-logo.png | Pokémon Gelb Logo.png |
-| gold-logo.png | Pokémon Gold Logo.png |
-| silver-logo.png | Pokémon Silber Logo.png |
-| crystal-logo.png | Pokémon Kristall Logo.png |
-| ruby-logo.png | Pokémon Rubin Logo.png |
-| sapphire-logo.png | Pokémon Saphir Logo.png |
-| emerald-logo.png | Pokémon smaragd Logo.png |
-| firered-logo.png | Pokémon Feuerrot Logo.png |
-| leafgreen-logo.png | Pokémon Blattgrün Logo.png |
-| diamond-logo.png | Pokémon Diamant-Logo.png |
-| pearl-logo.png | Pokémon Perl-Logo.png |
-| platinum-logo.png | Pokémon Platin Logo.png |
-| heartgold-logo.png | Pokémon HeartGold Logo.png |
-| soulsilver-logo.png | Pokémon SoulSilver Logo.png |
-| black-logo.png | Logo DE - Pokémon Schwarze Edition.png |
-| white-logo.png | Logo DE - Pokémon Weisse Edition.png |
-| black-2-logo.png | Logo DE - Pokémon Schwarze Edition 2.png |
-| white-2-logo.png | Logo DE - Pokémon Weisse Edition 2.png |
-| x-logo.png | Pokémon X logo.png (Bulbagarden) |
-| y-logo.png | Pokémon Y logo.png (Bulbagarden) |
-| omega-ruby-logo.png | Pokémon Omega Rubin Logo DE.png |
-| alpha-sapphire-logo.png | Pokémon Alpha Saphir Logo DE.png |
-| sun-logo.png | Pokémon Sonne Logo.png |
-| moon-logo.png | Pokémon Mond Logo.png |
-| ultra-sun-logo.png | Pokémon Ultrasonne Logo.png |
-| ultra-moon-logo.png | Pokémon Ultramond Logo.png |
-| lets-go-pikachu-logo.png | Pokémon Let’s Go, Pikachu! Logo.png |
-| lets-go-eevee-logo.png | Pokémon Let’s Go, Evoli! Logo.png |
-| sword-logo.png | Pokémon Schwert Logo.png |
-| shield-logo.png | Pokémon Schild Logo.png |
-| brilliant-diamond-logo.png | Pokémon Strahlender Diamant Logo.png |
-| shining-pearl-logo.png | Pokémon Leuchtende Perle Logo.png |
-| legends-arceus-logo.png | Pokémon-Legenden Arceus Logo.png |
-| scarlet-logo.png | Pokémon Karmesin Logo.png |
-| violet-logo.png | Pokémon Purpur Logo.png |
-| legends-z-a-logo.png | Pokémon-Legenden Z-A Logo.png |
+| red-logo.png | [Pokémon RB logo.png (Commons)](https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_RB_logo.png), oberes Logo |
+| blue-logo.png | [Pokémon RB logo.png (Commons)](https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_RB_logo.png), unteres Logo |
+| yellow-logo.png | [Pokemon Yellow Logo EN.png](https://archives.bulbagarden.net/wiki/File:Pokemon_Yellow_Logo_EN.png) |
+| gold-logo.png | [Pokémon Gold logo.png (Commons)](https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_Gold_logo.png) |
+| silver-logo.png | [Pokémon Silver logo.png (Commons)](https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_Silver_logo.png) |
+| crystal-logo.png | [Pokémon Crystal Version and Pocket Monsters Crystal Version logos.png (Pokémon Wiki)](https://pokemon.fandom.com/wiki/File:Pok%C3%A9mon_Crystal_Version_and_Pocket_Monsters_Crystal_Version_logos.png), linkes Logo |
+| ruby-logo.png | [Pokemon Ruby Logo EN.png](https://archives.bulbagarden.net/wiki/File:Pokemon_Ruby_Logo_EN.png) |
+| sapphire-logo.png | [Pokemon Sapphire Logo EN.png](https://archives.bulbagarden.net/wiki/File:Pokemon_Sapphire_Logo_EN.png) |
+| emerald-logo.png | [Pokemon Emerald Logo EN.png](https://archives.bulbagarden.net/wiki/File:Pokemon_Emerald_Logo_EN.png) |
+| firered-logo.png | [Pokemon FireRed Logo EN.png](https://archives.bulbagarden.net/wiki/File:Pokemon_FireRed_Logo_EN.png) |
+| leafgreen-logo.png | [Pokemon LeafGreen Logo EN.png](https://archives.bulbagarden.net/wiki/File:Pokemon_LeafGreen_Logo_EN.png) |
+| diamond-logo.png | [Diamond logo.png](https://archives.bulbagarden.net/wiki/File:Diamond_logo.png) |
+| pearl-logo.png | [Pearl logo.png](https://archives.bulbagarden.net/wiki/File:Pearl_logo.png) |
+| platinum-logo.png | [Platinum-logo.png](https://archives.bulbagarden.net/wiki/File:Platinum-logo.png) |
+| heartgold-logo.png | [HeartGoldEnglish.png](https://archives.bulbagarden.net/wiki/File:HeartGoldEnglish.png) |
+| soulsilver-logo.png | [SoulSilverEnglish.png](https://archives.bulbagarden.net/wiki/File:SoulSilverEnglish.png) |
+| black-logo.png | [Pokémon Black EN logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Black_EN_logo.png) |
+| white-logo.png | [Pokémon White EN logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_White_EN_logo.png) |
+| black-2-logo.png | [Pokémon Black 2 logo EN.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Black_2_logo_EN.png) |
+| white-2-logo.png | [Pokémon White 2 logo EN.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_White_2_logo_EN.png) |
+| x-logo.png | [Pokémon X logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_X_logo.png) |
+| y-logo.png | [Pokémon Y logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Y_logo.png) |
+| omega-ruby-logo.png | [Pokémon Omega Ruby EN logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Omega_Ruby_EN_logo.png) |
+| alpha-sapphire-logo.png | [Pokémon Alpha Sapphire EN logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Alpha_Sapphire_EN_logo.png) |
+| sun-logo.png | [Pokémon Sun logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Sun_logo.png) |
+| moon-logo.png | [Pokémon Moon logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Moon_logo.png) |
+| ultra-sun-logo.png | [Pokémon Ultra Sun logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Ultra_Sun_logo.png) |
+| ultra-moon-logo.png | [Pokémon Ultra Moon logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Ultra_Moon_logo.png) |
+| lets-go-pikachu-logo.png | [Pokémon Lets Go Pikachu Logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Lets_Go_Pikachu_Logo.png) |
+| lets-go-eevee-logo.png | [Pokémon Lets Go Eevee Logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Lets_Go_Eevee_Logo.png) |
+| sword-logo.png | [Pokémon Sword logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Sword_logo.png) |
+| shield-logo.png | [Pokémon Shield logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Shield_logo.png) |
+| brilliant-diamond-logo.png | [Pokémon Brilliant Diamond logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Brilliant_Diamond_logo.png) |
+| shining-pearl-logo.png | [Pokémon Shining Pearl logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Shining_Pearl_logo.png) |
+| legends-arceus-logo.png | [Pokémon Legends Arceus logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Legends_Arceus_logo.png) |
+| scarlet-logo.png | [Pokémon Scarlet logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Scarlet_logo.png) |
+| violet-logo.png | [Pokémon Violet logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Violet_logo.png) |
+| legends-z-a-logo.png | [Pokémon Legends Z-A logo.png](https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Legends_Z-A_logo.png) |
 
-`emerald.svg` is the original project artwork. It is kept as a source asset.
+`emerald.svg` ist die ursprüngliche Projektgrafik und bleibt als Quelldatei erhalten.

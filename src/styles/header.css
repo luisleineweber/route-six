@@ -8,7 +8,7 @@
 .planner-nav button:hover { background: oklch(1 0 0 / 0.12); color: white; }
 .planner-nav button.selected { background: white; color: var(--accent-ink); }
 .planner-nav button:focus-visible, .game-selector > summary:focus-visible { outline-color: white; }
-.game-selector { position: relative; flex-shrink: 0; }
+.game-selector { position: relative; flex-shrink: 0; margin-inline-start: auto; }
 .game-selector > summary { display: flex; align-items: center; gap: 0.75rem; min-height: 4rem; padding: 0.375rem 0.75rem; border-radius: var(--radius-tile); list-style: none; cursor: pointer; }
 .game-selector > summary::-webkit-details-marker { display: none; }
 .game-selector > summary:hover, .game-selector[open] > summary { background: oklch(1 0 0 / 0.12); }
@@ -16,18 +16,21 @@
 .selected-game { display: grid; line-height: 1.4; }
 .selected-game > span { color: oklch(1 0 0 / 0.85); font-size: 0.8125rem; }
 .game-logo { display: block; width: 7rem; height: 3.5rem; object-fit: contain; flex-shrink: 0; }
-.game-dropdown { position: absolute; inset-block-start: calc(100% + 0.5rem); inset-inline-end: 0; z-index: 10; width: min(38rem, calc(100vw - 2.5rem)); max-height: min(38rem, 75vh); overflow: auto; padding: 1.25rem; border-radius: var(--radius-tile); background: var(--surface); color: var(--ink); box-shadow: 0 0 0 1px oklch(0 0 0 / 0.08), 0 0.75rem 2.5rem oklch(0 0 0 / 0.14); overscroll-behavior: contain; }
-.game-menu-note { margin-bottom: 1.25rem; color: var(--muted); font-size: 0.875rem; }
+.game-selector > summary > .game-logo { filter: drop-shadow(0 0 1px oklch(1 0 0 / 0.9)); }
+.game-dropdown { position: absolute; inset-block-start: calc(100% + 0.5rem); inset-inline-end: 0; z-index: 10; display: flex; flex-direction: column; width: min(38rem, calc(100vw - 2.5rem)); max-height: min(40rem, var(--game-menu-height, 70dvh)); overflow: hidden; padding: 0.5rem; border-radius: var(--radius-tile); background: var(--surface); color: var(--ink); box-shadow: 0 0 0 1px oklch(0 0 0 / 0.06), 0 0.5rem 1rem oklch(0 0 0 / 0.06), 0 1.5rem 3.5rem oklch(0 0 0 / 0.14); }
+.game-list { min-height: 0; overflow: auto; padding: 0.75rem 0.75rem 1rem; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--control-line) transparent; }
 .game-generation + .game-generation { margin-top: 1.5rem; }
-.game-generation h2 { margin-bottom: 0.75rem; font-size: 0.9375rem; }
-.game-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
-.game-option { display: flex; flex-direction: column; align-items: center; gap: 0.375rem; padding: 0.625rem 0.375rem; min-width: 0; border: 0; border-radius: var(--radius-control); background: var(--tile); color: var(--ink); font-size: 0.8125rem; line-height: 1.3; }
+.game-generation h2 { margin-bottom: 0.5rem; color: var(--muted); font-size: 0.8125rem; font-weight: 600; }
+.game-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem 1rem; }
+.game-option { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.375rem; min-width: 0; min-height: 6.5rem; padding: 0.75rem; border: 0; border-radius: var(--radius-control); background: transparent; color: var(--ink); line-height: 1.3; transition: background-color 150ms ease-out; }
 .game-option:disabled { opacity: 1; color: var(--muted); }
-.game-option .game-logo { max-width: 100%; width: 6rem; height: 3rem; }
-.game-option:hover:not(:disabled) { background: var(--tile-hover); }
-.game-option[aria-pressed='true'] { background: var(--accent); color: white; }
-.game-option[aria-pressed='true']:hover { background: var(--accent-hover); }
-.game-option-status { display: inline-flex; align-items: center; gap: 0.25rem; }
+.game-option:disabled .game-logo { opacity: 0.45; filter: grayscale(1); }
+.game-option .game-logo { max-width: 100%; width: 8.5rem; height: 4.5rem; }
+.game-option:hover:not(:disabled) { background: var(--tile); }
+.game-option-note { color: var(--muted); font-size: 0.8125rem; }
+@media (prefers-reduced-motion: no-preference) {
+  .game-option:active:not(:disabled) { scale: 0.96; }
+}
 @media (max-width: 40rem) {
   .header-inner { gap: 0.5rem; }
   .header-planners { width: 100%; gap: 0.75rem; }
@@ -36,6 +39,8 @@
   .game-selector { width: 100%; }
   .game-selector > summary { justify-content: space-between; padding-inline: 0; }
   .selected-game { flex: 1; }
-  .game-dropdown { width: 100%; padding: 1rem; }
+  .game-dropdown { width: 100%; }
+  .game-list { padding-inline: 0.5rem; }
   .game-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .game-option { padding-inline: 0.5rem; }
 }
