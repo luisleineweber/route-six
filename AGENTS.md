@@ -16,6 +16,9 @@ Keep settings and the six team slots shared between both views.
 
 Use the field guide style in `DESIGN.md`. Keep visible status text, keyboard
 access, and small-screen support. Use Emerald's 17 types for type analysis.
+For every UI change, capture a screenshot before and after the change. Include
+both screenshots in the final response. If you cannot capture the before
+screen, state why and include the after screenshot.
 
 Run `npm test` and `npm run build` after a domain or data change. Use
 `npm run data:check` for a focused data check. Read `docs/emerald-coverage.md`

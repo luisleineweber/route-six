@@ -25,7 +25,7 @@ export function AcquisitionPathGroup({ group, snapshot }: { group: PathGroup; sn
           : pathOptionName(game, path)}<span className="path-subtitle">Option {index + 1} · From Lv. {path.minimumLevel}</span></span><ChevronDown className="chevron" size={16} aria-hidden="true" /></summary>
         <AcquisitionPathBody path={path} snapshot={snapshot} />
       </details>)}
-      {options.length > count && <button className="secondary-button" onClick={() => setCount(count + 6)}>Show more options ({options.length - count} remaining)</button>}
+      {options.length > count && <button className="secondary-button" onClick={() => setCount(count + 6)}>Show more options ({options.length - count} left)</button>}
     </div>}
   </details>;
 }

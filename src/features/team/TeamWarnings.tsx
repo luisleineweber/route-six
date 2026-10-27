@@ -12,7 +12,8 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
   const later = team.filter(id => snapshot.entries[id].status === 'later');
   if (check.feasible) return <div className="team-access team-access-summary team-access-success" role="status">
     <CheckCircle2 size={18} aria-hidden="true" />
-    <p>{later.length ? <>Team available over the whole game. <span>{later.map(id => pokemonIdentity(id).name).join(', ')} {later.length === 1 ? 'is' : 'are'} available later.</span></> : 'Team available at your selected progress.'}</p>
+    <p>{target === 'whole-game' ? 'Team available over the whole game.' : 'Team available at this point in the game.'}
+      {later.length > 0 && <> <span>{later.map(id => pokemonIdentity(id).name).join(', ')} {later.length === 1 ? 'is' : 'are'} available later.</span></>}</p>
   </div>;
   const groups = groupTeamWarnings(snapshot, check.warnings);
   const affected = new Set(check.warnings.flatMap(warning => warning.slotIndexes)).size;

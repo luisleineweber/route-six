@@ -388,3 +388,101 @@ The final complete test report is `output/oct21-complete-tests.json`. The build
 log is `output/xy-hgss-production-build.log`. The active data and source limits
 are in [the Diamond and Pearl review](diamond-pearl-progress-review.md) and
 [the X and Y review](xy-progress-review.md).
+
+
+## PNG export design: 26 October 2026
+
+Both PNG exports use three columns with large pixel sprites, type colors,
+and type symbols. Progress details sit on the plain sheet below each image.
+The six image areas have the same height. The team uses two aligned rows of
+three. Location and evolution sections share their row baselines. Other
+encounter options follow in a separate section below the team. The page
+layout and catalogue cards keep their existing design.
+
+The export checks cover the six-member Emerald example, three-stage and
+item evolutions, other encounter options, an unavailable event species, and
+an empty slot. All three saved samples are valid PNG files at 2400 pixels
+wide. Visual checks found no clipped text. The browser reports no errors.
+The aligned samples and their position checks are in
+`output/png-export-review/aligned/`.
+
+The 28 focused export and model tests pass. Six layout tests cover long
+words, source lists, evolution conditions, unavailable reasons, empty slots,
+and long form names. They also check shared image heights, row and section
+alignment, and long route lists that do not stretch the main team grid.
+
+`npm run build` passes data checks, TypeScript, Vite, and document copying.
+The existing large data bundle warning remains.
+
+
+### Source and type corrections
+
+The second Emerald example uses Swampert, Seedot, Shedinja, Gyarados, Mawile,
+and Vileplume. Gyarados now starts with an earlier Magikarp catch. Mawile
+includes B1F from the existing source area label. Extra places appear once
+per location. Each member has at most two printed alternatives and a count
+for the other places in the planner.
+
+The type background uses equal vertical halves. Each symbol fits within
+its half. White masks preserve small holes such as Ghost eyes and Steel
+details. The Poison bubbles remain inside the full symbol bounds. The four
+corrected PNG samples and their position checks are
+in `output/png-export-review/corrected/`. The browser reports no errors.
+
+A source query defect merged future optional visits into the first-access
+points of current catches. The query now keeps current access points separate
+from those future visits. A small availability test and the real Emerald
+Gyarados query cover this defect.
+
+The full `npm test` run finished with 650 passing tests and three failures.
+The source, export, and availability regression tests pass. The roaming
+source test still expects the old `rodIcon` property; the unchanged helper
+returns `iconSrc`. The other failures are 5-second timeouts in the unchanged
+profile-validation and Y Frost Cavern tests.
+
+The timeout recheck passes all three selected cases in the two files with
+the normal 5-second limit. The unchanged roaming icon-field expectation
+remains the only functional test failure. All 18 type symbols have visible
+foreground pixels, and their full bounds were checked.
+
+The data and TypeScript checks pass. A temporary lock on a game logo
+blocked one Vite copy step. The Vite retry passes, and the project documents
+were copied after the retry. The existing bundle size warning remains.
+
+### PNG layout feedback
+
+The header now uses the selected game's local logo and a smaller planner
+title. It shows the selected point and level limit without repeating the
+game name or current target label. The type colors use equal diagonal areas.
+The large type symbols stay inside those areas. Type names remain visible;
+the repeated small type circles were removed from the image panels.
+
+Extra catch locations share one section below the team, as requested.
+Each group shows its original slot number and Pokémon name. The team rows
+keep aligned location and evolution sections. Lists still show at most
+two places. The encounter icons were raised to align with their first text
+line. Earlier valid catch locations remain the preferred sources.
+
+The nine layout and poster tests pass. TypeScript and the Vite production build
+pass. Four rendered PNG samples and their position checks are in
+`output/png-export-review/shared-section/`. The samples include the reported team,
+an unavailable species, and an empty slot. The browser reports no errors.
+
+### PNG readability changes from the Sol review
+
+Extra catch locations now keep evolution steps absent from the main chain.
+The printed locations share one copy of each needed step. The Emerald
+examples include Oddish to Gloom at level 21 and Seedot to Nuzleaf at level 14.
+The notes also retain evolution conditions. Hidden extra locations do not
+add notes to the PNG.
+
+Image panels are 34 logical pixels shorter and keep the same sprite size.
+Source details use 20-pixel text. Evolution requirements and extra-catch
+details use 19-pixel text with a darker color. Each extra location has its
+own line above the catch species and method. Panels and detail sections
+remain aligned, with one shared extra-location section below the team.
+
+All 27 focused export tests pass. Four new PNG samples render without browser
+errors in `output/png-export-review/readability/`. The checks confirm equal
+panel heights, aligned rows, and both missing evolution notes. The production
+build passes the data checks, TypeScript, Vite, and document copying.

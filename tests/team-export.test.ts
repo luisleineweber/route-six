@@ -26,6 +26,9 @@ describe('team PNG content', () => {
     const result = snapshot([evolved], ['evolved']);
     const state = { ...initialState, milestoneId: result.query.milestoneId, team: ['raichu', null, null, null, null, null] };
     const model = buildTeamExport(game, state, true, result);
+    expect(model.logoSrc).toBe('/games/emerald-logo.png');
+    expect(model.subtitle).not.toContain(game.game.name);
+    expect(model.subtitle).not.toContain('Current/Goal');
     expect(model.slots[0].spriteSrc).toBe('/pokemon/alternate-raichu.webp');
     expect(model.slots[0].progress!.stages.map(stage => stage.spriteSrc)).toEqual([
       '/pokemon/alternate-pikachu.webp', '/pokemon/alternate-raichu.webp',
@@ -34,6 +37,7 @@ describe('team PNG content', () => {
   it('keeps six slot positions and exact damage multipliers', () => {
     const model = buildTeamExport(emerald, { ...initialState, team: [null, 'swampert', null, null, null, null] }, false, null);
     expect(model.slots).toHaveLength(6);
+    expect(model.logoSrc).toBe('/games/emerald-logo.png');
     expect(model.slots[0].dex).toBeNull();
     expect(model.slots[1].name).toBe('Swampert');
     expect(model.defense.find(row => row.type === 'grass')!.multipliers).toEqual([null, 4, null, null, null, null]);
@@ -120,10 +124,10 @@ describe('team PNG content', () => {
     const bred = { ...caught, id: 'bred', sourceIds: [source.id], minimumLevel: 5,
       breedingSteps: [{ sourceId: source.id, ruleId: 'test', parents: [{ pokemonId: 'pikachu', gender: 'female', pathId: 'caught' }, { pokemonId: 'pikachu', gender: 'male', pathId: 'caught' }] }] } as AcquisitionPath;
     const state = snapshot([bred, caught], ['bred', 'caught']);
-    expect(progressContent(emerald, state, 'raichu').location).toBe('Safari Zone');
+    expect(progressContent(emerald, state, 'raichu').location).toBe('Safari Zone · South');
     const model = buildTeamExport(emerald, { ...initialState, milestoneId: state.query.milestoneId,
       team: ['raichu', null, null, null, null, null] }, true, state);
-    expect(model.slots[0].progress!.location).toBe('Safari Zone');
+    expect(model.slots[0].progress!.location).toBe('Safari Zone · South');
   });
 
   it('exports all three stages with short level labels and predecessor sprites', () => {

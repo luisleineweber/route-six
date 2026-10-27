@@ -82,6 +82,35 @@ and focus. Place the types at the bottom right. Show Add above the top right
 corner on hover and keyboard focus. Keep Add visible on touch screens.
 Progress cards combine access status and source in one statement.
 
+## PNG exports
+
+PNG exports use a separate poster layout. They do not change the page layout.
+Use three columns and export at 2400 pixels wide. Give each Pokémon a large
+pixel sprite and a type-colored image area. Use large type symbols in the
+background. For two types, split the color area diagonally into equal areas.
+Fit each complete type symbol within its area. Keep the name,
+Dex number, slot number, and type names readable above that background.
+Do not repeat the type symbols in small circles. Use the selected game's
+logo with a small planner title. In Progress exports, show the selected
+point and level limit. Do not repeat the game name or the current target label.
+
+In Progress exports, place location and evolution details below each image
+area on the plain sheet. Use two aligned rows of three. Give all six image
+areas the same height. Align the location and evolution sections within each
+row. Prefer an earlier valid acquisition path to a simpler late catch. Put
+other encounter options in one section below the team. Label each group with
+its original slot number and Pokémon name. Show each
+place once and at most two extra places per member. Give the remaining count
+and point to the planner for the full list. Keep evolution requirements,
+conditions, and team warnings. Wrap long names and text. Keep empty slots visible.
+Use larger, darker detail text and keep image panels compact without reducing
+sprite size. Put the location on its own line in the extra-location section.
+If an extra catch needs evolution steps absent from the main chain, show those
+steps once below its printed locations, with their requirements.
+
+In Team exports, place the six image areas above the defense and coverage
+charts. Keep the chart symbols and their text legend.
+
 ## Motion and access
 
 Keep transitions short and limited to state changes. Respect reduced motion.

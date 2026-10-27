@@ -20,7 +20,7 @@ describe('Emerald and Ruby isolation', () => {
       path.sourceIds.every(id => ruby.value.sources.some(source => source.id === id)))).toBe(true);
   }, 60000);
 
-  it('keeps six team positions and shared settings when switching games', async () => {
+  it('clears six team positions and keeps shared settings when switching games', async () => {
     const emerald = await loadGame('emerald');
     const ruby = await loadGame('ruby');
     if (!emerald.ok || !ruby.ok) throw new Error('Reviewed game load failed');
@@ -32,11 +32,10 @@ describe('Emerald and Ruby isolation', () => {
     };
     const next = plannerReducer(state, {
       type: 'game', gameId: 'ruby', milestoneId: ruby.value.game.planner!.defaultMilestoneId,
-      pokemonIds: ruby.value.profiles.map(profile => profile.pokemonId),
     });
     expect(next).toMatchObject({
       gameId: 'ruby', milestoneId: 'victory-road', target: 'whole-game',
-      respectLevelLimit: false, team: state.team,
+      respectLevelLimit: false, team: Array(6).fill(null),
     });
   });
 });

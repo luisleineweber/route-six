@@ -22,7 +22,7 @@ export function AppFooter() {
             <div><dt>Catalogue</dt><dd>{profiles.length} species</dd></div>
             <div><dt>Planner support</dt><dd>{game.planner ? 'Team & Progress' : 'Team Planner'}</dd></div>
           </dl>
-          {!game.planner && <p className="footer-review-note">Progress checks are still under review.</p>}
+          {!game.planner && <p className="footer-review-note">Progress planning is not available for this game yet.</p>}
         </section>
 
         <section className="footer-project" aria-labelledby="footer-project-title">
@@ -36,7 +36,7 @@ export function AppFooter() {
           <details className="footer-credits">
             <summary><BookOpen size={16} aria-hidden="true" />Sources & credits<ChevronDown size={16} className="footer-credits-chevron" aria-hidden="true" /></summary>
             <div className="footer-credits-content">
-              <p>Game data is maintained locally, with source references and review dates.</p>
+              <p>These links show the sources used for game details.</p>
               <ul>
                 <li><a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">Pokémon sprites from PokeAPI<span className="sr-only"> (opens in a new tab)</span></a></li>
                 <li><a href="https://github.com/partywhale/pokemon-type-icons" target="_blank" rel="noopener noreferrer">Type icons by partywhale<span className="sr-only"> (opens in a new tab)</span></a> (<a href="/types/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT licence<span className="sr-only"> (opens in a new tab)</span></a>)</li>

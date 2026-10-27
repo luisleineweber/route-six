@@ -134,6 +134,25 @@ describe('team access warnings', () => {
     expect(html).not.toContain('team-issue-list');
   });
 
+  it('does not claim current team access when only a future source removes a choice conflict', () => {
+    const { data, game } = fixture(['treecko', 'torchic']);
+    game.choices.push({ id: 'starter', name: 'Starter', options: ['treecko', 'torchic'], maximumSelections: 1, review });
+    for (const id of ['treecko', 'torchic']) {
+      source(game, `starter-${id}`, id, 5, none, { maxUses: 1, choice: { groupId: 'starter', optionId: id } });
+    }
+    source(game, 'future-torchic', 'torchic', 5, milestone('future'));
+    const result = getAvailability(data, { gameId: 'emerald', milestoneId: 'gate', respectLevelLimit: true });
+    if (!result.ok) throw new Error('Fixture query failed');
+    const snapshot = result.value;
+    const team = ['treecko', 'torchic'];
+    expect(team.map(id => snapshot.entries[id].status)).toEqual(['available', 'available']);
+    expect(checkTeam(snapshot, team, 'current-progress').feasible).toBe(false);
+    expect(checkTeam(snapshot, team, 'whole-game').feasible).toBe(true);
+    const html = render(snapshot, team, 'whole-game');
+    expect(html).toContain('Team available over the whole game.');
+    expect(html).not.toContain('Team available at your selected progress.');
+  });
+
   it('keeps empty and successful teams quiet and informative', () => {
     const empty = render(blocked([]), []);
     expect(empty).toContain('Add a Pokémon to check team access.');
@@ -144,7 +163,7 @@ describe('team access warnings', () => {
     const result = getAvailability(data, { gameId: 'emerald', milestoneId: 'gate', respectLevelLimit: false });
     if (!result.ok) throw new Error('Fixture query failed');
     const html = render(result.value, ['ralts']);
-    expect(html).toContain('Team available at your selected progress.');
+    expect(html).toContain('Team available at this point in the game.');
     expect(html).not.toContain('team-issue-list');
   });
 });

@@ -32,8 +32,7 @@
 .detail-blockers li + li, .path-body li + li, .data-references li + li { margin-top: 0.375rem; }
 .first-access { display: flex; align-items: center; gap: 0.875rem; padding: 1rem 1.125rem; border-radius: var(--radius-control); background: var(--tile); }
 .first-access > svg { flex-shrink: 0; color: var(--muted); }
-.first-access h3 { color: var(--muted); font-size: 0.8125rem; font-weight: 400; }
-.first-access p { margin-top: 0.25rem; font-size: 0.9375rem; font-weight: 600; }
+.first-access p { margin: 0; font-size: 0.9375rem; font-weight: 600; }
 .pokemon-weaknesses .type-counts { margin-top: 0.75rem; }
 
 .path-details { border-radius: var(--radius-control); background: var(--tile); }

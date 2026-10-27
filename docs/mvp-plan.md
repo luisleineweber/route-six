@@ -1,8 +1,177 @@
 # Pokémon Playthrough Planner: MVP plan
 
-Status: implemented. The [eight initial choices and breeding choice](mvp-decisions.md)
-are confirmed. This plan defines the product and data contract. See the
-[implementation checks](implementation-checks.md) and [coverage list](emerald-coverage.md).
+Status: revised on 2026-10-26 from later project decisions. This revision takes
+priority over earlier MVP choices wherever they conflict. See the
+[decision history](mvp-decisions.md), [implementation checks](implementation-checks.md),
+and game-specific coverage files.
+
+## Current MVP: later decisions take priority
+
+The MVP is now a multi-game planner. It supports the games present in the game
+registry and their checked local data. Pokémon Emerald is the first complete
+reference implementation; it is no longer the only supported game. Keep shared
+Pokémon identity data consistent across games, and keep game-specific forms,
+types, sources, and progress rules in each game's data.
+
+The current catalogue has 24 games. Eleven games from Generations I–III support
+both planners. Thirteen games from Generations IV–VI support Team Planner;
+Platinum, Diamond, Pearl, X, and Y also support Progress Planner. The selector
+shows each game's coverage level. The other eight games remain Team ready while
+their Progress Planner data is under review.
+
+The app has two distinct modes:
+
+- **Team Planner:** a simple team builder. It shows the game catalogue and team
+  type analysis. Do not put progress, availability, or level-limit controls in
+  this mode.
+- **Progress Planner:** the access guide. It uses a game-specific progress
+  point and shows available Pokémon, their easiest useful source, and their
+  evolution path.
+
+Both modes use the same six team slots for the selected game. Keep the team
+when the user changes modes. Clear it when the user changes games. Sort Pokémon
+by regional Pokédex first, then National Pokédex, and show those groups as
+separate sections. Keep Pokémon that are not available at the selected point
+visible when the user plans for the whole game.
+
+The progress selector uses the eight Gym battles and Victory Road where the
+game has that milestone. Games without Victory Road use their eight Gym
+milestones. Do not expose route visits and story events as separate selector
+stages. Keep required route, story, item, and capability rules in the access
+data so availability stays accurate at each selected stage.
+
+Keep the level-limit switch separate from the planning target. It applies to
+Progress Planner access checks and may be turned off. A team target of **Whole
+game** allows future access in team checks; it does not change the visible
+search filters. Search and type filters belong with the Pokémon list. Keep
+search text and type filters when the target changes.
+
+The visual direction is a clear, dark field guide with strong game-specific
+header colours and white highlights. Keep controls and status text clear. Use
+compact, legible Pokémon grids: nine per row in Team Planner and six per row in
+Progress Planner. Keep all entries in one continuous page instead of splitting
+the catalogue into pages. Keep the team overview visible while planning. Use a
+fullscreen team strip with six compact 4:3 slots; show the Pokémon image and
+type side by side, and keep empty slots visible. Use clear Gym labels, with the
+Gym number and type where useful. Do not use a long, plain event list or nested
+progress menus.
+
+Use the game logos in the game selector. Group games by generation and sort
+them in game order. Prefer English logos. Do not repeat a selected-state label
+or add text that the logo and layout already make clear. Check logo contrast
+against each game's background colour. Keep a useful footer with a GitHub link
+and needed project information.
+
+In the Team Planner catalogue, show the add control on hover at the card's
+upper-right edge. Give clear feedback when a Pokémon is added. Put type markers
+in the card's lower-right area. Keep the detail view available from the card,
+but do not add a separate detail-file control. Use a visible remove action for a
+selected Pokémon; do not add a separate replace action. Keep the type analysis
+compact and combine weaknesses, resistances, and immunities in one graph when
+that remains easy to read.
+
+Keep visible acquisition details short and useful: the easiest relevant source,
+its location and method, and a clear evolution sequence with levels or items.
+Use only sources for the selected Pokémon, not inherited source lists from its
+pre-evolutions. Keep finding methods such as grass and Surf identifiable with
+their icons. For future access, show the actual route or area as well as any
+remaining requirement. Avoid repeated sources, overlong technical explanations,
+and vague failure text.
+
+The team overview and Progress Planner can be exported as PNG. Make the export
+readable at a glance. The team export shows the team and type effectiveness with
+colour, with the export button aligned with its heading. Use the game logo and
+type graphics to give the export character without adding a large title or
+unneeded containers. Keep team cards the same height. The Progress export shows
+the team, the easiest useful source, and a clear evolution sequence, with
+pre-evolution images where useful. Put extra encounter locations in one section
+below the team. Do not repeat the same extra-location block on each card. Show
+encounter methods with their icons. Use clear text wrapping and enough width for
+the source text. Do not include unnecessary warnings, vague "no valid source"
+text, or a long list of extra locations.
+
+Accessibility and responsive layout remain required. Every interface change
+needs a before and after screenshot. Preserve keyboard access, visible focus,
+status text, and narrow-screen support.
+
+Pokémon detail views show the selected Pokémon's own acquisition paths and its
+evolution line. Let the user open another evolution stage from that line. Show
+required levels and items. Keep first-access text short. Avoid duplicate paths,
+repeated close controls, and technical text that does not help a player act.
+When a Pokémon becomes available later, include its actual location and the
+remaining requirement. When the data shows an earlier available evolution, use
+that earlier stage as the useful route to the planned Pokémon.
+
+Keep catalogue error and team-conflict messages readable at the available page
+width. Explain the cause in direct language. Do not rely on a small narrow text
+column, unexplained symbols, or colour alone. Use type colours in the analysis
+and exports, with text labels where players need to understand status.
+
+The initial page may open directly in a planner. A separate home page was
+discussed as an idea, but no decision made it a required MVP feature. Type
+multi-select was also discussed as an option, not a confirmed default.
+
+## Review: settled decisions and remaining work
+
+The later project chats and current project rules already resolve the product
+questions that were listed as open in an earlier review. No further product
+decision is needed for those points.
+
+### Decisions already settled
+
+- **Supported games:** all eleven Generation I–III games support both planners.
+  Of the thirteen Generation IV–VI games, all support Team Planner. Platinum,
+  Diamond, Pearl, X, and Y also support Progress Planner. The game selector
+  shows each game's coverage level. A registry entry alone does not mean its
+  progress data is ready. See [adding reviewed game data](adding-games.md) and
+  [Generation IV–VI status](generation-456-progress.md).
+- **Progress stages:** Progress Planner uses Gym 1 through Gym 8, then Victory
+  Road when that game has the milestone. It defaults to Victory Road when
+  present, and otherwise Gym 8. It does not offer starter, story, League, or
+  post-game checkpoints. Games without reviewed progress data remain Team
+  Planner only until their data is complete.
+- **Level limits:** the limit uses the next opponent's highest level. At the
+  selected progress point, use that point's limit. For **Whole game**, evaluate
+  each future source at its own progress point and limit. Turning limits off
+  removes level checks only. Area, item, game-trade, and source rules still
+  apply. The switch remains available for Whole game planning.
+- **Unavailable and later access:** show supported game species from the game's
+  profiles. Keep reviewed exclusions distinct from unfinished data. Player
+  trades and external distribution events do not provide access. Whole game
+  checks future milestones in the reviewed game data, including post-game
+  sources where those records exist; the progress selector still ends at its
+  last configured checkpoint.
+- **Plan persistence:** keep the team and settings in memory while the app is
+  open. Keep the team when the user changes planner mode. Clear the team when
+  the user changes games. A reload starts a new plan; there are no accounts or
+  saved player plans.
+
+### Work still needed
+
+- Complete Progress Planner data review for HeartGold, SoulSilver, Black,
+  White, Black 2, White 2, Omega Ruby, and Alpha Sapphire. They are Team ready
+  while that access data is under review.
+- Keep each game's coverage status, source review, and automated checks in its
+  game data and coverage notes. Mark a game Progress ready only after those
+  checks pass.
+- Update the historical Emerald implementation checks and HTML export so they
+  do not read as the current multi-game acceptance list. The HTML page is now
+  marked as a historical reference and links to this plan.
+- Keep release checks aligned with the current scope: data check, tests, build,
+  both planner modes for Ready games, game and mode switching, keyboard and
+  narrow-screen access, PNG readability, and before/after screenshots for UI
+  changes.
+
+The product scope is settled. The remaining gaps are data coverage and keeping
+the implementation checks current; they do not require another product choice.
+
+## Historical Emerald MVP details
+
+The sections below record the original Emerald implementation contract. Keep
+their domain rules where they still fit the current product. Treat any claim that
+Emerald is the only game, that the catalogue is limited to Generation III, or
+that every route and story event must be a selectable progress stage as
+superseded by the current MVP above.
 
 ## Goal and scope
 

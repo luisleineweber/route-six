@@ -9,65 +9,65 @@
     "checkpoints": [
       {
         "milestoneId": "santalune-gym",
-        "label": "Defeat Viola",
-        "title": "Defeat Viola",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 1 · Bug · Viola",
+        "title": "Gym 1",
+        "detail": "Viola · Bug",
+        "typeId": "bug"
       },
       {
         "milestoneId": "cyllage-gym",
-        "label": "Defeat Grant",
-        "title": "Defeat Grant",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 2 · Rock · Grant",
+        "title": "Gym 2",
+        "detail": "Grant · Rock",
+        "typeId": "rock"
       },
       {
         "milestoneId": "shalour-gym",
-        "label": "Defeat Korrina at the Gym",
-        "title": "Defeat Korrina at the Gym",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 3 · Fighting · Korrina",
+        "title": "Gym 3",
+        "detail": "Korrina · Fighting",
+        "typeId": "fighting"
       },
       {
         "milestoneId": "coumarine-gym",
-        "label": "Defeat Ramos",
-        "title": "Defeat Ramos",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 4 · Grass · Ramos",
+        "title": "Gym 4",
+        "detail": "Ramos · Grass",
+        "typeId": "grass"
       },
       {
         "milestoneId": "lumiose-gym",
-        "label": "Defeat Clemont",
-        "title": "Defeat Clemont",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 5 · Electric · Clemont",
+        "title": "Gym 5",
+        "detail": "Clemont · Electric",
+        "typeId": "electric"
       },
       {
         "milestoneId": "laverre-gym",
-        "label": "Defeat Valerie",
-        "title": "Defeat Valerie",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 6 · Fairy · Valerie",
+        "title": "Gym 6",
+        "detail": "Valerie · Fairy",
+        "typeId": "fairy"
       },
       {
         "milestoneId": "anistar-gym",
-        "label": "Defeat Olympia",
-        "title": "Defeat Olympia",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 7 · Psychic · Olympia",
+        "title": "Gym 7",
+        "detail": "Olympia · Psychic",
+        "typeId": "psychic"
       },
       {
         "milestoneId": "snowbelle-gym",
-        "label": "Defeat Wulfric",
-        "title": "Defeat Wulfric",
-        "detail": "Includes the selected event and its required earlier events.",
-        "typeId": null
+        "label": "Gym 8 · Ice · Wulfric",
+        "title": "Gym 8",
+        "detail": "Wulfric · Ice",
+        "typeId": "ice"
       },
       {
         "milestoneId": "victory-road",
-        "label": "Enter Victory Road through the eight-badge gate",
-        "title": "Enter Victory Road through the eight-badge gate",
-        "detail": "Includes the selected event and its required earlier events.",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
         "typeId": null
       }
     ]

@@ -71,15 +71,15 @@ describe('Progress checkpoints', () => {
 });
 
 describe('Game selection', () => {
-  it('sets game progress and keeps valid members in their existing slots', () => {
+  it('sets game progress and clears all six slots while keeping shared settings', () => {
     const state = { ...initialState, team: ['ralts', 'treecko', null, null, null, null] };
-    const next = plannerReducer(state, { type: 'game', gameId: 'ruby', milestoneId: 'start', pokemonIds: ['ralts'] });
+    const next = plannerReducer(state, { type: 'game', gameId: 'ruby', milestoneId: 'start' });
     expect(next.gameId).toBe('ruby');
     expect(next.milestoneId).toBe('start');
-    expect(next.team).toEqual(['ralts', null, null, null, null, null]);
+    expect(next.team).toEqual(Array(6).fill(null));
     expect(next.target).toBe(state.target);
     expect(next.respectLevelLimit).toBe(state.respectLevelLimit);
-    expect(plannerReducer(state, { type: 'game', gameId: state.gameId, milestoneId: 'start', pokemonIds: [] })).toBe(state);
+    expect(plannerReducer(state, { type: 'game', gameId: state.gameId, milestoneId: 'start' })).toBe(state);
   });
 });
 

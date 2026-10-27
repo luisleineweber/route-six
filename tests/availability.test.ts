@@ -12,6 +12,15 @@ function query(data:Dataset,milestoneId='start',respectLevelLimit=true) {
 }
 
 describe('Progress and acquisition rules',()=>{
+  it('does not mark a current catch as available at an earlier optional visit made with later history',()=>{
+    const {data,game}=fixture(['magikarp']);
+    game.milestones.find(point=>point.id==='optional')!.previousIds=['start'];
+    source(game,'gate-catch','magikarp',5,milestone('gate'));
+    const result=query(data,'gate',false);
+    const entry=result.entries.magikarp;
+    expect(entry.firstMilestoneIds).toEqual(['gate']);
+    for(const id of entry.currentPathIds) expect(result.paths[id].firstMilestoneIds).toEqual(['gate']);
+  });
   it('keeps a selected optional source in later evolution proofs',()=>{
     const {data,game}=fixture(['ralts','kirlia']);
     game.milestones.find(m=>m.id==='optional')!.previousIds=['gate'];

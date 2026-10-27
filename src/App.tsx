@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useReducer, useRef, useState } from 'react';
 import { Compass, Map, Users } from 'lucide-react';
 import { pokemonIdentity } from './data/dataset';
 import { gameCatalogue } from './data/game-catalogue';
@@ -9,6 +9,7 @@ import { AppFooter } from './components/AppFooter';
 import { GameContext } from './features/planner/GameContext';
 import { PlannerSettings } from './features/planner/PlannerSettings';
 import { createInitialState, plannerReducer } from './features/planner/state';
+import { createGameSelection } from './features/planner/game-selection';
 import { useAvailability } from './features/planner/use-availability';
 import { TeamSlots } from './features/team/TeamSlots';
 import { TeamBar } from './features/team/TeamBar';
@@ -28,7 +29,8 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const [game,setGame] = useState(initialGame);
   const [loadingGameId,setLoadingGameId] = useState<string|null>(null);
   const [gameError,setGameError] = useState<string|null>(null);
-  const gameRequest = useRef(0);
+  const currentState = useRef(state);
+  useLayoutEffect(() => { currentState.current = state; }, [state]);
   const [page,setPage] = useState<'team'|'progress'>('team');
   const [activeSlot,setActiveSlot] = useState<number|null>(null);
   const [details,setDetails] = useState<string|null>(null);
@@ -44,23 +46,22 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     document.documentElement.style.setProperty('--accent', gameOption.accentColor);
   }, [game, gameOption]);
   const team = state.team.filter((id):id is string=>id!==null);
-  const selectGame = async (id: string) => {
-    const request = ++gameRequest.current;
-    setGameError(null);
-    if (id === state.gameId) { setLoadingGameId(null); return; }
-    setLoadingGameId(id);
-    const result = await loadGame(id);
-    if (request !== gameRequest.current) return;
-    setLoadingGameId(null);
-    if (!result.ok) {
-      const message = gameLoadMessage(result.error);
-      console.error('Game data failed:', message); setGameError(message); return;
-    }
-    const next = result.value;
-    setGame(next);
-    dispatch({type:'game',gameId:id,milestoneId:next.game.planner?.defaultMilestoneId ?? null});
-    setActiveSlot(null); setDetails(null);
-  };
+  const [selectGame] = useState(() => createGameSelection({
+    getState: () => currentState.current,
+    confirmChange: id => window.confirm(`Switch to ${gameCatalogue.find(option => option.id === id)!.name}? This will clear your current team.`),
+    loadGame,
+    onLoading: setLoadingGameId,
+    onError: error => {
+      if (!error) { setGameError(null); return; }
+      const message = gameLoadMessage(error);
+      console.error('Game data failed:', message); setGameError(message);
+    },
+    onChange: next => {
+      setGame(next);
+      dispatch({type:'game',gameId:next.game.id,milestoneId:next.game.planner?.defaultMilestoneId ?? null});
+      setActiveSlot(null); setDetails(null);
+    },
+  }));
   const choose = (slot:number) => {
     setActiveSlot(slot);
     document.getElementById('pokemon-search')?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
@@ -96,8 +97,8 @@ export default function App({ initialGame }: { initialGame: GameData }) {
       {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
       <main ref={main} id="main" tabIndex={-1}>
         <div className="section-heading planner-heading"><h1>{pages.find(p=>p.id===page)!.title}</h1>{!progressUnavailable && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
-        {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress data is not ready yet</h2><p>You can build a team and check its types for {game.game.name}. Access checks are still under review.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
-        {game.game.planner === null && <p className="field-hint" role="status">Team Planner is ready for {game.game.name}. Progress checks are still under review.</p>}
+        {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress Planner is not available for {game.game.name} yet.</h2><p>You can still build a team and check its types.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
+        {game.game.planner === null && <p className="field-hint" role="status">You can still use the Team Planner for {game.game.name}. Progress planning is not available yet.</p>}
         {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={()=>window.location.reload()}>Reload guide</button></div>}
         <section className="team-section" aria-labelledby="team-title">
           <h2 id="team-title" className="sr-only">Your team</h2>
@@ -105,13 +106,13 @@ export default function App({ initialGame }: { initialGame: GameData }) {
           {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <p className="loading-note" role="status"><span className="loading-dot" />Checking team access{state.respectLevelLimit?' with the level limit':' without the level limit'}…</p>)}
         </section>
         {page==='team' && <TypeAnalysis team={state.team} />}
-        <PokemonSearch key={`${state.gameId}:${state.target}`} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
+        <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
         </>}
       </main>
     </div>
     <AppFooter />
     <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
     <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={progressPage} onClose={()=>setDetails(null)} onAdd={add} canAdd={activeSlot!==null || state.team.includes(null)} />
-    {progressPage && loading && <span className="sr-only" aria-live="polite">The guide is checking the selected progress and level setting.</span>}
+    {progressPage && loading && <span className="sr-only" aria-live="polite">Checking Pokémon availability.</span>}
   </GameContext>;
 }

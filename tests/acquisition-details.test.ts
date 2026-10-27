@@ -25,7 +25,7 @@ function details(paths: AcquisitionPath[], status: 'available' | 'later' = 'avai
 }
 
 function acquisitionPaths(paths: AcquisitionPath[], status: 'available' | 'later' = 'available') {
-  return details(paths, status).split('<h3>Acquisition paths</h3>')[1].split('<details class="progress-details">')[0];
+  return details(paths, status).split('<h3>How to get this Pokémon</h3>')[1].split('<details class="progress-details">')[0];
 }
 
 const titles = (html: string) => [...html.matchAll(/<span class="path-title">([^<]+)/g)].map(match => match[1]);
@@ -93,7 +93,7 @@ describe('first access labels', () => {
     const ralts = { ...evolved, pokemonId: 'ralts', evolutionIds: [],
       sourceIds: ['wild-route-102-grass-ralts'], firstMilestoneIds: ['route-102'] };
     const html = details([ralts]);
-    expect(html).toContain('<p>Route 102</p>');
+    expect(html).toContain('<p>Available from Route 102.</p>');
     expect(html).not.toContain('Route 102 — at “Route 102”');
   });
 
@@ -102,8 +102,8 @@ describe('first access labels', () => {
       sourceIds: ['wild-granite-cave-1f-grass-makuhita'], firstMilestoneIds: ['mr-briney'] };
     const html = details([makuhita]);
     const label = 'Granite Cave — after “Sail with Mr. Briney”';
-    expect(html).toContain(`<p>${label}</p>`);
-    expect(html).toContain(`<dt>First access</dt><dd>${label}</dd>`);
+    expect(html).toContain(`<p>Available from ${label}.</p>`);
+    expect(html).toContain(`<dt>Available from</dt><dd>${label}</dd>`);
   });
 
   it('uses the evolution path that matches first access instead of a later direct catch', () => {
@@ -111,7 +111,7 @@ describe('first access labels', () => {
       sourceIds: ['wild-meteor-falls-upper-super-rod-whiscash'], firstMilestoneIds: ['juan-defeated'] };
     const early = { ...evolved, firstMilestoneIds: ['norman-defeated'] };
     const html = details([caught, early], 'available', ['norman-defeated']);
-    expect(html).toContain('<p>Evolve Barboach — after “Defeat Norman and receive Surf”</p>');
+    expect(html).toContain('<p>Available from Evolve Barboach — after “Defeat Norman and receive Surf”.</p>');
   });
 
   it('ties each independent first-access point to its own source', () => {
@@ -119,7 +119,21 @@ describe('first access labels', () => {
       sourceIds: ['wild-route-123-old-rod-magikarp'], firstMilestoneIds: ['route-123'] };
     const scope = { ...route, id: 'scope', sourceIds: ['wild-safari-zone-southwest-old-rod-magikarp'], firstMilestoneIds: ['devon-scope'] };
     const html = details([scope, route], 'later', ['route-123', 'devon-scope']);
-    expect(html).toContain('<p>Route 123</p>');
+    expect(html).toContain('<p>Available from Route 123.</p>');
     expect(html).toContain('<li>Safari Zone — after “Receive the Devon Scope”</li>');
+  });
+
+  it('does not show internal resource IDs', () => {
+    const limited = { ...evolved, claims: [{ resourceId: 'source:wild-route-102-grass-ralts', quantity: 1, use: 'retain' as const }] };
+    const html = details([limited]);
+    expect(html).not.toContain('Finite resources');
+    expect(html).not.toContain('source:wild-route-102-grass-ralts');
+  });
+
+  it('shows source links without revision identifiers', () => {
+    const html = details([evolved]);
+    expect(html).toContain('<summary>Sources');
+    expect(html).toContain('Sources for Pokémon Emerald. Last checked:');
+    expect(html).not.toContain('Revision ');
   });
 });

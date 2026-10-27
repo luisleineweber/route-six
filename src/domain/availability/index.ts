@@ -88,21 +88,26 @@ export function getAvailability(data: Dataset, query: AvailabilityQuery): Result
     const later = futurePaths.get(id) ?? [];
     const blockers = now.length ? [] : pokemonBlockers(game, current, id);
     const unavailable = !later.length && blockers.some(isExclusionBlocker);
-    const firstMilestoneIds = firstPoints(game, [...new Set([...now, ...later].flatMap(p => p.firstMilestoneIds))]);
+    const firstMilestoneIds = firstPoints(game, [...new Set((now.length ? now : later).flatMap(p => p.firstMilestoneIds))]);
     const canonical = new Map<string, ProofPath>();
-    const compact = (paths: ProofPath[]) => paths.map(path => {
+    const currentKeys = new Set(now.map(pathSignature));
+    const compact = (paths: ProofPath[], future = false) => paths.map(path => {
       const key = pathSignature(path);
       const existing = canonical.get(key);
       if (existing) {
         aliases.set(path.id, existing.id);
-        existing.firstMilestoneIds = firstPoints(game, [...new Set([...existing.firstMilestoneIds, ...path.firstMilestoneIds])]);
+        // A future optional visit includes the selected history. It cannot make
+        // an existing catch available earlier than its current proof.
+        if (!future || !currentKeys.has(key)) {
+          existing.firstMilestoneIds = firstPoints(game, [...new Set([...existing.firstMilestoneIds, ...path.firstMilestoneIds])]);
+        }
         return existing;
       }
       const copy = { ...path, firstMilestoneIds: [...path.firstMilestoneIds] };
       aliases.set(path.id, copy.id);
       canonical.set(key, copy); return copy;
     });
-    const compactNow = compact(now); const compactLater = compact(later);
+    const compactNow = compact(now); const compactLater = compact(later, true);
     for (const path of [...compactNow, ...compactLater]) snapshot.paths[path.id] = path;
     snapshot.entries[id] = { pokemonId: profile.pokemonId, status: now.length ? 'available' : later.length ? 'later' : unavailable ? 'unavailable' : 'blocked',
       currentPathIds: [...new Set(compactNow.map(p => p.id))], futurePathIds: [...new Set(compactLater.map(p => p.id))], firstMilestoneIds, blockers };

@@ -34,7 +34,7 @@ it('uses the selected game and distinguishes team-only support', () => {
   expect(html).toContain('Pokémon HeartGold');
   expect(html).toContain(`<dd>${heartgold.profiles.length} species</dd>`);
   expect(html).toContain('<dd>Team Planner</dd>');
-  expect(html).toContain('Progress checks are still under review.');
+  expect(html).toContain('Progress planning is not available for this game yet.');
   expect(html).not.toContain('Pokémon Emerald');
   expect(html).not.toContain('Team &amp; Progress');
 });
@@ -59,7 +59,7 @@ it('keeps source credits in a native disclosure with asset attribution and new-t
   const html = renderFooter();
   expect(html).toContain('<details class="footer-credits"><summary>');
   expect(html).toContain('Sources &amp; credits');
-  expect(html).toContain('Game data is maintained locally, with source references and review dates.');
+  expect(html).toContain('These links show the sources used for game details.');
   expect(html).toContain('href="https://github.com/PokeAPI/sprites"');
   expect(html).toContain('href="https://github.com/partywhale/pokemon-type-icons"');
   expect(html).toContain('href="/types/LICENSE.txt"');

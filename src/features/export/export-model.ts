@@ -4,7 +4,7 @@ import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types'
 import { checkTeam } from '../../domain/team/check-team';
 import type { AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
 import type { PlannerState } from '../planner/state';
-import { progressContent, progressPathPriority, type ProgressContent } from './progress-content';
+import { progressContent, compareProgressPaths, type ProgressContent } from './progress-content';
 
 export interface ExportSlot {
   name: string;
@@ -18,6 +18,7 @@ export interface TeamExport {
   kind: 'team' | 'progress';
   title: string;
   subtitle: string;
+  logoSrc: string;
   filename: string;
   slots: ExportSlot[];
   defense: { type: string; multipliers: (number | null)[] }[];
@@ -27,7 +28,7 @@ export interface TeamExport {
 
 function selectTeamPaths(game: GameData, snapshot: AvailabilitySnapshot, members: string[], target: PlanningTarget) {
   const sorted = (ids: string[]) => [...ids].sort((first, second) =>
-    progressPathPriority(game, snapshot.paths[first]) - progressPathPriority(game, snapshot.paths[second]));
+    compareProgressPaths(game, snapshot.paths[first], snapshot.paths[second]));
   const entries = { ...snapshot.entries };
   for (const id of members) {
     const entry = entries[id];
@@ -50,11 +51,12 @@ export function buildTeamExport(game: GameData, state: PlannerState, progress: b
   const selectedPaths = selected.paths;
   const analysis = analyzeTypes(game, members);
   const mode = progress ? 'Progress planner' : 'Team planner';
-  const subtitle = progress ? [game.game.name, game.milestones.find(point => point.id === state.milestoneId)!.name,
-    state.target === 'whole-game' ? 'Whole game' : 'Current/Goal progress',
+  const subtitle = progress ? [game.milestones.find(point => point.id === state.milestoneId)!.name,
+    ...(state.target === 'whole-game' ? ['Whole game'] : []),
     state.respectLevelLimit ? snapshot!.levelLimit ? `Level limit: ${snapshot!.levelLimit.level}` : 'No active level limit' : 'Level limit off'].join(' · ') : game.game.name;
   return {
     kind: progress ? 'progress' : 'team', title: mode, subtitle,
+    logoSrc: `/games/${state.gameId}-logo.png`,
     filename: `${state.gameId}-${progress ? 'progress' : 'team'}-planner.png`,
     slots: state.team.map(id => {
       if (!id) return { name: 'Empty slot', dex: null, spriteSrc: null, types: [], progress: null };

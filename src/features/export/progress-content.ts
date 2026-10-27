@@ -1,11 +1,11 @@
 import { pokemonById, pokemonIdentity } from '../../data/dataset';
 import { selectionId, selectionProfile } from '../../domain/pokemon-selection';
-import { pathSource, breedingParentName, sourceMethod } from '../../components/acquisition-presentation';
-import { evolutionConditionText } from '../../components/evolution-presentation';
+import { pathSource, pathOptionName, breedingParentName, sourceMethod } from '../../components/acquisition-presentation';
+import { evolutionConditionText, evolutionLabels } from '../../components/evolution-presentation';
 import { encounterInstructions } from '../../components/encounter-presentation';
 import { itemSourceInstructions } from '../../components/item-source-presentation';
 import { isExclusionBlocker } from '../../domain/availability/exclusions';
-import type { AcquisitionPath, AvailabilitySnapshot, GameData, PokemonSource } from '../../domain/types';
+import type { AcquisitionPath, AvailabilitySnapshot, Evolution, GameData, PokemonSource } from '../../domain/types';
 
 export interface EvolutionStage {
   name: string;
@@ -30,6 +30,23 @@ export interface ProgressRouteOption {
   sourceName: string;
   method: string;
   methodIconSrc: string | null;
+  evolutionNotes: string[];
+}
+
+function evolutionRequirement(game: GameData, rule: Evolution) {
+  return rule.trigger === 'use-item' ? game.items.find(item => item.id === rule.itemId)!.name
+    : rule.trigger === 'player-trade' ? 'Player trade'
+    : rule.minimumLevel ? `Lv. ${rule.minimumLevel}` : 'Level up';
+}
+
+function extraEvolutionNotes(game: GameData, path: AcquisitionPath, selectedPath: AcquisitionPath) {
+  return path.evolutionIds.filter(id => !selectedPath.evolutionIds.includes(id)).map(id => {
+    const rule = game.evolutions.find(rule => rule.id === id)!;
+    const target = path.coProductIds.includes(rule.toPokemonId) ? path.pokemonId : rule.toPokemonId;
+    const from = pokemonIdentity(selectionId(rule.fromPokemonId, rule.fromFormId)).name;
+    const to = pokemonIdentity(selectionId(target, target === rule.toPokemonId ? rule.toFormId : null)).name;
+    return [`${from} → ${to}`, evolutionRequirement(game, rule), ...evolutionLabels(game, rule).slice(1)].join(' · ');
+  });
 }
 
 function encounterLabels(source: PokemonSource) {
@@ -52,35 +69,23 @@ function otherRouteOptions(game: GameData, snapshot: AvailabilitySnapshot, id: s
   const entry = snapshot.entries[id];
   const ids = entry.currentPathIds.length ? entry.currentPathIds : entry.futurePathIds;
   const selectedSource = pathSource(game, selectedPath);
-  const selectedKey = selectedSource.details.kind === 'wild'
-    ? JSON.stringify([selectedSource.locationId, selectedSource.pokemonId, selectedSource.formId ?? null,
-      selectedSource.details.method, encounterLabels(selectedSource)])
-    : null;
-  const options = new Map<string, ProgressRouteOption & { milestoneOrder: number; locationOrder: number }>();
-  for (const pathId of ids) {
+  const options = new Map<string, ProgressRouteOption>();
+  for (const pathId of [...ids].sort((a, b) => compareProgressPaths(game, snapshot.paths[a], snapshot.paths[b]))) {
     const path = snapshot.paths[pathId];
     const source = pathSource(game, path);
     if (source.details.kind !== 'wild') continue;
     const conditions = encounterLabels(source);
-    const key = JSON.stringify([source.locationId, source.pokemonId, source.formId ?? null, source.details.method, conditions]);
-    if (key === selectedKey || options.has(key)) continue;
+    if (source.locationId === selectedSource.locationId || options.has(source.locationId)) continue;
     const method = sourceMethod(source.details);
-    const milestoneOrder = Math.min(...path.firstMilestoneIds.map(milestoneId => {
-      const index = game.milestones.findIndex(milestone => milestone.id === milestoneId);
-      return index < 0 ? Number.MAX_SAFE_INTEGER : index;
-    }), Number.MAX_SAFE_INTEGER);
-    options.set(key, {
+    options.set(source.locationId, {
       location: game.locations.find(location => location.id === source.locationId)!.name,
       sourceName: pokemonIdentity(selectionId(source.pokemonId, source.formId)).name,
       method: conditions.length ? `${method.name} (${conditions.join(', ')})` : method.name,
       methodIconSrc: method.iconSrc,
-      milestoneOrder,
-      locationOrder: game.locations.findIndex(location => location.id === source.locationId),
+      evolutionNotes: extraEvolutionNotes(game, path, selectedPath),
     });
   }
-  return [...options.values()]
-    .sort((a, b) => a.milestoneOrder - b.milestoneOrder || a.locationOrder - b.locationOrder || a.sourceName.localeCompare(b.sourceName))
-    .map(({ location, sourceName, method, methodIconSrc }) => ({ location, sourceName, method, methodIconSrc }));
+  return [...options.values()];
 }
 
 function stage(game: GameData, id: string, requirement: string | null = null, conditions: string[] = []): EvolutionStage {
@@ -89,10 +94,20 @@ function stage(game: GameData, id: string, requirement: string | null = null, co
     spriteSrc: selectionProfile(game, id).spriteSrc, requirement, conditions };
 }
 
-export function progressPathPriority(game: GameData, path: AcquisitionPath): number {
-  // Prefer a direct source over breeding, then fewer evolution steps and conditions.
+function progressPathPriority(game: GameData, path: AcquisitionPath): number {
   const conditions = path.evolutionIds.reduce((count, id) => count + game.evolutions.find(rule => rule.id === id)!.conditions.length, 0);
   return path.breedingSteps.length * 100 + conditions * 10 + path.evolutionIds.length;
+}
+
+/** Choose an earlier proven path before a simpler late catch. This does not grant access. */
+export function compareProgressPaths(game: GameData, first: AcquisitionPath, second: AcquisitionPath): number {
+  const order = (path: AcquisitionPath) => Math.min(Number.MAX_SAFE_INTEGER, ...path.firstMilestoneIds.map(id => {
+    const index = game.milestones.findIndex(point => point.id === id);
+    return index < 0 ? Number.MAX_SAFE_INTEGER : index;
+  }));
+  return order(first) - order(second)
+    || progressPathPriority(game, first) - progressPathPriority(game, second)
+    || first.minimumLevel - second.minimumLevel;
 }
 
 export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, id: string, selectedPath?: AcquisitionPath): ProgressContent {
@@ -100,7 +115,7 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
   const ids = entry.currentPathIds.length ? entry.currentPathIds : entry.futurePathIds;
   const paths = ids.map(id => snapshot.paths[id]);
   const path = selectedPath ?? paths.reduce<AcquisitionPath | null>((best, candidate) =>
-    !best || progressPathPriority(game, candidate) < progressPathPriority(game, best) ? candidate : best, null);
+    !best || compareProgressPaths(game, candidate, best) < 0 ? candidate : best, null);
   if (!path) {
     const exclusion = entry.blockers.find(isExclusionBlocker);
     const explanation = exclusion?.code === 'other-version'
@@ -121,9 +136,7 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
   for (const id of path.evolutionIds) {
     const rule = game.evolutions.find(rule => rule.id === id)!;
     const target = path.coProductIds.includes(rule.toPokemonId) ? path.pokemonId : rule.toPokemonId;
-    const requirement = rule.trigger === 'use-item' ? game.items.find(item => item.id === rule.itemId)!.name
-      : rule.trigger === 'player-trade' ? 'Player trade'
-      : rule.minimumLevel ? `Lv. ${rule.minimumLevel}` : 'Level up';
+    const requirement = evolutionRequirement(game, rule);
     stages.push(stage(game, selectionId(target, target === rule.toPokemonId ? rule.toFormId : null), requirement, rule.conditions.map(condition => evolutionConditionText(game, condition))));
   }
   const acquisition = path.breedingSteps.map(step => `Parents: ${step.parents.map(parent => breedingParentName(parent, snapshot)).join(' + ')}.`);
@@ -141,7 +154,9 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
     const itemId = source.details.itemId;
     acquisition.push(`Revive ${game.items.find(item => item.id === itemId)!.name}.`);
   }
-  return { location: location.name,
+  const area = source.details.kind === 'wild' ? pathOptionName(game, { ...path, evolutionIds: [] }) : 'Source option';
+  const locationName = area === 'Source option' ? location.name : `${location.name} · ${area.replace(/\bb?\d+f\b/gi, floor => floor.toUpperCase())}`;
+  return { location: locationName,
     method: method?.name ?? source.details.kind.replaceAll('-', ' '),
     methodIconSrc: method?.iconSrc ?? null,
     acquisition, routeOptions: otherRouteOptions(game, snapshot, id, path), stages, missingSource: null };

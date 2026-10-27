@@ -1,7 +1,7 @@
 import { Check, Clock3, LockKeyhole, CircleMinus } from 'lucide-react';
 import type { AvailabilityEntry } from '../domain/types';
 
-export const statusNames = { available: 'Available now', later: 'Available later', blocked: 'Condition blocked', unavailable: 'Unavailable in this game' };
+export const statusNames = { available: 'Available now', later: 'Available later', blocked: 'Requirements not met', unavailable: 'Unavailable in this game' };
 export const statusIcons = { available: Check, later: Clock3, blocked: LockKeyhole, unavailable: CircleMinus };
 export function StatusLabel({ status }: { status: AvailabilityEntry['status'] }) {
   const Icon = statusIcons[status];
