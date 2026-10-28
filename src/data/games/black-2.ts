@@ -10,9 +10,10 @@ import choices from '../../../data/games/black-2/choices.json';
 import sources from '../../../data/games/black-2/sources.json';
 import breedingRules from '../../../data/games/black-2/breeding-rules.json';
 import evolutions from '../../../data/games/black-2/evolutions.json';
+import formChanges from '../../../data/games/black-2/form-changes.json';
 import exclusions from '../../../data/games/black-2/exclusions.json';
 
 export const rawGame: unknown = {
   game, profiles, typeChart, milestones, bosses, locations, capabilities,
-  items, choices, sources, breedingRules, evolutions, exclusions,
+  items, choices, sources, breedingRules, evolutions, formChanges, exclusions,
 };

@@ -492,7 +492,7 @@ build passes the data checks, TypeScript, Vite, and document copying.
 Route Six is the selected working name. The header puts the name and route
 mark above the planner controls. The selected game stays in a separate area.
 The footer, loading text, page title, and browser icon use the new identity.
-The README now lists the current 16 games with both planners and eight games
+At that review date, the README listed 16 games with both planners and eight games
 with Team Planner only. See [release readiness](release-readiness.md).
 
 The production build passes the checks for all 24 games, local images,
@@ -509,3 +509,65 @@ sources. Screenshots are in `output/route-six/`.
 
 The final full `npm test` run passes all 681 tests in 66 files. It takes
 522.97 seconds with the configured single worker. No tests fail or skip.
+
+## Generation V Progress Planners: 28 October 2026
+
+Black, White, Black 2 and White 2 now load in Progress Planner. Each game
+has its own native access data, nine checkpoints and a Victory Road default.
+The support totals are 24 Team Planner games and 20 Progress Planner games.
+HeartGold, SoulSilver, Omega Ruby and Alpha Sapphire remain Team Planner only.
+
+Four Luna agents reviewed one game each without editing shared files. The
+parent checked proposals against the actual source and current schema.
+The [integration review](generation-5-progress-review.md) links all four
+coverage, source and form reviews. It records the resolved source conflicts
+and exact pins. The active data covers story gates, items, native encounters,
+gifts, static sources, NPC trades, choices, evolution, breeding and forms.
+Every new record has a reference and review date. No importer or runtime
+service was added.
+
+The candidate shape and semantic checks passed before registration. Direct
+access checks passed at all 36 required checkpoints and at post-game access.
+Focused rules cover fusion partner resources, arbitrary NPC offers, native
+Hidden Grotto sources, solo missions and White Forest resident choices.
+The public-query regressions check all nine points for every game.
+
+The existing shared validation regressions clone only the two games under
+test and check type, Egg Group and gender differences separately.
+
+Final command results:
+
+- `npm run data:check`: passes all 24 games and local images.
+- `npm test`: passes 736 tests in 74 files. The final run takes 900.31 seconds.
+- `npm run build`: passes data, images, TypeScript, Vite and document copying.
+  Large local-data chunks and unset `SITE_URL` report the existing warnings.
+
+Logs: `output/gen5-data-check-final-20261028.log`,
+`output/gen5-tests-final-20261028.log`, and
+`output/gen5-build-final-20261028.log`.
+
+All four games pass the browser checks: Progress Planner loads, both views
+keep the same six slots, game switching clears the slots, Undo restores
+them, and details show access paths. The 320-pixel pages have no horizontal
+scroll. Loaded images have no broken sources. No app errors were reported.
+The report is `output/generation-v-progress/browser-report.json`.
+Phone-trade instructions, Kyurem fusion details and a Black Kyurem PNG export
+also pass. See `output/generation-v-progress/details-report.json` and
+`black-2-fusion-export.png` in that folder.
+
+Before and after images for each game are in `output/generation-v-progress/`:
+`black-before.png`, `black-after.png`, `white-before.png`, `white-after.png`,
+`black-2-before.png`, `black-2-after.png`, `white-2-before.png`, and
+`white-2-after.png`. The four `*-after-320.png` images show the small layout.
+The native browser tool was unavailable in this session. Playwright supplied
+the browser checks and screenshots.
+
+The planner checks possible native access, not a save file or the current
+clock, random result, call counter, mission result or resident loss. External
+distributions, transfers, connected services and player trades stay outside
+the declared scope. Landorus in Black/White and Regigigas in the sequels
+keep their reviewed source requirements and remain blocked by an external
+partner. They are not hidden by a missing-data exclusion.
+
+Unrelated search, header, branding, game-switch and PNG design work was kept.
+No commit, branch change, push or publication was made.

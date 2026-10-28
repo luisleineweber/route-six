@@ -1,1 +1,108 @@
-[]
+[
+  {
+    "id": "starter",
+    "name": "Choose one starter",
+    "options": [
+      "snivy",
+      "tepig",
+      "oshawott"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "volcarona-capture",
+    "name": "Catch volcarona once",
+    "options": [
+      "first",
+      "postgame"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cobalion-capture",
+    "name": "Catch cobalion once",
+    "options": [
+      "first",
+      "postgame"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "terrakion-capture",
+    "name": "Catch terrakion once",
+    "options": [
+      "first",
+      "postgame"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "virizion-capture",
+    "name": "Catch virizion once",
+    "options": [
+      "first",
+      "postgame"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "player-character",
+    "name": "Player character",
+    "options": [
+      "male",
+      "female"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "fossil-choice",
+    "name": "Choose one Unova fossil",
+    "options": [
+      "cover-fossil",
+      "plume-fossil"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

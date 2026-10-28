@@ -3,6 +3,8 @@ import { selectionId, selectionProfile } from '../../domain/pokemon-selection';
 import { pathSource, pathOptionName, breedingParentName, sourceMethod } from '../../components/acquisition-presentation';
 import { evolutionConditionText, evolutionLabels } from '../../components/evolution-presentation';
 import { encounterInstructions } from '../../components/encounter-presentation';
+import { fusionInstruction } from '../../components/form-change-presentation';
+import { tradeInstructions } from '../../components/trade-presentation';
 import { itemSourceInstructions } from '../../components/item-source-presentation';
 import { isExclusionBlocker } from '../../domain/availability/exclusions';
 import type { AcquisitionPath, AvailabilitySnapshot, Evolution, GameData, PokemonSource } from '../../domain/types';
@@ -56,6 +58,7 @@ function encounterLabels(source: PokemonSource) {
       case 'season': return condition.seasons.map(season => season[0].toUpperCase() + season.slice(1)).join('/');
       case 'weekday': return condition.day[0].toUpperCase() + condition.day.slice(1);
       case 'swarm': return 'Swarm';
+      case 'funfest': return 'Mushrooms’ Hide-and-Seek';
       case 'daily': return 'Daily rotation';
       case 'radio': return condition.sound === 'hoenn' ? 'Hoenn Sound' : 'Sinnoh Sound';
       case 'headbutt-tree': return `${condition.category} tree`;
@@ -145,11 +148,16 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
   for (const id of path.formChangeIds ?? []) {
     const change = game.formChanges!.find(change => change.id === id)!;
     acquisition.push(`Change form: ${pokemonIdentity(selectionId(change.pokemonId, change.toFormId)).name}.`);
+    const fusion = fusionInstruction(change);
+    if (fusion) acquisition.push(fusion);
     if (change.heldItemId) acquisition.push(`Keep ${game.items.find(item => item.id === change.heldItemId)!.name} held by this Pokémon.`);
   }
   const selected = pokemonIdentity(selectionId(path.pokemonId, path.formId));
   if (path.formChangeIds?.length && stages.at(-1)!.name !== selected.name) stages.push(stage(game, selected.selectionId, 'Change form'));
-  if (source.details.kind === 'game-trade') acquisition.push(`Offer ${pokemonById.get(source.details.offeredPokemonId)!.name}.`);
+  if (source.details.kind === 'game-trade') {
+    if (source.details.offeredPokemonId === null) acquisition.push(...tradeInstructions(source));
+    else acquisition.push(`Offer ${pokemonById.get(source.details.offeredPokemonId)!.name}.`);
+  }
   if (source.details.kind === 'fossil') {
     const itemId = source.details.itemId;
     acquisition.push(`Revive ${game.items.find(item => item.id === itemId)!.name}.`);

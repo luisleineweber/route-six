@@ -1,9 +1,14 @@
 # Generation IV–VI data review
 
-Updated on 21 October 2026. All thirteen games load in Team Planner.
-Diamond, Pearl, Platinum, X, and Y also load in Progress Planner. Their selector
-state is **Ready**. The other eight games remain **Team ready** while their
-access review continues.
+Updated on 27 October 2026. All thirteen games load in Team Planner.
+Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, and Y also load
+in Progress Planner. HeartGold, SoulSilver, Omega Ruby and Alpha Sapphire
+still need their access layers.
+
+The app has 24 Team Planner games and 20 Progress Planner games. The four
+Generation V games now have active native offline data, nine checkpoints,
+and regression checks. See [the Generation V review](generation-5-progress-review.md)
+for source pins, coverage, closed source conflicts and declared limits.
 
 The task manifest records the child tasks. These include native access proposals,
 wild table evidence, regional lists, source checks, and parallel regression tests.
@@ -84,22 +89,21 @@ Y has 1,091. Each resolves 435 native species and 13 alternate forms.
 Fifteen further species require player trade. See
 [the X and Y review](xy-progress-review.md).
 
-The eight other games still need reviewed routes, story dependencies, capabilities,
+The four other games still need reviewed routes, story dependencies, capabilities,
 item sources, choices, native encounters, evolution rules, breeding rules,
 and native-scope exclusions. `game.planner` and `game.firstMilestoneId` are
-explicitly null for those eight games. Empty progress arrays mean that
+explicitly null for those four games. Empty progress arrays mean that
 this review is pending. They are not proof that a game has no such records.
 
 The Diamond and Pearl native encounter, evolution, breeding, gift, fossil,
 trade, and story reviews are now integrated. The remaining checked proposals
 include 36 White static and gift templates. X and Y now use the later detailed
 wild and fixed reviews. Their old raw proposals include zero-species resource
-rows. Those rows are not encounters. The Black raw proposal still needs its
-complete progress joins. These proposals are stored under
+rows. Those rows are not encounters. The four Gen V games now use the completed native access review. Earlier
+proposals are stored under
 `output/game-proposals/`; they are not active acquisition data.
 
-The shared model now has explicit form references. Nineteen reviewed
-forms have local images. Profiles, access paths, evolution rules, team slots,
+The shared model now has explicit form references. Reviewed forms have local images. Profiles, access paths, evolution rules, team slots,
 type checks, and exports use the selected form under one species identity.
 Form changes retain the captured animal and check separate held item copies.
 Form-only breeding rules name their exact parent forms. Mega and Primal battle
@@ -185,7 +189,9 @@ rows in 108 areas and 238 species. All native location IDs, species, method
 groups and level ranges match the reviewed version's legality resource.
 Further legality rows include swarms, White Forest and Hidden Grottoes.
 The shared model now keeps the detailed methods and seasonal conditions.
-Story gates, special mechanism conditions and fixed sources remain open.
+The four games now have reviewed story gates, special conditions and fixed
+sources. Their active data and checks supersede the earlier candidate-only
+status in this review history.
 
 Nine focused tests check those methods, separate Surf and Super Rod access,
 season validation, progress results, labels and export instructions.

@@ -2,10 +2,17 @@
 
 The dataset uses schema version 2. All eleven catalogue games from Generations
 I to III support both planners. Thirteen games from Generations IV to VI
-support Team Planner. Platinum also supports Progress Planner. The other
-twelve games still need their access review.
+support Team Planner. Diamond, Pearl, Platinum, Black, White, Black 2,
+White 2, X, and Y also support Progress Planner. The other four games still
+need their access review. The totals are 24 Team Planner games and 20
+Progress Planner games.
 Ruby passed the second-game checks before the group.
 A catalogue entry or logo does not provide game rules.
+
+A game is complete only when its reviewed Progress Planner works. Team
+Planner registration alone does not complete a game. Black, White, Black 2,
+and White 2 now pass their native access checks. See their
+[current source review](generation-5-progress-review.md).
 
 ## Data ownership
 

@@ -1,143 +1,84 @@
-# Pokémon Black coverage review
+# Pokémon Black Progress Planner coverage
 
-## Current app status: 18 October 2026
+Reviewed on 27 October 2026. Team Planner and Progress Planner are enabled.
+The native offline access layers are active. Every record has references and a review date.
 
-Team Planner is enabled with 649 reviewed base profiles and 156 regional entries. Type analysis, six team slots, details and PNG export use local data. Progress Planner remains pending. Its acquisition, route, evolution, breeding and form coverage is incomplete. The earlier review below is retained as source history. Current checks take precedence. See [the shared status](generation-456-progress.md).
+| Layer | Active records |
+| --- | ---: |
+| Base profiles | 649 |
+| Regional entries | 156 |
+| Alternate form profiles | 12 |
+| Milestones | 56 |
+| Pokémon sources | 1220 |
+| Evolutions, including form edges | 323 |
+| Breeding rules | 289 |
+| Explicit native-scope exclusions | 308 |
 
-The new detailed encounter comparison has 2,654 wild rows in 80 areas and
-214 species. All location-method joins and level ranges match the pinned
-PKHeX Black resource. That resource has 17 further swarm-only species.
-The detailed review retains dark grass, shaking grass, dust clouds, bridge
-shadows, rippling water and seasons. It does not prove story access or
-offline access for the separate 37 fixed and gift rows. See the saved review
-at `output/game-proposals/black-detailed-encounter-review-notes.md`.
+The catalogue uses Unova order first, then National Dex order. This game uses
+17 types and hatch level 1. The default checkpoint is Victory Road.
 
-Checked on 2026-10-13. This is an incomplete source and schema review. It is
-not a game dataset and must remain disabled.
+## Native access
 
-## Verified
+The data includes the starter-linked Dreamyard monkey, one fossil choice, five Darmanitan statues, Larvesta’s Egg, the story dragon, its fallback encounter, the roaming Pokémon and Friday Musharna. Dark grass in the Dreamyard and the basement require post-game access. White Forest does not exist in this version. Black City supplies no native Pokémon capture.
 
-- The requested scope is English Pokémon Black Version 1.0 (USA/EUR), not
-  White, Black 2, or White 2. The pinned reconstruction README names that ROM
-  and its SHA-1.
-- The pinned reconstruction commit is
-  `bbb5cd501426c1ca5f16a9d09c8d91fd03a1c12b`.
-- The source repository states that its species and trainer data has not been
-  examined. It does not provide verified collection locators for the thirteen
-  game data files.
-- The current shared species catalogue has identities and local sprites through
-  National Dex 721. This supports profile IDs and images, but does not prove
-  which species Black can acquire.
-- Current schema supports three evolution triggers, a restricted set of
-  condition kinds, and eight wild methods. It has no form identity and no
-  Black encounter-method fields. Its evolution conditions cannot state a
-  required known move or exact evolution location. Player-trade evolutions are
-  explicitly blocked by the availability solver.
-- The Black data folder now has a 17-type chart record. Fairy is absent.
+Landorus has a reviewed source. It stays blocked because it needs both Tornadus and Thundurus. This version supplies only Tornadus.
 
-## Open questions
+The wild layer retains seasons, dark grass, shaking grass, dust clouds,
+bridge shadows and rippling water. Sources require the matching action and
+Surf or the Super Rod where needed. Daily swarms require the National Dex.
+The data keeps each version’s own species and encounter levels.
 
-- Exact supported-species coverage and Unova Dex ordering for Black.
-- Black-specific evolution rules and breeding outcomes.
-- Exact encounters, levels, rates, locations, item sources, NPC trades,
-  version choices, story gates, bosses, and post-game gates.
-- Which forms count as persistent planner choices, and how to represent
-  temporary battle forms and seasonal forms.
-- Black-specific regional Dex order for each supported species.
-- The decoded location, encounter, event, item, trainer, evolution, and
-  breeding locators at a reviewed Black 1.0 source revision.
+Items include native evolution stones, incense, held evolution items, fossil
+revival, Heart Scales, key items and their access requirements. Stone dust
+clouds do not use the sequel shard-only cave tables. Breeding keeps native
+parents, incense, inherited forms, and distinct individual requirements.
+Player-trade evolutions remain blocked. No native Beauty increase is assumed.
 
-## Readiness
+## Checkpoints
 
-Black remains incomplete and disabled. The boss and type layers exist, and a
-reviewed 649-entry base profile layer now exists. It contains no Black
-regional-Dex values and makes no claim that every listed species has a native
-acquisition path. The profile review uses the shared pinned PKHeX BW personal
-table. Its reference ID still needs to be added by the parent.
+| Checkpoint | Level cap |
+| --- | ---: |
+| Gym 1: Chili / Cilan / Cress (starter-dependent) | 14 |
+| Gym 2: Lenora — Normal | 20 |
+| Gym 3: Burgh — Bug | 23 |
+| Gym 4: Elesa — Electric | 27 |
+| Gym 5: Clay — Ground | 31 |
+| Gym 6: Skyla — Flying | 35 |
+| Gym 7: Brycen — Ice | 39 |
+| Gym 8: Drayden — Dragon | 43 |
+| Victory Road | 50 |
 
-The pinned Black reconstruction does not provide verified locators for the
-game collections. Its README says that the species, trainer, and other game
-data remain unexamined. The exact locator table in `black-sources.md` marks
-all thirteen collection locators unavailable. Black still needs a reviewed
-ROM reconstruction or decoded primary source before acquisition, story,
-location, item, evolution, breeding, and exclusion records can be authored.
+`tests/gen5-acceptance-checks.ts` checks all nine points, early and later route
+gates, version choices, finite resources, native forms and final access.
+`tests/generation-v-progress.test.ts` also checks the public query and shared
+six-slot state. See [implementation checks](implementation-checks.md).
 
-The profile layer does not resolve the schema gaps listed in `black-sources.md`:
-forms, move/location and two-species trade evolutions, Black encounter
-methods, conditional breeding outcomes, or detailed story/world-state gates.
-Keep the game disabled until those rules, its exact coverage, data checks, and
-planner checks are complete.
+## Final native access
 
-## Base profile and form review (2026-10-13)
+At final native progress, 340 base species and 12 alternate forms
+have positive acquisition proofs. One further base species has a reviewed
+source that needs an external partner and stays blocked. Every other base
+species has a reviewed native-scope exclusion. No species lacks a reviewed
+outcome.
 
-### Verified
+## Reviewed exclusion inventory
 
-- The parent workspace now contains shared identities and local sprites for
-  National Dex 1–721. This does not establish Black's profile facts.
-- At pinned PKHeX revision
-  `641c26ba100225f3605e5a44b61b3b16e15a3774`, `PersonalTable.BW` loads
-  `GetTable("bw")`. `PersonalTable5BW.cs` sets the maximum species ID to 649,
-  uses record size 0x3C, and parses the table by record size.
-  `PersonalInfo5BW.cs` defines the type, gender-ratio, and Egg Group fields.
-  Black and White therefore use the same personal table. The embedded resource
-  is `personal_bw`.
-- `data/games/black/pokemon.json` now has 649 profiles. All profile fields
-  match the reviewed White profiles, including types, genders, Egg Groups,
-  and shared sprite paths. No Black regional-Dex numbers are asserted.
-- The profile file uses proposed reference `black-personal-table`. The parent
-  must register it before validation.
-- Black's Unova Dex has 156 entries, #000 Victini through #155 Genesect. The
-  existing profile schema can hold that single sequence, including 0.
-- PKHeX's pinned form lookup lists supported Gen V form indexes. The native
-  inventory notes distinguish form-sensitive permanent profile states from
-  battle-only states. The notes do not establish encounter or event access.
+These are negative results from the complete reviewed native inventory, not
+unreviewed species. The record in `exclusions.json` names the scope reason.
+The source review cross-checks negative lists against positive wild, gift,
+static, trade, swarm, special-area, evolution and breeding records.
 
-### Open questions and blockers
+external-connection: bulbasaur, ivysaur, venusaur, charmander, charmeleon, charizard, squirtle, wartortle, blastoise, caterpie, metapod, butterfree, pidgey, pidgeotto, pidgeot, ekans, arbok, pikachu, raichu, nidoran-f, nidorina, nidoqueen, nidoran-m, nidorino, nidoking, oddish, gloom, vileplume, paras, parasect, diglett, dugtrio, meowth, persian, growlithe, arcanine, abra, kadabra, alakazam, machop, machoke, machamp, bellsprout, weepinbell, victreebel, tentacool, tentacruel, golem, magnemite, magneton, grimer, muk, gastly, haunter, gengar, drowzee, hypno, voltorb, electrode, koffing, weezing, rhyhorn, rhydon, chansey, mr-mime, scyther, electabuzz, magmar, tauros, eevee, vaporeon, jolteon, flareon, porygon, articuno, zapdos, moltres, mewtwo, chikorita, bayleef, meganium, cyndaquil, quilava, typhlosion, totodile, croconaw, feraligatr, pichu, togepi, togetic, natu, xatu, mareep, flaaffy, ampharos, bellossom, marill, azumarill, sudowoodo, hoppip, skiploom, jumpluff, aipom, wooper, quagsire, espeon, umbreon, misdreavus, unown, girafarig, steelix, snubbull, granbull, scizor, teddiursa, ursaring, slugma, magcargo, skarmory, phanpy, donphan, porygon2, elekid, magby, miltank, blissey, raikou, entei, suicune, lugia, ho-oh, treecko, grovyle, sceptile, torchic, combusken, blaziken, mudkip, marshtomp, swampert, poochyena, mightyena, zigzagoon, linoone, wurmple, silcoon, beautifly, cascoon, dustox, lotad, lombre, ludicolo, seedot, nuzleaf, shiftry, ralts, kirlia, gardevoir, surskit, masquerain, slakoth, vigoroth, slaking, nincada, ninjask, shedinja, whismur, loudred, exploud, makuhita, hariyama, azurill, nosepass, skitty, delcatty, aron, lairon, aggron, meditite, medicham, electrike, manectric, minun, roselia, gulpin, swalot, numel, camerupt, torkoal, spoink, grumpig, spinda, trapinch, vibrava, flygon, cacnea, cacturne, corphish, crawdaunt, castform, kecleon, duskull, dusclops, snorunt, glalie, gorebyss, bagon, shelgon, salamence, regirock, regice, registeel, latias, latios, kyogre, groudon, rayquaza, turtwig, grotle, torterra, chimchar, monferno, infernape, piplup, prinplup, empoleon, starly, staravia, staraptor, shinx, luxio, luxray, budew, roserade, burmy, wormadam, mothim, pachirisu, shellos, gastrodon, ambipom, buneary, lopunny, mismagius, glameow, purugly, stunky, skuntank, bonsly, mime-jr, happiny, chatot, spiritomb, gible, gabite, garchomp, skorupi, drapion, carnivine, snover, abomasnow, magnezone, rhyperior, electivire, magmortar, togekiss, leafeon, glaceon, porygon-z, gallade, probopass, dusknoir, froslass, uxie, mesprit, azelf, dialga, palkia, heatran, regigigas, giratina, cresselia, gigalith, conkeldurr, solosis, duosion, reuniclus, escavalier, accelgor, rufflet, braviary, thundurus, zekrom.
 
-- Confirm Black's supported acquisition scope and regional ordering from a
-  Black-specific source. Profiles alone do not establish native access.
-- Verify Black form acquisition and transition behavior against the ROM's
-  scripts. The profile schema still has no form identity or per-form sprite.
-- The earlier story, encounter, evolution, item, and content-gate gaps remain.
+external-event: mew, celebi, jirachi, deoxys, phione, manaphy, darkrai, shaymin, arceus, victini, zorua, zoroark, keldeo, meloetta, genesect.
 
-### Readiness
+## Declared limits
 
-Black has base profiles and remains incomplete and disabled. See
-`docs/black-forms.md` for the proposed form model and inventory.
+External distributions, transfers, Dream World, Dream Radar, Memory Link,
+Entralink recruitment, Unova Link keys and player trades are outside scope.
+The planner checks possible access. It does not track a save file, the current
+season, day, resident loss, random rolls, mission results or call history.
+Conditions and required actions stay visible in details and exports.
+Battle-only transformations are outside the persistent form catalogue.
 
-
-## Reviewed partial layer (2026-10-13)
-
-### Verified
-
-- The first-run Gym battles have highest party levels 14, 20, 23, 27, 31, 35,
-  39, and 43. The type-specialist leaders after the starter-conditioned first
-  Gym are Lenora (Normal), Burgh (Bug), Elesa (Electric), Clay (Ground), Skyla
-  (Flying), Brycen (Ice), and Drayden (Dragon).
-- The first-run Elite Four members have highest party levels 50 each. N's
-  final story battle reaches level 52. Ghetsis's final story battle reaches
-  level 54. Rematches and postgame Alder are outside this layer.
-- Black's egg hatch level is 1.
-- Black uses the 17-type pre-Generation-VI chart. Fairy is absent.
-- The pinned PKHeX tree has Gen V personal data, but no trainer-party dataset.
-
-Sources and exact locators are in `black-sources.md`. The bosses schema stores
-only the highest party level. It cannot store a party roster or the three
-starter-dependent Striaton alternatives. The first Gym record has a null
-specialty type to avoid claiming one of the three specialties as universal.
-
-### Open questions and blockers
-
-- Full party rosters and each member's level need a model change if the UI or
-  records need more than the highest level.
-- Starter choices need a modeled choice and alternate boss-party support.
-- Shared species identities and forms remain parent-owned dependencies.
-- Black progression checkpoints and the full data layer remain unwritten.
-- Encounter methods, evolutions, breeding rules, and story conditions still
-  need focused source review and model support.
-
-### Readiness
-
-Only the boss caps and type chart files exist under `data/games/black/`.
-There is no valid `game.json`, no checkpoint, and no registered Black loader.
-Black remains incomplete and disabled.
+See the [source review](black-sources.md) and [form review](black-forms.md).

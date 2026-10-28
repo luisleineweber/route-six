@@ -1899,5 +1899,278 @@
     "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_xy",
     "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
     "locator": "Species678: base is the male form; form ordinal1 is female. The personal gender ratio covers the species. Each selected form has its own gender. Checked2026-10-21."
+  },
+  {
+    "id": "black-native-wild",
+    "title": "black reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=17; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_b.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "black-native-evolution",
+    "title": "black Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_bw.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "black-native-breeding",
+    "title": "black reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "Gen V mechanics cross-check: sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "black-native-events",
+    "title": "black reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select black branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/black-sources.md."
+  },
+  {
+    "id": "black-native-swarm",
+    "title": "black daily native swarms",
+    "url": "https://www.serebii.net/blackwhite/swarms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 and reviewed local gameplay snapshot 2026-10-27",
+    "locator": "Black/White daily swarm location and version tables, reported rate 40%, after the National Pokedex. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_b.pkl swarm slots."
+  },
+  {
+    "id": "black-native-story",
+    "title": "black reviewed story, route and event access",
+    "url": "https://www.serebii.net/blackwhite/tmhm.shtml",
+    "revision": "SHA-256 785d80eb1e0470a84c10db51ff9a3df6f4dec6fbba552d820a73055ba4716589",
+    "locator": "Game-specific walkthrough stage and area tables in docs/black-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "black-native-items",
+    "title": "black reviewed native evolution and access items",
+    "url": "https://www.serebii.net/blackwhite/items.shtml",
+    "revision": "SHA-256 c3845084f4779ad366b26fd95feeb9193b2da10241acaf665d1bc1787e3e7b8e",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "black-native-forms",
+    "title": "black persistent native form types and actions",
+    "url": "https://www.serebii.net/blackwhite/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/black-forms.md."
+  },
+  {
+    "id": "black-native-scope",
+    "title": "black complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/blackwhite/unobtainable.shtml",
+    "revision": "SHA-256 39582fdcc9702aed6ad083d910986baab8c27fc09fa2d6693d6f61cc77a554e8",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/black-coverage.md."
+  },
+  {
+    "id": "white-native-wild",
+    "title": "white reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=18; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_w.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "white-native-evolution",
+    "title": "white Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_bw.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "white-native-breeding",
+    "title": "white reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "Gen V mechanics cross-check: sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "white-native-events",
+    "title": "white reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select white branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/white-sources.md."
+  },
+  {
+    "id": "white-native-swarm",
+    "title": "white daily native swarms",
+    "url": "https://www.serebii.net/blackwhite/swarms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 and reviewed local gameplay snapshot 2026-10-27",
+    "locator": "Black/White daily swarm location and version tables, reported rate 40%, after the National Pokedex. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_w.pkl swarm slots."
+  },
+  {
+    "id": "white-native-story",
+    "title": "white reviewed story, route and event access",
+    "url": "https://www.serebii.net/blackwhite/tmhm.shtml",
+    "revision": "SHA-256 785d80eb1e0470a84c10db51ff9a3df6f4dec6fbba552d820a73055ba4716589",
+    "locator": "Game-specific walkthrough stage and area tables in docs/white-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "white-native-items",
+    "title": "white reviewed native evolution and access items",
+    "url": "https://www.serebii.net/blackwhite/items.shtml",
+    "revision": "SHA-256 c3845084f4779ad366b26fd95feeb9193b2da10241acaf665d1bc1787e3e7b8e",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "white-native-forms",
+    "title": "white persistent native form types and actions",
+    "url": "https://www.serebii.net/blackwhite/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/white-forms.md."
+  },
+  {
+    "id": "white-native-scope",
+    "title": "white complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/blackwhite/unobtainable.shtml",
+    "revision": "SHA-256 39582fdcc9702aed6ad083d910986baab8c27fc09fa2d6693d6f61cc77a554e8",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/white-coverage.md."
+  },
+  {
+    "id": "white-native-forest",
+    "title": "White initial offline White Forest residents",
+    "url": "https://www.smogon.com/ingame/guides/bc_wf_mechanics",
+    "revision": "SHA-256 27cf452154e93008f46892001a0eeff625113855954e296318df8ae696ef6941",
+    "locator": "How Trainers Are Selected: 10 overworld residents out of 30, level 5 grass and water pools; Why Trainers Leave and Recruitment Restrictions. Initial residents only; no Entralink recruitment. Exact resident names in source details and a maximum-ten choice group."
+  },
+  {
+    "id": "black-2-native-wild",
+    "title": "black-2 reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=21; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_b2.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "black-2-native-evolution",
+    "title": "black-2 Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_b2w2.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "black-2-native-breeding",
+    "title": "black-2 reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "black-2-native-events",
+    "title": "black-2 reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select black-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/black-2-sources.md."
+  },
+  {
+    "id": "black-2-native-swarm",
+    "title": "black-2 daily native swarms",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/enc_pokeset.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "SWARM_DATA, FLAG_SWARMS, createSwarm, FieldEncount_SetupFromData. Black 2/White 2 branches select their own species. createSwarm accepts random values 0–40 out of 0–99: 41%, not the nominal 40% in secondary tables. Random bounds: src/system/gfl_use.c GFL_RandomLCAlt. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_b2.pkl swarm slots."
+  },
+  {
+    "id": "black-2-native-story",
+    "title": "black-2 reviewed story, route and event access",
+    "url": "https://www.serebii.net/black2white2/tmhm.shtml",
+    "revision": "SHA-256 910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db",
+    "locator": "Game-specific walkthrough stage and area tables in docs/black-2-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "black-2-native-items",
+    "title": "black-2 reviewed native evolution and access items",
+    "url": "https://www.serebii.net/black2white2/items.shtml",
+    "revision": "SHA-256 f1e1f4e60598e0fe5a0fab16a73856a4c7b647f41c7ea2507a241e125fbc6e37",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "black-2-native-forms",
+    "title": "black-2 persistent native form types and actions",
+    "url": "https://www.serebii.net/black2white2/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/black-2-forms.md."
+  },
+  {
+    "id": "black-2-native-scope",
+    "title": "black-2 complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/black2white2/unobtainable.shtml",
+    "revision": "SHA-256 8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/black-2-coverage.md."
+  },
+  {
+    "id": "black-2-native-grotto",
+    "title": "black-2 native Hidden Grotto and solo mission review",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "HOLLOW_FILE_VERSION selects 1; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/black-2-sources.md."
+  },
+  {
+    "id": "white-2-native-wild",
+    "title": "white-2 reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=22; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_w2.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "white-2-native-evolution",
+    "title": "white-2 Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_b2w2.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "white-2-native-breeding",
+    "title": "white-2 reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "white-2-native-events",
+    "title": "white-2 reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select white-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/white-2-sources.md."
+  },
+  {
+    "id": "white-2-native-swarm",
+    "title": "white-2 daily native swarms",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/enc_pokeset.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "SWARM_DATA, FLAG_SWARMS, createSwarm, FieldEncount_SetupFromData. Black 2/White 2 branches select their own species. createSwarm accepts random values 0–40 out of 0–99: 41%, not the nominal 40% in secondary tables. Random bounds: src/system/gfl_use.c GFL_RandomLCAlt. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_w2.pkl swarm slots."
+  },
+  {
+    "id": "white-2-native-story",
+    "title": "white-2 reviewed story, route and event access",
+    "url": "https://www.serebii.net/black2white2/tmhm.shtml",
+    "revision": "SHA-256 910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db",
+    "locator": "Game-specific walkthrough stage and area tables in docs/white-2-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "white-2-native-items",
+    "title": "white-2 reviewed native evolution and access items",
+    "url": "https://www.serebii.net/black2white2/items.shtml",
+    "revision": "SHA-256 f1e1f4e60598e0fe5a0fab16a73856a4c7b647f41c7ea2507a241e125fbc6e37",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "white-2-native-forms",
+    "title": "white-2 persistent native form types and actions",
+    "url": "https://www.serebii.net/black2white2/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/white-2-forms.md."
+  },
+  {
+    "id": "white-2-native-scope",
+    "title": "white-2 complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/black2white2/unobtainable.shtml",
+    "revision": "SHA-256 8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/white-2-coverage.md."
+  },
+  {
+    "id": "white-2-native-grotto",
+    "title": "white-2 native Hidden Grotto and solo mission review",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "HOLLOW_FILE_VERSION selects 0; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/white-2-sources.md."
   }
 ]

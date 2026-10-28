@@ -29,6 +29,34 @@
     "sourceDetails": {
       "oneOf": [
         {
+          "type": "object", "additionalProperties": false, "required": ["kind", "mode", "mission"],
+          "properties": {
+            "kind": { "const": "hidden-grotto" }, "mode": { "const": "funfest" },
+            "mission": { "enum": ["noisy", "quiet"] }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "mode", "ratePercent"],
+          "properties": {
+            "kind": { "const": "hidden-grotto" }, "mode": { "const": "regeneration" },
+            "ratePercent": { "type": "number", "exclusiveMinimum": 0, "maximum": 20 }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "mode"],
+          "properties": { "kind": { "const": "hidden-grotto" }, "mode": { "const": "first-visit" } }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "method", "residentId", "residentName"],
+          "properties": {
+            "kind": { "const": "white-forest" }, "method": { "enum": ["grass", "surf"] },
+            "residentId": { "$ref": "common.schema.json#/$defs/id" },
+            "residentName": { "$ref": "common.schema.json#/$defs/text" }
+          }
+        },
+        {
           "type": "object", "additionalProperties": false,
           "required": ["kind", "method", "ratePercent"],
           "properties": {
@@ -62,7 +90,9 @@
           "type": "object", "additionalProperties": false, "required": ["kind", "offeredPokemonId"],
           "properties": {
             "kind": { "const": "game-trade" },
-            "offeredPokemonId": { "$ref": "common.schema.json#/$defs/id" }
+            "offeredPokemonId": { "$ref": "common.schema.json#/$defs/optionalId" },
+            "traderName": { "$ref": "common.schema.json#/$defs/text" },
+            "cyclePosition": { "type": "integer", "minimum": 1, "maximum": 12 }
           }
         },
         {
@@ -77,6 +107,10 @@
     },
     "encounterCondition": {
       "oneOf": [
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "mission"],
+          "properties": { "kind": { "const": "funfest" }, "mission": { "const": "mushrooms" } }
+        },
         {
           "type": "object", "additionalProperties": false, "required": ["kind", "seasons"],
           "properties": {
@@ -343,6 +377,7 @@
         "fromFormId": { "$ref": "common.schema.json#/$defs/optionalId" },
         "toFormId": { "$ref": "common.schema.json#/$defs/optionalId" },
         "heldItemId": { "$ref": "common.schema.json#/$defs/optionalId" },
+        "fusionPartnerPokemonId": { "$ref": "common.schema.json#/$defs/id" },
         "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
         "review": { "$ref": "common.schema.json#/$defs/review" }
       }

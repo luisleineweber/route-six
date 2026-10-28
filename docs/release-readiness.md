@@ -1,15 +1,15 @@
 # Route Six first beta
 
-Reviewed on 27 October 2026.
+Reviewed on 28 October 2026.
 
-The app is close to a first beta with its current game support. The eight
+The app is close to a first beta with its current game support. The four
 games with pending Progress Planner data do not need to block that beta.
 Keep their limits visible. Do not describe all games as complete.
 
 ## Current scope
 
 - Team Planner supports 24 games from Generations I to VI.
-- Progress Planner supports 16 games. The other eight games show a message
+- Progress Planner supports 20 games. The other four games show a message
   when a player opens Progress Planner.
 - Both views share six team slots. Players can export a PNG.
 - Plans reset on reload. The footer explains this limit. Saving and loading
@@ -45,7 +45,7 @@ release.
 
 ## Local checks
 
-- `npm test`: 681 tests pass in 66 files.
+- `npm test`: 736 tests pass in 74 files on 28 October 2026.
 - `npm run build`: all game data, local images, TypeScript, Vite, and
   document copying pass. The existing large-chunk warning remains.
 - Production browser check: planner switching keeps the team. Keyboard
@@ -53,3 +53,25 @@ release.
   no app errors or warnings, and loaded images have no broken sources.
 
 See [implementation checks](implementation-checks.md) for details.
+
+## Generation V completion: 28 October 2026
+
+Black, White, Black 2 and White 2 have active native offline Progress Planners.
+The totals are 24 Team Planner games and 20 Progress Planner games. Each game
+passed data validation before registration and has nine checkpoint tests.
+
+The [Generation V review](generation-5-progress-review.md) records the four
+read-only Luna reviews, parent source checks, source pins, resolved conflicts,
+native scope and domain rules. Coverage includes the special native sources,
+version keys, native solo missions, phone trades, breeding and persistent forms.
+
+All four games pass the browser checks: Progress Planner loads, both views
+keep the same six slots, game switching clears the slots, Undo restores
+them, and details show access paths. The 320-pixel pages have no horizontal
+scroll. Loaded images have no broken sources. No app errors were reported.
+The report is `output/generation-v-progress/browser-report.json`.
+
+The data check and production build pass. All 736 tests pass in 74 files.
+See [implementation checks](implementation-checks.md) for logs and images.
+The existing large-chunk and unset `SITE_URL` warnings remain. No release,
+commit, branch change, push or publication was made by this work.

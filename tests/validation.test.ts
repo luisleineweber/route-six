@@ -11,25 +11,19 @@ function changed(edit:(data:Dataset)=>void) {
 function messages(result:ReturnType<typeof validateDataset>) {return result.ok?[]:result.error.map(e=>e.message);}
 describe('Data validation',()=>{
   it('validates the complete local dataset',()=>{expect(validateDataset(rawDataset).ok).toBe(true);});
-  it('rejects profile differences between games in the same generation',()=>{
-    const withGames=(ids:string[])=>{
-      const data=structuredClone(rawDataset) as Dataset;
-      data.games=data.games.filter(game=>ids.includes(game.game.id));
-      return data;
-    };
-    const types=withGames(['emerald','ruby']);
-    types.games.find(g=>g.game.id==='ruby')!.profiles.find(p=>p.pokemonId==='spheal')!.types=['water','ice'];
-    const typeResult=validateDataset(types);
-    expect(messages(typeResult).join()).toContain('Type order differs');
-
-    const eggs=withGames(['emerald','ruby']);
-    eggs.games.find(g=>g.game.id==='ruby')!.profiles.find(p=>p.pokemonId==='bulbasaur')!.breeding!.eggGroupIds=['monster'];
-    expect(messages(validateDataset(eggs)).join()).toContain('Egg Groups differs');
-
-    const genders=withGames(['x','y']);
-    const xMeowstic=genders.games.find(g=>g.game.id==='x')!.profiles.find(p=>p.pokemonId==='meowstic')!;
-    xMeowstic.forms![0].genders=['male'];
-    expect(messages(validateDataset(genders)).join()).toContain('Available genders differs');
+  it.each(['types', 'eggs', 'genders'])('rejects same-generation profile differences in %s', field=>{
+    const ids=field==='genders'?['x','y']:['emerald','ruby'];
+    const data=structuredClone({...dataset,games:dataset.games.filter(game=>ids.includes(game.game.id))});
+    if(field==='types'){
+      data.games.find(g=>g.game.id==='ruby')!.profiles.find(p=>p.pokemonId==='spheal')!.types=['water','ice'];
+      expect(messages(validateDataset(data)).join()).toContain('Type order differs');
+    }else if(field==='eggs'){
+      data.games.find(g=>g.game.id==='ruby')!.profiles.find(p=>p.pokemonId==='bulbasaur')!.breeding!.eggGroupIds=['monster'];
+      expect(messages(validateDataset(data)).join()).toContain('Egg Groups differs');
+    }else{
+      data.games.find(g=>g.game.id==='x')!.profiles.find(p=>p.pokemonId==='meowstic')!.forms![0].genders=['male'];
+      expect(messages(validateDataset(data)).join()).toContain('Available genders differs');
+    }
   });
   it('rejects an invalid shape with a record and field path',()=>{
     const result=changed(d=>d.games[0].sources[0].level={kind:'fixed',value:101});expect(result.ok).toBe(false);if(!result.ok){expect(result.error.some(e=>e.recordId!==null)).toBe(true);expect(result.error.some(e=>e.fieldPath.startsWith('data/games/emerald/sources.json/'))).toBe(true);}

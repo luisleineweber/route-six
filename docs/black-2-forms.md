@@ -1,77 +1,42 @@
-# Black 2 native form inventory
+# Pokémon Black 2 native form review
 
-Review date: 13 October 2026. This is a reviewed inventory of the main
-story and ordinary postgame scope. It does not finish Black 2 data.
+Reviewed on 27 October 2026. The active Progress Planner has 16 alternate
+form profiles. Each profile keeps its own types, genders, breeding data,
+local image and review reference. Forms share the species’ National Dex number.
 
-## Verified persistent form cases
+| Species | Native persistent forms | Access rule |
+| --- | --- | --- |
+| Basculin | Red-Striped and Blue-Striped | Own encounter tables and fixed NPC trade. Breeding inherits the parent’s stripe. There is no free stripe-change action. |
+| Deerling and Sawsbuck | Spring, Summer, Autumn, Winter | Seasonal capture and season-change action. Evolution keeps the seasonal form. |
+| Rotom | Base, Heat, Wash, Frost, Fan, Mow | Native Rotom plus Shopping Mall Nine appliances. Gen V appliance types are Electric/Fire, Water, Ice, Flying, or Grass. |
+| Shellos and Gastrodon | West Sea and East Sea | Yancy and Curtis have distinct Shellos outputs. Breeding inherits the sea form; evolution keeps it. |
+| Kyurem | Base, Black Kyurem, White Kyurem | DNA Splicers plus the exact partner. Both fused forms remain Dragon/Ice. The partner stays reserved until separation. |
 
-| Species | Native forms | Persistent effect | Model impact |
-| --- | --- | --- | --- |
-| Rotom | Normal, Heat, Wash, Frost, Fan, Mow | Appliance changes typing to Electric/Ghost, Electric/Fire, Electric/Water, Electric/Ice, Electric/Flying, or Electric/Grass. Forms persist after leaving the appliance room. | Form identity needs game-specific types and image path. |
-| Kyurem | Kyurem, Black Kyurem, White Kyurem | DNA Splicers fuse Kyurem with Zekrom or Reshiram. Black Kyurem is Dragon/Electric; White Kyurem is Dragon/Fire. Fusion can be undone. | Form-aware item action and reversible form state. Do not represent either as an evolution or species. |
+The native Iron Key opens Registeel. Regice needs the external Iceberg Key. Regigigas has a reviewed source. It stays blocked because the party needs all three Regis. The native dragon partner permits only Black Kyurem. The other form has a reviewed rule but no native partner.
 
-## Other native forms
+Battle-only changes do not create persistent selectable team members.
+External-event forms and species do not gain access from a type profile.
+No type is inferred from a form name: White Kyurem is not Dragon/Fire and
+Black Kyurem is not Dragon/Electric. Gastrodon remains Water/Ground.
 
-- Basculin Red-Striped and Blue-Striped are persistent species forms. They have
-  the same Water type, gender rules, and base-stat-independent evolution
-  outcome (none). They need distinct artwork if shown as separate forms.
-- Deerling and Sawsbuck have four season appearances. The season changes their
-  appearance, not type or gender. The season follows the in-game season and
-  can change over time. Treat these as cosmetic forms, not four species.
-- Unown has letter forms and punctuation forms. The forms change appearance,
-  not type or gender. Encounter location can constrain letters. The current
-  acquisition model cannot preserve this distinction.
-- Spinda has spot-pattern forms. The pattern is cosmetic and does not change
-  type, gender, or evolution. The game does not provide a finite named form
-  list suitable for this catalogue.
-- Shellos and Gastrodon East Sea / West Sea forms differ in appearance only.
-  Both have Water/Ground typing and the same gender and evolution rules.
-- Darmanitan's Zen Mode is a battle-triggered ability form. It is not a
-  persistent party selection and has the same Fire/Psychic form typing only
-  during battle. Do not add it to planner forms.
-- Meloetta's Pirouette Form is activated by Relic Song in battle, then returns
-  to Aria Form outside battle. It is Normal/Fighting while active and
-  Normal/Psychic in Aria Form. It is a battle-only form.
-- Keldeo's Resolute Form changes appearance and move access, but not its
-  Water/Fighting typing, gender, or evolution. Treat as cosmetic for this
-  planner.
-- Tornadus, Thundurus, and Landorus have Incarnate and Therian forms. Their
-  types remain Flying; Flying, Electric/Flying; and Ground/Flying respectively.
-  The Reveal Glass changes these persistent forms. Gender does not change.
-- Genesect's drives change Techno Blast's move type, not Genesect's Bug/Steel
-  typing. The drive is an item choice, not a species form for type analysis.
-- Shaymin Sky Forme is event-dependent in Black 2, reverts when frozen or at
-  night, and changes typing. It is outside the normal native acquisition
-  scope unless event content is explicitly added later.
+Pinned personal tables, form actions and source locators are in the
+[source review](black-2-sources.md). The form checks include inherited forms, native
+partner access, partner conflicts, and separation in `tests/fusion.test.ts`.
 
-## Source evidence and review limits
+## Local form images
 
-- [PKHeX Black 2 personal table](https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_b2w2)
-  is pinned to `641c26ba100225f3605e5a44b61b3b16e15a3774`. Its binary records
-  describe species typing, gender ratio, and Egg Groups. The record layout is
-  defined in
-  [PersonalInfo5B2W2.cs](https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/PersonalInfo/Info/PersonalInfo5B2W2.cs).
-- [Bulbapedia Rotom](https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon))
-  and [Kyurem](https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon))
-  form histories describe appliance forms and DNA Splicers. Black 2 event
-  walkthroughs and the in-game item rules are needed to author exact gates.
-- The form summaries above identify schema requirements. Exact acquisition
-  routes, story gates, item records, and event scope still need direct
-  Black 2 source review before access records are written.
+Image archive revision: `ba403973fdf9d0ac59175813861e6a1f8ed5020c` in
+[PokeAPI sprites](https://github.com/PokeAPI/sprites/tree/ba403973fdf9d0ac59175813861e6a1f8ed5020c).
+Existing Rotom and Shellos/Gastrodon images remain in use. New image pins:
 
-## Proposed smallest shared model change
-
-Add stable form records under one shared National Dex identity. A game profile
-must select an explicit base form. Form records need a stable ID, owning
-`pokemonId`, local image path, game-specific types, and review. Add explicit
-form IDs to sources, evolution outcomes, and team slots. Add a reversible
-form-change rule that names its item or capability gate. Keep form rules out of
-species identity and base evolution. Add a focused test for one type-changing
-form, one cosmetic form, and Kyurem fusion plus separation.
-
-## Status
-
-Base profiles are not written in this round. The pinned record layout and
-complete source extraction still need review before exact profile facts can be
-entered by hand. Black 2 must remain disabled until profiles and form-sensitive
-rules are reviewed.
+| Form | Archive path | SHA-256 |
+| --- | --- | --- |
+| basculin-blue-striped | `sprites/pokemon/10016.png` | `d33574b961f258554fc83a6f54cdd51d2042bfa528a2bc17d02fb7351a5d8ad8` |
+| kyurem-black | `sprites/pokemon/10022.png` | `b604f99e858ba5d34926915ba281c628aaa89d8275fb23007ad1c402929cdad9` |
+| kyurem-white | `sprites/pokemon/10023.png` | `c96d70cc588709811d3e50426ae93e312c66442a9287024e3c808780849a79c0` |
+| deerling-summer | `sprites/pokemon/585-summer.png` | `fd543e6194ae949e0dfe83c3d82912585189dbd2c862b28c22a1342a1458908e` |
+| deerling-autumn | `sprites/pokemon/585-autumn.png` | `f9c52f56824deba311fde2bb739e7936db4858fb1b2637ddbf692420b52882ca` |
+| deerling-winter | `sprites/pokemon/585-winter.png` | `efc568706571ce7eca0edd82d12045c1d5358011d3d034ee3c6ad0f43fd059ce` |
+| sawsbuck-summer | `sprites/pokemon/586-summer.png` | `c8d6a6821a27627ed815beccd9cb81d4b698d7d86bea796d78986ab7336c3669` |
+| sawsbuck-autumn | `sprites/pokemon/586-autumn.png` | `4af6a14a7fae4954f32b2285a0974bb5cb5fe14835a926095dc1a732476369a4` |
+| sawsbuck-winter | `sprites/pokemon/586-winter.png` | `b9e31b16ff72b619fc42644fede2362dc6ec99340df2b0ef104c5b74e51d096b` |

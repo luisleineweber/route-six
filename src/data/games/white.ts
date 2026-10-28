@@ -10,9 +10,10 @@ import choices from '../../../data/games/white/choices.json';
 import sources from '../../../data/games/white/sources.json';
 import breedingRules from '../../../data/games/white/breeding-rules.json';
 import evolutions from '../../../data/games/white/evolutions.json';
+import formChanges from '../../../data/games/white/form-changes.json';
 import exclusions from '../../../data/games/white/exclusions.json';
 
 export const rawGame: unknown = {
   game, profiles, typeChart, milestones, bosses, locations, capabilities,
-  items, choices, sources, breedingRules, evolutions, exclusions,
+  items, choices, sources, breedingRules, evolutions, formChanges, exclusions,
 };

@@ -1,30 +1,84 @@
-# Pokémon White coverage
+# Pokémon White Progress Planner coverage
 
-## Current app status: 14 October 2026
+Reviewed on 27 October 2026. Team Planner and Progress Planner are enabled.
+The native offline access layers are active. Every record has references and a review date.
 
-Team Planner is enabled with 649 reviewed base profiles and 156 regional entries. Type analysis, six team slots, details and PNG export use local data. Progress Planner remains pending. Its acquisition, route, evolution, breeding and form coverage is incomplete. The earlier review below is retained as source history. Current checks take precedence. See [the shared status](generation-456-progress.md).
+| Layer | Active records |
+| --- | ---: |
+| Base profiles | 649 |
+| Regional entries | 156 |
+| Alternate form profiles | 12 |
+| Milestones | 56 |
+| Pokémon sources | 1280 |
+| Evolutions, including form edges | 323 |
+| Breeding rules | 289 |
+| Explicit native-scope exclusions | 216 |
 
-Status: partial-reviewed battle and base-profile layers. Review date: 2026-10-13. White remains disabled and unregistered.
+The catalogue uses Unova order first, then National Dex order. This game uses
+17 types and hatch level 1. The default checkpoint is Victory Road.
 
-## Verified records
+## Native access
 
-- `data/games/white/type-chart.json` contains the 17-type Generation V chart. Gen V uses the Gen II–V interactions. Fairy and Generation VI Steel changes do not apply.
-- `data/games/white/bosses.json` records highest levels for the Gym leaders, Elite Four, and story-ending N/Ghetsis battles. Striaton's specialty depends on the chosen starter.
-- `data/games/white/pokemon.json` contains 649 base-species profiles. It uses the pinned PKHeX Black/White personal table for exact types, gender possibilities, and Egg Groups. Each profile points to the local National Dex sprite.
-- The 156 Black/White Unova Dex entries use numbers 000–155. Victini has `regionalDex: 0`; the other Gen V species use 1–155. Other species omit `regionalDex`.
-- `docs/white-forms.md` inventories form-sensitive cases and the smallest shared model change.
+The data includes the starter-linked Dreamyard monkey, one fossil choice, five Darmanitan statues, Larvesta’s Egg, the story dragon, its fallback encounter, the roaming Pokémon and Friday Musharna. Dark grass in the Dreamyard and the basement require post-game access. White Forest uses all 30 possible initial residents, at most ten resident choices, and separate grass and Surf sources. No invited resident is required.
 
-The PKHeX personal data identifies species records. It does not prove that a species or form can be acquired natively in White. The profile list is a base-profile layer, not an acquisition or completion claim.
+Landorus has a reviewed source. It stays blocked because it needs both Tornadus and Thundurus. This version supplies only Thundurus.
 
-## Model gaps and open work
+The wild layer retains seasons, dark grass, shaking grass, dust clouds,
+bridge shadows and rippling water. Sources require the matching action and
+Surf or the Super Rod where needed. Daily swarms require the National Dex.
+The data keeps each version’s own species and encounter levels.
 
-- One profile per species cannot express multiple form types, source forms, form-specific images, or form-conditioned evolution outcomes.
-- The wild method enum does not cover dark grass, shaking grass, dust clouds, rippling water, and seasonal encounter behavior.
-- Evolution records do not support all White-specific location and condition evolution requirements or gender-conditioned target forms.
-- Breeding needs White-specific review for special offspring and held-item rules.
-- Progression, native acquisition, items, choices, exclusions, and the remaining collection locators still need White source review. The partial Black decompilation is not a White source.
-- Shared profile and form reference proposals await parent review. Secondary sources support the regional numbering and form behavior; they do not replace a pinned White reconstruction.
+Items include native evolution stones, incense, held evolution items, fossil
+revival, Heart Scales, key items and their access requirements. Stone dust
+clouds do not use the sequel shard-only cave tables. Breeding keeps native
+parents, incense, inherited forms, and distinct individual requirements.
+Player-trade evolutions remain blocked. No native Beauty increase is assumed.
 
-## Recommended next step
+## Checkpoints
 
-Review the proposed references. Add tested form and encounter support, then source-check native acquisition, progression, and other White rules. Keep White disabled until all required records are reviewed.
+| Checkpoint | Level cap |
+| --- | ---: |
+| Gym 1: Striaton Gym (Cilan, Chili, or Cress by starter choice) | 14 |
+| Gym 2: Lenora — Normal | 20 |
+| Gym 3: Burgh — Bug | 23 |
+| Gym 4: Elesa — Electric | 27 |
+| Gym 5: Clay — Ground | 31 |
+| Gym 6: Skyla — Flying | 35 |
+| Gym 7: Brycen — Ice | 39 |
+| Gym 8: Iris — Dragon | 43 |
+| Victory Road | 50 |
+
+`tests/gen5-acceptance-checks.ts` checks all nine points, early and later route
+gates, version choices, finite resources, native forms and final access.
+`tests/generation-v-progress.test.ts` also checks the public query and shared
+six-slot state. See [implementation checks](implementation-checks.md).
+
+## Final native access
+
+At final native progress, 432 base species and 12 alternate forms
+have positive acquisition proofs. One further base species has a reviewed
+source that needs an external partner and stays blocked. Every other base
+species has a reviewed native-scope exclusion. No species lacks a reviewed
+outcome.
+
+## Reviewed exclusion inventory
+
+These are negative results from the complete reviewed native inventory, not
+unreviewed species. The record in `exclusions.json` names the scope reason.
+The source review cross-checks negative lists against positive wild, gift,
+static, trade, swarm, special-area, evolution and breeding records.
+
+external-connection: bulbasaur, ivysaur, venusaur, charmander, charmeleon, charizard, squirtle, wartortle, blastoise, weedle, kakuna, beedrill, ekans, arbok, pikachu, raichu, diglett, dugtrio, meowth, persian, growlithe, arcanine, alakazam, machamp, tentacool, tentacruel, golem, grimer, muk, gengar, drowzee, hypno, voltorb, electrode, koffing, weezing, mr-mime, scyther, tauros, eevee, vaporeon, jolteon, flareon, articuno, zapdos, moltres, mewtwo, chikorita, bayleef, meganium, cyndaquil, quilava, typhlosion, totodile, croconaw, feraligatr, pichu, natu, xatu, sudowoodo, aipom, espeon, umbreon, murkrow, unown, girafarig, steelix, snubbull, granbull, scizor, teddiursa, ursaring, slugma, magcargo, skarmory, houndour, houndoom, phanpy, donphan, porygon2, miltank, raikou, entei, suicune, lugia, ho-oh, treecko, grovyle, sceptile, torchic, combusken, blaziken, mudkip, marshtomp, swampert, zigzagoon, linoone, shroomish, breloom, nincada, ninjask, shedinja, makuhita, hariyama, nosepass, skitty, delcatty, meditite, medicham, electrike, manectric, plusle, gulpin, swalot, numel, camerupt, torkoal, spoink, grumpig, spinda, cacnea, cacturne, castform, kecleon, duskull, dusclops, snorunt, glalie, huntail, regirock, regice, registeel, latias, latios, kyogre, groudon, rayquaza, turtwig, grotle, torterra, chimchar, monferno, infernape, piplup, prinplup, empoleon, burmy, wormadam, mothim, pachirisu, shellos, gastrodon, ambipom, buneary, lopunny, honchkrow, glameow, purugly, stunky, skuntank, bonsly, mime-jr, chatot, spiritomb, gible, gabite, garchomp, skorupi, drapion, carnivine, snover, abomasnow, rhyperior, electivire, magmortar, leafeon, glaceon, porygon-z, probopass, dusknoir, froslass, uxie, mesprit, azelf, dialga, palkia, heatran, regigigas, giratina, cresselia, gigalith, conkeldurr, gothita, gothorita, gothitelle, escavalier, accelgor, vullaby, mandibuzz, tornadus, reshiram.
+
+external-event: mew, celebi, jirachi, deoxys, phione, manaphy, darkrai, shaymin, arceus, victini, zorua, zoroark, keldeo, meloetta, genesect.
+
+## Declared limits
+
+External distributions, transfers, Dream World, Dream Radar, Memory Link,
+Entralink recruitment, Unova Link keys and player trades are outside scope.
+The planner checks possible access. It does not track a save file, the current
+season, day, resident loss, random rolls, mission results or call history.
+Conditions and required actions stay visible in details and exports.
+Battle-only transformations are outside the persistent form catalogue.
+
+See the [source review](white-sources.md) and [form review](white-forms.md).

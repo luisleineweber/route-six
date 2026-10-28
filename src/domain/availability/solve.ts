@@ -8,6 +8,8 @@ import { evolutionWitnesses } from './evolution-actions';
 import { selectionId } from '../pokemon-selection';
 import { formChangePaths } from './form-changes';
 import { seedPaths } from './seed-paths';
+import { anyTradeOffers } from './npc-trades';
+import { mergeWitness } from './context';
 
 export function conditionText(c: EvolutionCondition, generation: number): string {
   switch (c.kind) {
@@ -72,7 +74,10 @@ export function solve(game: GameData, milestone: Milestone, respectLevelLimit: b
         continue;
       }
       const req = { kind: 'all' as const, requirements: [location.requirements, source.requirements] };
-      for (const witness of requirementWitnesses(ctx, req)) {
+      const access = requirementWitnesses(ctx, req);
+      const witnesses = source.details.kind === 'game-trade' && source.details.offeredPokemonId === null
+        ? access.flatMap(gate => anyTradeOffers(ctx).map(offer => mergeWitness(gate, offer))) : access;
+      for (const witness of witnesses) {
         if (witness.sourceIds.includes(source.id)) continue;
         const minimumLevel = source.level.kind === 'fixed' ? source.level.value : source.level.kind === 'range' ? source.level.minimum : witness.minimumLevel;
         for (const gender of source.genders) {

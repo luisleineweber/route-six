@@ -18,6 +18,7 @@ const sourceMethodNames = {
   'rustling-bush-ambush': 'Rustling bush', 'sky-ambush': 'Sky ambush',
   'trash-can-ambush': 'Shaking trash can', 'berry-tree': 'Berry tree pests',
   'game-trade': 'In-game trade', breeding: 'Breeding',
+  'hidden-grotto': 'Hidden Grotto', 'white-forest': 'White Forest resident',
 } as const;
 
 export function sourceMethod(details: SourceDetails) {

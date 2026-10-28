@@ -1,1 +1,2064 @@
-[]
+[
+  {
+    "id": "hm01",
+    "name": "HM01 Cut",
+    "sources": [
+      {
+        "id": "white-2-item-hm01-1",
+        "locationId": "virbank-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "virbank-gym"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "hm02",
+    "name": "HM02 Fly",
+    "sources": [
+      {
+        "id": "white-2-item-hm02-1",
+        "locationId": "unova-route-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "nimbasa"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "hm03",
+    "name": "HM03 Surf",
+    "sources": [
+      {
+        "id": "white-2-item-hm03-1",
+        "locationId": "unova-route-6",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "surf-received"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "hm04",
+    "name": "HM04 Strength",
+    "sources": [
+      {
+        "id": "white-2-item-hm04-1",
+        "locationId": "castelia-sewers",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "sewers-clear"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "hm05",
+    "name": "HM05 Waterfall",
+    "sources": [
+      {
+        "id": "white-2-item-hm05-1",
+        "locationId": "unova-route-23",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "route-23"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "sources": [
+      {
+        "id": "white-2-item-super-rod-1",
+        "locationId": "nuvema-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "tm76",
+    "name": "TM76 Struggle Bug",
+    "sources": [
+      {
+        "id": "white-2-item-tm76-1",
+        "locationId": "castelia-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "castelia-gym"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Poke Ball",
+    "sources": [
+      {
+        "id": "white-2-item-poke-ball-1",
+        "locationId": "floccesy-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "white-2-item-fire-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-fire-stone-grotto-regeneration",
+        "locationId": "grotto-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "hidden-grotto"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-fire-stone-hidden-stone",
+        "locationId": "desert-resort",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "white-2-item-water-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-water-stone-grotto-regeneration",
+        "locationId": "grotto-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "hidden-grotto"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "white-2-item-thunder-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-thunder-stone-grotto-regeneration",
+        "locationId": "grotto-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "hidden-grotto"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "white-2-item-leaf-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-leaf-stone-grotto-regeneration",
+        "locationId": "grotto-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "hidden-grotto"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-leaf-stone-hidden-stone",
+        "locationId": "lostlorn-forest",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "white-2-item-moon-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "white-2-item-sun-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-item-sun-stone-house-gift",
+        "locationId": "nimbasa-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "sources": [
+      {
+        "id": "white-2-item-shiny-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "sources": [
+      {
+        "id": "white-2-item-dusk-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "sources": [
+      {
+        "id": "white-2-item-dawn-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "oval-stone",
+    "name": "Oval Stone",
+    "sources": [
+      {
+        "id": "white-2-item-oval-stone-dust-cloud",
+        "locationId": "chargestone-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "cave-spots"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "white-2-item-sea-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "white-2-item-lax-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "rose-incense",
+    "name": "Rose Incense",
+    "sources": [
+      {
+        "id": "white-2-item-rose-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "pure-incense",
+    "name": "Pure Incense",
+    "sources": [
+      {
+        "id": "white-2-item-pure-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "rock-incense",
+    "name": "Rock Incense",
+    "sources": [
+      {
+        "id": "white-2-item-rock-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "odd-incense",
+    "name": "Odd Incense",
+    "sources": [
+      {
+        "id": "white-2-item-odd-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "luck-incense",
+    "name": "Luck Incense",
+    "sources": [
+      {
+        "id": "white-2-item-luck-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "full-incense",
+    "name": "Full Incense",
+    "sources": [
+      {
+        "id": "white-2-item-full-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "wave-incense",
+    "name": "Wave Incense",
+    "sources": [
+      {
+        "id": "white-2-item-wave-incense-market",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "heart-scale",
+    "name": "Heart Scale",
+    "sources": [
+      {
+        "id": "white-2-item-heart-scale-daily-tm-request",
+        "locationId": "driftveil-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "item",
+              "id": "tm76",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "pokemon",
+              "id": "sewaddle",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "capability",
+              "id": "tm76-scale-request"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "sources": [
+      {
+        "id": "white-2-item-razor-claw-bp-shop",
+        "locationId": "nimbasa-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "battle-subway"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "razor-fang",
+    "name": "Razor Fang",
+    "sources": [
+      {
+        "id": "white-2-item-razor-fang-bp-shop",
+        "locationId": "nimbasa-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "battle-subway"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "sources": [
+      {
+        "id": "white-2-item-electirizer-1",
+        "locationId": "plasma-frigate",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "frigate-clear"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "sources": [
+      {
+        "id": "white-2-item-magmarizer-1",
+        "locationId": "plasma-frigate",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "frigate-clear"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "white-2-item-metal-coat-1",
+        "locationId": "clay-tunnel",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-metang-base-metal-coat",
+        "locationId": "area-616",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-45529",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-magneton-base-metal-coat",
+        "locationId": "area-618",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-45669",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-magnemite-base-metal-coat",
+        "locationId": "area-675",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-45809",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-bronzor-base-metal-coat",
+        "locationId": "area-649",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-47569",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "reaper-cloth",
+    "name": "Reaper Cloth",
+    "sources": [
+      {
+        "id": "white-2-item-reaper-cloth-1",
+        "locationId": "dreamyard",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "prism-scale",
+    "name": "Prism Scale",
+    "sources": [
+      {
+        "id": "white-2-item-prism-scale-1",
+        "locationId": "unova-route-1",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "sources": [
+      {
+        "id": "white-2-item-protector-1",
+        "locationId": "wellspring-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up Grade",
+    "sources": [
+      {
+        "id": "white-2-item-up-grade-1",
+        "locationId": "striaton-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dubious-disc",
+    "name": "Dubious Disc",
+    "sources": [
+      {
+        "id": "white-2-item-dubious-disc-1",
+        "locationId": "p2-laboratory",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "Kings Rock",
+    "sources": [
+      {
+        "id": "white-2-item-kings-rock-1",
+        "locationId": "nuvema-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "white-2-item-dragon-scale-1",
+        "locationId": "unova-victory-road-2",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "surf"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-dratini-base-dragon-scale",
+        "locationId": "area-595",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-44959",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-horsea-base-dragon-scale",
+        "locationId": "area-618",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-45647",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "iron-key",
+    "name": "Iron Key",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "iceberg-key",
+    "name": "Iceberg Key",
+    "sources": [
+      {
+        "id": "white-2-item-iceberg-key-regirock-reward",
+        "locationId": "rocky-mountain-room",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "pokemon",
+              "id": "regirock",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "lunar-wing",
+    "name": "Lunar Wing",
+    "sources": [
+      {
+        "id": "white-2-item-lunar-wing-complete-ghost-story",
+        "locationId": "strange-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "magma-stone",
+    "name": "Magma Stone",
+    "sources": [
+      {
+        "id": "white-2-item-magma-stone-1",
+        "locationId": "unova-route-18",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dna-splicers",
+    "name": "Dna Splicers",
+    "sources": [
+      {
+        "id": "white-2-item-dna-splicers-1",
+        "locationId": "giant-chasm",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            },
+            {
+              "kind": "pokemon",
+              "id": "kyurem",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-helix-fossil-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-dome-fossil-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "white-2-item-old-amber-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "root-fossil",
+    "name": "Root Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-root-fossil-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "claw-fossil",
+    "name": "Claw Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-claw-fossil-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "skull-fossil",
+    "name": "Skull Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-skull-fossil-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "armor-fossil",
+    "name": "Armor Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-armor-fossil-daily-fossil-worker",
+        "locationId": "twist-mountain",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cover-fossil",
+    "name": "Cover Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-cover-fossil-choose-fossil",
+        "locationId": "nacrene-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "cover-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "plume-fossil",
+    "name": "Plume Fossil",
+    "sources": [
+      {
+        "id": "white-2-item-plume-fossil-choose-fossil",
+        "locationId": "nacrene-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "plume-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "white-2-held-basculin-base-deep-sea-tooth",
+        "locationId": "area-576",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-44347",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-carvanha-base-deep-sea-tooth",
+        "locationId": "area-621",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-46594",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "white-2-held-basculin-basculin-blue-striped-deep-sea-scale",
+        "locationId": "area-576",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-44333",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "id": "white-2-held-chinchou-base-deep-sea-scale",
+        "locationId": "area-619",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "white-2-wild-45678",
+          "ratePercent": 5
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-items"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "white-2-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

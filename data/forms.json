@@ -233,5 +233,113 @@
       ],
       "checkedOn": "2026-10-21"
     }
+  },
+  {
+    "id": "basculin-blue-striped",
+    "pokemonId": "basculin",
+    "name": "Blue-Striped",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "deerling-summer",
+    "pokemonId": "deerling",
+    "name": "Summer",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "deerling-autumn",
+    "pokemonId": "deerling",
+    "name": "Autumn",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "deerling-winter",
+    "pokemonId": "deerling",
+    "name": "Winter",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "sawsbuck-summer",
+    "pokemonId": "sawsbuck",
+    "name": "Summer",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "sawsbuck-autumn",
+    "pokemonId": "sawsbuck",
+    "name": "Autumn",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "sawsbuck-winter",
+    "pokemonId": "sawsbuck",
+    "name": "Winter",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "kyurem-black",
+    "pokemonId": "kyurem",
+    "name": "Black Kyurem",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-2-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "kyurem-white",
+    "pokemonId": "kyurem",
+    "name": "White Kyurem",
+    "introducedGeneration": 5,
+    "review": {
+      "referenceIds": [
+        "black-2-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
   }
 ]

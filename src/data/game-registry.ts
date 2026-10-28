@@ -14,6 +14,10 @@ export const progressGameLoaders: Readonly<Record<string, () => Promise<unknown>
   platinum: () => import('./games/platinum').then(module => module.rawGame),
   diamond: () => import('./games/diamond').then(module => module.rawGame),
   pearl: () => import('./games/pearl').then(module => module.rawGame),
+  black: () => import('./games/black').then(module => module.rawGame),
+  white: () => import('./games/white').then(module => module.rawGame),
+  'black-2': () => import('./games/black-2').then(module => module.rawGame),
+  'white-2': () => import('./games/white-2').then(module => module.rawGame),
   x: () => import('./games/x').then(module => module.rawGame),
   y: () => import('./games/y').then(module => module.rawGame),
 };
@@ -21,10 +25,6 @@ export const progressGameLoaders: Readonly<Record<string, () => Promise<unknown>
 export const teamGameLoaders: Readonly<Record<string, () => Promise<unknown>>> = {
   heartgold: () => import('./games/heartgold').then(module => module.rawGame),
   soulsilver: () => import('./games/soulsilver').then(module => module.rawGame),
-  black: () => import('./games/black').then(module => module.rawGame),
-  white: () => import('./games/white').then(module => module.rawGame),
-  'black-2': () => import('./games/black-2').then(module => module.rawGame),
-  'white-2': () => import('./games/white-2').then(module => module.rawGame),
   'omega-ruby': () => import('./games/omega-ruby').then(module => module.rawGame),
   'alpha-sapphire': () => import('./games/alpha-sapphire').then(module => module.rawGame),
 };

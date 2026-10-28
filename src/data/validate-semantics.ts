@@ -3,6 +3,7 @@ import { validateAcquisition } from './validate-acquisition';
 import { leaves } from '../domain/requirements';
 import { validateRegionalDex } from './validate-regional-dex';
 import { evolutionRequirements } from '../domain/availability/evolution-actions';
+import { formChangeRequirements } from '../domain/availability/form-changes';
 import { pokemonSelections, selectionId } from '../domain/pokemon-selection';
 import { validateForms } from './validate-forms';
 import { validateCrossGameProfiles } from './validate-cross-game-profiles';
@@ -122,7 +123,7 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
       review(source.review, source.id, base+'items.json');
     }
     for (const s of g.sources) checkRequirements(s.requirements, s.id, 'sources');
-    for (const change of g.formChanges ?? []) checkRequirements(change.requirements, change.id, 'form-changes');
+    for (const change of g.formChanges ?? []) checkRequirements(formChangeRequirements(change), change.id, 'form-changes');
     for (const e of g.evolutions) {
       checkRequirements(evolutionRequirements(e, g), e.id, 'evolutions');
       for (const condition of e.conditions) if (condition.kind === 'known-move') {

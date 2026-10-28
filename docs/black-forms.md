@@ -1,69 +1,35 @@
 # Pokémon Black native form review
 
-Checked on 2026-10-13. This is a form inventory for the base-profile layer.
-It does not declare game acquisition paths or finish Black data.
+Reviewed on 27 October 2026. The active Progress Planner has 12 alternate
+form profiles. Each profile keeps its own types, genders, breeding data,
+local image and review reference. Forms share the species’ National Dex number.
 
-## Verified source model
-
-PKHeX at revision `641c26ba100225f3605e5a44b61b3b16e15a3774` maps Black and
-White records through `PKHeX.Core/PersonalInfo/Table/PersonalTable5BW.cs` and
-`PKHeX.Core/PersonalInfo/Info/PersonalInfo5BW.cs`. The table lookup uses
-species and form indexes. It lists special form indexes for Unown, Burmy,
-Mothim, Cherrim, Shellos, Gastrodon, Arceus, Deerling, Sawsbuck, and Genesect.
-This confirms that one National Dex identity can have several personal-data
-forms. It does not by itself establish that each form is obtainable in Black.
-
-PKHeX also maps the base type, gender ratio, and two Egg Groups from the
-personal record. Its field definitions establish the binary facts that a
-profile needs. The pinned source stores the personal table in resources, not in
-a hand-readable species table. No record-by-record transcription was reviewed
-in this round. Do not use this note as approval for unreviewed profiles.
-
-## Native forms to model
-
-| Species | Black form states | Data differences relevant to planner | Treatment |
-| --- | --- | --- | --- |
-| Basculin | Red-Striped, Blue-Striped | Same Water type, gender range, Egg Group, and evolution outcome. Different appearance. | Persistent cosmetic form. Black-specific availability still needs encounter source review. |
-| Deerling | Spring, Summer, Autumn, Winter | Same Normal/Grass types, gender range, Egg Groups, and evolution outcome. The form follows the in-game season. | Persistent seasonal appearance. It can change with the season; do not model four species or four evolutions. |
-| Sawsbuck | Spring, Summer, Autumn, Winter | Same Normal/Grass types, gender range, Egg Groups, and evolution outcome. The form follows the in-game season. | Persistent seasonal appearance. It can change with the season; do not model four species or four evolutions. |
-| Rotom | Normal plus five appliance states | Normal is Electric/Ghost. Appliance states are Electric/Fire, Electric/Water, Electric/Ice, Electric/Flying, and Electric/Grass. Gender and Egg Groups do not change. Appliance state also changes appearance and move access. | Persistent selectable form after the in-game appliance interaction. Keep one species identity. |
-
-## Battle-only states
-
-| Species | State | Treatment |
+| Species | Native persistent forms | Access rule |
 | --- | --- | --- |
-| Darmanitan | Zen Mode | Battle-only ability state. It changes appearance and type to Fire/Psychic while active. It is not a permanent evolution or a separate base profile. |
-| Meloetta | Pirouette Forme | Battle-only Relic Song state. It changes appearance and type while active. It is not a permanent evolution or a separate base profile. |
+| Basculin | Red-Striped and Blue-Striped | Own encounter tables and fixed NPC trade. Breeding inherits the parent’s stripe. There is no free stripe-change action. |
+| Deerling and Sawsbuck | Spring, Summer, Autumn, Winter | Seasonal capture and season-change action. Evolution keeps the seasonal form. |
+| Rotom | Base, Heat, Wash, Frost, Fan, Mow | Native Rotom plus Shopping Mall Nine appliances. Gen V appliance types are Electric/Fire, Water, Ice, Flying, or Grass. |
+Battle-only changes do not create persistent selectable team members.
+External-event forms and species do not gain access from a type profile.
+No type is inferred from a form name: White Kyurem is not Dragon/Fire and
+Black Kyurem is not Dragon/Electric. Gastrodon remains Water/Ground.
 
-Kyurem's Black and White fused forms are not native forms in Black Version.
-Do not include them in the Black inventory. Therian Formes belong to Black 2
-and White 2 content, not Black Version. Genesect's drives alter Techno Blast's
-type and appearance state; they do not create another species identity or
-permanent type profile.
+Pinned personal tables, form actions and source locators are in the
+[source review](black-sources.md). The form checks include inherited forms, native
+partner access, partner conflicts, and separation in `tests/fusion.test.ts`.
 
-## Required shared model change
+## Local form images
 
-Add a small shared form collection linked to the existing species ID. Give
-each form a stable ID, display name, local image, form type override when
-needed, and a reviewed form-change kind. Let a profile select the native form
-states that the game can present. Keep acquisition sources and evolution
-outcomes attached to the species unless reviewed game data proves that a form
-changes them. Add a distinct battle-state value only if the planner later needs
-to show battle-only type states; do not put those states in the permanent form
-catalogue by default.
+Image archive revision: `ba403973fdf9d0ac59175813861e6a1f8ed5020c` in
+[PokeAPI sprites](https://github.com/PokeAPI/sprites/tree/ba403973fdf9d0ac59175813861e6a1f8ed5020c).
+Existing Rotom and Shellos/Gastrodon images remain in use. New image pins:
 
-The regional Pokédex still orders species, not each cosmetic form. Keep one
-regional number for each species. Black's profile data can use the existing
-single regional sequence once its exact supported species list and records
-have been reviewed.
-
-## Sources and open review
-
-- [PKHeX PersonalTable5BW.cs at the pinned revision](https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/PersonalInfo/Table/PersonalTable5BW.cs), form-index handling and supported form checks.
-- [PKHeX PersonalInfo5BW.cs at the pinned revision](https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/PersonalInfo/Info/PersonalInfo5BW.cs), base field offsets and form-data access.
-- [Serebii Black and White alternate forms](https://www.serebii.net/blackwhite/forms.shtml), Black/White form behavior and version availability. This is a secondary cross-check, not the source of base personal records.
-
-Before registration, inspect the Black 1.0 form resources and event scripts.
-Confirm Rotom's appliance interaction, the two Basculin stripe encounter
-outcomes, seasonal transitions, and event access for battle-form species.
-The current game profile has no form field and one sprite path per species.
+| Form | Archive path | SHA-256 |
+| --- | --- | --- |
+| basculin-blue-striped | `sprites/pokemon/10016.png` | `d33574b961f258554fc83a6f54cdd51d2042bfa528a2bc17d02fb7351a5d8ad8` |
+| deerling-summer | `sprites/pokemon/585-summer.png` | `fd543e6194ae949e0dfe83c3d82912585189dbd2c862b28c22a1342a1458908e` |
+| deerling-autumn | `sprites/pokemon/585-autumn.png` | `f9c52f56824deba311fde2bb739e7936db4858fb1b2637ddbf692420b52882ca` |
+| deerling-winter | `sprites/pokemon/585-winter.png` | `efc568706571ce7eca0edd82d12045c1d5358011d3d034ee3c6ad0f43fd059ce` |
+| sawsbuck-summer | `sprites/pokemon/586-summer.png` | `c8d6a6821a27627ed815beccd9cb81d4b698d7d86bea796d78986ab7336c3669` |
+| sawsbuck-autumn | `sprites/pokemon/586-autumn.png` | `4af6a14a7fae4954f32b2285a0974bb5cb5fe14835a926095dc1a732476369a4` |
+| sawsbuck-winter | `sprites/pokemon/586-winter.png` | `b9e31b16ff72b619fc42644fede2362dc6ec99340df2b0ef104c5b74e51d096b` |

@@ -1,127 +1,82 @@
 # Pokémon Black 2 source review
 
-Review date: 13 October 2026. Scope for this round: ordinary first-run
-Black 2 Gym, League and final story battles; Generation V battle type chart;
-and egg hatch level. This does not complete or enable the game.
+Reviewed on 27 October 2026. The active Progress Planner uses these reviewed
+records. Sources were checked for this game. A shared region does not prove
+a shared encounter or story gate. References in `data/references.json` use
+the `black-2-native-` prefix. Each new progress record also has `checkedOn: 2026-10-27`.
 
-## Reviewed source locators
+## Pinned records
 
-| Facts | Source and locator | Pin / review limit |
+| Source | Revision | Exact selector or locator |
 | --- | --- | --- |
-| First-run Gym parties and specialty types | [Pokémon Database Black 2/White 2 Gym Leaders & Elite Four](https://pokemondb.net/black-white-2/gymleaders-elitefour), Gym #1–#8 sections | Page is version-paired, not revisioned. Black 2 and White 2 share these listed first-run leader parties. Cross-check leader order and first two parties with Serebii. |
-| First-run Gym party cross-check | [Serebii Black 2/White 2 Gyms](https://www.serebii.net/black2white2/gyms.shtml), Gym #1–#8, standard party entries | Version-paired specialist guide. Each first-run Gym party and highest level agrees with Pokémon Database. Challenge Mode entries are listed separately. |
-| First-run Elite Four and Iris party levels | Same page, Elite Four #1–#4 and Champion sections | Page lists first battles separately from rematches. The authored layer uses the first-battle entries. Serebii corroborates the Elite Four first-battle level 56/58 parties. |
-| Final story trainer, Ghetsis | Same page, “Other trainers” → Team Plasma Ghetsis | The page lists Ghetsis's six Pokémon at levels 50–52. The schema stores only his highest level. |
-| Order and first-run trainer party cross-check | [Serebii Black 2/White 2 Elite Four](https://www.serebii.net/black2white2/elitefour.shtml), Elite #1–#4 and Champion Iris sections | Version-paired specialist guide. It identifies standard and Challenge Mode separately. This layer uses standard mode. |
-| Type chart | [Pokémon Database Generation 2–5 type chart](https://pokemondb.net/type/old), “Generation 2-5 type chart” table | The table explicitly includes Black 2 and White 2. Its full 17×17 matrix was checked against the current project matrix values. |
-| Type chart generation boundary | [Bulbapedia Type chart](https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart), note “This matchup table is used from Generation II to Generation V” and “Between Generations V and VI” | Independent cross-check confirms 17 types for Gen V and that Fairy plus the removed Steel resistances belong to the Gen V→VI change. The Black 2 chart has no Fairy type. |
-| Hatch level | [Bulbapedia Pokémon breeding](https://bulbapedia.bulbagarden.net/wiki/Pokemon_breeding), section “Hatching Eggs” | States eggs hatch at level 1 from Generation IV onward. Black 2 is Gen V. |
-| Pinned source reconstruction inspection | [PKHeX PK5.cs at revision `641c26ba100225f3605e5a44b61b3b16e15a3774`](https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/PKM/PK5.cs) | Inspected as a pinned Gen V format reference. It does not provide Black 2 trainer-party or type-chart source data, so no such records cite it. PKHeX is not treated as an event or complete game-data source. |
-| Official manual check | [Nintendo Black Version 2 instruction booklet](https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/DS_pokemon_black_2?_a=DATAg1AAZAA0) | Official manual PDF opened. This booklet is Black Version 2. It does not publish trainer party tables or a battle type chart. |
+| [PKHeX](https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774) | `641c26ba100225f3605e5a44b61b3b16e15a3774` | `PKHeX.Core/Resources/legality/wild/Gen5/encounter_b2.pkl`; `EncounterArea5.cs`; `Encounters5B2W2.cs`, this version’s fixed, gift and trade branches |
+| [PokeAPI data](https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv) | `81d20919845b6a445969b9265aab5cec6b04cece` | `encounters.csv version_id=21`; slots, condition maps, area joins; version group 14 |
+| PKHeX evolution | `641c26ba100225f3605e5a44b61b3b16e15a3774` | `Resources/byte/evolve/evos_g5.pkl`, methods 1–27; `levelup/lvlmove_b2w2.pkl`; `EncounterEgg5.cs` hatch level 1 |
+| PKHeX personal data | `641c26ba100225f3605e5a44b61b3b16e15a3774` | `personal_b2w2`, form indexes, type bytes, gender ratios, held-item columns, Egg Groups |
+| [Native sequel code](https://github.com/fuddlesworth/pokebw2/tree/a17a9fedc6344da8bc063b0517a755faee137b0b) | `a17a9fedc6344da8bc063b0517a755faee137b0b` | Own version branches, named field scripts and native action code listed below. |
 
-## Verified findings
+The detailed comparison checks 3720 wild rows in 108
+areas for this version. Equal slots are combined only within the same area,
+species, form, method, season and level range. Equal seasonal tables can share
+a source. Record IDs retain the first encounter ID. Separate methods and
+conditions remain separate. Each pinned PKHeX resource was checked byte for byte.
 
-- The standard first-run Gym ace levels are 13, 18, 24, 30, 33, 39, 48 and
-  51. Leader types are Normal, Poison, Bug, Electric, Ground, Flying, Dragon
-  and Water in badge order.
-- Each standard first-run Elite Four opponent has a highest level of 58. Their
-  order is optional. Iris is the Champion; her highest level is 59.
-- Ghetsis is the final story trainer shown on the specialist party list. His
-  highest listed party level is 52. The parent can decide whether to include
-  the preceding N battle in a wider story-boss layer.
-- Generation V uses 17 types. The chart excludes Fairy. Steel resists Dark
-  and Ghost in this generation.
-- Black 2 eggs hatch at level 1.
-- The existing boss schema stores only `highestLevel`; it cannot preserve every
-  party member and level. The source notes retain the exact cited party lists.
+## Access and source joins
 
-## Inferences and limits
+- `res/field/scripts/route_5.s`, `Script_18`, plus `scrcmd_hidden_hollow.c`: the male level 20–24 tutorial is a one-time source. Normal contents regenerate separately.
+- `src/ov036/scrcmd_hidden_hollow.c`, `HOLLOW_FILE_VERSION`, selects 1. `s0294_HiddenHollowGetParam` uses `min + Random(max - min)`. Own-version PKHeX bounds 40/45 and suloku’s Route 22 table support Mienfoo 40–44, not the conflicting 50–54 summary.
+- [Grotto table cross-check](https://github.com/suloku/BW2_grottoswarm/tree/2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3), revision `2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3`, `b2_10.PNG`; native physical-site indexes in `src/ov012/hidden_hollow.c`.
+- `src/ov026/fest_mission_hollow.c`: solo mission species and levels at each physical site. Twenty sites can receive one of ten random mission placements. Multiplayer and downloaded missions are not required.
+- `res/field/events/route_6.json`, `route_7.json`, `route_11.json`, `route_22.json`, `route_23.json`; `global_10520.s`: twelve fake-item battles. Route 11 Amoonguss is level 43. The CSV candidate’s level 47 is rejected. `src/ov036/fes_gimmick.c`, `ClearFesEventFlags`, restores the twelve event flags for Mushrooms’ Hide-and-Seek.
+- `driftveil_city_6.s`: N’s Zorua gift, level 25, after the Driftveil visit. This is not a Memory Link encounter.
+- `generated/trades.txt`, `res/field/trades/*.json`, `global_10510.s`: player gender chooses the archive offset. Male player gets Yancy; female player gets Curtis. `scrcmd_pokemon_misc.c`, `s01B5_FieldTradeCheck`, and the caller accept any hatched, unfused Pokémon. The unused Pikachu offer in the trade file is not a restriction for these phone trades.
+- `src/ov259/local_tvt_person_secret.c`, `sLocalTvtSecretStages`: return the item after ten calls, then reach the 30th-call wheel ride. A later-day meeting after the Hall of Fame allows a trade. The maximum 51-call counter is not the first-trade requirement. `global_10510.s` cycles twelve outputs and `ev_time.c` resets the daily meeting flag.
+- `rock_peak_chamber.s`, `Script_6`: capture Regirock, then unlock own-version key. VM false-branch semantics are defined by `scrcmd_vm.c`, `s001F_VMJumpIf`. Game version 23 gives key 3; the other version gives key 4. [Official Key System](https://www.pokemon.co.jp/ex/b2w2/system/system06.html), Mystery Door, names Black 2’s Iron Key and White 2’s Iceberg Key. The opposite key needs a connection.
+- `iceberg_chamber.s`, `Script_6`: level 65 Regice battle. `twist_mountain_8.s`, `Script_1`: checks Regice, Regirock and Registeel in the party before level 68 Regigigas. Native negative key scope blocks the missing partner.
+- `src/ov165/plist_demo.c`, `CheckFuse`, `CheckSeparate`, `Fuse`, `Separate`; `plist_sys.c`, `func_ov165_0219becc`: DNA Splicers, eligible Reshiram/Zekrom partner, stored partner and spare party space for separation. One native Kyurem cannot supply two concurrent fusions.
+- `src/ov036/enc_pokeset.c`, `SWARM_DATA`, `createSwarm`, and `src/system/gfl_use.c`, `GFL_RandomLCAlt`: the native check accepts 0–40 from 0–99. Thus the sequel rate is 41%, despite secondary tables saying 40%. Level bounds are inclusive 40–55.
+- `effect_encount.c`, `DUST_CLOUD_ITEMS_NORMAL` and `DUST_CLOUD_SHARD_ZONES`: Chargestone Cave supplies stones. Relic Passage and Reversal Mountain supply shards instead.
+- `src/ov036/sodateya.c`: `getChild`, `nidoranCompute`, `volbeatCompute`, `incenseHandler`, `shellosHandler`, `basculinHandler`; native offspring, incense and inherited forms. `src/system/poke_tool.c`, `setChangedPkmSpecies` and `UpdateGenderOnMonsChange`, recompute gender from species and personality. Azurill can change female to male when it evolves.
+- Published game walkthrough stages and the own-game tables retain pre-Clay Chargestone 1F, post-PWT lower floors, Route 15 after the League, Route 11 Surf/Waterfall pockets, Seaside Cave’s separate approaches, and the Wave Badge gate for Route 22 Terrakion. The HM table below supplies each field action’s own story gift.
 
-- First-run levels and parties are version-paired facts. The sources present a
-  shared Black 2/White 2 section, so I infer that these entries apply to Black
-  2. Version-differing rematches, areas and gifts are out of this layer.
-- The copied chart values are supported by the Gen II–V chart and its 17-type
-  boundary. No game-specific Black 2 source reconstruction currently supplies
-  the table itself.
-- The entry for Ghetsis uses a generic `trainer` kind because the current boss
-  schema has no story-final kind.
+## Snapshot pins
 
-## Proposed shared references
+Published pages have no immutable revision. These SHA-256 pins identify the
+reviewed local snapshots from 27 October 2026. The active reference locator
+names the table and version. These pages cross-check the pinned data and
+native code; a shared page is not permission to substitute a sibling version.
 
-Add these references to `data/references.json` when the parent integrates this
-layer. The two boss pages are dynamic web pages and have no immutable revision.
+| Published source | SHA-256 |
+| --- | --- |
+| [black2white2-droppeditem.shtml](https://www.serebii.net/black2white2/droppeditem.shtml) | `29d32a738474a0026ada4fd0bf5b4243e418138420c68b5dfd5cfd4072205d8f` |
+| [black2white2-fesmission.shtml](https://www.serebii.net/black2white2/fesmission.shtml) | `1957a62a880b715565d3ba355db5f0edf012c7c466381c50ca3080df025ecb67` |
+| [black2white2-forms.shtml](https://www.serebii.net/black2white2/forms.shtml) | `bd5313ff49020872a781e3bec54ffcc536d8b0d450119f18da0b65796777e8da` |
+| [black2white2-gift.shtml](https://www.serebii.net/black2white2/gift.shtml) | `a0116ac2271a8871e6bef7517289485c4f1062a595cb5bab534f6358a4b8ef3a` |
+| [black2white2-hiddengrotto.shtml](https://www.serebii.net/black2white2/hiddengrotto.shtml) | `d2177375b9186c93d4ae1dbe77dddd2d5cbba13ebb4ddae2853b97a0b4c254f0` |
+| [black2white2-interact.shtml](https://www.serebii.net/black2white2/interact.shtml) | `9dd557f7d2d21ab99a32e6e6d671bd9a75429fdb2baa3dbae6f7ef153ce442c4` |
+| [black2white2-items.shtml](https://www.serebii.net/black2white2/items.shtml) | `f1e1f4e60598e0fe5a0fab16a73856a4c7b647f41c7ea2507a241e125fbc6e37` |
+| [black2white2-legendary.shtml](https://www.serebii.net/black2white2/legendary.shtml) | `d4d963892103f34ed8e7c190af9948f253570db19ff15a410bbfb1d30d9f71b1` |
+| [black2white2-swarms.shtml](https://www.serebii.net/black2white2/swarms.shtml) | `cdc7d79bfb0393f1e9365438ec84659007e8941453679a1b8dd86b25bc764793` |
+| [black2white2-tmhm.shtml](https://www.serebii.net/black2white2/tmhm.shtml) | `910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db` |
+| [black2white2-unobtainable.shtml](https://www.serebii.net/black2white2/unobtainable.shtml) | `8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64` |
+| [unova-chargestonecave.shtml](https://www.serebii.net/pokearth/unova/chargestonecave.shtml) | `00640f04042a9bf409109f451a5a80521c07c7e6d7ffa094a1004de3539e09d1` |
+| [unova-dreamyard.shtml](https://www.serebii.net/pokearth/unova/dreamyard.shtml) | `f16f5b87aeefb00e2f572e5bb1cc831739248d7ad6bfb4189ada7e7f90f93c7c` |
+| [unova-route4.shtml](https://www.serebii.net/pokearth/unova/route4.shtml) | `a039ea90fac42d1c4d398faf91677c41f4fa436f115e7f2a07ae62397d84484e` |
 
-```json
-[
-  {"id":"black-2-bosses","title":"Black 2 first-run boss parties","locator":"Gym #1–#8; Elite Four #1–#4; Champion Iris; Other trainers → Team Plasma Ghetsis","url":"https://pokemondb.net/black-white-2/gymleaders-elitefour"},
-  {"id":"black-2-serebii-bosses","title":"Black 2/White 2 Elite Four and Champion parties","locator":"Elite #1–#4 and Champion Iris; standard mode","url":"https://www.serebii.net/black2white2/elitefour.shtml"},
-  {"id":"black-2-serebii-gyms","title":"Black 2/White 2 Gym parties","locator":"Gym #1–#8; standard parties","url":"https://www.serebii.net/black2white2/gyms.shtml"},
-  {"id":"black-2-type-chart","title":"Generation 2–5 type chart","locator":"Generation 2-5 type chart table; 17 attacking and defending types","url":"https://pokemondb.net/type/old"},
-  {"id":"black-2-bulbapedia-type-chart","title":"Generation II–V type chart boundary","locator":"Type chart used from Generation II to Generation V; changes between Generations V and VI","url":"https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart"},
-  {"id":"black-2-hatching-level","title":"Pokémon egg hatching levels","locator":"Hatching Eggs; Generation IV onward","url":"https://bulbapedia.bulbagarden.net/wiki/Pokemon_breeding"}
-]
-```
+No local ROM build was run. The reconstruction’s matching-build statement is
+not a local verification result. The partial Black reconstruction at
+`bbb5cd501426c1ca5f16a9d09c8d91fd03a1c12b` does not supply reviewed map or
+item definitions and is not used as evidence for guessed access records.
+Source candidates and raw review files stay under ignored `output/`.
+Only reviewed local JSON and local images ship with the app.
 
-## Remaining collection and model work
+See [coverage](black-2-coverage.md), [forms](black-2-forms.md), and the [integration review](generation-5-progress-review.md).
 
-- The earlier thirteen collection locator plan remains valid. This round did
-  not review profiles, progression, locations, capabilities, items, choices,
-  acquisitions, breeding rules, evolutions or exclusions.
-- Existing identities stop at #493. Required Black 2 species identities begin
-  at #494 and continue to #649. Parent must add those identities and local
-  assets before profiles can be authored. Forms need form identities and
-  form-aware paths; do not duplicate National Dex identities.
-- Check the model against shaking grass, dust clouds, rippling water, dark
-  grass and Hidden Grottos before adding encounters. The current `wild` method
-  shape has no per-slot encounter table or activation condition.
-- Review seasons, Black City, Key System access, Join Avenue, PokéStar Studios,
-  postgame routes, roaming encounters and version-specific gates against
-  direct Black 2 evidence before authoring access records.
-- Check special breeding offspring, gender ratios, form inheritance, and all
-  Black 2 evolution triggers against the current rule tags before authoring.
-- Current boss data cannot store full parties. Add a tested shared model layer
-  if the interface needs party members rather than just highest levels.
+## Published access guide pins
 
-## Proposed species work
+Reviewed on 27 October 2026. These pages give the exact access joins noted above.
 
-Parent should add exact shared identities and reviewed local assets for any
-Black 2 supported species absent from the shared catalogue, starting with
-National Dex #494–#649. Do not infer the supported list from the generation;
-Black 2 regional and native acquisition coverage still needs its own review.
-
-## Profile and form source review extension
-
-The pinned PKHeX source tree is revision
-`641c26ba100225f3605e5a44b61b3b16e15a3774`. Its Black 2/White 2 personal
-records are at `PKHeX.Core/Resources/byte/personal/personal_b2w2`; record
-fields are defined by `PersonalInfo5B2W2.cs`. The pin and paths are verified.
-I did not extract or hand-check every record's type, gender ratio, or Egg
-Groups in this round. Therefore no base profile records are claimed as reviewed.
-See [Black 2 forms](black-2-forms.md) for the native form inventory and model
-gap.
-
-Proposed shared references for parent integration:
-
-```json
-[
-  {"id":"black-2-personal-records","title":"PKHeX Black 2/White 2 personal data records","locator":"PKHeX.Core/Resources/byte/personal/personal_b2w2; revision 641c26ba100225f3605e5a44b61b3b16e15a3774","url":"https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_b2w2"},
-  {"id":"black-2-personal-layout","title":"PKHeX Black 2/White 2 personal record layout","locator":"PersonalInfo5B2W2.cs; revision 641c26ba100225f3605e5a44b61b3b16e15a3774","url":"https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/PersonalInfo/Info/PersonalInfo5B2W2.cs"}
-]
-```
-
-
-## Base profile source review
-
-The base profile layer is now reviewed against the pinned PKHeX data. The binding is `PersonalTable.B2W2 = new(GetTable("b2w2"))` in `PKHeX.Core/PersonalInfo/PersonalTable.cs`. The data file is `PKHeX.Core/Resources/byte/personal/personal_b2w2`. `PersonalInfo5B2W2.cs` sets `SIZE = 0x4C` (76 bytes), type offsets `0x06` and `0x07`, gender ratio offset `0x12`, and Egg Group offsets `0x16` and `0x17`. The file has 709 records. National Dex IDs 1?649 use direct matching record indexes. The remaining records are form and other auxiliary entries.
-
-I decoded every base record and compared its types, gender category, and deduplicated Egg Groups with the corresponding White profile. All 649 comparisons match. This comparison is a check only; the Black 2 records cite `black-2-personal-data` and were built from the B2W2 table. Gender byte 0 means male only, 254 female only, 255 genderless, and all other values allow both. Egg Group byte 0 and 15 both map to the schema's `undiscovered` group.
-
-The profile file does not include a regional Dex number. Unova regional numbering still needs a separate reviewed pass. These profiles do not review Black 2 acquisition coverage, form-aware data, or progression.
-
-Proposed shared source reference for parent integration:
-
-```json
-[
-  {"id":"black-2-personal-data","title":"PKHeX Black 2/White 2 personal data records","locator":"PersonalTable.B2W2 binding to GetTable(\"b2w2\"); PKHeX.Core/Resources/byte/personal/personal_b2w2; 709 records, 76 bytes each","url":"https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_b2w2"}
-]
-```
+| Guide | SHA-256 |
+| --- | --- |
+| [b2w2-chargestone-guide](https://www.gamerguides.com/pokemon-black-white-2/guide/main-walkthrough/to-gym-5/chargestone-cave) | `c37bd7ad3cc92ce0246f5089ed0cb0fbd0d8ac7797c4d1219d5ad79724f6d0be` |
+| [b2w2-route15-guide](https://www.gamerguides.com/pokemon-black-white-2/guide/post-game-walkthrough/east-unova/route-15) | `f4c8db2bbb69a77ef5fc313a42f1661f3ae85a546f2536649a685069d93c50e8` |

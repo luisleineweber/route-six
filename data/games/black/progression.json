@@ -1,1 +1,1008 @@
-[]
+[
+  {
+    "id": "start",
+    "name": "Begin in Nuvema Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "nuvema-town",
+    "nextBossId": "striaton-gym",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose one starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "start"
+    ],
+    "locationId": "nuvema-town",
+    "nextBossId": "striaton-gym",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Receive the catching lesson and enter Route 1",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "unova-route-1",
+    "nextBossId": "striaton-gym",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "accumula",
+    "name": "Visit Accumula Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "route-1"
+    ],
+    "locationId": "accumula-town",
+    "nextBossId": "striaton-gym",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Cross Route 2",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "accumula"
+    ],
+    "locationId": "unova-route-2",
+    "nextBossId": "striaton-gym",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "striaton",
+    "name": "Reach Striaton and the Trainers' School",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "route-2"
+    ],
+    "locationId": "striaton-city",
+    "nextBossId": "striaton-gym",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "striaton-gym",
+    "name": "Win the Trio Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "striaton"
+    ],
+    "locationId": "striaton-city",
+    "nextBossId": "lenora",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dreamyard-rescue",
+    "name": "Receive Cut and rescue Munna",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "striaton-gym"
+    ],
+    "locationId": "dreamyard",
+    "nextBossId": "lenora",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Enter Route 3",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "dreamyard-rescue"
+    ],
+    "locationId": "unova-route-3",
+    "nextBossId": "lenora",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "wellspring-rescue",
+    "name": "Recover the stolen Pokemon in Wellspring Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "route-3"
+    ],
+    "locationId": "wellspring-cave",
+    "nextBossId": "lenora",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nacrene",
+    "name": "Reach Nacrene City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "wellspring-rescue"
+    ],
+    "locationId": "nacrene-city",
+    "nextBossId": "lenora",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nacrene-gym",
+    "name": "Win the Basic Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "nacrene"
+    ],
+    "locationId": "nacrene-city",
+    "nextBossId": "burgh",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "pinwheel-clear",
+    "name": "Recover the Dragon Skull in Pinwheel Forest",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "nacrene-gym"
+    ],
+    "locationId": "pinwheel-forest",
+    "nextBossId": "burgh",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "castelia",
+    "name": "Cross Skyarrow Bridge and enter Castelia",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "pinwheel-clear"
+    ],
+    "locationId": "castelia-city",
+    "nextBossId": "burgh",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "castelia-plasma",
+    "name": "Recover Bianca's Pokemon",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "castelia"
+    ],
+    "locationId": "castelia-city",
+    "nextBossId": "burgh",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "castelia-gym",
+    "name": "Win the Insect Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "castelia-plasma"
+    ],
+    "locationId": "castelia-city",
+    "nextBossId": "elesa",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Cross Route 4",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "castelia-gym"
+    ],
+    "locationId": "unova-route-4",
+    "nextBossId": "elesa",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nimbasa",
+    "name": "Reach Nimbasa City and help the Day-Care Man",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "route-4"
+    ],
+    "locationId": "nimbasa-city",
+    "nextBossId": "elesa",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nimbasa-gym",
+    "name": "Win the Bolt Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "nimbasa"
+    ],
+    "locationId": "nimbasa-city",
+    "nextBossId": "clay",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Meet Alder on Route 5",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "nimbasa-gym"
+    ],
+    "locationId": "unova-route-5",
+    "nextBossId": "clay",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "driftveil",
+    "name": "Cross the lowered Driftveil Drawbridge",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "route-5"
+    ],
+    "locationId": "driftveil-city",
+    "nextBossId": "clay",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cold-storage-clear",
+    "name": "Find Team Plasma in Cold Storage",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "driftveil"
+    ],
+    "locationId": "cold-storage",
+    "nextBossId": "clay",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "driftveil-gym",
+    "name": "Win the Quake Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "cold-storage-clear"
+    ],
+    "locationId": "driftveil-city",
+    "nextBossId": "skyla",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Enter Route 6",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "driftveil-gym"
+    ],
+    "locationId": "unova-route-6",
+    "nextBossId": "skyla",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "chargestone-clear",
+    "name": "Cross Chargestone Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "route-6"
+    ],
+    "locationId": "chargestone-cave",
+    "nextBossId": "skyla",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "mistralton",
+    "name": "Reach Mistralton City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "chargestone-clear"
+    ],
+    "locationId": "mistralton-city",
+    "nextBossId": "skyla",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "celestial-bell",
+    "name": "Meet Skyla and ring the Celestial Tower bell",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "mistralton"
+    ],
+    "locationId": "celestial-tower",
+    "nextBossId": "skyla",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "mistralton-gym",
+    "name": "Win the Jet Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "celestial-bell"
+    ],
+    "locationId": "mistralton-city",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "surf-received",
+    "name": "Battle Cheren and receive Surf from Alder",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "mistralton-gym"
+    ],
+    "locationId": "twist-mountain",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "twist-mountain-clear",
+    "name": "Cross Twist Mountain",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "surf-received"
+    ],
+    "locationId": "twist-mountain",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "icirrus",
+    "name": "Reach Icirrus City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "twist-mountain-clear"
+    ],
+    "locationId": "icirrus-city",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "icirrus-gym",
+    "name": "Win the Freeze Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "icirrus"
+    ],
+    "locationId": "icirrus-city",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dragonspiral-story",
+    "name": "Follow Team Plasma up Dragonspiral Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "icirrus-gym"
+    ],
+    "locationId": "dragonspiral-tower",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "relic-castle-story",
+    "name": "Search the lower Relic Castle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "dragonspiral-story"
+    ],
+    "locationId": "relic-castle",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dragon-stone",
+    "name": "Receive the Dragon Stone from Lenora",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "relic-castle-story"
+    ],
+    "locationId": "nacrene-city",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "tubeline-bridge",
+    "name": "Cross Route 8 to Tubeline Bridge",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "dragon-stone"
+    ],
+    "locationId": "unova-route-8",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Cross Tubeline Bridge and enter Route 9",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "tubeline-bridge"
+    ],
+    "locationId": "unova-route-9",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "opelucid",
+    "name": "Reach Opelucid City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "route-9"
+    ],
+    "locationId": "opelucid-city",
+    "nextBossId": "drayden",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "opelucid-gym",
+    "name": "Win the Legend Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "opelucid"
+    ],
+    "locationId": "opelucid-city",
+    "nextBossId": "shauntal",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Enter Route 10",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "opelucid-gym"
+    ],
+    "locationId": "unova-route-10",
+    "nextBossId": "shauntal",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Pass the eight-badge gate into Victory Road",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "route-10"
+    ],
+    "locationId": "unova-victory-road",
+    "nextBossId": "shauntal",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "league-clear",
+    "name": "Defeat all four Elite Four members",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "n",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "legendary-encounter",
+    "name": "Reach the dragon in N's Castle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "league-clear"
+    ],
+    "locationId": "ns-castle",
+    "nextBossId": "n",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "n-defeated",
+    "name": "Defeat N",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "legendary-encounter"
+    ],
+    "locationId": "ns-castle",
+    "nextBossId": "ghetsis",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "ghetsis-defeated",
+    "name": "Defeat Ghetsis and watch the credits",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "n-defeated"
+    ],
+    "locationId": "ns-castle",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "Receive the National Pokedex and Super Rod",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 45,
+    "previousIds": [
+      "ghetsis-defeated"
+    ],
+    "locationId": "nuvema-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Visit Route 7",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "mistralton"
+    ],
+    "locationId": "unova-route-7",
+    "nextBossId": "skyla",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Visit Route 8",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "icirrus"
+    ],
+    "locationId": "unova-route-8",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Visit Route 11",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 48,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "unova-route-11",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Visit Route 12",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 49,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "unova-route-12",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Visit Route 13",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 50,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "unova-route-13",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Visit Route 14",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 51,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "unova-route-14",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Visit Route 15",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 52,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "unova-route-15",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Visit Route 16",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "nimbasa"
+    ],
+    "locationId": "unova-route-16",
+    "nextBossId": "elesa",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Visit Route 17",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "surf-received"
+    ],
+    "locationId": "unova-route-17",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Visit Route 18",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "surf-received"
+    ],
+    "locationId": "unova-route-18",
+    "nextBossId": "brycen",
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

@@ -9775,7 +9775,32 @@
       "male",
       "female"
     ],
-    "spriteSrc": "/pokemon/422.png"
+    "spriteSrc": "/pokemon/422.png",
+    "forms": [
+      {
+        "formId": "shellos-east",
+        "types": [
+          "water"
+        ],
+        "spriteSrc": "/pokemon/shellos-east.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-1",
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "gastrodon",
@@ -9799,7 +9824,33 @@
       "male",
       "female"
     ],
-    "spriteSrc": "/pokemon/423.png"
+    "spriteSrc": "/pokemon/423.png",
+    "forms": [
+      {
+        "formId": "gastrodon-east",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "spriteSrc": "/pokemon/gastrodon-east.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-1",
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "ambipom",
@@ -11119,7 +11170,119 @@
     "genders": [
       "genderless"
     ],
-    "spriteSrc": "/pokemon/479.png"
+    "spriteSrc": "/pokemon/479.png",
+    "forms": [
+      {
+        "formId": "rotom-heat",
+        "types": [
+          "electric",
+          "fire"
+        ],
+        "spriteSrc": "/pokemon/rotom-heat.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "rotom-wash",
+        "types": [
+          "electric",
+          "water"
+        ],
+        "spriteSrc": "/pokemon/rotom-wash.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "rotom-frost",
+        "types": [
+          "electric",
+          "ice"
+        ],
+        "spriteSrc": "/pokemon/rotom-frost.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "rotom-fan",
+        "types": [
+          "electric",
+          "flying"
+        ],
+        "spriteSrc": "/pokemon/rotom-fan.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "rotom-mow",
+        "types": [
+          "electric",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/rotom-mow.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "uxie",
@@ -12807,7 +12970,31 @@
       "female"
     ],
     "spriteSrc": "/pokemon/550.png",
-    "regionalDex": 104
+    "regionalDex": 104,
+    "forms": [
+      {
+        "formId": "basculin-blue-striped",
+        "types": [
+          "water"
+        ],
+        "spriteSrc": "/pokemon/basculin-blue-striped.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-2"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "sandile",
@@ -13674,7 +13861,78 @@
       "female"
     ],
     "spriteSrc": "/pokemon/585.png",
-    "regionalDex": 159
+    "regionalDex": 159,
+    "forms": [
+      {
+        "formId": "deerling-summer",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/deerling-summer.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "field"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "deerling-autumn",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/deerling-autumn.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "field"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "deerling-winter",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/deerling-winter.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "field"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "sawsbuck",
@@ -13699,7 +13957,78 @@
       "female"
     ],
     "spriteSrc": "/pokemon/586.png",
-    "regionalDex": 160
+    "regionalDex": 160,
+    "forms": [
+      {
+        "formId": "sawsbuck-summer",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/sawsbuck-summer.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "field"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "sawsbuck-autumn",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/sawsbuck-autumn.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "field"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "sawsbuck-winter",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "spriteSrc": "/pokemon/sawsbuck-winter.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "field"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "emolga",
@@ -15166,7 +15495,53 @@
       "genderless"
     ],
     "spriteSrc": "/pokemon/646.png",
-    "regionalDex": 297
+    "regionalDex": 297,
+    "forms": [
+      {
+        "formId": "kyurem-black",
+        "types": [
+          "dragon",
+          "ice"
+        ],
+        "spriteSrc": "/pokemon/kyurem-black.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "undiscovered"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      },
+      {
+        "formId": "kyurem-white",
+        "types": [
+          "dragon",
+          "ice"
+        ],
+        "spriteSrc": "/pokemon/kyurem-white.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "undiscovered"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "white-2-native-forms"
+          ],
+          "checkedOn": "2026-10-27"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "keldeo",

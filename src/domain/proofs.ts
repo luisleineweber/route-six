@@ -10,6 +10,7 @@ export interface IndividualProof {
   coProducts: string[];
   copy?: number;
   consumedBy?: string;
+  storedByOrigin?: string;
 }
 
 export interface ProofPath extends AcquisitionPath {

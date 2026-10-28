@@ -2,6 +2,8 @@ import type { GameData, Requirement, ValidationIssue } from '../domain/types';
 import { leaves } from '../domain/requirements';
 import { pokemonSelections, selectionId } from '../domain/pokemon-selection';
 import { validateItemSources } from './validate-item-sources';
+import { formChangeRequirements } from '../domain/availability/form-changes';
+import { validateUnovaSource } from './validate-unova-sources';
 
 function requiresCapability(requirement: Requirement, id: string): boolean {
   if (requirement.kind === 'all') return requirement.requirements.some(child => requiresCapability(child, id));
@@ -30,6 +32,7 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
     }
   }
   for (const source of game.sources) {
+    issues.push(...validateUnovaSource(game, source, base));
     const profile = profiles.get(selectionId(source.pokemonId, source.formId));
     if (!profile || profile.pokemonId !== source.pokemonId) { issue(source.id, 'sources', 'Unknown species or form.'); continue; }
     if (!locations.has(source.locationId)) issue(source.id, 'sources', 'Unknown location.');
@@ -37,7 +40,7 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
     if (source.level.kind === 'range' && source.level.minimum > source.level.maximum) issue(source.id, 'sources', 'Source level range is reversed.');
     if (source.details.kind === 'game-trade') {
       const offered = source.details.offeredPokemonId;
-      if (!has(source.requirements, 'pokemon', offered, true)) issue(source.id, 'sources', 'Trade must consume its offered Pokémon.');
+      if (offered !== null && !has(source.requirements, 'pokemon', offered, true)) issue(source.id, 'sources', 'Trade must consume its offered Pokémon.');
       if (source.level.kind === 'match-traded-pokemon' && source.level.pokemonId !== offered) issue(source.id, 'sources', 'Trade level refers to a different offered Pokémon.');
     }
     if (source.details.kind === 'fossil' && !has(source.requirements, 'item', source.details.itemId, true)) issue(source.id, 'sources', 'Fossil revival must consume its fossil.');
@@ -164,6 +167,10 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
     if (!from || !to || from.pokemonId !== change.pokemonId || to.pokemonId !== change.pokemonId) issue(change.id, 'form-changes', 'Form change must use two profiles of the same species.');
     if (change.fromFormId === change.toFormId) issue(change.id, 'form-changes', 'Form change must change the form.');
     if (change.heldItemId && !items.has(change.heldItemId)) issue(change.id, 'form-changes', 'Unknown held item.');
+    if (change.fusionPartnerPokemonId && (change.fusionPartnerPokemonId === change.pokemonId
+      || !game.profiles.some(profile => profile.pokemonId === change.fusionPartnerPokemonId))) {
+      issue(change.id, 'form-changes', 'Fusion needs another supported species as its partner.');
+    }
   }
   const grounded = new Set([...profiles].filter(([, profile]) => game.exclusions.some(e => e.pokemonId === profile.pokemonId)).map(([id]) => id));
   const groundRequirement = (r:Requirement, seen=new Set<string>()):boolean => {
@@ -187,15 +194,15 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
     for(const source of game.sources.filter(s=>s.details.kind!=='breeding')) {
       const location=game.locations.find(l=>l.id===source.locationId);
       const id = selectionId(source.pokemonId, source.formId);
-      if(!grounded.has(id)&&location&&groundRequirement(source.requirements)&&groundRequirement(location.requirements)){grounded.add(id);changed=true;}
+      const offerGrounded = source.details.kind !== 'game-trade' || source.details.offeredPokemonId !== null || grounded.size > 0;
+      if(!grounded.has(id)&&offerGrounded&&location&&groundRequirement(source.requirements)&&groundRequirement(location.requirements)){grounded.add(id);changed=true;}
     }
     for (const evolution of game.evolutions) if (grounded.has(selectionId(evolution.fromPokemonId, evolution.fromFormId))) {
       for (const id of [selectionId(evolution.toPokemonId, evolution.toFormId), ...evolution.coProductIds]) if (!grounded.has(id)) { grounded.add(id); changed = true; }
     }
     for (const change of game.formChanges ?? []) {
       const to = selectionId(change.pokemonId, change.toFormId);
-      if (!grounded.has(to) && grounded.has(selectionId(change.pokemonId, change.fromFormId)) && groundRequirement(change.requirements)
-        && (!change.heldItemId || groundRequirement({ kind: 'item', id: change.heldItemId, quantity: 1, consumed: false }))) {
+      if (!grounded.has(to) && grounded.has(selectionId(change.pokemonId, change.fromFormId)) && groundRequirement(formChangeRequirements(change))) {
         grounded.add(to); changed = true;
       }
     }

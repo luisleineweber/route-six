@@ -3,8 +3,16 @@
 This contract describes the maintained dataset. Its schema version is 2.
 JSON Schema checks shape. A separate semantic check validates references and
 game rules. All eleven Generation I–III games support both planners. The
-thirteen Generation IV–VI games support Team Planner. Their progress data
-remains in review. See [the new game status](generation-456-progress.md).
+thirteen Generation IV–VI games support Team Planner. Diamond, Pearl,
+Platinum, Black, White, Black 2, White 2, X, and Y also support Progress
+Planner. Thus, 24 games support
+Team Planner and 20 support Progress Planner. Four games remain incomplete.
+See [the new game status](generation-456-progress.md).
+
+A game is complete only when its reviewed Progress Planner works. A passing
+team-data check does not establish progress coverage. The
+[Generation V source review](generation-5-progress-review.md) lists the four
+Unova games' source pins, resolved conflicts and integration checks.
 
 ## File layout
 
@@ -97,13 +105,13 @@ generation, and review information. Game profiles contain types, a local
 `spriteSrc`, possible `genders`, breeding data, and an optional `regionalDex`
 number. Omit `regionalDex` for
 species outside the game's regional Pokédex. Regional numbers must be unique
-and form a sequence from 1. Both planner catalogues show these species first
+and form a sequence from 0 or 1. Both planner catalogues show these species first
 in regional order, then the remaining species in National Dex order.
 Game evolution records contain version-specific rules.
 This avoids assigning later-generation
 types or evolutions to Emerald.
 
-The shared catalogue currently has 386 species. Each game's profiles define
+The shared catalogue currently has 721 species. Each game's profiles define
 which species that game supports. Generation does not imply membership.
 Each profile must refer to a shared species that exists by the game's generation.
 An unsupported species has no profile. A supported but unobtainable species has
@@ -385,3 +393,30 @@ field. Details and exports keep the color and the instruction to check pests.
 
 Use explicit validation results with record IDs and field paths. Invalid data
 must stop the affected game from loading and show a clear data error.
+
+## Native Generation V rules
+
+Hidden Grotto sources separate the one-time introduction, regenerating
+contents, and native solo Funfest missions. Regeneration rates describe the
+share of content rolls, including items. They are not per-step capture rates.
+Each source needs `hidden-grotto` in every requirement alternative. A solo
+mission also needs `grotto-funfest` and the correct version's mission species.
+Mushrooms’ Hide-and-Seek uses a `funfest` encounter condition and its own
+repeatable fake-item sources, separate from the initial finite encounters.
+
+White Forest sources name their initial resident and matching resident choice.
+The group permits at most ten residents. Water sources also require Surf.
+The model does not assume connected recruitment or control the save clock.
+
+An NPC trade with `offeredPokemonId: null` accepts any hatched, unfused
+Pokémon. It still needs a real offer proof and consumes that individual.
+It cannot supply its own first offer. Phone trades keep the trader name,
+1-12 cycle position, character branch, fixed receiving level and daily action.
+A named offer remains a normal fixed-species NPC trade. Receiving levels can
+be fixed, a range, or the offer's level; presentation must use the stored rule.
+
+A form change with `fusionPartnerPokemonId` reserves that distinct individual
+while fused. The partner cannot also fill another team slot. Separation
+releases it and requires the reviewed action and party space. Fusion does
+not create another Kyurem or another partner. Rule modules stay independent
+of React and browser APIs.

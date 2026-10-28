@@ -1,6 +1,11 @@
 # Game data status
 
-Updated on 13 October 2026. All eleven catalogue games from Generations I
+Updated on 27 October 2026. The app now supports 24 Team Planner games and
+20 Progress Planner games. Black, White, Black 2 and White 2 have active
+native offline data. See [Generation IV-VI status](generation-456-progress.md)
+and [Generation V checks](generation-5-progress-review.md).
+
+Earlier Generation I-III review: 13 October 2026. All eleven catalogue games from Generations I
 to III are enabled. Each new game had a Luna agent for source review and
 data work. Ruby passed the complete second-game checks before the group
 was enabled. Emerald remains the default game.

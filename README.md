@@ -10,12 +10,13 @@ catalogue has 721 species. Each game has its own supported profiles, type chart,
 encounters, progress gates, items, choices, evolutions, and breeding rules.
 
 Both planners support Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire,
-Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, X, and Y.
+Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, Black, White, Black 2,
+White 2, X, and Y.
 Emerald remains the default game. See
 [game data status](docs/game-data-progress.md) for coverage and checks.
 
-HeartGold, SoulSilver, Black, White, Black 2, White 2, Omega Ruby, and
-Alpha Sapphire support Team Planner. Their Progress Planner data remains
+HeartGold, SoulSilver, Omega Ruby, and Alpha Sapphire support Team Planner.
+Their Progress Planner data remains
 under review. The app shows this limit when you open that view.
 See [Generation IV–VI status](docs/generation-456-progress.md) for the open work.
 

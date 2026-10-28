@@ -2,6 +2,7 @@ import type { Blocker, GameData, Requirement } from '../types';
 import { requirementWitnesses, type AccessContext } from './context';
 import { evolutionRequirements, evolutionWitnesses } from './evolution-actions';
 import { selectionId, selectionProfile } from '../pokemon-selection';
+import { formChangeRequirements } from './form-changes';
 
 export function requirementBlockers(ctx: AccessContext, req: Requirement, seen = new Set<string>()): Blocker[] {
   if (requirementWitnesses(ctx, req).length) return [];
@@ -47,8 +48,7 @@ export function pokemonBlockers(game: GameData, ctx: AccessContext, id: string, 
   for (const change of game.formChanges ?? []) if (selectionId(change.pokemonId, change.toFormId) === id) {
     const from = selectionId(change.pokemonId, change.fromFormId);
     if (!ctx.paths.has(from)) reasons.push(...pokemonBlockers(game, ctx, from, next));
-    reasons.push(...requirementBlockers(ctx, change.requirements));
-    if (change.heldItemId) reasons.push(...requirementBlockers(ctx, { kind: 'item', id: change.heldItemId, quantity: 1, consumed: false }));
+    reasons.push(...requirementBlockers(ctx, formChangeRequirements(change)));
   }
   for (const evolution of game.evolutions.filter(e => selectionId(e.toPokemonId, e.toFormId) === id || e.coProductIds.includes(id))) {
     if (evolution.trigger === 'player-trade') {

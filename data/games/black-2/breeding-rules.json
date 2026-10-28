@@ -1,1 +1,4952 @@
-[]
+[
+  {
+    "id": "black-2-breed-nidoran-f-nidoran-m",
+    "parentPokemonIds": [
+      "nidoking",
+      "nidoran-f",
+      "nidoran-m",
+      "nidorino"
+    ],
+    "offspringPokemonIds": [
+      "nidoran-f",
+      "nidoran-m"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-volbeat-illumise",
+    "parentPokemonIds": [
+      "illumise",
+      "volbeat"
+    ],
+    "offspringPokemonIds": [
+      "volbeat",
+      "illumise"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-abra",
+    "parentPokemonIds": [
+      "abra",
+      "alakazam",
+      "kadabra"
+    ],
+    "offspringPokemonIds": [
+      "abra"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-absol",
+    "parentPokemonIds": [
+      "absol"
+    ],
+    "offspringPokemonIds": [
+      "absol"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-aerodactyl",
+    "parentPokemonIds": [
+      "aerodactyl"
+    ],
+    "offspringPokemonIds": [
+      "aerodactyl"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-aipom",
+    "parentPokemonIds": [
+      "aipom",
+      "ambipom"
+    ],
+    "offspringPokemonIds": [
+      "aipom"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-alomomola",
+    "parentPokemonIds": [
+      "alomomola"
+    ],
+    "offspringPokemonIds": [
+      "alomomola"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-anorith",
+    "parentPokemonIds": [
+      "anorith",
+      "armaldo"
+    ],
+    "offspringPokemonIds": [
+      "anorith"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-archen",
+    "parentPokemonIds": [
+      "archen",
+      "archeops"
+    ],
+    "offspringPokemonIds": [
+      "archen"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-aron",
+    "parentPokemonIds": [
+      "aggron",
+      "aron",
+      "lairon"
+    ],
+    "offspringPokemonIds": [
+      "aron"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-audino",
+    "parentPokemonIds": [
+      "audino"
+    ],
+    "offspringPokemonIds": [
+      "audino"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-axew",
+    "parentPokemonIds": [
+      "axew",
+      "fraxure",
+      "haxorus"
+    ],
+    "offspringPokemonIds": [
+      "axew"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-azurill-sea-incense",
+    "parentPokemonIds": [
+      "azumarill",
+      "marill"
+    ],
+    "offspringPokemonIds": [
+      "azurill"
+    ],
+    "requiredHeldItemId": "sea-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-marill",
+    "parentPokemonIds": [
+      "azumarill",
+      "marill"
+    ],
+    "offspringPokemonIds": [
+      "marill"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bagon",
+    "parentPokemonIds": [
+      "bagon",
+      "salamence",
+      "shelgon"
+    ],
+    "offspringPokemonIds": [
+      "bagon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-baltoy",
+    "parentPokemonIds": [
+      "baltoy",
+      "claydol"
+    ],
+    "offspringPokemonIds": [
+      "baltoy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-barboach",
+    "parentPokemonIds": [
+      "barboach",
+      "whiscash"
+    ],
+    "offspringPokemonIds": [
+      "barboach"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-basculin",
+    "parentPokemonIds": [
+      "basculin"
+    ],
+    "offspringPokemonIds": [
+      "basculin"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-beldum",
+    "parentPokemonIds": [
+      "beldum",
+      "metagross",
+      "metang"
+    ],
+    "offspringPokemonIds": [
+      "beldum"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bellsprout",
+    "parentPokemonIds": [
+      "bellsprout",
+      "victreebel",
+      "weepinbell"
+    ],
+    "offspringPokemonIds": [
+      "bellsprout"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bidoof",
+    "parentPokemonIds": [
+      "bibarel",
+      "bidoof"
+    ],
+    "offspringPokemonIds": [
+      "bidoof"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-blitzle",
+    "parentPokemonIds": [
+      "blitzle",
+      "zebstrika"
+    ],
+    "offspringPokemonIds": [
+      "blitzle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bonsly-rock-incense",
+    "parentPokemonIds": [
+      "sudowoodo"
+    ],
+    "offspringPokemonIds": [
+      "bonsly"
+    ],
+    "requiredHeldItemId": "rock-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sudowoodo",
+    "parentPokemonIds": [
+      "sudowoodo"
+    ],
+    "offspringPokemonIds": [
+      "sudowoodo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bouffalant",
+    "parentPokemonIds": [
+      "bouffalant"
+    ],
+    "offspringPokemonIds": [
+      "bouffalant"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bronzor",
+    "parentPokemonIds": [
+      "bronzong",
+      "bronzor"
+    ],
+    "offspringPokemonIds": [
+      "bronzor"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-budew-rose-incense",
+    "parentPokemonIds": [
+      "roselia",
+      "roserade"
+    ],
+    "offspringPokemonIds": [
+      "budew"
+    ],
+    "requiredHeldItemId": "rose-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-roselia",
+    "parentPokemonIds": [
+      "roselia",
+      "roserade"
+    ],
+    "offspringPokemonIds": [
+      "roselia"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-buizel",
+    "parentPokemonIds": [
+      "buizel",
+      "floatzel"
+    ],
+    "offspringPokemonIds": [
+      "buizel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-bulbasaur",
+    "parentPokemonIds": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur"
+    ],
+    "offspringPokemonIds": [
+      "bulbasaur"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-buneary",
+    "parentPokemonIds": [
+      "buneary",
+      "lopunny"
+    ],
+    "offspringPokemonIds": [
+      "buneary"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-burmy",
+    "parentPokemonIds": [
+      "burmy",
+      "mothim",
+      "wormadam"
+    ],
+    "offspringPokemonIds": [
+      "burmy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cacnea",
+    "parentPokemonIds": [
+      "cacnea",
+      "cacturne"
+    ],
+    "offspringPokemonIds": [
+      "cacnea"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-carnivine",
+    "parentPokemonIds": [
+      "carnivine"
+    ],
+    "offspringPokemonIds": [
+      "carnivine"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-carvanha",
+    "parentPokemonIds": [
+      "carvanha",
+      "sharpedo"
+    ],
+    "offspringPokemonIds": [
+      "carvanha"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-castform",
+    "parentPokemonIds": [
+      "castform"
+    ],
+    "offspringPokemonIds": [
+      "castform"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-caterpie",
+    "parentPokemonIds": [
+      "butterfree",
+      "caterpie",
+      "metapod"
+    ],
+    "offspringPokemonIds": [
+      "caterpie"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-charmander",
+    "parentPokemonIds": [
+      "charizard",
+      "charmander",
+      "charmeleon"
+    ],
+    "offspringPokemonIds": [
+      "charmander"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chatot",
+    "parentPokemonIds": [
+      "chatot"
+    ],
+    "offspringPokemonIds": [
+      "chatot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cherubi",
+    "parentPokemonIds": [
+      "cherrim",
+      "cherubi"
+    ],
+    "offspringPokemonIds": [
+      "cherubi"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chikorita",
+    "parentPokemonIds": [
+      "bayleef",
+      "chikorita",
+      "meganium"
+    ],
+    "offspringPokemonIds": [
+      "chikorita"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chimchar",
+    "parentPokemonIds": [
+      "chimchar",
+      "infernape",
+      "monferno"
+    ],
+    "offspringPokemonIds": [
+      "chimchar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chinchou",
+    "parentPokemonIds": [
+      "chinchou",
+      "lanturn"
+    ],
+    "offspringPokemonIds": [
+      "chinchou"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chingling-pure-incense",
+    "parentPokemonIds": [
+      "chimecho"
+    ],
+    "offspringPokemonIds": [
+      "chingling"
+    ],
+    "requiredHeldItemId": "pure-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chimecho",
+    "parentPokemonIds": [
+      "chimecho"
+    ],
+    "offspringPokemonIds": [
+      "chimecho"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-clamperl",
+    "parentPokemonIds": [
+      "clamperl",
+      "gorebyss",
+      "huntail"
+    ],
+    "offspringPokemonIds": [
+      "clamperl"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cleffa",
+    "parentPokemonIds": [
+      "clefable",
+      "clefairy"
+    ],
+    "offspringPokemonIds": [
+      "cleffa"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-combee",
+    "parentPokemonIds": [
+      "combee",
+      "vespiquen"
+    ],
+    "offspringPokemonIds": [
+      "combee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-corphish",
+    "parentPokemonIds": [
+      "corphish",
+      "crawdaunt"
+    ],
+    "offspringPokemonIds": [
+      "corphish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-corsola",
+    "parentPokemonIds": [
+      "corsola"
+    ],
+    "offspringPokemonIds": [
+      "corsola"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cottonee",
+    "parentPokemonIds": [
+      "cottonee",
+      "whimsicott"
+    ],
+    "offspringPokemonIds": [
+      "cottonee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cranidos",
+    "parentPokemonIds": [
+      "cranidos",
+      "rampardos"
+    ],
+    "offspringPokemonIds": [
+      "cranidos"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-croagunk",
+    "parentPokemonIds": [
+      "croagunk",
+      "toxicroak"
+    ],
+    "offspringPokemonIds": [
+      "croagunk"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cryogonal",
+    "parentPokemonIds": [
+      "cryogonal"
+    ],
+    "offspringPokemonIds": [
+      "cryogonal"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cubchoo",
+    "parentPokemonIds": [
+      "beartic",
+      "cubchoo"
+    ],
+    "offspringPokemonIds": [
+      "cubchoo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cubone",
+    "parentPokemonIds": [
+      "cubone",
+      "marowak"
+    ],
+    "offspringPokemonIds": [
+      "cubone"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-cyndaquil",
+    "parentPokemonIds": [
+      "cyndaquil",
+      "quilava",
+      "typhlosion"
+    ],
+    "offspringPokemonIds": [
+      "cyndaquil"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-darumaka",
+    "parentPokemonIds": [
+      "darmanitan",
+      "darumaka"
+    ],
+    "offspringPokemonIds": [
+      "darumaka"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-deerling",
+    "parentPokemonIds": [
+      "deerling",
+      "sawsbuck"
+    ],
+    "offspringPokemonIds": [
+      "deerling"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-deino",
+    "parentPokemonIds": [
+      "deino",
+      "hydreigon",
+      "zweilous"
+    ],
+    "offspringPokemonIds": [
+      "deino"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-delibird",
+    "parentPokemonIds": [
+      "delibird"
+    ],
+    "offspringPokemonIds": [
+      "delibird"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-diglett",
+    "parentPokemonIds": [
+      "diglett",
+      "dugtrio"
+    ],
+    "offspringPokemonIds": [
+      "diglett"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-doduo",
+    "parentPokemonIds": [
+      "dodrio",
+      "doduo"
+    ],
+    "offspringPokemonIds": [
+      "doduo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-dratini",
+    "parentPokemonIds": [
+      "dragonair",
+      "dragonite",
+      "dratini"
+    ],
+    "offspringPokemonIds": [
+      "dratini"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-drifloon",
+    "parentPokemonIds": [
+      "drifblim",
+      "drifloon"
+    ],
+    "offspringPokemonIds": [
+      "drifloon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-drilbur",
+    "parentPokemonIds": [
+      "drilbur",
+      "excadrill"
+    ],
+    "offspringPokemonIds": [
+      "drilbur"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-drowzee",
+    "parentPokemonIds": [
+      "drowzee",
+      "hypno"
+    ],
+    "offspringPokemonIds": [
+      "drowzee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-druddigon",
+    "parentPokemonIds": [
+      "druddigon"
+    ],
+    "offspringPokemonIds": [
+      "druddigon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-ducklett",
+    "parentPokemonIds": [
+      "ducklett",
+      "swanna"
+    ],
+    "offspringPokemonIds": [
+      "ducklett"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-dunsparce",
+    "parentPokemonIds": [
+      "dunsparce"
+    ],
+    "offspringPokemonIds": [
+      "dunsparce"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-durant",
+    "parentPokemonIds": [
+      "durant"
+    ],
+    "offspringPokemonIds": [
+      "durant"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-duskull",
+    "parentPokemonIds": [
+      "dusclops",
+      "dusknoir",
+      "duskull"
+    ],
+    "offspringPokemonIds": [
+      "duskull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-dwebble",
+    "parentPokemonIds": [
+      "crustle",
+      "dwebble"
+    ],
+    "offspringPokemonIds": [
+      "dwebble"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-eevee",
+    "parentPokemonIds": [
+      "eevee",
+      "espeon",
+      "flareon",
+      "glaceon",
+      "jolteon",
+      "leafeon",
+      "umbreon",
+      "vaporeon"
+    ],
+    "offspringPokemonIds": [
+      "eevee"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-ekans",
+    "parentPokemonIds": [
+      "arbok",
+      "ekans"
+    ],
+    "offspringPokemonIds": [
+      "ekans"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-electrike",
+    "parentPokemonIds": [
+      "electrike",
+      "manectric"
+    ],
+    "offspringPokemonIds": [
+      "electrike"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-elekid",
+    "parentPokemonIds": [
+      "electabuzz",
+      "electivire"
+    ],
+    "offspringPokemonIds": [
+      "elekid"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-elgyem",
+    "parentPokemonIds": [
+      "beheeyem",
+      "elgyem"
+    ],
+    "offspringPokemonIds": [
+      "elgyem"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-emolga",
+    "parentPokemonIds": [
+      "emolga"
+    ],
+    "offspringPokemonIds": [
+      "emolga"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-exeggcute",
+    "parentPokemonIds": [
+      "exeggcute",
+      "exeggutor"
+    ],
+    "offspringPokemonIds": [
+      "exeggcute"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-farfetchd",
+    "parentPokemonIds": [
+      "farfetchd"
+    ],
+    "offspringPokemonIds": [
+      "farfetchd"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-feebas",
+    "parentPokemonIds": [
+      "feebas",
+      "milotic"
+    ],
+    "offspringPokemonIds": [
+      "feebas"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-ferroseed",
+    "parentPokemonIds": [
+      "ferroseed",
+      "ferrothorn"
+    ],
+    "offspringPokemonIds": [
+      "ferroseed"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-finneon",
+    "parentPokemonIds": [
+      "finneon",
+      "lumineon"
+    ],
+    "offspringPokemonIds": [
+      "finneon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-foongus",
+    "parentPokemonIds": [
+      "amoonguss",
+      "foongus"
+    ],
+    "offspringPokemonIds": [
+      "foongus"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-frillish",
+    "parentPokemonIds": [
+      "frillish",
+      "jellicent"
+    ],
+    "offspringPokemonIds": [
+      "frillish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-gastly",
+    "parentPokemonIds": [
+      "gastly",
+      "gengar",
+      "haunter"
+    ],
+    "offspringPokemonIds": [
+      "gastly"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-geodude",
+    "parentPokemonIds": [
+      "geodude",
+      "golem",
+      "graveler"
+    ],
+    "offspringPokemonIds": [
+      "geodude"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-gible",
+    "parentPokemonIds": [
+      "gabite",
+      "garchomp",
+      "gible"
+    ],
+    "offspringPokemonIds": [
+      "gible"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-girafarig",
+    "parentPokemonIds": [
+      "girafarig"
+    ],
+    "offspringPokemonIds": [
+      "girafarig"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-glameow",
+    "parentPokemonIds": [
+      "glameow",
+      "purugly"
+    ],
+    "offspringPokemonIds": [
+      "glameow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-gligar",
+    "parentPokemonIds": [
+      "gligar",
+      "gliscor"
+    ],
+    "offspringPokemonIds": [
+      "gligar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-goldeen",
+    "parentPokemonIds": [
+      "goldeen",
+      "seaking"
+    ],
+    "offspringPokemonIds": [
+      "goldeen"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-golett",
+    "parentPokemonIds": [
+      "golett",
+      "golurk"
+    ],
+    "offspringPokemonIds": [
+      "golett"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-gothita",
+    "parentPokemonIds": [
+      "gothita",
+      "gothitelle",
+      "gothorita"
+    ],
+    "offspringPokemonIds": [
+      "gothita"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-grimer",
+    "parentPokemonIds": [
+      "grimer",
+      "muk"
+    ],
+    "offspringPokemonIds": [
+      "grimer"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-growlithe",
+    "parentPokemonIds": [
+      "arcanine",
+      "growlithe"
+    ],
+    "offspringPokemonIds": [
+      "growlithe"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-gulpin",
+    "parentPokemonIds": [
+      "gulpin",
+      "swalot"
+    ],
+    "offspringPokemonIds": [
+      "gulpin"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-happiny-luck-incense",
+    "parentPokemonIds": [
+      "blissey",
+      "chansey"
+    ],
+    "offspringPokemonIds": [
+      "happiny"
+    ],
+    "requiredHeldItemId": "luck-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-chansey",
+    "parentPokemonIds": [
+      "blissey",
+      "chansey"
+    ],
+    "offspringPokemonIds": [
+      "chansey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-heatmor",
+    "parentPokemonIds": [
+      "heatmor"
+    ],
+    "offspringPokemonIds": [
+      "heatmor"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-heracross",
+    "parentPokemonIds": [
+      "heracross"
+    ],
+    "offspringPokemonIds": [
+      "heracross"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-hippopotas",
+    "parentPokemonIds": [
+      "hippopotas",
+      "hippowdon"
+    ],
+    "offspringPokemonIds": [
+      "hippopotas"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-hoothoot",
+    "parentPokemonIds": [
+      "hoothoot",
+      "noctowl"
+    ],
+    "offspringPokemonIds": [
+      "hoothoot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-hoppip",
+    "parentPokemonIds": [
+      "hoppip",
+      "jumpluff",
+      "skiploom"
+    ],
+    "offspringPokemonIds": [
+      "hoppip"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-horsea",
+    "parentPokemonIds": [
+      "horsea",
+      "kingdra",
+      "seadra"
+    ],
+    "offspringPokemonIds": [
+      "horsea"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-houndour",
+    "parentPokemonIds": [
+      "houndoom",
+      "houndour"
+    ],
+    "offspringPokemonIds": [
+      "houndour"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-igglybuff",
+    "parentPokemonIds": [
+      "jigglypuff",
+      "wigglytuff"
+    ],
+    "offspringPokemonIds": [
+      "igglybuff"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-joltik",
+    "parentPokemonIds": [
+      "galvantula",
+      "joltik"
+    ],
+    "offspringPokemonIds": [
+      "joltik"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-kabuto",
+    "parentPokemonIds": [
+      "kabuto",
+      "kabutops"
+    ],
+    "offspringPokemonIds": [
+      "kabuto"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-kangaskhan",
+    "parentPokemonIds": [
+      "kangaskhan"
+    ],
+    "offspringPokemonIds": [
+      "kangaskhan"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-karrablast",
+    "parentPokemonIds": [
+      "escavalier",
+      "karrablast"
+    ],
+    "offspringPokemonIds": [
+      "karrablast"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-kecleon",
+    "parentPokemonIds": [
+      "kecleon"
+    ],
+    "offspringPokemonIds": [
+      "kecleon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-klink",
+    "parentPokemonIds": [
+      "klang",
+      "klink",
+      "klinklang"
+    ],
+    "offspringPokemonIds": [
+      "klink"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-koffing",
+    "parentPokemonIds": [
+      "koffing",
+      "weezing"
+    ],
+    "offspringPokemonIds": [
+      "koffing"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-krabby",
+    "parentPokemonIds": [
+      "kingler",
+      "krabby"
+    ],
+    "offspringPokemonIds": [
+      "krabby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-kricketot",
+    "parentPokemonIds": [
+      "kricketot",
+      "kricketune"
+    ],
+    "offspringPokemonIds": [
+      "kricketot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-lapras",
+    "parentPokemonIds": [
+      "lapras"
+    ],
+    "offspringPokemonIds": [
+      "lapras"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-larvesta",
+    "parentPokemonIds": [
+      "larvesta",
+      "volcarona"
+    ],
+    "offspringPokemonIds": [
+      "larvesta"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-larvitar",
+    "parentPokemonIds": [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    "offspringPokemonIds": [
+      "larvitar"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-ledyba",
+    "parentPokemonIds": [
+      "ledian",
+      "ledyba"
+    ],
+    "offspringPokemonIds": [
+      "ledyba"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-lickitung",
+    "parentPokemonIds": [
+      "lickilicky",
+      "lickitung"
+    ],
+    "offspringPokemonIds": [
+      "lickitung"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-lileep",
+    "parentPokemonIds": [
+      "cradily",
+      "lileep"
+    ],
+    "offspringPokemonIds": [
+      "lileep"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-lillipup",
+    "parentPokemonIds": [
+      "herdier",
+      "lillipup",
+      "stoutland"
+    ],
+    "offspringPokemonIds": [
+      "lillipup"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-litwick",
+    "parentPokemonIds": [
+      "chandelure",
+      "lampent",
+      "litwick"
+    ],
+    "offspringPokemonIds": [
+      "litwick"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-lotad",
+    "parentPokemonIds": [
+      "lombre",
+      "lotad",
+      "ludicolo"
+    ],
+    "offspringPokemonIds": [
+      "lotad"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-lunatone",
+    "parentPokemonIds": [
+      "lunatone"
+    ],
+    "offspringPokemonIds": [
+      "lunatone"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-luvdisc",
+    "parentPokemonIds": [
+      "luvdisc"
+    ],
+    "offspringPokemonIds": [
+      "luvdisc"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-machop",
+    "parentPokemonIds": [
+      "machamp",
+      "machoke",
+      "machop"
+    ],
+    "offspringPokemonIds": [
+      "machop"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-magby",
+    "parentPokemonIds": [
+      "magmar",
+      "magmortar"
+    ],
+    "offspringPokemonIds": [
+      "magby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-magikarp",
+    "parentPokemonIds": [
+      "gyarados",
+      "magikarp"
+    ],
+    "offspringPokemonIds": [
+      "magikarp"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-magnemite",
+    "parentPokemonIds": [
+      "magnemite",
+      "magneton",
+      "magnezone"
+    ],
+    "offspringPokemonIds": [
+      "magnemite"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-makuhita",
+    "parentPokemonIds": [
+      "hariyama",
+      "makuhita"
+    ],
+    "offspringPokemonIds": [
+      "makuhita"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-manaphy",
+    "parentPokemonIds": [
+      "manaphy"
+    ],
+    "offspringPokemonIds": [
+      "manaphy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mankey",
+    "parentPokemonIds": [
+      "mankey",
+      "primeape"
+    ],
+    "offspringPokemonIds": [
+      "mankey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mantyke-wave-incense",
+    "parentPokemonIds": [
+      "mantine"
+    ],
+    "offspringPokemonIds": [
+      "mantyke"
+    ],
+    "requiredHeldItemId": "wave-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mantine",
+    "parentPokemonIds": [
+      "mantine"
+    ],
+    "offspringPokemonIds": [
+      "mantine"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-maractus",
+    "parentPokemonIds": [
+      "maractus"
+    ],
+    "offspringPokemonIds": [
+      "maractus"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mareep",
+    "parentPokemonIds": [
+      "ampharos",
+      "flaaffy",
+      "mareep"
+    ],
+    "offspringPokemonIds": [
+      "mareep"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mawile",
+    "parentPokemonIds": [
+      "mawile"
+    ],
+    "offspringPokemonIds": [
+      "mawile"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-meditite",
+    "parentPokemonIds": [
+      "medicham",
+      "meditite"
+    ],
+    "offspringPokemonIds": [
+      "meditite"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-meowth",
+    "parentPokemonIds": [
+      "meowth",
+      "persian"
+    ],
+    "offspringPokemonIds": [
+      "meowth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mienfoo",
+    "parentPokemonIds": [
+      "mienfoo",
+      "mienshao"
+    ],
+    "offspringPokemonIds": [
+      "mienfoo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-miltank",
+    "parentPokemonIds": [
+      "miltank"
+    ],
+    "offspringPokemonIds": [
+      "miltank"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mime-jr-odd-incense",
+    "parentPokemonIds": [
+      "mr-mime"
+    ],
+    "offspringPokemonIds": [
+      "mime-jr"
+    ],
+    "requiredHeldItemId": "odd-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mr-mime",
+    "parentPokemonIds": [
+      "mr-mime"
+    ],
+    "offspringPokemonIds": [
+      "mr-mime"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-minccino",
+    "parentPokemonIds": [
+      "cinccino",
+      "minccino"
+    ],
+    "offspringPokemonIds": [
+      "minccino"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-minun",
+    "parentPokemonIds": [
+      "minun"
+    ],
+    "offspringPokemonIds": [
+      "minun"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-misdreavus",
+    "parentPokemonIds": [
+      "misdreavus",
+      "mismagius"
+    ],
+    "offspringPokemonIds": [
+      "misdreavus"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-mudkip",
+    "parentPokemonIds": [
+      "marshtomp",
+      "mudkip",
+      "swampert"
+    ],
+    "offspringPokemonIds": [
+      "mudkip"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-munchlax-full-incense",
+    "parentPokemonIds": [
+      "snorlax"
+    ],
+    "offspringPokemonIds": [
+      "munchlax"
+    ],
+    "requiredHeldItemId": "full-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-snorlax",
+    "parentPokemonIds": [
+      "snorlax"
+    ],
+    "offspringPokemonIds": [
+      "snorlax"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-munna",
+    "parentPokemonIds": [
+      "munna",
+      "musharna"
+    ],
+    "offspringPokemonIds": [
+      "munna"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-murkrow",
+    "parentPokemonIds": [
+      "honchkrow",
+      "murkrow"
+    ],
+    "offspringPokemonIds": [
+      "murkrow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-natu",
+    "parentPokemonIds": [
+      "natu",
+      "xatu"
+    ],
+    "offspringPokemonIds": [
+      "natu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-nincada",
+    "parentPokemonIds": [
+      "nincada",
+      "ninjask",
+      "shedinja"
+    ],
+    "offspringPokemonIds": [
+      "nincada"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-nosepass",
+    "parentPokemonIds": [
+      "nosepass",
+      "probopass"
+    ],
+    "offspringPokemonIds": [
+      "nosepass"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-numel",
+    "parentPokemonIds": [
+      "camerupt",
+      "numel"
+    ],
+    "offspringPokemonIds": [
+      "numel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-oddish",
+    "parentPokemonIds": [
+      "bellossom",
+      "gloom",
+      "oddish",
+      "vileplume"
+    ],
+    "offspringPokemonIds": [
+      "oddish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-omanyte",
+    "parentPokemonIds": [
+      "omanyte",
+      "omastar"
+    ],
+    "offspringPokemonIds": [
+      "omanyte"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-onix",
+    "parentPokemonIds": [
+      "onix",
+      "steelix"
+    ],
+    "offspringPokemonIds": [
+      "onix"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-oshawott",
+    "parentPokemonIds": [
+      "dewott",
+      "oshawott",
+      "samurott"
+    ],
+    "offspringPokemonIds": [
+      "oshawott"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pachirisu",
+    "parentPokemonIds": [
+      "pachirisu"
+    ],
+    "offspringPokemonIds": [
+      "pachirisu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-panpour",
+    "parentPokemonIds": [
+      "panpour",
+      "simipour"
+    ],
+    "offspringPokemonIds": [
+      "panpour"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pansage",
+    "parentPokemonIds": [
+      "pansage",
+      "simisage"
+    ],
+    "offspringPokemonIds": [
+      "pansage"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pansear",
+    "parentPokemonIds": [
+      "pansear",
+      "simisear"
+    ],
+    "offspringPokemonIds": [
+      "pansear"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-paras",
+    "parentPokemonIds": [
+      "paras",
+      "parasect"
+    ],
+    "offspringPokemonIds": [
+      "paras"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-patrat",
+    "parentPokemonIds": [
+      "patrat",
+      "watchog"
+    ],
+    "offspringPokemonIds": [
+      "patrat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pawniard",
+    "parentPokemonIds": [
+      "bisharp",
+      "pawniard"
+    ],
+    "offspringPokemonIds": [
+      "pawniard"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-petilil",
+    "parentPokemonIds": [
+      "lilligant",
+      "petilil"
+    ],
+    "offspringPokemonIds": [
+      "petilil"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-phanpy",
+    "parentPokemonIds": [
+      "donphan",
+      "phanpy"
+    ],
+    "offspringPokemonIds": [
+      "phanpy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-phione",
+    "parentPokemonIds": [
+      "phione"
+    ],
+    "offspringPokemonIds": [
+      "phione"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pichu",
+    "parentPokemonIds": [
+      "pikachu",
+      "raichu"
+    ],
+    "offspringPokemonIds": [
+      "pichu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pidgey",
+    "parentPokemonIds": [
+      "pidgeot",
+      "pidgeotto",
+      "pidgey"
+    ],
+    "offspringPokemonIds": [
+      "pidgey"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pidove",
+    "parentPokemonIds": [
+      "pidove",
+      "tranquill",
+      "unfezant"
+    ],
+    "offspringPokemonIds": [
+      "pidove"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pineco",
+    "parentPokemonIds": [
+      "forretress",
+      "pineco"
+    ],
+    "offspringPokemonIds": [
+      "pineco"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-pinsir",
+    "parentPokemonIds": [
+      "pinsir"
+    ],
+    "offspringPokemonIds": [
+      "pinsir"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-piplup",
+    "parentPokemonIds": [
+      "empoleon",
+      "piplup",
+      "prinplup"
+    ],
+    "offspringPokemonIds": [
+      "piplup"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-plusle",
+    "parentPokemonIds": [
+      "plusle"
+    ],
+    "offspringPokemonIds": [
+      "plusle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-poliwag",
+    "parentPokemonIds": [
+      "politoed",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath"
+    ],
+    "offspringPokemonIds": [
+      "poliwag"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-ponyta",
+    "parentPokemonIds": [
+      "ponyta",
+      "rapidash"
+    ],
+    "offspringPokemonIds": [
+      "ponyta"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-poochyena",
+    "parentPokemonIds": [
+      "mightyena",
+      "poochyena"
+    ],
+    "offspringPokemonIds": [
+      "poochyena"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-porygon",
+    "parentPokemonIds": [
+      "porygon",
+      "porygon-z",
+      "porygon2"
+    ],
+    "offspringPokemonIds": [
+      "porygon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-psyduck",
+    "parentPokemonIds": [
+      "golduck",
+      "psyduck"
+    ],
+    "offspringPokemonIds": [
+      "psyduck"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-purrloin",
+    "parentPokemonIds": [
+      "liepard",
+      "purrloin"
+    ],
+    "offspringPokemonIds": [
+      "purrloin"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-qwilfish",
+    "parentPokemonIds": [
+      "qwilfish"
+    ],
+    "offspringPokemonIds": [
+      "qwilfish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-ralts",
+    "parentPokemonIds": [
+      "gallade",
+      "gardevoir",
+      "kirlia",
+      "ralts"
+    ],
+    "offspringPokemonIds": [
+      "ralts"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-rattata",
+    "parentPokemonIds": [
+      "raticate",
+      "rattata"
+    ],
+    "offspringPokemonIds": [
+      "rattata"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-relicanth",
+    "parentPokemonIds": [
+      "relicanth"
+    ],
+    "offspringPokemonIds": [
+      "relicanth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-remoraid",
+    "parentPokemonIds": [
+      "octillery",
+      "remoraid"
+    ],
+    "offspringPokemonIds": [
+      "remoraid"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-rhyhorn",
+    "parentPokemonIds": [
+      "rhydon",
+      "rhyhorn",
+      "rhyperior"
+    ],
+    "offspringPokemonIds": [
+      "rhyhorn"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-riolu",
+    "parentPokemonIds": [
+      "lucario"
+    ],
+    "offspringPokemonIds": [
+      "riolu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-roggenrola",
+    "parentPokemonIds": [
+      "boldore",
+      "gigalith",
+      "roggenrola"
+    ],
+    "offspringPokemonIds": [
+      "roggenrola"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-rotom",
+    "parentPokemonIds": [
+      "rotom"
+    ],
+    "offspringPokemonIds": [
+      "rotom"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-rufflet",
+    "parentPokemonIds": [
+      "braviary",
+      "rufflet"
+    ],
+    "offspringPokemonIds": [
+      "rufflet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sableye",
+    "parentPokemonIds": [
+      "sableye"
+    ],
+    "offspringPokemonIds": [
+      "sableye"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sandile",
+    "parentPokemonIds": [
+      "krokorok",
+      "krookodile",
+      "sandile"
+    ],
+    "offspringPokemonIds": [
+      "sandile"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sandshrew",
+    "parentPokemonIds": [
+      "sandshrew",
+      "sandslash"
+    ],
+    "offspringPokemonIds": [
+      "sandshrew"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sawk",
+    "parentPokemonIds": [
+      "sawk"
+    ],
+    "offspringPokemonIds": [
+      "sawk"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-scraggy",
+    "parentPokemonIds": [
+      "scrafty",
+      "scraggy"
+    ],
+    "offspringPokemonIds": [
+      "scraggy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-scyther",
+    "parentPokemonIds": [
+      "scizor",
+      "scyther"
+    ],
+    "offspringPokemonIds": [
+      "scyther"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-seedot",
+    "parentPokemonIds": [
+      "nuzleaf",
+      "seedot",
+      "shiftry"
+    ],
+    "offspringPokemonIds": [
+      "seedot"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-seel",
+    "parentPokemonIds": [
+      "dewgong",
+      "seel"
+    ],
+    "offspringPokemonIds": [
+      "seel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sentret",
+    "parentPokemonIds": [
+      "furret",
+      "sentret"
+    ],
+    "offspringPokemonIds": [
+      "sentret"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-seviper",
+    "parentPokemonIds": [
+      "seviper"
+    ],
+    "offspringPokemonIds": [
+      "seviper"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sewaddle",
+    "parentPokemonIds": [
+      "leavanny",
+      "sewaddle",
+      "swadloon"
+    ],
+    "offspringPokemonIds": [
+      "sewaddle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shellder",
+    "parentPokemonIds": [
+      "cloyster",
+      "shellder"
+    ],
+    "offspringPokemonIds": [
+      "shellder"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shellos",
+    "parentPokemonIds": [
+      "gastrodon",
+      "shellos"
+    ],
+    "offspringPokemonIds": [
+      "shellos"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shelmet",
+    "parentPokemonIds": [
+      "accelgor",
+      "shelmet"
+    ],
+    "offspringPokemonIds": [
+      "shelmet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shieldon",
+    "parentPokemonIds": [
+      "bastiodon",
+      "shieldon"
+    ],
+    "offspringPokemonIds": [
+      "shieldon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shinx",
+    "parentPokemonIds": [
+      "luxio",
+      "luxray",
+      "shinx"
+    ],
+    "offspringPokemonIds": [
+      "shinx"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shroomish",
+    "parentPokemonIds": [
+      "breloom",
+      "shroomish"
+    ],
+    "offspringPokemonIds": [
+      "shroomish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shuckle",
+    "parentPokemonIds": [
+      "shuckle"
+    ],
+    "offspringPokemonIds": [
+      "shuckle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shuppet",
+    "parentPokemonIds": [
+      "banette",
+      "shuppet"
+    ],
+    "offspringPokemonIds": [
+      "shuppet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sigilyph",
+    "parentPokemonIds": [
+      "sigilyph"
+    ],
+    "offspringPokemonIds": [
+      "sigilyph"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-skarmory",
+    "parentPokemonIds": [
+      "skarmory"
+    ],
+    "offspringPokemonIds": [
+      "skarmory"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-skitty",
+    "parentPokemonIds": [
+      "delcatty",
+      "skitty"
+    ],
+    "offspringPokemonIds": [
+      "skitty"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-skorupi",
+    "parentPokemonIds": [
+      "drapion",
+      "skorupi"
+    ],
+    "offspringPokemonIds": [
+      "skorupi"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-slakoth",
+    "parentPokemonIds": [
+      "slaking",
+      "slakoth",
+      "vigoroth"
+    ],
+    "offspringPokemonIds": [
+      "slakoth"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-slowpoke",
+    "parentPokemonIds": [
+      "slowbro",
+      "slowking",
+      "slowpoke"
+    ],
+    "offspringPokemonIds": [
+      "slowpoke"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-slugma",
+    "parentPokemonIds": [
+      "magcargo",
+      "slugma"
+    ],
+    "offspringPokemonIds": [
+      "slugma"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-smeargle",
+    "parentPokemonIds": [
+      "smeargle"
+    ],
+    "offspringPokemonIds": [
+      "smeargle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-smoochum",
+    "parentPokemonIds": [
+      "jynx"
+    ],
+    "offspringPokemonIds": [
+      "smoochum"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sneasel",
+    "parentPokemonIds": [
+      "sneasel",
+      "weavile"
+    ],
+    "offspringPokemonIds": [
+      "sneasel"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-snivy",
+    "parentPokemonIds": [
+      "serperior",
+      "servine",
+      "snivy"
+    ],
+    "offspringPokemonIds": [
+      "snivy"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-snorunt",
+    "parentPokemonIds": [
+      "froslass",
+      "glalie",
+      "snorunt"
+    ],
+    "offspringPokemonIds": [
+      "snorunt"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-snover",
+    "parentPokemonIds": [
+      "abomasnow",
+      "snover"
+    ],
+    "offspringPokemonIds": [
+      "snover"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-snubbull",
+    "parentPokemonIds": [
+      "granbull",
+      "snubbull"
+    ],
+    "offspringPokemonIds": [
+      "snubbull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-solosis",
+    "parentPokemonIds": [
+      "duosion",
+      "reuniclus",
+      "solosis"
+    ],
+    "offspringPokemonIds": [
+      "solosis"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-solrock",
+    "parentPokemonIds": [
+      "solrock"
+    ],
+    "offspringPokemonIds": [
+      "solrock"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-spearow",
+    "parentPokemonIds": [
+      "fearow",
+      "spearow"
+    ],
+    "offspringPokemonIds": [
+      "spearow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-spheal",
+    "parentPokemonIds": [
+      "sealeo",
+      "spheal",
+      "walrein"
+    ],
+    "offspringPokemonIds": [
+      "spheal"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-spinarak",
+    "parentPokemonIds": [
+      "ariados",
+      "spinarak"
+    ],
+    "offspringPokemonIds": [
+      "spinarak"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-spinda",
+    "parentPokemonIds": [
+      "spinda"
+    ],
+    "offspringPokemonIds": [
+      "spinda"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-spiritomb",
+    "parentPokemonIds": [
+      "spiritomb"
+    ],
+    "offspringPokemonIds": [
+      "spiritomb"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-spoink",
+    "parentPokemonIds": [
+      "grumpig",
+      "spoink"
+    ],
+    "offspringPokemonIds": [
+      "spoink"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-squirtle",
+    "parentPokemonIds": [
+      "blastoise",
+      "squirtle",
+      "wartortle"
+    ],
+    "offspringPokemonIds": [
+      "squirtle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-stantler",
+    "parentPokemonIds": [
+      "stantler"
+    ],
+    "offspringPokemonIds": [
+      "stantler"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-starly",
+    "parentPokemonIds": [
+      "staraptor",
+      "staravia",
+      "starly"
+    ],
+    "offspringPokemonIds": [
+      "starly"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-staryu",
+    "parentPokemonIds": [
+      "starmie",
+      "staryu"
+    ],
+    "offspringPokemonIds": [
+      "staryu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-stunfisk",
+    "parentPokemonIds": [
+      "stunfisk"
+    ],
+    "offspringPokemonIds": [
+      "stunfisk"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-stunky",
+    "parentPokemonIds": [
+      "skuntank",
+      "stunky"
+    ],
+    "offspringPokemonIds": [
+      "stunky"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-sunkern",
+    "parentPokemonIds": [
+      "sunflora",
+      "sunkern"
+    ],
+    "offspringPokemonIds": [
+      "sunkern"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-surskit",
+    "parentPokemonIds": [
+      "masquerain",
+      "surskit"
+    ],
+    "offspringPokemonIds": [
+      "surskit"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-swablu",
+    "parentPokemonIds": [
+      "altaria",
+      "swablu"
+    ],
+    "offspringPokemonIds": [
+      "swablu"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-swinub",
+    "parentPokemonIds": [
+      "mamoswine",
+      "piloswine",
+      "swinub"
+    ],
+    "offspringPokemonIds": [
+      "swinub"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-taillow",
+    "parentPokemonIds": [
+      "swellow",
+      "taillow"
+    ],
+    "offspringPokemonIds": [
+      "taillow"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tangela",
+    "parentPokemonIds": [
+      "tangela",
+      "tangrowth"
+    ],
+    "offspringPokemonIds": [
+      "tangela"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tauros",
+    "parentPokemonIds": [
+      "tauros"
+    ],
+    "offspringPokemonIds": [
+      "tauros"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-teddiursa",
+    "parentPokemonIds": [
+      "teddiursa",
+      "ursaring"
+    ],
+    "offspringPokemonIds": [
+      "teddiursa"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tentacool",
+    "parentPokemonIds": [
+      "tentacool",
+      "tentacruel"
+    ],
+    "offspringPokemonIds": [
+      "tentacool"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tepig",
+    "parentPokemonIds": [
+      "emboar",
+      "pignite",
+      "tepig"
+    ],
+    "offspringPokemonIds": [
+      "tepig"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-throh",
+    "parentPokemonIds": [
+      "throh"
+    ],
+    "offspringPokemonIds": [
+      "throh"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-timburr",
+    "parentPokemonIds": [
+      "conkeldurr",
+      "gurdurr",
+      "timburr"
+    ],
+    "offspringPokemonIds": [
+      "timburr"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tirtouga",
+    "parentPokemonIds": [
+      "carracosta",
+      "tirtouga"
+    ],
+    "offspringPokemonIds": [
+      "tirtouga"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-togepi",
+    "parentPokemonIds": [
+      "togekiss",
+      "togetic"
+    ],
+    "offspringPokemonIds": [
+      "togepi"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-torchic",
+    "parentPokemonIds": [
+      "blaziken",
+      "combusken",
+      "torchic"
+    ],
+    "offspringPokemonIds": [
+      "torchic"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-torkoal",
+    "parentPokemonIds": [
+      "torkoal"
+    ],
+    "offspringPokemonIds": [
+      "torkoal"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-totodile",
+    "parentPokemonIds": [
+      "croconaw",
+      "feraligatr",
+      "totodile"
+    ],
+    "offspringPokemonIds": [
+      "totodile"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-trapinch",
+    "parentPokemonIds": [
+      "flygon",
+      "trapinch",
+      "vibrava"
+    ],
+    "offspringPokemonIds": [
+      "trapinch"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-treecko",
+    "parentPokemonIds": [
+      "grovyle",
+      "sceptile",
+      "treecko"
+    ],
+    "offspringPokemonIds": [
+      "treecko"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tropius",
+    "parentPokemonIds": [
+      "tropius"
+    ],
+    "offspringPokemonIds": [
+      "tropius"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-trubbish",
+    "parentPokemonIds": [
+      "garbodor",
+      "trubbish"
+    ],
+    "offspringPokemonIds": [
+      "trubbish"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-turtwig",
+    "parentPokemonIds": [
+      "grotle",
+      "torterra",
+      "turtwig"
+    ],
+    "offspringPokemonIds": [
+      "turtwig"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tympole",
+    "parentPokemonIds": [
+      "palpitoad",
+      "seismitoad",
+      "tympole"
+    ],
+    "offspringPokemonIds": [
+      "tympole"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tynamo",
+    "parentPokemonIds": [
+      "eelektrik",
+      "eelektross",
+      "tynamo"
+    ],
+    "offspringPokemonIds": [
+      "tynamo"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-tyrogue",
+    "parentPokemonIds": [
+      "hitmonchan",
+      "hitmonlee",
+      "hitmontop"
+    ],
+    "offspringPokemonIds": [
+      "tyrogue"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-vanillite",
+    "parentPokemonIds": [
+      "vanillish",
+      "vanillite",
+      "vanilluxe"
+    ],
+    "offspringPokemonIds": [
+      "vanillite"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-venipede",
+    "parentPokemonIds": [
+      "scolipede",
+      "venipede",
+      "whirlipede"
+    ],
+    "offspringPokemonIds": [
+      "venipede"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-venonat",
+    "parentPokemonIds": [
+      "venomoth",
+      "venonat"
+    ],
+    "offspringPokemonIds": [
+      "venonat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-voltorb",
+    "parentPokemonIds": [
+      "electrode",
+      "voltorb"
+    ],
+    "offspringPokemonIds": [
+      "voltorb"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-vullaby",
+    "parentPokemonIds": [
+      "mandibuzz",
+      "vullaby"
+    ],
+    "offspringPokemonIds": [
+      "vullaby"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-vulpix",
+    "parentPokemonIds": [
+      "ninetales",
+      "vulpix"
+    ],
+    "offspringPokemonIds": [
+      "vulpix"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-wailmer",
+    "parentPokemonIds": [
+      "wailmer",
+      "wailord"
+    ],
+    "offspringPokemonIds": [
+      "wailmer"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-weedle",
+    "parentPokemonIds": [
+      "beedrill",
+      "kakuna",
+      "weedle"
+    ],
+    "offspringPokemonIds": [
+      "weedle"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-whismur",
+    "parentPokemonIds": [
+      "exploud",
+      "loudred",
+      "whismur"
+    ],
+    "offspringPokemonIds": [
+      "whismur"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-wingull",
+    "parentPokemonIds": [
+      "pelipper",
+      "wingull"
+    ],
+    "offspringPokemonIds": [
+      "wingull"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-woobat",
+    "parentPokemonIds": [
+      "swoobat",
+      "woobat"
+    ],
+    "offspringPokemonIds": [
+      "woobat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-wooper",
+    "parentPokemonIds": [
+      "quagsire",
+      "wooper"
+    ],
+    "offspringPokemonIds": [
+      "wooper"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-wurmple",
+    "parentPokemonIds": [
+      "beautifly",
+      "cascoon",
+      "dustox",
+      "silcoon",
+      "wurmple"
+    ],
+    "offspringPokemonIds": [
+      "wurmple"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-wynaut-lax-incense",
+    "parentPokemonIds": [
+      "wobbuffet"
+    ],
+    "offspringPokemonIds": [
+      "wynaut"
+    ],
+    "requiredHeldItemId": "lax-incense",
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-wobbuffet",
+    "parentPokemonIds": [
+      "wobbuffet"
+    ],
+    "offspringPokemonIds": [
+      "wobbuffet"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-yamask",
+    "parentPokemonIds": [
+      "cofagrigus",
+      "yamask"
+    ],
+    "offspringPokemonIds": [
+      "yamask"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-yanma",
+    "parentPokemonIds": [
+      "yanma",
+      "yanmega"
+    ],
+    "offspringPokemonIds": [
+      "yanma"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-zangoose",
+    "parentPokemonIds": [
+      "zangoose"
+    ],
+    "offspringPokemonIds": [
+      "zangoose"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-zigzagoon",
+    "parentPokemonIds": [
+      "linoone",
+      "zigzagoon"
+    ],
+    "offspringPokemonIds": [
+      "zigzagoon"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-zorua",
+    "parentPokemonIds": [
+      "zoroark",
+      "zorua"
+    ],
+    "offspringPokemonIds": [
+      "zorua"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-zubat",
+    "parentPokemonIds": [
+      "crobat",
+      "golbat",
+      "zubat"
+    ],
+    "offspringPokemonIds": [
+      "zubat"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-basculin-blue-striped",
+    "parentPokemonIds": [],
+    "parentFormIds": [
+      "basculin-blue-striped"
+    ],
+    "offspringPokemonIds": [
+      "basculin"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-2-breed-shellos-east",
+    "parentPokemonIds": [],
+    "parentFormIds": [
+      "shellos-east",
+      "gastrodon-east"
+    ],
+    "offspringPokemonIds": [
+      "shellos"
+    ],
+    "requiredHeldItemId": null,
+    "review": {
+      "referenceIds": [
+        "black-2-native-breeding"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

@@ -98,6 +98,7 @@ export interface FormChange {
   fromFormId: Id | null;
   toFormId: Id | null;
   heldItemId: Id | null;
+  fusionPartnerPokemonId?: Id;
   requirements: Requirement;
   review: Review;
 }
@@ -203,8 +204,12 @@ export type SourceDetails =
   | { kind: "starter" | "gift" | "static" | "roaming" | "egg" }
   | { kind: "honey-tree"; rareTreeOnly: boolean }
   | { kind: "berry-tree"; color: "red" | "blue" | "purple" | "green" | "yellow" | "pink" }
+  | { kind: "hidden-grotto"; mode: "regeneration"; ratePercent: number }
+  | { kind: "hidden-grotto"; mode: "first-visit" }
+  | { kind: "hidden-grotto"; mode: "funfest"; mission: "noisy" | "quiet" }
+  | { kind: "white-forest"; method: "grass" | "surf"; residentId: Id; residentName: string }
   | { kind: "fossil"; itemId: Id }
-  | { kind: "game-trade"; offeredPokemonId: Id }
+  | { kind: "game-trade"; offeredPokemonId: Id | null; traderName?: string; cyclePosition?: number }
   | { kind: "breeding"; ruleId: Id; capabilityId: Id };
 
 export type EncounterCondition =
@@ -212,6 +217,7 @@ export type EncounterCondition =
   | { kind: "season"; seasons: ("spring" | "summer" | "autumn" | "winter")[] }
   | { kind: "weekday"; day: "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday" | "sunday" }
   | { kind: "swarm" }
+  | { kind: "funfest"; mission: "mushrooms" }
   | { kind: "daily"; system: "great-marsh" | "trophy-garden" }
   | { kind: "radio"; sound: "hoenn" | "sinnoh" }
   | { kind: "headbutt-tree"; category: "common" | "rare" | "secret" }
