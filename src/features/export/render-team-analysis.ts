@@ -1,5 +1,5 @@
 import type { TeamExport } from './export-model';
-import { colors, panel, setFont } from './canvas-tools';
+import { colors, panel, setFont, wrap } from './canvas-tools';
 
 const margin = 40;
 const contentWidth = 1120;
@@ -38,9 +38,15 @@ function coverageGroups(model: TeamExport) {
   ];
 }
 
-export function teamAnalysisHeight(model: TeamExport): number {
+function defenseHeading(ctx: CanvasRenderingContext2D, model: TeamExport) {
+  setFont(ctx, 16, true);
+  const names = model.slots.map(slot => wrap(ctx, slot.name, columnWidth - 12));
+  return { names, height: 24 + Math.max(1, ...names.map(lines => lines.length)) * 20 };
+}
+
+export function teamAnalysisHeight(ctx: CanvasRenderingContext2D, model: TeamExport): number {
   if (!model.defense.length) return 0;
-  return 210 + model.defense.length * rowHeight + 76
+  return 210 + defenseHeading(ctx, model).height - 44 + model.defense.length * rowHeight + 76
     + coverageGroups(model).reduce((height, group) => height + 36 + Math.max(1, Math.ceil(group.types.length / coverageColumns)) * 38 + 16, 0);
 }
 
@@ -63,15 +69,16 @@ export function renderTeamAnalysis(ctx: CanvasRenderingContext2D, model: TeamExp
   y += 60;
   ctx.fillStyle = colors.ink; setFont(ctx, 16, true);
   ctx.fillText('Attack type', margin + 12, y + 20);
-  model.slots.forEach((slot, index) => {
+  const heading = defenseHeading(ctx, model);
+  heading.names.forEach((lines, index) => {
     const x = margin + labelWidth + columnWidth * (index + 0.5);
     ctx.textAlign = 'center'; setFont(ctx, 14); ctx.fillStyle = colors.muted;
     ctx.fillText(`Slot ${index + 1}`, x, y);
     setFont(ctx, 16, true); ctx.fillStyle = colors.ink;
-    ctx.fillText(slot.name, x, y + 20);
+    lines.forEach((line, i) => ctx.fillText(line, x, y + 20 + i * 20));
   });
   ctx.textAlign = 'left';
-  y += 44;
+  y += heading.height;
   model.defense.forEach((row, index) => {
     const rowY = y + index * rowHeight;
     if (index % 2 === 0) panel(ctx, margin, rowY, contentWidth, rowHeight);

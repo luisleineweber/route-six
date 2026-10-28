@@ -2,8 +2,10 @@ import type { TeamExport } from './export-model';
 import { colors, pngBlob, setFont, wrap } from './canvas-tools';
 import { renderProgressPng } from './render-progress';
 import { renderTeamAnalysis, teamAnalysisHeight } from './render-team-analysis';
-import { drawPokemonPoster, drawSheetHeading, drawSheetNotes, posterGap, posterHeight, posterWidth,
-  sheetHeadingHeight, sheetMargin as margin, sheetWidth as width } from './render-poster';
+import { drawSheetCredit, drawSheetHeading, drawSheetNotes, posterGap, posterWidth,
+  sheetCreditHeight, sheetHeadingHeight, sheetMargin as margin, sheetWidth as width } from './render-poster';
+import { drawTeamPoster } from './render-team-poster';
+import { teamPosterLayout } from './team-poster-layout';
 
 function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
@@ -19,7 +21,7 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
   await document.fonts.ready;
   const urls = new Set(model.slots.flatMap(slot => [
     ...(slot.spriteSrc === null ? [] : [slot.spriteSrc]),
-    ...slot.types.map(type => `/type-symbols/${type}.svg`),
+    ...slot.types.map(type => model.kind === 'progress' ? `/type-symbols/${type}.svg` : `/types/${type}.svg`),
     ...(slot.progress?.stages.map(stage => stage.spriteSrc) ?? []),
     ...(slot.progress?.methodIconSrc ? [slot.progress.methodIconSrc] : []),
     ...(slot.progress?.routeOptions.flatMap(option => option.methodIconSrc ? [option.methodIconSrc] : []) ?? []),
@@ -32,12 +34,13 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
   const ctx = canvas.getContext('2d');
   if (!ctx) throw new Error('The browser could not create the PNG.');
   const top = sheetHeadingHeight(ctx, model);
-  const imageHeight = Math.max(...model.slots.map(slot => posterHeight(ctx, slot)));
+  const imageHeight = Math.max(...model.slots.map(slot => teamPosterLayout(ctx, slot).height));
   const teamBottom = top + imageHeight * 2 + posterGap;
-  const analysisHeight = teamAnalysisHeight(model);
+  const analysisHeight = teamAnalysisHeight(ctx, model);
   setFont(ctx, 18);
   const noteLines = model.notes.flatMap(note => wrap(ctx, note, width - margin * 2));
-  const height = teamBottom + analysisHeight + 40 + noteLines.length * 26 + margin;
+  const creditY = teamBottom + analysisHeight + 40 + noteLines.length * 26 + 24;
+  const height = creditY + sheetCreditHeight(ctx) + margin;
   canvas.width = width * 2; canvas.height = Math.ceil(height) * 2;
   ctx.scale(2, 2);
   ctx.textBaseline = 'top';
@@ -48,11 +51,12 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
     const row = Math.floor(index / 3);
     const x = margin + index % 3 * (posterWidth + posterGap);
     const y = top + row * (imageHeight + posterGap);
-    drawPokemonPoster(ctx, slot, index, images, x, y, posterWidth, imageHeight);
+    drawTeamPoster(ctx, slot, index, images, x, y, imageHeight);
   });
 
   renderTeamAnalysis(ctx, model, images, teamBottom);
   drawSheetNotes(ctx, noteLines, teamBottom + analysisHeight + 40);
+  drawSheetCredit(ctx, creditY);
   return pngBlob(canvas);
 }
 

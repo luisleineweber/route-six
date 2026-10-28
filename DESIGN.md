@@ -91,12 +91,14 @@ Progress cards combine access status and source in one statement.
 
 PNG exports use a separate poster layout. They do not change the page layout.
 Use three columns and export at 2400 pixels wide. Give each Pokémon a large
-pixel sprite and a type-colored image area. Use large type symbols in the
-background. For two types, split the color area diagonally into equal areas.
+pixel sprite. In Progress exports, use a type-colored image area with large
+type symbols in the background. For two types, split the color area diagonally into equal areas.
 Fit each complete type symbol within its area. Keep the name,
 Dex number, slot number, and type names readable above that background.
-Do not repeat the type symbols in small circles. Use the selected game's
-logo with a small planner title. In Progress exports, show the selected
+Progress exports do not repeat type symbols in small circles. Use the selected game's
+logo with a large, clear team title. Team exports use “My Pokémon team” and a
+short description of the type chart. Progress exports use “My playthrough
+team”. In Progress exports, show the selected
 point and level limit. Do not repeat the game name or the current target label.
 
 In Progress exports, place location and evolution details below each image
@@ -115,6 +117,17 @@ steps once below its printed locations, with their requirements.
 
 In Team exports, place the six image areas above the defense and coverage
 charts. Keep the chart symbols and their text legend.
+Use neutral card surfaces with a subtle dot pattern. Put the sprite beside
+a transparent base stat chart. Print the highest values in red, without a
+badge. Keep every tied highest value red. State “Base stats” once below the
+title. Use the selected game's reviewed stats and a fixed 0–255 chart range.
+Generation I uses one Special axis; later games use six axes. Do not print
+scale values. Show small type icons with names below the Pokémon name.
+Fit visible sprite pixels inside their reserved area. Wrap long form names
+and enlarge all cards equally when they need more space. Keep empty slots.
+These card changes apply only to Team PNG exports.
+Put “Made with Route Six” below the notes in both exports. Print the public
+site address below the credit when `VITE_SITE_URL` is set.
 
 ## Motion and access
 

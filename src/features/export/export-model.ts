@@ -1,4 +1,6 @@
 import { pokemonIdentity } from '../../data/dataset';
+import { pokemonBaseStats } from '../../data/base-stats';
+import type { BaseStats } from '../../domain/base-stats';
 import { selectionProfile } from '../../domain/pokemon-selection';
 import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types';
 import { checkTeam } from '../../domain/team/check-team';
@@ -12,6 +14,7 @@ export interface ExportSlot {
   spriteSrc: string | null;
   types: string[];
   progress: ProgressContent | null;
+  baseStats?: BaseStats;
 }
 
 export interface TeamExport {
@@ -50,10 +53,10 @@ export function buildTeamExport(game: GameData, state: PlannerState, progress: b
   const selected = progress ? selectTeamPaths(game, snapshot!, members, state.target) : { paths: [], notes: [] };
   const selectedPaths = selected.paths;
   const analysis = analyzeTypes(game, members);
-  const mode = progress ? 'Progress planner' : 'Team planner';
+  const mode = progress ? 'My playthrough team' : 'My Pokémon team';
   const subtitle = progress ? [game.milestones.find(point => point.id === state.milestoneId)!.name,
     ...(state.target === 'whole-game' ? ['Whole game'] : []),
-    state.respectLevelLimit ? snapshot!.levelLimit ? `Level limit: ${snapshot!.levelLimit.level}` : 'No active level limit' : 'Level limit off'].join(' · ') : game.game.name;
+    state.respectLevelLimit ? snapshot!.levelLimit ? `Level limit: ${snapshot!.levelLimit.level}` : 'No active level limit' : 'Level limit off'].join(' · ') : 'Base stats · Highest value in red';
   return {
     kind: progress ? 'progress' : 'team', title: mode, subtitle,
     logoSrc: `/games/${state.gameId}-logo.png`,
@@ -63,6 +66,7 @@ export function buildTeamExport(game: GameData, state: PlannerState, progress: b
       const pokemon = pokemonIdentity(id);
       const profile = selectionProfile(game, id);
       return { name: pokemon.name, dex: pokemon.nationalDex, spriteSrc: profile.spriteSrc, types: profile.types,
+        ...(progress ? {} : { baseStats: pokemonBaseStats(state.gameId, id) }),
         progress: progress ? progressContent(game, snapshot!, id, selectedPaths.shift()) : null };
     }),
     defense: progress ? [] : game.typeChart.typeIds.map(type => ({ type, multipliers: state.team.map(id => id ? damageMultiplier(game, type, id) : null) })),

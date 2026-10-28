@@ -30,6 +30,7 @@ describe('team PNG content', () => {
     expect(model.subtitle).not.toContain(game.game.name);
     expect(model.subtitle).not.toContain('Current/Goal');
     expect(model.slots[0].spriteSrc).toBe('/pokemon/alternate-raichu.webp');
+    expect(model.slots.every(slot => !Object.hasOwn(slot, 'baseStats'))).toBe(true);
     expect(model.slots[0].progress!.stages.map(stage => stage.spriteSrc)).toEqual([
       '/pokemon/alternate-pikachu.webp', '/pokemon/alternate-raichu.webp',
     ]);
@@ -40,6 +41,8 @@ describe('team PNG content', () => {
     expect(model.logoSrc).toBe('/games/emerald-logo.png');
     expect(model.slots[0].dex).toBeNull();
     expect(model.slots[1].name).toBe('Swampert');
+    expect(model.slots[1].baseStats).toEqual([100, 110, 90, 60, 85, 90]);
+    expect(model.slots[0].baseStats).toBeUndefined();
     expect(model.defense.find(row => row.type === 'grass')!.multipliers).toEqual([null, 4, null, null, null, null]);
     expect(model.defense.find(row => row.type === 'electric')!.multipliers[1]).toBe(0);
     expect(model.coverage).toContain('fire');

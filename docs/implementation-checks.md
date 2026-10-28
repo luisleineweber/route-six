@@ -510,6 +510,18 @@ sources. Screenshots are in `output/route-six/`.
 The final full `npm test` run passes all 681 tests in 66 files. It takes
 522.97 seconds with the configured single worker. No tests fail or skip.
 
+## PNG titles and site credit: 27 October 2026
+
+PNG exports use a 52-pixel title instead of 32 pixels. The Team PNG uses
+“My Pokémon team” with a type chart description. The Progress PNG uses
+“My playthrough team” and keeps its checkpoint and level limit below it.
+Both exports show “Made with Route Six”. They print the public site address
+when `VITE_SITE_URL` is set.
+
+The 33 focused export and footer tests pass. `npm run typecheck` passes.
+Both PNG layouts pass visual review. Before and after Team PNGs and the
+updated Progress PNG are in `output/title-review/`.
+
 ## Generation V Progress Planners: 28 October 2026
 
 Black, White, Black 2 and White 2 now load in Progress Planner. Each game
@@ -571,3 +583,30 @@ partner. They are not hidden by a missing-data exclusion.
 
 Unrelated search, header, branding, game-switch and PNG design work was kept.
 No commit, branch change, push or publication was made.
+
+## Team PNG base stat charts: 28 October 2026
+
+The Team Planner PNG now uses the approved neutral dotted cards. A transparent
+base stat chart sits beside each sprite. Highest numbers, including ties, use
+red text without a badge. Small type icons keep their names. Names wrap and
+all six cards share the height needed by the longest name. Empty slots remain.
+The page layout and Progress Planner PNG design keep their existing paths.
+
+The local stat facts cover 721 species and 28 forms across all 24 games.
+Every record has a pinned reference and review date. Generation I uses one
+Special axis. Later charts use six axes. Native game and form differences
+remain explicit. See [the stat data record](base-stat-export.md).
+
+The full `npm test` run passes 736 tests in 74 files. It takes 769.37 seconds.
+The focused export and stat checks cover invalid facts, historical values,
+native Deoxys forms, Kyurem forms, tied highest values, wrapping and bounds.
+The data check passes all 24 games, local images and base stat coverage.
+
+Five rendered samples pass visual review. They cover Emerald, Generation I,
+long Generation VI form names, Kyurem forms and empty slots. All 749 local
+sprite images fit their reserved areas. The before and after Progress PNGs
+have the same SHA-256 hash. Screenshots, the comparison and command logs are
+in `output/stat-chart-implementation/`.
+
+`npm run build` passes the data check, TypeScript, Vite and document copying.
+The existing large local-data chunk and unset `SITE_URL` warnings remain.

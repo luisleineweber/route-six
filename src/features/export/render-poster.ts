@@ -8,23 +8,34 @@ export const posterGap = 24;
 export const posterWidth = (sheetWidth - sheetMargin * 2 - posterGap * 2) / 3;
 export type ExportImages = Map<string, HTMLImageElement>;
 const headingTextX = sheetMargin + 264;
+const headingTitleSize = 52;
+const headingTitleLineHeight = 60;
+
+function sheetHeadingLayout(ctx: CanvasRenderingContext2D, model: TeamExport) {
+  const textWidth = sheetWidth - headingTextX - sheetMargin;
+  setFont(ctx, headingTitleSize, true);
+  const title = wrap(ctx, model.title, textWidth);
+  setFont(ctx, 19);
+  const subtitle = wrap(ctx, model.subtitle, textWidth);
+  const subtitleY = 26 + title.length * headingTitleLineHeight + 10;
+  return { title, subtitle, subtitleY, height: Math.max(152, subtitleY + subtitle.length * 26 + 24) };
+}
 
 export function sheetHeadingHeight(ctx: CanvasRenderingContext2D, model: TeamExport) {
-  setFont(ctx, 19);
-  return Math.max(152, 112 + wrap(ctx, model.kind === 'team' ? '' : model.subtitle, sheetWidth - headingTextX - sheetMargin).length * 26);
+  return sheetHeadingLayout(ctx, model).height;
 }
 
 export function drawSheetHeading(ctx: CanvasRenderingContext2D, model: TeamExport, images: ExportImages) {
+  const layout = sheetHeadingLayout(ctx, model);
   const logo = images.get(model.logoSrc)!;
   const scale = Math.min(232 / logo.naturalWidth, 100 / logo.naturalHeight);
   const width = logo.naturalWidth * scale;
   const height = logo.naturalHeight * scale;
   ctx.drawImage(logo, sheetMargin + (232 - width) / 2, 24 + (100 - height) / 2, width, height);
-  ctx.fillStyle = colors.ink; setFont(ctx, 32, true);
-  ctx.fillText(model.title, headingTextX, model.kind === 'team' ? 54 : 38);
+  ctx.fillStyle = colors.ink; setFont(ctx, headingTitleSize, true);
+  layout.title.forEach((line, index) => ctx.fillText(line, headingTextX, 26 + index * headingTitleLineHeight));
   setFont(ctx, 19); ctx.fillStyle = colors.muted;
-  const subtitle = wrap(ctx, model.kind === 'team' ? '' : model.subtitle, sheetWidth - headingTextX - sheetMargin);
-  subtitle.forEach((line, index) => ctx.fillText(line, headingTextX, 84 + index * 26));
+  layout.subtitle.forEach((line, index) => ctx.fillText(line, headingTextX, layout.subtitleY + index * 26));
 }
 
 export function posterHeight(ctx: CanvasRenderingContext2D, slot: ExportSlot, width = posterWidth) {
@@ -79,4 +90,22 @@ export function drawPokemonPoster(ctx: CanvasRenderingContext2D, slot: ExportSlo
 export function drawSheetNotes(ctx: CanvasRenderingContext2D, lines: string[], y: number, color = colors.muted) {
   setFont(ctx, 18); ctx.fillStyle = color;
   lines.forEach((line, index) => ctx.fillText(line, sheetMargin, y + index * 26));
+}
+
+function sheetSiteLines(ctx: CanvasRenderingContext2D) {
+  const siteUrl = import.meta.env.VITE_SITE_URL?.trim();
+  setFont(ctx, 18);
+  return wrap(ctx, siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '') ?? '', sheetWidth - sheetMargin * 2);
+}
+
+export function sheetCreditHeight(ctx: CanvasRenderingContext2D) {
+  return 44 + sheetSiteLines(ctx).length * 24;
+}
+
+export function drawSheetCredit(ctx: CanvasRenderingContext2D, y: number) {
+  const siteLines = sheetSiteLines(ctx);
+  ctx.fillStyle = colors.ink; setFont(ctx, 20, true);
+  ctx.fillText('Made with Route Six', sheetMargin, y);
+  ctx.fillStyle = colors.muted; setFont(ctx, 18);
+  siteLines.forEach((line, index) => ctx.fillText(line, sheetMargin, y + 28 + index * 24));
 }

@@ -1,8 +1,8 @@
 import type { TeamExport } from './export-model';
 import { colors, pngBlob, setFont, wrap } from './canvas-tools';
 import { layoutProgressRows, layoutProgressAlternativesSection, progressText, type TextBlock } from './progress-layout';
-import { drawPokemonPoster, drawSheetHeading, drawSheetNotes, posterWidth,
-  sheetHeadingHeight, sheetMargin, sheetWidth, type ExportImages } from './render-poster';
+import { drawPokemonPoster, drawSheetCredit, drawSheetHeading, drawSheetNotes, posterWidth,
+  sheetCreditHeight, sheetHeadingHeight, sheetMargin, sheetWidth, type ExportImages } from './render-poster';
 
 export function drawTextBlocks(ctx: CanvasRenderingContext2D, blocks: TextBlock[], images: ExportImages, x: number, y: number) {
   for (const block of blocks) {
@@ -24,7 +24,8 @@ export function renderProgressPng(model: TeamExport, images: ExportImages): Prom
   const bottom = alternatives.bottom;
   setFont(ctx, 18);
   const notes = model.notes.flatMap(note => wrap(ctx, note, sheetWidth - sheetMargin * 2));
-  const height = bottom + notes.length * 26 + sheetMargin;
+  const creditY = bottom + notes.length * 26 + 24;
+  const height = creditY + sheetCreditHeight(ctx) + sheetMargin;
   canvas.width = sheetWidth * 2; canvas.height = Math.ceil(height) * 2;
   ctx.scale(2, 2); ctx.textBaseline = 'top';
   ctx.fillStyle = colors.background; ctx.fillRect(0, 0, sheetWidth, height);
@@ -62,5 +63,6 @@ export function renderProgressPng(model: TeamExport, images: ExportImages): Prom
     alternatives.placements.forEach(({ group, x, y }) => drawTextBlocks(ctx, group.blocks, images, x, y));
   }
   drawSheetNotes(ctx, notes, bottom, colors.weak);
+  drawSheetCredit(ctx, creditY);
   return pngBlob(canvas);
 }
