@@ -510,6 +510,34 @@ sources. Screenshots are in `output/route-six/`.
 The final full `npm test` run passes all 681 tests in 66 files. It takes
 522.97 seconds with the configured single worker. No tests fail or skip.
 
+## Search setup: 27 October 2026
+
+The page title starts with Pokémon Team Planner. After feedback, the visible
+page keeps its earlier amount of text. The added summary and guide are
+removed. The planner headings, header description, and loading message use
+their earlier text. Search and sharing details stay in the HTML head.
+The separate `/llms.txt` file gives agents a factual product summary and
+game support list. The page has no hidden marketing paragraphs.
+
+The build writes search and sharing tags into the HTML. `SITE_URL` controls
+the canonical URL, WebSite and WebApplication structured data, and the
+sitemap. An unset value reports a warning and omits domain-specific links.
+Invalid values stop the build. `robots.txt` permits crawling.
+
+The search checks cover metadata without extra body text, agent-summary
+accuracy, URL validation, and a production build with a configured test
+domain and file writing disabled. The existing large-chunk warning remains.
+
+All 26 focused search, dependency, header, and footer checks pass after the
+correction. The production build passes the data, local image, TypeScript,
+Vite, and document-copy checks. The built `/llms.txt` file returns plain text.
+
+The production page works at 320 pixels without horizontal scrolling. It
+keeps the compact layout. Before and after screenshots for the correction
+are in `output/compact-search/`.
+See [search setup](search-readiness.md) for the public-domain and Search
+Console steps that remain before indexing.
+
 ## PNG titles and site credit: 27 October 2026
 
 PNG exports use a 52-pixel title instead of 32 pixels. The Team PNG uses
@@ -545,7 +573,10 @@ Hidden Grotto sources, solo missions and White Forest resident choices.
 The public-query regressions check all nine points for every game.
 
 The existing shared validation regressions clone only the two games under
-test and check type, Egg Group and gender differences separately.
+test and check type, Egg Group and gender differences separately. The search
+metadata build test checks the real index and plugin with an empty app entry;
+the separate full production build still checks every game bundle. These
+changes remove unrelated fixture costs from focused checks.
 
 Final command results:
 

@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
+import { searchPlugin } from './scripts/search-plugin.ts';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), searchPlugin()],
   // The game registry imports every game's data. Prepare the known browser
   // dependencies directly instead of scanning all games and report HTML files.
   optimizeDeps: {

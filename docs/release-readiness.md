@@ -33,8 +33,10 @@ the new header, and the new header at 320 pixels.
 
 - Choose a static host and the public URL. No host configuration is present
   in this repository.
-- Set `VITE_GITHUB_URL` to the intended project or feedback destination.
-  The current default link opens the GitHub home page.
+- Set `SITE_URL` to that public HTTPS origin before the release build. Follow
+  [search setup](search-readiness.md) to check the sitemap and Search Console.
+- Set `VITE_SITE_URL` to the public site URL for the footer link.
+  Use the same URL as `SITE_URL` when the app and site share one domain.
 - Run the full tests and production build. Check the published site after
   upload: initial load, game switch, both planners, details, and PNG export.
   Check the worker, local images, and the 320-pixel layout on that host.

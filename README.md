@@ -39,6 +39,13 @@ npm run preview
 The build checks all data, checks TypeScript, builds the app, and copies the
 project documents into `dist/docs`. The app needs no service or API at runtime.
 
+Set `SITE_URL` to the final public HTTPS origin before a release build. The
+build uses it for canonical links, site structured data, and the sitemap.
+Set `VITE_SITE_URL` to the public site URL for the footer link and PNG credit. Use the same
+URL if the footer should open this app's domain.
+See [search setup](docs/search-readiness.md) for metadata, agent context, checks, and the
+steps to complete in Google Search Console after publication.
+
 ## Features
 
 - Six team slots with add, replace, and remove controls.
