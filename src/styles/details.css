@@ -71,6 +71,11 @@
 .data-references { font-size: 0.8125rem; }
 .dialog-footer { display: flex; flex-shrink: 0; justify-content: flex-end; padding: 1.25rem 1.5rem; background: var(--surface); }
 
+@media (max-height: 32rem) {
+  .acquisition-dialog[open] { display: block; overflow-y: auto; overscroll-behavior: contain; }
+  .acquisition-dialog .dialog-content { overflow: visible; scrollbar-gutter: auto; }
+}
+
 @media (max-width: 30rem) {
   .dialog-head { position: relative; display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 0.75rem; padding: 1rem; }
   .dialog-head > .icon-button { position: absolute; inset-block-start: 0.5rem; inset-inline-end: 0.5rem; }

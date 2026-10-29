@@ -58,7 +58,7 @@ for the leader and type. Mark the selected row with a check. One selected point
 sets current or goal progress.
 
 Show six slots in one row on wide screens, three per row on medium screens,
-and one compact row per slot on phones. Keep empty slots visible and mark each
+and two compact cards per row on phones. Keep empty slots visible and mark each
 slot with its number. A tile has one main control that opens the details.
 Filled slots have one Remove control. Empty slots have one Add control.
 
@@ -86,11 +86,16 @@ Keep acquisition paths in the Progress Planner details dialog.
 
 Show nine catalogue cards per row in the Team Planner and six in the Progress
 Planner on wide screens. Use fewer columns on small screens. Show all matching
-species in one grid without page controls or a grid size control.
+species in one grid without page controls. On small screens, let players choose two, three, or four columns.
 Team cards open details when selected. Use a small sprite movement on hover
 and focus. Place the types at the bottom right. Show Add above the top right
 corner on hover and keyboard focus. Keep Add visible on touch screens.
-Progress cards combine access status and source in one statement.
+Progress cards combine access status and source in one statement on wide screens.
+On small screens, use three columns by default and large sprites. Put the name
+and type icon on one row below the sprite in both catalogues. Use a split icon
+for two types. Keep locations
+and evolution requirements in details. Show short access labels only when the
+visible results contain different access states.
 
 ## PNG exports
 

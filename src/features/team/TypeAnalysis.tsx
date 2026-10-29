@@ -1,15 +1,18 @@
+import { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
 import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types';
 import { pokemonIdentity } from '../../data/dataset';
 import { useGameData } from '../planner/GameContext';
 import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 
 export function TypeAnalysis({ team }: { team: (string | null)[] }) {
+  const [initiallyOpen] = useState(() => typeof window !== 'undefined' && window.innerWidth > 480);
   const game = useGameData();
   const members = team.filter((id): id is string => id !== null);
   const analysis = analyzeTypes(game, members);
   const covered = new Set(analysis.coveredTypes);
-  return <section className="analysis" aria-labelledby="analysis-title">
-    <h2 id="analysis-title">Type analysis</h2>
+  return <details className="analysis" open={initiallyOpen}>
+    <summary><h2>Type analysis</h2><ChevronDown size={20} aria-hidden="true" /></summary>
     {!members.length ? <p className="muted">Add a Pokémon to see weaknesses and attack coverage.</p> : <>
       <div className="defense-chart">
         <h3>Team defense</h3>
@@ -35,5 +38,5 @@ export function TypeAnalysis({ team }: { team: (string | null)[] }) {
       </div>
       <p className="analysis-note">Types only. Abilities, items, and moves are not included.</p>
     </>}
-  </section>;
+  </details>;
 }

@@ -25,6 +25,7 @@ export function AcquisitionDetails({ id, snapshot, progressPage, onClose, onAdd,
     setShowFuture(false); setCount(12);
     if (id && dialog.current) {
       if (!dialog.current.open) dialog.current.showModal();
+      dialog.current.scrollTop = 0;
       if (content.current) content.current.scrollTop = 0;
       title.current?.focus({ preventScroll: true });
     } else dialog.current?.close();

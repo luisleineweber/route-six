@@ -57,6 +57,10 @@ details[open] > summary > .chevron { rotate: 180deg; }
 .chip-count { color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
 .chip[aria-pressed='true'] { background: var(--accent); color: white; }
 .chip[aria-pressed='true'] svg, .chip[aria-pressed='true'] .chip-count { color: inherit; }
+@media (max-width: 40rem) {
+  .chip-row { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-inline: contain; padding-block: 0.125rem 0.375rem; scrollbar-width: thin; }
+  .chip-row > .chip { flex: 0 0 auto; }
+}
 .type-filter { gap: 0.25rem; }
 .type-filter-controls { display: grid; gap: 0.5rem; }
 .type-filter-summary { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; min-height: 2.5rem; }

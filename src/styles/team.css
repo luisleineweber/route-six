@@ -1,7 +1,7 @@
 .team-section { container-type: inline-size; }
-.team-slots { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.5rem; }
+.team-slots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
 
-/* Narrow: one compact row per slot. */
+/* Narrow: two compact cards per row. */
 .team-slot { position: relative; min-width: 0; border-radius: var(--radius-tile); transition: background-color 150ms ease-out, box-shadow 150ms ease-out; }
 .team-slot.filled { display: grid; grid-template-columns: 1rem 4rem minmax(0, 1fr) auto; grid-template-areas: 'num sprite name actions' 'num sprite types actions' 'num sprite status actions'; align-items: center; column-gap: 0.75rem; padding: 0.625rem 0.5rem 0.625rem 0.75rem; background: var(--surface); box-shadow: var(--shadow-ring); }
 .team-slot.empty { display: grid; grid-template-columns: 1rem minmax(0, 1fr); align-items: center; column-gap: 0.75rem; min-height: 4.5rem; padding: 0.5rem 0.75rem; background: var(--tile); }
@@ -41,7 +41,10 @@
   .empty-slot-button { flex: 1; flex-direction: column; justify-content: center; }
 }
 @container (min-width: 52rem) { .team-slots { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
-.planner-heading { align-items: center; }
+.section-heading.planner-heading { align-items: center; flex-wrap: nowrap; }
+.planner-heading h1 { min-width: 0; }
+.planner-heading .team-export { flex-shrink: 0; }
+.planner-heading .secondary-button { white-space: nowrap; }
 .planner-heading .team-export { margin-bottom: 0; }
 .team-export { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.5rem 1rem; margin-bottom: 1rem; }
 .team-export p:empty { display: none; }
@@ -76,3 +79,22 @@
   .team-issue-list > li { grid-template-columns: minmax(0, 1fr) auto; }
   .team-issue-reason:only-child { grid-column: 1 / -1; }
 }
+
+@container (max-width: 29.999rem) {
+  .team-slot.filled, .team-slot.empty { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.25rem; min-height: 9rem; padding: 1.75rem 0.5rem 0.75rem; text-align: center; }
+  .team-slot .slot-number { position: absolute; inset-block-start: 0.5rem; inset-inline-start: 0.75rem; }
+  .team-slot .pokemon-sprite { width: 4rem; height: 4rem; }
+  .team-slot .type-list { justify-content: center; }
+  .team-slot.filled .remove-button { position: absolute; }
+  .team-slot .card-link { text-align: center; }
+  .empty-slot-button { flex-direction: column; justify-content: center; gap: 0.25rem; }
+}
+.export-label-short { display: none; }
+@media (max-width: 40rem) {
+  .planner-heading { flex-wrap: nowrap; }
+  .planner-heading h1 { min-width: 0; }
+  .planner-heading .secondary-button { padding-inline: clamp(0.375rem, 2vw, 0.625rem); font-size: clamp(0.75rem, 3vw, 0.9375rem); gap: 0.375rem; }
+  .export-label { display: none; }
+  .export-label-short { display: inline; }
+}
+

@@ -30,15 +30,17 @@ export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectio
       <Check className="added-icon" size={18} aria-hidden="true" />
       {feedback > 0 && <span className="pokemon-add-label" aria-hidden="true">Added</span>}
     </button>
-    <h3 className="card-identity"><button className="card-link" title={pokemon.name} aria-label={`View ${pokemon.name} details`} onClick={() => onDetails(pokemonId)}>
-      <span className="card-sprite">
-        <PokemonSprite id={pokemonId} />
-        {feedback > 0 && <span key={feedback} className="pokemon-add-flight" aria-hidden="true"><PokemonSprite id={pokemonId} /></span>}
-      </span>
-      <span className="card-name">{pokemon.name}</span>
-      {progressPage && <span className="card-details-cue" aria-hidden="true">Details <ChevronRight size={13} /></span>}
-    </button></h3>
-    <PokemonTypes id={pokemonId} compact joined={!progressPage} />
+    <div className="catalogue-card-identity">
+      <h3 className="card-identity"><button className="card-link" title={pokemon.name} aria-label={`View ${pokemon.name} details`} onClick={() => onDetails(pokemonId)}>
+        <span className="card-sprite">
+          <PokemonSprite id={pokemonId} />
+          {feedback > 0 && <span key={feedback} className="pokemon-add-flight" aria-hidden="true"><PokemonSprite id={pokemonId} /></span>}
+        </span>
+        <span className="card-name">{pokemon.name}</span>
+        {progressPage && <span className="card-details-cue" aria-hidden="true">Details <ChevronRight size={13} /></span>}
+      </button></h3>
+      <PokemonTypes id={pokemonId} compact joined={!progressPage} />
+    </div>
     {children}
   </article>;
 }

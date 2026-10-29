@@ -25,7 +25,7 @@ function TeamBarCard({ id, index, activeSlot, onChoose, onDetails, onRemove }: T
       </>}
     </div>
     <button ref={control} className="card-link team-bar-name" aria-label={name ? `View ${name} details from team slot ${index + 1}` : `Add Pokémon to slot ${index + 1}`} onClick={() => id ? onDetails(id) : onChoose(index)}>
-      {name ?? 'Add'}
+      {name ?? <span className="team-bar-add-label">Add</span>}
     </button>
     {id && <button className="icon-button team-bar-remove" title={`Remove ${name}`} aria-label={`Remove ${name} from slot ${index + 1}`} onClick={() => {
       onRemove(index);

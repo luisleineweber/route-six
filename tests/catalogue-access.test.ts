@@ -41,6 +41,36 @@ function loadingCatalogue(target: 'whole-game' | 'current-progress') {
 }
 
 describe('catalogue access summaries', () => {
+  it('omits compact status labels when the results have one access state', () => {
+    const html = card([path('bagon', 'wild-meteor-falls-bagon-room-grass-bagon', 'juan-defeated')]);
+    expect(html).not.toContain('access-compact');
+    expect(html).toContain('access-full');
+  });
+
+  it('uses short compact status labels for mixed access results', () => {
+    const now = path('pikachu', 'wild-safari-zone-south-grass-pikachu', 'devon-scope');
+    const later = { ...path('bagon', 'wild-meteor-falls-bagon-room-grass-bagon', 'juan-defeated'), id: 'later-path' };
+    const snapshot: AvailabilitySnapshot = {
+      query: { gameId: 'emerald', milestoneId: 'norman-defeated', respectLevelLimit: false },
+      levelLimit: null, paths: { [now.id]: now, [later.id]: later }, choiceGroups: [], resourceLimits: {},
+      entries: {
+        pikachu: { pokemonId: 'pikachu', status: 'available', currentPathIds: [now.id], futurePathIds: [], firstMilestoneIds: now.firstMilestoneIds, blockers: [] },
+        bagon: { pokemonId: 'bagon', status: 'later', currentPathIds: [], futurePathIds: [later.id], firstMilestoneIds: later.firstMilestoneIds, blockers: [] },
+      },
+    };
+    const html = renderToStaticMarkup(createElement(GameContext, {
+      value: { ...emerald, profiles: emerald.profiles.filter(profile => profile.pokemonId in snapshot.entries) },
+    }, createElement(PokemonSearch, {
+      snapshot, target: 'whole-game', progressPage: true, team: Array(6).fill(null), activeSlot: null,
+      onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+    })));
+    const labels = html.match(/<p class="access-compact[^>]*>[\s\S]*?<\/p>/g)!;
+    expect(labels).toHaveLength(2);
+    expect(labels.some(label => label.includes('Now</p>'))).toBe(true);
+    expect(labels.some(label => label.includes('Later</p>'))).toBe(true);
+    expect(labels.join('')).not.toMatch(/Safari Zone|Meteor Falls|Available from/);
+  });
+
   it('matches the catalogue title to the planning target and uses a short loading message', () => {
     const wholeGame = loadingCatalogue('whole-game');
     const selectedPoint = loadingCatalogue('current-progress');

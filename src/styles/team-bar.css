@@ -20,6 +20,12 @@
   .team-bar-remove { opacity: 0; pointer-events: none; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
   .team-bar-card:hover .team-bar-remove, .team-bar-card:focus-within .team-bar-remove { opacity: 1; pointer-events: auto; }
 }
+@media (max-width: 41.999rem) {
+  .team-bar-card { aspect-ratio: 5 / 3; }
+  .team-bar-add-label { display: none; }
+  .team-bar-card.empty { grid-template-rows: minmax(2.375rem, 1fr) 0; }
+  .team-bar-card.empty .team-bar-name { padding-block-start: 0; }
+}
 @media (min-width: 42rem) {
   .team-bar-slots { grid-template-columns: repeat(6, minmax(0, 1fr)); max-width: 57.75rem; }
   .team-bar-card { padding: 0.5rem; }

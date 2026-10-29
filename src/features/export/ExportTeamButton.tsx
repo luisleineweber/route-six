@@ -28,7 +28,7 @@ export function ExportTeamButton({ state, progressPage, snapshot }: {
   }
   return <div className="team-export">
     <button className="secondary-button" disabled={disabled} onClick={exportTeam}>
-      <Download size={18} aria-hidden="true" />{busy ? 'Creating PNG…' : 'Export team as PNG'}
+      <Download size={18} aria-hidden="true" /><span className="export-label">{busy ? 'Creating PNG...' : 'Export team as PNG'}</span><span className="export-label-short">{busy ? 'Creating...' : 'Export PNG'}</span>
     </button>
     <p className="small muted" role={error ? 'alert' : 'status'}>{message}</p>
   </div>;
