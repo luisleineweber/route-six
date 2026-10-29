@@ -13,12 +13,14 @@ export function createInitialState(game: GameData): PlannerState {
 }
 
 export type PlannerAction =
+  | { type: 'restore'; state: PlannerState }
   | { type: 'game'; gameId: string; milestoneId: string | null }
   | { type: 'settings'; values: Partial<Omit<PlannerState, 'team'>> }
   | { type: 'add'; pokemonId: string; slot: number | null }
   | { type: 'remove'; slot: number };
 
 export function plannerReducer(state: PlannerState, action: PlannerAction): PlannerState {
+  if (action.type === 'restore') return action.state;
   if (action.type === 'game') {
     if (action.gameId === state.gameId) return state;
     return { ...state, gameId: action.gameId, milestoneId: action.milestoneId,

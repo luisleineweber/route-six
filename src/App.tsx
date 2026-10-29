@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useReducer, useRef, useState } from 'react';
+import { Undo2 } from 'lucide-react';
 import { pokemonIdentity } from './data/dataset';
 import { gameCatalogue } from './data/game-catalogue';
 import { gameLoadMessage, loadGame } from './data/game-loader';
@@ -24,7 +25,10 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const [loadingGameId,setLoadingGameId] = useState<string|null>(null);
   const [gameError,setGameError] = useState<string|null>(null);
   const currentState = useRef(state);
-  useLayoutEffect(() => { currentState.current = state; }, [state]);
+  const currentGame = useRef(game);
+  useLayoutEffect(() => { currentState.current = state; currentGame.current = game; }, [state, game]);
+  const [canUndoGame,setCanUndoGame] = useState(false);
+  const undoButton = useRef<HTMLButtonElement>(null);
   const [page,setPage] = useState<PlannerPage>('team');
   const [activeSlot,setActiveSlot] = useState<number|null>(null);
   const [details,setDetails] = useState<string|null>(null);
@@ -36,13 +40,12 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const {snapshot,loading,error} = useAvailability(state, progressPage);
   const gameOption = gameCatalogue.find(option => option.id === state.gameId)!;
   useEffect(() => {
-    document.title = `Route Six · ${game.game.name}`;
     document.documentElement.style.setProperty('--accent', gameOption.accentColor);
   }, [game, gameOption]);
   const team = state.team.filter((id):id is string=>id!==null);
-  const [selectGame] = useState(() => createGameSelection({
+  const [gameSelection] = useState(() => createGameSelection({
     getState: () => currentState.current,
-    confirmChange: id => window.confirm(`Switch to ${gameCatalogue.find(option => option.id === id)!.name}? This will clear your current team.`),
+    getGame: () => currentGame.current,
     loadGame,
     onLoading: setLoadingGameId,
     onError: error => {
@@ -50,12 +53,20 @@ export default function App({ initialGame }: { initialGame: GameData }) {
       const message = gameLoadMessage(error);
       console.error('Game data failed:', message); setGameError(message);
     },
-    onChange: next => {
+    onChange: (next, nextState) => {
+      currentGame.current = next; currentState.current = nextState;
       setGame(next);
-      dispatch({type:'game',gameId:next.game.id,milestoneId:next.game.planner?.defaultMilestoneId ?? null});
+      dispatch({type:'restore',state:nextState});
       setActiveSlot(null); setDetails(null);
+      setAnnouncement(`Switched to ${next.game.name}.`);
+    },
+    onUndoAvailable: available => {
+      if (!available && undoButton.current === document.activeElement) document.querySelector<HTMLElement>('.game-selector > summary')?.focus();
+      setCanUndoGame(available);
+      if (available) setAnnouncement(`Switched to ${currentGame.current.game.name}. Undo is available for five seconds.`);
     },
   }));
+  useEffect(() => () => gameSelection.dispose(), [gameSelection]);
   const choose = (slot:number) => {
     setActiveSlot(slot);
     document.getElementById('pokemon-search')?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
@@ -75,7 +86,11 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   };
   return <GameContext value={game}>
     <a className="skip-link" href="#main">Skip to planner</a>
-    <AppHeader gameId={state.gameId} onGameChange={selectGame} page={page} onPageChange={setPage} />
+    <AppHeader gameId={state.gameId} onGameChange={gameSelection.select} page={page} onPageChange={setPage} />
+    {canUndoGame && <div className="game-change-notice" role="group" aria-label="Game change">
+      <p>Switched to <strong>{game.game.name}</strong>.</p>
+      <button ref={undoButton} type="button" className="secondary-button" onClick={() => gameSelection.undo()}><Undo2 size={17} aria-hidden="true" />Undo</button>
+    </div>}
     {!progressUnavailable && <TeamBar team={state.team} teamRef={teamSlots} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} />}
     <div className="app-shell">
       {loadingGameId && <p role="status">Loading {gameCatalogue.find(option=>option.id===loadingGameId)!.name}…</p>}
