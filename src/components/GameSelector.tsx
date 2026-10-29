@@ -41,7 +41,7 @@ export function GameSelector({ gameId, onChange }: { gameId: string; onChange: (
   }}>
     <summary>
       <GameLogo gameId={gameId} />
-      <span className="selected-game"><strong>{selected.name}</strong><span>Generation {selected.generation}</span></span>
+      <span className="selected-game"><strong>{selected.name}</strong><span>Change game</span></span>
       <ChevronDown size={18} className="chevron" aria-hidden="true" />
     </summary>
     <div className="game-dropdown" role="region" aria-label="Choose a game">

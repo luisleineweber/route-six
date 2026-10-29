@@ -4,6 +4,9 @@ Players use the guide next to their game in normal room light. Keep one calm
 light surface. Group content with space and tone. Do not use divider lines,
 eyebrow labels, hero text, or decorative stamps.
 
+Keep the visible planner copy short. Put search descriptions in page metadata
+and agent summaries in separate text files.
+
 ## Colour
 
 Define colours in OKLCH. Keep the content surfaces white and neutral grey.
@@ -25,10 +28,12 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
   points, one for each team slot (`public/route-six.svg`). Use the same mark
   in the footer and browser icon. Keep the mark white in the header.
 - The header has two rows. Put the name and mark on the leading side and the
-  selected game's official logo on the other side (`public/games/`). Put both
-  planner controls below, with a short description of each view. On phones,
-  put the game below the name and show only the planner names. Group the
-  game menu by generation. Mark games without reviewed local data as planned.
+  selected game's official logo on the other side (`public/games/`). Give the
+  game control a darker surface and a Change game hint. Put both planner
+  controls below in one shared selection area, with equal widths and a short
+  description of each view. On phones, put the game below the name and show
+  only the planner names, without icons or descriptions. Group the game menu
+  by generation. Mark games without reviewed local data as planned.
 - Each of Emerald's 17 types has a round logo (`public/types/`, MIT licence).
   Slots and catalogue cards show the logo alone. The name stays available as a
   tooltip and to assistive technology. The details dialog and the type

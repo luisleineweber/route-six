@@ -39,20 +39,18 @@ it('uses the selected game and distinguishes team-only support', () => {
   expect(html).not.toContain('Team &amp; Progress');
 });
 
-it.each([undefined, '', '   '])('links honestly to GitHub when no project URL is configured (%s)', value => {
-  vi.stubEnv('VITE_GITHUB_URL', value);
+it.each([undefined, '', '   '])('shows the project link as coming soon when no URL is configured (%s)', value => {
+  vi.stubEnv('VITE_SITE_URL', value);
   const html = renderFooter();
-  expect(html).toContain('href="https://github.com/" target="_blank" rel="noopener noreferrer"');
-  expect(html).toContain('Open GitHub');
-  expect(html).not.toContain('View on GitHub');
+  expect(html).toContain('Project link coming soon.');
+  expect(html).not.toContain('class="footer-project-link"');
 });
 
-it('uses the configured GitHub destination', () => {
-  vi.stubEnv('VITE_GITHUB_URL', ' https://github.com/example/field-guide ');
+it('uses the configured Route Six site destination', () => {
+  vi.stubEnv('VITE_SITE_URL', ' https://route-six.example ');
   const html = renderFooter();
-  expect(html).toContain('href="https://github.com/example/field-guide"');
-  expect(html).toContain('View on GitHub');
-  expect(html).not.toContain('Open GitHub');
+  expect(html).toContain('href="https://route-six.example"');
+  expect(html).toContain('Visit the Route Six site');
 });
 
 it('keeps source credits in a native disclosure with asset attribution and new-tab notices', () => {
@@ -63,6 +61,6 @@ it('keeps source credits in a native disclosure with asset attribution and new-t
   expect(html).toContain('href="https://github.com/PokeAPI/sprites"');
   expect(html).toContain('href="https://github.com/partywhale/pokemon-type-icons"');
   expect(html).toContain('href="/types/LICENSE.txt"');
-  expect(html.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(4);
-  expect(html.match(/opens in a new tab/g)).toHaveLength(4);
+  expect(html.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(3);
+  expect(html.match(/opens in a new tab/g)).toHaveLength(3);
 });

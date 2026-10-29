@@ -9,7 +9,7 @@ const renderSelector = (gameId = 'emerald') => renderToStaticMarkup(createElemen
 describe('Game selection', () => {
   it('keeps the selected game in the trigger and groups the library without a visible menu title', () => {
     const html = renderSelector();
-    expect(html).toContain('<strong>Pokémon Emerald</strong>');
+    expect(html).toContain('<strong>Pokémon Emerald</strong><span>Change game</span>');
     expect(html).toContain('role="region" aria-label="Choose a game"');
     expect(html).not.toContain('game-menu-title');
     expect(html).not.toContain('game-menu-header');

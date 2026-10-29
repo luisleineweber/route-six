@@ -1,10 +1,10 @@
-import { ArrowUp, BookOpen, ChevronDown, ExternalLink, Github } from 'lucide-react';
+import { ArrowUp, BookOpen, ChevronDown, ExternalLink } from 'lucide-react';
 import { RouteSixMark } from './RouteSixMark';
 import { useGameData } from '../features/planner/GameContext';
 
 export function AppFooter() {
   const { game, profiles } = useGameData();
-  const githubUrl = import.meta.env.VITE_GITHUB_URL?.trim();
+  const siteUrl = import.meta.env.VITE_SITE_URL?.trim();
 
   return <footer className="app-footer">
     <div className="footer-inner">
@@ -27,13 +27,13 @@ export function AppFooter() {
         </section>
 
         <section className="footer-project" aria-labelledby="footer-project-title">
-          <h2 id="footer-project-title">Behind the guide</h2>
-          <a className="footer-github" href={githubUrl || 'https://github.com/'} target="_blank" rel="noopener noreferrer">
-            <Github size={21} aria-hidden="true" />
-            <span>{githubUrl ? 'View on GitHub' : 'Open GitHub'}</span>
+          <h2 id="footer-project-title">Follow Route Six</h2>
+          <p className="footer-project-promo">More playthrough guides are on the way.</p>
+          {siteUrl ? <a className="footer-project-link" href={siteUrl} target="_blank" rel="noopener noreferrer">
+            <span>Visit the Route Six site</span>
             <ExternalLink size={15} aria-hidden="true" />
             <span className="sr-only"> (opens in a new tab)</span>
-          </a>
+          </a> : <p className="footer-project-coming-soon">Project link coming soon.</p>}
           <details className="footer-credits">
             <summary><BookOpen size={16} aria-hidden="true" />Sources & credits<ChevronDown size={16} className="footer-credits-chevron" aria-hidden="true" /></summary>
             <div className="footer-credits-content">
