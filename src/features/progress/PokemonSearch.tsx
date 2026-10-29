@@ -37,7 +37,6 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
   const game = useGameData();
   const profiles = useMemo(() => new Map(game.profiles.map(profile => [profile.pokemonId, profile])), [game]);
   const [query,setQuery] = useState('');
-  const [columns, setColumns] = useState(3);
   const [selectedTypes,setSelectedTypes] = useState<string[]>([]);
   const [statusChoice,setStatusChoice] = useState<CatalogueStatus|null>(null);
   const status = statusChoice ?? defaultCatalogueStatus(target);
@@ -56,8 +55,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     const entry = snapshot?.entries[pokemon.id];
     return !progressPage || !snapshot || !entry || matchesCatalogueStatus(entry, status);
   }), game), [matching,status,snapshot,progressPage,game]);
-  const showCompactStatus = progressPage && snapshot !== null
-    && new Set(visible.map(pokemon => snapshot.entries[pokemon.id].status)).size > 1;
+  const showCompactStatus = progressPage && snapshot !== null && status === 'obtainable';
   const regionalCounts = new Map<string | undefined, number>();
   for (const pokemon of visible) {
     const profile = profiles.get(pokemon.id)!;
@@ -71,7 +69,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     ? target === 'whole-game' ? 'Pokémon you can get in this game' : 'Pokémon available at this point'
     : 'All Pokémon';
   return <section className={`catalogue ${progressPage ? 'progress-catalogue' : 'team-catalogue'}`} id="pokemon-search" aria-labelledby="catalogue-title">
-    <div className="section-heading"><h2 id="catalogue-title">{catalogueTitle}</h2><label className="column-picker">Columns <select value={columns} onChange={event => setColumns(Number(event.target.value))} aria-label="Catalogue columns">{[2, 3, 4].map(count => <option key={count} value={count}>{count}</option>)}</select></label></div>
+    <div className="section-heading"><h2 id="catalogue-title">{catalogueTitle}</h2></div>
     {!canAdd && <p className="full-team-hint">Your six slots are full. Remove a team member to add another Pokémon.</p>}
     {activeSlot !== null && <div className="slot-prompt" role="status"><span>Choose a Pokémon for slot {activeSlot+1}.</span><button className="text-button" onClick={onCancel}><X size={16} aria-hidden="true" /> Cancel</button></div>}
     <CatalogueFilters resetKey={JSON.stringify([query, selectedTypes, status])} statusFilters={progressPage && <div className="chip-row" role="group" aria-label="Filter by status">{statusChips.map(({id,name,count,Icon}) => <button key={id} className={`chip status-${id}`} aria-pressed={status===id} onClick={() => setStatusChoice(id)}>
@@ -90,10 +88,10 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
 
     {progressPage && !snapshot ? <>
         <p className="loading-note" role="status"><span className="loading-dot" />Checking which Pokémon are available…</p>
-        <div className={`pokemon-grid columns-${columns}`} aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i} />)}</div>
+        <div className="pokemon-grid" aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i} />)}</div>
       </>
       : !visible.length ? <div className="empty-results"><Search size={26} aria-hidden="true" /><h3>No Pokémon match these filters.</h3><p>{progressPage ? 'Change your search, type, or status filters.' : 'Change the name or type.'}</p><button className="secondary-button" onClick={clearFilters}>Clear filters</button></div>
-      : <div className={`pokemon-grid columns-${columns}${showCompactStatus ? ' mixed-access' : ''}`}>{visible.map((pokemon, index) => {
+      : <div className={`pokemon-grid${showCompactStatus ? ' mixed-access' : ''}`}>{visible.map((pokemon, index) => {
         const entry = snapshot?.entries[pokemon.id];
         const earliest = entry?.status === 'later' && snapshot ? firstAccessOptions(game, snapshot, entry) : [];
         // Keep the source location and first-access point on the same future path.
@@ -107,6 +105,13 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
         const startsNationalGroup = isNational && (index === 0 || profiles.get(visible[index - 1].id)?.regionalDex !== undefined);
         const StatusIcon = entry ? statusIcons[entry.status] : null;
         const accessLabel = entry ? { available: 'Now', later: 'Later', blocked: 'Blocked', unavailable: 'Unavailable' }[entry.status] : '';
+        const compactLabel = path
+          ? entry?.status === 'later' && snapshot?.levelLimit && path.minimumLevel > snapshot.levelLimit.level
+            ? `Lv. ${path.minimumLevel}`
+            : path.evolutionIds.length ? 'Evolution'
+              : path.breedingSteps.length ? 'Breeding'
+                : game.locations.find(location => location.id === pathSource(game, path).locationId)!.name
+          : accessLabel;
         return <Fragment key={pokemon.id}>
           {startsRegionalGroup && <div className="dex-grid-heading"><h3>{regionalDexName(game, profile.regionalDexSectionId)} Pokédex</h3><span className="dex-group-count">{regionalCounts.get(profile.regionalDexSectionId)} Pokémon</span></div>}
           {startsNationalGroup && <>
@@ -116,7 +121,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
           <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
           {progressPage && entry && <>
             <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
-            {showCompactStatus && <p className={`access-compact status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={12} aria-hidden="true" />}{accessLabel}</p>}
+            {showCompactStatus && <p className={`access-compact status-label status-${entry.status}`} title={`${statusNames[entry.status]}: ${compactLabel}`}>{StatusIcon && <StatusIcon size={12} aria-hidden="true" />}<span>{compactLabel}</span></p>}
             {entry.status === 'later' && earliest.length > 0 && <p className="source-summary access-full">Available from {earliest[0].label}</p>}
           </>}
           </PokemonCatalogueCard>

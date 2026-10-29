@@ -41,13 +41,13 @@ function loadingCatalogue(target: 'whole-game' | 'current-progress') {
 }
 
 describe('catalogue access summaries', () => {
-  it('omits compact status labels when the results have one access state', () => {
+  it('shows acquisition labels in the combined tab even with one access state', () => {
     const html = card([path('bagon', 'wild-meteor-falls-bagon-room-grass-bagon', 'juan-defeated')]);
-    expect(html).not.toContain('access-compact');
+    expect(html).toContain('access-compact');
     expect(html).toContain('access-full');
   });
 
-  it('uses short compact status labels for mixed access results', () => {
+  it('uses location labels for mixed access results', () => {
     const now = path('pikachu', 'wild-safari-zone-south-grass-pikachu', 'devon-scope');
     const later = { ...path('bagon', 'wild-meteor-falls-bagon-room-grass-bagon', 'juan-defeated'), id: 'later-path' };
     const snapshot: AvailabilitySnapshot = {
@@ -66,9 +66,9 @@ describe('catalogue access summaries', () => {
     })));
     const labels = html.match(/<p class="access-compact[^>]*>[\s\S]*?<\/p>/g)!;
     expect(labels).toHaveLength(2);
-    expect(labels.some(label => label.includes('Now</p>'))).toBe(true);
-    expect(labels.some(label => label.includes('Later</p>'))).toBe(true);
-    expect(labels.join('')).not.toMatch(/Safari Zone|Meteor Falls|Available from/);
+    expect(labels.some(label => label.includes('Safari Zone</span>'))).toBe(true);
+    expect(labels.some(label => label.includes('Meteor Falls</span>'))).toBe(true);
+    expect(labels.join('')).not.toContain('Available from');
   });
 
   it('matches the catalogue title to the planning target and uses a short loading message', () => {
