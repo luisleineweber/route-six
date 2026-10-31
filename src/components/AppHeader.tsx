@@ -26,11 +26,9 @@ export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
         {pages.map(({ id, name, description, Icon }) => <button type="button" key={id}
           className={page === id ? 'selected' : ''}
           aria-current={page === id ? 'page' : undefined}
-          aria-labelledby={`${id}-planner-label`}
-          aria-describedby={`${id}-planner-description`}
           onClick={() => onPageChange(id)}>
           <Icon size={21} aria-hidden="true" />
-          <span className="planner-nav-copy"><span id={`${id}-planner-label`}>{name}</span><span id={`${id}-planner-description`}>{description}</span></span>
+          <span className="planner-nav-copy"><span>{name}</span><span>{description}</span></span>
         </button>)}
       </nav>
     </div>

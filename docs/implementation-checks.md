@@ -641,3 +641,24 @@ in `output/stat-chart-implementation/`.
 
 `npm run build` passes the data check, TypeScript, Vite and document copying.
 The existing large local-data chunk and unset `SITE_URL` warnings remain.
+
+## Release blockers: 30 October 2026
+
+The planner buttons now take their accessible name from their visible text.
+At wide widths the name includes the description. On phones the hidden
+description is not part of the name. `aria-current` and keyboard use are
+unchanged. Axe reports no `label-content-name-mismatch` at 1440 pixels.
+
+Axe leaves dialog colour contrast incomplete because elements overlap.
+Computed colours over all ancestor backgrounds and pixel samples give the
+same results. Evolution levels and `2×` counts are 6.79:1 at 1440 pixels.
+Phone Dex labels are 5.96:1 at 320 pixels. The primary button is 7.62:1.
+All 46 measured dialog text elements pass AA. White on each of the 38 game
+accents is at least 7.62:1. No design token changed.
+
+The build now warns for an unset `SITE_URL` and an unset `VITE_SITE_URL`.
+The public domain is not chosen. Both warnings remain and block release.
+
+All 763 tests pass in 77 files. `npx tsc -b` and `npx vite build` pass.
+Axe WCAG A/AA reports zero violations at 1440 and 320 pixels, with and
+without the dialog. Evidence and screenshots are in `output/release-blockers/`.

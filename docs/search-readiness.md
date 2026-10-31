@@ -51,7 +51,9 @@ The build uses that value for:
 - The sitemap reference in `robots.txt`.
 
 When `SITE_URL` is empty, the build reports a warning. It omits these
-domain-specific entries and still writes `robots.txt`. Invalid values stop
+domain-specific entries and still writes `robots.txt`. When `VITE_SITE_URL`
+is empty, the build reports a second warning. The footer site link and the
+PNG site address are then omitted. Invalid values stop
 the build with a clear error. The local build has no invented public domain.
 
 The sitemap contains one real page. Game selections and planner controls do

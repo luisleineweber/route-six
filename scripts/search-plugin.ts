@@ -1,19 +1,22 @@
 import { loadEnv, type Plugin } from 'vite';
-import { crawlFiles, publicSiteUrl, searchTags } from './search-assets.ts';
+import { crawlFiles, missingReleaseUrls, publicSiteUrl, searchTags } from './search-assets.ts';
 
 export function searchPlugin(): Plugin {
   let siteUrl: string | null = null;
   let building = false;
+  let missingUrls: string[] = [];
   return {
     name: 'route-six-search',
     config(_, environment) {
       building = environment.command === 'build';
-      const result = publicSiteUrl(loadEnv(environment.mode, process.cwd(), 'SITE_').SITE_URL);
+      const env = loadEnv(environment.mode, process.cwd(), ['SITE_', 'VITE_SITE_']);
+      const result = publicSiteUrl(env.SITE_URL);
       if (!result.ok) throw new Error(result.error);
       siteUrl = result.url;
+      missingUrls = missingReleaseUrls(env);
     },
     buildStart() {
-      if (building && !siteUrl) this.warn('SITE_URL is not set. Canonical URL, site structured data, and sitemap are omitted. Set it before publication.');
+      if (building) for (const warning of missingUrls) this.warn(warning);
     },
     transformIndexHtml(html, context) {
       if (context.path !== '/' && context.path !== '/index.html') return html;

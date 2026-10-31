@@ -13,6 +13,16 @@ export function publicSiteUrl(value: string | undefined):
   return { ok: true, url: url.href };
 }
 
+const releaseUrls = [
+  ['SITE_URL', 'Canonical URL, site structured data, and sitemap are omitted.'],
+  ['VITE_SITE_URL', 'The footer site link and PNG site address are omitted.'],
+] as const;
+
+export function missingReleaseUrls(env: Record<string, string | undefined>) {
+  return releaseUrls.filter(([name]) => !env[name]?.trim())
+    .map(([name, effect]) => `${name} is not set. ${effect} Set it before publication.`);
+}
+
 export function searchTags(siteUrl: string | null): HtmlTagDescriptor[] {
   const meta = (name: string, content: string): HtmlTagDescriptor => ({ tag: 'meta', attrs: { name, content } });
   const og = (property: string, content: string): HtmlTagDescriptor => ({ tag: 'meta', attrs: { property, content } });

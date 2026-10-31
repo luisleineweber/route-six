@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { build, createServer } from 'vite';
-import { crawlFiles, publicSiteUrl } from '../scripts/search-assets';
+import { crawlFiles, missingReleaseUrls, publicSiteUrl } from '../scripts/search-assets';
 import { searchPlugin } from '../scripts/search-plugin';
 import { siteDescription, siteTitle } from '../src/content/site-copy';
 import { gameCatalogue } from '../src/data/game-catalogue';
@@ -115,5 +115,16 @@ describe('search page output', () => {
 
   it('normalizes the configured origin', () => {
     expect(publicSiteUrl(' https://example.com ')).toEqual({ ok: true, url: 'https://example.com/' });
+  });
+
+  it('reports each unset public URL for a release build', () => {
+    expect(missingReleaseUrls({})).toEqual([
+      'SITE_URL is not set. Canonical URL, site structured data, and sitemap are omitted. Set it before publication.',
+      'VITE_SITE_URL is not set. The footer site link and PNG site address are omitted. Set it before publication.',
+    ]);
+    expect(missingReleaseUrls({ SITE_URL: 'https://example.com', VITE_SITE_URL: ' ' })).toEqual([
+      'VITE_SITE_URL is not set. The footer site link and PNG site address are omitted. Set it before publication.',
+    ]);
+    expect(missingReleaseUrls({ SITE_URL: 'https://example.com', VITE_SITE_URL: 'https://example.com' })).toEqual([]);
   });
 });

@@ -19,11 +19,15 @@ describe('Header', () => {
   it.each(['team', 'progress'] as const)('kennzeichnet nur den aktiven Planer: %s', page => {
     const html = renderHeader(page);
     expect(html.match(/aria-current="page"/g)).toHaveLength(1);
-    expect(html).toContain(`class="selected" aria-current="page" aria-labelledby="${page}-planner-label"`);
-    for (const id of ['team', 'progress']) {
-      expect(html).toContain(`aria-labelledby="${id}-planner-label" aria-describedby="${id}-planner-description"`);
-      expect(html).toContain(`id="${id}-planner-label"`);
-      expect(html).toContain(`id="${id}-planner-description"`);
-    }
+    expect(html).toContain('<button type="button" class="selected" aria-current="page">');
+  });
+
+  // WCAG 2.5.3: the accessible name must contain all visible button text.
+  it('leitet den Namen der Planerauswahl aus dem sichtbaren Text ab', () => {
+    const html = renderHeader('team');
+    const nav = html.slice(html.indexOf('<button', html.indexOf('class="planner-nav"')));
+    expect(nav).not.toMatch(/aria-labelledby|aria-describedby|aria-label=/);
+    expect(nav).toContain('<span>Team Planner</span><span>Your six Pokémon and their types</span>');
+    expect(nav).toContain('<span>Progress Planner</span><span>Where and when to find your team</span>');
   });
 });
