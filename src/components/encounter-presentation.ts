@@ -16,7 +16,9 @@ function conditionText(condition: EncounterCondition): string {
     case 'safari-blocks': return `Arrange the Safari area for at least ${condition.blocks.map(block => `${block.points} ${block.type} points`).join(' and ')}. Aging can increase block points.`;
     case 'daily': return condition.system === 'great-marsh'
       ? 'This species must be in this area’s daily Great Marsh rotation.'
-      : 'This species must be one of the current Trophy Garden daily visitors.';
+      : condition.system === 'trophy-garden'
+      ? 'This species must be one of the current Trophy Garden daily visitors.'
+      : 'This place must be the current daily Mirage spot. Soar to it before the day ends.';
     case 'feebas-tiles': return `Fish on one of the ${condition.tileCount} current Feebas tiles. After a bite, these tiles have a ${condition.replacementPercent}% Feebas check.`;
   }
 }
@@ -40,6 +42,10 @@ export function encounterInstructions(source: PokemonSource): string[] {
   }
   if (source.details.kind === 'berry-tree') {
     instructions.unshift(`Grow a ${source.details.color} Berry tree in the Berry Fields. Check the tree when a pest appears.`);
+  }
+  if (source.details.kind === 'dexnav') {
+    const habitat = { grass: 'grass', 'long-grass': 'long grass', cave: 'the cave', surf: 'water while surfing' }[source.details.habitat];
+    instructions.unshift(`Search ${habitat} with the DexNav. This species appears only as a hidden Pokémon; its rate is not reviewed.`);
   }
   if (source.details.kind === 'wild' && source.details.method === 'poke-radar') {
     instructions.unshift('Use the Poké Radar in grass. Enter a marked patch that can give a special Radar encounter.');

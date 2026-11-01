@@ -4,7 +4,8 @@ import type { Game, PokemonProfile } from '../src/domain/types';
 import { isGameReady, isProgressReady } from '../src/data/game-catalogue';
 
 const read = <T>(game: string, file: string): T => JSON.parse(readFileSync(`data/games/${game}/${file}.json`, 'utf8'));
-const progressGames = new Set(['diamond', 'pearl', 'platinum', 'black', 'white', 'black-2', 'white-2', 'x', 'y']);
+const progressGames = new Set(['diamond', 'pearl', 'platinum', 'black', 'white', 'black-2', 'white-2', 'x', 'y',
+  'omega-ruby', 'alpha-sapphire']);
 const games: [string, number, string, number, number][] = [
   ['diamond', 493, 'turtwig', 1, 151], ['pearl', 493, 'turtwig', 1, 151],
   ['platinum', 493, 'turtwig', 1, 210], ['heartgold', 493, 'chikorita', 1, 256],

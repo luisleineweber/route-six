@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "id": "hoenn-starter",
+    "name": "Hoenn starter",
+    "options": [
+      "treecko",
+      "torchic",
+      "mudkip"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "johto-starter",
+    "name": "Johto starter",
+    "options": [
+      "chikorita",
+      "cyndaquil",
+      "totodile"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "unova-starter",
+    "name": "Unova starter",
+    "options": [
+      "snivy",
+      "tepig",
+      "oshawott"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sinnoh-starter",
+    "name": "Sinnoh starter",
+    "options": [
+      "turtwig",
+      "chimchar",
+      "piplup"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "desert-fossil",
+    "name": "Route 111 desert fossil",
+    "options": [
+      "root-fossil",
+      "claw-fossil"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

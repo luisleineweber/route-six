@@ -64,6 +64,12 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
       }
       if (source.maxUses !== null) issue(source.id, 'sources', 'Berry tree encounters must be repeatable.');
     }
+    if (source.details.kind === 'dexnav') {
+      if (!requiresCapability(source.requirements, 'dexnav')) {
+        issue(source.id, 'sources', 'DexNav hidden Pokémon require the dexnav action in every alternative.');
+      }
+      if (source.maxUses !== null) issue(source.id, 'sources', 'DexNav hidden Pokémon must be repeatable.');
+    }
     for (const condition of source.encounterConditions ?? []) {
       const action = condition.kind === 'radio' ? `${condition.sound}-sound`
         : condition.kind === 'headbutt-tree' ? 'headbutt' : condition.kind === 'safari-blocks' ? 'safari-blocks' : null;

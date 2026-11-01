@@ -1,6 +1,6 @@
 # Route Six
 
-> A free Pokémon team planner and playthrough guide. Team Planner supports 24 games from Generations I to VI. Progress Planner supports 20 of those games.
+> A free Pokémon team planner and playthrough guide. Team Planner supports 24 games from Generations I to VI. Progress Planner supports 22 of those games.
 
 ## Interface
 
@@ -12,10 +12,10 @@
 
 ## Supported games
 
-- Both planners: Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, Y.
-- Team Planner only: HeartGold, SoulSilver, Omega Ruby, Alpha Sapphire.
+- Both planners: Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, Y, Omega Ruby, Alpha Sapphire.
+- Team Planner only: HeartGold, SoulSilver.
 
-All game names in these lists refer to Pokémon editions. Emerald is the default game. Progress Planner data for the four Team Planner-only games is still under review.
+All game names in these lists refer to Pokémon editions. Emerald is the default game. Progress Planner data for the two Team Planner-only games is still under review.
 
 ## Limits
 

@@ -3,9 +3,9 @@
 The dataset uses schema version 2. All eleven catalogue games from Generations
 I to III support both planners. Thirteen games from Generations IV to VI
 support Team Planner. Diamond, Pearl, Platinum, Black, White, Black 2,
-White 2, X, and Y also support Progress Planner. The other four games still
-need their access review. The totals are 24 Team Planner games and 20
-Progress Planner games.
+White 2, X, Y, Omega Ruby, and Alpha Sapphire also support Progress Planner.
+HeartGold and SoulSilver still need their access review. The totals are 24
+Team Planner games and 22 Progress Planner games.
 Ruby passed the second-game checks before the group.
 A catalogue entry or logo does not provide game rules.
 

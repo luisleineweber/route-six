@@ -10378,7 +10378,33 @@
       "male",
       "female"
     ],
-    "spriteSrc": "/pokemon/422.png"
+    "spriteSrc": "/pokemon/422.png",
+    "forms": [
+      {
+        "formId": "shellos-east",
+        "types": [
+          "water"
+        ],
+        "spriteSrc": "/pokemon/shellos-east.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-1",
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-forms",
+            "xy-form-sprites"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "gastrodon",
@@ -10403,7 +10429,34 @@
       "male",
       "female"
     ],
-    "spriteSrc": "/pokemon/423.png"
+    "spriteSrc": "/pokemon/423.png",
+    "forms": [
+      {
+        "formId": "gastrodon-east",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "spriteSrc": "/pokemon/gastrodon-east.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-1",
+            "amorphous"
+          ]
+        },
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-forms",
+            "xy-form-sprites"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "ambipom",

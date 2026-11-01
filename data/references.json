@@ -2172,5 +2172,61 @@
     "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
     "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
     "locator": "HOLLOW_FILE_VERSION selects 0; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/white-2-sources.md."
+  },
+  {
+    "id": "oras-reviewed-story",
+    "title": "ORAS story order, field moves and location gates",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire",
+    "revision": "Wikitext saved 2026-10-31 in output/source-review/oras-bulbapedia-20261031",
+    "locator": "Walkthrough Parts 1-25 and Hoenn location pages (Geography, Items, access notes). Badge field moves cross-checked with Serebii ORAS Gym Leaders and PokemonDB ORAS HM locations. Badge 7 enables Dive before Seafloor Cavern; Wallace follows the Cave of Origin."
+  },
+  {
+    "id": "oras-reviewed-wild",
+    "title": "ORAS wild, DexNav and Mirage spot encounter tables",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/legality/wild/Gen6",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "encounter_or.pkl and encounter_as.pkl via EncounterArea6AO.cs: 41-slot standard areas (12 grass, 12 long grass, 3 DexNav, 5 surf, 3 per rod), 5-slot Rock Smash and 15-slot Horde areas. Rates are the Generation VI slot rates; 170 of 172 pools equal Bulbapedia ORAS catch tables (slot-rate-check.json). DexNav-only Pokémon follow Bulbapedia hidden-Pokémon divisions after Groudon/Kyogre."
+  },
+  {
+    "id": "oras-reviewed-fixed",
+    "title": "ORAS gifts, fixed encounters, portals, trades and fossils",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Encounter_AO_Regular, StaticO, StaticA and TradeGift_AO for species, levels and genders; Bulbapedia ORAS location pages (Route 101, Southern Island, Sky Pillar, Sealed Chamber, Island Cave, Sea Mauville, Mirage spots, Soaring in the sky) for story, party and item gates."
+  },
+  {
+    "id": "oras-reviewed-evolution",
+    "title": "Generation VI evolution rules applied to ORAS",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/evolve/evos_g6.pkl",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "EvolutionTree.cs binds ORAS to evos_g6.pkl; the reviewed X/Y rules match all 364 edges (omega-ruby-continuation/full-rule-comparison.md). ORAS location evolutions use New Mauville, Petalburg Woods and the Shoal Cave ice room; Feebas also evolves by beauty 170."
+  },
+  {
+    "id": "oras-reviewed-breeding",
+    "title": "Generation VI breeding rules applied to ORAS",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Breeding.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Reviewed X/Y offspring and incense rules; ORAS and X profiles have equal Egg Groups and genders except the Meowstic form split. Day Care on Route 117 (Walkthrough Part 6)."
+  },
+  {
+    "id": "oras-reviewed-items",
+    "title": "ORAS item locations used by gates and rules",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire",
+    "revision": "Wikitext saved 2026-10-31 in output/source-review/oras-bulbapedia-20261031",
+    "locator": "ORAS Itemlist rows on Hoenn location and Mirage spot pages; Slateport Market incense shop; Treasure Hunter trades on Route 124; Dusk Stone page (Inverse Battle Stop)."
+  },
+  {
+    "id": "oras-reviewed-forms",
+    "title": "ORAS native Shellos and Gastrodon forms",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/legality/wild/Gen6/encounter_as.pkl",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Alpha Sapphire DexNav slots on Routes 103 and 110 carry Shellos form 1 (East Sea); Omega Ruby carries form 0 (West Sea). Bulbapedia Route 103 and Route 110 ORAS hidden-Pokémon rows confirm West Sea in Omega Ruby and East Sea in Alpha Sapphire. Cosplay Pikachu and Deoxys forms are not modeled."
+  },
+  {
+    "id": "oras-reviewed-scope",
+    "title": "ORAS unobtainable and version-exclusive Pokémon",
+    "url": "https://www.serebii.net/omegarubyalphasapphire/unobtainable.shtml",
+    "revision": "Saved 2026-10-31 in output/source-review/oras-serebii-20261031",
+    "locator": "Unobtainable list (242 species) and version exclusives list; compared with the native source, evolution and breeding closure."
   }
 ]

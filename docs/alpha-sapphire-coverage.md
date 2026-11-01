@@ -1,5 +1,9 @@
 # Alpha Sapphire coverage
 
+## Current app status: 1 November 2026
+
+Team Planner and Progress Planner are enabled. See [the ORAS Progress Planner review](oras-progress-review.md) for counts, sources and limits. Earlier notes below are source history.
+
 ## Current app status: 14 October 2026
 
 Team Planner is enabled with 721 reviewed base profiles and 211 regional entries. Type analysis, six team slots, details and PNG export use local data. Progress Planner remains pending. Its acquisition, route, evolution, breeding and form coverage is incomplete. The earlier review below is retained as source history. Current checks take precedence. See [the shared status](generation-456-progress.md).

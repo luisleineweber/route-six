@@ -17,6 +17,7 @@ const sourceMethodNames = {
   'ceiling-ambush': 'Ceiling ambush', 'ground-ambush': 'Ground ambush',
   'rustling-bush-ambush': 'Rustling bush', 'sky-ambush': 'Sky ambush',
   'trash-can-ambush': 'Shaking trash can', 'berry-tree': 'Berry tree pests',
+  'long-grass': 'Long grass', dive: 'Dive in seaweed', dexnav: 'DexNav hidden Pokémon',
   'game-trade': 'In-game trade', breeding: 'Breeding',
   'hidden-grotto': 'Hidden Grotto', 'white-forest': 'White Forest resident',
 } as const;

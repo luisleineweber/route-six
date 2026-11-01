@@ -1,11 +1,11 @@
 # Generation IV–VI data review
 
 Updated on 27 October 2026. All thirteen games load in Team Planner.
-Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, and Y also load
-in Progress Planner. HeartGold, SoulSilver, Omega Ruby and Alpha Sapphire
-still need their access layers.
+Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, Y, Omega Ruby
+and Alpha Sapphire also load in Progress Planner. HeartGold and SoulSilver
+still need their access layers. See [the ORAS review](oras-progress-review.md).
 
-The app has 24 Team Planner games and 20 Progress Planner games. The four
+The app has 24 Team Planner games and 22 Progress Planner games. The four
 Generation V games now have active native offline data, nine checkpoints,
 and regression checks. See [the Generation V review](generation-5-progress-review.md)
 for source pins, coverage, closed source conflicts and declared limits.
@@ -89,10 +89,10 @@ Y has 1,091. Each resolves 435 native species and 13 alternate forms.
 Fifteen further species require player trade. See
 [the X and Y review](xy-progress-review.md).
 
-The four other games still need reviewed routes, story dependencies, capabilities,
+The two other games still need reviewed routes, story dependencies, capabilities,
 item sources, choices, native encounters, evolution rules, breeding rules,
 and native-scope exclusions. `game.planner` and `game.firstMilestoneId` are
-explicitly null for those four games. Empty progress arrays mean that
+explicitly null for those two games. Empty progress arrays mean that
 this review is pending. They are not proof that a game has no such records.
 
 The Diamond and Pearl native encounter, evolution, breeding, gift, fossil,

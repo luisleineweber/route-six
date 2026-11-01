@@ -4,9 +4,9 @@ This contract describes the maintained dataset. Its schema version is 2.
 JSON Schema checks shape. A separate semantic check validates references and
 game rules. All eleven Generation I–III games support both planners. The
 thirteen Generation IV–VI games support Team Planner. Diamond, Pearl,
-Platinum, Black, White, Black 2, White 2, X, and Y also support Progress
-Planner. Thus, 24 games support
-Team Planner and 20 support Progress Planner. Four games remain incomplete.
+Platinum, Black, White, Black 2, White 2, X, Y, Omega Ruby, and Alpha
+Sapphire also support Progress Planner. Thus, 24 games support
+Team Planner and 22 support Progress Planner. Two games remain incomplete.
 See [the new game status](generation-456-progress.md).
 
 A game is complete only when its reviewed Progress Planner works. A passing
@@ -355,6 +355,12 @@ the layout must fit 30 objects at the maximum seven points per object.
 Area aging can increase points. A sufficient 250-day arrangement is not a
 claim about the minimum wait. Story and National Dex gates stay in action
 requirements. The host clock does not control the access result.
+
+Omega Ruby and Alpha Sapphire keep long grass and Dive seaweed as separate
+wild methods. Each method needs its action capability. A DexNav hidden Pokémon
+uses `details.kind: dexnav` with its habitat. It has no reviewed rate, needs the
+`dexnav` action in every alternative, and is repeatable. Mirage spot sources use
+the `daily` condition with `system: mirage-spot` and need `mirage-spot-daily`.
 
 Unova wild sources keep separate methods for dark grass, shaking grass, dust
 clouds, bridge shadows and rippling water. Each method needs its reviewed

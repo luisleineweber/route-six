@@ -61,7 +61,7 @@
           "required": ["kind", "method", "ratePercent"],
           "properties": {
             "kind": { "const": "wild" },
-            "method": { "enum": ["grass", "surf", "old-rod", "good-rod", "super-rod", "rock-smash", "headbutt", "bug-contest", "poke-radar", "dark-grass", "grass-spots", "cave-spots", "bridge-spots", "surf-spots", "super-rod-spots", "horde", "rough-terrain", "yellow-flowers", "red-flowers", "purple-flowers", "ceiling-ambush", "ground-ambush", "rustling-bush-ambush", "sky-ambush", "trash-can-ambush"] },
+            "method": { "enum": ["grass", "surf", "old-rod", "good-rod", "super-rod", "rock-smash", "headbutt", "bug-contest", "poke-radar", "dark-grass", "grass-spots", "cave-spots", "bridge-spots", "surf-spots", "super-rod-spots", "horde", "rough-terrain", "yellow-flowers", "red-flowers", "purple-flowers", "ceiling-ambush", "ground-ambush", "rustling-bush-ambush", "sky-ambush", "trash-can-ambush", "long-grass", "dive"] },
             "ratePercent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
           }
         },
@@ -74,6 +74,13 @@
           "properties": {
             "kind": { "const": "berry-tree" },
             "color": { "enum": ["red", "blue", "purple", "green", "yellow", "pink"] }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "habitat"],
+          "properties": {
+            "kind": { "const": "dexnav" },
+            "habitat": { "enum": ["grass", "long-grass", "cave", "surf"] }
           }
         },
         {
@@ -135,7 +142,7 @@
         },
         {
           "type": "object", "additionalProperties": false, "required": ["kind", "system"],
-          "properties": { "kind": { "const": "daily" }, "system": { "enum": ["great-marsh", "trophy-garden"] } }
+          "properties": { "kind": { "const": "daily" }, "system": { "enum": ["great-marsh", "trophy-garden", "mirage-spot"] } }
         },
         {
           "type": "object", "additionalProperties": false, "required": ["kind", "sound"],

@@ -3,16 +3,84 @@
   "name": "Pokémon Omega Ruby",
   "generation": 6,
   "region": "Hoenn",
-  "firstMilestoneId": null,
-  "planner": null,
+  "firstMilestoneId": "littleroot",
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "rustboro-gym",
+        "label": "Gym 1 · Rock · Roxanne",
+        "title": "Gym 1",
+        "detail": "Roxanne · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "dewford-gym",
+        "label": "Gym 2 · Fighting · Brawly",
+        "title": "Gym 2",
+        "detail": "Brawly · Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "mauville-gym",
+        "label": "Gym 3 · Electric · Wattson",
+        "title": "Gym 3",
+        "detail": "Wattson · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "lavaridge-gym",
+        "label": "Gym 4 · Fire · Flannery",
+        "title": "Gym 4",
+        "detail": "Flannery · Fire",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "petalburg-gym",
+        "label": "Gym 5 · Normal · Norman",
+        "title": "Gym 5",
+        "detail": "Norman · Normal",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "fortree-gym",
+        "label": "Gym 6 · Flying · Winona",
+        "title": "Gym 6",
+        "detail": "Winona · Flying",
+        "typeId": "flying"
+      },
+      {
+        "milestoneId": "mossdeep-gym",
+        "label": "Gym 7 · Psychic · Tate & Liza",
+        "title": "Gym 7",
+        "detail": "Tate & Liza · Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "sootopolis-gym",
+        "label": "Gym 8 · Water · Wallace",
+        "title": "Gym 8",
+        "detail": "Wallace · Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      }
+    ]
+  },
   "breeding": {
     "hatchLevel": 1
   },
   "review": {
     "referenceIds": [
+      "generation-iv-vi-egg-level",
       "omega-ruby-profiles",
-      "generation-iv-vi-egg-level"
+      "oras-reviewed-story"
     ],
-    "checkedOn": "2026-10-14"
+    "checkedOn": "2026-10-31"
   }
 }

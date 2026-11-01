@@ -1,1 +1,8473 @@
-[]
+[
+  {
+    "id": "oras-evolve-bulbasaur-ivysaur-levelup",
+    "fromPokemonId": "bulbasaur",
+    "toPokemonId": "ivysaur",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ivysaur-venusaur-levelup",
+    "fromPokemonId": "ivysaur",
+    "toPokemonId": "venusaur",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-charmander-charmeleon-levelup",
+    "fromPokemonId": "charmander",
+    "toPokemonId": "charmeleon",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-charmeleon-charizard-levelup",
+    "fromPokemonId": "charmeleon",
+    "toPokemonId": "charizard",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-squirtle-wartortle-levelup",
+    "fromPokemonId": "squirtle",
+    "toPokemonId": "wartortle",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wartortle-blastoise-levelup",
+    "fromPokemonId": "wartortle",
+    "toPokemonId": "blastoise",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-caterpie-metapod-levelup",
+    "fromPokemonId": "caterpie",
+    "toPokemonId": "metapod",
+    "trigger": "level-up",
+    "minimumLevel": 7,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-metapod-butterfree-levelup",
+    "fromPokemonId": "metapod",
+    "toPokemonId": "butterfree",
+    "trigger": "level-up",
+    "minimumLevel": 10,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-weedle-kakuna-levelup",
+    "fromPokemonId": "weedle",
+    "toPokemonId": "kakuna",
+    "trigger": "level-up",
+    "minimumLevel": 7,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-kakuna-beedrill-levelup",
+    "fromPokemonId": "kakuna",
+    "toPokemonId": "beedrill",
+    "trigger": "level-up",
+    "minimumLevel": 10,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pidgey-pidgeotto-levelup",
+    "fromPokemonId": "pidgey",
+    "toPokemonId": "pidgeotto",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pidgeotto-pidgeot-levelup",
+    "fromPokemonId": "pidgeotto",
+    "toPokemonId": "pidgeot",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-rattata-raticate-levelup",
+    "fromPokemonId": "rattata",
+    "toPokemonId": "raticate",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-spearow-fearow-levelup",
+    "fromPokemonId": "spearow",
+    "toPokemonId": "fearow",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ekans-arbok-levelup",
+    "fromPokemonId": "ekans",
+    "toPokemonId": "arbok",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pikachu-raichu-useitem",
+    "fromPokemonId": "pikachu",
+    "toPokemonId": "raichu",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "thunder-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "thunder-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sandshrew-sandslash-levelup",
+    "fromPokemonId": "sandshrew",
+    "toPokemonId": "sandslash",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nidoran-f-nidorina-levelup",
+    "fromPokemonId": "nidoran-f",
+    "toPokemonId": "nidorina",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nidorina-nidoqueen-useitem",
+    "fromPokemonId": "nidorina",
+    "toPokemonId": "nidoqueen",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "moon-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "moon-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nidoran-m-nidorino-levelup",
+    "fromPokemonId": "nidoran-m",
+    "toPokemonId": "nidorino",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nidorino-nidoking-useitem",
+    "fromPokemonId": "nidorino",
+    "toPokemonId": "nidoking",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "moon-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "moon-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-clefairy-clefable-useitem",
+    "fromPokemonId": "clefairy",
+    "toPokemonId": "clefable",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "moon-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "moon-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-vulpix-ninetales-useitem",
+    "fromPokemonId": "vulpix",
+    "toPokemonId": "ninetales",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "fire-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "fire-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-jigglypuff-wigglytuff-useitem",
+    "fromPokemonId": "jigglypuff",
+    "toPokemonId": "wigglytuff",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "moon-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "moon-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-zubat-golbat-levelup",
+    "fromPokemonId": "zubat",
+    "toPokemonId": "golbat",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-golbat-crobat-levelupfriendship",
+    "fromPokemonId": "golbat",
+    "toPokemonId": "crobat",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-oddish-gloom-levelup",
+    "fromPokemonId": "oddish",
+    "toPokemonId": "gloom",
+    "trigger": "level-up",
+    "minimumLevel": 21,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gloom-vileplume-useitem",
+    "fromPokemonId": "gloom",
+    "toPokemonId": "vileplume",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "leaf-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "leaf-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gloom-bellossom-useitem",
+    "fromPokemonId": "gloom",
+    "toPokemonId": "bellossom",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "sun-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "sun-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-paras-parasect-levelup",
+    "fromPokemonId": "paras",
+    "toPokemonId": "parasect",
+    "trigger": "level-up",
+    "minimumLevel": 24,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-venonat-venomoth-levelup",
+    "fromPokemonId": "venonat",
+    "toPokemonId": "venomoth",
+    "trigger": "level-up",
+    "minimumLevel": 31,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-diglett-dugtrio-levelup",
+    "fromPokemonId": "diglett",
+    "toPokemonId": "dugtrio",
+    "trigger": "level-up",
+    "minimumLevel": 26,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-meowth-persian-levelup",
+    "fromPokemonId": "meowth",
+    "toPokemonId": "persian",
+    "trigger": "level-up",
+    "minimumLevel": 28,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-psyduck-golduck-levelup",
+    "fromPokemonId": "psyduck",
+    "toPokemonId": "golduck",
+    "trigger": "level-up",
+    "minimumLevel": 33,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-mankey-primeape-levelup",
+    "fromPokemonId": "mankey",
+    "toPokemonId": "primeape",
+    "trigger": "level-up",
+    "minimumLevel": 28,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-growlithe-arcanine-useitem",
+    "fromPokemonId": "growlithe",
+    "toPokemonId": "arcanine",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "fire-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "fire-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-poliwag-poliwhirl-levelup",
+    "fromPokemonId": "poliwag",
+    "toPokemonId": "poliwhirl",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-poliwhirl-poliwrath-useitem",
+    "fromPokemonId": "poliwhirl",
+    "toPokemonId": "poliwrath",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "water-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "water-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-poliwhirl-politoed-tradehelditem",
+    "fromPokemonId": "poliwhirl",
+    "toPokemonId": "politoed",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "kings-rock",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-abra-kadabra-levelup",
+    "fromPokemonId": "abra",
+    "toPokemonId": "kadabra",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-kadabra-alakazam-trade",
+    "fromPokemonId": "kadabra",
+    "toPokemonId": "alakazam",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-machop-machoke-levelup",
+    "fromPokemonId": "machop",
+    "toPokemonId": "machoke",
+    "trigger": "level-up",
+    "minimumLevel": 28,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-machoke-machamp-trade",
+    "fromPokemonId": "machoke",
+    "toPokemonId": "machamp",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bellsprout-weepinbell-levelup",
+    "fromPokemonId": "bellsprout",
+    "toPokemonId": "weepinbell",
+    "trigger": "level-up",
+    "minimumLevel": 21,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-weepinbell-victreebel-useitem",
+    "fromPokemonId": "weepinbell",
+    "toPokemonId": "victreebel",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "leaf-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "leaf-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tentacool-tentacruel-levelup",
+    "fromPokemonId": "tentacool",
+    "toPokemonId": "tentacruel",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-geodude-graveler-levelup",
+    "fromPokemonId": "geodude",
+    "toPokemonId": "graveler",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-graveler-golem-trade",
+    "fromPokemonId": "graveler",
+    "toPokemonId": "golem",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ponyta-rapidash-levelup",
+    "fromPokemonId": "ponyta",
+    "toPokemonId": "rapidash",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-slowpoke-slowbro-levelup",
+    "fromPokemonId": "slowpoke",
+    "toPokemonId": "slowbro",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-slowpoke-slowking-tradehelditem",
+    "fromPokemonId": "slowpoke",
+    "toPokemonId": "slowking",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "kings-rock",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-magnemite-magneton-levelup",
+    "fromPokemonId": "magnemite",
+    "toPokemonId": "magneton",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-magneton-magnezone-levelupelectric",
+    "fromPokemonId": "magneton",
+    "toPokemonId": "magnezone",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "location",
+        "locationId": "new-mauville"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "new-mauville"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-doduo-dodrio-levelup",
+    "fromPokemonId": "doduo",
+    "toPokemonId": "dodrio",
+    "trigger": "level-up",
+    "minimumLevel": 31,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-seel-dewgong-levelup",
+    "fromPokemonId": "seel",
+    "toPokemonId": "dewgong",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-grimer-muk-levelup",
+    "fromPokemonId": "grimer",
+    "toPokemonId": "muk",
+    "trigger": "level-up",
+    "minimumLevel": 38,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shellder-cloyster-useitem",
+    "fromPokemonId": "shellder",
+    "toPokemonId": "cloyster",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "water-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "water-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gastly-haunter-levelup",
+    "fromPokemonId": "gastly",
+    "toPokemonId": "haunter",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-haunter-gengar-trade",
+    "fromPokemonId": "haunter",
+    "toPokemonId": "gengar",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-onix-steelix-tradehelditem",
+    "fromPokemonId": "onix",
+    "toPokemonId": "steelix",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "metal-coat",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-drowzee-hypno-levelup",
+    "fromPokemonId": "drowzee",
+    "toPokemonId": "hypno",
+    "trigger": "level-up",
+    "minimumLevel": 26,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-krabby-kingler-levelup",
+    "fromPokemonId": "krabby",
+    "toPokemonId": "kingler",
+    "trigger": "level-up",
+    "minimumLevel": 28,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-voltorb-electrode-levelup",
+    "fromPokemonId": "voltorb",
+    "toPokemonId": "electrode",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-exeggcute-exeggutor-useitem",
+    "fromPokemonId": "exeggcute",
+    "toPokemonId": "exeggutor",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "leaf-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "leaf-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cubone-marowak-levelup",
+    "fromPokemonId": "cubone",
+    "toPokemonId": "marowak",
+    "trigger": "level-up",
+    "minimumLevel": 28,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lickitung-lickilicky-levelupknowmove",
+    "fromPokemonId": "lickitung",
+    "toPokemonId": "lickilicky",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "rollout",
+        "moveName": "Rollout",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 33
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 33,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-koffing-weezing-levelup",
+    "fromPokemonId": "koffing",
+    "toPokemonId": "weezing",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-rhyhorn-rhydon-levelup",
+    "fromPokemonId": "rhyhorn",
+    "toPokemonId": "rhydon",
+    "trigger": "level-up",
+    "minimumLevel": 42,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-rhydon-rhyperior-tradehelditem",
+    "fromPokemonId": "rhydon",
+    "toPokemonId": "rhyperior",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "protector",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-chansey-blissey-levelupfriendship",
+    "fromPokemonId": "chansey",
+    "toPokemonId": "blissey",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tangela-tangrowth-levelupknowmove",
+    "fromPokemonId": "tangela",
+    "toPokemonId": "tangrowth",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "ancient-power",
+        "moveName": "Ancient Power",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 38
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 38,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-horsea-seadra-levelup",
+    "fromPokemonId": "horsea",
+    "toPokemonId": "seadra",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-seadra-kingdra-tradehelditem",
+    "fromPokemonId": "seadra",
+    "toPokemonId": "kingdra",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "dragon-scale",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-goldeen-seaking-levelup",
+    "fromPokemonId": "goldeen",
+    "toPokemonId": "seaking",
+    "trigger": "level-up",
+    "minimumLevel": 33,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-staryu-starmie-useitem",
+    "fromPokemonId": "staryu",
+    "toPokemonId": "starmie",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "water-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "water-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-scyther-scizor-tradehelditem",
+    "fromPokemonId": "scyther",
+    "toPokemonId": "scizor",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "metal-coat",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-electabuzz-electivire-tradehelditem",
+    "fromPokemonId": "electabuzz",
+    "toPokemonId": "electivire",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "electirizer",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-magmar-magmortar-tradehelditem",
+    "fromPokemonId": "magmar",
+    "toPokemonId": "magmortar",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "magmarizer",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-magikarp-gyarados-levelup",
+    "fromPokemonId": "magikarp",
+    "toPokemonId": "gyarados",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-leafeon-levelupforest",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "leafeon",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "location",
+        "locationId": "petalburg-woods"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "petalburg-woods"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-glaceon-levelupcold",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "glaceon",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "location",
+        "locationId": "shoal-cave-ice-room"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "shoal-cave-ice-room"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-jolteon-useitem",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "jolteon",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "thunder-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "thunder-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-vaporeon-useitem",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "vaporeon",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "water-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "water-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-flareon-useitem",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "flareon",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "fire-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "fire-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-sylveon-levelupaffection50movetype",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "sylveon",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "affection",
+        "minimum": 50
+      },
+      {
+        "kind": "known-move",
+        "moveId": "baby-doll-eyes",
+        "moveName": "Baby-Doll Eyes",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 9
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 9,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "affection"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-espeon-levelupfriendshipmorning",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "espeon",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      },
+      {
+        "kind": "time",
+        "period": "day"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        },
+        {
+          "kind": "capability",
+          "id": "day"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eevee-umbreon-levelupfriendshipnight",
+    "fromPokemonId": "eevee",
+    "toPokemonId": "umbreon",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      },
+      {
+        "kind": "time",
+        "period": "night"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        },
+        {
+          "kind": "capability",
+          "id": "night"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-porygon-porygon2-tradehelditem",
+    "fromPokemonId": "porygon",
+    "toPokemonId": "porygon2",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "up-grade",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-omanyte-omastar-levelup",
+    "fromPokemonId": "omanyte",
+    "toPokemonId": "omastar",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-kabuto-kabutops-levelup",
+    "fromPokemonId": "kabuto",
+    "toPokemonId": "kabutops",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-dratini-dragonair-levelup",
+    "fromPokemonId": "dratini",
+    "toPokemonId": "dragonair",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-dragonair-dragonite-levelup",
+    "fromPokemonId": "dragonair",
+    "toPokemonId": "dragonite",
+    "trigger": "level-up",
+    "minimumLevel": 55,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-chikorita-bayleef-levelup",
+    "fromPokemonId": "chikorita",
+    "toPokemonId": "bayleef",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bayleef-meganium-levelup",
+    "fromPokemonId": "bayleef",
+    "toPokemonId": "meganium",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cyndaquil-quilava-levelup",
+    "fromPokemonId": "cyndaquil",
+    "toPokemonId": "quilava",
+    "trigger": "level-up",
+    "minimumLevel": 14,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-quilava-typhlosion-levelup",
+    "fromPokemonId": "quilava",
+    "toPokemonId": "typhlosion",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-totodile-croconaw-levelup",
+    "fromPokemonId": "totodile",
+    "toPokemonId": "croconaw",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-croconaw-feraligatr-levelup",
+    "fromPokemonId": "croconaw",
+    "toPokemonId": "feraligatr",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sentret-furret-levelup",
+    "fromPokemonId": "sentret",
+    "toPokemonId": "furret",
+    "trigger": "level-up",
+    "minimumLevel": 15,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-hoothoot-noctowl-levelup",
+    "fromPokemonId": "hoothoot",
+    "toPokemonId": "noctowl",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ledyba-ledian-levelup",
+    "fromPokemonId": "ledyba",
+    "toPokemonId": "ledian",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-spinarak-ariados-levelup",
+    "fromPokemonId": "spinarak",
+    "toPokemonId": "ariados",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-chinchou-lanturn-levelup",
+    "fromPokemonId": "chinchou",
+    "toPokemonId": "lanturn",
+    "trigger": "level-up",
+    "minimumLevel": 27,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pichu-pikachu-levelupfriendship",
+    "fromPokemonId": "pichu",
+    "toPokemonId": "pikachu",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cleffa-clefairy-levelupfriendship",
+    "fromPokemonId": "cleffa",
+    "toPokemonId": "clefairy",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-igglybuff-jigglypuff-levelupfriendship",
+    "fromPokemonId": "igglybuff",
+    "toPokemonId": "jigglypuff",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-togepi-togetic-levelupfriendship",
+    "fromPokemonId": "togepi",
+    "toPokemonId": "togetic",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-togetic-togekiss-useitem",
+    "fromPokemonId": "togetic",
+    "toPokemonId": "togekiss",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "shiny-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "shiny-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-natu-xatu-levelup",
+    "fromPokemonId": "natu",
+    "toPokemonId": "xatu",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-mareep-flaaffy-levelup",
+    "fromPokemonId": "mareep",
+    "toPokemonId": "flaaffy",
+    "trigger": "level-up",
+    "minimumLevel": 15,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-flaaffy-ampharos-levelup",
+    "fromPokemonId": "flaaffy",
+    "toPokemonId": "ampharos",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-marill-azumarill-levelup",
+    "fromPokemonId": "marill",
+    "toPokemonId": "azumarill",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-hoppip-skiploom-levelup",
+    "fromPokemonId": "hoppip",
+    "toPokemonId": "skiploom",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-skiploom-jumpluff-levelup",
+    "fromPokemonId": "skiploom",
+    "toPokemonId": "jumpluff",
+    "trigger": "level-up",
+    "minimumLevel": 27,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-aipom-ambipom-levelupknowmove",
+    "fromPokemonId": "aipom",
+    "toPokemonId": "ambipom",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "double-hit",
+        "moveName": "Double Hit",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 32
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 32,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sunkern-sunflora-useitem",
+    "fromPokemonId": "sunkern",
+    "toPokemonId": "sunflora",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "sun-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "sun-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-yanma-yanmega-levelupknowmove",
+    "fromPokemonId": "yanma",
+    "toPokemonId": "yanmega",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "ancient-power",
+        "moveName": "Ancient Power",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 33
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 33,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wooper-quagsire-levelup",
+    "fromPokemonId": "wooper",
+    "toPokemonId": "quagsire",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-murkrow-honchkrow-useitem",
+    "fromPokemonId": "murkrow",
+    "toPokemonId": "honchkrow",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "dusk-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "dusk-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-misdreavus-mismagius-useitem",
+    "fromPokemonId": "misdreavus",
+    "toPokemonId": "mismagius",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "dusk-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "dusk-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pineco-forretress-levelup",
+    "fromPokemonId": "pineco",
+    "toPokemonId": "forretress",
+    "trigger": "level-up",
+    "minimumLevel": 31,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gligar-gliscor-leveluphelditemnight",
+    "fromPokemonId": "gligar",
+    "toPokemonId": "gliscor",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "held-item",
+        "itemId": "razor-fang"
+      },
+      {
+        "kind": "time",
+        "period": "night"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "night"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-snubbull-granbull-levelup",
+    "fromPokemonId": "snubbull",
+    "toPokemonId": "granbull",
+    "trigger": "level-up",
+    "minimumLevel": 23,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sneasel-weavile-leveluphelditemnight",
+    "fromPokemonId": "sneasel",
+    "toPokemonId": "weavile",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "held-item",
+        "itemId": "razor-claw"
+      },
+      {
+        "kind": "time",
+        "period": "night"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "night"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-teddiursa-ursaring-levelup",
+    "fromPokemonId": "teddiursa",
+    "toPokemonId": "ursaring",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-slugma-magcargo-levelup",
+    "fromPokemonId": "slugma",
+    "toPokemonId": "magcargo",
+    "trigger": "level-up",
+    "minimumLevel": 38,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-swinub-piloswine-levelup",
+    "fromPokemonId": "swinub",
+    "toPokemonId": "piloswine",
+    "trigger": "level-up",
+    "minimumLevel": 33,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-piloswine-mamoswine-levelupknowmove",
+    "fromPokemonId": "piloswine",
+    "toPokemonId": "mamoswine",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "ancient-power",
+        "moveName": "Ancient Power",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 1
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 1,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-remoraid-octillery-levelup",
+    "fromPokemonId": "remoraid",
+    "toPokemonId": "octillery",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-houndour-houndoom-levelup",
+    "fromPokemonId": "houndour",
+    "toPokemonId": "houndoom",
+    "trigger": "level-up",
+    "minimumLevel": 24,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-phanpy-donphan-levelup",
+    "fromPokemonId": "phanpy",
+    "toPokemonId": "donphan",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-porygon2-porygon-z-tradehelditem",
+    "fromPokemonId": "porygon2",
+    "toPokemonId": "porygon-z",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "dubious-disc",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tyrogue-hitmonchan-levelupdef",
+    "fromPokemonId": "tyrogue",
+    "toPokemonId": "hitmonchan",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "stats",
+        "relation": "attack-lt-defense"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "stat-training"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tyrogue-hitmonlee-levelupatk",
+    "fromPokemonId": "tyrogue",
+    "toPokemonId": "hitmonlee",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "stats",
+        "relation": "attack-gt-defense"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "stat-training"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tyrogue-hitmontop-levelupaeqd",
+    "fromPokemonId": "tyrogue",
+    "toPokemonId": "hitmontop",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "stats",
+        "relation": "attack-eq-defense"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "stat-training"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-smoochum-jynx-levelup",
+    "fromPokemonId": "smoochum",
+    "toPokemonId": "jynx",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-elekid-electabuzz-levelup",
+    "fromPokemonId": "elekid",
+    "toPokemonId": "electabuzz",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-magby-magmar-levelup",
+    "fromPokemonId": "magby",
+    "toPokemonId": "magmar",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-larvitar-pupitar-levelup",
+    "fromPokemonId": "larvitar",
+    "toPokemonId": "pupitar",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pupitar-tyranitar-levelup",
+    "fromPokemonId": "pupitar",
+    "toPokemonId": "tyranitar",
+    "trigger": "level-up",
+    "minimumLevel": 55,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-treecko-grovyle-levelup",
+    "fromPokemonId": "treecko",
+    "toPokemonId": "grovyle",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-grovyle-sceptile-levelup",
+    "fromPokemonId": "grovyle",
+    "toPokemonId": "sceptile",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-torchic-combusken-levelup",
+    "fromPokemonId": "torchic",
+    "toPokemonId": "combusken",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-combusken-blaziken-levelup",
+    "fromPokemonId": "combusken",
+    "toPokemonId": "blaziken",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-mudkip-marshtomp-levelup",
+    "fromPokemonId": "mudkip",
+    "toPokemonId": "marshtomp",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-marshtomp-swampert-levelup",
+    "fromPokemonId": "marshtomp",
+    "toPokemonId": "swampert",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-poochyena-mightyena-levelup",
+    "fromPokemonId": "poochyena",
+    "toPokemonId": "mightyena",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-zigzagoon-linoone-levelup",
+    "fromPokemonId": "zigzagoon",
+    "toPokemonId": "linoone",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wurmple-silcoon-levelupecl5",
+    "fromPokemonId": "wurmple",
+    "toPokemonId": "silcoon",
+    "trigger": "level-up",
+    "minimumLevel": 7,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "personality",
+        "modulus": 10,
+        "minimum": 0,
+        "maximum": 4
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "personality"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wurmple-cascoon-levelupecgeq5",
+    "fromPokemonId": "wurmple",
+    "toPokemonId": "cascoon",
+    "trigger": "level-up",
+    "minimumLevel": 7,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "personality",
+        "modulus": 10,
+        "minimum": 5,
+        "maximum": 9
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "personality"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-silcoon-beautifly-levelup",
+    "fromPokemonId": "silcoon",
+    "toPokemonId": "beautifly",
+    "trigger": "level-up",
+    "minimumLevel": 10,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cascoon-dustox-levelup",
+    "fromPokemonId": "cascoon",
+    "toPokemonId": "dustox",
+    "trigger": "level-up",
+    "minimumLevel": 10,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lotad-lombre-levelup",
+    "fromPokemonId": "lotad",
+    "toPokemonId": "lombre",
+    "trigger": "level-up",
+    "minimumLevel": 14,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lombre-ludicolo-useitem",
+    "fromPokemonId": "lombre",
+    "toPokemonId": "ludicolo",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "water-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "water-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-seedot-nuzleaf-levelup",
+    "fromPokemonId": "seedot",
+    "toPokemonId": "nuzleaf",
+    "trigger": "level-up",
+    "minimumLevel": 14,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nuzleaf-shiftry-useitem",
+    "fromPokemonId": "nuzleaf",
+    "toPokemonId": "shiftry",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "leaf-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "leaf-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-taillow-swellow-levelup",
+    "fromPokemonId": "taillow",
+    "toPokemonId": "swellow",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wingull-pelipper-levelup",
+    "fromPokemonId": "wingull",
+    "toPokemonId": "pelipper",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ralts-kirlia-levelup",
+    "fromPokemonId": "ralts",
+    "toPokemonId": "kirlia",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-kirlia-gardevoir-levelup",
+    "fromPokemonId": "kirlia",
+    "toPokemonId": "gardevoir",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-kirlia-gallade-useitemmale",
+    "fromPokemonId": "kirlia",
+    "toPokemonId": "gallade",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "dawn-stone",
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "male",
+        "to": "male"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "dawn-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-surskit-masquerain-levelup",
+    "fromPokemonId": "surskit",
+    "toPokemonId": "masquerain",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shroomish-breloom-levelup",
+    "fromPokemonId": "shroomish",
+    "toPokemonId": "breloom",
+    "trigger": "level-up",
+    "minimumLevel": 23,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-slakoth-vigoroth-levelup",
+    "fromPokemonId": "slakoth",
+    "toPokemonId": "vigoroth",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-vigoroth-slaking-levelup",
+    "fromPokemonId": "vigoroth",
+    "toPokemonId": "slaking",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nincada-ninjask-levelupninjask",
+    "fromPokemonId": "nincada",
+    "toPokemonId": "ninjask",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nincada-shedinja-levelupshedinja",
+    "fromPokemonId": "nincada",
+    "toPokemonId": "ninjask",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "party-space",
+        "freeSlots": 1
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "party-space"
+        },
+        {
+          "kind": "item",
+          "id": "poke-ball",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [
+      "shedinja"
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-whismur-loudred-levelup",
+    "fromPokemonId": "whismur",
+    "toPokemonId": "loudred",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-loudred-exploud-levelup",
+    "fromPokemonId": "loudred",
+    "toPokemonId": "exploud",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-makuhita-hariyama-levelup",
+    "fromPokemonId": "makuhita",
+    "toPokemonId": "hariyama",
+    "trigger": "level-up",
+    "minimumLevel": 24,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-azurill-marill-levelupfriendship",
+    "fromPokemonId": "azurill",
+    "toPokemonId": "marill",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-nosepass-probopass-levelupelectric",
+    "fromPokemonId": "nosepass",
+    "toPokemonId": "probopass",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "location",
+        "locationId": "new-mauville"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "new-mauville"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-skitty-delcatty-useitem",
+    "fromPokemonId": "skitty",
+    "toPokemonId": "delcatty",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "moon-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "moon-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-aron-lairon-levelup",
+    "fromPokemonId": "aron",
+    "toPokemonId": "lairon",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lairon-aggron-levelup",
+    "fromPokemonId": "lairon",
+    "toPokemonId": "aggron",
+    "trigger": "level-up",
+    "minimumLevel": 42,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-meditite-medicham-levelup",
+    "fromPokemonId": "meditite",
+    "toPokemonId": "medicham",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-electrike-manectric-levelup",
+    "fromPokemonId": "electrike",
+    "toPokemonId": "manectric",
+    "trigger": "level-up",
+    "minimumLevel": 26,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-roselia-roserade-useitem",
+    "fromPokemonId": "roselia",
+    "toPokemonId": "roserade",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "shiny-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "shiny-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gulpin-swalot-levelup",
+    "fromPokemonId": "gulpin",
+    "toPokemonId": "swalot",
+    "trigger": "level-up",
+    "minimumLevel": 26,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-carvanha-sharpedo-levelup",
+    "fromPokemonId": "carvanha",
+    "toPokemonId": "sharpedo",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wailmer-wailord-levelup",
+    "fromPokemonId": "wailmer",
+    "toPokemonId": "wailord",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-numel-camerupt-levelup",
+    "fromPokemonId": "numel",
+    "toPokemonId": "camerupt",
+    "trigger": "level-up",
+    "minimumLevel": 33,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-spoink-grumpig-levelup",
+    "fromPokemonId": "spoink",
+    "toPokemonId": "grumpig",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-trapinch-vibrava-levelup",
+    "fromPokemonId": "trapinch",
+    "toPokemonId": "vibrava",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-vibrava-flygon-levelup",
+    "fromPokemonId": "vibrava",
+    "toPokemonId": "flygon",
+    "trigger": "level-up",
+    "minimumLevel": 45,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cacnea-cacturne-levelup",
+    "fromPokemonId": "cacnea",
+    "toPokemonId": "cacturne",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-swablu-altaria-levelup",
+    "fromPokemonId": "swablu",
+    "toPokemonId": "altaria",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-barboach-whiscash-levelup",
+    "fromPokemonId": "barboach",
+    "toPokemonId": "whiscash",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-corphish-crawdaunt-levelup",
+    "fromPokemonId": "corphish",
+    "toPokemonId": "crawdaunt",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-baltoy-claydol-levelup",
+    "fromPokemonId": "baltoy",
+    "toPokemonId": "claydol",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lileep-cradily-levelup",
+    "fromPokemonId": "lileep",
+    "toPokemonId": "cradily",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-anorith-armaldo-levelup",
+    "fromPokemonId": "anorith",
+    "toPokemonId": "armaldo",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-feebas-milotic-tradehelditem",
+    "fromPokemonId": "feebas",
+    "toPokemonId": "milotic",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "prism-scale",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shuppet-banette-levelup",
+    "fromPokemonId": "shuppet",
+    "toPokemonId": "banette",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-duskull-dusclops-levelup",
+    "fromPokemonId": "duskull",
+    "toPokemonId": "dusclops",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-dusclops-dusknoir-tradehelditem",
+    "fromPokemonId": "dusclops",
+    "toPokemonId": "dusknoir",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "reaper-cloth",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-wynaut-wobbuffet-levelup",
+    "fromPokemonId": "wynaut",
+    "toPokemonId": "wobbuffet",
+    "trigger": "level-up",
+    "minimumLevel": 15,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-snorunt-glalie-levelup",
+    "fromPokemonId": "snorunt",
+    "toPokemonId": "glalie",
+    "trigger": "level-up",
+    "minimumLevel": 42,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-snorunt-froslass-useitemfemale",
+    "fromPokemonId": "snorunt",
+    "toPokemonId": "froslass",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "dawn-stone",
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "female",
+        "to": "female"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "dawn-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-spheal-sealeo-levelup",
+    "fromPokemonId": "spheal",
+    "toPokemonId": "sealeo",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sealeo-walrein-levelup",
+    "fromPokemonId": "sealeo",
+    "toPokemonId": "walrein",
+    "trigger": "level-up",
+    "minimumLevel": 44,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-clamperl-huntail-tradehelditem",
+    "fromPokemonId": "clamperl",
+    "toPokemonId": "huntail",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "deep-sea-tooth",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-clamperl-gorebyss-tradehelditem",
+    "fromPokemonId": "clamperl",
+    "toPokemonId": "gorebyss",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "deep-sea-scale",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bagon-shelgon-levelup",
+    "fromPokemonId": "bagon",
+    "toPokemonId": "shelgon",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shelgon-salamence-levelup",
+    "fromPokemonId": "shelgon",
+    "toPokemonId": "salamence",
+    "trigger": "level-up",
+    "minimumLevel": 50,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-beldum-metang-levelup",
+    "fromPokemonId": "beldum",
+    "toPokemonId": "metang",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-metang-metagross-levelup",
+    "fromPokemonId": "metang",
+    "toPokemonId": "metagross",
+    "trigger": "level-up",
+    "minimumLevel": 45,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-turtwig-grotle-levelup",
+    "fromPokemonId": "turtwig",
+    "toPokemonId": "grotle",
+    "trigger": "level-up",
+    "minimumLevel": 18,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-grotle-torterra-levelup",
+    "fromPokemonId": "grotle",
+    "toPokemonId": "torterra",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-chimchar-monferno-levelup",
+    "fromPokemonId": "chimchar",
+    "toPokemonId": "monferno",
+    "trigger": "level-up",
+    "minimumLevel": 14,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-monferno-infernape-levelup",
+    "fromPokemonId": "monferno",
+    "toPokemonId": "infernape",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-piplup-prinplup-levelup",
+    "fromPokemonId": "piplup",
+    "toPokemonId": "prinplup",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-prinplup-empoleon-levelup",
+    "fromPokemonId": "prinplup",
+    "toPokemonId": "empoleon",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-starly-staravia-levelup",
+    "fromPokemonId": "starly",
+    "toPokemonId": "staravia",
+    "trigger": "level-up",
+    "minimumLevel": 14,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-staravia-staraptor-levelup",
+    "fromPokemonId": "staravia",
+    "toPokemonId": "staraptor",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bidoof-bibarel-levelup",
+    "fromPokemonId": "bidoof",
+    "toPokemonId": "bibarel",
+    "trigger": "level-up",
+    "minimumLevel": 15,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-kricketot-kricketune-levelup",
+    "fromPokemonId": "kricketot",
+    "toPokemonId": "kricketune",
+    "trigger": "level-up",
+    "minimumLevel": 10,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shinx-luxio-levelup",
+    "fromPokemonId": "shinx",
+    "toPokemonId": "luxio",
+    "trigger": "level-up",
+    "minimumLevel": 15,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-luxio-luxray-levelup",
+    "fromPokemonId": "luxio",
+    "toPokemonId": "luxray",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-budew-roselia-levelupfriendshipmorning",
+    "fromPokemonId": "budew",
+    "toPokemonId": "roselia",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      },
+      {
+        "kind": "time",
+        "period": "day"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        },
+        {
+          "kind": "capability",
+          "id": "day"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cranidos-rampardos-levelup",
+    "fromPokemonId": "cranidos",
+    "toPokemonId": "rampardos",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shieldon-bastiodon-levelup",
+    "fromPokemonId": "shieldon",
+    "toPokemonId": "bastiodon",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-burmy-wormadam-levelupfemale",
+    "fromPokemonId": "burmy",
+    "toPokemonId": "wormadam",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "female",
+        "to": "female"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-burmy-mothim-levelupmale",
+    "fromPokemonId": "burmy",
+    "toPokemonId": "mothim",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "male",
+        "to": "male"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-combee-vespiquen-levelupfemale",
+    "fromPokemonId": "combee",
+    "toPokemonId": "vespiquen",
+    "trigger": "level-up",
+    "minimumLevel": 21,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "female",
+        "to": "female"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-buizel-floatzel-levelup",
+    "fromPokemonId": "buizel",
+    "toPokemonId": "floatzel",
+    "trigger": "level-up",
+    "minimumLevel": 26,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cherubi-cherrim-levelup",
+    "fromPokemonId": "cherubi",
+    "toPokemonId": "cherrim",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shellos-gastrodon-levelup",
+    "fromPokemonId": "shellos",
+    "toPokemonId": "gastrodon",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-drifloon-drifblim-levelup",
+    "fromPokemonId": "drifloon",
+    "toPokemonId": "drifblim",
+    "trigger": "level-up",
+    "minimumLevel": 28,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-buneary-lopunny-levelupfriendship",
+    "fromPokemonId": "buneary",
+    "toPokemonId": "lopunny",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-glameow-purugly-levelup",
+    "fromPokemonId": "glameow",
+    "toPokemonId": "purugly",
+    "trigger": "level-up",
+    "minimumLevel": 38,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-chingling-chimecho-levelupfriendshipnight",
+    "fromPokemonId": "chingling",
+    "toPokemonId": "chimecho",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      },
+      {
+        "kind": "time",
+        "period": "night"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        },
+        {
+          "kind": "capability",
+          "id": "night"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-stunky-skuntank-levelup",
+    "fromPokemonId": "stunky",
+    "toPokemonId": "skuntank",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bronzor-bronzong-levelup",
+    "fromPokemonId": "bronzor",
+    "toPokemonId": "bronzong",
+    "trigger": "level-up",
+    "minimumLevel": 33,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bonsly-sudowoodo-levelupknowmove",
+    "fromPokemonId": "bonsly",
+    "toPokemonId": "sudowoodo",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "mimic",
+        "moveName": "Mimic",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 15
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 15,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-mime-jr-mr-mime-levelupknowmove",
+    "fromPokemonId": "mime-jr",
+    "toPokemonId": "mr-mime",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "known-move",
+        "moveId": "mimic",
+        "moveName": "Mimic",
+        "learning": [
+          {
+            "kind": "level-up",
+            "level": 15
+          },
+          {
+            "kind": "teach",
+            "minimumLevel": 15,
+            "requirements": {
+              "kind": "all",
+              "requirements": [
+                {
+                  "kind": "capability",
+                  "id": "move-reminder"
+                },
+                {
+                  "kind": "item",
+                  "id": "heart-scale",
+                  "quantity": 1,
+                  "consumed": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-happiny-chansey-leveluphelditemday",
+    "fromPokemonId": "happiny",
+    "toPokemonId": "chansey",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "held-item",
+        "itemId": "oval-stone"
+      },
+      {
+        "kind": "time",
+        "period": "day"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "day"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gible-gabite-levelup",
+    "fromPokemonId": "gible",
+    "toPokemonId": "gabite",
+    "trigger": "level-up",
+    "minimumLevel": 24,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gabite-garchomp-levelup",
+    "fromPokemonId": "gabite",
+    "toPokemonId": "garchomp",
+    "trigger": "level-up",
+    "minimumLevel": 48,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-munchlax-snorlax-levelupfriendship",
+    "fromPokemonId": "munchlax",
+    "toPokemonId": "snorlax",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-riolu-lucario-levelupfriendshipmorning",
+    "fromPokemonId": "riolu",
+    "toPokemonId": "lucario",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      },
+      {
+        "kind": "time",
+        "period": "day"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        },
+        {
+          "kind": "capability",
+          "id": "day"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-hippopotas-hippowdon-levelup",
+    "fromPokemonId": "hippopotas",
+    "toPokemonId": "hippowdon",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-skorupi-drapion-levelup",
+    "fromPokemonId": "skorupi",
+    "toPokemonId": "drapion",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-croagunk-toxicroak-levelup",
+    "fromPokemonId": "croagunk",
+    "toPokemonId": "toxicroak",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-finneon-lumineon-levelup",
+    "fromPokemonId": "finneon",
+    "toPokemonId": "lumineon",
+    "trigger": "level-up",
+    "minimumLevel": 31,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-mantyke-mantine-levelupwithteammate",
+    "fromPokemonId": "mantyke",
+    "toPokemonId": "mantine",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "party-pokemon",
+        "pokemonId": "remoraid"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-snover-abomasnow-levelup",
+    "fromPokemonId": "snover",
+    "toPokemonId": "abomasnow",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-snivy-servine-levelup",
+    "fromPokemonId": "snivy",
+    "toPokemonId": "servine",
+    "trigger": "level-up",
+    "minimumLevel": 17,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-servine-serperior-levelup",
+    "fromPokemonId": "servine",
+    "toPokemonId": "serperior",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tepig-pignite-levelup",
+    "fromPokemonId": "tepig",
+    "toPokemonId": "pignite",
+    "trigger": "level-up",
+    "minimumLevel": 17,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pignite-emboar-levelup",
+    "fromPokemonId": "pignite",
+    "toPokemonId": "emboar",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-oshawott-dewott-levelup",
+    "fromPokemonId": "oshawott",
+    "toPokemonId": "dewott",
+    "trigger": "level-up",
+    "minimumLevel": 17,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-dewott-samurott-levelup",
+    "fromPokemonId": "dewott",
+    "toPokemonId": "samurott",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-patrat-watchog-levelup",
+    "fromPokemonId": "patrat",
+    "toPokemonId": "watchog",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lillipup-herdier-levelup",
+    "fromPokemonId": "lillipup",
+    "toPokemonId": "herdier",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-herdier-stoutland-levelup",
+    "fromPokemonId": "herdier",
+    "toPokemonId": "stoutland",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-purrloin-liepard-levelup",
+    "fromPokemonId": "purrloin",
+    "toPokemonId": "liepard",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pansage-simisage-useitem",
+    "fromPokemonId": "pansage",
+    "toPokemonId": "simisage",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "leaf-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "leaf-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pansear-simisear-useitem",
+    "fromPokemonId": "pansear",
+    "toPokemonId": "simisear",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "fire-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "fire-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-panpour-simipour-useitem",
+    "fromPokemonId": "panpour",
+    "toPokemonId": "simipour",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "water-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "water-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-munna-musharna-useitem",
+    "fromPokemonId": "munna",
+    "toPokemonId": "musharna",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "moon-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "moon-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pidove-tranquill-levelup",
+    "fromPokemonId": "pidove",
+    "toPokemonId": "tranquill",
+    "trigger": "level-up",
+    "minimumLevel": 21,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tranquill-unfezant-levelup",
+    "fromPokemonId": "tranquill",
+    "toPokemonId": "unfezant",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-blitzle-zebstrika-levelup",
+    "fromPokemonId": "blitzle",
+    "toPokemonId": "zebstrika",
+    "trigger": "level-up",
+    "minimumLevel": 27,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-roggenrola-boldore-levelup",
+    "fromPokemonId": "roggenrola",
+    "toPokemonId": "boldore",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-boldore-gigalith-trade",
+    "fromPokemonId": "boldore",
+    "toPokemonId": "gigalith",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-woobat-swoobat-levelupfriendship",
+    "fromPokemonId": "woobat",
+    "toPokemonId": "swoobat",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-drilbur-excadrill-levelup",
+    "fromPokemonId": "drilbur",
+    "toPokemonId": "excadrill",
+    "trigger": "level-up",
+    "minimumLevel": 31,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-timburr-gurdurr-levelup",
+    "fromPokemonId": "timburr",
+    "toPokemonId": "gurdurr",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gurdurr-conkeldurr-trade",
+    "fromPokemonId": "gurdurr",
+    "toPokemonId": "conkeldurr",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tympole-palpitoad-levelup",
+    "fromPokemonId": "tympole",
+    "toPokemonId": "palpitoad",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-palpitoad-seismitoad-levelup",
+    "fromPokemonId": "palpitoad",
+    "toPokemonId": "seismitoad",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sewaddle-swadloon-levelup",
+    "fromPokemonId": "sewaddle",
+    "toPokemonId": "swadloon",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-swadloon-leavanny-levelupfriendship",
+    "fromPokemonId": "swadloon",
+    "toPokemonId": "leavanny",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "friendship",
+        "minimum": 220
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "friendship"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-venipede-whirlipede-levelup",
+    "fromPokemonId": "venipede",
+    "toPokemonId": "whirlipede",
+    "trigger": "level-up",
+    "minimumLevel": 22,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-whirlipede-scolipede-levelup",
+    "fromPokemonId": "whirlipede",
+    "toPokemonId": "scolipede",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cottonee-whimsicott-useitem",
+    "fromPokemonId": "cottonee",
+    "toPokemonId": "whimsicott",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "sun-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "sun-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-petilil-lilligant-useitem",
+    "fromPokemonId": "petilil",
+    "toPokemonId": "lilligant",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "sun-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "sun-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sandile-krokorok-levelup",
+    "fromPokemonId": "sandile",
+    "toPokemonId": "krokorok",
+    "trigger": "level-up",
+    "minimumLevel": 29,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-krokorok-krookodile-levelup",
+    "fromPokemonId": "krokorok",
+    "toPokemonId": "krookodile",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-darumaka-darmanitan-levelup",
+    "fromPokemonId": "darumaka",
+    "toPokemonId": "darmanitan",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-dwebble-crustle-levelup",
+    "fromPokemonId": "dwebble",
+    "toPokemonId": "crustle",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-scraggy-scrafty-levelup",
+    "fromPokemonId": "scraggy",
+    "toPokemonId": "scrafty",
+    "trigger": "level-up",
+    "minimumLevel": 39,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-yamask-cofagrigus-levelup",
+    "fromPokemonId": "yamask",
+    "toPokemonId": "cofagrigus",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tirtouga-carracosta-levelup",
+    "fromPokemonId": "tirtouga",
+    "toPokemonId": "carracosta",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-archen-archeops-levelup",
+    "fromPokemonId": "archen",
+    "toPokemonId": "archeops",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-trubbish-garbodor-levelup",
+    "fromPokemonId": "trubbish",
+    "toPokemonId": "garbodor",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-zorua-zoroark-levelup",
+    "fromPokemonId": "zorua",
+    "toPokemonId": "zoroark",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-minccino-cinccino-useitem",
+    "fromPokemonId": "minccino",
+    "toPokemonId": "cinccino",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "shiny-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "shiny-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gothita-gothorita-levelup",
+    "fromPokemonId": "gothita",
+    "toPokemonId": "gothorita",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-gothorita-gothitelle-levelup",
+    "fromPokemonId": "gothorita",
+    "toPokemonId": "gothitelle",
+    "trigger": "level-up",
+    "minimumLevel": 41,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-solosis-duosion-levelup",
+    "fromPokemonId": "solosis",
+    "toPokemonId": "duosion",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-duosion-reuniclus-levelup",
+    "fromPokemonId": "duosion",
+    "toPokemonId": "reuniclus",
+    "trigger": "level-up",
+    "minimumLevel": 41,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ducklett-swanna-levelup",
+    "fromPokemonId": "ducklett",
+    "toPokemonId": "swanna",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-vanillite-vanillish-levelup",
+    "fromPokemonId": "vanillite",
+    "toPokemonId": "vanillish",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-vanillish-vanilluxe-levelup",
+    "fromPokemonId": "vanillish",
+    "toPokemonId": "vanilluxe",
+    "trigger": "level-up",
+    "minimumLevel": 47,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-deerling-sawsbuck-levelup",
+    "fromPokemonId": "deerling",
+    "toPokemonId": "sawsbuck",
+    "trigger": "level-up",
+    "minimumLevel": 34,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-karrablast-escavalier-tradeshelmetkarrablast",
+    "fromPokemonId": "karrablast",
+    "toPokemonId": "escavalier",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-foongus-amoonguss-levelup",
+    "fromPokemonId": "foongus",
+    "toPokemonId": "amoonguss",
+    "trigger": "level-up",
+    "minimumLevel": 39,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-frillish-jellicent-levelup",
+    "fromPokemonId": "frillish",
+    "toPokemonId": "jellicent",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-joltik-galvantula-levelup",
+    "fromPokemonId": "joltik",
+    "toPokemonId": "galvantula",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-ferroseed-ferrothorn-levelup",
+    "fromPokemonId": "ferroseed",
+    "toPokemonId": "ferrothorn",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-klink-klang-levelup",
+    "fromPokemonId": "klink",
+    "toPokemonId": "klang",
+    "trigger": "level-up",
+    "minimumLevel": 38,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-klang-klinklang-levelup",
+    "fromPokemonId": "klang",
+    "toPokemonId": "klinklang",
+    "trigger": "level-up",
+    "minimumLevel": 49,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tynamo-eelektrik-levelup",
+    "fromPokemonId": "tynamo",
+    "toPokemonId": "eelektrik",
+    "trigger": "level-up",
+    "minimumLevel": 39,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-eelektrik-eelektross-useitem",
+    "fromPokemonId": "eelektrik",
+    "toPokemonId": "eelektross",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "thunder-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "thunder-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-elgyem-beheeyem-levelup",
+    "fromPokemonId": "elgyem",
+    "toPokemonId": "beheeyem",
+    "trigger": "level-up",
+    "minimumLevel": 42,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-litwick-lampent-levelup",
+    "fromPokemonId": "litwick",
+    "toPokemonId": "lampent",
+    "trigger": "level-up",
+    "minimumLevel": 41,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-lampent-chandelure-useitem",
+    "fromPokemonId": "lampent",
+    "toPokemonId": "chandelure",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "dusk-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "dusk-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-axew-fraxure-levelup",
+    "fromPokemonId": "axew",
+    "toPokemonId": "fraxure",
+    "trigger": "level-up",
+    "minimumLevel": 38,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-fraxure-haxorus-levelup",
+    "fromPokemonId": "fraxure",
+    "toPokemonId": "haxorus",
+    "trigger": "level-up",
+    "minimumLevel": 48,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-cubchoo-beartic-levelup",
+    "fromPokemonId": "cubchoo",
+    "toPokemonId": "beartic",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-shelmet-accelgor-tradeshelmetkarrablast",
+    "fromPokemonId": "shelmet",
+    "toPokemonId": "accelgor",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-mienfoo-mienshao-levelup",
+    "fromPokemonId": "mienfoo",
+    "toPokemonId": "mienshao",
+    "trigger": "level-up",
+    "minimumLevel": 50,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-golett-golurk-levelup",
+    "fromPokemonId": "golett",
+    "toPokemonId": "golurk",
+    "trigger": "level-up",
+    "minimumLevel": 43,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pawniard-bisharp-levelup",
+    "fromPokemonId": "pawniard",
+    "toPokemonId": "bisharp",
+    "trigger": "level-up",
+    "minimumLevel": 52,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-rufflet-braviary-levelup",
+    "fromPokemonId": "rufflet",
+    "toPokemonId": "braviary",
+    "trigger": "level-up",
+    "minimumLevel": 54,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-vullaby-mandibuzz-levelup",
+    "fromPokemonId": "vullaby",
+    "toPokemonId": "mandibuzz",
+    "trigger": "level-up",
+    "minimumLevel": 54,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-deino-zweilous-levelup",
+    "fromPokemonId": "deino",
+    "toPokemonId": "zweilous",
+    "trigger": "level-up",
+    "minimumLevel": 50,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-zweilous-hydreigon-levelup",
+    "fromPokemonId": "zweilous",
+    "toPokemonId": "hydreigon",
+    "trigger": "level-up",
+    "minimumLevel": 64,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-larvesta-volcarona-levelup",
+    "fromPokemonId": "larvesta",
+    "toPokemonId": "volcarona",
+    "trigger": "level-up",
+    "minimumLevel": 59,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-chespin-quilladin-levelup",
+    "fromPokemonId": "chespin",
+    "toPokemonId": "quilladin",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-quilladin-chesnaught-levelup",
+    "fromPokemonId": "quilladin",
+    "toPokemonId": "chesnaught",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-fennekin-braixen-levelup",
+    "fromPokemonId": "fennekin",
+    "toPokemonId": "braixen",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-braixen-delphox-levelup",
+    "fromPokemonId": "braixen",
+    "toPokemonId": "delphox",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-froakie-frogadier-levelup",
+    "fromPokemonId": "froakie",
+    "toPokemonId": "frogadier",
+    "trigger": "level-up",
+    "minimumLevel": 16,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-frogadier-greninja-levelup",
+    "fromPokemonId": "frogadier",
+    "toPokemonId": "greninja",
+    "trigger": "level-up",
+    "minimumLevel": 36,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bunnelby-diggersby-levelup",
+    "fromPokemonId": "bunnelby",
+    "toPokemonId": "diggersby",
+    "trigger": "level-up",
+    "minimumLevel": 20,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-fletchling-fletchinder-levelup",
+    "fromPokemonId": "fletchling",
+    "toPokemonId": "fletchinder",
+    "trigger": "level-up",
+    "minimumLevel": 17,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-fletchinder-talonflame-levelup",
+    "fromPokemonId": "fletchinder",
+    "toPokemonId": "talonflame",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-scatterbug-spewpa-levelup",
+    "fromPokemonId": "scatterbug",
+    "toPokemonId": "spewpa",
+    "trigger": "level-up",
+    "minimumLevel": 9,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-spewpa-vivillon-levelup",
+    "fromPokemonId": "spewpa",
+    "toPokemonId": "vivillon",
+    "trigger": "level-up",
+    "minimumLevel": 12,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-litleo-pyroar-levelup",
+    "fromPokemonId": "litleo",
+    "toPokemonId": "pyroar",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-flabebe-floette-levelup",
+    "fromPokemonId": "flabebe",
+    "toPokemonId": "floette",
+    "trigger": "level-up",
+    "minimumLevel": 19,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-floette-florges-useitem",
+    "fromPokemonId": "floette",
+    "toPokemonId": "florges",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "shiny-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "shiny-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-skiddo-gogoat-levelup",
+    "fromPokemonId": "skiddo",
+    "toPokemonId": "gogoat",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pancham-pangoro-levelupmovetype",
+    "fromPokemonId": "pancham",
+    "toPokemonId": "pangoro",
+    "trigger": "level-up",
+    "minimumLevel": 32,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "party-type",
+        "typeId": "dark"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-espurr-meowstic-levelupmale",
+    "fromPokemonId": "espurr",
+    "toPokemonId": "meowstic",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "male",
+        "to": "male"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-espurr-meowstic-levelupformfemale1",
+    "fromPokemonId": "espurr",
+    "toPokemonId": "meowstic",
+    "trigger": "level-up",
+    "minimumLevel": 25,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": [
+      {
+        "from": "female",
+        "to": "female"
+      }
+    ],
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-honedge-doublade-levelup",
+    "fromPokemonId": "honedge",
+    "toPokemonId": "doublade",
+    "trigger": "level-up",
+    "minimumLevel": 35,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-doublade-aegislash-useitem",
+    "fromPokemonId": "doublade",
+    "toPokemonId": "aegislash",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "dusk-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "dusk-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-spritzee-aromatisse-tradehelditem",
+    "fromPokemonId": "spritzee",
+    "toPokemonId": "aromatisse",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "sachet",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-swirlix-slurpuff-tradehelditem",
+    "fromPokemonId": "swirlix",
+    "toPokemonId": "slurpuff",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": "whipped-dream",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-inkay-malamar-levelupinverted",
+    "fromPokemonId": "inkay",
+    "toPokemonId": "malamar",
+    "trigger": "level-up",
+    "minimumLevel": 30,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "device-orientation",
+        "orientation": "upside-down"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "upside-down"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-binacle-barbaracle-levelup",
+    "fromPokemonId": "binacle",
+    "toPokemonId": "barbaracle",
+    "trigger": "level-up",
+    "minimumLevel": 39,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-skrelp-dragalge-levelup",
+    "fromPokemonId": "skrelp",
+    "toPokemonId": "dragalge",
+    "trigger": "level-up",
+    "minimumLevel": 48,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-clauncher-clawitzer-levelup",
+    "fromPokemonId": "clauncher",
+    "toPokemonId": "clawitzer",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-helioptile-heliolisk-useitem",
+    "fromPokemonId": "helioptile",
+    "toPokemonId": "heliolisk",
+    "trigger": "use-item",
+    "minimumLevel": null,
+    "itemId": "sun-stone",
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "sun-stone",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-tyrunt-tyrantrum-levelupmorning",
+    "fromPokemonId": "tyrunt",
+    "toPokemonId": "tyrantrum",
+    "trigger": "level-up",
+    "minimumLevel": 39,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "time",
+        "period": "day"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "day"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-amaura-aurorus-levelupnight",
+    "fromPokemonId": "amaura",
+    "toPokemonId": "aurorus",
+    "trigger": "level-up",
+    "minimumLevel": 39,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "time",
+        "period": "night"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "night"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-goomy-sliggoo-levelup",
+    "fromPokemonId": "goomy",
+    "toPokemonId": "sliggoo",
+    "trigger": "level-up",
+    "minimumLevel": 40,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-sliggoo-goodra-levelup",
+    "fromPokemonId": "sliggoo",
+    "toPokemonId": "goodra",
+    "trigger": "level-up",
+    "minimumLevel": 50,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "weather",
+        "weather": "rain"
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "rain"
+        }
+      ]
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-phantump-trevenant-trade",
+    "fromPokemonId": "phantump",
+    "toPokemonId": "trevenant",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-pumpkaboo-gourgeist-trade",
+    "fromPokemonId": "pumpkaboo",
+    "toPokemonId": "gourgeist",
+    "trigger": "player-trade",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-bergmite-avalugg-levelup",
+    "fromPokemonId": "bergmite",
+    "toPokemonId": "avalugg",
+    "trigger": "level-up",
+    "minimumLevel": 37,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-noibat-noivern-levelup",
+    "fromPokemonId": "noibat",
+    "toPokemonId": "noivern",
+    "trigger": "level-up",
+    "minimumLevel": 48,
+    "itemId": null,
+    "conditions": [],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oras-evolve-feebas-milotic-levelupbeauty",
+    "fromPokemonId": "feebas",
+    "toPokemonId": "milotic",
+    "trigger": "level-up",
+    "minimumLevel": null,
+    "itemId": null,
+    "conditions": [
+      {
+        "kind": "beauty",
+        "minimum": 170
+      }
+    ],
+    "genderTransitions": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "beauty"
+    },
+    "coProductIds": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-evolution"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

@@ -198,12 +198,14 @@ export type SourceDetails =
       method: "grass" | "surf" | "old-rod" | "good-rod" | "super-rod" | "rock-smash" | "headbutt" | "bug-contest" | "poke-radar"
         | "dark-grass" | "grass-spots" | "cave-spots" | "bridge-spots" | "surf-spots" | "super-rod-spots"
         | "horde" | "rough-terrain" | "yellow-flowers" | "red-flowers" | "purple-flowers"
-        | "ceiling-ambush" | "ground-ambush" | "rustling-bush-ambush" | "sky-ambush" | "trash-can-ambush";
+        | "ceiling-ambush" | "ground-ambush" | "rustling-bush-ambush" | "sky-ambush" | "trash-can-ambush"
+        | "long-grass" | "dive";
       ratePercent: number;
     }
   | { kind: "starter" | "gift" | "static" | "roaming" | "egg" }
   | { kind: "honey-tree"; rareTreeOnly: boolean }
   | { kind: "berry-tree"; color: "red" | "blue" | "purple" | "green" | "yellow" | "pink" }
+  | { kind: "dexnav"; habitat: "grass" | "long-grass" | "cave" | "surf" }
   | { kind: "hidden-grotto"; mode: "regeneration"; ratePercent: number }
   | { kind: "hidden-grotto"; mode: "first-visit" }
   | { kind: "hidden-grotto"; mode: "funfest"; mission: "noisy" | "quiet" }
@@ -218,7 +220,7 @@ export type EncounterCondition =
   | { kind: "weekday"; day: "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday" | "sunday" }
   | { kind: "swarm" }
   | { kind: "funfest"; mission: "mushrooms" }
-  | { kind: "daily"; system: "great-marsh" | "trophy-garden" }
+  | { kind: "daily"; system: "great-marsh" | "trophy-garden" | "mirage-spot" }
   | { kind: "radio"; sound: "hoenn" | "sinnoh" }
   | { kind: "headbutt-tree"; category: "common" | "rare" | "secret" }
   | { kind: "safari-blocks"; blocks: { type: "plains" | "forest" | "peak" | "water"; points: number }[] }
