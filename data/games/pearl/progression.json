@@ -97,7 +97,7 @@
       "oreburgh-gate"
     ],
     "locationId": "oreburgh",
-    "nextBossId": "gardenia",
+    "nextBossId": "roark",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-4"
@@ -223,7 +223,7 @@
       "eterna-city"
     ],
     "locationId": "eterna",
-    "nextBossId": "maylene",
+    "nextBossId": "gardenia",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-6"
@@ -331,7 +331,7 @@
       "veilstone"
     ],
     "locationId": "veilstone",
-    "nextBossId": "wake",
+    "nextBossId": "maylene",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-10"
@@ -403,7 +403,7 @@
       "pastoria"
     ],
     "locationId": "pastoria",
-    "nextBossId": "fantina",
+    "nextBossId": "wake",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-12"
@@ -493,7 +493,7 @@
       "celestic-surf"
     ],
     "locationId": "hearthome",
-    "nextBossId": "byron",
+    "nextBossId": "fantina",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-13"
@@ -547,7 +547,7 @@
       "canalave"
     ],
     "locationId": "canalave",
-    "nextBossId": "candice",
+    "nextBossId": "byron",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-14"
@@ -637,7 +637,7 @@
       "snowpoint"
     ],
     "locationId": "snowpoint",
-    "nextBossId": "volkner",
+    "nextBossId": "candice",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-16"
@@ -799,7 +799,7 @@
       "sunyshore"
     ],
     "locationId": "sunyshore",
-    "nextBossId": "aaron",
+    "nextBossId": "volkner",
     "review": {
       "referenceIds": [
         "diamond-pearl-walkthrough-19"

@@ -4,10 +4,10 @@ import { siteDescription, siteTitle } from '../src/content/site-copy.ts';
 export function publicSiteUrl(value: string | undefined):
   { ok: true; url: string | null } | { ok: false; error: string } {
   if (!value?.trim()) return { ok: true, url: null };
-  const error = 'SITE_URL must be the public HTTPS origin, without a path, query, fragment, or credentials.';
+  const error = 'SITE_URL must be the public HTTPS site URL. A path must end with "/". Do not add a query, fragment, or credentials.';
   if (!URL.canParse(value.trim())) return { ok: false, error };
   const url = new URL(value.trim());
-  if (url.protocol !== 'https:' || url.href !== `${url.origin}/`) {
+  if (url.protocol !== 'https:' || !url.pathname.endsWith('/') || url.href !== `${url.origin}${url.pathname}`) {
     return { ok: false, error };
   }
   return { ok: true, url: url.href };
@@ -32,7 +32,7 @@ export function searchTags(siteUrl: string | null): HtmlTagDescriptor[] {
     og('og:title', siteTitle), og('og:description', siteDescription),
     og('og:site_name', 'Route Six'), og('og:type', 'website'), og('og:locale', 'en_US'),
     meta('twitter:card', 'summary'), meta('twitter:title', siteTitle), meta('twitter:description', siteDescription),
-    { tag: 'link', attrs: { rel: 'help', type: 'text/plain', href: '/llms.txt', title: 'Route Six features and game support' } },
+    { tag: 'link', attrs: { rel: 'help', type: 'text/plain', href: siteUrl ? `${new URL(siteUrl).pathname}llms.txt` : '/llms.txt', title: 'Route Six features and game support' } },
   ];
   if (siteUrl) {
     tags.push(

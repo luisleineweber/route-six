@@ -115,7 +115,7 @@
       "pewter-city"
     ],
     "locationId": "pewter-gym",
-    "nextBossId": "misty",
+    "nextBossId": "brock",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -313,7 +313,7 @@
       "cerulean-city"
     ],
     "locationId": "cerulean-gym",
-    "nextBossId": "lt-surge",
+    "nextBossId": "misty",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -404,7 +404,7 @@
       "ss-anne-cleared"
     ],
     "locationId": "vermilion-gym",
-    "nextBossId": "erika",
+    "nextBossId": "lt-surge",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -512,7 +512,7 @@
       "celadon-city"
     ],
     "locationId": "celadon-gym",
-    "nextBossId": "koga",
+    "nextBossId": "erika",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -729,7 +729,7 @@
       "fuchsia-city"
     ],
     "locationId": "fuchsia-gym",
-    "nextBossId": "blaine",
+    "nextBossId": "koga",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -801,7 +801,7 @@
       "saffron-liberated"
     ],
     "locationId": "saffron-gym",
-    "nextBossId": "koga",
+    "nextBossId": "sabrina",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -837,7 +837,7 @@
       "cinnabar-island"
     ],
     "locationId": "cinnabar-gym",
-    "nextBossId": "giovanni",
+    "nextBossId": "blaine",
     "review": {
       "referenceIds": [
         "yellow-progression"
@@ -874,7 +874,7 @@
       "viridian-gym-open"
     ],
     "locationId": "viridian-gym",
-    "nextBossId": null,
+    "nextBossId": "giovanni",
     "review": {
       "referenceIds": [
         "yellow-progression"

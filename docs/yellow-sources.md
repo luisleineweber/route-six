@@ -94,7 +94,7 @@ I checked all 31 map records in `data/wild/super_rod.asm`. Yellow selects among 
 
 The resulting collection has 800 wild sources: 542 grass, 42 Surf, 31 Old Rod, 62 Good Rod, and 123 Super Rod records. It includes 85 species. It has no wild Pikachu source. Route 1 and Cerulean Cave checks cover early and post-game tables. The source schema tests check every record.
 
-The story graph now allows the player to reach Bill's house, Vermilion, and the Old Rod before Misty. Rocket Hideout does not require Erika's badge. Route 12 is open from Lavender Town. Route 12's Super Rod house is on the north side and does not require the Poké Flute. Route 16 and Route 17 still require the Flute to pass Snorlax. Rock Tunnel does not require Flash; Flash's use still has the Boulder Badge requirement. Surf needs the Soul Badge, and Strength needs the Rainbow Badge.
+The story graph now allows the player to reach Bill's house, Vermilion, and the Old Rod before Misty. Rocket Hideout does not require Erika's badge. Route 12 is open from Lavender Town. Route 12's Super Rod house is south of the Snorlax (`data/maps/objects/Route12.asm`: Snorlax at y 62, house warp at y 77), so it requires the Poké Flute. Route 16 and Route 17 still require the Flute to pass Snorlax. Rock Tunnel does not require Flash; Flash's use still has the Boulder Badge requirement. Surf needs the Soul Badge, and Strength needs the Rainbow Badge.
 
 ## Yellow acquisition and evolution source details
 

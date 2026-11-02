@@ -1,0 +1,117 @@
+npm notice run pokemon-playthrough-planner@1.0.0 prebuild
+npm notice run npm run validators:compile
+npm notice run pokemon-playthrough-planner@1.0.0 validators:compile
+npm notice run tsx scripts/compile-validators.ts
+npm notice run pokemon-playthrough-planner@1.0.0 build
+npm notice run npm run data:check && tsc -b && vite build && tsx scripts/copy-docs.ts
+npm notice run pokemon-playthrough-planner@1.0.0 data:check
+npm notice run tsx scripts/check-data.ts
+Pokémon Emerald: 386 profiles, 148 milestones, 915 sources, 184 evolutions, 181 breeding rules. Data and local image checks passed.
+Pokémon Ruby: 386 profiles, 131 milestones, 945 sources, 184 evolutions, 181 breeding rules. Data and local image checks passed.
+Pokémon Red: 151 profiles, 54 milestones, 483 sources, 72 evolutions, 0 breeding rules. Data and local image checks passed.
+Pokémon Blue: 151 profiles, 51 milestones, 654 sources, 72 evolutions, 0 breeding rules. Data and local image checks passed.
+Pokémon Yellow: 151 profiles, 57 milestones, 838 sources, 72 evolutions, 0 breeding rules. Data and local image checks passed.
+Pokémon Gold: 251 profiles, 71 milestones, 3387 sources, 122 evolutions, 118 breeding rules. Data and local image checks passed.
+Pokémon Silver: 251 profiles, 38 milestones, 2608 sources, 120 evolutions, 118 breeding rules. Data and local image checks passed.
+Pokémon Crystal: 251 profiles, 78 milestones, 2720 sources, 122 evolutions, 118 breeding rules. Data and local image checks passed.
+Pokémon Sapphire: 386 profiles, 132 milestones, 1839 sources, 184 evolutions, 181 breeding rules. Data and local image checks passed.
+Pokémon FireRed: 386 profiles, 35 milestones, 2099 sources, 181 evolutions, 181 breeding rules. Data and local image checks passed.
+Pokémon LeafGreen: 386 profiles, 62 milestones, 1949 sources, 181 evolutions, 181 breeding rules. Data and local image checks passed.
+Pokémon Platinum: 493 profiles, 84 milestones, 2213 sources, 251 evolutions, 234 breeding rules. Data and local image checks passed.
+Pokémon Diamond: 493 profiles, 84 milestones, 1903 sources, 251 evolutions, 234 breeding rules. Data and local image checks passed.
+Pokémon Pearl: 493 profiles, 84 milestones, 1901 sources, 251 evolutions, 234 breeding rules. Data and local image checks passed.
+Pokémon Black: 649 profiles, 56 milestones, 1220 sources, 323 evolutions, 289 breeding rules. Data and local image checks passed.
+Pokémon White: 649 profiles, 56 milestones, 1280 sources, 323 evolutions, 289 breeding rules. Data and local image checks passed.
+Pokémon Black 2: 649 profiles, 64 milestones, 1834 sources, 324 evolutions, 290 breeding rules. Data and local image checks passed.
+Pokémon White 2: 649 profiles, 64 milestones, 1835 sources, 324 evolutions, 290 breeding rules. Data and local image checks passed.
+Pokémon X: 721 profiles, 76 milestones, 1092 sources, 364 evolutions, 324 breeding rules. Data and local image checks passed.
+Pokémon Y: 721 profiles, 76 milestones, 1091 sources, 364 evolutions, 324 breeding rules. Data and local image checks passed.
+Pokémon HeartGold: 493 profiles, 0 milestones, 0 sources, 0 evolutions, 0 breeding rules. Data and local image checks passed.
+Pokémon SoulSilver: 493 profiles, 0 milestones, 0 sources, 0 evolutions, 0 breeding rules. Data and local image checks passed.
+Pokémon Omega Ruby: 721 profiles, 0 milestones, 0 sources, 0 evolutions, 0 breeding rules. Data and local image checks passed.
+Pokémon Alpha Sapphire: 721 profiles, 0 milestones, 0 sources, 0 evolutions, 0 breeding rules. Data and local image checks passed.
+[36mvite v8.3.3 [32mbuilding client environment for production...[36m[39m
+[33m[plugin route-six-search] SITE_URL is not set. Canonical URL, site structured data, and sitemap are omitted. Set it before publication.[39m
+transforming...
+✓ 2227 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/robots.txt                                  0.02 kB │ gzip:  0.04 kB
+dist/index.html                                  1.62 kB │ gzip:  0.58 kB
+dist/assets/locations-DddSpcFW.js               42.00 kB
+dist/assets/heartgold-DpA18W54.js              123.90 kB
+dist/assets/soulsilver-AgfD2fAe.js             129.12 kB
+dist/assets/omega-ruby-DF4trs-I.js             173.87 kB
+dist/assets/alpha-sapphire-D_MBqgGg.js         195.00 kB
+dist/assets/form-changes-DcxQ6Ud1.js           244.63 kB
+dist/assets/red-Uu88pt7A.js                    295.47 kB
+dist/assets/blue-NcnvVxyC.js                   350.11 kB
+dist/assets/yellow-hQb--Vg6.js                 440.06 kB
+dist/assets/availability.worker-Dx73onoE.js    580.36 kB
+dist/assets/emerald-CJq-qjJJ.js                660.32 kB
+dist/assets/ruby-Cx6XDjvp.js                   695.99 kB
+dist/assets/x-Do-Aqx2f.js                      807.09 kB
+dist/assets/y-D1pSl4Hp.js                      807.47 kB
+dist/assets/white-CVUQB-gK.js                1,024.03 kB
+dist/assets/black-Cz-YqJ4u.js                1,029.83 kB
+dist/assets/sapphire-BoOi3670.js             1,191.77 kB
+dist/assets/leafgreen-CyePsTIV.js            1,242.07 kB
+dist/assets/pearl-DisPQpno.js                1,251.08 kB
+dist/assets/crystal-CNDW8yb4.js              1,272.47 kB
+dist/assets/diamond-CMRzHObV.js              1,274.02 kB
+dist/assets/black-2-DjpkoWIF.js              1,288.68 kB
+dist/assets/white-2-C49e1MGx.js              1,290.48 kB
+dist/assets/silver-BSTwI2Ra.js               1,291.66 kB
+dist/assets/firered-C3t9eNYq.js              1,304.78 kB
+dist/assets/platinum-U3De53zH.js             1,461.98 kB
+dist/assets/gold-DICkF2FZ.js                 1,743.26 kB
+dist/assets/index-O-zzogKN.css                  53.93 kB │ gzip: 10.32 kB
+dist/assets/game-registry-CIh9Ffwj.js            2.24 kB │ gzip:  0.74 kB
+dist/assets/render-png-CTuoZKon.js              16.69 kB │ gzip:  6.29 kB
+dist/assets/locations-BDT-mJB6.js               41.99 kB │ gzip:  2.94 kB
+dist/assets/heartgold-BFgeh6oN.js              123.89 kB │ gzip:  8.43 kB
+dist/assets/soulsilver-C4Vj7xUy.js             129.11 kB │ gzip:  8.47 kB
+dist/assets/export-model-D_XQeavh.js           165.87 kB │ gzip: 18.00 kB
+dist/assets/App-BDc_JC07.js                    167.09 kB │ gzip: 53.94 kB
+dist/assets/omega-ruby-MwTszEDm.js             173.85 kB │ gzip: 11.40 kB
+dist/assets/alpha-sapphire-CqcskRmW.js         194.99 kB │ gzip: 11.41 kB
+dist/assets/index-D-8RBeCA.js                  223.10 kB │ gzip: 70.04 kB
+dist/assets/form-changes-vF2RyPs0.js           244.56 kB │ gzip: 21.10 kB
+dist/assets/red-BE--u3SP.js                    295.37 kB │ gzip: 16.72 kB
+dist/assets/blue-BJRr0H8n.js                   350.01 kB │ gzip: 18.55 kB
+dist/assets/yellow-BoAgJI-6.js                 439.96 kB │ gzip: 20.30 kB
+dist/assets/game-loader-CGcppRzO.js            548.91 kB │ gzip: 60.31 kB
+dist/assets/emerald-CcpYvDay.js                660.19 kB │ gzip: 37.70 kB
+dist/assets/ruby-CjIcJ9mL.js                   695.86 kB │ gzip: 37.69 kB
+dist/assets/x-C3Gw0yLb.js                      807.03 kB │ gzip: 37.51 kB
+dist/assets/y-D8yIJKup.js                      807.40 kB │ gzip: 37.68 kB
+dist/assets/white-GYdoTE1z.js                1,023.87 kB │ gzip: 55.65 kB
+dist/assets/black-CIFtvPtE.js                1,029.69 kB │ gzip: 54.87 kB
+dist/assets/sapphire-DK4z3zPw.js             1,191.63 kB │ gzip: 46.96 kB
+dist/assets/leafgreen-JylLCz6G.js            1,241.94 kB │ gzip: 53.28 kB
+dist/assets/pearl-B5H34juG.js                1,250.95 kB │ gzip: 56.28 kB
+dist/assets/crystal-DTsL6M_G.js              1,272.35 kB │ gzip: 47.23 kB
+dist/assets/diamond-DaH5CEaq.js              1,273.89 kB │ gzip: 56.41 kB
+dist/assets/black-2-CyMf92Hw.js              1,288.52 kB │ gzip: 66.34 kB
+dist/assets/white-2-DviI8gXP.js              1,290.32 kB │ gzip: 66.38 kB
+dist/assets/silver-D7gxudEu.js               1,291.55 kB │ gzip: 46.70 kB
+dist/assets/firered-Db5l2MS-.js              1,304.65 kB │ gzip: 56.61 kB
+dist/assets/platinum-D1bjmt2O.js             1,461.84 kB │ gzip: 64.23 kB
+dist/assets/gold-6XWhI9a9.js                 1,743.13 kB │ gzip: 54.01 kB
+
+[33m[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 7.35s[39m
+[33m[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 5.9s of this 7.3s build (81%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:prepare-out-dir renderStart (35%, 2.5s, 1 call)
+  - plugin vite:css transform (25%, 1.8s, 1 call)
+  - plugin vite:worker-import-meta-url transform (19%, 1.4s, 1 call)
+Additional callback time came from callbacks under 1s.
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+[39m
+Copied project documents to dist/docs.
+BUILD_EXIT=0

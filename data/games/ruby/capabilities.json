@@ -40,14 +40,14 @@
     "id": "super-rod",
     "name": "Super Rod",
     "requirements": {
-      "kind": "capability",
-      "id": "surf"
+      "kind": "milestone",
+      "id": "mossdeep"
     },
     "review": {
       "referenceIds": [
         "ruby-capabilities"
       ],
-      "checkedOn": "2026-10-12"
+      "checkedOn": "2026-10-31"
     }
   },
   {

@@ -295,7 +295,7 @@
       "rustboro"
     ],
     "locationId": "rustboro",
-    "nextBossId": "brawly",
+    "nextBossId": "roxanne",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -458,7 +458,7 @@
       "dewford"
     ],
     "locationId": "dewford",
-    "nextBossId": "wattson",
+    "nextBossId": "brawly",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -746,7 +746,7 @@
       "mauville"
     ],
     "locationId": "mauville",
-    "nextBossId": "flannery",
+    "nextBossId": "wattson",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -1016,7 +1016,7 @@
       "lavaridge"
     ],
     "locationId": "lavaridge",
-    "nextBossId": "norman",
+    "nextBossId": "flannery",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -1053,7 +1053,7 @@
       "brawly-defeated"
     ],
     "locationId": "petalburg",
-    "nextBossId": "winona",
+    "nextBossId": "norman",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -1413,7 +1413,7 @@
       "devon-scope"
     ],
     "locationId": "fortree",
-    "nextBossId": "tate-and-liza",
+    "nextBossId": "winona",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -1937,7 +1937,7 @@
       "mossdeep"
     ],
     "locationId": "mossdeep",
-    "nextBossId": "wallace",
+    "nextBossId": "tate-and-liza",
     "review": {
       "referenceIds": [
         "sapphire-progression"
@@ -2135,7 +2135,7 @@
       "cave-of-origin"
     ],
     "locationId": "sootopolis",
-    "nextBossId": "sidney",
+    "nextBossId": "wallace",
     "review": {
       "referenceIds": [
         "sapphire-progression"

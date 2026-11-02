@@ -161,7 +161,10 @@ describe.each(ids)('Reviewed %s Progress Planner', id => {
     expect(frost.paths.has('cryogonal')).toBe(true);
     expect(frost.paths.has('goodra')).toBe(false);
     expect(frost.paths.has('weavile')).toBe(false);
-    expect(at(game, 'anistar-gym').paths.has('goodra')).toBe(true);
+    const olympia = at(game, 'anistar-gym');
+    expect(olympia.limit).toBe(48);
+    expect(olympia.paths.has('goodra')).toBe(false);
+    expect(at(game, 'lysandre-labs').paths.has('goodra')).toBe(true);
   });
 
   it('keeps the Zygarde chamber closed after ordinary Terminus Cave opens', () => {

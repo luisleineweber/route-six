@@ -254,7 +254,7 @@ describe('Yellow reviewed core data', () => {
     expect(locations.find(location => location.id === 'route-12')?.requirements)
       .toMatchObject({ kind: 'all', requirements: [{ kind: 'milestone', id: 'lavender-town' }] });
     expect(locations.find(location => location.id === 'route-12-super-rod-house')?.requirements)
-      .toMatchObject({ kind: 'all', requirements: [{ kind: 'milestone', id: 'lavender-town' }] });
+      .toMatchObject({ kind: 'all', requirements: [{ kind: 'milestone', id: 'lavender-town' }, { kind: 'capability', id: 'poke-flute' }] });
     expect(locations.find(location => location.id === 'route-16')?.requirements)
       .toMatchObject({ kind: 'all', requirements: expect.arrayContaining([{ kind: 'capability', id: 'poke-flute' }]) });
     expect(locations.find(location => location.id === 'rock-tunnel')?.requirements)

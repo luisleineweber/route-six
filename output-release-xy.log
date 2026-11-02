@@ -1,0 +1,16 @@
+npm notice run pokemon-playthrough-planner@1.0.0 npx
+npm notice run vitest run tests/xy.test.ts --testTimeout 30000
+
+ RUN  v5.0.3 D:/Luis Spielplatz/pokemon-playthrough-planner
+
+
+ Test Files  1 passed (1)
+      Tests  40 passed (40)
+   Start at  17:27:59
+   Duration  55.20s (tests 53%, transform 40%, import 7%)
+
+  Transform  transforming modules took 21.74s · 40% of tracked time, re-done on every run
+             persist transforms across runs with fsModuleCache: true
+             learn more: https://vitest.dev/guide/improving-performance#caching-between-reruns
+
+EXIT 0

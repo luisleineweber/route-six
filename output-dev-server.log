@@ -1,0 +1,156 @@
+npm notice run pokemon-playthrough-planner@1.0.0 predev
+npm notice run npm run validators:compile
+npm notice run pokemon-playthrough-planner@1.0.0 validators:compile
+npm notice run tsx scripts/compile-validators.ts
+npm notice run pokemon-playthrough-planner@1.0.0 dev
+npm notice run vite --host 0.0.0.0
+[2m16:59:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+[2m16:59:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+
+  [32m[1mVITE[22m v8.3.3[39m  [2mready in [0m[1m3856[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://100.112.88.72:[1m5173[22m/[39m   [2mTailscale[22m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.56.1:[1m5173[22m/[39m    [2mEthernet 2[22m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.178.12:[1m5173[22m/[39m  [2mEthernet[22m
+[2m17:01:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/App.tsx, /src/features/team/TeamWarnings.tsx, /src/features/team/TeamSlots.tsx, /src/features/team/TypeAnalysis.tsx, /src/features/team/TeamBar.tsx, /src/components/AcquisitionDetails.tsx, /src/features/progress/PokemonSearch.tsx, /src/components/PokemonEvolution.tsx, /src/components/AcquisitionPathGroup.tsx, /src/components/AcquisitionPathBody.tsx, /src/features/progress/PokemonCatalogueCard.tsx, /src/components/RequirementList.tsx[22m
+[2m17:05:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/App.tsx, /src/features/team/TeamWarnings.tsx, /src/features/team/TeamSlots.tsx, /src/features/team/TypeAnalysis.tsx, /src/features/team/TeamBar.tsx, /src/components/AcquisitionDetails.tsx, /src/features/progress/PokemonSearch.tsx, /src/components/PokemonEvolution.tsx, /src/components/AcquisitionPathGroup.tsx, /src/components/AcquisitionPathBody.tsx, /src/features/progress/PokemonCatalogueCard.tsx, /src/components/RequirementList.tsx[22m
+[2m17:15:49[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mYou are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2m17:15:54[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mNotFoundError[22m: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[39m > removeChildFromContainer node_modules/react-dom/cjs/react-dom-client.development.js:23987:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > commitDeletionEffectsOnFiber node_modules/react-dom/cjs/react-dom-client.development.js:15499:16
+ > recursivelyTraverseMutationEffects node_modules/react-dom/cjs/react-dom-client.development.js:15773:10
+ > commitMutationEffectsOnFiber node_modules/react-dom/cjs/react-dom-client.development.js:16111:10
+ > flushMutationEffects node_modules/react-dom/cjs/react-dom-client.development.js:19680:12
+ > commitRoot node_modules/react-dom/cjs/react-dom-client.development.js:19605:11
+ > completeRoot node_modules/react-dom/cjs/react-dom-client.development.js:19509:8
+ > completeRootWhenReady node_modules/react-dom/cjs/react-dom-client.development.js:18363:6
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:18238:14
+
+[2m17:15:54[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <main> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m17:30:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/alpha-sapphire/progression.json[22m
+[2m17:30:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/blue/progression.json[22m
+[2m17:30:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/crystal/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/diamond/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/emerald/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/firered/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/gold/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/heartgold/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/leafgreen/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/firered/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/omega-ruby/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/pearl/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/gold/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/platinum/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/ruby/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/sapphire/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/silver/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/soulsilver/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/heartgold/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/yellow/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/leafgreen/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/red/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/platinum/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/omega-ruby/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/pearl/progression.json[22m
+[2m17:30:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/yellow/progression.json[22m
+[2m17:30:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mYou are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[2m17:30:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mNotFoundError[22m: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[39m > removeChildFromContainer node_modules/react-dom/cjs/react-dom-client.development.js:23987:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > commitDeletionEffectsOnFiber node_modules/react-dom/cjs/react-dom-client.development.js:15499:16
+ > recursivelyTraverseMutationEffects node_modules/react-dom/cjs/react-dom-client.development.js:15773:10
+ > commitMutationEffectsOnFiber node_modules/react-dom/cjs/react-dom-client.development.js:16111:10
+ > flushMutationEffects node_modules/react-dom/cjs/react-dom-client.development.js:19680:12
+ > commitRoot node_modules/react-dom/cjs/react-dom-client.development.js:19605:11
+ > completeRoot node_modules/react-dom/cjs/react-dom-client.development.js:19509:8
+ > completeRootWhenReady node_modules/react-dom/cjs/react-dom-client.development.js:18363:6
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:18238:14
+
+[2m17:30:08[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <main> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+[2m17:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/alpha-sapphire/progression.json[22m
+[2m17:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/blue/progression.json[22m
+[2m17:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/crystal/progression.json[22m
+[2m17:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/diamond/progression.json[22m
+[2m17:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/emerald/progression.json[22m
+[2m17:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/firered/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/gold/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/heartgold/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/leafgreen/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/omega-ruby/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/pearl/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/platinum/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/leafgreen/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/ruby/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/red/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/omega-ruby/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/sapphire/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/silver/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/soulsilver/progression.json[22m
+[2m17:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/yellow/progression.json[22m
+[2m17:31:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m17:31:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m17:31:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/features/progress/CatalogueFilters.tsx[22m
+[2m17:31:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/features/progress/PokemonSearch.tsx[22m
+[2m17:32:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/alpha-sapphire/progression.json[22m
+[2m17:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/alpha-sapphire/progression.json[22m
+[2m17:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/blue/progression.json[22m
+[2m17:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/crystal/progression.json[22m
+[2m17:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/diamond/progression.json[22m
+[2m17:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/emerald/progression.json[22m
+[2m17:32:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/firered/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/gold/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/heartgold/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/leafgreen/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/omega-ruby/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/pearl/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/platinum/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/red/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/ruby/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/sapphire/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/silver/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/soulsilver/progression.json[22m
+[2m17:32:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/yellow/progression.json[22m
+[2m17:34:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/compiled-shapes.mjs[22m
+[2m17:37:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/compiled-shapes.mjs[22m
+[2m17:41:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/compiled-shapes.mjs[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/alpha-sapphire/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/blue/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/crystal/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/diamond/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/emerald/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/firered/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/gold/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/heartgold/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/leafgreen/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/omega-ruby/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/pearl/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/platinum/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/red/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/ruby/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/sapphire/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/silver/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/soulsilver/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/shared/xy/progression.json[22m
+[2m17:49:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/yellow/progression.json[22m
+[2m17:49:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/crystal/progression.json[22m
+[2m17:49:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/gold/progression.json[22m
+[2m17:49:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdata/games/silver/progression.json[22m
+[2m18:14:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m18:14:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m18:14:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/features/progress/CatalogueFilters.tsx[22m
+[2m20:50:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/compiled-shapes.mjs[22m
+[2m21:08:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/AppHeader.tsx[22m
+[2m21:11:07[22m [36m[1m[vite][22m[39m [32mscripts/search-assets.ts changed, restarting server...[39m
+[2m21:11:07[22m [36m[1m[vite][22m[39m server restarted.
+[2m21:11:11[22m [36m[1m[vite][22m[39m [32mscripts/search-plugin.ts changed, restarting server...[39m
+[2m21:11:12[22m [36m[1m[vite][22m[39m server restarted.

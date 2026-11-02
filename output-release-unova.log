@@ -1,0 +1,12 @@
+npm notice run pokemon-playthrough-planner@1.0.0 npx
+npm notice run vitest run tests/generation-v-progress.test.ts tests/unova-encounters.test.ts tests/unova-special-sources.test.ts --testTimeout 30000
+
+ RUN  v5.0.3 D:/Luis Spielplatz/pokemon-playthrough-planner
+
+
+ Test Files  3 passed (3)
+      Tests  24 passed (24)
+   Start at  17:24:31
+   Duration  201.16s (tests 60%, transform 23%, import 17%)
+
+EXIT 0

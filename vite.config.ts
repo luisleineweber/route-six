@@ -15,8 +15,8 @@ export default defineConfig({
       'react/jsx-dev-runtime',
       '@radix-ui/react-select',
       'lucide-react',
-      'ajv/dist/2020',
-      'ajv-formats',
+      // The precompiled validator imports this CommonJS format table.
+      'ajv-formats/dist/formats.js',
     ],
   },
   server: {

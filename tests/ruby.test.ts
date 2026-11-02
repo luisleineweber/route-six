@@ -131,6 +131,8 @@ describe('Pokémon Ruby reviewed data', () => {
     });
     expect(ruby.capabilities.find(capability => capability.id === 'dive')?.requirements)
       .toEqual({ kind: 'milestone', id: 'dive-gift' });
+    expect(ruby.capabilities.find(capability => capability.id === 'super-rod')?.requirements)
+      .toEqual({ kind: 'milestone', id: 'mossdeep' });
     expect(ruby.sources.find(source => source.id === 'groudon-cave-of-origin')).toMatchObject({
       pokemonId: 'groudon', locationId: 'cave-of-origin',
       requirements: { kind: 'milestone', id: 'maxie-seafloor' },

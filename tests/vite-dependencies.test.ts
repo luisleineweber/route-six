@@ -9,9 +9,13 @@ describe('development dependency preparation', () => {
     const sourceRoot = fileURLToPath(new URL('../src/', import.meta.url));
     const imports = new Set(['react/jsx-runtime', 'react/jsx-dev-runtime']);
     for (const file of readdirSync(sourceRoot, { recursive: true, withFileTypes: true })) {
-      if (!file.isFile() || !/\.tsx?$/.test(file.name)) continue;
+      if (!file.isFile() || !/\.(tsx?|mjs)$/.test(file.name)) continue;
       const source = readFileSync(join(file.parentPath, file.name), 'utf8');
-      for (const match of source.matchAll(/\b(?:from\s*|import\s*(?:\(\s*)?)['"]([^'"]+)['"]/g)) {
+      // The generated validator embeds schema strings, so only its leading import lines count.
+      const pattern = file.name.endsWith('.mjs')
+        ? /^import\b[^'"]*['"]([^'"]+)['"]/gm
+        : /\b(?:from\s*|import\s*(?:\(\s*)?)['"]([^'"]+)['"]/g;
+      for (const match of source.matchAll(pattern)) {
         if (!match[1].startsWith('.')) imports.add(match[1]);
       }
     }

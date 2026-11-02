@@ -132,7 +132,8 @@ type. Do not fill missing cells with neutral damage.
 
 `previousIds` records mandatory milestone dependencies. `displayOrder` only sorts
 the picker. `locationId` can be null for a story event. `nextBossId` can be null
-when no next Gym or League opponent exists.
+when no next Gym or League opponent exists. A Gym battle milestone names the
+Gym Leader of that battle, so a Gym checkpoint uses that Gym Leader's limit.
 
 `game.planner.checkpoints` names the milestones shown in the progress selector.
 Each entry has `milestoneId`, `label`, `title`, `detail`, and nullable `typeId`.

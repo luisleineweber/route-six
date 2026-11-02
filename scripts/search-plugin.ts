@@ -14,6 +14,8 @@ export function searchPlugin(): Plugin {
       if (!result.ok) throw new Error(result.error);
       siteUrl = result.url;
       missingUrls = missingReleaseUrls(env);
+      // A project site such as GitHub Pages serves the app below a path.
+      return siteUrl ? { base: new URL(siteUrl).pathname } : undefined;
     },
     buildStart() {
       if (building) for (const warning of missingUrls) this.warn(warning);

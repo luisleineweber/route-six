@@ -1,0 +1,14 @@
+npm notice run pokemon-playthrough-planner@1.0.0 npx
+npm notice run vitest run --testTimeout 30000
+
+ RUN  v5.0.3 D:/Luis Spielplatz/pokemon-playthrough-planner
+
+
+ Test Files  77 passed (77)
+      Tests  761 passed (761)
+   Start at  18:07:18
+   Duration  598.21s (import 65%, tests 32%, transform 2%)
+
+    Isolate  77 workers spawned · ~281ms startup each (spawn + environment, per file)
+             at least ~21.33s faster with isolate: false — reuses workers across files instead of one per file
+

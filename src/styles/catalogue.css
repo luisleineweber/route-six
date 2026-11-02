@@ -117,9 +117,13 @@
 /* Desktop catalogue controls remain below the shared team overview. */
 @media (min-width: 40.001rem) {
   .filters { grid-template-columns: minmax(12rem, 1fr) minmax(0, auto); align-items: center; gap: 0.75rem; padding-block: 0.75rem; background: var(--bg); }
-  .catalogue-filter-anchor { display: flow-root; overflow-anchor: none; }
-  .catalogue-filter-anchor[data-pinned] > .filters { position: fixed; top: var(--team-bar-height, 0px); left: var(--filter-left); width: var(--filter-width); z-index: 11; margin-bottom: 0; }
-  .catalogue-filter-anchor[data-pinned] { margin-bottom: 1.5rem; }
+  /* The group has no box, so the sticky controls stay pinned for the whole catalogue. */
+  .catalogue-filter-group { display: contents; }
+  .catalogue-filter-anchor { position: sticky; top: var(--team-bar-height, 0px); z-index: 11; display: flow-root; }
+  .catalogue-filter-anchor > .filters { transition: box-shadow 150ms ease-out; }
+  /* While pinned, the controls extend the team overview across the viewport and take over its shadow. */
+  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), 0 4px 12px oklch(0 0 0 / 0.06); clip-path: inset(0 -100vmax -1.5rem); }
+  html:has(.catalogue-filter-anchor[data-stuck]) .team-bar.visible { box-shadow: none; }
   .filters .catalogue-search, .filters .type-filter-controls { min-width: 0; }
   .filters .catalogue-search { grid-column: 1; grid-row: 1; }
   .filters .type-filter-controls { grid-column: 2; grid-row: 1; display: flex; align-items: center; justify-content: flex-end; }
@@ -133,6 +137,7 @@
 
 @media (max-width: 40rem) {
   .catalogue-filter-group { display: grid; gap: 1rem; margin-bottom: 1.5rem; }
+  .catalogue-filter-marker { display: none; }
   .catalogue-filter-group .catalogue-filter-anchor, .catalogue-filter-group .filters { display: contents; }
   .catalogue-filter-group > .chip-row { order: 1; }
 }

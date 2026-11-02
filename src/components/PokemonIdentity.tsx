@@ -1,10 +1,11 @@
 import { useGameData } from '../features/planner/GameContext';
 import { selectionProfile } from '../domain/pokemon-selection';
+import { assetUrl } from '../data/asset-url';
 
 export const typeName = (type: string) => type[0].toUpperCase() + type.slice(1);
 
 export function TypeIcon({ type, size = 20 }: { type: string; size?: number }) {
-  return <img className="type-icon" src={`/types/${type}.svg`} alt="" width={size} height={size} decoding="async" />;
+  return <img className="type-icon" src={assetUrl(`/types/${type}.svg`)} alt="" width={size} height={size} decoding="async" />;
 }
 
 /** The compact form shows only the logo; the name stays available to assistive technology and as a tooltip. */
@@ -21,7 +22,7 @@ export function PokemonSprite({ id, size = 'md' }: { id: string; size?: keyof ty
   const game = useGameData();
   const profile = selectionProfile(game, id);
   const pixels = spriteSizes[size];
-  return <img className="pokemon-sprite" src={profile.spriteSrc} alt="" width={pixels} height={pixels} loading="lazy" />;
+  return <img className="pokemon-sprite" src={assetUrl(profile.spriteSrc)} alt="" width={pixels} height={pixels} loading="lazy" />;
 }
 
 export function PokemonTypes({ id, compact = false, joined = false }: { id: string; compact?: boolean; joined?: boolean }) {

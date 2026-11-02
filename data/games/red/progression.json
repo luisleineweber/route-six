@@ -97,7 +97,7 @@
       "pewter-city"
     ],
     "locationId": "pewter-city",
-    "nextBossId": "misty",
+    "nextBossId": "brock",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -170,7 +170,7 @@
       "cerulean-city"
     ],
     "locationId": "cerulean-city",
-    "nextBossId": "lt-surge",
+    "nextBossId": "misty",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -207,7 +207,7 @@
       "ss-anne-cleared"
     ],
     "locationId": "vermilion-city",
-    "nextBossId": "erika",
+    "nextBossId": "lt-surge",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -300,7 +300,7 @@
       "celadon-city"
     ],
     "locationId": "celadon-city",
-    "nextBossId": "koga",
+    "nextBossId": "erika",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -411,7 +411,7 @@
       "fuchsia-city"
     ],
     "locationId": "fuchsia-city",
-    "nextBossId": "sabrina",
+    "nextBossId": "koga",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -430,7 +430,7 @@
       "koga-defeated"
     ],
     "locationId": "saffron-city",
-    "nextBossId": "blaine",
+    "nextBossId": "sabrina",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -467,7 +467,7 @@
       "cinnabar-island"
     ],
     "locationId": "cinnabar-island",
-    "nextBossId": "giovanni",
+    "nextBossId": "blaine",
     "review": {
       "referenceIds": [
         "red-progression",
@@ -486,7 +486,7 @@
       "blaine-defeated"
     ],
     "locationId": "viridian-city",
-    "nextBossId": "lorelei",
+    "nextBossId": "giovanni",
     "review": {
       "referenceIds": [
         "red-progression",

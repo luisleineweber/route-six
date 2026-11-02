@@ -47,7 +47,8 @@ Hoenn Dex; unavailable species keep that reward blocked in this scope.
 - Selected optional access remains in later evolution proofs.
 - Rods, HMs, story gates, and item access stay explicit.
 - Level-up evolution requires a level gain. Item evolution keeps its source level.
-- Level limits use the next boss. No limit applies after the final League battle.
+- Level limits use the next boss. Each Gym checkpoint uses its own Gym Leader.
+  No limit applies after the final League battle.
 - Earlier acquisitions remain available if a later level limit is lower.
 - Game trades consume the offered species and use its level and fixed gender.
 - Breeding proves two compatible, distinct parents and a level-5 offspring.
@@ -642,6 +643,33 @@ in `output/stat-chart-implementation/`.
 `npm run build` passes the data check, TypeScript, Vite and document copying.
 The existing large local-data chunk and unset `SITE_URL` warnings remain.
 
+## HGSS and ORAS continuation: 30 October 2026
+
+This work is incomplete. All four games remain Team Planner only. No game
+registration or UI change was made. No commit, push or publication was made.
+
+Four Terra workers used `gpt-6.1-terra` with low reasoning effort. Initial
+runs returned no active access data. Later Omega Ruby and SoulSilver runs
+reported a usage limit. SoulSilver subsequently resumed and saved an early
+story and location proposal in `output/game-proposals/soulsilver-continuation/`.
+That proposal needs further source review and must not be used as active data.
+
+The initial parent `npm run data:check` failed because partial SoulSilver
+progress and location records were active while its planner was null. The
+worker preserved the records as proposals and returned both collections to
+empty arrays. The worker then reported that `npm run data:check` passed.
+Its test and build commands were stopped before completion. They have no
+result. No integrated test, build or public-query review is complete.
+
+The parent confirmed a conflict in `output/game-proposals/oras-progress-gates*`:
+the proposal places the Primal event before the Mind Badge while its Seafloor
+Cavern path requires Dive and that badge. Its notes list 71 unresolved area
+access gates. This proposal does not prove complete ORAS access.
+
+The native browser status returned `available: false`. No UI files changed.
+No new screenshots or browser review results are available. The required
+independent source, query and browser reviews remain pending integration.
+
 ## Release blockers: 30 October 2026
 
 The planner buttons now take their accessible name from their visible text.
@@ -657,7 +685,13 @@ All 46 measured dialog text elements pass AA. White on each of the 38 game
 accents is at least 7.62:1. No design token changed.
 
 The build now warns for an unset `SITE_URL` and an unset `VITE_SITE_URL`.
-The public domain is not chosen. Both warnings remain and block release.
+
+The release target is the GitHub Pages project site
+`https://luisleineweber.github.io/route-six/`. `SITE_URL` now accepts a path
+that ends with `/`. Its path becomes the Vite `base`. `assetUrl` resolves
+sprites, type icons, logos, method icons, and export images against that
+base. The repository and the Pages build environment do not exist yet.
+Release stays blocked until a deployed build is checked at that address.
 
 All 763 tests pass in 77 files. `npx tsc -b` and `npx vite build` pass.
 Axe WCAG A/AA reports zero violations at 1440 and 320 pixels, with and

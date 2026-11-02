@@ -1,0 +1,514 @@
+npm notice run pokemon-playthrough-planner@1.0.0 pretest
+npm notice run npm run validators:compile
+npm notice run pokemon-playthrough-planner@1.0.0 validators:compile
+npm notice run tsx scripts/compile-validators.ts
+npm notice run pokemon-playthrough-planner@1.0.0 test
+npm notice run vitest run
+
+ RUN  v5.0.3 D:/Luis Spielplatz/pokemon-playthrough-planner
+
+ ❯ tests/vite-dependencies.test.ts (1 test | 1 failed) 326ms
+   ❯ development dependency preparation (1)
+     × prepares every browser dependency without scanning the game data 320ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/vite-dependencies.test.ts > development dependency preparation > prepares every browser dependency without scanning the game data
+AssertionError: expected [ 'ajv' ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "ajv",
++ ]
+
+ ❯ tests/vite-dependencies.test.ts:20:84
+     18|
+     19|     expect(config.optimizeDeps?.noDiscovery).toBe(true);
+     20|     expect([...imports].filter(id => !config.optimizeDeps?.include?.in…
+       |                                                                                    ^
+     21|   });
+     22| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 33 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+
+⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Error: [vitest-pool]: Worker forks emitted error.
+ ❯ EventEmitter.onTaskError ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11532:21
+ ❯ EventEmitter.emit node:events:521:24
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11007:22
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+Caused by: Error: Worker exited unexpectedly with exit code 3221225794 during starting state
+ ❯ ChildProcess.emitUnexpectedExit ../../Luis%20Spielplatz/pokemon-playthrough-planner/node_modules/vitest/dist/chunks/index.DpLw24bj.js:11005:33
+ ❯ ChildProcess.emit node:events:509:20
+ ❯ Process.ChildProcess._handle.onexit node:internal/child_process:294:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed | 42 passed (43)
+      Tests  1 failed | 516 passed (517)
+     Errors  33 errors
+   Start at  17:05:33
+   Duration  650.69s (tests 50%, import 46%, transform 3%)
+
+    Isolate  43 workers spawned · ~382ms startup each (spawn + environment, per file)
+             at least ~16.03s faster with isolate: false — reuses workers across files instead of one per file
+

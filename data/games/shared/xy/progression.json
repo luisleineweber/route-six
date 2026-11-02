@@ -133,7 +133,7 @@
       "santalune-city"
     ],
     "locationId": "santalune-city",
-    "nextBossId": "grant",
+    "nextBossId": "viola",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -457,7 +457,7 @@
       "cyllage"
     ],
     "locationId": "cyllage-city",
-    "nextBossId": "korrina",
+    "nextBossId": "grant",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -548,7 +548,7 @@
       "shalour"
     ],
     "locationId": "shalour-city",
-    "nextBossId": "ramos",
+    "nextBossId": "korrina",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -674,7 +674,7 @@
       "coumarine"
     ],
     "locationId": "coumarine-city",
-    "nextBossId": "clemont",
+    "nextBossId": "ramos",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -729,7 +729,7 @@
       "lumiose-north"
     ],
     "locationId": "lumiose-city",
-    "nextBossId": "valerie",
+    "nextBossId": "clemont",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -783,7 +783,7 @@
       "laverre"
     ],
     "locationId": "laverre-city",
-    "nextBossId": "olympia",
+    "nextBossId": "valerie",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -963,7 +963,7 @@
       "anistar"
     ],
     "locationId": "anistar-city",
-    "nextBossId": "lysandre-final",
+    "nextBossId": "olympia",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"
@@ -1179,7 +1179,7 @@
       "pokemon-village"
     ],
     "locationId": "snowbelle-city",
-    "nextBossId": "malva",
+    "nextBossId": "wulfric",
     "review": {
       "referenceIds": [
         "xy-reviewed-story"

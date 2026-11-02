@@ -805,6 +805,10 @@
         {
           "kind": "milestone",
           "id": "lavender-town"
+        },
+        {
+          "kind": "capability",
+          "id": "poke-flute"
         }
       ]
     },
@@ -812,7 +816,7 @@
       "referenceIds": [
         "yellow-locations"
       ],
-      "checkedOn": "2026-10-12"
+      "checkedOn": "2026-10-31"
     }
   },
   {

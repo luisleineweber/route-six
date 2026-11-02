@@ -125,6 +125,10 @@ describe('Silver reviewed data layer', () => {
     expect(capabilities.find(capability => capability.id === 'rainbow-wing')).toMatchObject({
       requirements: { kind: 'milestone', id: 'kanto-open' },
     });
+    // The Olivine City fisherman gives the Good Rod before Morty and Cianwood.
+    expect(capabilities.find(capability => capability.id === 'good-rod')).toMatchObject({
+      requirements: { kind: 'milestone', id: 'ecruteak-city' },
+    });
   });
 
   it('covers reviewed Silver land, surf, fishing, tree and contest table entries', () => {

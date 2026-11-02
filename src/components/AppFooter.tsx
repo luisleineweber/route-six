@@ -1,4 +1,5 @@
 import { ArrowUp, BookOpen, ChevronDown, ExternalLink } from 'lucide-react';
+import { assetUrl } from '../data/asset-url';
 import { RouteSixMark } from './RouteSixMark';
 import { useGameData } from '../features/planner/GameContext';
 
@@ -40,7 +41,7 @@ export function AppFooter() {
               <p>These links show the sources used for game details.</p>
               <ul>
                 <li><a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">Pokémon sprites from PokeAPI<span className="sr-only"> (opens in a new tab)</span></a></li>
-                <li><a href="https://github.com/partywhale/pokemon-type-icons" target="_blank" rel="noopener noreferrer">Type icons by partywhale<span className="sr-only"> (opens in a new tab)</span></a> (<a href="/types/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT licence<span className="sr-only"> (opens in a new tab)</span></a>)</li>
+                <li><a href="https://github.com/partywhale/pokemon-type-icons" target="_blank" rel="noopener noreferrer">Type icons by partywhale<span className="sr-only"> (opens in a new tab)</span></a> (<a href={assetUrl('/types/LICENSE.txt')} target="_blank" rel="noopener noreferrer">MIT licence<span className="sr-only"> (opens in a new tab)</span></a>)</li>
               </ul>
             </div>
           </details>

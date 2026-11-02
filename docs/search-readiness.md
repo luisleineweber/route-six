@@ -39,8 +39,20 @@ document. The planner still uses local data and needs no runtime API or backend.
 ## Set the public URL before release
 
 Set `SITE_URL` in the host's build environment or in `.env.local`. Use the final
-HTTPS origin. Do not include a path, query, fragment, or credentials. Then run
-`npm run build`.
+HTTPS site URL. A path must end with `/`. Do not include a query, fragment, or
+credentials. Then run `npm run build`.
+
+The path of `SITE_URL` becomes the Vite `base`. All public assets load below
+it. The planned GitHub Pages project site uses these build values:
+
+```sh
+SITE_URL=https://luisleineweber.github.io/route-six/
+VITE_SITE_URL=https://luisleineweber.github.io/route-six/
+```
+
+Search engines read `robots.txt` only at the host root. On a project site, the
+build still writes `robots.txt` below the path, but crawlers ignore it. Submit
+`sitemap.xml` in Search Console instead.
 
 The build uses that value for:
 

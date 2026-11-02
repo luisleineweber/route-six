@@ -1,3 +1,4 @@
+import { assetUrl } from '../data/asset-url';
 import { pokemonById, pokemonIdentity } from '../data/dataset';
 import { selectionId } from '../domain/pokemon-selection';
 import { useGameData } from '../features/planner/GameContext';
@@ -20,7 +21,7 @@ export function AcquisitionPathBody({ path, snapshot }: { path: AcquisitionPath;
   return <div className="path-body">
     {path.evolutionIds.length > 0 && <h4>Starting source: {pokemonById.get(source.pokemonId)!.name}</h4>}
     <dl className="source-facts">
-      <div><dt>Method</dt><dd className="path-method">{method.iconSrc && <img className="method-icon" src={method.iconSrc} alt="" width={24} height={24} />}<span>{method.name}</span></dd></div>
+      <div><dt>Method</dt><dd className="path-method">{method.iconSrc && <img className="method-icon" src={assetUrl(method.iconSrc)} alt="" width={24} height={24} />}<span>{method.name}</span></dd></div>
       <div><dt>Location</dt><dd>{location.name}</dd></div>
       <div><dt>Source level</dt><dd>{level}</dd></div>
       {source.details.kind === 'wild' && <div><dt>Encounter rate</dt><dd>{source.details.ratePercent}%</dd></div>}

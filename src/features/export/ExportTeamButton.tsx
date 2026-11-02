@@ -3,8 +3,6 @@ import { Download } from 'lucide-react';
 import type { AvailabilitySnapshot } from '../../domain/types';
 import { useGameData } from '../planner/GameContext';
 import type { PlannerState } from '../planner/state';
-import { buildTeamExport } from './export-model';
-import { downloadPng, renderTeamPng } from './render-png';
 
 export function ExportTeamButton({ state, progressPage, snapshot }: {
   state: PlannerState; progressPage: boolean; snapshot: AvailabilitySnapshot | null;
@@ -17,6 +15,9 @@ export function ExportTeamButton({ state, progressPage, snapshot }: {
   async function exportTeam() {
     setBusy(true); setMessage(''); setError(false);
     try {
+      const [{ buildTeamExport }, { downloadPng, renderTeamPng }] = await Promise.all([
+        import('./export-model'), import('./render-png'),
+      ]);
       const model = buildTeamExport(game, state, progressPage, snapshot);
       const blob = await renderTeamPng(model);
       downloadPng(blob, model.filename);

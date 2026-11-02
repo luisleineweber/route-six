@@ -121,7 +121,7 @@
       "oreburgh-mine"
     ],
     "locationId": "oreburgh-city",
-    "nextBossId": "gardenia",
+    "nextBossId": "roark",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -196,7 +196,7 @@
       "eterna-city"
     ],
     "locationId": "eterna-city",
-    "nextBossId": "fantina",
+    "nextBossId": "gardenia",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -252,7 +252,7 @@
       "hearthome"
     ],
     "locationId": "hearthome-city",
-    "nextBossId": "maylene",
+    "nextBossId": "fantina",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -308,7 +308,7 @@
       "veilstone"
     ],
     "locationId": "veilstone-city",
-    "nextBossId": "wake",
+    "nextBossId": "maylene",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -365,7 +365,7 @@
       "pastoria"
     ],
     "locationId": "pastoria-city",
-    "nextBossId": "byron",
+    "nextBossId": "wake",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -442,7 +442,7 @@
       "canalave"
     ],
     "locationId": "canalave-city",
-    "nextBossId": "candice",
+    "nextBossId": "byron",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -553,7 +553,7 @@
       "snowpoint"
     ],
     "locationId": "snowpoint-city",
-    "nextBossId": "volkner",
+    "nextBossId": "candice",
     "review": {
       "referenceIds": [
         "platinum-game",
@@ -709,7 +709,7 @@
       "sunyshore"
     ],
     "locationId": "sunyshore-city",
-    "nextBossId": "aaron",
+    "nextBossId": "volkner",
     "review": {
       "referenceIds": [
         "platinum-game",

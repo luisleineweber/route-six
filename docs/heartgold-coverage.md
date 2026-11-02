@@ -1,5 +1,24 @@
 # HeartGold coverage status
 
+## Current integration constraints
+
+The older gap list below is historical. Shared identities through 493,
+form support, and the `heartgold-source` reference now exist. See
+`docs/hgss-progress-review.md` for the current shared rule review.
+
+The data validator requires all progress collections to be empty while
+`game.planner` is null (`src/data/validate-semantics.ts`). Adding a partial
+story graph to the game files will therefore fail the data check until the
+planner metadata and complete reviewed records are ready. Registration is
+separate and remains parent-owned.
+
+The field-action source review establishes these badge gates: Cut needs Hive,
+Fly needs Storm, Surf needs Fog, Strength needs Plain, Rock Smash needs Zephyr,
+Waterfall needs Rising, and Whirlpool needs Glacier. Rock Climb needs Earth.
+The move grants and local route joins also need to be represented. See
+`output/game-proposals/hgss-field-actions-review-notes.md` and
+`src/field_move.c` at the pinned revision.
+
 ## Current app status: 14 October 2026
 
 Team Planner is enabled with 493 reviewed base profiles and 256 regional entries. Type analysis, six team slots, details and PNG export use local data. Progress Planner remains pending. Its acquisition, route, evolution, breeding and form coverage is incomplete. The earlier review below is retained as source history. Current checks take precedence. See [the shared status](generation-456-progress.md).

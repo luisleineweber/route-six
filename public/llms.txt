@@ -4,7 +4,7 @@
 
 ## Interface
 
-- [Open the planner](/): Browser application. JavaScript is required for the interactive controls.
+- [Open the planner](./): Browser application. JavaScript is required for the interactive controls.
 - Team Planner: Choose up to six Pokémon. Check type weaknesses, resistances, immunities, and attack coverage with the selected game's type chart.
 - Progress Planner: Select a Gym or Victory Road checkpoint. Check encounter locations, access requirements, evolutions, breeding, and optional level limits.
 - Search: Find Pokémon by name, type, or Pokédex number. Regional Pokédex order comes first.

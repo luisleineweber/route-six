@@ -39,13 +39,16 @@ npm run preview
 The build checks all data, checks TypeScript, builds the app, and copies the
 project documents into `dist/docs`. The app needs no service or API at runtime.
 
-Set `SITE_URL` to the final public HTTPS origin before a release build. The
-build uses it for canonical links, site structured data, and the sitemap.
+Set `SITE_URL` to the final public HTTPS site URL before a release build. The
+build uses it for canonical links, site structured data, and the sitemap. Its
+path becomes the Vite `base`, so a GitHub Pages project site such as
+`https://luisleineweber.github.io/route-six/` works.
 Set `VITE_SITE_URL` to the public site URL for the footer link and PNG credit. Use the same
 URL if the footer should open this app's domain.
 Set both values in the host's build environment or in `.env.local` (see `.env.example`).
 The build prints a warning for each unset value. A release build must show neither
-warning. No public domain is chosen yet, so local builds show both warnings.
+warning. Set both values only in the release build environment. Local builds
+without them show both warnings and serve from `/`.
 See [search setup](docs/search-readiness.md) for metadata, agent context, checks, and the
 steps to complete in Google Search Console after publication.
 

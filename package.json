@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "validators:compile": "tsx scripts/compile-validators.ts",
+    "predev": "npm run validators:compile",
+    "pretest": "npm run validators:compile",
+    "prebuild": "npm run validators:compile",
     "dev": "vite --host 0.0.0.0",
     "build": "npm run data:check && tsc -b && vite build && tsx scripts/copy-docs.ts",
     "preview": "vite preview --host 127.0.0.1",

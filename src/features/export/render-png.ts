@@ -1,3 +1,4 @@
+import { assetUrl } from '../../data/asset-url';
 import type { TeamExport } from './export-model';
 import { colors, pngBlob, setFont, wrap } from './canvas-tools';
 import { renderProgressPng } from './render-progress';
@@ -12,7 +13,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
     const image = new Image();
     image.onload = () => resolve(image);
     image.onerror = () => reject(new Error(`Could not load export image: ${src}`));
-    image.src = src;
+    image.src = assetUrl(src);
   });
 }
 

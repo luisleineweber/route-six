@@ -25,7 +25,7 @@
       "pallet-town"
     ],
     "locationId": "pewter-city",
-    "nextBossId": "misty",
+    "nextBossId": "brock",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -44,7 +44,7 @@
       "brock-defeated"
     ],
     "locationId": "cerulean-city",
-    "nextBossId": "lt-surge",
+    "nextBossId": "misty",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -63,7 +63,7 @@
       "misty-defeated"
     ],
     "locationId": "vermilion-city",
-    "nextBossId": "erika",
+    "nextBossId": "lt-surge",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -82,7 +82,7 @@
       "surge-defeated"
     ],
     "locationId": "celadon-city",
-    "nextBossId": "koga",
+    "nextBossId": "erika",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -102,7 +102,7 @@
       "fuji-rescued"
     ],
     "locationId": "fuchsia-city",
-    "nextBossId": "sabrina",
+    "nextBossId": "koga",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -121,7 +121,7 @@
       "koga-defeated"
     ],
     "locationId": "saffron-city",
-    "nextBossId": "blaine",
+    "nextBossId": "sabrina",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -140,7 +140,7 @@
       "sabrina-defeated"
     ],
     "locationId": "cinnabar-island",
-    "nextBossId": "giovanni",
+    "nextBossId": "blaine",
     "review": {
       "referenceIds": [
         "firered-progression",
@@ -159,7 +159,7 @@
       "blaine-defeated"
     ],
     "locationId": "viridian-city",
-    "nextBossId": "lorelei",
+    "nextBossId": "giovanni",
     "review": {
       "referenceIds": [
         "firered-progression",

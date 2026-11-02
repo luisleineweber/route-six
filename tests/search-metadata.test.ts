@@ -107,7 +107,7 @@ describe('search page output', () => {
     expect(crawlFiles(null)).toEqual({ robots: 'User-agent: *\nAllow: /\n', sitemap: null });
   });
 
-  it.each(['not a URL', 'http://example.com', 'https://example.com/app', 'https://example.com/?game=red',
+  it.each(['not a URL', 'http://example.com', 'https://example.com/app', 'https://example.com/app/?game=red', 'https://example.com/?game=red',
     'https://example.com/#team', 'https://example.com/?', 'https://example.com/#',
     'https://user:password@example.com/'])('rejects an invalid release origin (%s)', input => {
     expect(publicSiteUrl(input).ok).toBe(false);
@@ -116,6 +116,25 @@ describe('search page output', () => {
   it('normalizes the configured origin', () => {
     expect(publicSiteUrl(' https://example.com ')).toEqual({ ok: true, url: 'https://example.com/' });
   });
+
+  it('accepts a project site path and serves the build from it', async () => {
+    const siteUrl = 'https://luisleineweber.github.io/route-six/';
+    expect(publicSiteUrl(siteUrl)).toEqual({ ok: true, url: siteUrl });
+    const html = await pageHtml(siteUrl);
+    expect(html).toContain(`rel="canonical" href="${siteUrl}"`);
+    expect(html).toContain('rel="help" type="text/plain" href="/route-six/llms.txt"');
+    expect(crawlFiles(siteUrl).sitemap).toContain(`<loc>${siteUrl}</loc>`);
+    vi.stubEnv('SITE_URL', siteUrl);
+    const result = await build({ configFile: false,
+      plugins: [searchPlugin(), { name: 'search-test-entry', enforce: 'pre',
+        load(id) { if (id.endsWith('/src/main.tsx')) return 'export {};'; },
+      }],
+      build: { write: false }, logLevel: 'silent' });
+    const bundles = Array.isArray(result) ? result : [result];
+    const index = bundles.flatMap(bundle => 'output' in bundle ? bundle.output : [])
+      .find(asset => asset.fileName === 'index.html');
+    expect(index?.type === 'asset' && String(index.source)).toContain('href="/route-six/favicon.svg"');
+  }, 20_000);
 
   it('reports each unset public URL for a release build', () => {
     expect(missingReleaseUrls({})).toEqual([

@@ -1,19 +1,6 @@
-import Ajv2020 from 'ajv/dist/2020';
-import addFormats from 'ajv-formats';
-import common from '../../docs/schema/common.schema.json';
-import game from '../../docs/schema/game.schema.json';
-import acquisition from '../../docs/schema/acquisition.schema.json';
-import root from '../../docs/schema/planner-data.schema.json';
 import type { Dataset, Result, SharedData, ValidationIssue } from '../domain/types';
 import { validateSemantics } from './validate-semantics';
-
-const ajv = new Ajv2020({ allErrors: true, strict: false });
-addFormats(ajv);
-ajv.addSchema(common).addSchema(game).addSchema(acquisition);
-const checkShape = ajv.compile<Dataset>(root);
-const { games: _games, ...sharedProperties } = root.properties;
-const checkSharedShape = ajv.compile<SharedData>({ $id: 'https://pokemon-playthrough-planner.local/schema/shared-data.schema.json', type: 'object', additionalProperties: false,
-  required: ['schemaVersion', 'references', 'pokemon'], properties: sharedProperties });
+import { checkShape, checkSharedShape } from './compiled-shapes.mjs';
 
 function recordId(input: unknown, path: string): string | null {
   let node = input;

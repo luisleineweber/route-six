@@ -82,7 +82,7 @@
       "route-30"
     ],
     "locationId": "violet-city",
-    "nextBossId": "bugsy",
+    "nextBossId": "falkner",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -138,7 +138,7 @@
       "azalea-town"
     ],
     "locationId": "azalea-town",
-    "nextBossId": "whitney",
+    "nextBossId": "bugsy",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -175,7 +175,7 @@
       "goldenrod-city"
     ],
     "locationId": "goldenrod-city",
-    "nextBossId": "morty",
+    "nextBossId": "whitney",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -212,7 +212,7 @@
       "ecruteak-city"
     ],
     "locationId": "ecruteak-city",
-    "nextBossId": "chuck",
+    "nextBossId": "morty",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -269,7 +269,7 @@
       "cianwood-city"
     ],
     "locationId": "cianwood-city",
-    "nextBossId": "jasmine",
+    "nextBossId": "chuck",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -288,7 +288,7 @@
       "chuck-defeated"
     ],
     "locationId": "olivine-city",
-    "nextBossId": "pryce",
+    "nextBossId": "jasmine",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -307,7 +307,7 @@
       "jasmine-defeated"
     ],
     "locationId": "mahogany-town",
-    "nextBossId": "clair",
+    "nextBossId": "pryce",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -326,7 +326,7 @@
       "pryce-defeated"
     ],
     "locationId": "blackthorn-city",
-    "nextBossId": "will",
+    "nextBossId": "clair",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -382,7 +382,7 @@
       "kanto-open"
     ],
     "locationId": "pewter-city",
-    "nextBossId": "misty",
+    "nextBossId": "brock",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -401,7 +401,7 @@
       "kanto-open"
     ],
     "locationId": "cerulean-city",
-    "nextBossId": "lt-surge",
+    "nextBossId": "misty",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -420,7 +420,7 @@
       "kanto-open"
     ],
     "locationId": "vermilion-city",
-    "nextBossId": "erika",
+    "nextBossId": "lt-surge",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -439,7 +439,7 @@
       "kanto-open"
     ],
     "locationId": "celadon-city",
-    "nextBossId": "janine",
+    "nextBossId": "erika",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -458,7 +458,7 @@
       "kanto-open"
     ],
     "locationId": "fuchsia-city",
-    "nextBossId": "sabrina",
+    "nextBossId": "janine",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -477,7 +477,7 @@
       "kanto-open"
     ],
     "locationId": "saffron-city",
-    "nextBossId": "blaine",
+    "nextBossId": "sabrina",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -496,7 +496,7 @@
       "kanto-open"
     ],
     "locationId": "seafoam-islands",
-    "nextBossId": "blue",
+    "nextBossId": "blaine",
     "review": {
       "referenceIds": [
         "crystal-progression",
@@ -515,7 +515,7 @@
       "kanto-open"
     ],
     "locationId": "viridian-city",
-    "nextBossId": "red",
+    "nextBossId": "blue",
     "review": {
       "referenceIds": [
         "crystal-progression",

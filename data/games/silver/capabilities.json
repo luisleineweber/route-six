@@ -19,14 +19,14 @@
     "name": "Fish with the Good Rod",
     "requirements": {
       "kind": "milestone",
-      "id": "cianwood-city"
+      "id": "ecruteak-city"
     },
     "review": {
       "referenceIds": [
         "silver-progression",
         "silver-encounters"
       ],
-      "checkedOn": "2026-10-12"
+      "checkedOn": "2026-10-31"
     }
   },
   {
