@@ -21,7 +21,10 @@
   .team-bar-card:hover .team-bar-remove, .team-bar-card:focus-within .team-bar-remove { opacity: 1; pointer-events: auto; }
 }
 @media (max-width: 41.999rem) {
-  .team-bar-card { aspect-ratio: 5 / 3; }
+  /* Phones remove members in the main team cards; the small bar keeps sprite and types clear. */
+  .team-bar-remove { display: none; }
+  .team-bar-slots { gap: 0.5rem; }
+  .team-bar-card { aspect-ratio: 2 / 1; }
   .team-bar-add-label { display: none; }
   .team-bar-card.empty { grid-template-rows: minmax(2.375rem, 1fr) 0; }
   .team-bar-card.empty .team-bar-name { padding-block-start: 0; }
@@ -37,7 +40,19 @@
   .team-bar-identity .type-list { gap: 0.25rem; }
 }
 @media (pointer: coarse) {
-  .team-bar-remove, .team-bar-remove:hover { width: 2.75rem; height: 2.75rem; padding: 0.25rem; align-items: start; justify-items: end; background: transparent; box-shadow: none; }
-  .team-bar-remove::before { content: ''; position: absolute; inset-block-start: 0; inset-inline-end: 0; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--surface); box-shadow: var(--shadow-ring); }
+  .team-bar-remove, .team-bar-remove:hover { inset-block-start: 0; inset-inline-end: 0; width: 2.75rem; height: 2.75rem; padding: 0.25rem; align-items: start; justify-items: end; background: transparent; box-shadow: none; }
+  .team-bar-remove::before { content: ''; position: absolute; inset-block-start: 0.25rem; inset-inline-end: 0.25rem; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--tile); }
+  .team-bar-remove > svg { margin: 0.25rem; width: 1rem; height: 1rem; }
   .team-bar-remove > svg { position: relative; }
+}
+/* Wide screens: the bar spans the page content, with flatter cards at the same height. */
+@media (min-width: 60rem) {
+  .team-bar { padding-inline: 2rem; }
+  .team-bar-slots { max-width: calc(var(--page-width) - 4rem); }
+}
+@media (min-width: 72rem) {
+  .team-bar-card { aspect-ratio: 2 / 1; grid-template-rows: minmax(3.25rem, 1fr) auto; }
+  .team-bar-identity { grid-template-columns: 1fr 1fr; }
+  .team-bar-identity .pokemon-sprite { justify-self: end; }
+  .team-bar-identity .type-list { justify-self: start; padding-inline-start: 0.75rem; }
 }

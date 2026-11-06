@@ -1,4 +1,4 @@
-.settings { min-width: 0; padding: 1.25rem 1.5rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-ring); }
+.settings { min-width: 0; padding: 1.25rem 1.5rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-panel); }
 .settings-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem 2rem; }
 .settings-fields .segments { min-height: 2.75rem; }
 .settings .switch-row { gap: 0.75rem; font-size: 0.875rem; }

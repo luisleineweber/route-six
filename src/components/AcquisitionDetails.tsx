@@ -51,7 +51,7 @@ export function AcquisitionDetails({ id, snapshot, progressPage, onClose, onAdd,
         </details>
       </> : <p role="status">Checking how to get this Pokémon…</p>) : null}
       {progressPage && <details className="data-references"><summary>Sources <ChevronDown className="chevron" size={16} aria-hidden="true" /></summary><p>Sources for {game.game.name}. Last checked: {game.game.review.checkedOn}.</p><ul>{gameReferences(sharedData,game).map(r=><li key={r.id}><a href={r.url} target="_blank" rel="noreferrer">{r.title}</a></li>)}</ul></details>}</div>
-      <div className="dialog-footer"><button className="primary-button" disabled={!canAdd} onClick={()=>{onAdd(id!);onClose();}}><Plus size={17} aria-hidden="true" /> Add {pokemon.name} to team</button></div>
+      <div className="dialog-footer">{!canAdd && <p className="dialog-footer-note">Your team is full.</p>}<button className="primary-button" disabled={!canAdd} onClick={()=>{onAdd(id!);onClose();}}><Plus size={17} aria-hidden="true" /> Add {pokemon.name} to team</button></div>
     </>}
   </dialog>;
 }
