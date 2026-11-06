@@ -8,10 +8,10 @@ describe('validator browser module', () => {
       await server.listen();
       const address = server.httpServer!.address();
       if (!address || typeof address === 'string') throw new Error('Missing test server port');
-      const base = `http://localhost:${address.port}`;
-      const dataset = await (await fetch(`${base}/src/data/validate-dataset.ts`)).text();
+      const base = `http://localhost:${address.port}${server.config.base}`;
+      const dataset = await (await fetch(`${base}src/data/validate-dataset.ts`)).text();
       expect(dataset).toContain('/src/data/compiled-shapes.mjs');
-      const response = await fetch(`${base}/src/data/compiled-shapes.mjs`);
+      const response = await fetch(`${base}src/data/compiled-shapes.mjs`);
       expect(response.ok).toBe(true);
       const module = await response.text();
       // Browsers have no require(), and raw CommonJS files have no ES exports.

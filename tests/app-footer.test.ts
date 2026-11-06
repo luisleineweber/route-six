@@ -60,6 +60,7 @@ it('keeps source credits in a native disclosure with asset attribution and new-t
   expect(html).toContain('href="https://github.com/PokeAPI/sprites"');
   expect(html).toContain('href="https://github.com/partywhale/pokemon-type-icons"');
   expect(html).toContain('href="/types/LICENSE.txt"');
-  expect(html.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(3);
-  expect(html.match(/opens in a new tab/g)).toHaveLength(3);
+  const credits = html.match(/<details class="footer-credits">.*?<\/details>/)![0];
+  expect(credits.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(3);
+  expect(credits.match(/opens in a new tab/g)).toHaveLength(3);
 });
