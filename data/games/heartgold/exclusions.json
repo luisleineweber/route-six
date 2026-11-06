@@ -1,1 +1,1058 @@
-[]
+[
+  {
+    "pokemonId": "abomasnow",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "arceus",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "azelf",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "bastiodon",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "carvanha",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "castform",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "chimchar",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "cradily",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "cranidos",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "cresselia",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "darkrai",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "delcatty",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "delibird",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "deoxys",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "dialga",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "drifblim",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "drifloon",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "empoleon",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "feebas",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "finneon",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "froslass",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "gastrodon",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "gastrodon-east",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "giratina",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "giratina-origin",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "glaceon",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "glalie",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "glameow",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "grotle",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "groudon",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "gulpin",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "heatran",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "infernape",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "jirachi",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "kabuto",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "kabutops",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "kecleon",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "latios",
+    "reason": "external-event",
+    "explanation": "The local encounter needs the Enigma Stone event. This planner does not include event distributions or player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "leafeon",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "ledian",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "ledyba",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "lileep",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "lumineon",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "magnezone",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "manaphy",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "mawile",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "meowth",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "mesprit",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "milotic",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "monferno",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "ninetales",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "palkia",
+    "reason": "external-event",
+    "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "persian",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "phione",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "piplup",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "prinplup",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "probopass",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "purugly",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "rampardos",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "regice",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "regigigas",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "regirock",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "registeel",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "rotom",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "sharpedo",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "shaymin",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "shellos",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "shellos-east",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "shieldon",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "skarmory",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "skitty",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "skuntank",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "snorunt",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "snover",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "spiritomb",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "stunky",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "swalot",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "teddiursa",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "torterra",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "tropius",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "turtwig",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "ursaring",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "uxie",
+    "reason": "other-version",
+    "explanation": "You need to bring this Pokémon from another game. This planner does not include transfers.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "vulpix",
+    "reason": "other-version",
+    "explanation": "You need the other version, SoulSilver, or a transfer. This planner does not include player trades.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "wailmer",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "pokemonId": "wailord",
+    "reason": "external-connection",
+    "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
+    "review": {
+      "referenceIds": [
+        "heartgold-source",
+        "hgss-reviewed-scope"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  }
+]

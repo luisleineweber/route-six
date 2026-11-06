@@ -1,5 +1,10 @@
 # SoulSilver data coverage and blockers
 
+Current status: both planners are active as of 5 November 2026. See
+[the HGSS integration report](hgss-progress-review.md) for the reviewed
+157-milestone graph, nine Johto checkpoints, source coverage and limits.
+The draft constraints below describe earlier work and are superseded by that report.
+
 ## Current app status: 14 October 2026
 
 Team Planner is enabled with 493 reviewed base profiles and 256 regional entries. Type analysis, six team slots, details and PNG export use local data. Progress Planner remains pending. Its acquisition, route, evolution, breeding and form coverage is incomplete. The earlier review below is retained as source history. Current checks take precedence. See [the shared status](generation-456-progress.md).

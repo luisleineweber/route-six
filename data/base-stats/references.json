@@ -12,5 +12,12 @@
     "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/pokemon/species_info.h",
     "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
     "locator": "All 386 species reviewed. The 385 non-Deoxys records match their six base stat fields. The shared Deoxys entry is Normal Forme; Emerald's native Speed Forme uses personal_e, not that shared entry."
+  },
+  {
+    "id": "heartgold-source",
+    "title": "HeartGold and SoulSilver native form base stats",
+    "url": "https://github.com/pret/pokeheartgold/tree/53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
+    "revision": "53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
+    "locator": "files/poketool/personal/personal.json: BURMY, WORMADAM_SANDY, WORMADAM_TRASH, SHELLOS, GASTRODON, GIRATINA_ORIGIN. Reviewed 2026-11-05; Burmy cloaks and Shellos/Gastrodon coasts share their base species stats."
   }
 ]

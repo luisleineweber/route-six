@@ -28,15 +28,14 @@ it('replaces the MVP line with game context, session guidance, and fan attributi
   expect(html).not.toContain('MVP specification');
 });
 
-it('uses the selected game and distinguishes team-only support', () => {
+it('uses the selected game and shows its active planners', () => {
   const heartgold = dataset.games.find(game => game.game.id === 'heartgold')!;
   const html = renderFooter(heartgold);
   expect(html).toContain('Pokémon HeartGold');
   expect(html).toContain(`<dd>${heartgold.profiles.length} species</dd>`);
-  expect(html).toContain('<dd>Team Planner</dd>');
-  expect(html).toContain('Progress planning is not available for this game yet.');
+  expect(html).toContain('Team &amp; Progress');
+  expect(html).not.toContain('Progress planning is not available for this game yet.');
   expect(html).not.toContain('Pokémon Emerald');
-  expect(html).not.toContain('Team &amp; Progress');
 });
 
 it.each([undefined, '', '   '])('shows the project link as coming soon when no URL is configured (%s)', value => {

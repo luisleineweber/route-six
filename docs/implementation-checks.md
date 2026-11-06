@@ -1,5 +1,36 @@
 # MVP implementation checks
 
+## HGSS integration: 5 November 2026
+
+HeartGold and SoulSilver now load in both planners. Each has 157 milestones,
+eight Johto Gym checkpoints and a League checkpoint. The source review,
+coverage and explicit limits are in [the HGSS review](hgss-progress-review.md).
+The focused integration checks pass 48 tests across four files. They include
+version-specific legends, Safari and radio access, optional locations,
+fossils, breeding, forms, the footer and checkpoint selection.
+
+The production build passes data, image, TypeScript and bundle checks.
+The final full test run passes all 811 tests in 82 files (980 seconds).
+The large-chunk warning remains. A first public query took about 40 seconds
+on the local computer. Final full-suite results and screenshots are kept in
+`output/hgss-completion-tests.log` and `output/hgss-release/`.
+
+The usage report was refreshed through the existing report tools. Shared
+JSON imports now count toward each game's logical dataset size. The report
+keeps the earlier measured aggregate separately because current session
+files no longer reproduce all older task counters. It does not add
+overlapping snapshots. Parent and child session use remain separate.
+New costs are unknown. The JSON, CSV files and report check are under
+`output/`; see `hgss-completion-report-check.json`.
+
+Browser checks pass for both games at 1440 and 320 pixels. They load the
+Progress Planner, show Chikorita's current source and keep all loaded images
+valid. No horizontal overflow or page exception occurs. The native browser
+allowed text checks but its screenshot operation timed out. The separate
+native browser host was unavailable. The existing Playwright installation
+and installed Chrome captured the final desktop and phone screens.
+`output/hgss-release/browser-check.json` records the results.
+
 Checked on 7 October 2026. The application implements the confirmed MVP plan.
 The interface uses the clear field guide style confirmed by the user.
 

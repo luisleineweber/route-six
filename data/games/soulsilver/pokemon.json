@@ -9812,7 +9812,55 @@
         "soulsilver-pret-2026-10-13"
       ],
       "checkedOn": "2026-10-13"
-    }
+    },
+    "forms": [
+      {
+        "types": [
+          "bug"
+        ],
+        "spriteSrc": "/pokemon/burmy-sandy.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "bug"
+          ]
+        },
+        "formId": "burmy-sandy",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "types": [
+          "bug"
+        ],
+        "spriteSrc": "/pokemon/burmy-trash.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "bug"
+          ]
+        },
+        "formId": "burmy-trash",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "wormadam",
@@ -9834,7 +9882,55 @@
         "soulsilver-pret-2026-10-13"
       ],
       "checkedOn": "2026-10-13"
-    }
+    },
+    "forms": [
+      {
+        "types": [
+          "bug",
+          "ground"
+        ],
+        "spriteSrc": "/pokemon/wormadam-sandy.png",
+        "genders": [
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "bug"
+          ]
+        },
+        "formId": "wormadam-sandy",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "types": [
+          "bug",
+          "steel"
+        ],
+        "spriteSrc": "/pokemon/wormadam-trash.png",
+        "genders": [
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "bug"
+          ]
+        },
+        "formId": "wormadam-trash",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "mothim",
@@ -10039,7 +10135,33 @@
         "soulsilver-pret-2026-10-13"
       ],
       "checkedOn": "2026-10-13"
-    }
+    },
+    "forms": [
+      {
+        "types": [
+          "water"
+        ],
+        "spriteSrc": "/pokemon/shellos-east.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-1",
+            "amorphous"
+          ]
+        },
+        "formId": "shellos-east",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "gastrodon",
@@ -10063,7 +10185,34 @@
         "soulsilver-pret-2026-10-13"
       ],
       "checkedOn": "2026-10-13"
-    }
+    },
+    "forms": [
+      {
+        "types": [
+          "water",
+          "ground"
+        ],
+        "spriteSrc": "/pokemon/gastrodon-east.png",
+        "genders": [
+          "male",
+          "female"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "water-1",
+            "amorphous"
+          ]
+        },
+        "formId": "gastrodon-east",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "ambipom",
@@ -11514,7 +11663,32 @@
         "soulsilver-pret-2026-10-13"
       ],
       "checkedOn": "2026-10-13"
-    }
+    },
+    "forms": [
+      {
+        "types": [
+          "ghost",
+          "dragon"
+        ],
+        "spriteSrc": "/pokemon/giratina-origin.png",
+        "genders": [
+          "genderless"
+        ],
+        "breeding": {
+          "eggGroupIds": [
+            "undiscovered"
+          ]
+        },
+        "formId": "giratina-origin",
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13",
+            "platinum-form-sprites"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ]
   },
   {
     "pokemonId": "cresselia",

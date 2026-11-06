@@ -2228,5 +2228,17 @@
     "url": "https://www.serebii.net/omegarubyalphasapphire/unobtainable.shtml",
     "revision": "Saved 2026-10-31 in output/source-review/oras-serebii-20261031",
     "locator": "Unobtainable list (242 species) and version exclusives list; compared with the native source, evolution and breeding closure."
+  },
+  {
+    "id": "hgss-reviewed-scope",
+    "title": "HeartGold and SoulSilver native scope cross-check",
+    "url": "https://www.serebii.net/heartgoldsoulsilver/unobtainable.shtml",
+    "locator": "Reviewed 2026-11-05. Compare unobtainable.shtml, exclusives.shtml and pokewalker-pkmn.shtml with the native wild, fixed, fossil, NPC trade, evolution and breeding inventories. Pok?walker, player trades, transfers and event distributions stay outside this planner."
+  },
+  {
+    "id": "hgss-headbutt-paths",
+    "title": "HeartGold and SoulSilver special Headbutt tree approaches",
+    "url": "https://www.serebii.net/heartgoldsoulsilver/headbutt.shtml",
+    "locator": "Specific Trees section, reviewed 2026-11-05. Native tree coordinates: files/arc/headbutt.json at pret revision 53dded53802b237d39fabfd8ee396fe9cdc8aa3e. Cherrygrove needs Surf and Rock Climb; Route 38 uses Rock Climb from Route 39; National Park needs Rock Climb. Route 25 and Pewter need neither move."
   }
 ]

@@ -11,14 +11,19 @@ encounters, progress gates, items, choices, evolutions, and breeding rules.
 
 Both planners support Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire,
 Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, Black, White, Black 2,
-White 2, X, and Y.
+White 2, X, Y, HeartGold, SoulSilver, Omega Ruby, and Alpha Sapphire.
 Emerald remains the default game. See
 [game data status](docs/game-data-progress.md) for coverage and checks.
 
-HeartGold, SoulSilver, Omega Ruby, and Alpha Sapphire support Team Planner.
-Their Progress Planner data remains
-under review. The app shows this limit when you open that view.
-See [Generation IV–VI status](docs/generation-456-progress.md) for the open work.
+All 24 enabled games support both planners. See the
+[HGSS review](docs/hgss-progress-review.md) for the HeartGold and SoulSilver
+scope, source checks, and limits.
+
+## Licence
+
+Original application code uses the [MIT licence](LICENSE).
+[Licence scope and third-party notices](NOTICE.md) explain the exclusions
+for Pokémon art, game logos, datasets and other external material.
 
 ## Run
 
@@ -74,6 +79,10 @@ a new plan. The Progress Planner keeps player trades and external distribution
 events excluded from access. The Team Planner lets you select any game profile.
 
 ## Checks
+
+See [publication checks](docs/publication-checks.md) for the release workflows,
+public repository content and final-host checks. Publication uses the manual
+Publish beta workflow. It does not run on every push.
 
 ```sh
 npm test

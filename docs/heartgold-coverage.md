@@ -1,5 +1,10 @@
 # HeartGold coverage status
 
+Current status: both planners are active as of 5 November 2026. See
+[the HGSS integration report](hgss-progress-review.md) for the reviewed
+157-milestone graph, nine Johto checkpoints, source coverage and limits.
+The draft constraints below describe earlier work and are superseded by that report.
+
 ## Current integration constraints
 
 The older gap list below is historical. Shared identities through 493,

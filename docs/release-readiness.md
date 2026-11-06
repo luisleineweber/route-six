@@ -1,16 +1,15 @@
 # Route Six first beta
 
-Reviewed on 28 October 2026.
+Updated on 5 November 2026.
 
-The app is close to a first beta with its current game support. The four
-games with pending Progress Planner data do not need to block that beta.
-Keep their limits visible. Do not describe all games as complete.
+All 24 enabled games now support both planners. The app is close to a first
+beta. Publication and checks on the final host remain separate release work.
+The [HGSS report](hgss-progress-review.md) records its scope and known limits.
 
 ## Current scope
 
 - Team Planner supports 24 games from Generations I to VI.
-- Progress Planner supports 20 games. The other four games show a message
-  when a player opens Progress Planner.
+- Progress Planner supports the same 24 games.
 - Both views share six team slots. Players can export a PNG.
 - Plans reset on reload. The footer explains this limit. Saving and loading
   a plan is a separate feature, not part of this release change.

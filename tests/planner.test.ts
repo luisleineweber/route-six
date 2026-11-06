@@ -38,13 +38,14 @@ describe('Progress checkpoints', () => {
         || /Badge$/.test(option.title) || /-gym$/.test(option.id);
       const gymOptions = options.filter(isGym);
       const hasVictoryRoad = game.milestones.some(milestone => milestone.id === 'victory-road');
+      const leagueCheckpoint = ['heartgold', 'soulsilver'].includes(game.game.id) ? 'before-league' : 'victory-road';
       expect(gymOptions, game.game.id).toHaveLength(8);
       expect(options.filter(option => !isGym(option)).map(option => option.id), game.game.id)
-        .toEqual(hasVictoryRoad ? ['victory-road'] : []);
+        .toEqual(hasVictoryRoad ? [leagueCheckpoint] : []);
       expect(options).toHaveLength(hasVictoryRoad ? 9 : 8);
-      expect(options.at(-1)?.id, game.game.id).toBe(hasVictoryRoad ? 'victory-road' : gymOptions[7].id);
+      expect(options.at(-1)?.id, game.game.id).toBe(hasVictoryRoad ? leagueCheckpoint : gymOptions[7].id);
       expect(game.game.planner!.defaultMilestoneId, game.game.id)
-        .toBe(hasVictoryRoad ? 'victory-road' : gymOptions[7].id);
+        .toBe(hasVictoryRoad ? leagueCheckpoint : gymOptions[7].id);
     }
   });
 

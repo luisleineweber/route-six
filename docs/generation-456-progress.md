@@ -1,5 +1,10 @@
 # Generation IV–VI data review
 
+Current status, 5 November 2026: all 24 enabled games support both planners.
+HeartGold and SoulSilver are active. See [the HGSS review](hgss-progress-review.md).
+Earlier counts and pending-game notes below are historical.
+
+
 Updated on 27 October 2026. All thirteen games load in Team Planner.
 Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, Y, Omega Ruby
 and Alpha Sapphire also load in Progress Planner. HeartGold and SoulSilver
@@ -209,3 +214,11 @@ pairs that the game can select. The rule candidates have 247 evolution records
 and 234 breeding rules per version. Four unusable location evolutions are
 excluded from those candidates. See [the HGSS work record](hgss-progress-review.md)
 for the source limits and remaining joins. Neither game is Progress ready yet.
+
+
+## HGSS integration: 5 November 2026
+
+HeartGold and SoulSilver now support Progress Planner. All 24 enabled games
+support both planners. The [HGSS report](hgss-progress-review.md) records
+native scope, source checks, special encounters, breeding, and remaining limits.
+Earlier game-count and candidate-status entries in this history are superseded.

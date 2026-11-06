@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "starter-choice",
+    "name": "Johto starter choice",
+    "options": [
+      "starter-chikorita",
+      "starter-cyndaquil",
+      "starter-totodile"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "oak-kanto-starter",
+    "name": "Oak Kanto starter choice",
+    "options": [
+      "oak-kanto-starter-bulbasaur",
+      "oak-kanto-starter-charmander",
+      "oak-kanto-starter-squirtle"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "steven-hoenn-starter",
+    "name": "Steven Hoenn starter choice",
+    "options": [
+      "steven-hoenn-starter-treecko",
+      "steven-hoenn-starter-torchic",
+      "steven-hoenn-starter-mudkip"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

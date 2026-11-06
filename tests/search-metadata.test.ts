@@ -5,7 +5,7 @@ import { crawlFiles, missingReleaseUrls, publicSiteUrl } from '../scripts/search
 import { searchPlugin } from '../scripts/search-plugin';
 import { siteDescription, siteTitle } from '../src/content/site-copy';
 import { gameCatalogue } from '../src/data/game-catalogue';
-import { progressGameLoaders, teamGameLoaders } from '../src/data/game-registry';
+import { progressGameLoaders } from '../src/data/game-registry';
 
 afterEach(() => vi.unstubAllEnvs());
 
@@ -71,7 +71,7 @@ describe('search page output', () => {
     const list = (prefix: string) => summary.split('\n').find(line => line.startsWith(prefix))!
       .slice(prefix.length).replace(/\.$/, '').split(', ').sort();
     expect(list('- Both planners: ')).toEqual(names(Object.keys(progressGameLoaders)));
-    expect(list('- Team Planner only: ')).toEqual(names(Object.keys(teamGameLoaders)));
+    expect(summary).not.toContain('- Team Planner only: ');
     expect(summary).toContain('Plans reset when the page reloads.');
     expect(summary).toContain('unofficial fan project');
   });

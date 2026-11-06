@@ -22,13 +22,10 @@ export const progressGameLoaders: Readonly<Record<string, () => Promise<unknown>
   y: () => import('./games/y').then(module => module.rawGame),
   'omega-ruby': () => import('./games/omega-ruby').then(module => module.rawGame),
   'alpha-sapphire': () => import('./games/alpha-sapphire').then(module => module.rawGame),
-};
-
-export const teamGameLoaders: Readonly<Record<string, () => Promise<unknown>>> = {
   heartgold: () => import('./games/heartgold').then(module => module.rawGame),
   soulsilver: () => import('./games/soulsilver').then(module => module.rawGame),
 };
 
-export const gameLoaders = { ...progressGameLoaders, ...teamGameLoaders };
+export const gameLoaders = progressGameLoaders;
 
 export const defaultGameId = 'emerald';

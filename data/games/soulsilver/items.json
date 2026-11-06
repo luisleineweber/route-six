@@ -1,1 +1,2006 @@
-[]
+[
+  {
+    "id": "old-rod",
+    "name": "Old Rod",
+    "sources": [
+      {
+        "id": "route-32-old-rod",
+        "locationId": "route-32-pokemon-center",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Poké Ball",
+    "sources": [
+      {
+        "id": "cherrygrove-poke-ball-shop",
+        "locationId": "cherrygrove-mart",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm06",
+    "name": "HM06 Rock Smash",
+    "sources": [
+      {
+        "id": "route-36-rock-smash-gift",
+        "locationId": "route-36-east",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm01",
+    "name": "HM01 Cut",
+    "sources": [
+      {
+        "id": "ilex-cut-gift",
+        "locationId": "ilex-forest",
+        "requirements": {
+          "kind": "milestone",
+          "id": "ilex-farfetchd-returned"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "squirtbottle",
+    "name": "SquirtBottle",
+    "sources": [
+      {
+        "id": "goldenrod-squirtbottle",
+        "locationId": "goldenrod-flower-shop",
+        "requirements": {
+          "kind": "milestone",
+          "id": "whitney-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm03",
+    "name": "HM03 Surf",
+    "sources": [
+      {
+        "id": "dance-theater-surf",
+        "locationId": "ecruteak-dance-theater",
+        "requirements": {
+          "kind": "milestone",
+          "id": "dance-theater-rocket-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "secret-potion",
+    "name": "SecretPotion",
+    "sources": [
+      {
+        "id": "cianwood-secret-potion",
+        "locationId": "cianwood-pharmacy",
+        "requirements": {
+          "kind": "milestone",
+          "id": "lighthouse-jasmine-met"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm02",
+    "name": "HM02 Fly",
+    "sources": [
+      {
+        "id": "cianwood-fly-gift",
+        "locationId": "cianwood-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "chuck-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm04",
+    "name": "HM04 Strength",
+    "sources": [
+      {
+        "id": "route-42-strength",
+        "locationId": "route-42-west",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm05",
+    "name": "HM05 Whirlpool",
+    "sources": [
+      {
+        "id": "rocket-hideout-whirlpool",
+        "locationId": "rocket-hideout-b3f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "rocket-hq-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "hm07",
+    "name": "HM07 Waterfall",
+    "sources": [
+      {
+        "id": "ice-path-waterfall",
+        "locationId": "ice-path-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-30"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "silver-wing",
+    "name": "Silver Wing",
+    "sources": [
+      {
+        "id": "radio-tower-silver-wing",
+        "locationId": "radio-tower-takeover",
+        "requirements": {
+          "kind": "milestone",
+          "id": "radio-tower-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "tidal-bell",
+    "name": "Tidal Bell",
+    "sources": [
+      {
+        "id": "tidal-bell-soulsilver-gift",
+        "locationId": "ecruteak-dance-theater",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kimono-girls"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "ss-ticket",
+    "name": "S.S. Ticket",
+    "sources": [
+      {
+        "id": "elm-ss-ticket-gift",
+        "locationId": "elms-lab",
+        "requirements": {
+          "kind": "milestone",
+          "id": "league-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "route-38-lax-incense",
+        "locationId": "route-38",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "luck-incense",
+    "name": "Luck Incense",
+    "sources": [
+      {
+        "id": "vermilion-city-luck-incense",
+        "locationId": "vermilion-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "pokeathlon-kings-rock-sunday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-sunday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "heart-scale",
+    "name": "Heart Scale",
+    "sources": [
+      {
+        "id": "pokeathlon-heart-scale-sunday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-sunday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "pokeathlon-heart-scale-wednesday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-wednesday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-moon-stone-monday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-monday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-moon-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-fire-stone-tuesday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-tuesday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-fire-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-water-stone-wednesday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-wednesday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-water-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "thunderstone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-thunderstone-thursday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-thursday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-thunderstone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "pokeathlon-metal-coat-friday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-friday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-leaf-stone-saturday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-saturday"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-leaf-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-sun-stone-sunday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-sunday"
+            },
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-sun-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-shiny-stone-sunday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-sunday"
+            },
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-shiny-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-dawn-stone-sunday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-sunday"
+            },
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-dawn-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "sources": [
+      {
+        "id": "pokeathlon-dusk-stone-monday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-monday"
+            },
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "contest-first-prize-dusk-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "pokeathlon-dragon-scale-wednesday",
+        "locationId": "pokeathlon-dome",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "pokeathlon-wednesday"
+            },
+            {
+              "kind": "milestone",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "upgrade",
+    "name": "Up-Grade",
+    "sources": [
+      {
+        "id": "silph-guard-upgrade",
+        "locationId": "silph-co",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "machine-part",
+    "name": "Machine Part",
+    "sources": [
+      {
+        "id": "cerulean-gym-machine-part",
+        "locationId": "cerulean-gym",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-24-rocket-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "soulsilver-pret-2026-10-13"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm08",
+    "name": "HM08 Rock Climb",
+    "sources": [
+      {
+        "id": "hm08-native-gift",
+        "locationId": "pallet-oak-lab",
+        "requirements": {
+          "kind": "milestone",
+          "id": "oak-rock-climb-ready"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "native-sea-incense",
+        "locationId": "cerulean-cave-1f",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-sea-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rock-incense",
+    "name": "Rock Incense",
+    "sources": [
+      {
+        "id": "native-rock-incense",
+        "locationId": "diglett-cave",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-rock-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wave-incense",
+    "name": "Wave Incense",
+    "sources": [
+      {
+        "id": "native-wave-incense",
+        "locationId": "route-47",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-wave-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "odd-incense",
+    "name": "Odd Incense",
+    "sources": [
+      {
+        "id": "native-odd-incense",
+        "locationId": "cerulean-cave-2f",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-odd-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "full-incense",
+    "name": "Full Incense",
+    "sources": [
+      {
+        "id": "native-full-incense",
+        "locationId": "mount-mortar-1f-back",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-full-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pure-incense",
+    "name": "Pure Incense",
+    "sources": [
+      {
+        "id": "native-pure-incense",
+        "locationId": "mount-silver-upper-mountainside",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-pure-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rose-incense",
+    "name": "Rose Incense",
+    "sources": [
+      {
+        "id": "native-rose-incense",
+        "locationId": "route-15",
+        "requirements": {
+          "kind": "capability",
+          "id": "path-rose-incense-item"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "basement-key",
+    "name": "Basement Key",
+    "sources": [
+      {
+        "id": "petrel-basement-key",
+        "locationId": "radio-tower-director-office",
+        "requirements": {
+          "kind": "milestone",
+          "id": "radio-petrel-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "card-key",
+    "name": "Card Key",
+    "sources": [
+      {
+        "id": "director-card-key",
+        "locationId": "goldenrod-underground-director",
+        "requirements": {
+          "kind": "milestone",
+          "id": "radio-director-rescued"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "sources": [
+      {
+        "id": "bicycle-gift",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "location",
+          "id": "goldenrod-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Good Rod",
+    "sources": [
+      {
+        "id": "good-rod-gift",
+        "locationId": "olivine-city",
+        "requirements": {
+          "kind": "location",
+          "id": "olivine-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "sources": [
+      {
+        "id": "super-rod-gift",
+        "locationId": "route-12",
+        "requirements": {
+          "kind": "location",
+          "id": "route-12"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "deep-sea-scale-native-ball",
+        "locationId": "route-20",
+        "requirements": {
+          "kind": "location",
+          "id": "route-20"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "deep-sea-tooth-native-ball",
+        "locationId": "route-20",
+        "requirements": {
+          "kind": "location",
+          "id": "route-20"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "sources": [
+      {
+        "id": "magmarizer-native-ball",
+        "locationId": "cinnabar-island",
+        "requirements": {
+          "kind": "location",
+          "id": "cinnabar-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "sources": [
+      {
+        "id": "electirizer-native-ball",
+        "locationId": "cerulean-cave-b1f",
+        "requirements": {
+          "kind": "location",
+          "id": "cerulean-cave-b1f"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "oval-stone",
+    "name": "Oval Stone",
+    "sources": [
+      {
+        "id": "oval-stone-native-ball",
+        "locationId": "rock-tunnel-b1f",
+        "requirements": {
+          "kind": "location",
+          "id": "rock-tunnel-b1f"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      },
+      {
+        "id": "contest-first-prize-oval-stone",
+        "locationId": "national-park-bug-catching-contest",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "bug-contest-first-prize"
+            },
+            {
+              "kind": "capability",
+              "id": "national-dex"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "sources": [
+      {
+        "id": "protector-native-ball",
+        "locationId": "mount-mortar-1f-back",
+        "requirements": {
+          "kind": "location",
+          "id": "mount-mortar-1f-back"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "reaper-cloth",
+    "name": "Reaper Cloth",
+    "sources": [
+      {
+        "id": "reaper-cloth-native-ball",
+        "locationId": "mount-silver",
+        "requirements": {
+          "kind": "location",
+          "id": "mount-silver"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "dubious-disc",
+    "name": "Dubious Disc",
+    "sources": [
+      {
+        "id": "dubious-disc-native-ball",
+        "locationId": "route-42-east",
+        "requirements": {
+          "kind": "location",
+          "id": "route-42-east"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "sources": [
+      {
+        "id": "razor-claw-frontier-exchange",
+        "locationId": "battle-frontier",
+        "requirements": {
+          "kind": "capability",
+          "id": "battle-points-48"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "razor-fang",
+    "name": "Razor Fang",
+    "sources": [
+      {
+        "id": "razor-fang-frontier-exchange",
+        "locationId": "battle-frontier",
+        "requirements": {
+          "kind": "capability",
+          "id": "battle-points-48"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-01"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "rainbow-wing",
+    "name": "Rainbow Wing",
+    "sources": [
+      {
+        "id": "rainbow-wing-soulsilver-gift",
+        "locationId": "pewter-city",
+        "requirements": {
+          "kind": "location",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "red-orb",
+    "name": "Red Orb",
+    "sources": [
+      {
+        "id": "red-orb-soulsilver-gift",
+        "locationId": "mr-pokemons-house",
+        "requirements": {
+          "kind": "capability",
+          "id": "oak-kanto-starter-chosen"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "old-amber-rock-smash",
+        "locationId": "ruins-of-alph",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "dome-fossil-rock-smash",
+        "locationId": "ruins-of-alph",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "root-fossil",
+    "name": "Root Fossil",
+    "sources": [
+      {
+        "id": "root-fossil-rock-smash",
+        "locationId": "cliff-cave",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "heartgold-source"
+          ],
+          "checkedOn": "2026-11-05"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  }
+]

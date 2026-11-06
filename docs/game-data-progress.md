@@ -1,5 +1,10 @@
 # Game data status
 
+Current status, 5 November 2026: all 24 enabled games support both planners.
+HeartGold and SoulSilver are active. See [the HGSS review](hgss-progress-review.md).
+Earlier counts and pending-game notes below are historical.
+
+
 Updated on 27 October 2026. The app now supports 24 Team Planner games and
 20 Progress Planner games. Black, White, Black 2 and White 2 have active
 native offline data. See [Generation IV-VI status](generation-456-progress.md)
@@ -101,3 +106,11 @@ The 21 October Nidoran correction updates the early-game counts above.
 See [the source review](nidoran-breeding-review.md). Earlier check results in
 this file remain dated history. Current full checks are in
 [implementation checks](implementation-checks.md).
+
+
+## HGSS integration: 5 November 2026
+
+HeartGold and SoulSilver now support Progress Planner. All 24 enabled games
+support both planners. The [HGSS report](hgss-progress-review.md) records
+native scope, source checks, special encounters, breeding, and remaining limits.
+Earlier game-count and candidate-status entries in this history are superseded.

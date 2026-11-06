@@ -1,13 +1,13 @@
 # Route Six search setup
 
-Reviewed on 27 October 2026.
+Updated on 6 November 2026.
 
 ## Page purpose
 
 Search title: **Pokémon Team Planner & Playthrough Guide | Route Six**
 
 Description: Build Pokémon teams for 24 games. Check type weaknesses, export
-your team, and find encounters and evolutions in 16 supported playthrough guides.
+your team, and find encounters and evolutions in 24 supported playthrough guides.
 
 The title leads with the task players can do. Route Six remains the site name.
 The title stays the same when a player changes the game or planner view.

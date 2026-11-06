@@ -5,15 +5,15 @@ function conditionText(condition: EncounterCondition): string {
     case 'time': return `Visit during the ${condition.periods.join(' or ')}.`;
     case 'season': return `Visit during ${condition.seasons.join(' or ')}.`;
     case 'weekday': return `Visit on ${condition.day[0].toUpperCase() + condition.day.slice(1)}.`;
-    case 'swarm': return 'Visit this route when the daily swarm report names this species.';
+    case 'swarm': return 'Check the daily Pokémon report on the radio. Visit this place when the report names this Pokémon.';
     case 'funfest': return 'Start Mushrooms’ Hide-and-Seek to restore the fake-item encounters. You can play this native Funfest mission alone.';
     case 'radio': return condition.sound === 'hoenn'
       ? 'Play Hoenn Sound on the Pokégear radio on Wednesday.'
       : 'Play Sinnoh Sound on the Pokégear radio on Thursday.';
     case 'headbutt-tree': return condition.category === 'secret'
-      ? 'Use a secret tree in this area.'
-      : `Use a ${condition.category} tree in this area. Your Trainer ID determines the tree class.`;
-    case 'safari-blocks': return `Arrange the Safari area for at least ${condition.blocks.map(block => `${block.points} ${block.type} points`).join(' and ')}. Aging can increase block points.`;
+      ? 'Use Headbutt on a secret tree here. These trees can have Pokémon that other trees do not have.'
+      : `Use Headbutt on a ${condition.category} tree here. Try other trees if needed. Each tree keeps the same Pokémon group in your game.`;
+    case 'safari-blocks': return `Place objects in this Safari area to reach at least ${condition.blocks.map(block => `${block.points} ${block.type} points`).join(' and ')}. Aging the area can increase the points from each object. You may need to wait many days.`;
     case 'daily': return condition.system === 'great-marsh'
       ? 'This species must be in this area’s daily Great Marsh rotation.'
       : condition.system === 'trophy-garden'

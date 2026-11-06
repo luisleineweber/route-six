@@ -11,8 +11,9 @@ import sources from '../../../data/games/soulsilver/sources.json';
 import breedingRules from '../../../data/games/soulsilver/breeding-rules.json';
 import evolutions from '../../../data/games/soulsilver/evolutions.json';
 import exclusions from '../../../data/games/soulsilver/exclusions.json';
+import formChanges from '../../../data/games/soulsilver/form-changes.json';
 
 export const rawGame: unknown = {
   game, profiles, typeChart, milestones, bosses, locations, capabilities,
-  items, choices, sources, breedingRules, evolutions, exclusions,
+  items, choices, sources, breedingRules, evolutions, exclusions, formChanges,
 };

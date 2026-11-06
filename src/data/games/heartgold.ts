@@ -11,8 +11,9 @@ import sources from '../../../data/games/heartgold/sources.json';
 import breedingRules from '../../../data/games/heartgold/breeding-rules.json';
 import evolutions from '../../../data/games/heartgold/evolutions.json';
 import exclusions from '../../../data/games/heartgold/exclusions.json';
+import formChanges from '../../../data/games/heartgold/form-changes.json';
 
 export const rawGame: unknown = {
   game, profiles, typeChart, milestones, bosses, locations, capabilities,
-  items, choices, sources, breedingRules, evolutions, exclusions,
+  items, choices, sources, breedingRules, evolutions, exclusions, formChanges,
 };

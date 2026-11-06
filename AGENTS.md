@@ -23,3 +23,18 @@ screen, state why and include the after screenshot.
 Run `npm test` and `npm run build` after a domain or data change. Use
 `npm run data:check` for a focused data check. Read `docs/emerald-coverage.md`
 for the route and event list. Use `docs/implementation-checks.md` for the checks.
+
+Before you mark work on any game complete, update
+`output/game-usage-report.html`, the overview of token use and JSON data size
+per game. Apply this rule to every game and to later work on completed games.
+Run `python -I output/measure_project_usage.py`, then
+`python -I output/check_project_usage.py`. They measure every project thread
+for Codex and Claude, price each request by its model, and keep a request
+copied into a forked session once. Add a price to `output/usage_prices.py`
+before you use a new model. Keep earlier measurements and
+include the new work without counting the same session or task twice.
+Record measured token use, current JSON data counts and sizes, and the date
+of the measurement. Keep parent and child task use separate. Mark estimates
+and missing measurements clearly. Do not invent token counts or costs.
+Update the report's existing JSON and CSV files to match. Run the relevant
+report checks and confirm that earlier totals remain present before completion.
