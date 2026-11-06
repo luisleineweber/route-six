@@ -77,7 +77,7 @@
 }
 
 @container catalogue (max-width: 39.999rem) {
-  .pokemon-grid { --screen-columns: 3; }
+  .pokemon-grid { --screen-columns: 3; gap: 0.5rem; }
 }
 
 @media (max-width: 40rem) {
@@ -105,13 +105,13 @@
   .progress-catalogue .access-compact > svg { flex-shrink: 0; }
   .progress-catalogue .access-compact > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .catalogue-card-identity { position: relative; gap: 0; }
-  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.375rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8125rem; }
+  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.5rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8125rem; }
   .catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0; flex-wrap: nowrap; }
-  .catalogue .catalogue-card-identity .type-icon { width: 1.25rem; height: 1.25rem; }
-  .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.625rem; height: 1.25rem; overflow: hidden; }
+  .catalogue .catalogue-card-identity .type-icon { width: 1.125rem; height: 1.125rem; }
+  .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.5625rem; height: 1.125rem; overflow: hidden; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:first-child { border-radius: 50% 0 0 50%; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child { border-radius: 0 50% 50% 0; }
-  .catalogue .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child .type-icon { translate: -0.625rem 0; }
+  .catalogue .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child .type-icon { translate: -0.5625rem 0; }
   /* Very narrow cards need the full line for readable names. */
   @container pokemon-card (max-width: 4rem) {
     .catalogue-card-identity .card-name { width: 100%; }
@@ -127,7 +127,7 @@
   .catalogue-filter-anchor { position: sticky; top: var(--team-bar-height, 0px); z-index: 11; display: flow-root; }
   .catalogue-filter-anchor > .filters { transition: box-shadow 150ms ease-out; }
   /* While pinned, the controls extend the team overview across the viewport and take over its shadow. */
-  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), 0 4px 12px oklch(0 0 0 / 0.06); clip-path: inset(0 -100vmax -1.5rem); }
+  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), 0 10px 20px -12px oklch(0.3 0.01 260 / 0.22); clip-path: inset(0 -100vmax -1.5rem); }
   html:has(.catalogue-filter-anchor[data-stuck]) .team-bar.visible { box-shadow: none; }
   .filters .catalogue-search, .filters .type-filter-controls { min-width: 0; }
   .filters .catalogue-search { grid-column: 1; grid-row: 1; }

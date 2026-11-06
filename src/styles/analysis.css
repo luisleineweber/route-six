@@ -15,7 +15,7 @@
 .defense-immune { background: oklch(0.36 0.07 250); color: white; }
 .defense-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; padding: 0; margin: 0; list-style: none; color: var(--muted); font-size: 0.8125rem; }
 .defense-legend li { display: inline-flex; align-items: center; gap: 0.375rem; }
-.defense-legend .defense-hint { margin-inline-start: auto; }
+.defense-legend .defense-hint { padding-inline-start: 0.5rem; }
 .attack-chart { margin-top: 1.75rem; }
 .attack-chart h3 { display: flex; align-items: baseline; gap: 0.75rem; }
 .coverage-strip { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 0.75rem 0 0; list-style: none; }
@@ -29,5 +29,5 @@
   .defense-type .type-icon { width: 1.5rem; height: 1.5rem; }
   .defense-marks { gap: 2px; }
   .defense-grid .defense-mark { width: 0.875rem; height: 1.375rem; }
-  .defense-legend .defense-hint { margin-inline-start: 0; }
+  .defense-legend .defense-hint { padding-inline-start: 0; }
 }
