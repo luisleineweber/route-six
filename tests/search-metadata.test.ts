@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { build, createServer } from 'vite';
-import { crawlFiles, missingReleaseUrls, publicSiteUrl } from '../scripts/search-assets';
+import { crawlFiles, missingReleaseUrls, publicSiteUrl, searchVerification } from '../scripts/search-assets';
 import { searchPlugin } from '../scripts/search-plugin';
 import { siteDescription, siteTitle } from '../src/content/site-copy';
 import { gameCatalogue } from '../src/data/game-catalogue';
@@ -9,8 +9,9 @@ import { progressGameLoaders } from '../src/data/game-registry';
 
 afterEach(() => vi.unstubAllEnvs());
 
-async function pageHtml(url: string, path = '/') {
+async function pageHtml(url: string, path = '/', verification = '') {
   vi.stubEnv('SITE_URL', url);
+  vi.stubEnv('GOOGLE_SITE_VERIFICATION', verification);
   const server = await createServer({ configFile: false, plugins: [searchPlugin()],
     optimizeDeps: { noDiscovery: true, include: [] }, server: { middlewareMode: true } });
   try {
@@ -135,6 +136,17 @@ describe('search page output', () => {
       .find(asset => asset.fileName === 'index.html');
     expect(index?.type === 'asset' && String(index.source)).toContain('href="/route-six/favicon.svg"');
   }, 20_000);
+
+  it('adds the Search Console verification tag only when a token is set', async () => {
+    const token = 'aB3_dE5-fG7hI9jK1lM3nO5pQ7rS9tU1vW3xY5zA7bC';
+    expect(await pageHtml('')).not.toContain('google-site-verification');
+    expect(await pageHtml('', '/', token)).toContain(`name="google-site-verification" content="${token}"`);
+  });
+
+  it.each(['<meta name="google-site-verification" content="abc">', 'short', 'token with spaces in the middle'])(
+    'rejects a verification value that is not a token (%s)', input => {
+      expect(searchVerification(input).ok).toBe(false);
+    });
 
   it('reports each unset public URL for a release build', () => {
     expect(missingReleaseUrls({})).toEqual([

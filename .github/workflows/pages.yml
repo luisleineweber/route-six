@@ -13,6 +13,8 @@ jobs:
     env:
       SITE_URL: https://luisleineweber.github.io/route-six/
       VITE_SITE_URL: https://luisleineweber.github.io/route-six/
+      # Repository variable with the Search Console meta tag content value.
+      GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
