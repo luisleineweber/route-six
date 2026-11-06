@@ -16,6 +16,15 @@ white. Mark the active planner with a white background and dark text. Keep
 hover and focus states clear on the dark header. Pair each status colour with
 a name and an icon. Type colours come only from the type logos.
 
+Follow the system colour scheme. Each game sets only a hue and a chroma. The
+stylesheet sets the lightness for each theme. In the dark theme, keep the
+surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
+Keep the header and primary actions in the dark game colour with white text.
+Use a light tone of the game colour (lightness 0.8) for links, focus, and
+selection lines. Mark the active planner with the page background and light
+text. Use light status colours on dark tint surfaces. In the defense chart, give
+the strongest effect the brightest mark. PNG exports stay light.
+
 ## Type
 
 Use Segoe UI Variable or Segoe UI with a system font fallback. Use one family

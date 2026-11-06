@@ -6,7 +6,7 @@
 .add-button .added-icon, .pokemon-added .add-icon { opacity: 0; }
 .pokemon-added .added-icon { opacity: 1; }
 .pokemon-card.pokemon-added { z-index: 3; }
-.pokemon-added .add-button { background: var(--accent); color: white; opacity: 1; }
+.pokemon-added .add-button { background: var(--accent); color: var(--on-accent); opacity: 1; }
 .team-catalogue .pokemon-added .add-button,
 .team-catalogue .pokemon-added:is(:hover, :focus-within) .add-button:disabled { opacity: 1; }
 

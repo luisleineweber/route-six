@@ -12,7 +12,7 @@
 @import './styles/footer.css';
 
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
 
   /* Surfaces: groups are told apart by tone and space, not by lines. */
   --bg: oklch(0.985 0 0);
@@ -24,12 +24,18 @@
   --muted: oklch(0.47 0 0);
   --control-line: oklch(0.62 0 0);
 
-  /* The selected game sets the accent for the header, actions, and selection. */
-  --accent: oklch(0.43 0.11 155);
+  /* The selected game sets hue and chroma. Each theme derives its accent roles from them. */
+  --game-hue: 155;
+  --game-chroma: 0.11;
+  --accent: oklch(0.43 var(--game-chroma) var(--game-hue));
   --accent-hover: color-mix(in oklch, var(--accent) 85%, black);
   --accent-tint: color-mix(in oklch, var(--accent) 10%, white);
   --accent-ink: var(--accent-hover);
+  --accent-line: var(--accent);
+  --on-accent: white;
   --focus: var(--accent);
+  --nav-selected-bg: white;
+  --nav-selected-ink: var(--accent-ink);
 
   --ok: oklch(0.45 0.11 155);
   --later: oklch(0.48 0.1 70);
@@ -39,11 +45,61 @@
   --danger-bg: oklch(0.957 0.032 28);
   --danger-ink: oklch(0.42 0.14 28);
 
+  --defense-weak: oklch(0.87 0.07 28);
+  --defense-resist: oklch(0.88 0.045 240);
+  --defense-immune: oklch(0.35 0.06 240);
+
   --radius-control: 0.5rem;
   --radius-tile: 1rem;
   --shadow-ring: 0 0 0 1px oklch(0 0 0 / 0.07), 0 1px 2px -1px oklch(0 0 0 / 0.07), 0 2px 4px oklch(0 0 0 / 0.04);
+  --shadow-ring-hover: 0 0 0 1px oklch(0 0 0 / 0.12), 0 1px 2px -1px oklch(0 0 0 / 0.1), 0 4px 10px oklch(0 0 0 / 0.07);
+  --shadow-popover: 0 0 0 1px oklch(0 0 0 / 0.07), 0 0.5rem 1rem oklch(0 0 0 / 0.06), 0 1.5rem 3.5rem oklch(0 0 0 / 0.14);
+  --dialog-shadow: oklch(0.2 0.03 160 / 0.22);
+  --backdrop: oklch(0.22 0.025 160 / 0.5);
   --page-width: 84rem;
   --page-gap: 3rem;
+}
+
+/* Dark surfaces stay neutral. Accent text and lines use a light tone of the game colour. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0.17 0 0);
+    --surface: oklch(0.21 0 0);
+    --tile: oklch(0.25 0 0);
+    --tile-hover: oklch(0.29 0 0);
+
+    --ink: oklch(0.93 0 0);
+    --muted: oklch(0.72 0 0);
+    --control-line: oklch(0.58 0 0);
+
+    --accent: oklch(0.45 var(--game-chroma) var(--game-hue));
+    /* A direct value: mixing with achromatic grey in OKLCH pulls the hue to red. */
+    --accent-tint: oklch(0.28 calc(var(--game-chroma) * 0.35) var(--game-hue));
+    --accent-ink: oklch(0.8 calc(var(--game-chroma) * 0.7) var(--game-hue));
+    --accent-line: var(--accent-ink);
+    --focus: var(--accent-ink);
+    --nav-selected-bg: var(--bg);
+    --nav-selected-ink: var(--ink);
+
+    --ok: oklch(0.78 0.12 155);
+    --later: oklch(0.8 0.11 75);
+    --blocked: oklch(0.74 0.14 30);
+    --warning-bg: oklch(0.3 0.05 80);
+    --warning-ink: oklch(0.86 0.1 85);
+    --danger-bg: oklch(0.3 0.06 28);
+    --danger-ink: oklch(0.82 0.1 28);
+
+    /* Brightest mark for the strongest effect, as in the light theme. */
+    --defense-weak: oklch(0.6 0.14 28);
+    --defense-resist: oklch(0.56 0.08 240);
+    --defense-immune: oklch(0.86 0.06 240);
+
+    --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
+    --shadow-ring-hover: 0 0 0 1px oklch(1 0 0 / 0.16), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 4px 10px oklch(0 0 0 / 0.4);
+    --shadow-popover: 0 0 0 1px oklch(1 0 0 / 0.1), 0 0.5rem 1rem oklch(0 0 0 / 0.3), 0 1.5rem 3.5rem oklch(0 0 0 / 0.5);
+    --dialog-shadow: oklch(0 0 0 / 0.5);
+    --backdrop: oklch(0 0 0 / 0.6);
+  }
 }
 
 * { box-sizing: border-box; }
@@ -67,7 +123,7 @@ h3 { font-size: 1rem; line-height: 1.3; font-weight: 600; }
 h4 { font-size: 0.9375rem; font-weight: 600; }
 p { text-wrap: pretty; max-width: 68ch; }
 ul, ol { margin: 0; padding-inline-start: 1.25rem; }
-::selection { background: var(--accent); color: white; }
+::selection { background: var(--accent); color: var(--on-accent); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .small { font-size: 0.8125rem; }
 .muted { color: var(--muted); }
