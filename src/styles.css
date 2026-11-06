@@ -15,14 +15,14 @@
   color-scheme: light;
 
   /* Surfaces: groups are told apart by tone and space, not by lines. */
-  --bg: oklch(0.985 0 0);
+  --bg: oklch(0.975 0.003 95);
   --surface: oklch(1 0 0);
-  --tile: oklch(0.955 0 0);
-  --tile-hover: oklch(0.932 0 0);
+  --tile: oklch(0.958 0.004 95);
+  --tile-hover: oklch(0.936 0.005 95);
 
-  --ink: oklch(0.25 0 0);
-  --muted: oklch(0.47 0 0);
-  --control-line: oklch(0.62 0 0);
+  --ink: oklch(0.24 0.008 260);
+  --muted: oklch(0.47 0.008 260);
+  --control-line: oklch(0.6 0.008 260);
 
   /* The selected game sets the accent for the header, actions, and selection. */
   --accent: oklch(0.43 0.11 155);
@@ -39,9 +39,10 @@
   --danger-bg: oklch(0.957 0.032 28);
   --danger-ink: oklch(0.42 0.14 28);
 
-  --radius-control: 0.5rem;
+  --radius-control: 0.625rem;
   --radius-tile: 1rem;
-  --shadow-ring: 0 0 0 1px oklch(0 0 0 / 0.07), 0 1px 2px -1px oklch(0 0 0 / 0.07), 0 2px 4px oklch(0 0 0 / 0.04);
+  --shadow-ring: 0 0 0 1px oklch(0.3 0.01 260 / 0.07), 0 1px 2px oklch(0.3 0.01 260 / 0.05), 0 2px 6px oklch(0.3 0.01 260 / 0.04);
+  --shadow-raised: 0 0 0 1px oklch(0.3 0.01 260 / 0.08), 0 2px 4px oklch(0.3 0.01 260 / 0.06), 0 8px 20px oklch(0.3 0.01 260 / 0.08);
   --page-width: 84rem;
   --page-gap: 3rem;
 }

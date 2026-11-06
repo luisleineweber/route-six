@@ -1,13 +1,15 @@
 .acquisition-dialog { width: min(42rem, calc(100% - 1rem)); max-width: calc(100% - 1rem); max-height: min(90dvh, 56rem); padding: 0; border: 0; border-radius: 1.25rem; overflow: hidden; background: var(--surface); color: var(--ink); box-shadow: 0 24px 80px oklch(0.2 0.03 160 / 0.22), var(--shadow-ring); }
 .acquisition-dialog[open] { display: flex; flex-direction: column; }
 .acquisition-dialog::backdrop { background: oklch(0.22 0.025 160 / 0.5); }
-.dialog-head { display: flex; flex-shrink: 0; align-items: center; gap: 1.25rem; padding: 1.5rem; background: var(--tile); }
+.dialog-head { display: flex; flex-shrink: 0; align-items: center; gap: 1.25rem; padding: 1.5rem; background: var(--tile); background-image: linear-gradient(135deg, color-mix(in oklch, var(--tint-a) 35%, white), color-mix(in oklch, var(--tint-b) 35%, white)); }
 .dialog-head .pokemon-sprite { flex-shrink: 0; }
-.dialog-head > .icon-button { align-self: flex-start; }
+.dialog-head > .icon-button { align-self: flex-start; background: oklch(1 0 0 / 0.6); color: var(--ink); }
+.dialog-head > .icon-button:hover:not(:disabled) { background: var(--surface); }
+.dialog-title .dex-number { color: var(--ink); opacity: 0.75; }
 .dialog-title { display: grid; flex: 1; gap: 0.375rem; justify-items: start; min-width: 0; }
 .dialog-title h2 { font-size: 2rem; line-height: 1.15; letter-spacing: -0.02em; }
 .dialog-title .dex-number { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin-top: 0.25rem; }
-.dialog-title .type-badge { padding: 0.375rem 0.625rem; border-radius: var(--radius-control); background: var(--surface); }
+.dialog-title .type-badge { padding: 0.375rem 0.625rem; border-radius: 999px; background: oklch(1 0 0 / 0.85); }
 .dialog-title .type-list { justify-content: flex-start; margin-top: 0.25rem; }
 
 .dialog-content { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 1.5rem 1.5rem 0.5rem; scrollbar-width: thin; scrollbar-color: var(--control-line) transparent; scrollbar-gutter: stable; }

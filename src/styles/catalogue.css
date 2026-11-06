@@ -16,7 +16,7 @@
 @container (min-width: 40rem) { .pokemon-grid { --screen-columns: 6; } }
 @container (min-width: 54rem) { .pokemon-grid { --screen-columns: 9; } }
 
-.pokemon-card { container: pokemon-card / inline-size; position: relative; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; min-width: 0; padding: 3.25rem 0.5rem 1rem; border-radius: var(--radius-tile); background: var(--tile); text-align: center; transition: background-color 150ms ease-out; }
+.pokemon-card { container: pokemon-card / inline-size; position: relative; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; min-width: 0; padding: 2.5rem 0.625rem 1rem; border-radius: var(--radius-tile); background: var(--tile); text-align: center; transition: background-color 150ms ease-out; }
 .pokemon-card:not(.skeleton):hover { background: var(--tile-hover); }
 .card-identity { width: 100%; }
 .catalogue-card-identity { display: flex; flex-direction: column; gap: 0.5rem; width: 100%; min-width: 0; }
@@ -43,11 +43,13 @@
 .team-catalogue .joined-types .type-badge:first-child { border-radius: 50% 0 0 50%; }
 .team-catalogue .joined-types .type-badge:last-child { border-radius: 0 50% 50% 0; }
 .team-catalogue .joined-types .type-badge:last-child .type-icon { translate: -12px 0; }
-.team-catalogue .add-button { inset-block-start: -0.5rem; inset-inline-end: -0.5rem; z-index: 2; opacity: 0; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
-.team-catalogue .pokemon-card:hover .add-button,
-.team-catalogue .pokemon-card:has(:focus-visible) .add-button { opacity: 1; }
-.team-catalogue .pokemon-card:is(:hover, :has(:focus-visible)) .add-button:disabled { opacity: 0.45; }
-@media (hover: none), (pointer: coarse) { .team-catalogue .add-button { opacity: 1; } }
+.team-catalogue .add-button { inset-block-start: -0.5rem; inset-inline-end: -0.5rem; z-index: 2; }
+@media (hover: hover) and (pointer: fine) {
+  .pokemon-card .add-button { opacity: 0; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
+  .pokemon-card:hover .add-button,
+  .pokemon-card:has(:focus-visible) .add-button { opacity: 1; }
+  .pokemon-card:is(:hover, :has(:focus-visible)) .add-button:disabled { opacity: 0.45; }
+}
 @media (prefers-reduced-motion: no-preference) {
   .team-catalogue .pokemon-sprite { transition: translate 150ms ease-out; }
   .team-catalogue .pokemon-card:is(:hover, :has(:focus-visible)) .pokemon-sprite { translate: 0 -3px; }
@@ -79,6 +81,9 @@
 }
 
 @media (max-width: 40rem) {
+  .type-filter { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); justify-items: center; gap: 0.25rem; }
+  .type-filter .type-toggle { width: 100%; max-width: 2.75rem; }
+  .type-filter .type-icon { width: 100%; height: auto; aspect-ratio: 1; }
   .filters .catalogue-search { order: 0; }
   .filters > .chip-row { order: 1; }
   .filters .type-filter-controls { order: 2; }
