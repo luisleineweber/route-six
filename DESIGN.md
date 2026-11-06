@@ -43,6 +43,16 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
 ## Layout
 
 The Team Planner shows team slots, type analysis, and a simple catalogue.
+
+The Full Game view uses the shared team as the final League team. Below it,
+show eight Gym teams and the League team. Pair each member's status with text
+and an icon. Show earlier evolution stages and missing members. Each Gym has
+an Edit team disclosure with six native selection controls for temporary
+members. Use six cards per stage on wide screens, three at medium widths,
+and two on phones. Keep each stage's controls inside its section. The final
+team catalogue stays below the stages. State that checks apply to each team
+separately until checks across stages are complete.
+
 Keep progress settings, access status, sources, and level limits in the
 Progress Planner. Start the Progress Planner at Victory Road with the Current
 progress target. Keep the team and progress settings when the view changes.
