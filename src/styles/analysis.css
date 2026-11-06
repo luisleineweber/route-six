@@ -20,7 +20,8 @@
 .attack-chart h3 { display: flex; align-items: baseline; gap: 0.75rem; }
 .coverage-strip { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 0.75rem 0 0; list-style: none; }
 .coverage-strip li { line-height: 0; }
-.coverage-strip .uncovered { opacity: 0.3; filter: grayscale(1); }
+.coverage-strip .uncovered { opacity: 0.4; filter: grayscale(1); }
+.coverage-gaps { margin-top: 0.625rem; color: var(--muted); font-size: 0.8125rem; }
 .analysis-note { margin-top: 1rem; color: var(--muted); font-size: 0.8125rem; }
 @media (max-width: 40rem) {
   .analysis { padding: 1rem 1rem 1.25rem; }

@@ -45,6 +45,7 @@ export function TypeAnalysis({ team }: { team: (string | null)[] }) {
       <div className="attack-chart"><h3>Attack coverage <span className="count">{covered.size} / {analysis.totalTypes}</span></h3>
         <ul className="coverage-strip">{game.typeChart.typeIds.map(type => <li key={type} className={covered.has(type) ? 'covered' : 'uncovered'} title={`${typeName(type)}: ${covered.has(type) ? 'covered' : 'not covered'}`}>
           <TypeIcon type={type} size={28} /><span className="sr-only">{typeName(type)}: {covered.has(type) ? 'covered' : 'not covered'}</span></li>)}</ul>
+        {covered.size < analysis.totalTypes && <p className="coverage-gaps" aria-hidden="true">Not covered: {game.typeChart.typeIds.filter(type => !covered.has(type)).map(typeName).join(', ')}</p>}
       </div>
       <p className="analysis-note">Types only. Abilities, items, and moves are not included.</p>
     </>}

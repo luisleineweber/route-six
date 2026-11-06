@@ -47,8 +47,8 @@ Keep progress settings, access status, sources, and level limits in the
 Progress Planner. Start the Progress Planner at Victory Road with the Current
 progress target. Keep the team and progress settings when the view changes.
 
-Show Progress Planner settings in a top bar before the team slots and
-catalogue. Wrap controls into rows on narrow screens. Both modes use the full
+Show Progress Planner settings in a top bar below the page heading and before
+the team slots and catalogue. Wrap controls into rows on narrow screens. Both modes use the full
 content width. Use only the eight Gym checkpoints, then Victory Road, in one
 flat list for every game. If a game has no Victory Road milestone, show only
 its eight Gyms. Start at Victory Road when it exists; otherwise start at Gym 8.

@@ -84,6 +84,7 @@ main { min-width: 0; outline: none; }
 main > * + * { margin-top: var(--page-gap); }
 main > .section-heading:first-child { margin-bottom: 1.25rem; }
 main > .section-heading:first-child + * { margin-top: 0; }
+main > .settings + * { margin-top: 2rem; }
 main > .error-message { margin-top: 0; margin-bottom: 1.25rem; }
 main > .error-message + * { margin-top: 0; }
 
