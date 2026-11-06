@@ -6,9 +6,11 @@ import { pathSignature, type ProofPath } from '../proofs';
 import { leaves } from '../requirements';
 import { pokemonSelections, selectionId } from '../pokemon-selection';
 import { isExclusionBlocker } from './exclusions';
+import { fullGameStages } from './full-game-stages';
 
 const contexts = new WeakMap<GameData, Map<string, AccessContext>>();
 const relevantIds = new WeakMap<GameData, Set<string>>();
+const stageGames = new WeakMap<GameData, GameData>();
 function context(game: GameData, milestoneId: string, limit: boolean, history: Set<string> = new Set()): AccessContext {
   let cache = contexts.get(game);
   if (!cache) { cache = new Map(); contexts.set(game, cache); }
@@ -114,5 +116,41 @@ export function getAvailability(data: Dataset, query: AvailabilityQuery): Result
   }
   for (const path of Object.values(snapshot.paths)) path.breedingSteps = path.breedingSteps.map(step => ({ ...step,
     parents: step.parents.map(parent => ({ ...parent, pathId: aliases.get(parent.pathId) ?? parent.pathId })) as typeof step.parents }));
+  return { ok: true, value: snapshot };
+}
+
+/** Check possible access before one Gym or League entry, with that battle's cap. */
+export function getStageAvailability(data: Dataset, query: AvailabilityQuery): Result<AvailabilitySnapshot, QueryError> {
+  const game = data.games.find(game => game.game.id === query.gameId);
+  if (!game) return { ok: false, error: { code: 'unknown-game', gameId: query.gameId } };
+  if (!game.game.planner) return { ok: false, error: { code: 'progress-not-ready', gameId: query.gameId } };
+  const stages = fullGameStages(game);
+  const stage = stages.find(stage => stage.milestoneId === query.milestoneId);
+  if (!stage) return { ok: false, error: { code: 'unknown-milestone', milestoneId: query.milestoneId } };
+  let stageGame = stageGames.get(game);
+  if (!stageGame) {
+    stageGame = { ...game, milestones: [...game.milestones, ...stages.map(point => ({
+      ...game.milestones.find(milestone => milestone.id === point.milestoneId)!,
+      id: `before-battle:${point.id}`, previousIds: [point.milestoneId], nextBossId: point.bossId,
+    }))] };
+    stageGames.set(game, stageGame);
+  }
+  const atStage = (point: typeof stage) => context(stageGame!, `before-battle:${point.id}`, query.respectLevelLimit, new Set(point.reachedIds));
+  const current = atStage(stage);
+  const snapshot: AvailabilitySnapshot = { query, levelLimit: { bossId: stage.bossId, level: stage.level },
+    entries: {}, paths: {}, choiceGroups: game.choices, resourceLimits: limitsFor(game) };
+  // A lower later cap must not remove an animal obtained at an earlier stage.
+  const earlier = query.respectLevelLimit ? stages.slice(0, stages.indexOf(stage)).filter(point => point.level > stage.level)
+    .map(atStage) : [];
+  for (const profile of pokemonSelections(game)) {
+    const id = selectionId(profile.pokemonId, profile.formId);
+    const paths = [current, ...earlier].flatMap(point => point.paths.get(id) ?? []);
+    const blockers = paths.length ? [] : pokemonBlockers(game, current, id);
+    // Stage contexts prove current access, not the first real acquisition point.
+    for (const path of paths) snapshot.paths[path.id] = { ...path, firstMilestoneIds: [] };
+    snapshot.entries[id] = { pokemonId: profile.pokemonId,
+      status: paths.length ? 'available' : blockers.some(isExclusionBlocker) ? 'unavailable' : 'blocked',
+      currentPathIds: paths.map(path => path.id), futurePathIds: [], firstMilestoneIds: [], blockers };
+  }
   return { ok: true, value: snapshot };
 }

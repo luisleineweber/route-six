@@ -41,6 +41,15 @@ beforeEach(() => { vi.useFakeTimers(); });
 afterEach(() => { vi.clearAllTimers(); vi.useRealTimers(); });
 
 describe('Game-change undo', () => {
+  it('restores stage teams when undoing a game change', async () => {
+    const h = setup();
+    h.state().stageOverrides = { 'gym-1': { 0: 'ralts', 1: null } };
+    const before = structuredClone(h.state());
+    await h.select('ruby');
+    expect(h.state().stageOverrides).toEqual({});
+    expect(h.undo()).toBe(true);
+    expect(h.state()).toEqual(before);
+  });
   it('switches directly, clears the team, and keeps shared settings', async () => {
     const h = setup();
     await h.select('ruby');

@@ -1,12 +1,13 @@
-import { Compass, Users } from 'lucide-react';
+import { Compass, Route, Users } from 'lucide-react';
 import { GameSelector } from './GameSelector';
 import { RouteSixMark } from './RouteSixMark';
 
-export type PlannerPage = 'team' | 'progress';
+export type PlannerPage = 'team' | 'progress' | 'full-game';
 
 const pages = [
   { id: 'team', name: 'Team Planner', description: 'Your six Pokémon and their types', Icon: Users },
   { id: 'progress', name: 'Progress Planner', description: 'Where and when to find your team', Icon: Compass },
+  { id: 'full-game', name: 'Full Game', description: 'Build each team toward the League', Icon: Route },
 ] as const;
 
 export function AppHeader({ gameId, onGameChange, page, onPageChange }: {

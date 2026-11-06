@@ -727,3 +727,31 @@ Release stays blocked until a deployed build is checked at that address.
 All 763 tests pass in 77 files. `npx tsc -b` and `npx vite build` pass.
 Axe WCAG A/AA reports zero violations at 1440 and 320 pixels, with and
 without the dialog. Evidence and screenshots are in `output/release-blockers/`.
+
+## Full Game first layer: 28 October 2026
+
+The new Full Game view uses the shared six slots as the final League team.
+It shows eight Gym teams and a League entry team for games with reviewed
+progress data. Each Gym uses an available final member or an earlier evolution
+stage. Players can select temporary members for each Gym. Source choices and
+finite resource checks apply to each team. Checks between stages remain open.
+See [Full Game scope](full-game-planner.md).
+
+The full `npm test` run passes all 67 test files. The focused Full Game and
+game-selection run passes 25 tests. The checks cover pre-battle access,
+optional areas, level limits, lower later limits, post-game exclusions,
+evolution branches, source conflicts, temporary members, and game changes.
+The production build passes data, local image, TypeScript, Vite, and document
+copy checks. The existing large data chunk warning remains.
+
+Production browser checks confirm nine stages, one Full Game section after
+team changes, six temporary team slots, shared final team state, and edits
+that survive view changes. A second starter causes a visible source conflict.
+The level switch changes earlier evolution stages. Escape closes access
+details and returns focus to the opening control.
+
+Desktop and 320-pixel browser checks report no page overflow. The phone stage
+editor opens with Enter. Axe WCAG A/AA checks report zero violations on
+desktop, on the phone layout, and in the phone stage editor. The browser
+reports no page errors or console errors. Screenshots, the browser report,
+and the local verification script are in `output/full-game/`.
