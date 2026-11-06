@@ -13,6 +13,16 @@ export function publicSiteUrl(value: string | undefined):
   return { ok: true, url: url.href };
 }
 
+export function searchVerification(value: string | undefined):
+  { ok: true; token: string | null } | { ok: false; error: string } {
+  if (!value?.trim()) return { ok: true, token: null };
+  // Search Console shows a meta tag. Only its content value belongs here.
+  if (!/^[A-Za-z0-9_-]{20,128}$/.test(value.trim())) {
+    return { ok: false, error: 'GOOGLE_SITE_VERIFICATION must be only the content value of the Search Console meta tag.' };
+  }
+  return { ok: true, token: value.trim() };
+}
+
 const releaseUrls = [
   ['SITE_URL', 'Canonical URL, site structured data, and sitemap are omitted.'],
   ['VITE_SITE_URL', 'The footer site link and PNG site address are omitted.'],
@@ -23,7 +33,7 @@ export function missingReleaseUrls(env: Record<string, string | undefined>) {
     .map(([name, effect]) => `${name} is not set. ${effect} Set it before publication.`);
 }
 
-export function searchTags(siteUrl: string | null): HtmlTagDescriptor[] {
+export function searchTags(siteUrl: string | null, verification: string | null = null): HtmlTagDescriptor[] {
   const meta = (name: string, content: string): HtmlTagDescriptor => ({ tag: 'meta', attrs: { name, content } });
   const og = (property: string, content: string): HtmlTagDescriptor => ({ tag: 'meta', attrs: { property, content } });
   const tags: HtmlTagDescriptor[] = [
@@ -34,6 +44,7 @@ export function searchTags(siteUrl: string | null): HtmlTagDescriptor[] {
     meta('twitter:card', 'summary'), meta('twitter:title', siteTitle), meta('twitter:description', siteDescription),
     { tag: 'link', attrs: { rel: 'help', type: 'text/plain', href: siteUrl ? `${new URL(siteUrl).pathname}llms.txt` : '/llms.txt', title: 'Route Six features and game support' } },
   ];
+  if (verification) tags.push(meta('google-site-verification', verification));
   if (siteUrl) {
     tags.push(
       { tag: 'link', attrs: { rel: 'canonical', href: siteUrl } },
@@ -47,7 +58,7 @@ export function searchTags(siteUrl: string | null): HtmlTagDescriptor[] {
             operatingSystem: 'Any', isAccessibleForFree: true,
             browserRequirements: 'Requires JavaScript for the interactive planner.',
             featureList: ['Six Pokémon team slots', 'Game-specific type analysis', 'PNG team export',
-              'Encounter locations and evolution requirements in 16 supported games'],
+              'Encounter locations and evolution requirements in 24 supported games'],
           },
         ],
       }).replaceAll('<', '\\u003c') },

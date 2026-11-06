@@ -73,10 +73,28 @@ not have separate URLs. The structured data has no ratings or review claims.
 
 ## After publication
 
-1. Check the public HTML, canonical URL, `robots.txt`, and `sitemap.xml`.
-2. Verify the site in Google Search Console and submit the sitemap.
-3. Use URL Inspection to check the rendered home page and request indexing.
-4. Check search terms, impressions, and clicks after Google processes the site.
+1. Check the public HTML, canonical URL, and `sitemap.xml`:
+   `npx tsx scripts/check-host.ts https://luisleineweber.github.io/route-six/`
+   after `npm run build` with the release values.
+2. In Google Search Console, add a **URL prefix** property for
+   `https://luisleineweber.github.io/route-six/`. A domain property is not
+   possible, because `github.io` DNS is not under project control.
+3. Select the **HTML tag** method. Copy only the `content` value of the tag.
+4. Save the value as a repository variable and publish again:
+
+   ```sh
+   gh variable set GOOGLE_SITE_VERIFICATION -R luisleineweber/route-six --body "<content value>"
+   gh workflow run pages.yml -R luisleineweber/route-six
+   ```
+
+   The build writes `<meta name="google-site-verification">` into the home
+   page head. A value that is not a plain token stops the build. Without the
+   variable, the build writes no tag.
+5. After the deployment, select **Verify** in Search Console. Keep the
+   variable: Google checks the tag again later.
+6. Submit `sitemap.xml` in **Sitemaps**.
+7. Use URL Inspection to check the rendered home page and request indexing.
+8. Check search terms, impressions, and clicks after Google processes the site.
    Use those results to improve the page text.
 
 Google chooses the final search title and snippet. These changes give it clear
