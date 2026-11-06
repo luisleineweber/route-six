@@ -1,6 +1,6 @@
-.acquisition-dialog { width: min(42rem, calc(100% - 1rem)); max-width: calc(100% - 1rem); max-height: min(90dvh, 56rem); padding: 0; border: 0; border-radius: 1.25rem; overflow: hidden; background: var(--surface); color: var(--ink); box-shadow: 0 24px 80px oklch(0.2 0.03 160 / 0.22), var(--shadow-ring); }
+.acquisition-dialog { width: min(42rem, calc(100% - 1rem)); max-width: calc(100% - 1rem); max-height: min(90dvh, 56rem); padding: 0; border: 0; border-radius: 1.25rem; overflow: hidden; background: var(--surface); color: var(--ink); box-shadow: 0 24px 80px var(--dialog-shadow), var(--shadow-ring); }
 .acquisition-dialog[open] { display: flex; flex-direction: column; }
-.acquisition-dialog::backdrop { background: oklch(0.22 0.025 160 / 0.5); }
+.acquisition-dialog::backdrop { background: var(--backdrop); }
 .dialog-head { display: flex; flex-shrink: 0; align-items: center; gap: 1.25rem; padding: 1.5rem; background: var(--tile); }
 .dialog-head .pokemon-sprite { flex-shrink: 0; }
 .dialog-head > .icon-button { align-self: flex-start; }
