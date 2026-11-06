@@ -9,9 +9,9 @@
 .defense-marks { display: flex; gap: 3px; }
 .defense-mark { display: inline-flex; flex-shrink: 0; width: 9px; height: 24px; border-radius: 2px; background: var(--tile-hover); }
 .defense-empty { background: var(--tile); }
-.defense-weak { background: oklch(0.87 0.07 28); }
-.defense-resist { background: oklch(0.88 0.045 240); }
-.defense-immune { background: oklch(0.35 0.06 240); }
+.defense-weak { background: var(--defense-weak); }
+.defense-resist { background: var(--defense-resist); }
+.defense-immune { background: var(--defense-immune); }
 .defense-hint { margin: 1rem 0; color: var(--muted); font-size: 0.8125rem; }
 .attack-chart { margin-top: 1.5rem; }
 .attack-chart h3 { display: flex; align-items: baseline; gap: 0.75rem; }
