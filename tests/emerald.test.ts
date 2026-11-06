@@ -1,0 +1,62 @@
+import { beforeAll, describe, expect, it } from 'vitest';
+import { dataset, emerald } from './local-data';
+import { getAvailability } from '../src/domain/availability';
+import { checkTeam } from '../src/domain/team/check-team';
+import { firstAccessOptions } from '../src/components/acquisition-presentation';
+import type { AvailabilitySnapshot } from '../src/domain/types';
+
+let early:AvailabilitySnapshot;
+let late:AvailabilitySnapshot;
+const query=(milestoneId:string,respectLevelLimit=true)=>{const r=getAvailability(dataset,{gameId:'emerald',milestoneId,respectLevelLimit});if(!r.ok)throw Error('Invalid Emerald query');return r.value;};
+beforeAll(()=>{early=query('route-102');late=query('national-dex');},60000);
+
+describe('Complete Emerald integration',()=>{
+  it('makes the Weather Institute gift available after Norman, but not before Surf',()=>{
+    expect(query('flannery-defeated').entries.castform.status).toBe('later');
+    const current = query('norman-defeated');
+    expect(current.entries.castform.status).toBe('available');
+    expect(current.entries.castform.currentPathIds.some(id => current.paths[id].sourceIds.includes('castform-gift'))).toBe(true);
+  },60000);
+  it('waits for Mossdeep before granting Super Rod access to Staryu',()=>{
+    expect(query('aqua-hideout').entries.staryu.status).toBe('later');
+    expect(query('mossdeep').entries.staryu.status).toBe('available');
+  },60000);
+  it('makes Route 110 grass available from Slateport before the museum event',()=>{
+    expect(query('route-109').entries.electrike.status).toBe('later');
+    expect(query('slateport').entries.electrike.status).toBe('available');
+  },60000);
+  it('resolves first-access sources for every species at early and late progress',()=>{
+    for (const snapshot of [early, late]) {
+      for (const entry of Object.values(snapshot.entries)) {
+        for (const option of firstAccessOptions(emerald, snapshot, entry)) {
+          expect(option.path.pokemonId, entry.pokemonId).toBe(entry.pokemonId);
+        }
+      }
+      expect(firstAccessOptions(emerald, snapshot, snapshot.entries.makuhita)[0].label)
+        .toBe('Granite Cave — after “Sail with Mr. Briney”');
+    }
+  });
+  it('covers the National Dex, all 34 routes and every League opponent',()=>{
+    expect(dataset.pokemon.filter(p=>p.introducedGeneration<=emerald.game.generation).map(p=>p.nationalDex)).toEqual(Array.from({length:386},(_,i)=>i+1));expect(Object.keys(early.entries)).toHaveLength(386);
+    for(let n=101;n<=134;n++)expect(emerald.milestones.some(m=>m.locationId===`route-${n}`&&m.kind==='route')).toBe(true);expect(emerald.bosses).toHaveLength(13);
+  });
+  it('has correct early sources and locked evolutions',()=>{
+    expect(early.entries.ralts.status).toBe('available');expect(early.entries.treecko.status).toBe('available');expect(early.entries.sceptile.status).toBe('later');expect(early.entries.magikarp.status).toBe('later');expect(early.entries.nosepass.status).toBe('later');expect(early.entries.bulbasaur.status).toBe('unavailable');expect(early.entries.mew.status).toBe('unavailable');
+  });
+  it('enforces starter choices and permits bred copies in one family',()=>{
+    expect(checkTeam(early,['treecko','torchic'],'whole-game').feasible).toBe(false);
+    const current=query('mauville');expect(checkTeam(current,['treecko','grovyle','treecko'],'current-progress').feasible).toBe(true);
+  });
+  it('permits both fossils after the League but not at current early progress',()=>{
+    const now=query('flannery-defeated');expect(checkTeam(now,['lileep','anorith'],'current-progress').feasible).toBe(false);expect(checkTeam(now,['lileep','anorith'],'whole-game').feasible).toBe(true);expect(checkTeam(late,['lileep','anorith'],'current-progress').feasible).toBe(true);
+  });
+  it('keeps player trades blocked and Johto starters gated by the Hoenn Dex',()=>{
+    expect(late.entries.alakazam.status).toBe('blocked');expect(late.entries.chikorita.status).toBe('blocked');expect(late.entries.chikorita.blockers.some(b=>b.relatedId==='hoenn-dex')).toBe(true);expect(late.entries.meowth.status).toBe('available');expect(late.levelLimit).toBeNull();
+  });
+  it('has grounded, resolvable breeding witnesses',()=>{
+    for(const path of Object.values(late.paths))for(const step of path.breedingSteps)for(const parent of step.parents){expect(late.paths[parent.pathId],parent.pathId).toBeDefined();expect(late.paths[parent.pathId].pokemonId).toBe(parent.pokemonId);}
+  });
+  it('limits the chosen roaming legendary and makes normal postgame areas accessible',()=>{
+    expect(checkTeam(late,['latias','latios'],'current-progress').feasible).toBe(false);for(const id of ['kyogre','groudon','rayquaza','beldum','ditto','smeargle','shuckle','houndour'])expect(late.entries[id].status,id).toBe('available');
+  });
+});

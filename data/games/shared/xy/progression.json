@@ -1,0 +1,1373 @@
+[
+  {
+    "id": "vaniville",
+    "name": "Begin in Vaniville Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "vaniville-town",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose one Kalos starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "vaniville"
+    ],
+    "locationId": "aquacorde-town",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Learn to catch Pokemon on Route 2",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "kalos-route-2",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "santalune-forest",
+    "name": "Cross Santalune Forest",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "route-2"
+    ],
+    "locationId": "santalune-forest",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Reach Route 3",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "santalune-forest"
+    ],
+    "locationId": "kalos-route-3",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "santalune-city",
+    "name": "Reach Santalune City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "route-3"
+    ],
+    "locationId": "santalune-city",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Visit Route 22 before the badge gate",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "santalune-city"
+    ],
+    "locationId": "kalos-route-22",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "santalune-gym",
+    "name": "Defeat Viola",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "santalune-city"
+    ],
+    "locationId": "santalune-city",
+    "nextBossId": "viola",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Enter Route 4",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "santalune-gym"
+    ],
+    "locationId": "kalos-route-4",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lumiose-south",
+    "name": "Meet Professor Sycamore and choose a Kanto starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "route-4"
+    ],
+    "locationId": "lumiose-city",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Enter Route 5",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "lumiose-south"
+    ],
+    "locationId": "kalos-route-5",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "camphrier",
+    "name": "Visit Camphrier and Shabboneau Castle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "route-5"
+    ],
+    "locationId": "camphrier-town",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-7-east",
+    "name": "Find Snorlax and visit the Berry Fields",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "camphrier"
+    ],
+    "locationId": "kalos-berry-fields",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Reach Route 6",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "route-7-east"
+    ],
+    "locationId": "kalos-route-6",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "parfum-palace",
+    "name": "Return Furfrou and receive the Poke Flute",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "route-6"
+    ],
+    "locationId": "parfum-palace",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "snorlax-clear",
+    "name": "Finish the Route 7 Snorlax encounter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "parfum-palace"
+    ],
+    "locationId": "kalos-route-7",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "connecting-cave",
+    "name": "Reach Connecting Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "snorlax-clear"
+    ],
+    "locationId": "connecting-cave",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-8-upper",
+    "name": "Reach the upper part of Route 8",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "connecting-cave"
+    ],
+    "locationId": "kalos-route-8",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "ambrette",
+    "name": "Visit Ambrette Town and its Fossil Lab",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "route-8-upper"
+    ],
+    "locationId": "ambrette-town",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Ride Rhyhorn along Route 9",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "ambrette"
+    ],
+    "locationId": "kalos-route-9",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "glittering-cave",
+    "name": "Enter Glittering Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "route-9"
+    ],
+    "locationId": "glittering-cave",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "fossil-lab-open",
+    "name": "Rescue the fossil assistant and choose a fossil",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "glittering-cave"
+    ],
+    "locationId": "ambrette-town",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-8-beach",
+    "name": "Enter the Route 8 beach through the Aquarium",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "fossil-lab-open"
+    ],
+    "locationId": "route-8-beach",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "cyllage",
+    "name": "Reach Cyllage City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "route-8-beach"
+    ],
+    "locationId": "cyllage-city",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Visit Route 10",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "cyllage"
+    ],
+    "locationId": "kalos-route-10",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "cyllage-gym",
+    "name": "Defeat Grant",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "cyllage"
+    ],
+    "locationId": "cyllage-city",
+    "nextBossId": "grant",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "geosenge",
+    "name": "Follow Team Flare through Geosenge and battle Korrina",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "cyllage-gym",
+      "route-10"
+    ],
+    "locationId": "geosenge-town",
+    "nextBossId": "korrina",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Enter Route 11",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "geosenge"
+    ],
+    "locationId": "kalos-route-11",
+    "nextBossId": "korrina",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "reflection-cave",
+    "name": "Cross Reflection Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "route-11"
+    ],
+    "locationId": "reflection-cave",
+    "nextBossId": "korrina",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "shalour",
+    "name": "Reach Shalour City and meet the Mega Evolution guru",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "reflection-cave"
+    ],
+    "locationId": "shalour-city",
+    "nextBossId": "korrina",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "shalour-gym",
+    "name": "Defeat Korrina at the Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "shalour"
+    ],
+    "locationId": "shalour-city",
+    "nextBossId": "korrina",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "tower-mastery",
+    "name": "Receive the Mega Ring and complete the Lucario battle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "shalour-gym"
+    ],
+    "locationId": "tower-of-mastery",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "surf-received",
+    "name": "Receive Surf at the Route 12 exit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "tower-mastery"
+    ],
+    "locationId": "shalour-city",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Enter Route 12",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "surf-received"
+    ],
+    "locationId": "kalos-route-12",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "azure-bay",
+    "name": "Visit Azure Bay with Surf",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "route-12"
+    ],
+    "locationId": "azure-bay",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "coumarine",
+    "name": "Reach Coumarine City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "route-12"
+    ],
+    "locationId": "coumarine-city",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Visit Route 13",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "coumarine"
+    ],
+    "locationId": "kalos-route-13",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "coumarine-gym",
+    "name": "Defeat Ramos",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "coumarine"
+    ],
+    "locationId": "coumarine-city",
+    "nextBossId": "ramos",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "power-plant-clear",
+    "name": "Defeat Team Flare at the Kalos Power Plant",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "coumarine-gym",
+      "route-13"
+    ],
+    "locationId": "kalos-power-plant",
+    "nextBossId": "clemont",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lumiose-north",
+    "name": "Restore power and enter northern Lumiose City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "power-plant-clear"
+    ],
+    "locationId": "lumiose-city",
+    "nextBossId": "clemont",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lumiose-gym",
+    "name": "Defeat Clemont",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "lumiose-north"
+    ],
+    "locationId": "lumiose-city",
+    "nextBossId": "clemont",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Enter Route 14",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "lumiose-gym"
+    ],
+    "locationId": "kalos-route-14",
+    "nextBossId": "valerie",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "laverre",
+    "name": "Visit the Haunted House and reach Laverre City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "route-14"
+    ],
+    "locationId": "laverre-city",
+    "nextBossId": "valerie",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "laverre-gym",
+    "name": "Defeat Valerie",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "laverre"
+    ],
+    "locationId": "laverre-city",
+    "nextBossId": "valerie",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "poke-ball-factory",
+    "name": "Rescue the Poke Ball Factory",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "laverre-gym"
+    ],
+    "locationId": "poke-ball-factory",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Enter Route 15",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "poke-ball-factory"
+    ],
+    "locationId": "kalos-route-15",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Visit Route 16 with Strength",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "route-15"
+    ],
+    "locationId": "kalos-route-16",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lost-hotel",
+    "name": "Enter the Lost Hotel",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "route-15"
+    ],
+    "locationId": "lost-hotel",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dendemille",
+    "name": "Reach Dendemille Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "route-15"
+    ],
+    "locationId": "dendemille-town",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "frost-cavern",
+    "name": "Enter Frost Cavern",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "dendemille"
+    ],
+    "locationId": "frost-cavern",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "frost-cavern-clear",
+    "name": "Defeat Team Flare and return the Mamoswine",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "frost-cavern"
+    ],
+    "locationId": "frost-cavern",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Ride Mamoswine through Route 17",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "frost-cavern-clear"
+    ],
+    "locationId": "kalos-route-17",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "anistar",
+    "name": "Reach Anistar City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 52,
+    "previousIds": [
+      "route-17"
+    ],
+    "locationId": "anistar-city",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "anistar-gym",
+    "name": "Defeat Olympia",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "anistar"
+    ],
+    "locationId": "anistar-city",
+    "nextBossId": "olympia",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lysandre-labs",
+    "name": "Defeat Xerosic and find the Secret HQ",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "anistar-gym"
+    ],
+    "locationId": "lysandre-labs",
+    "nextBossId": "lysandre-final",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "legendary-encounter",
+    "name": "Reach the legendary Pokemon in the Secret HQ",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "lysandre-labs"
+    ],
+    "locationId": "team-flare-secret-hq",
+    "nextBossId": "lysandre-final",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "flare-defeated",
+    "name": "Defeat Lysandre and escape the Secret HQ",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 56,
+    "previousIds": [
+      "legendary-encounter"
+    ],
+    "locationId": "team-flare-secret-hq",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Enter Route 18",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 57,
+    "previousIds": [
+      "flare-defeated"
+    ],
+    "locationId": "kalos-route-18",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "terminus-cave",
+    "name": "Enter the ordinary floors of Terminus Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 58,
+    "previousIds": [
+      "route-18"
+    ],
+    "locationId": "terminus-cave",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "couriway",
+    "name": "Reach Couriway Town and battle Professor Sycamore",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "route-18"
+    ],
+    "locationId": "couriway-town",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Cross Route 19 and receive Waterfall from Shauna",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "couriway"
+    ],
+    "locationId": "kalos-route-19",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "snowbelle",
+    "name": "Reach Snowbelle City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "route-19"
+    ],
+    "locationId": "snowbelle-city",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Enter the Winding Woods",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "snowbelle"
+    ],
+    "locationId": "kalos-route-20",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pokemon-village",
+    "name": "Find Wulfric at Pokemon Village",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "route-20"
+    ],
+    "locationId": "pokemon-village",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Visit Route 21 before the badge gate",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "snowbelle"
+    ],
+    "locationId": "kalos-route-21",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "snowbelle-gym",
+    "name": "Defeat Wulfric",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "pokemon-village"
+    ],
+    "locationId": "snowbelle-city",
+    "nextBossId": "wulfric",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Enter Victory Road through the eight-badge gate",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "snowbelle-gym"
+    ],
+    "locationId": "kalos-victory-road",
+    "nextBossId": "malva",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Cross Victory Road and reach the Pokemon League",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "malva",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "league-malva",
+    "name": "Defeat Malva",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "pokemon-league"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "wikstrom",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "league-wikstrom",
+    "name": "Defeat Wikstrom",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "pokemon-league"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "drasna",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "league-drasna",
+    "name": "Defeat Drasna",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "pokemon-league"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "siebold",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "league-siebold",
+    "name": "Defeat Siebold",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 71,
+    "previousIds": [
+      "pokemon-league"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "malva",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "league-four-clear",
+    "name": "Defeat all four Elite Four members",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 72,
+    "previousIds": [
+      "league-malva",
+      "league-wikstrom",
+      "league-drasna",
+      "league-siebold"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "diantha",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "hall-of-fame",
+    "name": "Defeat Diantha and enter the Hall of Fame",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 73,
+    "previousIds": [
+      "league-four-clear"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "post-credits",
+    "name": "Battle AZ and watch the credits",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 74,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "vaniville-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kiloude",
+    "name": "Receive the TMV Pass and visit Kiloude City",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 75,
+    "previousIds": [
+      "post-credits"
+    ],
+    "locationId": "kiloude-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-story"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

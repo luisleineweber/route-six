@@ -1,0 +1,2451 @@
+[
+  {
+    "id": "berry-forest",
+    "name": "Berry Forest",
+    "requirements": {
+      "kind": "capability",
+      "id": "tri-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bond-bridge",
+    "name": "Bond Bridge",
+    "requirements": {
+      "kind": "capability",
+      "id": "tri-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "canyon-entrance",
+    "name": "Canyon Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Celadon City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celadon-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave",
+    "name": "Cerulean Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "digletts-cave",
+    "name": "Diglett's Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dotted-hole",
+    "name": "Dotted Hole",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "six-island"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island",
+    "name": "Five Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-meadow",
+    "name": "Five Island Meadow",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island",
+    "name": "Four Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Fuchsia City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "icefall-cave",
+    "name": "Icefall Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Indigo Plateau",
+    "requirements": {
+      "kind": "milestone",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kanto-elite-four",
+    "name": "Indigo Plateau League rooms",
+    "requirements": {
+      "kind": "milestone",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kindle-road",
+    "name": "Kindle Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Lavender Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lost-cave",
+    "name": "Lost Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "memorial-pillar",
+    "name": "Memorial Pillar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember",
+    "name": "Mt. Ember",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-cave",
+    "name": "Mt. Ember cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon",
+    "name": "Mt. Moon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island",
+    "name": "One Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pallet-town"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pewter-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion",
+    "name": "Pokemon Mansion",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower",
+    "name": "Pokemon Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "resort-gorgeous",
+    "name": "Resort Gorgeous",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout",
+    "name": "Rocket Hideout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celadon-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Route 10",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "vermilion-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-flute"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-flute"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-flute"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-flute"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pokemon-flute"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fuchsia-city"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Route 19",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Route 20",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Route 21",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Route 22",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-23",
+    "name": "Route 23",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Route 24",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Route 25",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "celadon-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ruin-valley",
+    "name": "Ruin Valley",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Saffron City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "saffron-city"
+        },
+        {
+          "kind": "capability",
+          "id": "saffron-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island",
+    "name": "Seven Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-co",
+    "name": "Silph Co.",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island",
+    "name": "Six Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-anne",
+    "name": "S.S. Anne",
+    "requirements": {
+      "kind": "milestone",
+      "id": "vermilion-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tanoby-ruins",
+    "name": "Tanoby Ruins",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island",
+    "name": "Three Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "trainer-tower",
+    "name": "Trainer Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "two-island",
+    "name": "Two Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "vermilion-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-city",
+    "name": "Viridian City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-forest",
+    "name": "Viridian Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-gym",
+    "name": "Viridian Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "viridian-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-labyrinth",
+    "name": "Water Labyrinth",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-path",
+    "name": "Water Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-1f",
+    "name": "Cerulean Cave 1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-2f",
+    "name": "Cerulean Cave 2f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-b1f",
+    "name": "Cerulean Cave B1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "digletts-cave-b1f",
+    "name": "Digletts Cave B1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room1",
+    "name": "Five Island Lost Cave Room1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room10",
+    "name": "Five Island Lost Cave Room10",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room11",
+    "name": "Five Island Lost Cave Room11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room12",
+    "name": "Five Island Lost Cave Room12",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room13",
+    "name": "Five Island Lost Cave Room13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room14",
+    "name": "Five Island Lost Cave Room14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room2",
+    "name": "Five Island Lost Cave Room2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room3",
+    "name": "Five Island Lost Cave Room3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room4",
+    "name": "Five Island Lost Cave Room4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room5",
+    "name": "Five Island Lost Cave Room5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room6",
+    "name": "Five Island Lost Cave Room6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room7",
+    "name": "Five Island Lost Cave Room7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room8",
+    "name": "Five Island Lost Cave Room8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-lost-cave-room9",
+    "name": "Five Island Lost Cave Room9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-memorial-pillar",
+    "name": "Five Island Memorial Pillar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-resort-gorgeous",
+    "name": "Five Island Resort Gorgeous",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "five-island-water-labyrinth",
+    "name": "Five Island Water Labyrinth",
+    "requirements": {
+      "kind": "milestone",
+      "id": "five-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-1f",
+    "name": "Four Island Icefall Cave 1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-b1f",
+    "name": "Four Island Icefall Cave B1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-back",
+    "name": "Four Island Icefall Cave Back",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "four-island"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "four-island-icefall-cave-entrance",
+    "name": "Four Island Icefall Cave Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-exterior",
+    "name": "Mt Ember Exterior",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-1f",
+    "name": "Mt Ember Ruby Path 1f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b1f",
+    "name": "Mt Ember Ruby Path B1f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b1f-stairs",
+    "name": "Mt Ember Ruby Path B1f Stairs",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b2f",
+    "name": "Mt Ember Ruby Path B2f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b2f-stairs",
+    "name": "Mt Ember Ruby Path B2f Stairs",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-ruby-path-b3f",
+    "name": "Mt Ember Ruby Path B3f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit-path-1f",
+    "name": "Mt Ember Summit Path 1f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit-path-2f",
+    "name": "Mt Ember Summit Path 2f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-ember-summit-path-3f",
+    "name": "Mt Ember Summit Path 3f",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-1f",
+    "name": "Mt Moon 1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-b1f",
+    "name": "Mt Moon B1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-b2f",
+    "name": "Mt Moon B2f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island-kindle-road",
+    "name": "One Island Kindle Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "one-island-treasure-beach",
+    "name": "One Island Treasure Beach",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-1f",
+    "name": "Pokemon Mansion 1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-2f",
+    "name": "Pokemon Mansion 2f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-3f",
+    "name": "Pokemon Mansion 3f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-mansion-b1f",
+    "name": "Pokemon Mansion B1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-3f",
+    "name": "Pokemon Tower 3f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-4f",
+    "name": "Pokemon Tower 4f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-5f",
+    "name": "Pokemon Tower 5f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-6f",
+    "name": "Pokemon Tower 6f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-7f",
+    "name": "Pokemon Tower 7f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "power-plant",
+    "name": "Power Plant",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel-1f",
+    "name": "Rock Tunnel 1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel-b1f",
+    "name": "Rock Tunnel B1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21-north",
+    "name": "Route 21 North",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21-south",
+    "name": "Route 21 South",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-center",
+    "name": "Safari Zone Center",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-east",
+    "name": "Safari Zone East",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-north",
+    "name": "Safari Zone North",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-west",
+    "name": "Safari Zone West",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-1f",
+    "name": "Seafoam Islands 1f",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b1f",
+    "name": "Seafoam Islands B1f",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b2f",
+    "name": "Seafoam Islands B2f",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b3f",
+    "name": "Seafoam Islands B3f",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands-b4f",
+    "name": "Seafoam Islands B4f",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-sevault-canyon",
+    "name": "Seven Island Sevault Canyon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-sevault-canyon-entrance",
+    "name": "Seven Island Sevault Canyon Entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins",
+    "name": "Seven Island Tanoby Ruins",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-dilford-chamber",
+    "name": "Seven Island Tanoby Ruins Dilford Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-liptoo-chamber",
+    "name": "Seven Island Tanoby Ruins Liptoo Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-monean-chamber",
+    "name": "Seven Island Tanoby Ruins Monean Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-rixy-chamber",
+    "name": "Seven Island Tanoby Ruins Rixy Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-scufib-chamber",
+    "name": "Seven Island Tanoby Ruins Scufib Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-viapois-chamber",
+    "name": "Seven Island Tanoby Ruins Viapois Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-tanoby-ruins-weepth-chamber",
+    "name": "Seven Island Tanoby Ruins Weepth Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seven-island-trainer-tower",
+    "name": "Seven Island Trainer Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seven-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-altering-cave",
+    "name": "Six Island Altering Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-green-path",
+    "name": "Six Island Green Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-outcast-island",
+    "name": "Six Island Outcast Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-pattern-bush",
+    "name": "Six Island Pattern Bush",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-ruin-valley",
+    "name": "Six Island Ruin Valley",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "six-island-water-path",
+    "name": "Six Island Water Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "six-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-anne-exterior",
+    "name": "SS Anne Exterior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "vermilion-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island-berry-forest",
+    "name": "Three Island Berry Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island-bond-bridge",
+    "name": "Three Island Bond Bridge",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "three-island-port",
+    "name": "Three Island Port",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "two-island-cape-brink",
+    "name": "Two Island Cape Brink",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-1f",
+    "name": "Victory Road 1f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-2f",
+    "name": "Victory Road 2f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-3f",
+    "name": "Victory Road 3f",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kanto-roaming-routes",
+    "name": "Kanto roaming routes",
+    "requirements": {
+      "kind": "milestone",
+      "id": "network-machine"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

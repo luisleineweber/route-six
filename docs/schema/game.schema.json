@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokemon-playthrough-planner.local/schema/game.schema.json",
+  "title": "Game, progress, and access definitions",
+  "$defs": {
+    "game": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "generation", "region", "firstMilestoneId", "review", "planner", "breeding"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "generation": { "type": "integer", "minimum": 1 },
+        "region": { "$ref": "common.schema.json#/$defs/text" },
+        "regionalDexSections": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["id", "name"],
+            "properties": {
+              "id": { "$ref": "common.schema.json#/$defs/id" },
+              "name": { "$ref": "common.schema.json#/$defs/text" }
+            }
+          }
+        },
+        "firstMilestoneId": { "oneOf": [{"type":"null"}, {"$ref":"common.schema.json#/$defs/id"}] },
+        "planner": { "oneOf": [{"type":"null"}, {"$ref":"#/$defs/planner"}] },
+        "breeding": {"oneOf": [{"type": "null"}, {"type": "object", "additionalProperties": false, "required": ["hatchLevel"], "properties": {"hatchLevel": {"$ref": "common.schema.json#/$defs/level"}}}]},
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "profile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pokemonId", "types", "breeding", "review", "spriteSrc", "genders"],
+      "properties": {
+        "pokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "regionalDex": { "type": "integer", "minimum": 0 },
+        "regionalDexSectionId": { "$ref": "common.schema.json#/$defs/id" },
+        "forms": { "type": "array", "items": { "$ref": "#/$defs/formProfile" } },
+        "types": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1, "maxItems": 2 },
+        "breeding": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/breedingProfile"}]},
+        "spriteSrc": {"type": "string", "pattern": "^/(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_-]+\\.(?:png|webp|svg)$"},
+        "genders": { "$ref": "common.schema.json#/$defs/genders" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "formProfile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["formId", "types", "breeding", "review", "spriteSrc", "genders"],
+      "properties": {
+        "formId": { "$ref": "common.schema.json#/$defs/id" },
+        "types": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1, "maxItems": 2 },
+        "breeding": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/breedingProfile" }] },
+        "spriteSrc": { "$ref": "#/$defs/profile/properties/spriteSrc" },
+        "genders": { "$ref": "common.schema.json#/$defs/genders" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "breedingProfile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["eggGroupIds"],
+      "properties": {
+        "eggGroupIds": {
+          "type": "array", "minItems": 1, "maxItems": 2, "uniqueItems": true,
+          "items": { "$ref": "common.schema.json#/$defs/eggGroupId" }
+        }
+      }
+    },
+    "breedingRule": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "parentPokemonIds", "offspringPokemonIds", "requiredHeldItemId", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "parentPokemonIds": { "$ref": "common.schema.json#/$defs/ids" },
+        "parentFormIds": { "$ref": "common.schema.json#/$defs/ids" },
+        "offspringPokemonIds": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "requiredHeldItemId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      },
+      "anyOf": [
+        { "properties": { "parentPokemonIds": { "minItems": 1 } } },
+        { "required": ["parentFormIds"], "properties": { "parentFormIds": { "minItems": 1 } } }
+      ]
+    },
+    "typeChart": {
+      "type": "object", "additionalProperties": false,
+      "required": ["typeIds", "matrix", "review"],
+      "properties": {
+        "typeIds": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "matrix": {
+          "type": "array", "minItems": 1,
+          "items": { "type": "array", "minItems": 1, "items": { "enum": [0, 0.5, 1, 2] } }
+        },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "milestone": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "id", "name", "kind", "phase", "displayOrder", "previousIds", "locationId", "nextBossId", "review"
+      ],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "kind": { "enum": ["route", "story", "boss", "area"] },
+        "phase": { "enum": ["main-story", "post-game"] },
+        "displayOrder": { "type": "integer", "minimum": 0 },
+        "previousIds": { "$ref": "common.schema.json#/$defs/ids" },
+        "locationId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "nextBossId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "boss": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "kind", "highestLevel", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "kind": { "enum": ["gym", "elite-four", "champion", "trainer"] },
+        "highestLevel": { "$ref": "common.schema.json#/$defs/level" },
+        "badgeNumber": { "type": "integer", "minimum": 1 },
+        "specialtyTypeId": { "oneOf": [{ "type": "null" }, { "$ref": "common.schema.json#/$defs/id" }] },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      },
+      "if": { "properties": { "kind": { "const": "gym" } } },
+      "then": { "required": ["badgeNumber", "specialtyTypeId"] },
+      "else": { "not": { "anyOf": [{ "required": ["badgeNumber"] }, { "required": ["specialtyTypeId"] }] } }
+    },
+    "location": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "requirements", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "capability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "requirements", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "choiceGroup": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "options", "maximumSelections", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "options": { "$ref": "common.schema.json#/$defs/ids", "minItems": 1 },
+        "maximumSelections": { "type": "integer", "minimum": 1 },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "itemSource": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "locationId", "requirements", "maxUses", "choice", "review"],
+      "properties": {
+        "details": { "$ref": "#/$defs/itemSourceDetails" },
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "locationId": { "$ref": "common.schema.json#/$defs/id" },
+        "requirements": { "$ref": "common.schema.json#/$defs/requirement" },
+        "maxUses": { "$ref": "common.schema.json#/$defs/maxUses" },
+        "choice": { "$ref": "common.schema.json#/$defs/optionalChoice" },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "itemSourceDetails": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "pokemonSourceId"],
+          "properties": {
+            "kind": { "const": "received-held-item" },
+            "pokemonSourceId": { "$ref": "common.schema.json#/$defs/id" }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "pokemonSourceId", "ratePercent"],
+          "properties": {
+            "kind": { "const": "wild-held-item" },
+            "pokemonSourceId": { "$ref": "common.schema.json#/$defs/id" },
+            "ratePercent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
+          }
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "pokemonSourceId", "minimumLevel", "maximumLevel", "ratePercent"],
+          "properties": {
+            "kind": { "const": "pickup" },
+            "pokemonSourceId": { "$ref": "common.schema.json#/$defs/id" },
+            "minimumLevel": { "$ref": "common.schema.json#/$defs/level" },
+            "maximumLevel": { "$ref": "common.schema.json#/$defs/level" },
+            "ratePercent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
+          }
+        }
+      ]
+    },
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "sources", "review"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "name": { "$ref": "common.schema.json#/$defs/text" },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/itemSource" } },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      }
+    },
+    "planner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "defaultMilestoneId",
+        "checkpoints"
+      ],
+      "properties": {
+        "defaultMilestoneId": {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        "checkpoints": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/checkpoint"
+          }
+        }
+      }
+    },
+    "checkpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "milestoneId",
+        "label",
+        "title",
+        "detail",
+        "typeId"
+      ],
+      "properties": {
+        "label": {
+          "$ref": "common.schema.json#/$defs/text"
+        },
+        "title": {
+          "$ref": "common.schema.json#/$defs/text"
+        },
+        "detail": {
+          "$ref": "common.schema.json#/$defs/text"
+        },
+        "milestoneId": {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        "typeId": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "common.schema.json#/$defs/id"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

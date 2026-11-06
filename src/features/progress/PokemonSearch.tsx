@@ -1,0 +1,131 @@
+import { Fragment, useMemo, useState } from 'react';
+import { Search, X } from 'lucide-react';
+import { sharedData, pokemonById } from '../../data/dataset';
+import { useGameData } from '../planner/GameContext';
+import { defaultCatalogueStatus, matchesCatalogueStatus, matchesCatalogueTypes, type CatalogueStatus } from './catalogue-filter';
+import { TypeIcon, typeName } from '../../components/PokemonIdentity';
+import { CatalogueFilters } from './CatalogueFilters';
+import { PokemonCatalogueCard } from './PokemonCatalogueCard';
+import { statusIcons, statusNames } from '../../components/StatusLabel';
+import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
+import { isExclusionBlocker } from '../../domain/availability/exclusions';
+import { regionalDexName, sortPokemonByPokedex } from '../planner/pokedex-order';
+import { firstAccessOptions, pathSource } from '../../components/acquisition-presentation';
+
+function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null) {
+  if (entry.status === 'unavailable') return entry.blockers.find(isExclusionBlocker)?.message;
+  if (entry.status === 'blocked') return entry.blockers[0]?.message;
+  if (!path) return 'View ways to get it';
+  if (path.evolutionIds.length) {
+    const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
+    const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
+    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
+    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
+    if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
+    return details.join(' · ');
+  }
+  const source = pathSource(game, path);
+  const details = [game.locations.find(location => location.id === source.locationId)!.name];
+  if (path.breedingSteps.length) details.push('Breeding');
+  return details.join(' · ');
+}
+
+export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onDetails, onCancel }: {
+  snapshot: AvailabilitySnapshot | null; target: PlanningTarget; progressPage: boolean; team: (string|null)[];
+  activeSlot: number|null; onAdd: (id:string) => void; onDetails: (id:string) => void; onCancel: () => void;
+}) {
+  const game = useGameData();
+  const profiles = useMemo(() => new Map(game.profiles.map(profile => [profile.pokemonId, profile])), [game]);
+  const [query,setQuery] = useState('');
+  const [selectedTypes,setSelectedTypes] = useState<string[]>([]);
+  const [statusChoice,setStatusChoice] = useState<CatalogueStatus|null>(null);
+  const status = statusChoice ?? defaultCatalogueStatus(target);
+  // Everything except the status filter, so the status chips can count what each one would show.
+  const matching = useMemo(() => sharedData.pokemon.filter(pokemon => {
+    const profile = profiles.get(pokemon.id);
+    if (!profile) return false;
+    const words = query.toLowerCase().trim().split(/\s+/);
+    const dexName = profile.regionalDex === undefined ? 'National' : regionalDexName(game, profile.regionalDexSectionId);
+    if (!words.every(word => `${pokemon.name} ${pokemon.nationalDex} ${profile.regionalDex ?? ''} ${dexName} ${profile.types.join(' ')}`.toLowerCase().includes(word))) return false;
+    if (!matchesCatalogueTypes(profile.types, selectedTypes)) return false;
+    return true;
+  }), [query,selectedTypes,profiles,game]);
+  const counts = useMemo(() => progressPage && snapshot ? matching.reduce((tally, pokemon) => { const key = snapshot.entries[pokemon.id].status; return { ...tally, [key]: (tally[key] ?? 0) + 1 }; }, {} as Record<string, number>) : null, [matching, snapshot, progressPage]);
+  const visible = useMemo(() => sortPokemonByPokedex(matching.filter(pokemon => {
+    const entry = snapshot?.entries[pokemon.id];
+    return !progressPage || !snapshot || !entry || matchesCatalogueStatus(entry, status);
+  }), game), [matching,status,snapshot,progressPage,game]);
+  const showCompactStatus = progressPage && snapshot !== null && status === 'obtainable';
+  const regionalCounts = new Map<string | undefined, number>();
+  for (const pokemon of visible) {
+    const profile = profiles.get(pokemon.id)!;
+    if (profile.regionalDex !== undefined) regionalCounts.set(profile.regionalDexSectionId, (regionalCounts.get(profile.regionalDexSectionId) ?? 0) + 1);
+  }
+  const nationalVisible = visible.filter(pokemon => profiles.get(pokemon.id)?.regionalDex === undefined);
+  const canAdd = activeSlot !== null || team.includes(null);
+  const clearFilters = () => { setQuery('');setSelectedTypes([]);setStatusChoice(null); };
+  const statusChips = [{ id: 'obtainable' as CatalogueStatus, name: 'Available now or later', count: (counts?.available ?? 0) + (counts?.later ?? 0), Icon: null }, ...Object.entries(statusNames).map(([id,name]) => ({ id: id as CatalogueStatus, name, count: counts?.[id] ?? 0, Icon: statusIcons[id as keyof typeof statusIcons] }))];
+  const catalogueTitle = progressPage
+    ? target === 'whole-game' ? 'Pokémon you can get in this game' : 'Pokémon available at this point'
+    : 'All Pokémon';
+  return <section className={`catalogue ${progressPage ? 'progress-catalogue' : 'team-catalogue'}`} id="pokemon-search" aria-labelledby="catalogue-title">
+    <div className="section-heading"><h2 id="catalogue-title">{catalogueTitle}</h2></div>
+    {!canAdd && <p className="full-team-hint">Your six slots are full. Remove a team member to add another Pokémon.</p>}
+    {activeSlot !== null && <div className="slot-prompt" role="status"><span>Choose a Pokémon for slot {activeSlot+1}.</span><button className="text-button" onClick={onCancel}><X size={16} aria-hidden="true" /> Cancel</button></div>}
+    <CatalogueFilters resetKey={JSON.stringify([query, selectedTypes, status])} statusFilters={progressPage && <div className="chip-row" role="group" aria-label="Filter by status">{statusChips.map(({id,name,count,Icon}) => <button key={id} className={`chip status-${id}`} aria-pressed={status===id} onClick={() => setStatusChoice(id)}>
+        {Icon && <Icon size={15} aria-hidden="true" />}{name}{counts && <span className="chip-count">{count}</span>}</button>)}</div>}>
+      <div className="filter-row catalogue-search">
+        <div className="field"><label className="search-label" htmlFor="pokemon-query">Search Pokémon</label><div className="input-icon"><Search size={18} aria-hidden="true" /><input id="pokemon-query" type="search" value={query} placeholder="Name, type, or Dex number" onChange={e => setQuery(e.target.value)} /></div></div>
+      </div>
+      <div className="type-filter-controls">
+        <div className="type-filter" role="group" aria-label="Filter by type" aria-describedby="type-filter-hint">{game.typeChart.typeIds.map(id => <button type="button" key={id} className={`type-toggle ${selectedTypes.length && !selectedTypes.includes(id) ? 'dimmed' : ''}`} aria-pressed={selectedTypes.includes(id)} aria-label={typeName(id)} title={typeName(id)} onClick={() => setSelectedTypes(current => current.includes(id) ? current.filter(type => type !== id) : [...current, id])}><TypeIcon type={id} size={32} /></button>)}</div>
+        <div className="type-filter-summary">
+          <p id="type-filter-hint" role="status">{selectedTypes.length ? `Types: ${selectedTypes.map(typeName).join(' or ')}.` : 'All types. Select one or more types.'}</p>
+          {selectedTypes.length > 0 && <button type="button" className="text-button" onClick={() => setSelectedTypes([])}><X size={16} aria-hidden="true" />Clear types</button>}
+        </div>
+      </div>
+    </CatalogueFilters>
+
+    {progressPage && !snapshot ? <>
+        <p className="loading-note" role="status"><span className="loading-dot" />Checking which Pokémon are available…</p>
+        <div className="pokemon-grid" aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i} />)}</div>
+      </>
+      : !visible.length ? <div className="empty-results"><Search size={26} aria-hidden="true" /><h3>No Pokémon match these filters.</h3><p>{progressPage ? 'Change your search, type, or status filters.' : 'Change the name or type.'}</p><button className="secondary-button" onClick={clearFilters}>Clear filters</button></div>
+      : <div className={`pokemon-grid${showCompactStatus ? ' mixed-access' : ''}`}>{visible.map((pokemon, index) => {
+        const entry = snapshot?.entries[pokemon.id];
+        const earliest = entry?.status === 'later' && snapshot ? firstAccessOptions(game, snapshot, entry) : [];
+        // Keep the source location and first-access point on the same future path.
+        const pathId = entry ? entry.currentPathIds[0]
+          ?? earliest[0]?.path.id
+          ?? entry.futurePathIds[0] : null;
+        const path = pathId && snapshot ? snapshot.paths[pathId] : null;
+        const profile = profiles.get(pokemon.id)!;
+        const isNational = profile.regionalDex === undefined;
+        const startsRegionalGroup = !isNational && (index === 0 || profile.regionalDexSectionId !== profiles.get(visible[index - 1].id)?.regionalDexSectionId);
+        const startsNationalGroup = isNational && (index === 0 || profiles.get(visible[index - 1].id)?.regionalDex !== undefined);
+        const StatusIcon = entry ? statusIcons[entry.status] : null;
+        const accessLabel = entry ? { available: 'Now', later: 'Later', blocked: 'Blocked', unavailable: 'Unavailable' }[entry.status] : '';
+        const compactLabel = path
+          ? entry?.status === 'later' && snapshot?.levelLimit && path.minimumLevel > snapshot.levelLimit.level
+            ? `Lv. ${path.minimumLevel}`
+            : path.evolutionIds.length ? 'Evolution'
+              : path.breedingSteps.length ? 'Breeding'
+                : game.locations.find(location => location.id === pathSource(game, path).locationId)!.name
+          : accessLabel;
+        return <Fragment key={pokemon.id}>
+          {startsRegionalGroup && <div className="dex-grid-heading"><h3>{regionalDexName(game, profile.regionalDexSectionId)} Pokédex</h3><span className="dex-group-count">{regionalCounts.get(profile.regionalDexSectionId)} Pokémon</span></div>}
+          {startsNationalGroup && <>
+            <div className="dex-grid-heading national-dex-heading"><h3>National Pokédex</h3><span className="dex-group-count">{nationalVisible.length} Pokémon</span></div>
+            {game.game.id === 'emerald' && <p className="dex-grid-note">The National Pokédex unlocks after the Hall of Fame. Some species are available earlier.</p>}
+          </>}
+          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
+          {progressPage && entry && <>
+            <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
+            {showCompactStatus && <p className={`access-compact status-label status-${entry.status}`} title={`${statusNames[entry.status]}: ${compactLabel}`}>{StatusIcon && <StatusIcon size={12} aria-hidden="true" />}<span>{compactLabel}</span></p>}
+            {entry.status === 'later' && earliest.length > 0 && <p className="source-summary access-full">Available from {earliest[0].label}</p>}
+          </>}
+          </PokemonCatalogueCard>
+        </Fragment>;
+      })}</div>}
+  </section>;
+}

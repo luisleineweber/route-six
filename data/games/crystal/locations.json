@@ -1,0 +1,1544 @@
+[
+  {
+    "id": "new-bark-town",
+    "name": "New Bark Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Route 29",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cherrygrove-city",
+    "name": "Cherrygrove City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-29"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-30",
+    "name": "Route 30",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cherrygrove-city"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-31",
+    "name": "Route 31",
+    "requirements": {
+      "kind": "milestone",
+      "id": "falkner-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "violet-city",
+    "name": "Violet City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sprout-tower",
+    "name": "Sprout Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ruins-of-alph-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-32",
+    "name": "Route 32",
+    "requirements": {
+      "kind": "milestone",
+      "id": "falkner-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-33",
+    "name": "Route 33",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "union-cave",
+    "name": "Union Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "falkner-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "azalea-town",
+    "name": "Azalea Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "slowpoke-well",
+    "name": "Slowpoke Well",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ilex-forest",
+    "name": "Ilex Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Route 34 and Day Care",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-breeding",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Route 35",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "national-park",
+    "name": "National Park and Bug-Catching Contest",
+    "requirements": {
+      "kind": "capability",
+      "id": "bug-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-capabilities",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "goldenrod-city",
+    "name": "Goldenrod City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-36",
+    "name": "Route 36",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Route 37",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ecruteak-city",
+    "name": "Ecruteak City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "burned-tower",
+    "name": "Burned Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tin-tower",
+    "name": "Tin Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "tin-tower-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Route 38",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Route 39",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "olivine-city",
+    "name": "Olivine City and Lighthouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cianwood-city",
+    "name": "Cianwood City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "whirl-islands",
+    "name": "Whirl Islands",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "whirlpool"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-capabilities",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-42",
+    "name": "Route 42",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-43",
+    "name": "Route 43",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-44",
+    "name": "Route 44",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-mortar",
+    "name": "Mt. Mortar",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mahogany-town",
+    "name": "Mahogany Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lake-of-rage",
+    "name": "Lake of Rage",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout",
+    "name": "Team Rocket Hideout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-42"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ice-path",
+    "name": "Ice Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pryce-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blackthorn-city",
+    "name": "Blackthorn City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pryce-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragons-den",
+    "name": "Dragon's Den",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Indigo Plateau and Pokémon League",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-26",
+    "name": "Route 26",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-27",
+    "name": "Route 27",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tohjo-falls",
+    "name": "Tohjo Falls",
+    "requirements": {
+      "kind": "capability",
+      "id": "waterfall"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City and S.S. Aqua",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Route 2 and Viridian Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Route 10 and Power Plant",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Route 12 and the Super Rod house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Route 19",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Route 20",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Route 21",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Route 22",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-23",
+    "name": "Route 23 and Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Route 24",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Route 25",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City and Power Plant",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Celadon City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Fuchsia City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Saffron City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-islands",
+    "name": "Seafoam Islands",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-city",
+    "name": "Viridian City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-silver",
+    "name": "Mt. Silver",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "falkner-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "bugsy-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "whitney-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "chuck-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "jasmine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "pryce-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "clair-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "lt-surge-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "erika-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "janine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "sabrina-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "blaine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-progression",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dark-cave",
+    "name": "Dark Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "digletts-cave",
+    "name": "Diglett's Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mount-moon",
+    "name": "Mount Moon",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "olivine-port",
+    "name": "Olivine Port and S.S. Aqua",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ecruteak-city"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-28",
+    "name": "Route 28",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "falkner-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "bugsy-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "whitney-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "chuck-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "jasmine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "pryce-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "clair-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "lt-surge-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "erika-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "janine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "sabrina-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "blaine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-40",
+    "name": "Route 40",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-41",
+    "name": "Route 41",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-45",
+    "name": "Route 45",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pryce-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-46",
+    "name": "Route 46",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "clair-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "roaming-johto",
+    "name": "Johto roaming area",
+    "requirements": {
+      "kind": "capability",
+      "id": "roaming-legendaries"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-encounters",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "power-plant",
+    "name": "Kanto Power Plant",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-choices",
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Lavender Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "crystal-locations",
+        "crystal-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

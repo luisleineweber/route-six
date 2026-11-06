@@ -1,0 +1,413 @@
+[
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-bills-grandfather",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "kanto-open"
+            },
+            {
+              "kind": "pokemon",
+              "id": "oddish",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-bills-grandfather",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "kanto-open"
+            },
+            {
+              "kind": "pokemon",
+              "id": "staryu",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-bills-grandfather-growlithe",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "kanto-open"
+            },
+            {
+              "kind": "pokemon",
+              "id": "growlithe",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "fire-stone-bills-grandfather-vulpix",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "kanto-open"
+            },
+            {
+              "kind": "pokemon",
+              "id": "vulpix",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-stone-bills-grandfather",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "kanto-open"
+            },
+            {
+              "kind": "pokemon",
+              "id": "pichu",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "sun-stone-contest-prize",
+        "locationId": "national-park",
+        "requirements": {
+          "kind": "capability",
+          "id": "bug-contest"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "kings-rock-slowpoke-well",
+        "locationId": "slowpoke-well",
+        "requirements": {
+          "kind": "milestone",
+          "id": "bugsy-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "dragon-scale-mount-mortar",
+        "locationId": "mt-mortar",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "pryce-defeated"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            },
+            {
+              "kind": "capability",
+              "id": "strength"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "metal-coat-fast-ship",
+        "locationId": "olivine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-stone-mount-moon",
+        "locationId": "wild-mount-moon",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-tohjo-falls",
+        "locationId": "wild-tohjo-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "indigo-plateau"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up-Grade",
+    "sources": [
+      {
+        "id": "up-grade-silph-co",
+        "locationId": "saffron-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "silver-items",
+            "silver-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

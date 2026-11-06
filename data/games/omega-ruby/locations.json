@@ -1,0 +1,1872 @@
+[
+  {
+    "id": "littleroot-town",
+    "name": "Littleroot Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "littleroot"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-101",
+    "name": "Route 101",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oldale-town",
+    "name": "Oldale Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oldale"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-103",
+    "name": "Route 103",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-103"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-102",
+    "name": "Route 102",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-102"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "petalburg-city",
+    "name": "Petalburg City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "petalburg"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-104-south",
+    "name": "Route 104 (south)",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-104-south"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "petalburg-woods",
+    "name": "Petalburg Woods",
+    "requirements": {
+      "kind": "milestone",
+      "id": "petalburg-woods"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-104-north",
+    "name": "Route 104 (north)",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-104-north"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rustboro-city",
+    "name": "Rustboro City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rustboro"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-116",
+    "name": "Route 116",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-116"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rusturf-tunnel",
+    "name": "Rusturf Tunnel",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rusturf-tunnel"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dewford-town",
+    "name": "Dewford Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "dewford"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-105",
+    "name": "Route 105",
+    "requirements": {
+      "kind": "milestone",
+      "id": "dewford"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-106",
+    "name": "Route 106",
+    "requirements": {
+      "kind": "milestone",
+      "id": "dewford"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "granite-cave",
+    "name": "Granite Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "granite-cave"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-107",
+    "name": "Route 107",
+    "requirements": {
+      "kind": "milestone",
+      "id": "slateport"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-108",
+    "name": "Route 108",
+    "requirements": {
+      "kind": "milestone",
+      "id": "slateport"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-109",
+    "name": "Route 109",
+    "requirements": {
+      "kind": "milestone",
+      "id": "slateport"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "slateport-city",
+    "name": "Slateport City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "slateport"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-110",
+    "name": "Route 110",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-110"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mauville-city",
+    "name": "Mauville City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-117",
+    "name": "Route 117",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "verdanturf-town",
+    "name": "Verdanturf Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-111",
+    "name": "Route 111",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-111-south"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-112-south",
+    "name": "Route 112 (south)",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-112-south"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fiery-path",
+    "name": "Fiery Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fiery-path"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-112-north",
+    "name": "Route 112 (north)",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-112-north"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-113",
+    "name": "Route 113",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-113"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fallarbor-town",
+    "name": "Fallarbor Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fallarbor"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-114",
+    "name": "Route 114",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-114"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "meteor-falls",
+    "name": "Meteor Falls",
+    "requirements": {
+      "kind": "milestone",
+      "id": "meteor-falls"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "meteor-falls-back",
+    "name": "Meteor Falls (back rooms)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "meteor-falls"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-115",
+    "name": "Route 115",
+    "requirements": {
+      "kind": "milestone",
+      "id": "meteor-falls"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mt-chimney",
+    "name": "Mt. Chimney",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mt-chimney"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "jagged-pass",
+    "name": "Jagged Pass",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jagged-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lavaridge-town",
+    "name": "Lavaridge Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lavaridge"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-111-desert",
+    "name": "Route 111 desert",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "lavaridge-gym"
+        },
+        {
+          "kind": "item",
+          "id": "go-goggles",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "desert-ruins",
+    "name": "Desert Ruins",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lavaridge-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-118",
+    "name": "Route 118",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-118"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "southern-island",
+    "name": "Southern Island",
+    "requirements": {
+      "kind": "milestone",
+      "id": "southern-island"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-119",
+    "name": "Route 119",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-119"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "weather-institute",
+    "name": "Weather Institute",
+    "requirements": {
+      "kind": "milestone",
+      "id": "weather-institute"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fortree-city",
+    "name": "Fortree City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fortree"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-120",
+    "name": "Route 120",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-120"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "scorched-slab",
+    "name": "Scorched Slab",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-120"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ancient-tomb",
+    "name": "Ancient Tomb",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-120"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-121",
+    "name": "Route 121",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-121"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-121"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-122",
+    "name": "Route 122",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-122"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mt-pyre",
+    "name": "Mt. Pyre",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mt-pyre"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-123",
+    "name": "Route 123",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-122"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lilycove-city",
+    "name": "Lilycove City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lilycove"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "villain-hideout",
+    "name": "Villain team hideout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "villain-hideout"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-124",
+    "name": "Route 124",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-124"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mossdeep-city",
+    "name": "Mossdeep City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mossdeep"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-125",
+    "name": "Route 125",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mossdeep"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "shoal-cave",
+    "name": "Shoal Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-127",
+    "name": "Route 127",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mossdeep"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-128",
+    "name": "Route 128",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mossdeep"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "seafloor-cavern",
+    "name": "Seafloor Cavern",
+    "requirements": {
+      "kind": "milestone",
+      "id": "seafloor-cavern"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-126",
+    "name": "Route 126",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mossdeep"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sootopolis-city",
+    "name": "Sootopolis City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sootopolis"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cave-of-origin",
+    "name": "Cave of Origin",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cave-of-origin"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-129",
+    "name": "Route 129",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-130",
+    "name": "Route 130",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-131",
+    "name": "Route 131",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pacifidlog-town",
+    "name": "Pacifidlog Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-132",
+    "name": "Route 132",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-133",
+    "name": "Route 133",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-route-134",
+    "name": "Route 134",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sealed-chamber",
+    "name": "Sealed Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "dive"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "island-cave",
+    "name": "Island Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "dewford"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "new-mauville",
+    "name": "New Mauville",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cave-of-origin"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sea-mauville",
+    "name": "Sea Mauville",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "slateport"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ever-grande-city",
+    "name": "Ever Grande City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Pokémon League",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-league"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sky-pillar",
+    "name": "Sky Pillar",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "sky-pillar"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "battle-resort",
+    "name": "Battle Resort",
+    "requirements": {
+      "kind": "milestone",
+      "id": "delta-complete"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "soaring",
+    "name": "Soaring in the sky",
+    "requirements": {
+      "kind": "capability",
+      "id": "soaring"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-north-of-fallarbor-town",
+    "name": "Mirage Cave (north of Fallarbor Town)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-north-of-fortree-city",
+    "name": "Mirage Cave (north of Fortree City)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-north-of-route-124",
+    "name": "Mirage Cave (north of Route 124)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-north-of-route-132",
+    "name": "Mirage Cave (north of Route 132)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-south-of-route-107",
+    "name": "Mirage Cave (south of Route 107)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-south-of-route-131",
+    "name": "Mirage Cave (south of Route 131)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-southeast-of-route-129",
+    "name": "Mirage Cave (southeast of Route 129)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-cave-west-of-route-115",
+    "name": "Mirage Cave (west of Route 115)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-east-of-mossdeep-city",
+    "name": "Mirage Forest (east of Mossdeep City)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-north-of-lilycove-city",
+    "name": "Mirage Forest (north of Lilycove City)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-north-of-route-111",
+    "name": "Mirage Forest (north of Route 111)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-north-of-route-124",
+    "name": "Mirage Forest (north of Route 124)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-south-of-route-109",
+    "name": "Mirage Forest (south of Route 109)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-south-of-route-132",
+    "name": "Mirage Forest (south of Route 132)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-west-of-route-105",
+    "name": "Mirage Forest (west of Route 105)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-forest-west-of-route-114",
+    "name": "Mirage Forest (west of Route 114)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-north-of-route-113",
+    "name": "Mirage Island (north of Route 113)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-north-of-route-124",
+    "name": "Mirage Island (north of Route 124)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-north-of-route-125",
+    "name": "Mirage Island (north of Route 125)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-south-of-pacifidlog-town",
+    "name": "Mirage Island (south of Pacifidlog Town)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-south-of-route-132",
+    "name": "Mirage Island (south of Route 132)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-south-of-route-134",
+    "name": "Mirage Island (south of Route 134)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-west-of-dewford-town",
+    "name": "Mirage Island (west of Dewford Town)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-island-west-of-route-104",
+    "name": "Mirage Island (west of Route 104)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-east-of-route-125",
+    "name": "Mirage Mountain (east of Route 125)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-north-of-lilycove-city",
+    "name": "Mirage Mountain (north of Lilycove City)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-north-of-route-125",
+    "name": "Mirage Mountain (north of Route 125)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-northeast-of-route-125",
+    "name": "Mirage Mountain (northeast of Route 125)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-south-of-route-129",
+    "name": "Mirage Mountain (south of Route 129)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-south-of-route-131",
+    "name": "Mirage Mountain (south of Route 131)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-southeast-of-route-129",
+    "name": "Mirage Mountain (southeast of Route 129)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-mountain-west-of-route-104",
+    "name": "Mirage Mountain (west of Route 104)",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "trackless-forest",
+    "name": "Trackless Forest",
+    "requirements": {
+      "kind": "capability",
+      "id": "soaring"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pathless-plain",
+    "name": "Pathless Plain",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "soaring"
+        },
+        {
+          "kind": "capability",
+          "id": "max-ev-party"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "nameless-cavern",
+    "name": "Nameless Cavern",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "soaring"
+        },
+        {
+          "kind": "capability",
+          "id": "max-friendship-party"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fabled-cave",
+    "name": "Fabled Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "soaring"
+        },
+        {
+          "kind": "capability",
+          "id": "level-100-party"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "gnarled-den",
+    "name": "Gnarled Den",
+    "requirements": {
+      "kind": "capability",
+      "id": "soaring"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "crescent-isle",
+    "name": "Crescent Isle",
+    "requirements": {
+      "kind": "capability",
+      "id": "mirage-spot-daily"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "shoal-cave-ice-room",
+    "name": "Shoal Cave ice room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "shoal-cave"
+        },
+        {
+          "kind": "capability",
+          "id": "mach-bike"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

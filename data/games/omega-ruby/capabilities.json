@@ -1,0 +1,594 @@
+[
+  {
+    "id": "cut",
+    "name": "Use Cut outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "rustboro-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm01",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Use Rock Smash outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mauville-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm06",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Use Strength outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "lavaridge-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm04",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Use Surf outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "petalburg-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm03",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Use Fly outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fortree-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm02",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dive",
+    "name": "Use Dive outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mossdeep-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm07",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Use Waterfall outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "sootopolis-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm05",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Fish with the Old Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "dewford"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with the Good Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-118"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with the Super Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mossdeep"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mach-bike",
+    "name": "Ride the Mach Bike",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "acro-bike",
+    "name": "Ride the Acro Bike",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dexnav",
+    "name": "Search for hidden Pokémon with the DexNav",
+    "requirements": {
+      "kind": "milestone",
+      "id": "dexnav"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "soaring",
+    "name": "Soar in the sky with the Eon Flute",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eon-flute"
+        },
+        {
+          "kind": "item",
+          "id": "eon-flute",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mirage-spot-daily",
+    "name": "Soar to the daily Mirage spot",
+    "requirements": {
+      "kind": "capability",
+      "id": "soaring"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "long-grass",
+    "name": "Walk through long grass",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "horde",
+    "name": "Meet a Horde in grass, caves or water",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Leave two Pokémon at the Route 117 Day Care",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "inverse-battle",
+    "name": "Win Inverse Battles at the Mauville Inverse Battle Stop",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mauville"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "beauty",
+    "name": "Feed Feebas blue Pokéblocks from the Pokéblock Kit",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-110"
+        },
+        {
+          "kind": "item",
+          "id": "pokeblock-kit",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "move-reminder",
+    "name": "Use the Move Maniac in Fallarbor Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fallarbor"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Raise friendship",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Level up during the day",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Level up at night",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Keep an empty party slot",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "personality",
+    "name": "Hatch or catch for a personality value",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Train Attack and Defense",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "affection",
+    "name": "Raise affection in Pokémon-Amie",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "upside-down",
+    "name": "Hold the system upside down",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rain",
+    "name": "Level up during natural rain on Route 119",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-119"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "max-ev-party",
+    "name": "Have three Pokémon with maximum EVs in the party",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "max-friendship-party",
+    "name": "Have three Pokémon with maximum friendship in the party",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "level-100-party",
+    "name": "Have a level 100 Pokémon in the party",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sealed-chamber-puzzle",
+    "name": "Read the Sealed Chamber with Relicanth first and Wailord last",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "sealed-chamber"
+        },
+        {
+          "kind": "pokemon",
+          "id": "relicanth",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "pokemon",
+          "id": "wailord",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-fixed"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

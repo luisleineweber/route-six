@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "armor-fossil",
+    "name": "Armor Fossil",
+    "sources": [
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-cave-north-of-fortree-city",
+        "locationId": "mirage-cave-north-of-fortree-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-cave-north-of-route-124",
+        "locationId": "mirage-cave-north-of-route-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-cave-southeast-of-route-129",
+        "locationId": "mirage-cave-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-cave-west-of-route-115",
+        "locationId": "mirage-cave-west-of-route-115",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-forest-west-of-route-105",
+        "locationId": "mirage-forest-west-of-route-105",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-island-south-of-pacifidlog-town",
+        "locationId": "mirage-island-south-of-pacifidlog-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-island-south-of-route-134",
+        "locationId": "mirage-island-south-of-route-134",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-mountain-north-of-route-125",
+        "locationId": "mirage-mountain-north-of-route-125",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-armor-fossil-mirage-mountain-southeast-of-route-129",
+        "locationId": "mirage-mountain-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "blue-shard",
+    "name": "Blue Shard",
+    "sources": [
+      {
+        "id": "omega-ruby-item-blue-shard-route-124-sandbar",
+        "locationId": "hoenn-route-124",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "claw-fossil",
+    "name": "Claw Fossil",
+    "sources": [
+      {
+        "id": "omega-ruby-item-claw-fossil-desert",
+        "locationId": "route-111-desert",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "desert-fossil",
+          "optionId": "claw-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "clear-bell",
+    "name": "Clear Bell",
+    "sources": [
+      {
+        "id": "omega-ruby-item-clear-bell-captain-stern",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "cave-of-origin"
+            },
+            {
+              "kind": "location",
+              "id": "sea-mauville"
+            },
+            {
+              "kind": "capability",
+              "id": "dive"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-dawn-stone-wally",
+        "locationId": "victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "surf"
+            },
+            {
+              "kind": "capability",
+              "id": "strength"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "omega-ruby-item-deep-sea-scale-crescent-isle",
+        "locationId": "crescent-isle",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "omega-ruby-item-deep-sea-tooth-crescent-isle",
+        "locationId": "crescent-isle",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "devon-scope",
+    "name": "Devon Scope",
+    "sources": [
+      {
+        "id": "omega-ruby-item-devon-scope-steven",
+        "locationId": "hoenn-route-120",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-120"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-cave-north-of-fortree-city",
+        "locationId": "mirage-cave-north-of-fortree-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-cave-north-of-route-124",
+        "locationId": "mirage-cave-north-of-route-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-cave-southeast-of-route-129",
+        "locationId": "mirage-cave-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-cave-west-of-route-115",
+        "locationId": "mirage-cave-west-of-route-115",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-forest-west-of-route-105",
+        "locationId": "mirage-forest-west-of-route-105",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-island-south-of-pacifidlog-town",
+        "locationId": "mirage-island-south-of-pacifidlog-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-island-south-of-route-134",
+        "locationId": "mirage-island-south-of-route-134",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-mountain-north-of-route-125",
+        "locationId": "mirage-mountain-north-of-route-125",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-dome-fossil-mirage-mountain-southeast-of-route-129",
+        "locationId": "mirage-mountain-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "omega-ruby-item-dragon-scale-sky-pillar-2f",
+        "locationId": "sky-pillar",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dubious-disc",
+    "name": "Dubious Disc",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-dusk-stone-inverse-battle-stop",
+        "locationId": "mauville-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "inverse-battle"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "eon-flute",
+    "name": "Eon Flute",
+    "sources": [
+      {
+        "id": "omega-ruby-item-eon-flute-steven",
+        "locationId": "sootopolis-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "eon-flute"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-fire-stone-fiery-path",
+        "locationId": "fiery-path",
+        "requirements": {
+          "kind": "capability",
+          "id": "strength"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "full-incense",
+    "name": "Full Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-full-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "go-goggles",
+    "name": "Go-Goggles",
+    "sources": [
+      {
+        "id": "omega-ruby-item-go-goggles-friend",
+        "locationId": "lavaridge-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "lavaridge-gym"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "heart-scale",
+    "name": "Heart Scale",
+    "sources": [
+      {
+        "id": "omega-ruby-item-heart-scale-route-104-beach",
+        "locationId": "hoenn-route-104-south",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-heart-scale-rusturf-rocks",
+        "locationId": "rusturf-tunnel",
+        "requirements": {
+          "kind": "capability",
+          "id": "rock-smash"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm01",
+    "name": "HM01 Cut",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm01-cutter",
+        "locationId": "rustboro-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "devon-letter"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm02",
+    "name": "HM02 Fly",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm02-friend",
+        "locationId": "hoenn-route-119",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fly-received"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm03",
+    "name": "HM03 Surf",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm03-wally-father",
+        "locationId": "petalburg-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "surf-received"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm04",
+    "name": "HM04 Strength",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm04-friend",
+        "locationId": "hoenn-route-112-south",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-112-south"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm05",
+    "name": "HM05 Waterfall",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm05-wallace",
+        "locationId": "sootopolis-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "sootopolis-gym"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm06",
+    "name": "HM06 Rock Smash",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm06-wally-uncle",
+        "locationId": "mauville-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "rock-smash-received"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hm07",
+    "name": "HM07 Dive",
+    "sources": [
+      {
+        "id": "omega-ruby-item-hm07-steven",
+        "locationId": "mossdeep-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "dive-received"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "icy-rock",
+    "name": "Icy Rock",
+    "sources": [
+      {
+        "id": "omega-ruby-item-icy-rock-weather-institute",
+        "locationId": "weather-institute",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "omega-ruby-item-kings-rock-mossdeep-boy",
+        "locationId": "mossdeep-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-lax-incense-mt-pyre-3f",
+        "locationId": "mt-pyre",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-leaf-stone-route-119-river",
+        "locationId": "hoenn-route-119",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "luck-incense",
+    "name": "Luck Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-luck-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "omega-ruby-item-metal-coat-new-mauville",
+        "locationId": "new-mauville",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-moon-stone-meteor-falls-hill",
+        "locationId": "meteor-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "never-melt-ice",
+    "name": "Never-Melt Ice",
+    "sources": [
+      {
+        "id": "omega-ruby-item-never-melt-ice-ice-room",
+        "locationId": "shoal-cave-ice-room",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "odd-incense",
+    "name": "Odd Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-odd-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "omega-ruby-item-old-amber-mirage-cave-north-of-fortree-city",
+        "locationId": "mirage-cave-north-of-fortree-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-cave-north-of-route-124",
+        "locationId": "mirage-cave-north-of-route-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-cave-southeast-of-route-129",
+        "locationId": "mirage-cave-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-cave-west-of-route-115",
+        "locationId": "mirage-cave-west-of-route-115",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-forest-west-of-route-105",
+        "locationId": "mirage-forest-west-of-route-105",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-island-south-of-pacifidlog-town",
+        "locationId": "mirage-island-south-of-pacifidlog-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-island-south-of-route-134",
+        "locationId": "mirage-island-south-of-route-134",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-mountain-north-of-route-125",
+        "locationId": "mirage-mountain-north-of-route-125",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-old-amber-mirage-mountain-southeast-of-route-129",
+        "locationId": "mirage-mountain-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oval-stone",
+    "name": "Oval Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-oval-stone-held-omega-ruby-wild-mirage-forest-west-of-route-105-grass-happiny-a94",
+        "locationId": "mirage-forest-west-of-route-105",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "omega-ruby-wild-mirage-forest-west-of-route-105-grass-happiny-a94",
+          "ratePercent": 50
+        },
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-oval-stone-held-omega-ruby-wild-mirage-mountain-north-of-route-125-grass-happiny-a120",
+        "locationId": "mirage-mountain-north-of-route-125",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "omega-ruby-wild-mirage-mountain-north-of-route-125-grass-happiny-a120",
+          "ratePercent": 50
+        },
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "plume-fossil",
+    "name": "Plume Fossil",
+    "sources": [
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-cave-north-of-fortree-city",
+        "locationId": "mirage-cave-north-of-fortree-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-cave-north-of-route-124",
+        "locationId": "mirage-cave-north-of-route-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-cave-southeast-of-route-129",
+        "locationId": "mirage-cave-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-cave-west-of-route-115",
+        "locationId": "mirage-cave-west-of-route-115",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-forest-west-of-route-105",
+        "locationId": "mirage-forest-west-of-route-105",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-island-south-of-pacifidlog-town",
+        "locationId": "mirage-island-south-of-pacifidlog-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-island-south-of-route-134",
+        "locationId": "mirage-island-south-of-route-134",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-mountain-north-of-route-125",
+        "locationId": "mirage-mountain-north-of-route-125",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-plume-fossil-mirage-mountain-southeast-of-route-129",
+        "locationId": "mirage-mountain-southeast-of-route-129",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "mirage-spot-daily"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Poké Ball",
+    "sources": [
+      {
+        "id": "omega-ruby-item-poke-ball-friend",
+        "locationId": "littleroot-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pokedex"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeblock-kit",
+    "name": "Pokéblock Kit",
+    "sources": [
+      {
+        "id": "omega-ruby-item-pokeblock-kit-lisia",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-110"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "prism-scale",
+    "name": "Prism Scale",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pure-incense",
+    "name": "Pure Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-pure-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "sources": [
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-east-of-mossdeep-city",
+        "locationId": "mirage-forest-east-of-mossdeep-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-north-of-lilycove-city",
+        "locationId": "mirage-forest-north-of-lilycove-city",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-north-of-route-111",
+        "locationId": "mirage-forest-north-of-route-111",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-north-of-route-124",
+        "locationId": "mirage-forest-north-of-route-124",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-south-of-route-109",
+        "locationId": "mirage-forest-south-of-route-109",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-south-of-route-132",
+        "locationId": "mirage-forest-south-of-route-132",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-west-of-route-105",
+        "locationId": "mirage-forest-west-of-route-105",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-claw-mirage-forest-west-of-route-114",
+        "locationId": "mirage-forest-west-of-route-114",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "razor-fang",
+    "name": "Razor Fang",
+    "sources": [
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-north-of-route-113",
+        "locationId": "mirage-island-north-of-route-113",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-north-of-route-124",
+        "locationId": "mirage-island-north-of-route-124",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-north-of-route-125",
+        "locationId": "mirage-island-north-of-route-125",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-south-of-pacifidlog-town",
+        "locationId": "mirage-island-south-of-pacifidlog-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-south-of-route-132",
+        "locationId": "mirage-island-south-of-route-132",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-south-of-route-134",
+        "locationId": "mirage-island-south-of-route-134",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-west-of-dewford-town",
+        "locationId": "mirage-island-west-of-dewford-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      },
+      {
+        "id": "omega-ruby-item-razor-fang-mirage-island-west-of-route-104",
+        "locationId": "mirage-island-west-of-route-104",
+        "requirements": {
+          "kind": "capability",
+          "id": "mirage-spot-daily"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "reaper-cloth",
+    "name": "Reaper Cloth",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rock-incense",
+    "name": "Rock Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-rock-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "root-fossil",
+    "name": "Root Fossil",
+    "sources": [
+      {
+        "id": "omega-ruby-item-root-fossil-desert",
+        "locationId": "route-111-desert",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "desert-fossil",
+          "optionId": "root-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rose-incense",
+    "name": "Rose Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-rose-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sachet",
+    "name": "Sachet",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-sea-incense-mt-pyre-3f",
+        "locationId": "mt-pyre",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-shiny-stone-route-121-flowers",
+        "locationId": "hoenn-route-121",
+        "requirements": {
+          "kind": "capability",
+          "id": "cut"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-sun-stone-space-center",
+        "locationId": "mossdeep-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-thunder-stone-new-mauville",
+        "locationId": "new-mauville",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up-Grade",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "omega-ruby-item-water-stone-treasure-hunter",
+        "locationId": "hoenn-route-124",
+        "requirements": {
+          "kind": "item",
+          "id": "blue-shard",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wave-incense",
+    "name": "Wave Incense",
+    "sources": [
+      {
+        "id": "omega-ruby-item-wave-incense-slateport-market",
+        "locationId": "slateport-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "oras-reviewed-items"
+          ],
+          "checkedOn": "2026-10-31"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "whipped-dream",
+    "name": "Whipped Dream",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-items"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

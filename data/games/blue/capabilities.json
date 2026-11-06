@@ -1,0 +1,420 @@
+[
+  {
+    "id": "cut-outside",
+    "name": "Use Cut outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm01-cut",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "flash-outside",
+    "name": "Use Flash outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm05-flash",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fly-outside",
+    "name": "Use Fly outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm02-fly",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "lt-surge-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "strength-outside",
+    "name": "Use Strength outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm04-strength",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "erika-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "surf-outside",
+    "name": "Use Surf outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm03-surf",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-gate",
+    "name": "Open the Saffron City gates",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        {
+          "kind": "any",
+          "requirements": [
+            {
+              "kind": "item",
+              "id": "fresh-water",
+              "quantity": 1,
+              "consumed": true
+            },
+            {
+              "kind": "item",
+              "id": "soda-pop",
+              "quantity": 1,
+              "consumed": true
+            },
+            {
+              "kind": "item",
+              "id": "lemonade",
+              "quantity": 1,
+              "consumed": true
+            }
+          ]
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-ghosts",
+    "name": "Identify Pokémon Tower ghosts",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-elevator",
+    "name": "Use the Rocket Hideout elevator",
+    "requirements": {
+      "kind": "item",
+      "id": "lift-key",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "game-corner-prizes",
+    "name": "Exchange Game Corner coins for prizes",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "coin-case",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "celadon-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-zone-access",
+    "name": "Enter the Safari Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fossil-revival",
+    "name": "Revive a fossil at the Cinnabar Lab",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cinnabar-island"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-gym",
+    "name": "Enter the Cinnabar Gym",
+    "requirements": {
+      "kind": "item",
+      "id": "secret-key",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "seafoam-access",
+    "name": "Reach the Seafoam Islands",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road-strength",
+    "name": "Move boulders on Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "strength-outside"
+        },
+        {
+          "kind": "milestone",
+          "id": "giovanni-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-access",
+    "name": "Enter Cerulean Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "champion-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Surf encounters",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf-outside"
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Fish with the Old Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "old-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with the Good Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "good-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with the Super Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "super-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Ride the Bicycle",
+    "requirements": {
+      "kind": "item",
+      "id": "bicycle",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "blue-capabilities",
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

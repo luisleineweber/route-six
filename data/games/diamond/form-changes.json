@@ -1,0 +1,104 @@
+[
+  {
+    "id": "burmy-plant-to-burmy-sandy",
+    "pokemonId": "burmy",
+    "fromFormId": null,
+    "toFormId": "burmy-sandy",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-sandy-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-native-rules"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-plant-to-burmy-trash",
+    "pokemonId": "burmy",
+    "fromFormId": null,
+    "toFormId": "burmy-trash",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-trash-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-native-rules"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-burmy-sandy-to-plant",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-sandy",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-plant-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-native-rules"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-burmy-sandy-to-burmy-trash",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-sandy",
+    "toFormId": "burmy-trash",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-trash-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-native-rules"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-burmy-trash-to-plant",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-trash",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-plant-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-native-rules"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-burmy-trash-to-burmy-sandy",
+    "pokemonId": "burmy",
+    "fromFormId": "burmy-trash",
+    "toFormId": "burmy-sandy",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "burmy-sandy-battle"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-native-rules"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  }
+]

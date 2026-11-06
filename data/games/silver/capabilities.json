@@ -1,0 +1,359 @@
+[
+  {
+    "id": "old-rod",
+    "name": "Fish with the Old Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with the Good Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ecruteak-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with the Super Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cut",
+    "name": "Use Cut outside battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Use Surf outside battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "morty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Use Strength outside battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "whitney-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Use Fly outside battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "chuck-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "whirlpool",
+    "name": "Use Whirlpool outside battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jasmine-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Use Waterfall outside battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pryce-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Use TM08 Rock Smash",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "headbutt",
+    "name": "Use Headbutt on trees",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bugsy-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bug-contest",
+    "name": "Enter the National Park Bug-Catching Contest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-35"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-special-encounters",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Use the Route 34 Day Care",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-34"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-breeding",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "daytime",
+    "name": "Reach a daytime window",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-time"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "nighttime",
+    "name": "Reach a nighttime window",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-time"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "weekday-window",
+    "name": "Reach a matching weekday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-time"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "swarm-report",
+    "name": "Hear a swarm report on the Pokégear radio",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod-city"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-time",
+        "silver-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "roaming-legendaries",
+    "name": "Release the roaming legendary beasts",
+    "requirements": {
+      "kind": "milestone",
+      "id": "beasts-released"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silver-wing",
+    "name": "Receive the Silver Wing in Goldenrod Radio Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "radio-tower-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rainbow-wing",
+    "name": "Receive the Rainbow Wing in Pewter City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto-open"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-items",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Raise friendship through ordinary play",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-evolutions",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Reach the Tyrogue attack and defence comparison",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-evolutions",
+        "silver-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Reach a daytime evolution window",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-time",
+        "silver-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Reach a nighttime evolution window",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "silver-time",
+        "silver-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

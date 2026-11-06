@@ -1,0 +1,156 @@
+[
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "The pinned Yellow source has no ordinary in-game Mew acquisition. Mew is only available through external distribution or glitches, which are outside this review scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weedle",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kakuna",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beedrill",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ekans",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arbok",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "raichu",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meowth",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "persian",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "koffing",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weezing",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jynx",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electabuzz",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magmar",
+    "reason": "other-version",
+    "explanation": "The pinned Yellow wild tables, event gifts and trades, static encounters, and evolutions provide no ordinary native acquisition path for this species. Link trades are outside scope.",
+    "review": {
+      "referenceIds": [
+        "yellow-exclusions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

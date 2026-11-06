@@ -1,0 +1,546 @@
+[
+  {
+    "id": "cut",
+    "name": "Cut",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm01",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Fly",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm02",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Surf",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm03",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm04",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Waterfall",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm05",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "super-rod",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "grass-spots",
+    "name": "Search shaking grass",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "striaton-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cave-spots",
+    "name": "Search dust clouds",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "striaton-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "bridge-spots",
+    "name": "Search bridge shadows",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "striaton-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "surf-spots",
+    "name": "Find rippling water",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "striaton-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "super-rod-spots",
+    "name": "Fish in rippling water",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "striaton-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dark-grass",
+    "name": "Search dark grass",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-3"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Raise friendship to 220",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Train during the day",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Train during the night",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "winter",
+    "name": "Visit during winter",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Train Attack and Defense",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "personality",
+    "name": "Use an eligible personality",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Leave a free party slot",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Leave two compatible parents at the Route 3 Day Care",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "nimbasa"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "move-reminder",
+    "name": "Use the Mistralton Move Reminder",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mistralton"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "swarm",
+    "name": "Follow the daily swarm report after receiving the National Pokedex",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "battle-subway",
+    "name": "Earn BP in the native Single or Double Battle Subway",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "nimbasa"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "rotom-appliances",
+    "name": "Use the appliance boxes in Shopping Mall Nine",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-9"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "season-change",
+    "name": "Let Deerling or Sawsbuck change with the season",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "tm76-scale-request",
+    "name": "On a day the Driftveil woman requests TM76, show Sewaddle knowing Struggle Bug",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "driftveil"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "swords-of-justice",
+    "name": "Encounter Cobalion in Guidance Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "pokemon",
+          "id": "cobalion",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "roamer-release",
+    "name": "Visit the Route 7 storm house after the Legend Badge",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "opelucid-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "deferred-dragon",
+    "name": "Leave the dragon at N's Castle because every party and PC slot is full",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-forest",
+    "name": "Reach White Forest while the required initial residents remain",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

@@ -1,0 +1,1519 @@
+[
+  {
+    "id": "twinleaf",
+    "name": "Begin in Twinleaf Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "twinleaf",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-1"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose one starter at Lake Verity",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "twinleaf"
+    ],
+    "locationId": "lake-verity",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-1"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sandgem-pokedex",
+    "name": "Receive the Pokedex in Sandgem Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "sandgem",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-2"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "jubilife",
+    "name": "Reach Jubilife City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "sandgem-pokedex"
+    ],
+    "locationId": "jubilife",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh-gate",
+    "name": "Reach Oreburgh through Route 203",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "jubilife"
+    ],
+    "locationId": "oreburgh-gate-1f",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "oreburgh-gym",
+    "name": "Defeat Roark",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "oreburgh-gate"
+    ],
+    "locationId": "oreburgh",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-4"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "jubilife-galactic",
+    "name": "Defeat the Galactic grunts north of Jubilife",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "oreburgh-gym"
+    ],
+    "locationId": "jubilife",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "floaroma",
+    "name": "Reach Floaroma Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "jubilife-galactic"
+    ],
+    "locationId": "floaroma",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "windworks-key",
+    "name": "Rescue the Honey seller and receive the Works Key",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "floaroma"
+    ],
+    "locationId": "floaroma-meadow",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "windworks-clear",
+    "name": "Defeat Mars at Valley Windworks",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "windworks-key"
+    ],
+    "locationId": "valley-windworks-interior",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-forest",
+    "name": "Enter Eterna Forest",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "windworks-clear"
+    ],
+    "locationId": "eterna-forest-interior",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-city",
+    "name": "Reach Eterna City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "eterna-forest"
+    ],
+    "locationId": "eterna",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-gym",
+    "name": "Defeat Gardenia",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "eterna-city"
+    ],
+    "locationId": "eterna",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "eterna-galactic-clear",
+    "name": "Defeat Jupiter and rescue the bicycle seller",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "eterna-gym"
+    ],
+    "locationId": "eterna-galactic-building",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "hearthome",
+    "name": "Reach Hearthome City through southern Mt. Coronet",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "eterna-galactic-clear"
+    ],
+    "locationId": "hearthome",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "hearthome-contest",
+    "name": "Meet Fantina and defeat Barry at the east exit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "hearthome"
+    ],
+    "locationId": "hearthome",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "solaceon",
+    "name": "Reach Solaceon Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "hearthome-contest"
+    ],
+    "locationId": "solaceon",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone",
+    "name": "Reach Veilstone City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "solaceon"
+    ],
+    "locationId": "veilstone",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-10"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone-gym",
+    "name": "Defeat Maylene",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "veilstone",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-10"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone-warehouse-fly",
+    "name": "Recover the assistant's Pokedex and collect Fly",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "veilstone-gym"
+    ],
+    "locationId": "veilstone-warehouse",
+    "nextBossId": "wake",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-10"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "early-pastoria",
+    "name": "Visit Pastoria before either middle Gym",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "solaceon"
+    ],
+    "locationId": "pastoria",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pastoria",
+    "name": "Reach Pastoria through Route 213",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "veilstone-warehouse-fly"
+    ],
+    "locationId": "pastoria",
+    "nextBossId": "wake",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pastoria-gym",
+    "name": "Defeat Crasher Wake",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "pastoria"
+    ],
+    "locationId": "pastoria",
+    "nextBossId": "wake",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "secret-potion",
+    "name": "Chase the grunt and receive Cynthia's SecretPotion",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "pastoria-gym"
+    ],
+    "locationId": "valor-lakefront",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "psyduck-clear",
+    "name": "Give the SecretPotion to Route 210's Psyduck",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "secret-potion"
+    ],
+    "locationId": "route-210-south",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "celestic",
+    "name": "Reach Celestic Town and deliver the Old Charm",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "psyduck-clear"
+    ],
+    "locationId": "celestic",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "celestic-surf",
+    "name": "Inspect the mural and receive Surf from the elder",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "celestic"
+    ],
+    "locationId": "celestic-ruins",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "hearthome-gym",
+    "name": "Defeat Fantina",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "celestic-surf"
+    ],
+    "locationId": "hearthome",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "canalave",
+    "name": "Reach Canalave City with Surf",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "hearthome-gym"
+    ],
+    "locationId": "canalave",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "iron-island",
+    "name": "Complete Riley's Iron Island visit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "canalave"
+    ],
+    "locationId": "iron-island-b2f-room-2",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "canalave-gym",
+    "name": "Defeat Byron",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "canalave"
+    ],
+    "locationId": "canalave",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "canalave-library",
+    "name": "Meet Rowan at Canalave Library",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "canalave",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "valor-cavern-clear",
+    "name": "Defeat Saturn at Lake Valor",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "canalave-library"
+    ],
+    "locationId": "valor-cavern",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "verity-galactic-clear",
+    "name": "Defeat Mars at Lake Verity",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "valor-cavern-clear"
+    ],
+    "locationId": "lake-verity-galactic",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-15"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint",
+    "name": "Reach Snowpoint through northern Mt. Coronet",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "verity-galactic-clear"
+    ],
+    "locationId": "snowpoint",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-16"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "snowpoint-gym",
+    "name": "Defeat Candice",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "snowpoint"
+    ],
+    "locationId": "snowpoint",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-16"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "acuity-scene",
+    "name": "See Jupiter leave Lake Acuity",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "snowpoint-gym"
+    ],
+    "locationId": "lake-acuity-galactic",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "storage-key",
+    "name": "Receive the dropped Storage Key in Veilstone",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "acuity-scene"
+    ],
+    "locationId": "veilstone",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "warehouse-open",
+    "name": "Use the Storage Key to open the Warehouse door",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "storage-key"
+    ],
+    "locationId": "veilstone-warehouse",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "galactic-key",
+    "name": "Collect the Galactic Key in HQ B2F",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "warehouse-open"
+    ],
+    "locationId": "veilstone-hq-b2f",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "veilstone-hq",
+    "name": "Defeat Cyrus and Saturn and free the lake guardians",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "galactic-key"
+    ],
+    "locationId": "veilstone-hq-lab",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-17"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "spear-pillar",
+    "name": "Defeat Cyrus at Spear Pillar",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "veilstone-hq"
+    ],
+    "locationId": "spear-pillar",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "spear-pillar-clear",
+    "name": "Finish the version's legendary encounter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "spear-pillar"
+    ],
+    "locationId": "spear-pillar",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sunyshore",
+    "name": "Reach Sunyshore City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "spear-pillar-clear"
+    ],
+    "locationId": "sunyshore",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-19"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "sunyshore-gym",
+    "name": "Defeat Volkner and receive Waterfall",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "sunyshore"
+    ],
+    "locationId": "sunyshore",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-19"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Cross Victory Road",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "sunyshore-gym"
+    ],
+    "locationId": "victory-road-1f",
+    "nextBossId": "aaron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-20"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "league-aaron",
+    "name": "Defeat Aaron",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "bertha",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-21"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "league-bertha",
+    "name": "Defeat Bertha",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "league-aaron"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "flint",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-21"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "league-flint",
+    "name": "Defeat Flint",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "league-bertha"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "lucian",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-21"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "league-lucian",
+    "name": "Defeat Lucian",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "league-flint"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "cynthia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-21"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "national-dex-before-hall",
+    "name": "See all 150 Sinnoh entries and return to Rowan before the Hall of Fame",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "league-lucian"
+    ],
+    "locationId": "sandgem",
+    "nextBossId": "cynthia",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "hall-of-fame",
+    "name": "Defeat Cynthia and enter the Hall of Fame",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "league-lucian"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-21"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "See all 150 Sinnoh entries and receive the National Pokedex",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 52,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "sandgem",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fight-area",
+    "name": "Sail from Snowpoint to the Fight Area",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 53,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "fight-area",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "survival-area",
+    "name": "Reach the Survival Area through Route 225",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 54,
+    "previousIds": [
+      "national-dex",
+      "fight-area"
+    ],
+    "locationId": "survival-area",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-24"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "stark-mountain",
+    "name": "Reach Stark Mountain with Buck",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 55,
+    "previousIds": [
+      "survival-area"
+    ],
+    "locationId": "stark-mountain-interior-2",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-25"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "stark-stone-returned",
+    "name": "Speak to Buck and let him return the Magma Stone",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 56,
+    "previousIds": [
+      "stark-mountain"
+    ],
+    "locationId": "survival-area",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-25"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "resort-area",
+    "name": "Reach the Resort Area",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 57,
+    "previousIds": [
+      "survival-area"
+    ],
+    "locationId": "resort-area",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-26"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fullmoon-island",
+    "name": "Visit Fullmoon Island and release Cresselia",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 58,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "fullmoon-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-29"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-201",
+    "name": "Visit Route 201",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "route-201",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-1"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-202",
+    "name": "Visit Route 202",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "sandgem-pokedex"
+    ],
+    "locationId": "route-202",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-2"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-203",
+    "name": "Visit Route 203",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "jubilife"
+    ],
+    "locationId": "route-203",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-206",
+    "name": "Visit Route 206",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "eterna-galactic-clear"
+    ],
+    "locationId": "route-206",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-207",
+    "name": "Visit Route 207",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "oreburgh-gate"
+    ],
+    "locationId": "route-207",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-208",
+    "name": "Visit Route 208",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "eterna-galactic-clear"
+    ],
+    "locationId": "route-208",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-209",
+    "name": "Visit Route 209",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "hearthome-contest"
+    ],
+    "locationId": "route-209",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-213",
+    "name": "Visit Route 213",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "route-213",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-10"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-214",
+    "name": "Visit Route 214",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "route-214",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-10"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-215",
+    "name": "Visit Route 215",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "solaceon"
+    ],
+    "locationId": "route-215",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-216",
+    "name": "Visit Route 216",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "route-216",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-217",
+    "name": "Visit Route 217",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "route-217",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-14"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-218",
+    "name": "Visit Route 218",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 71,
+    "previousIds": [
+      "jubilife"
+    ],
+    "locationId": "route-218",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-219",
+    "name": "Visit Route 219",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 72,
+    "previousIds": [
+      "sandgem-pokedex"
+    ],
+    "locationId": "route-219",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-2"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-220",
+    "name": "Visit Route 220",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 73,
+    "previousIds": [
+      "hearthome-gym"
+    ],
+    "locationId": "route-220",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-221",
+    "name": "Visit Route 221",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 74,
+    "previousIds": [
+      "hearthome-gym"
+    ],
+    "locationId": "route-221",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-13"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-222",
+    "name": "Visit Route 222",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 75,
+    "previousIds": [
+      "spear-pillar-clear"
+    ],
+    "locationId": "route-222",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-18"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-223",
+    "name": "Visit Route 223",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 76,
+    "previousIds": [
+      "sunyshore-gym"
+    ],
+    "locationId": "route-223",
+    "nextBossId": "aaron",
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-19"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-224",
+    "name": "Visit Route 224",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 77,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "route-224",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-225",
+    "name": "Visit Route 225",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 78,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "route-225",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-226",
+    "name": "Visit Route 226",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 79,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "route-226",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-227",
+    "name": "Visit Route 227",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 80,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "route-227",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-228",
+    "name": "Visit Route 228",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 81,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "route-228",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-229",
+    "name": "Visit Route 229",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 82,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "route-229",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "visit-route-230",
+    "name": "Visit Route 230",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 83,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "route-230",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {"id":"striaton-gym","name":"Striaton Gym (Cilan, Chili, or Cress by starter choice)","kind":"gym","highestLevel":14,"badgeNumber":1,"specialtyTypeId":null,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"lenora","name":"Lenora","kind":"gym","highestLevel":20,"badgeNumber":2,"specialtyTypeId":"normal","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"burgh","name":"Burgh","kind":"gym","highestLevel":23,"badgeNumber":3,"specialtyTypeId":"bug","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"elesa","name":"Elesa","kind":"gym","highestLevel":27,"badgeNumber":4,"specialtyTypeId":"electric","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"clay","name":"Clay","kind":"gym","highestLevel":31,"badgeNumber":5,"specialtyTypeId":"ground","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"skyla","name":"Skyla","kind":"gym","highestLevel":35,"badgeNumber":6,"specialtyTypeId":"flying","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"brycen","name":"Brycen","kind":"gym","highestLevel":39,"badgeNumber":7,"specialtyTypeId":"ice","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"iris","name":"Iris","kind":"gym","highestLevel":43,"badgeNumber":8,"specialtyTypeId":"dragon","review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"shauntal","name":"Shauntal","kind":"elite-four","highestLevel":50,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"marshal","name":"Marshal","kind":"elite-four","highestLevel":50,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"grimsley","name":"Grimsley","kind":"elite-four","highestLevel":50,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"caitlin","name":"Caitlin","kind":"elite-four","highestLevel":50,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"n","name":"N","kind":"trainer","highestLevel":52,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}},
+  {"id":"ghestis","name":"Ghetsis","kind":"trainer","highestLevel":54,"review":{"referenceIds":["white-bosses"],"checkedOn":"2026-10-13"}}
+]

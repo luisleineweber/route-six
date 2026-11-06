@@ -1,0 +1,3573 @@
+[
+    {
+        "id":  "bulbasaur-to-ivysaur",
+        "fromPokemonId":  "bulbasaur",
+        "toPokemonId":  "ivysaur",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "ivysaur-to-venusaur",
+        "fromPokemonId":  "ivysaur",
+        "toPokemonId":  "venusaur",
+        "trigger":  "level-up",
+        "minimumLevel":  32,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "charmander-to-charmeleon",
+        "fromPokemonId":  "charmander",
+        "toPokemonId":  "charmeleon",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "charmeleon-to-charizard",
+        "fromPokemonId":  "charmeleon",
+        "toPokemonId":  "charizard",
+        "trigger":  "level-up",
+        "minimumLevel":  36,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "squirtle-to-wartortle",
+        "fromPokemonId":  "squirtle",
+        "toPokemonId":  "wartortle",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "wartortle-to-blastoise",
+        "fromPokemonId":  "wartortle",
+        "toPokemonId":  "blastoise",
+        "trigger":  "level-up",
+        "minimumLevel":  36,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "caterpie-to-metapod",
+        "fromPokemonId":  "caterpie",
+        "toPokemonId":  "metapod",
+        "trigger":  "level-up",
+        "minimumLevel":  7,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "metapod-to-butterfree",
+        "fromPokemonId":  "metapod",
+        "toPokemonId":  "butterfree",
+        "trigger":  "level-up",
+        "minimumLevel":  10,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "weedle-to-kakuna",
+        "fromPokemonId":  "weedle",
+        "toPokemonId":  "kakuna",
+        "trigger":  "level-up",
+        "minimumLevel":  7,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "kakuna-to-beedrill",
+        "fromPokemonId":  "kakuna",
+        "toPokemonId":  "beedrill",
+        "trigger":  "level-up",
+        "minimumLevel":  10,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "pidgey-to-pidgeotto",
+        "fromPokemonId":  "pidgey",
+        "toPokemonId":  "pidgeotto",
+        "trigger":  "level-up",
+        "minimumLevel":  18,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "pidgeotto-to-pidgeot",
+        "fromPokemonId":  "pidgeotto",
+        "toPokemonId":  "pidgeot",
+        "trigger":  "level-up",
+        "minimumLevel":  36,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "rattata-to-raticate",
+        "fromPokemonId":  "rattata",
+        "toPokemonId":  "raticate",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "spearow-to-fearow",
+        "fromPokemonId":  "spearow",
+        "toPokemonId":  "fearow",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "ekans-to-arbok",
+        "fromPokemonId":  "ekans",
+        "toPokemonId":  "arbok",
+        "trigger":  "level-up",
+        "minimumLevel":  22,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "pikachu-to-raichu",
+        "fromPokemonId":  "pikachu",
+        "toPokemonId":  "raichu",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "thunder-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "thunder-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "sandshrew-to-sandslash",
+        "fromPokemonId":  "sandshrew",
+        "toPokemonId":  "sandslash",
+        "trigger":  "level-up",
+        "minimumLevel":  22,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "nidorina-to-nidoqueen",
+        "fromPokemonId":  "nidorina",
+        "toPokemonId":  "nidoqueen",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "moon-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "moon-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "nidorino-to-nidoking",
+        "fromPokemonId":  "nidorino",
+        "toPokemonId":  "nidoking",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "moon-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "moon-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "clefairy-to-clefable",
+        "fromPokemonId":  "clefairy",
+        "toPokemonId":  "clefable",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "moon-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "moon-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "vulpix-to-ninetales",
+        "fromPokemonId":  "vulpix",
+        "toPokemonId":  "ninetales",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "fire-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "fire-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "jigglypuff-to-wigglytuff",
+        "fromPokemonId":  "jigglypuff",
+        "toPokemonId":  "wigglytuff",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "moon-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "moon-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "zubat-to-golbat",
+        "fromPokemonId":  "zubat",
+        "toPokemonId":  "golbat",
+        "trigger":  "level-up",
+        "minimumLevel":  22,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "golbat-to-crobat",
+        "fromPokemonId":  "golbat",
+        "toPokemonId":  "crobat",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "friendship"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "oddish-to-gloom",
+        "fromPokemonId":  "oddish",
+        "toPokemonId":  "gloom",
+        "trigger":  "level-up",
+        "minimumLevel":  21,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "gloom-to-vileplume",
+        "fromPokemonId":  "gloom",
+        "toPokemonId":  "vileplume",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "leaf-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "leaf-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "gloom-to-bellossom",
+        "fromPokemonId":  "gloom",
+        "toPokemonId":  "bellossom",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "sun-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "sun-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "paras-to-parasect",
+        "fromPokemonId":  "paras",
+        "toPokemonId":  "parasect",
+        "trigger":  "level-up",
+        "minimumLevel":  24,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "venonat-to-venomoth",
+        "fromPokemonId":  "venonat",
+        "toPokemonId":  "venomoth",
+        "trigger":  "level-up",
+        "minimumLevel":  31,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "diglett-to-dugtrio",
+        "fromPokemonId":  "diglett",
+        "toPokemonId":  "dugtrio",
+        "trigger":  "level-up",
+        "minimumLevel":  26,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "meowth-to-persian",
+        "fromPokemonId":  "meowth",
+        "toPokemonId":  "persian",
+        "trigger":  "level-up",
+        "minimumLevel":  28,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "psyduck-to-golduck",
+        "fromPokemonId":  "psyduck",
+        "toPokemonId":  "golduck",
+        "trigger":  "level-up",
+        "minimumLevel":  33,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "mankey-to-primeape",
+        "fromPokemonId":  "mankey",
+        "toPokemonId":  "primeape",
+        "trigger":  "level-up",
+        "minimumLevel":  28,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "growlithe-to-arcanine",
+        "fromPokemonId":  "growlithe",
+        "toPokemonId":  "arcanine",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "fire-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "fire-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "poliwag-to-poliwhirl",
+        "fromPokemonId":  "poliwag",
+        "toPokemonId":  "poliwhirl",
+        "trigger":  "level-up",
+        "minimumLevel":  25,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "poliwhirl-to-poliwrath",
+        "fromPokemonId":  "poliwhirl",
+        "toPokemonId":  "poliwrath",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "water-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "water-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "poliwhirl-to-politoed",
+        "fromPokemonId":  "poliwhirl",
+        "toPokemonId":  "politoed",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  "kings-rock",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "kings-rock",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "abra-to-kadabra",
+        "fromPokemonId":  "abra",
+        "toPokemonId":  "kadabra",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "kadabra-to-alakazam",
+        "fromPokemonId":  "kadabra",
+        "toPokemonId":  "alakazam",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "machop-to-machoke",
+        "fromPokemonId":  "machop",
+        "toPokemonId":  "machoke",
+        "trigger":  "level-up",
+        "minimumLevel":  28,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "machoke-to-machamp",
+        "fromPokemonId":  "machoke",
+        "toPokemonId":  "machamp",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "bellsprout-to-weepinbell",
+        "fromPokemonId":  "bellsprout",
+        "toPokemonId":  "weepinbell",
+        "trigger":  "level-up",
+        "minimumLevel":  21,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "weepinbell-to-victreebel",
+        "fromPokemonId":  "weepinbell",
+        "toPokemonId":  "victreebel",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "leaf-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "leaf-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "tentacool-to-tentacruel",
+        "fromPokemonId":  "tentacool",
+        "toPokemonId":  "tentacruel",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "geodude-to-graveler",
+        "fromPokemonId":  "geodude",
+        "toPokemonId":  "graveler",
+        "trigger":  "level-up",
+        "minimumLevel":  25,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "graveler-to-golem",
+        "fromPokemonId":  "graveler",
+        "toPokemonId":  "golem",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "ponyta-to-rapidash",
+        "fromPokemonId":  "ponyta",
+        "toPokemonId":  "rapidash",
+        "trigger":  "level-up",
+        "minimumLevel":  40,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "slowpoke-to-slowbro",
+        "fromPokemonId":  "slowpoke",
+        "toPokemonId":  "slowbro",
+        "trigger":  "level-up",
+        "minimumLevel":  37,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "slowpoke-to-slowking",
+        "fromPokemonId":  "slowpoke",
+        "toPokemonId":  "slowking",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  "kings-rock",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "kings-rock",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "magnemite-to-magneton",
+        "fromPokemonId":  "magnemite",
+        "toPokemonId":  "magneton",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "doduo-to-dodrio",
+        "fromPokemonId":  "doduo",
+        "toPokemonId":  "dodrio",
+        "trigger":  "level-up",
+        "minimumLevel":  31,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "seel-to-dewgong",
+        "fromPokemonId":  "seel",
+        "toPokemonId":  "dewgong",
+        "trigger":  "level-up",
+        "minimumLevel":  34,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "grimer-to-muk",
+        "fromPokemonId":  "grimer",
+        "toPokemonId":  "muk",
+        "trigger":  "level-up",
+        "minimumLevel":  38,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "shellder-to-cloyster",
+        "fromPokemonId":  "shellder",
+        "toPokemonId":  "cloyster",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "water-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "water-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "gastly-to-haunter",
+        "fromPokemonId":  "gastly",
+        "toPokemonId":  "haunter",
+        "trigger":  "level-up",
+        "minimumLevel":  25,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "haunter-to-gengar",
+        "fromPokemonId":  "haunter",
+        "toPokemonId":  "gengar",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "onix-to-steelix",
+        "fromPokemonId":  "onix",
+        "toPokemonId":  "steelix",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  "metal-coat",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "metal-coat",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "drowzee-to-hypno",
+        "fromPokemonId":  "drowzee",
+        "toPokemonId":  "hypno",
+        "trigger":  "level-up",
+        "minimumLevel":  26,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "krabby-to-kingler",
+        "fromPokemonId":  "krabby",
+        "toPokemonId":  "kingler",
+        "trigger":  "level-up",
+        "minimumLevel":  28,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "voltorb-to-electrode",
+        "fromPokemonId":  "voltorb",
+        "toPokemonId":  "electrode",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "exeggcute-to-exeggutor",
+        "fromPokemonId":  "exeggcute",
+        "toPokemonId":  "exeggutor",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "leaf-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "leaf-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "cubone-to-marowak",
+        "fromPokemonId":  "cubone",
+        "toPokemonId":  "marowak",
+        "trigger":  "level-up",
+        "minimumLevel":  28,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "koffing-to-weezing",
+        "fromPokemonId":  "koffing",
+        "toPokemonId":  "weezing",
+        "trigger":  "level-up",
+        "minimumLevel":  35,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "rhyhorn-to-rhydon",
+        "fromPokemonId":  "rhyhorn",
+        "toPokemonId":  "rhydon",
+        "trigger":  "level-up",
+        "minimumLevel":  42,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "chansey-to-blissey",
+        "fromPokemonId":  "chansey",
+        "toPokemonId":  "blissey",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "friendship"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "horsea-to-seadra",
+        "fromPokemonId":  "horsea",
+        "toPokemonId":  "seadra",
+        "trigger":  "level-up",
+        "minimumLevel":  32,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "seadra-to-kingdra",
+        "fromPokemonId":  "seadra",
+        "toPokemonId":  "kingdra",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  "dragon-scale",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "dragon-scale",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "goldeen-to-seaking",
+        "fromPokemonId":  "goldeen",
+        "toPokemonId":  "seaking",
+        "trigger":  "level-up",
+        "minimumLevel":  33,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "staryu-to-starmie",
+        "fromPokemonId":  "staryu",
+        "toPokemonId":  "starmie",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "water-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "water-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "scyther-to-scizor",
+        "fromPokemonId":  "scyther",
+        "toPokemonId":  "scizor",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  "metal-coat",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "metal-coat",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "magikarp-to-gyarados",
+        "fromPokemonId":  "magikarp",
+        "toPokemonId":  "gyarados",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "eevee-to-jolteon",
+        "fromPokemonId":  "eevee",
+        "toPokemonId":  "jolteon",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "thunder-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "thunder-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "eevee-to-vaporeon",
+        "fromPokemonId":  "eevee",
+        "toPokemonId":  "vaporeon",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "water-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "water-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "eevee-to-flareon",
+        "fromPokemonId":  "eevee",
+        "toPokemonId":  "flareon",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "fire-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "fire-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "eevee-to-espeon",
+        "fromPokemonId":  "eevee",
+        "toPokemonId":  "espeon",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           },
+                           {
+                               "kind":  "time",
+                               "period":  "day"
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+                                                  {
+                                                      "kind":  "capability",
+                                                      "id":  "friendship"
+                                                  },
+                                                  {
+                                                      "kind":  "capability",
+                                                      "id":  "day"
+                                                  }
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "eevee-to-umbreon",
+        "fromPokemonId":  "eevee",
+        "toPokemonId":  "umbreon",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           },
+                           {
+                               "kind":  "time",
+                               "period":  "night"
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+                                                  {
+                                                      "kind":  "capability",
+                                                      "id":  "friendship"
+                                                  },
+                                                  {
+                                                      "kind":  "capability",
+                                                      "id":  "night"
+                                                  }
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "omanyte-to-omastar",
+        "fromPokemonId":  "omanyte",
+        "toPokemonId":  "omastar",
+        "trigger":  "level-up",
+        "minimumLevel":  40,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "kabuto-to-kabutops",
+        "fromPokemonId":  "kabuto",
+        "toPokemonId":  "kabutops",
+        "trigger":  "level-up",
+        "minimumLevel":  40,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "dratini-to-dragonair",
+        "fromPokemonId":  "dratini",
+        "toPokemonId":  "dragonair",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "dragonair-to-dragonite",
+        "fromPokemonId":  "dragonair",
+        "toPokemonId":  "dragonite",
+        "trigger":  "level-up",
+        "minimumLevel":  55,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "chikorita-to-bayleef",
+        "fromPokemonId":  "chikorita",
+        "toPokemonId":  "bayleef",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "bayleef-to-meganium",
+        "fromPokemonId":  "bayleef",
+        "toPokemonId":  "meganium",
+        "trigger":  "level-up",
+        "minimumLevel":  32,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "cyndaquil-to-quilava",
+        "fromPokemonId":  "cyndaquil",
+        "toPokemonId":  "quilava",
+        "trigger":  "level-up",
+        "minimumLevel":  14,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "quilava-to-typhlosion",
+        "fromPokemonId":  "quilava",
+        "toPokemonId":  "typhlosion",
+        "trigger":  "level-up",
+        "minimumLevel":  36,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "totodile-to-croconaw",
+        "fromPokemonId":  "totodile",
+        "toPokemonId":  "croconaw",
+        "trigger":  "level-up",
+        "minimumLevel":  18,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "croconaw-to-feraligatr",
+        "fromPokemonId":  "croconaw",
+        "toPokemonId":  "feraligatr",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "sentret-to-furret",
+        "fromPokemonId":  "sentret",
+        "toPokemonId":  "furret",
+        "trigger":  "level-up",
+        "minimumLevel":  15,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "hoothoot-to-noctowl",
+        "fromPokemonId":  "hoothoot",
+        "toPokemonId":  "noctowl",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "ledyba-to-ledian",
+        "fromPokemonId":  "ledyba",
+        "toPokemonId":  "ledian",
+        "trigger":  "level-up",
+        "minimumLevel":  18,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "spinarak-to-ariados",
+        "fromPokemonId":  "spinarak",
+        "toPokemonId":  "ariados",
+        "trigger":  "level-up",
+        "minimumLevel":  22,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "chinchou-to-lanturn",
+        "fromPokemonId":  "chinchou",
+        "toPokemonId":  "lanturn",
+        "trigger":  "level-up",
+        "minimumLevel":  27,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "pichu-to-pikachu",
+        "fromPokemonId":  "pichu",
+        "toPokemonId":  "pikachu",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "friendship"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "cleffa-to-clefairy",
+        "fromPokemonId":  "cleffa",
+        "toPokemonId":  "clefairy",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "friendship"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "igglybuff-to-jigglypuff",
+        "fromPokemonId":  "igglybuff",
+        "toPokemonId":  "jigglypuff",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "friendship"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "togepi-to-togetic",
+        "fromPokemonId":  "togepi",
+        "toPokemonId":  "togetic",
+        "trigger":  "level-up",
+        "minimumLevel":  null,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "friendship",
+                               "minimum":  220
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "friendship"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "natu-to-xatu",
+        "fromPokemonId":  "natu",
+        "toPokemonId":  "xatu",
+        "trigger":  "level-up",
+        "minimumLevel":  25,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "mareep-to-flaaffy",
+        "fromPokemonId":  "mareep",
+        "toPokemonId":  "flaaffy",
+        "trigger":  "level-up",
+        "minimumLevel":  15,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "flaaffy-to-ampharos",
+        "fromPokemonId":  "flaaffy",
+        "toPokemonId":  "ampharos",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "marill-to-azumarill",
+        "fromPokemonId":  "marill",
+        "toPokemonId":  "azumarill",
+        "trigger":  "level-up",
+        "minimumLevel":  18,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "hoppip-to-skiploom",
+        "fromPokemonId":  "hoppip",
+        "toPokemonId":  "skiploom",
+        "trigger":  "level-up",
+        "minimumLevel":  18,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "skiploom-to-jumpluff",
+        "fromPokemonId":  "skiploom",
+        "toPokemonId":  "jumpluff",
+        "trigger":  "level-up",
+        "minimumLevel":  27,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "sunkern-to-sunflora",
+        "fromPokemonId":  "sunkern",
+        "toPokemonId":  "sunflora",
+        "trigger":  "use-item",
+        "minimumLevel":  null,
+        "itemId":  "sun-stone",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "sun-stone",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "wooper-to-quagsire",
+        "fromPokemonId":  "wooper",
+        "toPokemonId":  "quagsire",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "pineco-to-forretress",
+        "fromPokemonId":  "pineco",
+        "toPokemonId":  "forretress",
+        "trigger":  "level-up",
+        "minimumLevel":  31,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "snubbull-to-granbull",
+        "fromPokemonId":  "snubbull",
+        "toPokemonId":  "granbull",
+        "trigger":  "level-up",
+        "minimumLevel":  23,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "teddiursa-to-ursaring",
+        "fromPokemonId":  "teddiursa",
+        "toPokemonId":  "ursaring",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "slugma-to-magcargo",
+        "fromPokemonId":  "slugma",
+        "toPokemonId":  "magcargo",
+        "trigger":  "level-up",
+        "minimumLevel":  38,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "swinub-to-piloswine",
+        "fromPokemonId":  "swinub",
+        "toPokemonId":  "piloswine",
+        "trigger":  "level-up",
+        "minimumLevel":  33,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "remoraid-to-octillery",
+        "fromPokemonId":  "remoraid",
+        "toPokemonId":  "octillery",
+        "trigger":  "level-up",
+        "minimumLevel":  25,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "houndour-to-houndoom",
+        "fromPokemonId":  "houndour",
+        "toPokemonId":  "houndoom",
+        "trigger":  "level-up",
+        "minimumLevel":  24,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "phanpy-to-donphan",
+        "fromPokemonId":  "phanpy",
+        "toPokemonId":  "donphan",
+        "trigger":  "level-up",
+        "minimumLevel":  25,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "tyrogue-to-hitmonchan",
+        "fromPokemonId":  "tyrogue",
+        "toPokemonId":  "hitmonchan",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "stats",
+                               "relation":  "attack-lt-defense"
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "stat-training"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "tyrogue-to-hitmonlee",
+        "fromPokemonId":  "tyrogue",
+        "toPokemonId":  "hitmonlee",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "stats",
+                               "relation":  "attack-gt-defense"
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "stat-training"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "tyrogue-to-hitmontop",
+        "fromPokemonId":  "tyrogue",
+        "toPokemonId":  "hitmontop",
+        "trigger":  "level-up",
+        "minimumLevel":  20,
+        "itemId":  null,
+        "conditions":  [
+                           {
+                               "kind":  "stats",
+                               "relation":  "attack-eq-defense"
+                           }
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "capability",
+                             "id":  "stat-training"
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "smoochum-to-jynx",
+        "fromPokemonId":  "smoochum",
+        "toPokemonId":  "jynx",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "elekid-to-electabuzz",
+        "fromPokemonId":  "elekid",
+        "toPokemonId":  "electabuzz",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "magby-to-magmar",
+        "fromPokemonId":  "magby",
+        "toPokemonId":  "magmar",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "larvitar-to-pupitar",
+        "fromPokemonId":  "larvitar",
+        "toPokemonId":  "pupitar",
+        "trigger":  "level-up",
+        "minimumLevel":  30,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "pupitar-to-tyranitar",
+        "fromPokemonId":  "pupitar",
+        "toPokemonId":  "tyranitar",
+        "trigger":  "level-up",
+        "minimumLevel":  55,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "porygon-to-porygon2",
+        "fromPokemonId":  "porygon",
+        "toPokemonId":  "porygon2",
+        "trigger":  "player-trade",
+        "minimumLevel":  null,
+        "itemId":  "up-grade",
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "item",
+                             "id":  "up-grade",
+                             "quantity":  1,
+                             "consumed":  true
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions",
+                                            "crystal-items",
+                                            "crystal-time"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "nidoran-f-to-nidorina",
+        "fromPokemonId":  "nidoran-f",
+        "toPokemonId":  "nidorina",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    },
+    {
+        "id":  "nidoran-m-to-nidorino",
+        "fromPokemonId":  "nidoran-m",
+        "toPokemonId":  "nidorino",
+        "trigger":  "level-up",
+        "minimumLevel":  16,
+        "itemId":  null,
+        "conditions":  [
+
+                       ],
+        "genderTransitions":  null,
+        "requirements":  {
+                             "kind":  "all",
+                             "requirements":  [
+
+                                              ]
+                         },
+        "coProductIds":  [
+
+                         ],
+        "review":  {
+                       "referenceIds":  [
+                                            "crystal-evolutions"
+                                        ],
+                       "checkedOn":  "2026-10-12"
+                   }
+    }
+]

@@ -1,0 +1,84 @@
+{
+  "id": "white-2",
+  "name": "Pokémon White 2",
+  "generation": 5,
+  "region": "Unova",
+  "firstMilestoneId": "start",
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "aspertia-gym",
+        "label": "Gym 1: Cheren — Normal",
+        "title": "Gym 1",
+        "detail": "Cheren — Normal",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "virbank",
+        "label": "Gym 2: Roxie — Poison",
+        "title": "Gym 2",
+        "detail": "Roxie — Poison",
+        "typeId": "poison"
+      },
+      {
+        "milestoneId": "sewers-clear",
+        "label": "Gym 3: Burgh — Bug",
+        "title": "Gym 3",
+        "detail": "Burgh — Bug",
+        "typeId": "bug"
+      },
+      {
+        "milestoneId": "nimbasa",
+        "label": "Gym 4: Elesa — Electric",
+        "title": "Gym 4",
+        "detail": "Elesa — Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "driftveil",
+        "label": "Gym 5: Clay — Ground",
+        "title": "Gym 5",
+        "detail": "Clay — Ground",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "mistralton",
+        "label": "Gym 6: Skyla — Flying",
+        "title": "Gym 6",
+        "detail": "Skyla — Flying",
+        "typeId": "flying"
+      },
+      {
+        "milestoneId": "opelucid",
+        "label": "Gym 7: Drayden — Dragon",
+        "title": "Gym 7",
+        "detail": "Drayden — Dragon",
+        "typeId": "dragon"
+      },
+      {
+        "milestoneId": "humilau",
+        "label": "Gym 8: Marlon — Water",
+        "title": "Gym 8",
+        "detail": "Marlon — Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "white-2-native-story"
+    ],
+    "checkedOn": "2026-10-27"
+  }
+}

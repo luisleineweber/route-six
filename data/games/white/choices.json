@@ -1,0 +1,107 @@
+[
+  {
+    "id": "starter",
+    "name": "Choose one starter",
+    "options": [
+      "snivy",
+      "tepig",
+      "oshawott"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "story-dragon",
+    "name": "Catch the story dragon once",
+    "options": [
+      "castle",
+      "deferred"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-forest-residents",
+    "name": "Initial White Forest residents",
+    "options": [
+      "leo",
+      "jacques",
+      "ken",
+      "lynette",
+      "collin",
+      "ryder",
+      "piper",
+      "marie",
+      "dave",
+      "shane",
+      "herman",
+      "miki",
+      "pierce",
+      "britney",
+      "robbie",
+      "vincent",
+      "silvia",
+      "ralph",
+      "miho",
+      "lena",
+      "karenna",
+      "rosa",
+      "molly",
+      "gene",
+      "eliza",
+      "grace",
+      "carlos",
+      "doug",
+      "frederic",
+      "emi"
+    ],
+    "maximumSelections": 10,
+    "review": {
+      "referenceIds": [
+        "white-native-forest"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "castelia-evolution-stone",
+    "name": "Choose one stone at Castelia Thumb Pier",
+    "options": [
+      "fire-stone",
+      "water-stone",
+      "leaf-stone"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "fossil-choice",
+    "name": "Choose one Unova fossil",
+    "options": [
+      "cover-fossil",
+      "plume-fossil"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "white-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

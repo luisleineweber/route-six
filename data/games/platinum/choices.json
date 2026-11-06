@@ -1,0 +1,50 @@
+[
+  {
+    "id": "starter-choice",
+    "name": "Sinnoh starter choice",
+    "options": [
+      "starter-turtwig",
+      "starter-chimchar",
+      "starter-piplup"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "underground-fossil-trainer-id-parity",
+    "name": "Underground fossil Trainer ID parity",
+    "options": [
+      "odd-trainer-id",
+      "even-trainer-id"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "giratina-capture-site",
+    "name": "Giratina capture site",
+    "options": [
+      "distortion-world",
+      "turnback-cave"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  }
+]

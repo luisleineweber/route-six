@@ -1,0 +1,302 @@
+[
+  {
+    "id": "cut",
+    "name": "Use HM01 Cut outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm01-cut",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Use HM02 Fly outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm02-fly",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "lt-surge-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Use HM03 Surf outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm03-surf",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Use HM04 Strength outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm04-strength",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "erika-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "flash",
+    "name": "Use HM05 Flash outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm05-flash",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Fish with the Old Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "old-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with the Good Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "good-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with the Super Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "super-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-scope",
+    "name": "Reveal Ghosts with the Silph Scope",
+    "requirements": {
+      "kind": "item",
+      "id": "silph-scope",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "poke-flute",
+    "name": "Wake sleeping Pokémon with the Poké Flute",
+    "requirements": {
+      "kind": "item",
+      "id": "poke-flute",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lift-key",
+    "name": "Use the Rocket Hideout elevator",
+    "requirements": {
+      "kind": "item",
+      "id": "lift-key",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "card-key",
+    "name": "Open locked Silph Co. doors",
+    "requirements": {
+      "kind": "item",
+      "id": "card-key",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "secret-key",
+    "name": "Unlock the Cinnabar Gym",
+    "requirements": {
+      "kind": "item",
+      "id": "secret-key",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "safari-game",
+    "name": "Enter the Safari Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-guard-drink",
+    "name": "Give a drink to a Saffron City gate guard",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "fresh-water",
+          "quantity": 1,
+          "consumed": true
+        },
+        {
+          "kind": "item",
+          "id": "soda-pop",
+          "quantity": 1,
+          "consumed": true
+        },
+        {
+          "kind": "item",
+          "id": "lemonade",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "yellow-capabilities"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

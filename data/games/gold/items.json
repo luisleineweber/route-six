@@ -1,0 +1,614 @@
+[
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-bills-grandpa",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "oddish",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-bills-grandpa",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "staryu",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-bills-grandpa",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "growlithe",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-stone-bills-grandpa",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "pichu",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "sun-stone-contest-prize",
+        "locationId": "national-park",
+        "requirements": {
+          "kind": "capability",
+          "id": "bug-contest"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "kings-rock-slowpoke-well",
+        "locationId": "slowpoke-well-b2f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-32"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "kings-rock-held-poliwhirl",
+        "locationId": "ecruteak-city",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "poliwhirl",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "kings-rock-held-slowbro",
+        "locationId": "slowpoke-well-b2f",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "slowbro",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "kings-rock-held-slowpoke",
+        "locationId": "slowpoke-well-b1f",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "slowpoke",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "dragon-scale-mount-mortar",
+        "locationId": "mount-mortar-2f-inside",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "pryce-defeated"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            },
+            {
+              "kind": "capability",
+              "id": "strength"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-held-dragonair",
+        "locationId": "dragons-den-b1f",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "dragonair",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-held-dratini",
+        "locationId": "dragons-den-b1f",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "dratini",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-held-horsea",
+        "locationId": "whirl-island-b2f",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "horsea",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-held-seadra",
+        "locationId": "whirl-island-b2f",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "seadra",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "metal-coat-fast-ship",
+        "locationId": "olivine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "indigo-plateau"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "metal-coat-held-magnemite",
+        "locationId": "route-38",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "magnemite",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-species",
+            "gold-encounters",
+            "gold-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-stone-mount-moon-square",
+        "locationId": "mount-moon",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "weekday-window"
+            },
+            {
+              "kind": "capability",
+              "id": "nighttime"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-tohjo-falls",
+        "locationId": "tohjo-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "clair-defeated"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up-Grade",
+    "sources": [
+      {
+        "id": "up-grade-silph-co",
+        "locationId": "saffron-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rainbow-wing",
+    "name": "Rainbow Wing",
+    "sources": [
+      {
+        "id": "rainbow-wing-radio-tower",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "lake-of-rage-event"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silver-wing",
+    "name": "Silver Wing",
+    "sources": [
+      {
+        "id": "silver-wing-pewter-city",
+        "locationId": "pewter-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "gold-items",
+            "gold-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "gold-items",
+        "gold-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

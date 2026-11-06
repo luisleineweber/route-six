@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-meteor",
+        "locationId": "meteor-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-fiery",
+        "locationId": "fiery-path",
+        "requirements": {
+          "kind": "capability",
+          "id": "strength"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "fire-shard",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "item",
+          "id": "red-shard",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-ship",
+        "locationId": "abandoned-ship",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "water-shard",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "item",
+          "id": "blue-shard",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-119",
+        "locationId": "route-119",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "leaf-shard",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "item",
+          "id": "green-shard",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-new-mauville",
+        "locationId": "new-mauville",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "thunder-shard",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "item",
+          "id": "yellow-shard",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "sun-space-center",
+        "locationId": "mossdeep",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "sun-solrock",
+        "locationId": "meteor-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "pokemon",
+              "id": "solrock",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-13"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "sea-incense-pyre",
+        "locationId": "mt-pyre",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "lax-incense-pyre",
+        "locationId": "mt-pyre",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "root-fossil",
+    "name": "Root Fossil",
+    "sources": [
+      {
+        "id": "root-fossil-desert",
+        "locationId": "route-111-desert",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "root-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "claw-fossil",
+    "name": "Claw Fossil",
+    "sources": [
+      {
+        "id": "claw-fossil-desert",
+        "locationId": "route-111-desert",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "claw-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "red-shard",
+    "name": "Red Shard",
+    "sources": [
+      {
+        "id": "red-corsola",
+        "locationId": "route-128",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "super-rod"
+            },
+            {
+              "kind": "pokemon",
+              "id": "corsola",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "red-pickup-124",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blue-shard",
+    "name": "Blue Shard",
+    "sources": [
+      {
+        "id": "blue-clamperl",
+        "locationId": "underwater-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "pokemon",
+              "id": "clamperl",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "blue-pickup-124",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "green-shard",
+    "name": "Green Shard",
+    "sources": [
+      {
+        "id": "green-relicanth",
+        "locationId": "underwater-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "pokemon",
+              "id": "relicanth",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "green-pickup-126",
+        "locationId": "route-126",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "yellow-shard",
+    "name": "Yellow Shard",
+    "sources": [
+      {
+        "id": "yellow-chinchou",
+        "locationId": "underwater-124",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "pokemon",
+              "id": "chinchou",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "yellow-pickup-124",
+        "locationId": "route-124",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Poké Ball",
+    "sources": [
+      {
+        "id": "ball-shop",
+        "locationId": "oldale",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pokedex"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dig",
+    "name": "TM28 Dig",
+    "sources": [
+      {
+        "id": "dig-maniac",
+        "locationId": "route-114",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "wailmer-pail",
+    "name": "Wailmer Pail",
+    "sources": [
+      {
+        "id": "pail-flower-shop",
+        "locationId": "route-104",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "kings-rock-mossdeep",
+        "locationId": "mossdeep",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "kings-rock-hariyama",
+        "locationId": "victory-road",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "hariyama",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "metal-coat-magnemite",
+        "locationId": "new-mauville",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "magnemite",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "metal-coat-magneton",
+        "locationId": "new-mauville",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "magneton",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "dragon-scale-horsea",
+        "locationId": "route-132",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "super-rod"
+            },
+            {
+              "kind": "pokemon",
+              "id": "horsea",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-bagon",
+        "locationId": "meteor-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            },
+            {
+              "kind": "pokemon",
+              "id": "bagon",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "deep-sea-tooth-stern",
+        "locationId": "slateport",
+        "requirements": {
+          "kind": "item",
+          "id": "scanner",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "scanner-choice",
+          "optionId": "deep-sea-tooth"
+        },
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "deep-sea-scale-stern",
+        "locationId": "slateport",
+        "requirements": {
+          "kind": "item",
+          "id": "scanner",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "scanner-choice",
+          "optionId": "deep-sea-scale"
+        },
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokeblock-case",
+    "name": "Pokéblock Case",
+    "sources": [
+      {
+        "id": "case-contest-hall",
+        "locationId": "slateport",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kelpsy-berry",
+    "name": "Kelpsy Berry",
+    "sources": [
+      {
+        "id": "kelpsy-route115",
+        "locationId": "route-115",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "scanner",
+    "name": "Scanner",
+    "sources": [
+      {
+        "id": "scanner-ship",
+        "locationId": "abandoned-ship",
+        "requirements": {
+          "kind": "capability",
+          "id": "dive"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "upgrade",
+    "name": "Upgrade",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "ruby-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "basement-key",
+    "name": "Basement Key",
+    "sources": [
+      {
+        "id": "basement-key-wattson",
+        "locationId": "mauville",
+        "requirements": {
+          "kind": "milestone",
+          "id": "wattson-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "ruby-items",
+            "ruby-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "ruby-items",
+        "ruby-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

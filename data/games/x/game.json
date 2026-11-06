@@ -1,0 +1,98 @@
+{
+  "id": "x",
+  "name": "Pokémon X",
+  "generation": 6,
+  "region": "Kalos",
+  "firstMilestoneId": "vaniville",
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "santalune-gym",
+        "label": "Gym 1 · Bug · Viola",
+        "title": "Gym 1",
+        "detail": "Viola · Bug",
+        "typeId": "bug"
+      },
+      {
+        "milestoneId": "cyllage-gym",
+        "label": "Gym 2 · Rock · Grant",
+        "title": "Gym 2",
+        "detail": "Grant · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "shalour-gym",
+        "label": "Gym 3 · Fighting · Korrina",
+        "title": "Gym 3",
+        "detail": "Korrina · Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "coumarine-gym",
+        "label": "Gym 4 · Grass · Ramos",
+        "title": "Gym 4",
+        "detail": "Ramos · Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "lumiose-gym",
+        "label": "Gym 5 · Electric · Clemont",
+        "title": "Gym 5",
+        "detail": "Clemont · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "laverre-gym",
+        "label": "Gym 6 · Fairy · Valerie",
+        "title": "Gym 6",
+        "detail": "Valerie · Fairy",
+        "typeId": "fairy"
+      },
+      {
+        "milestoneId": "anistar-gym",
+        "label": "Gym 7 · Psychic · Olympia",
+        "title": "Gym 7",
+        "detail": "Olympia · Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "snowbelle-gym",
+        "label": "Gym 8 · Ice · Wulfric",
+        "title": "Gym 8",
+        "detail": "Wulfric · Ice",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "xy-reviewed-story"
+    ],
+    "checkedOn": "2026-10-21"
+  },
+  "regionalDexSections": [
+    {
+      "id": "central",
+      "name": "Central Kalos"
+    },
+    {
+      "id": "coastal",
+      "name": "Coastal Kalos"
+    },
+    {
+      "id": "mountain",
+      "name": "Mountain Kalos"
+    }
+  ]
+}

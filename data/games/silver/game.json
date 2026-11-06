@@ -1,0 +1,79 @@
+{
+  "id": "silver",
+  "name": "Pokémon Silver",
+  "generation": 2,
+  "region": "Johto and Kanto",
+  "firstMilestoneId": "new-bark-town",
+  "review": {
+    "referenceIds": [
+      "silver-progression",
+      "silver-hatch",
+      "silver-time"
+    ],
+    "checkedOn": "2026-10-12"
+  },
+  "planner": {
+    "defaultMilestoneId": "clair-defeated",
+    "checkpoints": [
+      {
+        "milestoneId": "falkner-defeated",
+        "label": "Gym 1 · Flying · Falkner",
+        "title": "Gym 1",
+        "detail": "Falkner · Flying",
+        "typeId": "flying"
+      },
+      {
+        "milestoneId": "bugsy-defeated",
+        "label": "Gym 2 · Bug · Bugsy",
+        "title": "Gym 2",
+        "detail": "Bugsy · Bug",
+        "typeId": "bug"
+      },
+      {
+        "milestoneId": "whitney-defeated",
+        "label": "Gym 3 · Normal · Whitney",
+        "title": "Gym 3",
+        "detail": "Whitney · Normal",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "morty-defeated",
+        "label": "Gym 4 · Ghost · Morty",
+        "title": "Gym 4",
+        "detail": "Morty · Ghost",
+        "typeId": "ghost"
+      },
+      {
+        "milestoneId": "chuck-defeated",
+        "label": "Gym 5 · Fighting · Chuck",
+        "title": "Gym 5",
+        "detail": "Chuck · Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "jasmine-defeated",
+        "label": "Gym 6 · Steel · Jasmine",
+        "title": "Gym 6",
+        "detail": "Jasmine · Steel",
+        "typeId": "steel"
+      },
+      {
+        "milestoneId": "pryce-defeated",
+        "label": "Gym 7 · Ice · Pryce",
+        "title": "Gym 7",
+        "detail": "Pryce · Ice",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "clair-defeated",
+        "label": "Gym 8 · Dragon · Clair",
+        "title": "Gym 8",
+        "detail": "Clair · Dragon",
+        "typeId": "dragon"
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 5
+  }
+}

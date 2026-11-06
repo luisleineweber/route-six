@@ -1,0 +1,18 @@
+[
+  {
+    "id": "starter-choice",
+    "name": "Sinnoh starter",
+    "options": [
+      "starter-turtwig",
+      "starter-chimchar",
+      "starter-piplup"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "diamond-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  }
+]

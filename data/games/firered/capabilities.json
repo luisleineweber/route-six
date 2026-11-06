@@ -1,0 +1,873 @@
+[
+
+  {
+
+    "id": "flash-access",
+
+    "name": "Use Flash outside battle",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "brock-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm05",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "cut-access",
+
+    "name": "Use Cut outside battle",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "misty-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm01",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "fly-access",
+
+    "name": "Use Fly outside battle",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "surge-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm02",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "strength-access",
+
+    "name": "Use Strength outside battle",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "erika-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm04",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "surf-access",
+
+    "name": "Use Surf outside battle",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "koga-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm03",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "tri-pass-access",
+
+    "name": "Travel to Islands One to Three",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "blaine-defeated"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "rainbow-pass-access",
+
+    "name": "Travel to Islands Four to Seven",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "rainbow-pass"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "day-care-access",
+
+    "name": "Use the Four Island Day Care",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "four-island"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities",
+
+        "firered-breeding"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "old-rod-access",
+
+    "name": "Fish with the Old Rod",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "old-rod",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "good-rod-access",
+
+    "name": "Fish with the Good Rod",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "good-rod",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "super-rod-access",
+
+    "name": "Fish with the Super Rod",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "super-rod",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "rock-smash-access",
+
+    "name": "Use Rock Smash",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "one-island"
+
+        },
+
+        {
+
+          "kind": "milestone",
+
+          "id": "sabrina-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm06",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "bicycle-access",
+
+    "name": "bicycle",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "bicycle",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "waterfall-access",
+
+    "name": "Use Waterfall in the field",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "hm07",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "friendship",
+
+    "name": "Raise friendship to the required threshold",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "pallet-town"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-evolutions"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "personality",
+
+    "name": "Allow the game-defined personality-based evolution result",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "pallet-town"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-evolutions"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "party-space",
+
+    "name": "Leave one free party slot",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "pallet-town"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-evolutions"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "stat-training",
+
+    "name": "Reach the required Attack and Defense comparison",
+
+    "requirements": {
+
+      "kind": "milestone",
+
+      "id": "pallet-town"
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-evolutions"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "surf",
+
+    "name": "Use Surf outside battle",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "koga-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm03",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "old-rod",
+
+    "name": "Fish with the Old Rod",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "old-rod",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "good-rod",
+
+    "name": "Fish with the Good Rod",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "good-rod",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "super-rod",
+
+    "name": "Fish with the Super Rod",
+
+    "requirements": {
+
+      "kind": "item",
+
+      "id": "super-rod",
+
+      "quantity": 1,
+
+      "consumed": false
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  },
+
+  {
+
+    "id": "rock-smash",
+
+    "name": "Use Rock Smash",
+
+    "requirements": {
+
+      "kind": "all",
+
+      "requirements": [
+
+        {
+
+          "kind": "milestone",
+
+          "id": "one-island"
+
+        },
+
+        {
+
+          "kind": "milestone",
+
+          "id": "sabrina-defeated"
+
+        },
+
+        {
+
+          "kind": "item",
+
+          "id": "hm06",
+
+          "quantity": 1,
+
+          "consumed": false
+
+        }
+
+      ]
+
+    },
+
+    "review": {
+
+      "referenceIds": [
+
+        "firered-capabilities"
+
+      ],
+
+      "checkedOn": "2026-10-12"
+
+    }
+
+  }
+
+]

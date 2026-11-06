@@ -1,0 +1,84 @@
+{
+  "id": "white",
+  "name": "Pokémon White",
+  "generation": 5,
+  "region": "Unova",
+  "firstMilestoneId": "start",
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "striaton",
+        "label": "Gym 1: Striaton Gym (Cilan, Chili, or Cress by starter choice)",
+        "title": "Gym 1",
+        "detail": "Striaton Gym (Cilan, Chili, or Cress by starter choice)",
+        "typeId": null
+      },
+      {
+        "milestoneId": "nacrene",
+        "label": "Gym 2: Lenora — Normal",
+        "title": "Gym 2",
+        "detail": "Lenora — Normal",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "castelia-plasma",
+        "label": "Gym 3: Burgh — Bug",
+        "title": "Gym 3",
+        "detail": "Burgh — Bug",
+        "typeId": "bug"
+      },
+      {
+        "milestoneId": "nimbasa",
+        "label": "Gym 4: Elesa — Electric",
+        "title": "Gym 4",
+        "detail": "Elesa — Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "cold-storage-clear",
+        "label": "Gym 5: Clay — Ground",
+        "title": "Gym 5",
+        "detail": "Clay — Ground",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "celestial-bell",
+        "label": "Gym 6: Skyla — Flying",
+        "title": "Gym 6",
+        "detail": "Skyla — Flying",
+        "typeId": "flying"
+      },
+      {
+        "milestoneId": "icirrus",
+        "label": "Gym 7: Brycen — Ice",
+        "title": "Gym 7",
+        "detail": "Brycen — Ice",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "opelucid",
+        "label": "Gym 8: Iris — Dragon",
+        "title": "Gym 8",
+        "detail": "Iris — Dragon",
+        "typeId": "dragon"
+      },
+      {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "white-native-story"
+    ],
+    "checkedOn": "2026-10-27"
+  }
+}

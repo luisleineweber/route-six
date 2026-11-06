@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env.local
+.env
+.env.*
+!.env.example
+*.log
+artifacts/
+output/
+.playwright-cli/
+.*-source-review/
+
+# UI review screenshots
+screenshots/
+*-before.*
+*-after.*
+before-*.*
+after-*.*

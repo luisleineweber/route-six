@@ -1,0 +1,208 @@
+[
+  {
+    "pokemonId": "articuno",
+    "reason": "other-version",
+    "explanation": "Crystal has no native encounter or gift for this Kanto legendary. The acquisition paths in scope do not include transfers from Kanto versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zapdos",
+    "reason": "other-version",
+    "explanation": "Crystal has no native encounter or gift for this Kanto legendary. The acquisition paths in scope do not include transfers from Kanto versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "moltres",
+    "reason": "other-version",
+    "explanation": "Crystal has no native encounter or gift for this Kanto legendary. The acquisition paths in scope do not include transfers from Kanto versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mewtwo",
+    "reason": "other-version",
+    "explanation": "Crystal has no native encounter or gift for this Kanto legendary. The acquisition paths in scope do not include transfers from Kanto versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "Mew has no native Crystal encounter, gift, or other in-game acquisition.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "external-event",
+    "explanation": "Celebi requires the external GS Ball distribution event in Ilex Forest.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mareep",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vulpix",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mankey",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "girafarig",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "remoraid",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omanyte",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabuto",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bulbasaur",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmander",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "squirtle",
+    "reason": "other-version",
+    "explanation": "The pinned Crystal source has no native encounter or gift path for this species. The planner scope excludes transfers from other game versions.",
+    "review": {
+      "referenceIds": [
+        "crystal-exclusions",
+        "crystal-encounters",
+        "crystal-game"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

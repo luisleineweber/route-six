@@ -1,0 +1,3523 @@
+[
+  {
+    "id": "armor-fossil",
+    "name": "Armor Fossil",
+    "sources": [
+      {
+        "id": "xy-item-armor-fossil-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "sources": [
+      {
+        "id": "xy-item-aspear-berry-camphrier-daily",
+        "locationId": "camphrier-town",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "bunnelby",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "cheri-berry",
+    "name": "Cheri Berry",
+    "sources": [
+      {
+        "id": "xy-item-cheri-berry-camphrier-daily",
+        "locationId": "camphrier-town",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "bunnelby",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "sources": [
+      {
+        "id": "xy-item-chesto-berry-camphrier-daily",
+        "locationId": "camphrier-town",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "bunnelby",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "cover-fossil",
+    "name": "Cover Fossil",
+    "sources": [
+      {
+        "id": "xy-item-cover-fossil-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "sources": [
+      {
+        "id": "xy-item-dawn-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [
+      {
+        "id": "xy-item-deep-sea-scale-field",
+        "locationId": "azure-bay",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-709-super-rod-relicanth",
+        "locationId": "ambrette-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-709-super-rod-relicanth",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-710-super-rod-relicanth",
+        "locationId": "cyllage-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-710-super-rod-relicanth",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-711-good-rod-chinchou",
+        "locationId": "shalour-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-711-good-rod-chinchou",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-711-super-rod-lanturn",
+        "locationId": "shalour-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-711-super-rod-lanturn",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-723-super-rod-gorebyss",
+        "locationId": "kalos-route-12",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-723-super-rod-gorebyss",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-760-good-rod-chinchou",
+        "locationId": "azure-bay",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-760-good-rod-chinchou",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-scale-held-y-wild-760-super-rod-lanturn",
+        "locationId": "azure-bay",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-760-super-rod-lanturn",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [
+      {
+        "id": "xy-item-deep-sea-tooth-field",
+        "locationId": "azure-bay",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-708-good-rod-basculin",
+        "locationId": "couriway-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-708-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-708-super-rod-basculin",
+        "locationId": "couriway-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-708-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-712-good-rod-basculin",
+        "locationId": "laverre-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-712-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-712-super-rod-basculin",
+        "locationId": "laverre-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-712-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-726-good-rod-basculin",
+        "locationId": "kalos-route-15",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-726-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-726-super-rod-basculin",
+        "locationId": "kalos-route-15",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-726-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-727-good-rod-basculin",
+        "locationId": "kalos-route-16",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-727-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-727-super-rod-basculin",
+        "locationId": "kalos-route-16",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-727-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-732-good-rod-basculin",
+        "locationId": "kalos-route-21",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-732-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-732-super-rod-basculin",
+        "locationId": "kalos-route-21",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-732-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-733-good-rod-carvanha",
+        "locationId": "kalos-route-22",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-733-good-rod-carvanha",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-733-super-rod-sharpedo",
+        "locationId": "kalos-route-22",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-733-super-rod-sharpedo",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-742-good-rod-basculin",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-742-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-742-super-rod-basculin",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-742-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-744-good-rod-basculin",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-744-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-744-super-rod-basculin",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-744-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-747-good-rod-basculin",
+        "locationId": "pokemon-village",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-747-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-747-super-rod-basculin",
+        "locationId": "pokemon-village",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-747-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-748-good-rod-basculin",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-748-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-748-super-rod-basculin",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-748-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-751-good-rod-basculin",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-751-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-751-super-rod-basculin",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-751-super-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-752-good-rod-basculin",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-752-good-rod-basculin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-deep-sea-tooth-held-y-wild-752-super-rod-basculin",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-752-super-rod-basculin",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "xy-item-dome-fossil-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "xy-item-dragon-scale-field",
+        "locationId": "terminus-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-dragon-scale-held-y-wild-709-good-rod-horsea",
+        "locationId": "ambrette-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-709-good-rod-horsea",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-dragon-scale-held-y-wild-709-super-rod-seadra",
+        "locationId": "ambrette-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-709-super-rod-seadra",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-dragon-scale-held-y-wild-710-good-rod-horsea",
+        "locationId": "cyllage-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-710-good-rod-horsea",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-dragon-scale-held-y-wild-710-super-rod-seadra",
+        "locationId": "cyllage-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-710-super-rod-seadra",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-dragon-scale-held-y-wild-732-good-rod-dratini",
+        "locationId": "kalos-route-21",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-732-good-rod-dratini",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-dragon-scale-held-y-wild-732-super-rod-dragonair",
+        "locationId": "kalos-route-21",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-732-super-rod-dragonair",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dubious-disc",
+    "name": "Dubious Disc",
+    "sources": [
+      {
+        "id": "xy-item-dubious-disc-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "sources": [
+      {
+        "id": "xy-item-dusk-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "sources": [
+      {
+        "id": "xy-item-electirizer-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "xy-item-fire-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "full-incense",
+    "name": "Full Incense",
+    "sources": [
+      {
+        "id": "xy-item-full-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "griseous-orb",
+    "name": "Griseous Orb",
+    "sources": [
+      {
+        "id": "xy-item-griseous-orb-zygarde-room",
+        "locationId": "terminus-cave-zygarde-room",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "heart-scale",
+    "name": "Heart Scale",
+    "sources": [
+      {
+        "id": "xy-item-heart-scale-held-y-wild-709-old-rod-luvdisc",
+        "locationId": "ambrette-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-709-old-rod-luvdisc",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "xy-item-heart-scale-held-y-wild-710-old-rod-luvdisc",
+        "locationId": "cyllage-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-710-old-rod-luvdisc",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "xy-item-heart-scale-held-y-wild-711-old-rod-luvdisc",
+        "locationId": "shalour-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-711-old-rod-luvdisc",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "xy-item-heart-scale-held-y-wild-719-old-rod-luvdisc",
+        "locationId": "route-8-beach",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-719-old-rod-luvdisc",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "xy-item-heart-scale-held-y-wild-723-old-rod-luvdisc",
+        "locationId": "kalos-route-12",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-723-old-rod-luvdisc",
+          "ratePercent": 50
+        }
+      },
+      {
+        "id": "xy-item-heart-scale-held-y-wild-760-old-rod-luvdisc",
+        "locationId": "azure-bay",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-760-old-rod-luvdisc",
+          "ratePercent": 50
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "xy-item-helix-fossil-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "hm01",
+    "name": "Hm01",
+    "sources": [
+      {
+        "id": "xy-item-hm01-story",
+        "locationId": "parfum-palace",
+        "requirements": {
+          "kind": "milestone",
+          "id": "parfum-palace"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "hm02",
+    "name": "Hm02",
+    "sources": [
+      {
+        "id": "xy-item-hm02-story",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "hm03",
+    "name": "Hm03",
+    "sources": [
+      {
+        "id": "xy-item-hm03-story",
+        "locationId": "shalour-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "surf-received"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "hm04",
+    "name": "Hm04",
+    "sources": [
+      {
+        "id": "xy-item-hm04-story",
+        "locationId": "cyllage-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "cyllage"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "hm05",
+    "name": "Hm05",
+    "sources": [
+      {
+        "id": "xy-item-hm05-story",
+        "locationId": "kalos-route-19",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-19"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "jaw-fossil",
+    "name": "Jaw Fossil",
+    "sources": [
+      {
+        "id": "xy-item-jaw-fossil-story-choice",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fossil-lab-open"
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "story-fossil",
+          "optionId": "jaw-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "Kings Rock",
+    "sources": [
+      {
+        "id": "xy-item-kings-rock-held-y-wild-708-good-rod-poliwhirl",
+        "locationId": "couriway-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-708-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-708-super-rod-poliwhirl",
+        "locationId": "couriway-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-708-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-712-good-rod-poliwhirl",
+        "locationId": "laverre-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-712-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-712-super-rod-poliwhirl",
+        "locationId": "laverre-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-712-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-721-walk-hawlucha",
+        "locationId": "kalos-route-10",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-721-walk-hawlucha",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-721-yellow-flowers-hawlucha",
+        "locationId": "kalos-route-10",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-721-yellow-flowers-hawlucha",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-722-walk-hariyama",
+        "locationId": "kalos-route-11",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-722-walk-hariyama",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-725-good-rod-poliwhirl",
+        "locationId": "kalos-route-14",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-725-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-725-super-rod-poliwhirl",
+        "locationId": "kalos-route-14",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-725-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-726-good-rod-poliwhirl",
+        "locationId": "kalos-route-15",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-726-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-726-super-rod-poliwhirl",
+        "locationId": "kalos-route-15",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-726-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-727-good-rod-poliwhirl",
+        "locationId": "kalos-route-16",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-727-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-727-super-rod-poliwhirl",
+        "locationId": "kalos-route-16",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-727-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-730-good-rod-poliwhirl",
+        "locationId": "kalos-route-19",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-730-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-730-super-rod-poliwhirl",
+        "locationId": "kalos-route-19",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-730-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-730-super-rod-politoed",
+        "locationId": "kalos-route-19",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-730-super-rod-politoed",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-732-good-rod-poliwhirl",
+        "locationId": "kalos-route-21",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-732-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-732-super-rod-poliwhirl",
+        "locationId": "kalos-route-21",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-732-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-742-good-rod-poliwhirl",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-742-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-742-super-rod-poliwhirl",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-742-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-742-surf-poliwhirl",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-742-surf-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-744-good-rod-poliwhirl",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-744-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-744-super-rod-poliwhirl",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-744-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-744-surf-poliwhirl",
+        "locationId": "frost-cavern",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-744-surf-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-747-good-rod-poliwhirl",
+        "locationId": "pokemon-village",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-747-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-747-super-rod-poliwhirl",
+        "locationId": "pokemon-village",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-747-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-747-surf-poliwhirl",
+        "locationId": "pokemon-village",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-747-surf-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-748-good-rod-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-748-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-748-super-rod-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-748-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-748-surf-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-748-surf-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-751-good-rod-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-751-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-751-super-rod-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-751-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-752-good-rod-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-752-good-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-752-super-rod-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-752-super-rod-poliwhirl",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-752-super-rod-poliwrath",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-752-super-rod-poliwrath",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-kings-rock-held-y-wild-752-surf-poliwhirl",
+        "locationId": "kalos-victory-road",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-752-surf-poliwhirl",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "xy-item-lax-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "xy-item-leaf-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "luck-incense",
+    "name": "Luck Incense",
+    "sources": [
+      {
+        "id": "xy-item-luck-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "sources": [
+      {
+        "id": "xy-item-magmarizer-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "xy-item-metal-coat-field",
+        "locationId": "poke-ball-factory",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-metal-coat-held-y-wild-759-walk-magneton",
+        "locationId": "lost-hotel",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-759-walk-magneton",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "xy-item-moon-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-moon-stone-held-y-wild-736-walk-lunatone",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-736-walk-lunatone",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "odd-incense",
+    "name": "Odd Incense",
+    "sources": [
+      {
+        "id": "xy-item-odd-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "xy-item-old-amber-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "oran-berry",
+    "name": "Oran Berry",
+    "sources": [
+      {
+        "id": "xy-item-oran-berry-route-5-tree",
+        "locationId": "kalos-route-5",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-5"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-oran-berry-held-y-wild-716-horde-gulpin",
+        "locationId": "kalos-route-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-716-horde-gulpin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-oran-berry-held-y-wild-716-purple-flowers-gulpin",
+        "locationId": "kalos-route-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-716-purple-flowers-gulpin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-oran-berry-held-y-wild-716-walk-gulpin",
+        "locationId": "kalos-route-5",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-716-walk-gulpin",
+          "ratePercent": 5
+        }
+      },
+      {
+        "id": "xy-item-oran-berry-held-y-wild-717-rustling-bush-ambush-audino",
+        "locationId": "kalos-route-6",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-717-rustling-bush-ambush-audino",
+          "ratePercent": 50
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "oval-stone",
+    "name": "Oval Stone",
+    "sources": [
+      {
+        "id": "xy-item-oval-stone-field",
+        "locationId": "pokemon-village",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "sources": [
+      {
+        "id": "xy-item-pecha-berry-camphrier-daily",
+        "locationId": "camphrier-town",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "bunnelby",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "plume-fossil",
+    "name": "Plume Fossil",
+    "sources": [
+      {
+        "id": "xy-item-plume-fossil-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "poke-ball",
+    "name": "Poke Ball",
+    "sources": [
+      {
+        "id": "xy-item-poke-ball-aquacorde-shop",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "starter"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "poke-flute",
+    "name": "Poke Flute",
+    "sources": [
+      {
+        "id": "xy-item-poke-flute-story",
+        "locationId": "parfum-palace",
+        "requirements": {
+          "kind": "milestone",
+          "id": "parfum-palace"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "prism-scale",
+    "name": "Prism Scale",
+    "sources": [
+      {
+        "id": "xy-item-prism-scale-field",
+        "locationId": "couriway-town",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "sources": [
+      {
+        "id": "xy-item-protector-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-protector-field",
+        "locationId": "lost-hotel",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "pure-incense",
+    "name": "Pure Incense",
+    "sources": [
+      {
+        "id": "xy-item-pure-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "sources": [
+      {
+        "id": "xy-item-rawst-berry-camphrier-daily",
+        "locationId": "camphrier-town",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "bunnelby",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "razor-claw",
+    "name": "Razor Claw",
+    "sources": [
+      {
+        "id": "xy-item-razor-claw-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "razor-fang",
+    "name": "Razor Fang",
+    "sources": [
+      {
+        "id": "xy-item-razor-fang-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "reaper-cloth",
+    "name": "Reaper Cloth",
+    "sources": [
+      {
+        "id": "xy-item-reaper-cloth-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rock-incense",
+    "name": "Rock Incense",
+    "sources": [
+      {
+        "id": "xy-item-rock-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "rose-incense",
+    "name": "Rose Incense",
+    "sources": [
+      {
+        "id": "xy-item-rose-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "sachet",
+    "name": "Sachet",
+    "sources": [
+      {
+        "id": "xy-item-sachet-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "sail-fossil",
+    "name": "Sail Fossil",
+    "sources": [
+      {
+        "id": "xy-item-sail-fossil-story-choice",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fossil-lab-open"
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "story-fossil",
+          "optionId": "sail-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "xy-item-sea-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "sources": [
+      {
+        "id": "xy-item-shiny-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "skull-fossil",
+    "name": "Skull Fossil",
+    "sources": [
+      {
+        "id": "xy-item-skull-fossil-glittering-rocks",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "post-credits"
+            },
+            {
+              "kind": "capability",
+              "id": "rock-smash"
+            }
+          ]
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "xy-item-sun-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      },
+      {
+        "id": "xy-item-sun-stone-held-y-wild-736-walk-solrock",
+        "locationId": "glittering-cave",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        },
+        "details": {
+          "kind": "wild-held-item",
+          "pokemonSourceId": "y-wild-736-walk-solrock",
+          "ratePercent": 5
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "xy-item-thunder-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up Grade",
+    "sources": [
+      {
+        "id": "xy-item-up-grade-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "xy-item-water-stone-secret-super-training",
+        "locationId": "aquacorde-town",
+        "requirements": {
+          "kind": "capability",
+          "id": "super-training"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "wave-incense",
+    "name": "Wave Incense",
+    "sources": [
+      {
+        "id": "xy-item-wave-incense-coumarine-stall",
+        "locationId": "coumarine-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "coumarine"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "id": "whipped-dream",
+    "name": "Whipped Dream",
+    "sources": [
+      {
+        "id": "xy-item-whipped-dream-maison-shop",
+        "locationId": "kiloude-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kiloude"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "xy-reviewed-items"
+          ],
+          "checkedOn": "2026-10-21"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-items"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

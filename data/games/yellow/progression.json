@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "pallet-town",
+    "name": "Pallet Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "pallet-town",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Reach Route 1",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "route-1",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Reach Route 2",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "route-2",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Reach Route 22",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "route-22",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-forest",
+    "name": "Viridian Forest",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "pallet-town"
+    ],
+    "locationId": "viridian-forest",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Reach Pewter City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "viridian-forest"
+    ],
+    "locationId": "pewter-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Defeat Brock",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "pewter-city"
+    ],
+    "locationId": "pewter-gym",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Cross Route 3",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "brock-defeated"
+    ],
+    "locationId": "route-3",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "mt-moon-cleared",
+    "name": "Cross Mt. Moon",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "route-3"
+    ],
+    "locationId": "mt-moon",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Reach Route 4",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "mt-moon-cleared"
+    ],
+    "locationId": "route-4",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Reach Cerulean City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "mt-moon-cleared"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Reach Route 5",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-5",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Reach Route 6",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-6",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Reach Route 9",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-9",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Reach Route 10",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-10",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Reach Route 24",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-24",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Reach Route 25",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-25",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Defeat Misty",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "cerulean-gym",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bill-helped",
+    "name": "Help Bill and receive the S.S. Ticket",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "bills-house",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Reach Vermilion City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Reach Route 11",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "vermilion-city"
+    ],
+    "locationId": "route-11",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-anne-cleared",
+    "name": "Visit the S.S. Anne and receive HM01 Cut",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "vermilion-city",
+      "bill-helped"
+    ],
+    "locationId": "ss-anne",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lt-surge-defeated",
+    "name": "Defeat Lt. Surge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "ss-anne-cleared"
+    ],
+    "locationId": "vermilion-gym",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Reach Lavender Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "lavender-town",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Reach Route 7",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-7",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Reach Route 8",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-8",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Reach Route 12",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-12",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "celadon-city",
+    "name": "Reach Celadon City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "celadon-city",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Defeat Erika",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "celadon-gym",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rocket-hideout-cleared",
+    "name": "Clear the Rocket Hideout and obtain the Silph Scope",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "rocket-hideout-b4f",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pokemon-tower-cleared",
+    "name": "Clear Pokémon Tower and obtain the Poké Flute",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "rocket-hideout-cleared"
+    ],
+    "locationId": "pokemon-tower",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Reach Route 13",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "route-13",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Reach Route 14",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "route-14",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Reach Route 15",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "route-15",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Reach Route 16",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "route-16",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Reach Route 17",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "route-17",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Reach Route 18",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "route-18",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Reach Saffron City with Tea",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "celadon-city"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-liberated",
+    "name": "Free Silph Co. and receive the Master Ball",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "saffron-city",
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "silph-co",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "Reach Fuchsia City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "pokemon-tower-cleared"
+    ],
+    "locationId": "fuchsia-city",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "koga-defeated",
+    "name": "Defeat Koga",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "fuchsia-city"
+    ],
+    "locationId": "fuchsia-gym",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Reach Route 19",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "route-19",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Reach Route 20",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "route-20",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Reach Route 21",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "route-21",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Defeat Sabrina",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "saffron-liberated"
+    ],
+    "locationId": "saffron-gym",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Reach Cinnabar Island",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "cinnabar-island",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Defeat Blaine",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "cinnabar-island"
+    ],
+    "locationId": "cinnabar-gym",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "viridian-gym-open",
+    "name": "Open Viridian Gym after earning seven badges",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "blaine-defeated",
+      "sabrina-defeated"
+    ],
+    "locationId": "viridian-city",
+    "nextBossId": "giovanni",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "giovanni-defeated",
+    "name": "Defeat Giovanni and earn the Earth Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "viridian-gym-open"
+    ],
+    "locationId": "viridian-gym",
+    "nextBossId": "giovanni",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-23",
+    "name": "Reach Route 23",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "giovanni-defeated"
+    ],
+    "locationId": "route-23",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Cross Victory Road",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "giovanni-defeated"
+    ],
+    "locationId": "victory-road",
+    "nextBossId": "lorelei",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lorelei-defeated",
+    "name": "Defeat Lorelei",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "bruno",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bruno-defeated",
+    "name": "Defeat Bruno",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 52,
+    "previousIds": [
+      "lorelei-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "agatha",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "agatha-defeated",
+    "name": "Defeat Agatha",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "bruno-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "lance",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lance-defeated",
+    "name": "Defeat Lance",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "agatha-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "champion",
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "champion-defeated",
+    "name": "Become the Pokémon League Champion",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "lance-defeated"
+    ],
+    "locationId": "champions-room",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cerulean-cave-open",
+    "name": "Unlock Cerulean Cave after entering the Hall of Fame",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 56,
+    "previousIds": [
+      "champion-defeated"
+    ],
+    "locationId": "cerulean-cave",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "yellow-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "id": "heartgold",
+  "name": "Pokémon HeartGold",
+  "generation": 4,
+  "region": "Johto",
+  "firstMilestoneId": "new-bark-town",
+  "planner": {
+    "defaultMilestoneId": "before-league",
+    "checkpoints": [
+      {
+        "milestoneId": "violet-gym",
+        "label": "Gym 1: Falkner",
+        "title": "Gym 1",
+        "detail": "Falkner",
+        "typeId": "flying"
+      },
+      {
+        "milestoneId": "before-bugsy",
+        "label": "Gym 2: Bugsy",
+        "title": "Gym 2",
+        "detail": "Bugsy",
+        "typeId": "bug"
+      },
+      {
+        "milestoneId": "before-whitney",
+        "label": "Gym 3: Whitney",
+        "title": "Gym 3",
+        "detail": "Whitney",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "before-morty",
+        "label": "Gym 4: Morty",
+        "title": "Gym 4",
+        "detail": "Morty",
+        "typeId": "ghost"
+      },
+      {
+        "milestoneId": "before-chuck",
+        "label": "Gym 5: Chuck",
+        "title": "Gym 5",
+        "detail": "Chuck",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "before-jasmine",
+        "label": "Gym 6: Jasmine",
+        "title": "Gym 6",
+        "detail": "Jasmine",
+        "typeId": "steel"
+      },
+      {
+        "milestoneId": "before-pryce",
+        "label": "Gym 7: Pryce",
+        "title": "Gym 7",
+        "detail": "Pryce",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "before-clair",
+        "label": "Gym 8: Clair",
+        "title": "Gym 8",
+        "detail": "Clair",
+        "typeId": "dragon"
+      },
+      {
+        "milestoneId": "before-league",
+        "label": "Pokemon League",
+        "title": "Pokemon League",
+        "detail": "League",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "heartgold-source",
+      "generation-iv-vi-egg-level"
+    ],
+    "checkedOn": "2026-11-05"
+  }
+}

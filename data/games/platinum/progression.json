@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "twinleaf",
+    "name": "Twinleaf Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "twinleaf-town",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose one briefcase starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "route-201"
+    ],
+    "locationId": "route-201",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sandgem-pokedex",
+    "name": "Receive the Pokédex and meet Rowan",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "sandgem-town",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "jubilife",
+    "name": "Reach Jubilife City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "sandgem-pokedex"
+    ],
+    "locationId": "jubilife-city",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-gate",
+    "name": "Open the Oreburgh Gate route",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "jubilife"
+    ],
+    "locationId": "oreburgh-gate",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-mine",
+    "name": "Find Roark in Oreburgh Mine",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "oreburgh-gate"
+    ],
+    "locationId": "oreburgh-mine",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-gym",
+    "name": "Defeat Roark",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "oreburgh-mine"
+    ],
+    "locationId": "oreburgh-city",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "windworks-clear",
+    "name": "Defeat Mars at Valley Windworks",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "oreburgh-gym"
+    ],
+    "locationId": "valley-windworks-outside",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-forest",
+    "name": "Cross Eterna Forest with Cheryl",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "windworks-clear"
+    ],
+    "locationId": "eterna-forest",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-city",
+    "name": "Reach Eterna City and receive the Explorer Kit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "eterna-forest"
+    ],
+    "locationId": "eterna-city",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-gym",
+    "name": "Defeat Gardenia",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "eterna-city"
+    ],
+    "locationId": "eterna-city",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-galactic-clear",
+    "name": "Defeat Jupiter and rescue Rick",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "eterna-gym"
+    ],
+    "locationId": "team-galactic-eterna-building",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hearthome",
+    "name": "Reach Hearthome City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "eterna-galactic-clear"
+    ],
+    "locationId": "hearthome-city",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hearthome-gym",
+    "name": "Defeat Fantina",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "hearthome"
+    ],
+    "locationId": "hearthome-city",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone",
+    "name": "Reach Veilstone City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "hearthome-gym"
+    ],
+    "locationId": "veilstone-city",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "early-pastoria",
+    "name": "Visit Pastoria before challenging Maylene",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "pastoria-city",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone-gym",
+    "name": "Defeat Maylene",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "veilstone-city",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone-warehouse-fly",
+    "name": "Enter the warehouse and obtain HM02 Fly",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "veilstone-gym"
+    ],
+    "locationId": "veilstone-city-galactic-warehouse",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pastoria",
+    "name": "Reach Pastoria City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "veilstone-gym"
+    ],
+    "locationId": "pastoria-city",
+    "nextBossId": "wake",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pastoria-gym",
+    "name": "Defeat Crasher Wake",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "pastoria"
+    ],
+    "locationId": "pastoria-city",
+    "nextBossId": "wake",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "valor-lakefront",
+    "name": "Receive the SecretPotion from Cynthia",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "pastoria-gym"
+    ],
+    "locationId": "valor-lakefront",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "celestic",
+    "name": "Resolve the Celestic Town Galactic event",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "valor-lakefront",
+      "hearthome-gym"
+    ],
+    "locationId": "celestic-town",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "canalave",
+    "name": "Reach Canalave City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "celestic"
+    ],
+    "locationId": "canalave-city",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "canalave-gym",
+    "name": "Defeat Byron",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "canalave"
+    ],
+    "locationId": "canalave-city",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-valor-explosion",
+    "name": "Hear the Lake Valor explosion at Canalave Library",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "canalave-city",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-valor-saturn",
+    "name": "Defeat Saturn in Valor Cavern",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "lake-valor-explosion"
+    ],
+    "locationId": "valor-cavern",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-verity-mars",
+    "name": "Defeat Mars at Lake Verity",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "lake-valor-saturn"
+    ],
+    "locationId": "lake-verity",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island",
+    "name": "Complete Riley's Iron Island visit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "canalave"
+    ],
+    "locationId": "iron-island",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint",
+    "name": "Reach Snowpoint City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "snowpoint-city",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-gym",
+    "name": "Defeat Candice",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "snowpoint"
+    ],
+    "locationId": "snowpoint-city",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone-hq-open",
+    "name": "Looker opens the Galactic HQ doors",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "acuity-lake",
+      "veilstone-warehouse-fly"
+    ],
+    "locationId": "veilstone-city-galactic-warehouse",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "acuity-lake",
+    "name": "Resolve the Lake Acuity Galactic event",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "snowpoint-gym",
+      "lake-verity-mars"
+    ],
+    "locationId": "lake-acuity",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone-hq",
+    "name": "Clear the late Veilstone Galactic HQ and free the lake guardians",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "veilstone-hq-open"
+    ],
+    "locationId": "veilstone-city",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "spear-pillar",
+    "name": "Stop Cyrus at Spear Pillar and enter Distortion World",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "veilstone-hq",
+      "acuity-lake",
+      "valor-lakefront"
+    ],
+    "locationId": "spear-pillar",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "giratina",
+    "name": "Encounter Giratina in Distortion World",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "spear-pillar"
+    ],
+    "locationId": "distortion-world-giratina-room",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "distortion-clear",
+    "name": "Defeat Cyrus and exit Distortion World",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "giratina"
+    ],
+    "locationId": "distortion-world-b7f",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sunyshore",
+    "name": "Reach Sunyshore City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "distortion-clear"
+    ],
+    "locationId": "sunyshore-city",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sunyshore-gym",
+    "name": "Defeat Volkner",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "sunyshore"
+    ],
+    "locationId": "sunyshore-city",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Cross Victory Road",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "sunyshore-gym"
+    ],
+    "locationId": "victory-road-1f",
+    "nextBossId": "aaron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "league-aaron",
+    "name": "Defeat Aaron",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "bertha",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "league-bertha",
+    "name": "Defeat Bertha",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "league-aaron"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "flint",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "league-flint",
+    "name": "Defeat Flint",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "league-bertha"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "lucian",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "league-lucian",
+    "name": "Defeat Lucian",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "league-flint"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "cynthia",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "cynthia-seen",
+    "name": "See all six of Cynthia's Pokemon",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "league-lucian"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "cynthia",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sinnoh-dex-seen",
+    "name": "See all 210 Sinnoh Pokemon",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "cynthia-seen"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "cynthia",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "national-dex-before-hall",
+    "name": "Receive the National Pokedex before the first League clear",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "sinnoh-dex-seen"
+    ],
+    "locationId": "sandgem-town",
+    "nextBossId": "aaron",
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Defeat Aaron, Bertha, Flint, Lucian and Cynthia",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "league-lucian"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "aaron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hall-of-fame",
+    "name": "Enter the Hall of Fame",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "pokemon-league"
+    ],
+    "locationId": "pokemon-league-hall-of-fame",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "Receive the National Pokedex upgrade",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 48,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "sandgem-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fight-area",
+    "name": "Sail to the Fight Area",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 49,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "fight-area",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "battle-zone",
+    "name": "Open the Battle Zone routes and facilities",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 50,
+    "previousIds": [
+      "fight-area",
+      "national-dex"
+    ],
+    "locationId": "battle-zone",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stark-mountain",
+    "name": "Return the Magma Stone and awaken Heatran",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 51,
+    "previousIds": [
+      "battle-zone"
+    ],
+    "locationId": "stark-mountain",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fullmoon-island",
+    "name": "Resolve the Fullmoon Island event",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 52,
+    "previousIds": [
+      "hall-of-fame",
+      "national-dex"
+    ],
+    "locationId": "fullmoon-island",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "spring-path",
+    "name": "Enable Spring Path on Distortion World exit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "distortion-clear"
+    ],
+    "locationId": "spring-path",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-201",
+    "name": "Enter Route 201",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "twinleaf"
+    ],
+    "locationId": "route-201",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-202",
+    "name": "Enter Route 202",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "route-201"
+    ],
+    "locationId": "route-202",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-203",
+    "name": "Enter Route 203",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 56,
+    "previousIds": [
+      "route-202"
+    ],
+    "locationId": "route-203",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-204",
+    "name": "Enter Route 204",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 57,
+    "previousIds": [
+      "route-203"
+    ],
+    "locationId": "route-204",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-205",
+    "name": "Enter Route 205",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 58,
+    "previousIds": [
+      "route-203"
+    ],
+    "locationId": "route-205",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-206",
+    "name": "Enter Route 206",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "eterna-city"
+    ],
+    "locationId": "route-206",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-207",
+    "name": "Enter Route 207",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "oreburgh-gate"
+    ],
+    "locationId": "route-207",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-208",
+    "name": "Enter Route 208",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "eterna-city"
+    ],
+    "locationId": "route-208",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209",
+    "name": "Enter Route 209",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "hearthome"
+    ],
+    "locationId": "route-209",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-210",
+    "name": "Enter Route 210",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "celestic"
+    ],
+    "locationId": "route-210",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-211",
+    "name": "Enter Route 211",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "eterna-city"
+    ],
+    "locationId": "route-211",
+    "nextBossId": "gardenia",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-212",
+    "name": "Enter Route 212",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "hearthome"
+    ],
+    "locationId": "route-212",
+    "nextBossId": "fantina",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-213",
+    "name": "Enter Route 213",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "pastoria"
+    ],
+    "locationId": "route-213",
+    "nextBossId": "wake",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-214",
+    "name": "Enter Route 214",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "route-214",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-215",
+    "name": "Enter Route 215",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "veilstone"
+    ],
+    "locationId": "route-215",
+    "nextBossId": "maylene",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-216",
+    "name": "Enter Route 216",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "route-216",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-217",
+    "name": "Enter Route 217",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "canalave-gym"
+    ],
+    "locationId": "route-217",
+    "nextBossId": "candice",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-218",
+    "name": "Enter Route 218",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 71,
+    "previousIds": [
+      "canalave"
+    ],
+    "locationId": "route-218",
+    "nextBossId": "byron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-219",
+    "name": "Enter Route 219",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 72,
+    "previousIds": [
+      "sandgem-pokedex"
+    ],
+    "locationId": "route-219",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-220",
+    "name": "Enter Route 220",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 73,
+    "previousIds": [
+      "route-219"
+    ],
+    "locationId": "route-220",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-221",
+    "name": "Enter Route 221",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 74,
+    "previousIds": [
+      "route-220"
+    ],
+    "locationId": "route-221",
+    "nextBossId": "roark",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-222",
+    "name": "Enter Route 222",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 75,
+    "previousIds": [
+      "distortion-clear"
+    ],
+    "locationId": "route-222",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-223",
+    "name": "Enter Route 223",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 76,
+    "previousIds": [
+      "route-221"
+    ],
+    "locationId": "route-223",
+    "nextBossId": "volkner",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-224",
+    "name": "Enter Route 224",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 77,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-224",
+    "nextBossId": "aaron",
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-225",
+    "name": "Enter Route 225",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 78,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-225",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-226",
+    "name": "Enter Route 226",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 79,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-226",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-227",
+    "name": "Enter Route 227",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 80,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-227",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-228",
+    "name": "Enter Route 228",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 81,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-228",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-229",
+    "name": "Enter Route 229",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 82,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-229",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-230",
+    "name": "Enter Route 230",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 83,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "route-230",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  }
+]

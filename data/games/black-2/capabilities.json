@@ -1,0 +1,691 @@
+[
+  {
+    "id": "cut",
+    "name": "Cut",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm01",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Fly",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm02",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Surf",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm03",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm04",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Waterfall",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "hm05",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "item",
+          "id": "super-rod",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "grass-spots",
+    "name": "Search shaking grass",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cave-spots",
+    "name": "Search dust clouds",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "bridge-spots",
+    "name": "Search bridge shadows",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "surf-spots",
+    "name": "Find rippling water",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "super-rod-spots",
+    "name": "Fish in rippling water",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dark-grass",
+    "name": "Search dark grass",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Raise friendship to 220",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Train during the day",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Train during the night",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "winter",
+    "name": "Visit during winter",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Train Attack and Defense",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "personality",
+    "name": "Use an eligible personality",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Leave a free party slot",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Leave two compatible parents at the Route 3 Day Care",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "move-reminder",
+    "name": "Use the PWT Move Reminder",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "driftveil-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "swarm",
+    "name": "Follow the daily swarm report after receiving the National Pokedex",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "battle-subway",
+    "name": "Earn BP in the native Single or Double Battle Subway",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "nimbasa"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "rotom-appliances",
+    "name": "Use the appliance boxes in Shopping Mall Nine",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-9"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "season-change",
+    "name": "Let Deerling or Sawsbuck change with the season",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "tm76-scale-request",
+    "name": "On a day the Driftveil woman requests TM76, show Sewaddle knowing Struggle Bug",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "driftveil"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "hidden-grotto",
+    "name": "Visit a Hidden Grotto after Bianca's Route 5 introduction",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "nimbasa"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "grotto-funfest",
+    "name": "Complete Search Hidden Grottoes, then start the native version mission alone",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "mushroom-funfest",
+    "name": "Start Mushrooms' Hide-and-Seek alone to restore the twelve fake-item encounters",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "basic-badge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "ns-zorua",
+    "name": "Defeat Rood in Driftveil, then accept N's Zorua",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "driftveil"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "benga-reward",
+    "name": "Defeat Alder, then Benga in native area 10; collect the gift in Floccesy",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cave-of-being",
+    "name": "Visit Juniper in the Cave of Being after entering the Hall of Fame",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "heatran-room",
+    "name": "Enter Heatran's room in Reversal Mountain with the Magma Stone",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "reversal-mountain"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "ns-dragon",
+    "name": "Follow Zoroark to N's Castle, defeat N, then take his stone to Dragonspiral Tower",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "phone-trades",
+    "name": "Return the Dropped Item after 10 calls, reach the 30th-call Ferris Wheel ride, then call on a later day after entering the Hall of Fame for daily trades",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "diana-second-trade",
+    "name": "Complete Diana's Excadrill trade and win the required battles",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "pokemon",
+          "id": "ambipom",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nature-preserve",
+    "name": "Show Juniper the complete seen Unova Pokedex, excluding the four Mythical Pokemon, then fly with the Permit",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-2-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

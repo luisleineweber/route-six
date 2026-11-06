@@ -1,0 +1,2511 @@
+[
+  {
+    "id": "nuvema-town",
+    "name": "Nuvema Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "start"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "accumula-town",
+    "name": "Accumula Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "accumula"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "striaton-city",
+    "name": "Striaton City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "striaton"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nacrene-city",
+    "name": "Nacrene City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "nacrene"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "castelia-city",
+    "name": "Castelia City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "castelia"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "nimbasa-city",
+    "name": "Nimbasa City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "nimbasa"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "driftveil-city",
+    "name": "Driftveil City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "driftveil"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "mistralton-city",
+    "name": "Mistralton City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mistralton"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "icirrus-city",
+    "name": "Icirrus City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "icirrus"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "opelucid-city",
+    "name": "Opelucid City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "opelucid"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dreamyard",
+    "name": "Dreamyard",
+    "requirements": {
+      "kind": "milestone",
+      "id": "striaton"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "pinwheel-forest",
+    "name": "Pinwheel Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "nacrene"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "desert-resort",
+    "name": "Desert Resort",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-4"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "relic-castle",
+    "name": "Relic Castle upper floors",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-4"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "cold-storage",
+    "name": "Cold Storage",
+    "requirements": {
+      "kind": "milestone",
+      "id": "driftveil"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "chargestone-cave",
+    "name": "Chargestone Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-6"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "twist-mountain",
+    "name": "Twist Mountain",
+    "requirements": {
+      "kind": "milestone",
+      "id": "surf-received"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "dragonspiral-tower",
+    "name": "Dragonspiral Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "icirrus"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "trial-chamber",
+    "name": "Trial Chamber",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "giant-chasm",
+    "name": "Giant Chasm",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "p2-laboratory",
+    "name": "P2 Laboratory",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "surf-received"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "undella-bay",
+    "name": "Undella Bay",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "driftveil-drawbridge",
+    "name": "Driftveil Drawbridge",
+    "requirements": {
+      "kind": "milestone",
+      "id": "driftveil"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "village-bridge",
+    "name": "Village Bridge",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "marvelous-bridge",
+    "name": "Marvelous Bridge",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "wellspring-cave",
+    "name": "Wellspring Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-3"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "mistralton-cave",
+    "name": "Mistralton Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "surf-received"
+            },
+            {
+              "kind": "capability",
+              "id": "surf"
+            }
+          ]
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "guidance-chamber",
+    "name": "Guidance Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "surf-received"
+            },
+            {
+              "kind": "capability",
+              "id": "surf"
+            }
+          ]
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "celestial-tower",
+    "name": "Celestial Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mistralton"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "moor-of-icirrus",
+    "name": "Moor of Icirrus",
+    "requirements": {
+      "kind": "milestone",
+      "id": "icirrus"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "challengers-cave",
+    "name": "Challenger's Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "abundant-shrine",
+    "name": "Abundant Shrine",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "lostlorn-forest",
+    "name": "Lostlorn Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "nimbasa"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "undella-town",
+    "name": "Undella Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Pokemon League",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "ns-castle",
+    "name": "N's Castle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "league-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "rumination-field",
+    "name": "Rumination Field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "surf-received"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-forest",
+    "name": "White Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "black-city",
+    "name": "Black City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-1",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-1"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-2",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-2"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-3"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "milestone",
+      "id": "castelia"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-5"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "driftveil"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mistralton"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "milestone",
+      "id": "icirrus"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-9"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-10",
+    "name": "Route 10",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-10"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-12",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-16",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "milestone",
+      "id": "nimbasa"
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "surf-received"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "unova-route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "surf-received"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-576",
+    "name": "Striaton City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "striaton-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-577",
+    "name": "Driftveil City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "driftveil-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-578",
+    "name": "Icirrus City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "icirrus-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-579",
+    "name": "Dreamyard",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dreamyard"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-580",
+    "name": "Dreamyard (B1F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dreamyard"
+        },
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-581",
+    "name": "Pinwheel Forest (outside)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "pinwheel-forest"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-582",
+    "name": "Pinwheel Forest (inside)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "pinwheel-forest"
+        },
+        {
+          "kind": "milestone",
+          "id": "nacrene-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-583",
+    "name": "Desert Resort (entrance)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "desert-resort"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-584",
+    "name": "Desert Resort",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "desert-resort"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-585",
+    "name": "Relic Castle (A)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "relic-castle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-586",
+    "name": "Relic Castle (B)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "relic-castle"
+        },
+        {
+          "kind": "milestone",
+          "id": "dragonspiral-story"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-587",
+    "name": "Relic Castle (C)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "relic-castle"
+        },
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-588",
+    "name": "Relic Castle (D)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "relic-castle"
+        },
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-589",
+    "name": "Cold Storage",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "cold-storage"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-590",
+    "name": "Chargestone Cave (1F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "chargestone-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-591",
+    "name": "Chargestone Cave (B1F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "chargestone-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-592",
+    "name": "Chargestone Cave (B2F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "chargestone-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-593",
+    "name": "Twist Mountain",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "twist-mountain"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-594",
+    "name": "Dragonspiral Tower (entrance)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dragonspiral-tower"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-595",
+    "name": "Dragonspiral Tower (outside)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dragonspiral-tower"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-596",
+    "name": "Dragonspiral Tower (1F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dragonspiral-tower"
+        },
+        {
+          "kind": "milestone",
+          "id": "icirrus-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-597",
+    "name": "Dragonspiral Tower (2F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dragonspiral-tower"
+        },
+        {
+          "kind": "milestone",
+          "id": "icirrus-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-598",
+    "name": "Victory Road (outside)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-599",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-600",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-601",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-602",
+    "name": "Victory Road (4f Middle Room)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-603",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-604",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-605",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-606",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-607",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-608",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-609",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-610",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-611",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-612",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-613",
+    "name": "Trial Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "trial-chamber"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-614",
+    "name": "Giant Chasm (outside)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "giant-chasm"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-615",
+    "name": "Giant Chasm",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "giant-chasm"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-616",
+    "name": "Giant Chasm (forest)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "giant-chasm"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-617",
+    "name": "Giant Chasm (forest cave)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "giant-chasm"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-618",
+    "name": "P2 Laboratory",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "p2-laboratory"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-619",
+    "name": "Undella Bay",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "undella-bay"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-620",
+    "name": "Driftveil Drawbridge",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "driftveil-drawbridge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-621",
+    "name": "Village Bridge",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "village-bridge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-622",
+    "name": "Marvelous Bridge",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "marvelous-bridge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-623",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-1"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-624",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-2"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-625",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-3"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-626",
+    "name": "Wellspring Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "wellspring-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-627",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-4"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-628",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-5"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-629",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-6"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-630",
+    "name": "Mistralton Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mistralton-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-631",
+    "name": "Guidance Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "guidance-chamber"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-632",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-7"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-633",
+    "name": "Celestial Tower (2F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "celestial-tower"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-634",
+    "name": "Celestial Tower (3F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "celestial-tower"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-635",
+    "name": "Celestial Tower (4F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "celestial-tower"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-636",
+    "name": "Celestial Tower (5F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "celestial-tower"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-637",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-8"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-638",
+    "name": "Moor of Icirrus",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "moor-of-icirrus"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-639",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-9"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-640",
+    "name": "Challengers Cave (1F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "challengers-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-641",
+    "name": "Challengers Cave (B1F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "challengers-cave"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-642",
+    "name": "Challengers Cave (B2F)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "challengers-cave"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-643",
+    "name": "Route 10",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-10"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-644",
+    "name": "Route 10 (Victory Road gate)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-10"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-645",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-11"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-646",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-12"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-647",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-13"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-648",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-14"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-649",
+    "name": "Abundant Shrine",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "abundant-shrine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-650",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-15"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-651",
+    "name": "Route 16",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-16"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-652",
+    "name": "Lostlorn Forest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "lostlorn-forest"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-653",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-18"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-654",
+    "name": "Undella Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "undella-town"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "area-655",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "unova-route-17"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Route 3 Day Care",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "day-care"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "pinwheel-moss-rock",
+    "name": "Moss Rock in the interior of Pinwheel Forest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "nacrene-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "twist-mountain-ice-rock",
+    "name": "Ice Rock in Twist Mountain",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "surf-received"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "black-native-story"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

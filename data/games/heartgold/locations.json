@@ -1,0 +1,4305 @@
+[
+  {
+    "id": "new-bark-town",
+    "name": "New Bark Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "elms-lab",
+    "name": "Elm’s Lab",
+    "requirements": {
+      "kind": "milestone",
+      "id": "new-bark-town"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Route 29",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "cherrygrove-city",
+    "name": "Cherrygrove City",
+    "requirements": {
+      "kind": "location",
+      "id": "route-29"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-30",
+    "name": "Route 30",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cherrygrove"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "mr-pokemons-house",
+    "name": "Mr. Pokémon’s House",
+    "requirements": {
+      "kind": "location",
+      "id": "route-30"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-31",
+    "name": "Route 31",
+    "requirements": {
+      "kind": "milestone",
+      "id": "return-to-elm"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet-city",
+    "name": "Violet City",
+    "requirements": {
+      "kind": "location",
+      "id": "route-31"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "sprout-tower-1f",
+    "name": "Sprout Tower 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "sprout-tower-2f",
+    "name": "Sprout Tower 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "sprout-tower-3f",
+    "name": "Sprout Tower 3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet-gym",
+    "name": "Violet Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet-mart",
+    "name": "Violet Poké Mart",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-32",
+    "name": "Route 32 north",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-32-south",
+    "name": "Route 32 south",
+    "requirements": {
+      "kind": "milestone",
+      "id": "elm-assistant-egg"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet-trade-house",
+    "name": "Violet City trade house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "cherrygrove-mart",
+    "name": "Cherrygrove Poké Mart",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cherrygrove"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-36-east",
+    "name": "Route 36 east of Sudowoodo",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-32-pokemon-center",
+    "name": "Route 32 Pokémon Center",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32-south"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "dark-cave-route-31",
+    "name": "Dark Cave Route 31 entrance",
+    "requirements": {
+      "kind": "location",
+      "id": "route-31"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet-pokemon-center",
+    "name": "Violet Pokemon Center",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "union-cave-1f",
+    "name": "Union Cave 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "route-32-south"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route32-union"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-33",
+    "name": "Route 33",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "union-cave"
+        },
+        {
+          "kind": "capability",
+          "id": "path-union-route33"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea-town",
+    "name": "Azalea Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-33"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route33-azalea"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea-kurt-house",
+    "name": "Kurt house",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "azalea"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "slowpoke-well-b1f",
+    "name": "Slowpoke Well B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "azalea-kurt-dispatch"
+        },
+        {
+          "kind": "capability",
+          "id": "path-slowpoke-well-b1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea-gym",
+    "name": "Azalea Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "azalea-rockets-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "path-azalea-gym"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ilex-forest",
+    "name": "Ilex Forest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "azalea-rival-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "path-azalea-ilex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Route 34",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ilex-farfetchd-returned"
+        },
+        {
+          "kind": "capability",
+          "id": "path-ilex-route34"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-34-daycare",
+    "name": "Route 34 Day Care",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-34"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-city",
+    "name": "Goldenrod City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-34"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route34-goldenrod"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-gym",
+    "name": "Goldenrod Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-flower-shop",
+    "name": "Goldenrod flower shop",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-bill-house",
+    "name": "Bill house",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-game-corner",
+    "name": "Goldenrod Game Corner",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-department-store-5f",
+    "name": "Goldenrod Department Store 5F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        },
+        {
+          "kind": "capability",
+          "id": "path-goldenrod-dept-5f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Route 35",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        },
+        {
+          "kind": "capability",
+          "id": "path-goldenrod-route35"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "national-park",
+    "name": "National Park",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-35"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route35-park"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-36-west",
+    "name": "Route 36 west",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "national-park"
+        },
+        {
+          "kind": "capability",
+          "id": "path-park-route36"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Route 37",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-route36-route37"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ecruteak-city",
+    "name": "Ecruteak City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-37"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route37-ecruteak"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ecruteak-pokemon-center",
+    "name": "Ecruteak Pokemon Center",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ecruteak"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ecruteak-dance-theater",
+    "name": "Ecruteak Dance Theater",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ecruteak"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ecruteak-gym",
+    "name": "Ecruteak Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ecruteak"
+        },
+        {
+          "kind": "capability",
+          "id": "morty-gym-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-42-west",
+    "name": "Western Route 42",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ecruteak"
+        },
+        {
+          "kind": "capability",
+          "id": "path-ecruteak-route42"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "olivine-city",
+    "name": "Olivine City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ecruteak"
+        },
+        {
+          "kind": "capability",
+          "id": "path-ecruteak-olivine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cianwood-city",
+    "name": "Cianwood City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "olivine"
+        },
+        {
+          "kind": "capability",
+          "id": "path-olivine-cianwood"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cianwood-pokemon-center",
+    "name": "Cianwood Pokemon Center",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cianwood"
+        },
+        {
+          "kind": "capability",
+          "id": "path-cianwood-center"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cianwood-gym",
+    "name": "Cianwood Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cianwood"
+        },
+        {
+          "kind": "capability",
+          "id": "chuck-gym-access"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cerulean-cave-1f",
+    "name": "Cerulean Cave 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cerulean-city"
+        },
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Route 38",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ecruteak"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "vermilion-city",
+    "name": "Vermilion City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "diglett-cave",
+    "name": "Diglett Cave",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snorlax-cleared"
+        },
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-47",
+    "name": "Route 47",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "cianwood"
+        },
+        {
+          "kind": "milestone",
+          "id": "amphy-healed"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "cerulean-cave-2f",
+    "name": "Cerulean Cave 2F",
+    "requirements": {
+      "kind": "location",
+      "id": "cerulean-cave-1f"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-mortar-1f-back",
+    "name": "Mount Mortar 1F Back",
+    "requirements": {
+      "kind": "location",
+      "id": "route-42-west"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-upper-mountainside",
+    "name": "Mount Silver Upper Mountainside",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-mount-silver-red"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Route 15",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-fuchsia-janine"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "pokeathlon-dome",
+    "name": "Pokeathlon Dome",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-35"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route35-pokeathlon-dome"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "olivine-gym",
+    "name": "Olivine Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "olivine"
+        },
+        {
+          "kind": "capability",
+          "id": "path-olivine-jasmine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mahogany-town",
+    "name": "Mahogany Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-42-west"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route42-mahogany"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mahogany-rocket-hq-b2f",
+    "name": "Rocket Hideout generator room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mahogany"
+        },
+        {
+          "kind": "capability",
+          "id": "path-mahogany-generator"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mahogany-gym",
+    "name": "Mahogany Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mahogany"
+        },
+        {
+          "kind": "capability",
+          "id": "path-mahogany-pryce"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "blackthorn-city",
+    "name": "Blackthorn City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mahogany"
+        },
+        {
+          "kind": "capability",
+          "id": "path-mahogany-blackthorn"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "blackthorn-gym",
+    "name": "Blackthorn Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blackthorn"
+        },
+        {
+          "kind": "capability",
+          "id": "path-blackthorn-clair"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dragons-den-shrine",
+    "name": "Dragons Den shrine",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "clair-battle-won"
+        },
+        {
+          "kind": "capability",
+          "id": "path-dragons-den-shrine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dragons-den",
+    "name": "Dragons Den",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "rising-badge"
+        },
+        {
+          "kind": "capability",
+          "id": "path-dragons-den-clair-exit"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-hall-of-fame",
+    "name": "League Hall of Fame",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "rising-badge"
+        },
+        {
+          "kind": "capability",
+          "id": "path-league-hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "viridian-gym",
+    "name": "Viridian Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-viridian-blue"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pallet-oak-lab",
+    "name": "Oak Pokemon Lab",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "path-viridian-oak-lab"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mount-silver-summit",
+    "name": "Mount Silver summit",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "oak-rock-climb-ready"
+        },
+        {
+          "kind": "capability",
+          "id": "path-mount-silver-red"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "radio-tower-director-office",
+    "name": "Radio Tower director office",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        },
+        {
+          "kind": "capability",
+          "id": "path-radio-tower-archer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "olivine-port",
+    "name": "Olivine port",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "olivine"
+        },
+        {
+          "kind": "capability",
+          "id": "path-olivine-port-boarding"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pewter-gym",
+    "name": "Pewter Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-pewter-brock"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cerulean-gym",
+    "name": "Cerulean Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-cerulean-misty"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "vermilion-gym",
+    "name": "Vermilion Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-vermilion-surge"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "celadon-gym",
+    "name": "Celadon Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-celadon-erika"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fuchsia-gym",
+    "name": "Fuchsia Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-fuchsia-janine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "saffron-gym",
+    "name": "Saffron Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-saffron-sabrina"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "seafoam-gym",
+    "name": "Seafoam Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "kanto"
+        },
+        {
+          "kind": "capability",
+          "id": "path-seafoam-blaine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-entrance",
+    "name": "Pokemon League entrance",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "rising-badge"
+        },
+        {
+          "kind": "capability",
+          "id": "path-league-entrance"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-underground",
+    "name": "Goldenrod Underground",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "goldenrod"
+        },
+        {
+          "kind": "capability",
+          "id": "path-goldenrod-disguise"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-underground-director",
+    "name": "Goldenrod Underground director room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "radio-petrel-defeated"
+        },
+        {
+          "kind": "capability",
+          "id": "path-underground-director"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ss-aqua-grandfather-cabin",
+    "name": "S.S. Aqua grandfather cabin",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ss-aqua-boarded"
+        },
+        {
+          "kind": "capability",
+          "id": "path-ss-aqua-grandfather"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-radio-tower",
+    "name": "Goldenrod Radio Tower",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "burned-tower-1f",
+    "name": "Burned Tower 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ecruteak"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "burned-tower-b1f",
+    "name": "Burned Tower B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "burned-tower-rival"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Route 39",
+    "requirements": {
+      "kind": "location",
+      "id": "route-38"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "olivine-lighthouse-light-room",
+    "name": "Olivine Lighthouse light room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "olivine"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-40",
+    "name": "Route 40",
+    "requirements": {
+      "kind": "milestone",
+      "id": "olivine"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "cianwood-pharmacy",
+    "name": "Cianwood Pharmacy",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cianwood"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-41",
+    "name": "Route 41",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-olivine-cianwood"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-42-east",
+    "name": "Eastern Route 42",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-route42-mahogany"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-43",
+    "name": "Route 43",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mahogany"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "lake-of-rage",
+    "name": "Lake of Rage",
+    "requirements": {
+      "kind": "location",
+      "id": "route-43"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "mahogany-shop",
+    "name": "Mahogany souvenir shop",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mahogany"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "rocket-hideout-b3f",
+    "name": "Rocket Hideout B3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lance-at-lake"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "radio-tower-takeover",
+    "name": "Goldenrod Radio Tower during the takeover",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-radio-tower-archer"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-44",
+    "name": "Route 44",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "mahogany"
+        },
+        {
+          "kind": "milestone",
+          "id": "radio-tower-cleared"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ice-path-1f",
+    "name": "Ice Path 1F",
+    "requirements": {
+      "kind": "location",
+      "id": "route-44"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "whirl-islands-lugia-cave",
+    "name": "Whirl Islands Lugia cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "olivine"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "whirlpool"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-27-west",
+    "name": "Western Route 27",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "tohjo-falls",
+    "name": "Tohjo Falls",
+    "requirements": {
+      "kind": "location",
+      "id": "route-27-west"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-27-east",
+    "name": "Eastern Route 27",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "tohjo-falls"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-26",
+    "name": "Route 26",
+    "requirements": {
+      "kind": "location",
+      "id": "route-27-east"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-26"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Indigo Plateau",
+    "requirements": {
+      "kind": "milestone",
+      "id": "victory-road"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-will-room",
+    "name": "Will’s room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-koga-room",
+    "name": "Koga’s room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "will-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-bruno-room",
+    "name": "Bruno’s room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "koga-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-karen-room",
+    "name": "Karen’s room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "bruno-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-lance-room",
+    "name": "Lance’s room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "karen-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ss-aqua",
+    "name": "S.S. Aqua",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "vermilion-port",
+    "name": "Vermilion Port",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ss-aqua-arrived"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod-tunnel-b1f",
+    "name": "Goldenrod Tunnel B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "blackthorn-move-tutor-house",
+    "name": "Blackthorn Move Tutor House",
+    "requirements": {
+      "kind": "milestone",
+      "id": "blackthorn"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-35-gatehouse",
+    "name": "Route 35 Goldenrod Gatehouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "olivine-north-house",
+    "name": "Olivine north house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "olivine"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cianwood-kirk-house",
+    "name": "Kirk’s house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cianwood"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Route 6",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Saffron City",
+    "requirements": {
+      "kind": "location",
+      "id": "route-6"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "silph-co",
+    "name": "Silph Co.",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-city"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Route 5",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-city"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Cerulean City",
+    "requirements": {
+      "kind": "location",
+      "id": "route-5"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Route 9",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-10-north",
+    "name": "Northern Route 10",
+    "requirements": {
+      "kind": "location",
+      "id": "route-9"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "power-plant",
+    "name": "Power Plant",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-10-north"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Route 24",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "Rock Tunnel",
+    "requirements": {
+      "kind": "location",
+      "id": "route-10-north"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-10-south",
+    "name": "Southern Route 10",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rock-tunnel"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Lavender Town",
+    "requirements": {
+      "kind": "location",
+      "id": "route-10-south"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lavender-radio-station",
+    "name": "Lavender Radio Station",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lavender-town"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Route 11",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "power-plant-repair",
+    "name": "Power Plant repair",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "power-plant"
+        },
+        {
+          "kind": "item",
+          "id": "machine-part",
+          "quantity": 1,
+          "consumed": true
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ruins-of-alph",
+    "name": "Ruins of Alph",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-32-south"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ruins-of-alph-underground-hall",
+    "name": "Ruins of Alph Underground Hall",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ruins-of-alph"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ruins-of-alph-underground-hall-sinjoh-event",
+    "name": "Ruins of Alph Underground Hall (Sinjoh event)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ruins-of-alph-underground-hall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ruins-of-alph-underground-hall-sinjoh-event-2",
+    "name": "Ruins of Alph Underground Hall (Sinjoh event 2)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ruins-of-alph-underground-hall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ruins-of-alph-hall-entrance-sinjoh-event",
+    "name": "Ruins of Alph Hall Entrance (Sinjoh event)",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ruins-of-alph-underground-hall-sinjoh-event-2"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "union-cave-b1f",
+    "name": "Union Cave B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "union-cave-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "union-cave-b2f",
+    "name": "Union Cave B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "union-cave-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "slowpoke-well-b2f",
+    "name": "Slowpoke Well B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "slowpoke-well-b1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "national-park-bug-catching-contest",
+    "name": "National Park Bug-Catching Contest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "national-park"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-2f",
+    "name": "Bell Tower 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ecruteak-city"
+        },
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-3f",
+    "name": "Bell Tower 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-2f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-4f",
+    "name": "Bell Tower 4F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-3f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-5f",
+    "name": "Bell Tower 5F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-4f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-6f",
+    "name": "Bell Tower 6F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-5f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-7f",
+    "name": "Bell Tower 7F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-6f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-8f",
+    "name": "Bell Tower 8F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-7f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-9f",
+    "name": "Bell Tower 9F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-8f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-10f",
+    "name": "Bell Tower 10F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "bell-tower-9f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "whirl-islands-1f",
+    "name": "Whirl Islands 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-41"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "whirl-islands-b1f",
+    "name": "Whirl Islands B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "whirl-islands-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "whirl-islands-b2f",
+    "name": "Whirl Islands B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "whirl-islands-b1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "whirl-islands-b3f",
+    "name": "Whirl Islands B3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "whirl-islands-b2f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-mortar-1f-entrance",
+    "name": "Mount Mortar 1F Entrance",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-42-east"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-mortar-2f",
+    "name": "Mount Mortar 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-mortar-1f-back"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-mortar-b1f",
+    "name": "Mount Mortar B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-mortar-1f-back"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ice-path-b1f",
+    "name": "Ice Path B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ice-path-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ice-path-b2f",
+    "name": "Ice Path B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ice-path-b1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "ice-path-b3f",
+    "name": "Ice Path B3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "ice-path-b2f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-45",
+    "name": "Route 45",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    },
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "blackthorn-city"
+        },
+        {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "location",
+              "id": "dark-cave-route-45-side"
+            },
+            {
+              "kind": "capability",
+              "id": "surf"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "route-46",
+    "name": "Route 46",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-29"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "dark-cave-route-45-side",
+    "name": "Dark Cave Route 45 side",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "dark-cave-route-31"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "cliff-edge-gate",
+    "name": "Cliff Edge Gate",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-47"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "cliff-cave",
+    "name": "Cliff Cave",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-47"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "safari-zone-entrance-exterior",
+    "name": "Safari Zone Entrance Exterior",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-48"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-48",
+    "name": "Route 48",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-47"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Route 12",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "lavender-town"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Route 25",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-24"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Route 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "cerulean-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Route 7",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "saffron-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Route 8",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "saffron-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Route 13",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-12"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Route 14",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-13"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Route 19",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "path-fuchsia-janine"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Route 21",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-1"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-moon",
+    "name": "Mount Moon",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-4"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-moon-square-entrance",
+    "name": "Mount Moon Square Entrance",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-moon"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-moon-square",
+    "name": "Mount Moon Square",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-moon-square-entrance"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-moon-square-clefairy-event",
+    "name": "Mount Moon Square Clefairy event",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-moon-square-entrance"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "seafoam-islands-1f",
+    "name": "Seafoam Islands 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-20"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "seafoam-islands-b1f",
+    "name": "Seafoam Islands B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "seafoam-islands-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "seafoam-islands-b2f",
+    "name": "Seafoam Islands B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "seafoam-islands-b1f"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "seafoam-islands-b3f",
+    "name": "Seafoam Islands B3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "seafoam-islands-b2f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "seafoam-islands-b4f",
+    "name": "Seafoam Islands B4F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "seafoam-islands-b3f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "victory-road-2f",
+    "name": "Victory Road 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "victory-road-3f",
+    "name": "Victory Road 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road-2f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-cave-1f",
+    "name": "Mount Silver Cave 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-silver"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-cave-2f",
+    "name": "Mount Silver Cave 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-silver-cave-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-cave-3f",
+    "name": "Mount Silver Cave 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-silver-upper-mountainside"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-cave-lower-mountainside",
+    "name": "Mount Silver Lower Mountainside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-silver-cave-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-cave-expert-belt-chamber",
+    "name": "Mount Silver Cave Expert Belt Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-silver-cave-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver-cave-moltres-chamber",
+    "name": "Mount Silver Cave Moltres Chamber",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-silver-cave-1f"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Route 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "mount-moon"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-2-east",
+    "name": "Route 2 East",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "path-pewter-brock"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "viridian-forest",
+    "name": "Viridian Forest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-2-east"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Route 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "viridian-forest"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Route 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-2"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Route 22",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-2"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-28",
+    "name": "Route 28",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-22"
+        },
+        {
+          "kind": "milestone",
+          "id": "oak-rock-climb-ready"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-16-east",
+    "name": "Route 16 East",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-7"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Route 17",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-16-east"
+        },
+        {
+          "kind": "item",
+          "id": "bicycle",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Route 18",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-17"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-mortar-karate-king",
+    "name": "Mt. Mortar B1F Karate King",
+    "requirements": {
+      "kind": "location",
+      "id": "mount-mortar-b1f"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Route 20",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-seafoam-blaine"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "Cinnabar Island",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-seafoam-blaine"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "cerulean-cave-b1f",
+    "name": "Cerulean Cave B1F",
+    "requirements": {
+      "kind": "location",
+      "id": "cerulean-cave-1f"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "rock-tunnel-b1f",
+    "name": "Rock Tunnel B1F",
+    "requirements": {
+      "kind": "location",
+      "id": "rock-tunnel"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "mount-silver",
+    "name": "Mount Silver",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-mount-silver-red"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "kanto-power-plant-trade",
+    "name": "Power Plant trade room",
+    "requirements": {
+      "kind": "location",
+      "id": "power-plant"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "pewter-pokemon-center",
+    "name": "Pewter Pokémon Center",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-pewter-brock"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "saffron-silph-hq",
+    "name": "Silph Co. headquarters",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-city"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "battle-frontier",
+    "name": "Battle Frontier",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-40"
+        },
+        {
+          "kind": "milestone",
+          "id": "league-cleared"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "pewter-city",
+    "name": "Pewter City",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-pewter-brock"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "pewter-museum",
+    "name": "Pewter Museum of Science",
+    "requirements": {
+      "kind": "location",
+      "id": "pewter-city"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "celadon-prize-corner",
+    "name": "Celadon Prize Corner",
+    "requirements": {
+      "kind": "capability",
+      "id": "path-celadon-erika"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bell-tower-summit",
+    "name": "Bell Tower summit",
+    "requirements": {
+      "kind": "location",
+      "id": "bell-tower-10f"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "embedded-tower",
+    "name": "Embedded Tower",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-47"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "safari-zone-plains",
+    "name": "Safari Zone — Plains",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-meadow",
+    "name": "Safari Zone — Meadow",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-savannah",
+    "name": "Safari Zone — Savannah",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-peak",
+    "name": "Safari Zone — Peak",
+    "requirements": {
+      "kind": "location",
+      "id": "safari-zone-entrance-exterior"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-rocky-beach",
+    "name": "Safari Zone — Rocky Beach",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-wetland",
+    "name": "Safari Zone — Wetland",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-forest",
+    "name": "Safari Zone — Forest",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-swamp",
+    "name": "Safari Zone — Swamp",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-marshland",
+    "name": "Safari Zone — Marshland",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-wasteland",
+    "name": "Safari Zone — Wasteland",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-mountain",
+    "name": "Safari Zone — Mountain",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "safari-zone-desert",
+    "name": "Safari Zone — Desert",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "safari-zone-entrance-exterior"
+        },
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  }
+]

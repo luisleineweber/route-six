@@ -1,0 +1,15 @@
+[
+  {"id":"roxanne","name":"Roxanne","kind":"gym","highestLevel":15,"badgeNumber":1,"specialtyTypeId":"rock","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"brawly","name":"Brawly","kind":"gym","highestLevel":19,"badgeNumber":2,"specialtyTypeId":"fighting","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"wattson","name":"Wattson","kind":"gym","highestLevel":24,"badgeNumber":3,"specialtyTypeId":"electric","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"flannery","name":"Flannery","kind":"gym","highestLevel":29,"badgeNumber":4,"specialtyTypeId":"fire","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"norman","name":"Norman","kind":"gym","highestLevel":31,"badgeNumber":5,"specialtyTypeId":"normal","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"winona","name":"Winona","kind":"gym","highestLevel":33,"badgeNumber":6,"specialtyTypeId":"flying","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"tate-and-liza","name":"Tate & Liza","kind":"gym","highestLevel":42,"badgeNumber":7,"specialtyTypeId":"psychic","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"juan","name":"Juan","kind":"gym","highestLevel":46,"badgeNumber":8,"specialtyTypeId":"water","review":{"referenceIds":["bosses","scripts"],"checkedOn":"2026-10-10"}},
+  {"id":"sidney","name":"Sidney","kind":"elite-four","highestLevel":49,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"phoebe","name":"Phoebe","kind":"elite-four","highestLevel":51,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"glacia","name":"Glacia","kind":"elite-four","highestLevel":53,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"drake","name":"Drake","kind":"elite-four","highestLevel":55,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}},
+  {"id":"wallace","name":"Wallace","kind":"champion","highestLevel":58,"review":{"referenceIds":["bosses"],"checkedOn":"2026-10-07"}}
+]

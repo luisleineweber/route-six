@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "new-bark-town",
+    "name": "New Bark Town and choose a starter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "new-bark-town",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Route 29",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "new-bark-town"
+    ],
+    "locationId": "route-29",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cherrygrove-city",
+    "name": "Cherrygrove City and Pokégear",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "route-29"
+    ],
+    "locationId": "cherrygrove-city",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-30",
+    "name": "Route 30 and Mr. Pokémon",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "cherrygrove-city"
+    ],
+    "locationId": "route-30",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "falkner-defeated",
+    "name": "Defeat Falkner in Violet City",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "route-30"
+    ],
+    "locationId": "violet-city",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-32",
+    "name": "Route 32 and Union Cave",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "falkner-defeated"
+    ],
+    "locationId": "route-32",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "azalea-town",
+    "name": "Azalea Town and Slowpoke Well",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "route-32"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bugsy-defeated",
+    "name": "Defeat Bugsy and rescue the Ilex Forest charcoal maker",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "azalea-town"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "goldenrod-city",
+    "name": "Ilex Forest and Goldenrod City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "whitney-defeated",
+    "name": "Defeat Whitney and receive the Plain Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "goldenrod-city"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ecruteak-city",
+    "name": "Ecruteak City and the Kimono Girls",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "morty-defeated",
+    "name": "Release the legendary beasts and defeat Morty",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "ecruteak-city"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-42",
+    "name": "Reach Route 42 and Mahogany Town",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-42",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "cianwood-city",
+    "name": "Olivine Lighthouse and Cianwood City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "chuck-defeated",
+    "name": "Defeat Chuck",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "cianwood-city"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "jasmine-defeated",
+    "name": "Cure Amphy and defeat Jasmine",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "chuck-defeated"
+    ],
+    "locationId": "olivine-city",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "pryce-defeated",
+    "name": "Defeat Pryce after the Lake of Rage event",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "jasmine-defeated"
+    ],
+    "locationId": "mahogany-town",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "clair-defeated",
+    "name": "Clear Team Rocket and defeat Clair",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "pryce-defeated"
+    ],
+    "locationId": "blackthorn-city",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Defeat the Elite Four and Champion Lance",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kanto-open",
+    "name": "Take the S.S. Aqua to Kanto",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 19,
+    "previousIds": [
+      "indigo-plateau"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Defeat Brock",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 20,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "pewter-city",
+    "nextBossId": "brock",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Defeat Misty",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 21,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": "misty",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lt-surge-defeated",
+    "name": "Defeat Lt. Surge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 22,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": "lt-surge",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Defeat Erika",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 23,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "celadon-city",
+    "nextBossId": "erika",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "janine-defeated",
+    "name": "Defeat Janine",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 24,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "fuchsia-city",
+    "nextBossId": "janine",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Defeat Sabrina",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 25,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": "sabrina",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Defeat Blaine on Seafoam Islands",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 26,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "seafoam-islands",
+    "nextBossId": "blaine",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blue-defeated",
+    "name": "Defeat Blue in Viridian City",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 27,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "viridian-city",
+    "nextBossId": "blue",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "red-defeated",
+    "name": "Defeat Red at Mt. Silver",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 28,
+    "previousIds": [
+      "blue-defeated",
+      "falkner-defeated",
+      "bugsy-defeated",
+      "whitney-defeated",
+      "morty-defeated",
+      "chuck-defeated",
+      "jasmine-defeated",
+      "pryce-defeated",
+      "clair-defeated",
+      "brock-defeated",
+      "misty-defeated",
+      "lt-surge-defeated",
+      "erika-defeated",
+      "janine-defeated",
+      "sabrina-defeated",
+      "blaine-defeated"
+    ],
+    "locationId": "mt-silver",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "radio-tower-cleared",
+    "name": "Clear Team Rocket from the Goldenrod Radio Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "pryce-defeated"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "crystal-progression"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tin-tower-open",
+    "name": "Receive the Clear Bell and gain passage to Tin Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "radio-tower-cleared"
+    ],
+    "locationId": "tin-tower",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tin-tower-suicune",
+    "name": "Encounter Suicune at Tin Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "tin-tower-open"
+    ],
+    "locationId": "tin-tower",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tin-tower-eusine",
+    "name": "Meet Eusine after the Tin Tower Suicune encounter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "tin-tower-suicune"
+    ],
+    "locationId": "tin-tower",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-36-suicune",
+    "name": "Witness Suicune at Route 36",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "route-36",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "eusine-defeated",
+    "name": "Meet Suicune and defeat Eusine in Cianwood City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "cianwood-city"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ruins-of-alph-open",
+    "name": "Access the Ruins of Alph chambers",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "route-32"
+    ],
+    "locationId": "ruins-of-alph",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-31",
+    "name": "Route 31",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "falkner-defeated"
+    ],
+    "locationId": "route-31",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-33",
+    "name": "Route 33",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "route-32"
+    ],
+    "locationId": "route-33",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Route 34",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "route-34",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Route 35",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "bugsy-defeated"
+    ],
+    "locationId": "route-35",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-36",
+    "name": "Route 36",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "route-36",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Route 37",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "whitney-defeated"
+    ],
+    "locationId": "route-37",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Route 38",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-38",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Route 39",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-39",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-43",
+    "name": "Route 43",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "route-42"
+    ],
+    "locationId": "route-43",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-44",
+    "name": "Route 44",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "route-42"
+    ],
+    "locationId": "route-44",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-26",
+    "name": "Route 26",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "route-26",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-27",
+    "name": "Route 27",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "route-27",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Route 1",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 48,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-1",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Route 2",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 49,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-2",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Route 3",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 50,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-3",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Route 4",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 51,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-4",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Route 5",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 52,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-5",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Route 6",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 53,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-6",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Route 7",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 54,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-7",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Route 8",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 55,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-8",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Route 9",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 56,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-9",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-10",
+    "name": "Route 10",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 57,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-10",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Route 11",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 58,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-11",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Route 12",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 59,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-12",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Route 13",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 60,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-13",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Route 14",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 61,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-14",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Route 15",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 62,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-15",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-16",
+    "name": "Route 16",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 63,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-16",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Route 17",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 64,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-17",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Route 18",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 65,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-18",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Route 19",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 66,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-19",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Route 20",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 67,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-20",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Route 21",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 68,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-21",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Route 22",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 69,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-22",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-23",
+    "name": "Route 23",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 70,
+    "previousIds": [
+      "indigo-plateau"
+    ],
+    "locationId": "route-23",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Route 24",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 71,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-24",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Route 25",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 72,
+    "previousIds": [
+      "kanto-open"
+    ],
+    "locationId": "route-25",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-28",
+    "name": "Route 28",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 73,
+    "previousIds": [
+      "falkner-defeated",
+      "bugsy-defeated",
+      "whitney-defeated",
+      "morty-defeated",
+      "chuck-defeated",
+      "jasmine-defeated",
+      "pryce-defeated",
+      "clair-defeated",
+      "brock-defeated",
+      "misty-defeated",
+      "lt-surge-defeated",
+      "erika-defeated",
+      "janine-defeated",
+      "sabrina-defeated",
+      "blaine-defeated",
+      "blue-defeated"
+    ],
+    "locationId": "route-28",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-40",
+    "name": "Route 40",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 74,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-40",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-41",
+    "name": "Route 41",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 75,
+    "previousIds": [
+      "morty-defeated"
+    ],
+    "locationId": "route-41",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-45",
+    "name": "Route 45",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 76,
+    "previousIds": [
+      "pryce-defeated"
+    ],
+    "locationId": "route-45",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "route-46",
+    "name": "Route 46",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 77,
+    "previousIds": [
+      "new-bark-town"
+    ],
+    "locationId": "route-46",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "crystal-progression",
+        "crystal-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

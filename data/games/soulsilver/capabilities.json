@@ -1,0 +1,1969 @@
+[
+  {
+    "id": "cut",
+    "name": "Use Cut outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "bugsy-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm01",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Use Fly outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "chuck-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm02",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Use Surf outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "morty-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm03",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Use Strength outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "whitney-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm04",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "whirlpool",
+    "name": "Use Whirlpool outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pryce-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm05",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Use Rock Smash outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "falkner-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm06",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Use Waterfall outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "rising-badge"
+        },
+        {
+          "kind": "item",
+          "id": "hm07",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "rock-climb",
+    "name": "Use Rock Climb outside battle",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "blue-defeated"
+        },
+        {
+          "kind": "item",
+          "id": "hm08",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Fish with the Old Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "old-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Daytime on the game clock",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Nighttime on the game clock",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Raise friendship through play",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Leave one party slot free",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "personality",
+    "name": "Select a possible personality outcome",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Train Attack and Defense",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "burmy-plant-battle",
+    "name": "Battle in tall grass to change Burmy to Plant Cloak",
+    "requirements": {
+      "kind": "location",
+      "id": "route-31"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "burmy-sandy-battle",
+    "name": "Battle in Dark Cave to change Burmy to Sandy Cloak",
+    "requirements": {
+      "kind": "location",
+      "id": "dark-cave-route-31"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "wait-sunday",
+    "name": "Wait until sunday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wait-monday",
+    "name": "Wait until monday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wait-tuesday",
+    "name": "Wait until tuesday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wait-wednesday",
+    "name": "Wait until wednesday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wait-thursday",
+    "name": "Wait until thursday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wait-friday",
+    "name": "Wait until friday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "wait-saturday",
+    "name": "Wait until saturday",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-shop-access",
+    "name": "Access the Pokeathlon shop",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "pokeathlon-dome"
+        },
+        {
+          "kind": "capability",
+          "id": "path-pokeathlon-shop"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Use the Route 34 Day Care",
+    "requirements": {
+      "kind": "location",
+      "id": "route-34-daycare"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "radio-card",
+    "name": "Answer the quiz at Goldenrod Radio Tower to get the Radio Card",
+    "requirements": {
+      "kind": "location",
+      "id": "goldenrod-radio-tower"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "Use the National Pokédex",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hoenn-sound",
+    "name": "Tune in to Hoenn Sound",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "radio-card"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sinnoh-sound",
+    "name": "Tune in to Sinnoh Sound",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        {
+          "kind": "capability",
+          "id": "radio-card"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "beauty",
+    "name": "Raise Beauty with a haircut",
+    "requirements": {
+      "kind": "location",
+      "id": "goldenrod-tunnel-b1f"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "move-reminder",
+    "name": "Use the Move Reminder",
+    "requirements": {
+      "kind": "location",
+      "id": "blackthorn-move-tutor-house"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-points",
+    "name": "Earn Pokéathlon points",
+    "requirements": {
+      "kind": "location",
+      "id": "pokeathlon-dome"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-sunday",
+    "name": "Earn points and visit the shop on sunday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-monday",
+    "name": "Earn points and visit the shop on monday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-tuesday",
+    "name": "Earn points and visit the shop on tuesday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-wednesday",
+    "name": "Earn points and visit the shop on wednesday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-thursday",
+    "name": "Earn points and visit the shop on thursday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-friday",
+    "name": "Earn points and visit the shop on friday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokeathlon-saturday",
+    "name": "Earn points and visit the shop on saturday",
+    "requirements": {
+      "kind": "capability",
+      "id": "pokeathlon-points"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "poke-flute-radio",
+    "name": "Play the Poké Flute radio channel",
+    "requirements": {
+      "kind": "milestone",
+      "id": "radio-expansion"
+    },
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "path-route32-union",
+    "name": "Walk from southern Route 32 to Union Cave",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-32-south"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-union-route33",
+    "name": "Cross Union Cave 1F to Route 33",
+    "requirements": {
+      "kind": "milestone",
+      "id": "union-cave"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route33-azalea",
+    "name": "Walk from Route 33 to Azalea Town",
+    "requirements": {
+      "kind": "location",
+      "id": "route-33"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-slowpoke-well-b1f",
+    "name": "Pass the Azalea grunt to Slowpoke Well",
+    "requirements": {
+      "kind": "milestone",
+      "id": "azalea-kurt-dispatch"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-azalea-gym",
+    "name": "Pass the Azalea Gym door grunt",
+    "requirements": {
+      "kind": "milestone",
+      "id": "azalea-rockets-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-azalea-ilex",
+    "name": "Walk from Azalea Town to Ilex Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "azalea-rival-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-ilex-route34",
+    "name": "Cut the Ilex Forest tree to reach Route 34",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ilex-farfetchd-returned"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route34-goldenrod",
+    "name": "Walk from Route 34 to Goldenrod City",
+    "requirements": {
+      "kind": "location",
+      "id": "route-34"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-goldenrod-dept-5f",
+    "name": "Climb the Goldenrod Department Store to 5F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-goldenrod-disguise",
+    "name": "Enter the Goldenrod Underground",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-goldenrod-route35",
+    "name": "Walk through the Route 35 gatehouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route35-park",
+    "name": "Walk from Route 35 to the National Park gatehouse",
+    "requirements": {
+      "kind": "location",
+      "id": "route-35"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-park-route36",
+    "name": "Walk from National Park to western Route 36",
+    "requirements": {
+      "kind": "location",
+      "id": "national-park"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route35-pokeathlon-dome",
+    "name": "Pass the Pokéathlon Dome workman",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-35"
+        },
+        {
+          "kind": "milestone",
+          "id": "whitney-battle-won"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-pokeathlon-shop",
+    "name": "Reach the Pokéathlon Dome shop",
+    "requirements": {
+      "kind": "location",
+      "id": "pokeathlon-dome"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route36-route37",
+    "name": "Pass the Route 36 Sudowoodo to Route 37",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sudowoodo-cleared"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route37-ecruteak",
+    "name": "Walk from Route 37 to Ecruteak City",
+    "requirements": {
+      "kind": "location",
+      "id": "route-37"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-radio-tower-archer",
+    "name": "Climb the occupied Radio Tower in disguise",
+    "requirements": {
+      "kind": "milestone",
+      "id": "radio-disguise"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-underground-director",
+    "name": "Pass the Basement Key door to the Director",
+    "requirements": {
+      "kind": "milestone",
+      "id": "radio-petrel-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "morty-gym-access",
+    "name": "Enter Ecruteak Gym after the Burned Tower scene",
+    "requirements": {
+      "kind": "milestone",
+      "id": "beasts-released"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "chuck-gym-access",
+    "name": "Enter Cianwood Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cianwood"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-olivine-jasmine",
+    "name": "Find Jasmine back in Olivine Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "amphy-healed"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-olivine-cianwood",
+    "name": "Surf from Olivine to Cianwood",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "olivine"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-ecruteak-olivine",
+    "name": "Walk from Ecruteak through Routes 38 and 39 to Olivine",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ecruteak"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route42-mahogany",
+    "name": "Cross Route 42 or Mt. Mortar to Mahogany Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-42-west"
+        },
+        {
+          "kind": "capability",
+          "id": "path-route42-hm04-trigger"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-cianwood-center",
+    "name": "Enter the Cianwood Pokémon Center",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cianwood"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-route42-hm04-trigger",
+    "name": "Trigger the Route 42 hiker scene",
+    "requirements": {
+      "kind": "location",
+      "id": "route-42-west"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-ecruteak-route42",
+    "name": "Walk from Ecruteak to western Route 42",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ecruteak"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-mahogany-pryce",
+    "name": "Enter Mahogany Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "mahogany"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-blackthorn-clair",
+    "name": "Enter Blackthorn Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "blackthorn"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-dragons-den-shrine",
+    "name": "Reach the Dragon's Den shrine",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "clair-battle-won"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "whirlpool"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-dragons-den-clair-exit",
+    "name": "Leave the Dragon's Den shrine",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rising-badge"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-olivine-port-boarding",
+    "name": "Walk to the Olivine port",
+    "requirements": {
+      "kind": "milestone",
+      "id": "olivine"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-league-vermilion",
+    "name": "Reach Vermilion City on the S.S. Aqua",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ss-aqua-arrived"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-viridian-oak-lab",
+    "name": "Visit Oak after the Earth Badge",
+    "requirements": {
+      "kind": "milestone",
+      "id": "blue-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-mahogany-blackthorn",
+    "name": "Cross Route 44 and the Ice Path to Blackthorn",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "ice-path"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-mahogany-generator",
+    "name": "Enter the Rocket Hideout after Lance arrives",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lance-at-lake"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-league-entrance",
+    "name": "Pass Victory Road to the Pokémon League",
+    "requirements": {
+      "kind": "milestone",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-league-hall-of-fame",
+    "name": "Enter the Hall of Fame after Lance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lance-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-ss-aqua-grandfather",
+    "name": "Find the S.S. Aqua grandfather",
+    "requirements": {
+      "kind": "milestone",
+      "id": "ss-aqua-boarded"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-vermilion-surge",
+    "name": "Enter Vermilion Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "kanto"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-saffron-sabrina",
+    "name": "Enter Saffron Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-city"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-celadon-erika",
+    "name": "Walk from Saffron through Route 7 to Celadon Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "saffron-city"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-cerulean-misty",
+    "name": "Find Misty back in Cerulean Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-rocket-appears"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-fuchsia-janine",
+    "name": "Walk from Lavender to Fuchsia Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lavender-town"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-pewter-brock",
+    "name": "Walk from Cerulean through Mt. Moon to Pewter Gym",
+    "requirements": {
+      "kind": "milestone",
+      "id": "cerulean-city"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-seafoam-blaine",
+    "name": "Surf from Fuchsia to the Seafoam Gym",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "path-fuchsia-janine"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-viridian-blue",
+    "name": "Open Viridian Gym after seven Kanto badges",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "brock-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "surge-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "erika-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "janine-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "sabrina-defeated"
+        },
+        {
+          "kind": "milestone",
+          "id": "blaine-defeated"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-mount-silver-red",
+    "name": "Climb Mount Silver",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "oak-rock-climb-ready"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with the Good Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "good-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with the Super Rod",
+    "requirements": {
+      "kind": "item",
+      "id": "super-rod",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-full-incense-item",
+    "name": "Reach the Full Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "mount-mortar-1f-back"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-lax-incense-item",
+    "name": "Reach the Lax Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "route-38"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-luck-incense-item",
+    "name": "Reach the Luck Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "vermilion-city"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-odd-incense-item",
+    "name": "Reach the Odd Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "cerulean-cave-2f"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-pure-incense-item",
+    "name": "Reach the Pure Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "mount-silver-upper-mountainside"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-rock-incense-item",
+    "name": "Reach the Rock Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "diglett-cave"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-rose-incense-item",
+    "name": "Reach the Rose Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "route-15"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-sea-incense-item",
+    "name": "Reach the Sea Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "cerulean-cave-1f"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "path-wave-incense-item",
+    "name": "Reach the Wave Incense ball",
+    "requirements": {
+      "kind": "location",
+      "id": "route-47"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "game-corner-coins-200",
+    "name": "Collect 200 Game Corner coins",
+    "requirements": {
+      "kind": "location",
+      "id": "goldenrod-game-corner"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "game-corner-coins-700",
+    "name": "Collect 700 Game Corner coins",
+    "requirements": {
+      "kind": "location",
+      "id": "goldenrod-game-corner"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "game-corner-coins-2100",
+    "name": "Collect 2100 Game Corner coins",
+    "requirements": {
+      "kind": "location",
+      "id": "goldenrod-game-corner"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "goldenrod-trade-without-costume",
+    "name": "Trade in Goldenrod without the Rocket costume",
+    "requirements": {
+      "kind": "milestone",
+      "id": "goldenrod"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "primo-password-mareep",
+    "name": "Tell Primo the mareep password",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "primo-password-wooper",
+    "name": "Tell Primo the wooper password",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "primo-password-slugma",
+    "name": "Tell Primo the slugma password",
+    "requirements": {
+      "kind": "milestone",
+      "id": "violet"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "celadon-coins-3333",
+    "name": "Win 3,333 Game Corner coins for each prize Pokémon",
+    "requirements": {
+      "kind": "location",
+      "id": "celadon-prize-corner"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "celadon-coins-6666",
+    "name": "Win 6,666 Game Corner coins for each prize Pokémon",
+    "requirements": {
+      "kind": "location",
+      "id": "celadon-prize-corner"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "celadon-coins-9999",
+    "name": "Win 9,999 Game Corner coins for each prize Pokémon",
+    "requirements": {
+      "kind": "location",
+      "id": "celadon-prize-corner"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "battle-points-48",
+    "name": "Win Battle Frontier battles to earn 48 Battle Points for each item",
+    "requirements": {
+      "kind": "location",
+      "id": "battle-frontier"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "burmy-trash-battle",
+    "name": "Let Burmy take part in a Pokémon League battle to get the Trash Cloak",
+    "requirements": {
+      "kind": "location",
+      "id": "indigo-plateau"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "oak-kanto-starter-chosen",
+    "name": "Choose one of Oak’s three starter Pokémon after defeating Red",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "red-defeated"
+        },
+        {
+          "kind": "location",
+          "id": "pallet-oak-lab"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "suicune-chase",
+    "name": "Follow Suicune through Cianwood, Route 42, Vermilion and Route 14. Meet Eusine on Route 25 after Misty leaves the cape",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "beasts-released"
+        },
+        {
+          "kind": "milestone",
+          "id": "cerulean-rocket-appears"
+        },
+        {
+          "kind": "location",
+          "id": "cianwood-city"
+        },
+        {
+          "kind": "location",
+          "id": "route-42-east"
+        },
+        {
+          "kind": "location",
+          "id": "vermilion-city"
+        },
+        {
+          "kind": "location",
+          "id": "route-14"
+        },
+        {
+          "kind": "location",
+          "id": "route-25"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "swarm",
+    "name": "Find the Pokémon reported on the radio today",
+    "requirements": {
+      "kind": "milestone",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "headbutt",
+    "name": "Learn Headbutt from the man in Ilex Forest",
+    "requirements": {
+      "kind": "location",
+      "id": "ilex-forest"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bug-contest",
+    "name": "Enter the Bug-Catching Contest and keep one catch",
+    "requirements": {
+      "kind": "location",
+      "id": "national-park-bug-catching-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "safari-area-customizer",
+    "name": "Catch Geodude in the Safari Zone, show Baoba, then wait for his call after 3 hours of play",
+    "requirements": {
+      "kind": "location",
+      "id": "safari-zone-entrance-exterior"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "safari-blocks",
+    "name": "Show Baoba a Safari Zone Sandshrew. Get the National Pokédex, then answer his object-placement calls after more play time",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "safari-area-customizer"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "bug-contest-first-prize",
+    "name": "Win first place in the Bug-Catching Contest on Tuesday, Thursday or Saturday",
+    "requirements": {
+      "kind": "capability",
+      "id": "bug-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  }
+]

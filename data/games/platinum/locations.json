@@ -1,0 +1,3560 @@
+[
+  {
+    "id": "route-201",
+    "name": "Route 201",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-202",
+    "name": "Route 202",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sandgem-pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-203",
+    "name": "Route 203",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-city",
+    "name": "Oreburgh City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "oreburgh-gate"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-city",
+    "name": "Eterna City",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-forest"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-206",
+    "name": "Route 206",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-207",
+    "name": "Route 207",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-208",
+    "name": "Route 208",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-galactic-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209",
+    "name": "Route 209",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-210",
+    "name": "Route 210",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-211",
+    "name": "Route 211 east",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-212",
+    "name": "Route 212 south",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-213",
+    "name": "Route 213",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-214",
+    "name": "Route 214",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-215",
+    "name": "Route 215",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-216",
+    "name": "Route 216",
+    "requirements": {
+      "kind": "capability",
+      "id": "strength"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-217",
+    "name": "Route 217",
+    "requirements": {
+      "kind": "capability",
+      "id": "strength"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-218",
+    "name": "Route 218",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-219",
+    "name": "Route 219",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sandgem-pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-220",
+    "name": "Route 220",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-221",
+    "name": "Route 221",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-222",
+    "name": "Route 222",
+    "requirements": {
+      "kind": "milestone",
+      "id": "distortion-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-223",
+    "name": "Route 223",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "distortion-clear"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-224",
+    "name": "Route 224",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-225",
+    "name": "Route 225",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-226",
+    "name": "Route 226",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-227",
+    "name": "Route 227",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-228",
+    "name": "Route 228",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-229",
+    "name": "Route 229",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-230",
+    "name": "Route 230",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "distortion-world-giratina-room",
+    "name": "Distortion World Giratina Room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "spear-pillar"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-giratina-room",
+    "name": "Turnback Cave Giratina Room",
+    "requirements": {
+      "kind": "location",
+      "id": "turnback-cave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "valley-windworks-outside",
+    "name": "Valley Windworks outside",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "acuity-cavern",
+    "name": "Lake Acuity Cavern",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "distortion-clear"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "valor-cavern",
+    "name": "Lake Valor Cavern",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "distortion-clear"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "spear-pillar-dialga",
+    "name": "Spear Pillar Dialga Rift",
+    "requirements": {
+      "kind": "milestone",
+      "id": "spear-pillar"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "spear-pillar-palkia",
+    "name": "Spear Pillar Palkia Rift",
+    "requirements": {
+      "kind": "milestone",
+      "id": "spear-pillar"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stark-mountain-room-3",
+    "name": "Stark Mountain room 3",
+    "requirements": {
+      "kind": "milestone",
+      "id": "stark-mountain"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b5f",
+    "name": "Snowpoint Temple B5F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "rock-peak-ruins",
+    "name": "Rock Peak Ruins",
+    "requirements": {
+      "kind": "capability",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iceberg-ruins",
+    "name": "Iceberg Ruins",
+    "requirements": {
+      "kind": "capability",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-ruins",
+    "name": "Iron Ruins",
+    "requirements": {
+      "kind": "capability",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fullmoon-island-forest",
+    "name": "Fullmoon Island forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fullmoon-island"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sinnoh-roaming-routes",
+    "name": "Sinnoh roaming routes",
+    "requirements": {
+      "kind": "capability",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island",
+    "name": "Iron Island exterior",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-city-north-house-1f",
+    "name": "Oreburgh City north house 1F",
+    "requirements": {
+      "kind": "location",
+      "id": "oreburgh-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-city-condominiums-1f",
+    "name": "Eterna City condominiums 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-city-west-house",
+    "name": "Snowpoint City west house",
+    "requirements": {
+      "kind": "location",
+      "id": "snowpoint-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-226-house",
+    "name": "Route 226 house",
+    "requirements": {
+      "kind": "milestone",
+      "id": "route-226"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-mining-museum",
+    "name": "Oreburgh Mining Museum",
+    "requirements": {
+      "kind": "location",
+      "id": "oreburgh-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-7",
+    "name": "Solaceon Ruins Room 7",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone-city-galactic-warehouse",
+    "name": "Veilstone Galactic Warehouse",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-218-gate-to-jubilife-city",
+    "name": "Route 218 gate to Jubilife",
+    "requirements": {
+      "kind": "location",
+      "id": "route-218"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-225-gate-to-fight-area",
+    "name": "Route 225 gate to Fight Area",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins",
+    "name": "Solaceon Ruins",
+    "requirements": {
+      "kind": "location",
+      "id": "route-209"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "battle-zone",
+    "name": "Battle Zone",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hall-of-fame"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "canalave-city",
+    "name": "Canalave City",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "celestic-town",
+    "name": "Celestic Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "valor-lakefront"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "distortion-world-b7f",
+    "name": "Distortion World B7F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "giratina"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-forest",
+    "name": "Eterna Forest",
+    "requirements": {
+      "kind": "milestone",
+      "id": "windworks-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fight-area",
+    "name": "Fight Area",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hall-of-fame"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fullmoon-island",
+    "name": "Fullmoon Island",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "hearthome-city",
+    "name": "Hearthome City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "jubilife-city",
+    "name": "Jubilife City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-acuity",
+    "name": "Lake Acuity",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snowpoint-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-gate",
+    "name": "Oreburgh Gate",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-mine",
+    "name": "Oreburgh Mine",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pastoria-city",
+    "name": "Pastoria City",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Pokemon League",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "sunyshore-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "waterfall"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "pokemon-league-hall-of-fame",
+    "name": "Pokemon League Hall Of Fame",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sandgem-town",
+    "name": "Sandgem Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "sandgem-pokedex"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-city",
+    "name": "Snowpoint City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "snowpoint"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "spear-pillar",
+    "name": "Spear Pillar",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "spring-path",
+    "name": "Spring Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "distortion-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stark-mountain",
+    "name": "Stark Mountain",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sunyshore-city",
+    "name": "Sunyshore City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "distortion-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "twinleaf-town",
+    "name": "Twinleaf Town",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "valor-lakefront",
+    "name": "Valor Lakefront",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "veilstone-city",
+    "name": "Veilstone City",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "verity-cavern",
+    "name": "Verity Cavern",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road-1f",
+    "name": "Victory Road 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-204",
+    "name": "Route 204",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-205",
+    "name": "Route 205",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-210-north",
+    "name": "Route 210 north (Celestic side)",
+    "requirements": {
+      "kind": "milestone",
+      "id": "valor-lakefront"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "ravaged-path",
+    "name": "Ravaged Path",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-1f-south",
+    "name": "Mt Coronet 1F South",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lost-tower-2f",
+    "name": "Lost Tower 2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "fuego-ironworks",
+    "name": "Fuego Ironworks",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "floaroma-meadow",
+    "name": "Floaroma Meadow",
+    "requirements": {
+      "kind": "capability",
+      "id": "surf"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "team-galactic-eterna-building",
+    "name": "Team Galactic Eterna Building",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "galactic-hq",
+    "name": "Galactic Hq",
+    "requirements": {
+      "kind": "milestone",
+      "id": "veilstone-hq-open"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "acuity-lakefront",
+    "name": "Acuity Lakefront",
+    "requirements": {
+      "kind": "milestone",
+      "id": "snowpoint"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-back-middle-west-room",
+    "name": "Old Chateau back middle west room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sinnoh-underground",
+    "name": "Sinnoh Underground",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "battle-frontier",
+    "name": "Fight Area Battle Frontier",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave",
+    "name": "Turnback Cave entrance",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "distortion-clear"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "distortion-world-turnback-cave-room",
+    "name": "Distortion World Turnback Cave room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave-giratina-room"
+        },
+        {
+          "kind": "pokemon",
+          "id": "giratina",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-game",
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-town",
+    "name": "Solaceon Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "floaroma-town",
+    "name": "Floaroma Town",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-212-north",
+    "name": "Route 212 North",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "floaroma-meadow-south",
+    "name": "Floaroma Meadow south entrance",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gym"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "trophy-garden",
+    "name": "Trophy Garden",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau",
+    "name": "Old Chateau",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-side-rooms",
+    "name": "Old Chateau side rooms",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-dining-area",
+    "name": "Old Chateau dining area",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-corridor",
+    "name": "Old Chateau corridor",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-back-west-room",
+    "name": "Old Chateau back west room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-back-middle-room",
+    "name": "Old Chateau back middle room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-back-middle-east-room",
+    "name": "Old Chateau back middle east room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "old-chateau-back-east-room",
+    "name": "Old Chateau back east room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island-1f",
+    "name": "Iron Island 1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island-b1f-left-room",
+    "name": "Iron Island B1F left room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island-b1f-right-room",
+    "name": "Iron Island B1F right room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island-b2f-left-room",
+    "name": "Iron Island B2F left room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island-b2f-right-room",
+    "name": "Iron Island B2F right room",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "iron-island-b3f",
+    "name": "Iron Island B3F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "canalave"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-mine-b1f",
+    "name": "Oreburgh Mine B1F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "oreburgh-mine-b2f",
+    "name": "Oreburgh Mine B2F",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-1",
+    "name": "Solaceon Ruins Room 1",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-1-northwest-dead-end",
+    "name": "Solaceon Ruins Room 1 Northwest Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-1-southeast-dead-end",
+    "name": "Solaceon Ruins Room 1 Southeast Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-2",
+    "name": "Solaceon Ruins Room 2",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-2-northeast-dead-end",
+    "name": "Solaceon Ruins Room 2 Northeast Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-2-southeast-dead-end",
+    "name": "Solaceon Ruins Room 2 Southeast Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-3",
+    "name": "Solaceon Ruins Room 3",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-3-northwest-dead-end",
+    "name": "Solaceon Ruins Room 3 Northwest Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-3-southwest-dead-end",
+    "name": "Solaceon Ruins Room 3 Southwest Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-4",
+    "name": "Solaceon Ruins Room 4",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-4-southeast-dead-end",
+    "name": "Solaceon Ruins Room 4 Southeast Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-5",
+    "name": "Solaceon Ruins Room 5",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-5-southeast-deadend",
+    "name": "Solaceon Ruins Room 5 Southeast Deadend",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-5-southwest-dead-end",
+    "name": "Solaceon Ruins Room 5 Southwest Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-6",
+    "name": "Solaceon Ruins Room 6",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-6-northwest-dead-end",
+    "name": "Solaceon Ruins Room 6 Northwest Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-room-6-southeast-dead-end",
+    "name": "Solaceon Ruins Room 6 Southeast Dead End",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-town"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "ruin-maniac-cave-short",
+    "name": "Ruin Maniac Cave, short layout",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-214"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "ruin-maniac-cave-long",
+    "name": "Ruin Maniac Cave, long layout",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-214"
+        },
+        {
+          "kind": "capability",
+          "id": "see-10-unown-forms"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "maniac-tunnel",
+    "name": "Maniac Tunnel",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "route-214"
+        },
+        {
+          "kind": "capability",
+          "id": "see-26-unown-forms"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "solaceon-ruins-maniac-tunnel-room",
+    "name": "Solaceon Ruins, Maniac Tunnel room",
+    "requirements": {
+      "kind": "location",
+      "id": "maniac-tunnel"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-1f",
+    "name": "Lost Tower 1F",
+    "requirements": {
+      "kind": "location",
+      "id": "route-209"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-2f",
+    "name": "Lost Tower 2F",
+    "requirements": {
+      "kind": "location",
+      "id": "route-209"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-3f",
+    "name": "Lost Tower 3F",
+    "requirements": {
+      "kind": "location",
+      "id": "route-209"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-4f",
+    "name": "Lost Tower 4F",
+    "requirements": {
+      "kind": "location",
+      "id": "route-209"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "route-209-lost-tower-5f",
+    "name": "Lost Tower 5F",
+    "requirements": {
+      "kind": "location",
+      "id": "route-209"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-1",
+    "name": "Great Marsh Area 1",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-2",
+    "name": "Great Marsh Area 2",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-3",
+    "name": "Great Marsh Area 3",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-4",
+    "name": "Great Marsh Area 4",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-5",
+    "name": "Great Marsh Area 5",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "great-marsh-6",
+    "name": "Great Marsh Area 6",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "wayward-cave-1f",
+    "name": "Wayward Cave 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "wayward-cave-b1f",
+    "name": "Wayward Cave B1F, hidden entrance",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "capability",
+          "id": "cut"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "resort-area",
+    "name": "Resort Area",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stark-mountain-outside",
+    "name": "Stark Mountain outside",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stark-mountain-room-1",
+    "name": "Stark Mountain room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "stark-mountain-room-2",
+    "name": "Stark Mountain room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-verity-low-water",
+    "name": "Lake Verity, early layout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-valor",
+    "name": "Lake Valor, restored water",
+    "requirements": {
+      "kind": "milestone",
+      "id": "distortion-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "lake-verity",
+    "name": "Lake Verity, later layout",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lake-valor-saturn"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "eterna-forest-outside",
+    "name": "Eterna Forest outside shortcut",
+    "requirements": {
+      "kind": "capability",
+      "id": "cut"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-temple-1f",
+    "name": "Snowpoint Temple 1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b1f",
+    "name": "Snowpoint Temple B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b2f",
+    "name": "Snowpoint Temple B2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b3f",
+    "name": "Snowpoint Temple B3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "snowpoint-temple-b4f",
+    "name": "Snowpoint Temple B4F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "sendoff-spring",
+    "name": "Sendoff Spring",
+    "requirements": {
+      "kind": "milestone",
+      "id": "distortion-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-1-room-1",
+    "name": "Turnback Cave Pillar 1 Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-1-room-2",
+    "name": "Turnback Cave Pillar 1 Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-1-room-3",
+    "name": "Turnback Cave Pillar 1 Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-1-room-4",
+    "name": "Turnback Cave Pillar 1 Room 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-1-room-5",
+    "name": "Turnback Cave Pillar 1 Room 5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-1-room-6",
+    "name": "Turnback Cave Pillar 1 Room 6",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-2-room-1",
+    "name": "Turnback Cave Pillar 2 Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-2-room-2",
+    "name": "Turnback Cave Pillar 2 Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-2-room-3",
+    "name": "Turnback Cave Pillar 2 Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-2-room-4",
+    "name": "Turnback Cave Pillar 2 Room 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-2-room-5",
+    "name": "Turnback Cave Pillar 2 Room 5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-2-room-6",
+    "name": "Turnback Cave Pillar 2 Room 6",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-3-room-1",
+    "name": "Turnback Cave Pillar 3 Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-3-room-2",
+    "name": "Turnback Cave Pillar 3 Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-3-room-3",
+    "name": "Turnback Cave Pillar 3 Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-3-room-4",
+    "name": "Turnback Cave Pillar 3 Room 4",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "turnback-cave-pillar-3-room-5",
+    "name": "Turnback Cave Pillar 3 Room 5",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "turnback-cave"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road-1f-room-1",
+    "name": "Victory Road 1F Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road-1f-room-2",
+    "name": "Victory Road 1F Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road-1f-room-3",
+    "name": "Victory Road 1F Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road-2f",
+    "name": "Victory Road 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "victory-road-b1f",
+    "name": "Victory Road B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "victory-road"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-1f-north-room-1",
+    "name": "Mt Coronet 1F North Room 1",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-city"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-1f-tunnel-room",
+    "name": "Mt Coronet 1F Tunnel Room",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-b1f",
+    "name": "Mt Coronet B1F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "strength"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-1f-north-room-2",
+    "name": "Mt Coronet 1F North Room 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "strength"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-smash"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-2f",
+    "name": "Mt Coronet 2F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        },
+        {
+          "kind": "capability",
+          "id": "bicycle"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-3f",
+    "name": "Mt Coronet 3F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-outside-south",
+    "name": "Mt Coronet Outside South",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-4f-rooms-1-and-2",
+    "name": "Mt Coronet 4F Rooms 1 and 2",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-outside-north",
+    "name": "Mt Coronet Outside North",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-4f-room-3",
+    "name": "Mt Coronet 4F Room 3",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-5f",
+    "name": "Mt Coronet 5F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  },
+  {
+    "id": "mt-coronet-6f",
+    "name": "Mt Coronet 6F",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-hq"
+        },
+        {
+          "kind": "capability",
+          "id": "surf"
+        },
+        {
+          "kind": "capability",
+          "id": "rock-climb"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "platinum-source"
+      ],
+      "checkedOn": "2026-10-17"
+    }
+  }
+]

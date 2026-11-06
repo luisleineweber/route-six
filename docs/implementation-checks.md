@@ -1,0 +1,729 @@
+# MVP implementation checks
+
+## HGSS integration: 5 November 2026
+
+HeartGold and SoulSilver now load in both planners. Each has 157 milestones,
+eight Johto Gym checkpoints and a League checkpoint. The source review,
+coverage and explicit limits are in [the HGSS review](hgss-progress-review.md).
+The focused integration checks pass 48 tests across four files. They include
+version-specific legends, Safari and radio access, optional locations,
+fossils, breeding, forms, the footer and checkpoint selection.
+
+The production build passes data, image, TypeScript and bundle checks.
+The final full test run passes all 811 tests in 82 files (980 seconds).
+The large-chunk warning remains. A first public query took about 40 seconds
+on the local computer. Final full-suite results and screenshots are kept in
+`output/hgss-completion-tests.log` and `output/hgss-release/`.
+
+The usage report was refreshed through the existing report tools. Shared
+JSON imports now count toward each game's logical dataset size. The report
+keeps the earlier measured aggregate separately because current session
+files no longer reproduce all older task counters. It does not add
+overlapping snapshots. Parent and child session use remain separate.
+New costs are unknown. The JSON, CSV files and report check are under
+`output/`; see `hgss-completion-report-check.json`.
+
+Browser checks pass for both games at 1440 and 320 pixels. They load the
+Progress Planner, show Chikorita's current source and keep all loaded images
+valid. No horizontal overflow or page exception occurs. The native browser
+allowed text checks but its screenshot operation timed out. The separate
+native browser host was unavailable. The existing Playwright installation
+and installed Chrome captured the final desktop and phone screens.
+`output/hgss-release/browser-check.json` records the results.
+
+Checked on 7 October 2026. The application implements the confirmed MVP plan.
+The interface uses the clear field guide style confirmed by the user.
+
+## Data
+
+| Collection | Records |
+| --- | ---: |
+| Generation III species and Emerald profiles | 386 |
+| Progress points | 148 |
+| Routes 101–134 | 34 |
+| Gym and League opponents | 13 |
+| Acquisition sources | 915 |
+| Evolution rules | 184 |
+| Breeding rules | 181 |
+| Active Emerald types | 17 |
+
+Current Emerald counts checked on 26 October 2026.
+
+Data checks compare same-generation profiles across games. They check type
+order, Egg Groups, and available genders, including genders recorded in forms.
+Generation changes remain game-specific.
+Identical X/Y and Diamond/Pearl data files use shared files under
+`data/games/shared/` to prevent version copies from drifting.
+
+The [coverage list](emerald-coverage.md) names every progress point and its
+section. All data is maintained in local JSON. Each record has a review date and
+a reference ID. References use Emerald revision
+`731ad5bfd6e6f265508d0efcca0ba42f9dcf5881`.
+
+Species types and Egg Groups were checked against the pinned species records.
+Evolution edges were checked against the pinned evolution table. Encounter
+methods, levels, rates, fixed genders, gifts, fossils, trades, and story gates
+were checked against encounter tables and event scripts. TV outbreaks and fixed
+New Mauville and Kecleon encounters have separate source records.
+
+The data keeps player trades blocked. Other-version species and external
+distribution events have explicit reasons. The Hoenn Dex reward needs the full
+Hoenn Dex; unavailable species keep that reward blocked in this scope.
+
+## Domain checks
+
+`npm test` passes 54 tests in five files.
+
+- Progress uses mandatory dependencies. List order does not grant access.
+- Selected optional access remains in later evolution proofs.
+- Rods, HMs, story gates, and item access stay explicit.
+- Level-up evolution requires a level gain. Item evolution keeps its source level.
+- Level limits use the next boss. Each Gym checkpoint uses its own Gym Leader.
+  No limit applies after the final League battle.
+- Earlier acquisitions remain available if a later level limit is lower.
+- Game trades consume the offered species and use its level and fixed gender.
+- Breeding proves two compatible, distinct parents and a level-5 offspring.
+- A new offspring has its own proof and can evolve into its parent's species.
+- Ditto, incense, gender transitions, parent reuse, and trade order have coverage.
+- Ungrounded acquisition cycles cannot create access.
+- Team checks try source alternatives and enforce choices and finite resources.
+- Shared breeding parents and simultaneous products count an evolution item once.
+  Separate evolved animals still need separate items.
+- Returned proofs remain unchanged during later queries and team checks.
+- Type checks cover dual types, 4× weaknesses, immunities, and the 17-type chart.
+- Invalid data reports its file, record ID, and field. The app shows load errors.
+
+## Browser checks
+
+The shared preview and a local Chromium browser were used for checks.
+
+- Add six members, reject a seventh, replace a member, and remove a member.
+- Change pages, progress, and level settings without losing the team.
+- Read blocked reasons and source requirements in the details dialog.
+- Close details with Escape and return focus to the opening control.
+- Check desktop layout at 1440 pixels and phone layout at 390 and 320 pixels.
+- Check no horizontal page overflow at phone width.
+- Run axe WCAG A/AA checks on desktop, in the dialog, and at 320 pixels.
+  The checks report zero violations.
+- Check the browser console. It reports no app errors or warnings.
+
+Screenshots from the local check are in `output/playwright/`.
+
+## Build
+
+`npm run build` passes the data check, TypeScript check, and Vite build. It copies
+the product documents into `dist/docs`. `npm install --package-lock-only`
+reports zero dependency vulnerabilities.
+
+The first full query checks future sources and breeding in a worker. It can
+take several seconds. The interface shows a checking state and stays usable.
+The local data produces large bundle chunks. Vite reports a size warning.
+
+The guide models what a player could obtain. It uses memory for the current
+team and settings. It does not track a game save, bag, learned moves, abilities,
+missed catches, or completed optional visits.
+
+## Planner modes: 10 October 2026
+
+The Team Planner shows all 386 species without an access check. It keeps the
+six team slots, type analysis, search, type filters, and simple Pokémon details.
+It shows no progress settings, level limit, access status, or source text.
+
+The Progress Planner keeps access checks and source details. Its initial
+target is Current progress. Its initial progress point is Victory Road.
+Both views keep the same team and progress settings when the view changes.
+
+Both catalogues sort the 202 Hoenn Pokédex species first. The remaining species
+follow in National Dex order. Each Hoenn number was checked against
+`include/constants/pokedex.h` at the pinned Emerald revision. Data records keep
+the source reference and review date. Validation rejects duplicate regional
+numbers and gaps in their sequence.
+
+The shared browser checks covered these results:
+
+- Team view shows 386 results without a worker loading state or access labels.
+- Progress view starts at Elite Four with Current progress and the level limit on.
+- Team members, selected progress, and the level setting survive view changes.
+- The catalogue boundary is Deoxys, Hoenn #202, then Bulbasaur, National #001.
+- Six filled slots disable further adds. Replace works with pointer and keyboard
+  input. Removing a member enables adds again.
+- Team details show identity and type weaknesses. Escape closes the dialog and
+  returns focus to its opening control.
+- Both views fit at 320 and 1440 pixels without horizontal page scrolling.
+- National Dex labels do not cover the Add control at 320 pixels.
+- Axe WCAG A/AA checks report zero violations in both views and Team details.
+
+The current test suite passes 67 tests in eight files. The tests cover the
+Elite Four default, regional Pokédex order, and invalid regional Dex data.
+`npm run build` passes the data check, TypeScript check, and production build.
+The existing warning for large local data bundles remains.
+
+## Fixed team bar: 10 October 2026
+
+Both planners show a full-width team bar after the full team scrolls above the
+viewport. The bar centers six small cards. Each card uses a 4:3 shape with a
+60/40 sprite and type area, then the name below. Narrow screens use two rows of
+three cards. Empty slots keep their card, question mark, and Add control.
+
+The browser checks covered these results:
+
+- Add from the bar fills the selected slot in the full team view.
+- Remove appears on hover and keyboard focus. Touch screens keep it visible
+  with a 44-pixel target. Remove returns focus to the empty slot.
+- Details close with Escape and return focus to the card.
+- A direct scroll jump shows the bar in both planners.
+- Search focus stays below the bar when a slot opens the catalogue.
+- Card names and types fit at 320, 390, 671, 672, 768, and 1440 pixels.
+- The team bar keeps its names inside the viewport at 200% text size.
+- Axe WCAG A/AA checks report zero violations on desktop and touch screens.
+- The browser reports no errors. The page has no horizontal overflow at the
+  checked widths with normal text size.
+
+The test suite passes 93 tests in 11 files. `npm run build` passes the data
+check, TypeScript check, and production build. The existing bundle size warning
+remains. Browser check files and screenshots are in `output/shots/`.
+
+## Preparations for more games: 12 October 2026
+
+The dataset now uses schema version 2. Each game declares its supported species
+through its profiles, its visible progress checkpoints, its default progress
+point, and its hatch level or absence of breeding. Genders are separate from
+breeding data. Each profile has an explicit local image path. Both the
+interface and exports use that path. Emerald's original game facts and profile
+review records remain unchanged.
+
+The registry loads game modules on request. Runtime validation checks shared
+records first and each requested game separately. Invalid game data does not
+prevent another valid game from loading. Valid loads are cached. Concurrent
+requests share a load. Failed loads can be retried. The availability worker
+loads the queried game through the same registry.
+
+`npm test` passes 121 tests in 14 files. New checks cover supported species
+subsets, progress without Gym IDs, regional Dex numbers above 202, games without
+breeding, game-specific hatch levels, local image paths, missing images, registry
+errors, failed loads, retries, and separate access rules for games that reuse
+species and source IDs. Existing Emerald integration tests pass.
+
+`npm run build` passes data, local image, TypeScript, and production checks.
+The worker uses ES modules for separate game chunks. The existing warning for
+the large Emerald data chunks remains. No dependency was added.
+
+Production browser checks covered both planners at 1280 and 320 pixels, the
+nine Emerald checkpoints, a progress change to Roxanne, shared team slots,
+Pokémon details, image loading, and Escape close. No horizontal page overflow
+occurred. Emerald remains the only enabled game; the other 37 entries remain
+planned. The Team PNG rendered as a valid 2400 by 3176 pixel image. Progress
+export model tests pass. The shared browser disconnected before the final
+Progress PNG rendering check could finish.
+
+See [Adding reviewed game data](adding-games.md) for the next-game steps and
+the separate future work for species forms and visual maps. No second game,
+form collection, or visual map dataset was added by these preparations.
+
+## Generation I to III game data: 13 October 2026
+
+All eleven catalogue games from Generations I to III are enabled. Each of the
+ten new games had a Luna agent for primary source review and its thirteen data
+files. Ruby passed the complete second-game checks before the group was added.
+Each game has a separate loader, coverage notes, source locators, review dates,
+and tests. See [game data status](game-data-progress.md) for the final counts.
+
+The final data review corrected Ruby and Sapphire story branches, Sky Pillar
+access, evolution stone sources, complete breeding source coverage, and Sevii
+Island gates. The solver now reuses retained keys and repeatable breeding
+parents without repeated resource claims. A one-time exchange for a reusable
+key counts once. Separate exchanges still need separate resources.
+
+`npm test` passes 266 tests in 31 files. The 39 tests affected by the final test
+type corrections also pass. `npm run build` passes data, local images,
+TypeScript, production, and document copy checks. The large data chunk warning
+remains. All 130 new JSON files pass UTF-8, JSON, and no-BOM checks.
+
+The final shared production browser checks cover Ruby, Sapphire, FireRed,
+LeafGreen, and Emerald. Both planners show the selected game's profiles,
+details, references, and type chart. Team slots and the level setting persist
+across game changes. Both planners fit at 1440 and 320 pixels. All ten PNG
+exports have valid PNG signatures and a width of 2400 pixels. The FireRed
+Progress PNG and mobile screenshot also pass visual checks. No broken image,
+page overflow, UI error, or browser exception occurred.
+
+A Red switch check confirms 151 profiles and 15 types. Treecko leaves slot 1;
+Pikachu keeps slot 2. Earlier browser checks cover both planners, details,
+images, exports, switching, and 320px layouts for Red, Blue, Yellow, Gold,
+Silver, and Crystal. The final browser report and samples are in `output/`.
+## Generation IV–VI base-layer checks, 13 October 2026
+
+The full suite passes 342 tests in 35 files. The production build passes.
+All thirteen new base profile files pass the schema and source-reference
+checks. All 7,945 base profiles match the pinned personal tables. The new
+games were unregistered at that check; native access and form rules were
+still incomplete. The 14 October checks below give the current status.
+
+Independent checks found and corrected 20 Generation VI chart cells and
+1,190 profile shape errors. All five Generation IV charts match 289 pairs
+in two pinned battle tables. All four Generation VI charts match 324 source
+pairs. Six focused checks cover regional number 000.
+
+The usage report includes 49 completed Luna rounds and all their saved
+results. Game and agent views, filters, token sorting, Standard/Fast estimates,
+and CSV export pass browser checks. The page has no horizontal overflow at
+320 or 1440 pixels. Long source revisions now wrap within the report.
+The offline report check confirms that the earlier audit totals remain stable.
+
+The production browser still shows 386 Emerald team profiles and eleven
+ready games. New Generation IV–VI identities do not enter the Emerald list.
+The Progress Planner still loads the selected Emerald progress and level cap.
+See [generation-456-progress.md](generation-456-progress.md) for the remaining
+game-data and domain layers.
+
+## Generation IV–VI Team Planner checks, 14 October 2026
+
+All thirteen new games now support Team Planner. The selector marks them
+**Team ready**. All 24 registered games pass the data checks. The new games
+keep Progress Planner pending until their native access and form data pass
+review. Empty progress collections do not mean that no native sources exist.
+
+The full suite passes 370 tests in 37 files with one worker. The production
+build passes data, local images, TypeScript, Vite, and document copy checks.
+The existing large data chunk warning remains.
+
+The production browser checks pass all thirteen games. They cover catalogue
+counts, game selection, team slots, type analysis, PNG export, and the pending
+progress message. Kalos has separate Central, Coastal, and Mountain lists.
+Details, Escape, the 320-pixel layout, and accessibility checks pass.
+
+A focused browser check found a team bar that read a removed team panel when
+Progress Planner was pending. The bar now leaves the page with that panel.
+Its observers keep their own element references. The same check now passes.
+
+The report contains all 24 games and all 62 Luna rounds. Game and agent
+filters, findings, price selection, CSV export, empty results, and the
+320-pixel layout pass browser checks. The earlier audit remains unchanged.
+See [generation-456-progress.md](generation-456-progress.md) for the remaining
+native access and form work.
+
+## Platinum Progress Planner checks, 18 October 2026
+
+Platinum now supports both planners. All 24 datasets pass the schema, semantic,
+reference, local image, and type checks. The full suite passes 412 tests in
+43 files. The focused item-source check passes eight tests after its public
+claim assertions were corrected. The production build passes. It retains the
+large local data chunk warning.
+
+The Platinum integration tests check 382 native species, seven alternate forms,
+97 exclusions, and 14 player-trade species. They check starter choices, fossil
+parity, one Giratina across both sites, early eggs and caves, all eight badges,
+League stages, Origin Forme after Hall of Fame, and Friday Drifloon.
+
+The production browser checks pass starter conflicts, the native catalogue,
+Spiritomb's external connection condition, Eterna cave access, the Fantina level
+limit, Origin Forme, and pinned references. The 2,400-pixel PNG export passes file
+and visual checks. The page fits at 320 pixels and passes axe WCAG A/AA checks.
+The mobile screenshot passes visual review. No page or console errors occurred.
+
+Cold progress requests took 44–57 seconds during these browser checks. The
+worker keeps the page responsive while it checks future progress. Later queries
+reuse compatible contexts. This load time remains a known performance limit.
+
+See [the Platinum review](platinum-progress-review.md) for the active data and
+source scope. The other twelve Generation IV–VI games remain in access review.
+# Generation V encounter methods, 18 October 2026
+
+The full suite passes 421 tests in 44 files. Nine new cases cover dark grass,
+shaking grass, dust clouds, bridge shadows, rippling water, water access and
+seasonal instructions in details and export. The build passes all 24 local
+dataset and image checks, TypeScript, Vite and document copy.
+
+An initial full run passed 420 cases and exceeded the five-second test limit
+while one Platinum test built a large fixture. That fixture now builds in
+the existing integration setup phase. The next full run passes all cases.
+
+## Generation IV and VI shared rules, 18 October 2026
+
+The full suite passes 444 tests in 46 files. It has no failed or skipped tests.
+Luna test agents first reproduced the missing party conditions and the duplicate
+received-item fault. They then tested the root's production changes.
+
+The eleven new evolution cases cover actual party species and forms, retained
+partners, finite resources, choices, affection, known moves, rain, device
+orientation, level gain, invalid data, details, and export. Affection remains
+separate from friendship. Every requirement alternative must prove its action.
+
+The twelve received-item cases cover one-time holders, NPC trade offer costs,
+starter choices, shared loot limits, invalid sources, details, and export.
+The eight existing wild-held-item and Pickup cases also pass.
+
+The focused TypeScript check and all 24 data and local image checks pass.
+Generation VI source comparisons keep PKHeX legality metadata separate from
+native runtime rules. The review keeps Sylveon's Generation VI affection rule
+separate from the later default friendship rule.
+
+These changes provide shared rules. They do not complete the missing access
+records for Diamond, Pearl, HeartGold, SoulSilver, or the four Generation VI
+games. Platinum remains the only Generation IV–VI game active in both planners.
+
+The full production build passes. Refreshed browser checks pass all 24 Team
+Planner catalogues and all twelve pending progress states. Platinum checks
+cover shared slots, first-checkpoint access, starter conflicts, details,
+pinned references, keyboard close, and the 320-pixel layout. Team and Progress
+PNG files pass file and visual checks. The final app tab has no console errors.
+The report filters, price control, 22-row agent CSV, and mobile fit also pass.
+See `output/gen46-browser-checks.json` for the exact scope and browser tool limits.
+
+## Diamond, Pearl, X, Y, and shared encounter checks, 21 October 2026
+
+Diamond, Pearl, Platinum, X, and Y now support both planners. This brings the
+Progress Planner total to 16 of the 24 registered games. HeartGold, SoulSilver,
+Black, White, Black 2, White 2, Omega Ruby, and Alpha Sapphire remain Team ready.
+Their empty progress data does not establish native acquisition coverage.
+
+The complete current suite passes **613 tests in 56 files** in 401.22 seconds.
+It has no failed, pending, or skipped tests. The production build passes all
+24 data and local image checks, TypeScript, Vite, and document copy. The large
+local data chunk warning remains. No dependency was added.
+
+The native Generation II–IV Nidoran corrections and genderless breeding rules
+have actual-data regressions. Diamond and Pearl each reach 363 native species
+and six alternate forms. Platinum reaches 382 and seven. X and Y each reach
+435 native species and 13 alternate forms. Their separate player-trade blockers
+and reviewed exclusions remain explicit.
+
+The public X/Y query tests found nine species lost from later access because
+optional visit bookmarks were used as permanent locks. The corrected locations
+use their required story unlocks. Both versions show three species now and 432
+later at the starter checkpoint, then all 435 at Kiloude without side-visit
+history. First-access text keeps the real rod, field action, and story gates.
+
+Progress exports now choose compatible team paths. They retain direct-source
+priority and slot positions. Tests cover all starter pairs, two Snorlax,
+empty slots, choice conflicts, and finite-source conflicts. A full-suite failure
+also found an unnecessary source-profile read in unrestricted evolution labels.
+That read now occurs only for a gender-specific label. The catalogue tests pass.
+
+Fresh production browser checks pass X and Y progress, starter conflicts,
+duplicate Snorlax, Heat Rotom, shared slots, the 320-pixel form dialog,
+keyboard close and focus return, and axe WCAG A/AA checks. Both mobile
+Meowstic views clearly name Espurr and the required gender on each branch.
+Five new PNG exports pass integrity and complete visual review. No final
+browser errors occurred. A separate Luna check passes all 24 Team catalogues.
+The accepted report is `output/xy-final-browser.json`. Earlier failed visual
+and browser setup checks remain recorded in `output/xy-browser-checks.json`.
+
+The shared HGSS layer adds radio sounds, Headbutt tree classes, and Safari block
+points. Its 24 focused cases pass. Validation checks every access alternative,
+valid methods, whole point values, unique object types, and the 30-object limit.
+These extensions do not enable either HGSS Progress Planner. Their source rows,
+evolution candidates, item gates, and remaining access work are documented in
+[the HGSS work record](hgss-progress-review.md).
+
+The final complete test report is `output/oct21-complete-tests.json`. The build
+log is `output/xy-hgss-production-build.log`. The active data and source limits
+are in [the Diamond and Pearl review](diamond-pearl-progress-review.md) and
+[the X and Y review](xy-progress-review.md).
+
+
+## PNG export design: 26 October 2026
+
+Both PNG exports use three columns with large pixel sprites, type colors,
+and type symbols. Progress details sit on the plain sheet below each image.
+The six image areas have the same height. The team uses two aligned rows of
+three. Location and evolution sections share their row baselines. Other
+encounter options follow in a separate section below the team. The page
+layout and catalogue cards keep their existing design.
+
+The export checks cover the six-member Emerald example, three-stage and
+item evolutions, other encounter options, an unavailable event species, and
+an empty slot. All three saved samples are valid PNG files at 2400 pixels
+wide. Visual checks found no clipped text. The browser reports no errors.
+The aligned samples and their position checks are in
+`output/png-export-review/aligned/`.
+
+The 28 focused export and model tests pass. Six layout tests cover long
+words, source lists, evolution conditions, unavailable reasons, empty slots,
+and long form names. They also check shared image heights, row and section
+alignment, and long route lists that do not stretch the main team grid.
+
+`npm run build` passes data checks, TypeScript, Vite, and document copying.
+The existing large data bundle warning remains.
+
+
+### Source and type corrections
+
+The second Emerald example uses Swampert, Seedot, Shedinja, Gyarados, Mawile,
+and Vileplume. Gyarados now starts with an earlier Magikarp catch. Mawile
+includes B1F from the existing source area label. Extra places appear once
+per location. Each member has at most two printed alternatives and a count
+for the other places in the planner.
+
+The type background uses equal vertical halves. Each symbol fits within
+its half. White masks preserve small holes such as Ghost eyes and Steel
+details. The Poison bubbles remain inside the full symbol bounds. The four
+corrected PNG samples and their position checks are
+in `output/png-export-review/corrected/`. The browser reports no errors.
+
+A source query defect merged future optional visits into the first-access
+points of current catches. The query now keeps current access points separate
+from those future visits. A small availability test and the real Emerald
+Gyarados query cover this defect.
+
+The full `npm test` run finished with 650 passing tests and three failures.
+The source, export, and availability regression tests pass. The roaming
+source test still expects the old `rodIcon` property; the unchanged helper
+returns `iconSrc`. The other failures are 5-second timeouts in the unchanged
+profile-validation and Y Frost Cavern tests.
+
+The timeout recheck passes all three selected cases in the two files with
+the normal 5-second limit. The unchanged roaming icon-field expectation
+remains the only functional test failure. All 18 type symbols have visible
+foreground pixels, and their full bounds were checked.
+
+The data and TypeScript checks pass. A temporary lock on a game logo
+blocked one Vite copy step. The Vite retry passes, and the project documents
+were copied after the retry. The existing bundle size warning remains.
+
+### PNG layout feedback
+
+The header now uses the selected game's local logo and a smaller planner
+title. It shows the selected point and level limit without repeating the
+game name or current target label. The type colors use equal diagonal areas.
+The large type symbols stay inside those areas. Type names remain visible;
+the repeated small type circles were removed from the image panels.
+
+Extra catch locations share one section below the team, as requested.
+Each group shows its original slot number and Pokémon name. The team rows
+keep aligned location and evolution sections. Lists still show at most
+two places. The encounter icons were raised to align with their first text
+line. Earlier valid catch locations remain the preferred sources.
+
+The nine layout and poster tests pass. TypeScript and the Vite production build
+pass. Four rendered PNG samples and their position checks are in
+`output/png-export-review/shared-section/`. The samples include the reported team,
+an unavailable species, and an empty slot. The browser reports no errors.
+
+### PNG readability changes from the Sol review
+
+Extra catch locations now keep evolution steps absent from the main chain.
+The printed locations share one copy of each needed step. The Emerald
+examples include Oddish to Gloom at level 21 and Seedot to Nuzleaf at level 14.
+The notes also retain evolution conditions. Hidden extra locations do not
+add notes to the PNG.
+
+Image panels are 34 logical pixels shorter and keep the same sprite size.
+Source details use 20-pixel text. Evolution requirements and extra-catch
+details use 19-pixel text with a darker color. Each extra location has its
+own line above the catch species and method. Panels and detail sections
+remain aligned, with one shared extra-location section below the team.
+
+All 27 focused export tests pass. Four new PNG samples render without browser
+errors in `output/png-export-review/readability/`. The checks confirm equal
+panel heights, aligned rows, and both missing evolution notes. The production
+build passes the data checks, TypeScript, Vite, and document copying.
+
+## Route Six header and first beta check: 27 October 2026
+
+Route Six is the selected working name. The header puts the name and route
+mark above the planner controls. The selected game stays in a separate area.
+The footer, loading text, page title, and browser icon use the new identity.
+At that review date, the README listed 16 games with both planners and eight games
+with Team Planner only. See [release readiness](release-readiness.md).
+
+The production build passes the checks for all 24 games, local images,
+TypeScript, Vite, and document copying. The existing data chunk warning
+remains. The nine focused footer and roaming tests pass. The roaming test
+expected the obsolete `rodIcon` field; the helper and its callers use
+`iconSrc`. The assertion now checks that current field.
+
+Browser checks cover the production page, both planner controls, shared
+team state, the game menu with Enter and Escape, and visible keyboard focus.
+The header fits at 320 and 768 pixels without horizontal page scrolling.
+The browser reports no app errors or warnings. Loaded images have no broken
+sources. Screenshots are in `output/route-six/`.
+
+The final full `npm test` run passes all 681 tests in 66 files. It takes
+522.97 seconds with the configured single worker. No tests fail or skip.
+
+## Search setup: 27 October 2026
+
+The page title starts with Pokémon Team Planner. After feedback, the visible
+page keeps its earlier amount of text. The added summary and guide are
+removed. The planner headings, header description, and loading message use
+their earlier text. Search and sharing details stay in the HTML head.
+The separate `/llms.txt` file gives agents a factual product summary and
+game support list. The page has no hidden marketing paragraphs.
+
+The build writes search and sharing tags into the HTML. `SITE_URL` controls
+the canonical URL, WebSite and WebApplication structured data, and the
+sitemap. An unset value reports a warning and omits domain-specific links.
+Invalid values stop the build. `robots.txt` permits crawling.
+
+The search checks cover metadata without extra body text, agent-summary
+accuracy, URL validation, and a production build with a configured test
+domain and file writing disabled. The existing large-chunk warning remains.
+
+All 26 focused search, dependency, header, and footer checks pass after the
+correction. The production build passes the data, local image, TypeScript,
+Vite, and document-copy checks. The built `/llms.txt` file returns plain text.
+
+The production page works at 320 pixels without horizontal scrolling. It
+keeps the compact layout. Before and after screenshots for the correction
+are in `output/compact-search/`.
+See [search setup](search-readiness.md) for the public-domain and Search
+Console steps that remain before indexing.
+
+## PNG titles and site credit: 27 October 2026
+
+PNG exports use a 52-pixel title instead of 32 pixels. The Team PNG uses
+“My Pokémon team” with a type chart description. The Progress PNG uses
+“My playthrough team” and keeps its checkpoint and level limit below it.
+Both exports show “Made with Route Six”. They print the public site address
+when `VITE_SITE_URL` is set.
+
+The 33 focused export and footer tests pass. `npm run typecheck` passes.
+Both PNG layouts pass visual review. Before and after Team PNGs and the
+updated Progress PNG are in `output/title-review/`.
+
+## Generation V Progress Planners: 28 October 2026
+
+Black, White, Black 2 and White 2 now load in Progress Planner. Each game
+has its own native access data, nine checkpoints and a Victory Road default.
+The support totals are 24 Team Planner games and 20 Progress Planner games.
+HeartGold, SoulSilver, Omega Ruby and Alpha Sapphire remain Team Planner only.
+
+Four Luna agents reviewed one game each without editing shared files. The
+parent checked proposals against the actual source and current schema.
+The [integration review](generation-5-progress-review.md) links all four
+coverage, source and form reviews. It records the resolved source conflicts
+and exact pins. The active data covers story gates, items, native encounters,
+gifts, static sources, NPC trades, choices, evolution, breeding and forms.
+Every new record has a reference and review date. No importer or runtime
+service was added.
+
+The candidate shape and semantic checks passed before registration. Direct
+access checks passed at all 36 required checkpoints and at post-game access.
+Focused rules cover fusion partner resources, arbitrary NPC offers, native
+Hidden Grotto sources, solo missions and White Forest resident choices.
+The public-query regressions check all nine points for every game.
+
+The existing shared validation regressions clone only the two games under
+test and check type, Egg Group and gender differences separately. The search
+metadata build test checks the real index and plugin with an empty app entry;
+the separate full production build still checks every game bundle. These
+changes remove unrelated fixture costs from focused checks.
+
+Final command results:
+
+- `npm run data:check`: passes all 24 games and local images.
+- `npm test`: passes 736 tests in 74 files. The final run takes 900.31 seconds.
+- `npm run build`: passes data, images, TypeScript, Vite and document copying.
+  Large local-data chunks and unset `SITE_URL` report the existing warnings.
+
+Logs: `output/gen5-data-check-final-20261028.log`,
+`output/gen5-tests-final-20261028.log`, and
+`output/gen5-build-final-20261028.log`.
+
+All four games pass the browser checks: Progress Planner loads, both views
+keep the same six slots, game switching clears the slots, Undo restores
+them, and details show access paths. The 320-pixel pages have no horizontal
+scroll. Loaded images have no broken sources. No app errors were reported.
+The report is `output/generation-v-progress/browser-report.json`.
+Phone-trade instructions, Kyurem fusion details and a Black Kyurem PNG export
+also pass. See `output/generation-v-progress/details-report.json` and
+`black-2-fusion-export.png` in that folder.
+
+Before and after images for each game are in `output/generation-v-progress/`:
+`black-before.png`, `black-after.png`, `white-before.png`, `white-after.png`,
+`black-2-before.png`, `black-2-after.png`, `white-2-before.png`, and
+`white-2-after.png`. The four `*-after-320.png` images show the small layout.
+The native browser tool was unavailable in this session. Playwright supplied
+the browser checks and screenshots.
+
+The planner checks possible native access, not a save file or the current
+clock, random result, call counter, mission result or resident loss. External
+distributions, transfers, connected services and player trades stay outside
+the declared scope. Landorus in Black/White and Regigigas in the sequels
+keep their reviewed source requirements and remain blocked by an external
+partner. They are not hidden by a missing-data exclusion.
+
+Unrelated search, header, branding, game-switch and PNG design work was kept.
+No commit, branch change, push or publication was made.
+
+## Team PNG base stat charts: 28 October 2026
+
+The Team Planner PNG now uses the approved neutral dotted cards. A transparent
+base stat chart sits beside each sprite. Highest numbers, including ties, use
+red text without a badge. Small type icons keep their names. Names wrap and
+all six cards share the height needed by the longest name. Empty slots remain.
+The page layout and Progress Planner PNG design keep their existing paths.
+
+The local stat facts cover 721 species and 28 forms across all 24 games.
+Every record has a pinned reference and review date. Generation I uses one
+Special axis. Later charts use six axes. Native game and form differences
+remain explicit. See [the stat data record](base-stat-export.md).
+
+The full `npm test` run passes 736 tests in 74 files. It takes 769.37 seconds.
+The focused export and stat checks cover invalid facts, historical values,
+native Deoxys forms, Kyurem forms, tied highest values, wrapping and bounds.
+The data check passes all 24 games, local images and base stat coverage.
+
+Five rendered samples pass visual review. They cover Emerald, Generation I,
+long Generation VI form names, Kyurem forms and empty slots. All 749 local
+sprite images fit their reserved areas. The before and after Progress PNGs
+have the same SHA-256 hash. Screenshots, the comparison and command logs are
+in `output/stat-chart-implementation/`.
+
+`npm run build` passes the data check, TypeScript, Vite and document copying.
+The existing large local-data chunk and unset `SITE_URL` warnings remain.
+
+## HGSS and ORAS continuation: 30 October 2026
+
+This work is incomplete. All four games remain Team Planner only. No game
+registration or UI change was made. No commit, push or publication was made.
+
+Four Terra workers used `gpt-6.1-terra` with low reasoning effort. Initial
+runs returned no active access data. Later Omega Ruby and SoulSilver runs
+reported a usage limit. SoulSilver subsequently resumed and saved an early
+story and location proposal in `output/game-proposals/soulsilver-continuation/`.
+That proposal needs further source review and must not be used as active data.
+
+The initial parent `npm run data:check` failed because partial SoulSilver
+progress and location records were active while its planner was null. The
+worker preserved the records as proposals and returned both collections to
+empty arrays. The worker then reported that `npm run data:check` passed.
+Its test and build commands were stopped before completion. They have no
+result. No integrated test, build or public-query review is complete.
+
+The parent confirmed a conflict in `output/game-proposals/oras-progress-gates*`:
+the proposal places the Primal event before the Mind Badge while its Seafloor
+Cavern path requires Dive and that badge. Its notes list 71 unresolved area
+access gates. This proposal does not prove complete ORAS access.
+
+The native browser status returned `available: false`. No UI files changed.
+No new screenshots or browser review results are available. The required
+independent source, query and browser reviews remain pending integration.
+
+## Release blockers: 30 October 2026
+
+The planner buttons now take their accessible name from their visible text.
+At wide widths the name includes the description. On phones the hidden
+description is not part of the name. `aria-current` and keyboard use are
+unchanged. Axe reports no `label-content-name-mismatch` at 1440 pixels.
+
+Axe leaves dialog colour contrast incomplete because elements overlap.
+Computed colours over all ancestor backgrounds and pixel samples give the
+same results. Evolution levels and `2×` counts are 6.79:1 at 1440 pixels.
+Phone Dex labels are 5.96:1 at 320 pixels. The primary button is 7.62:1.
+All 46 measured dialog text elements pass AA. White on each of the 38 game
+accents is at least 7.62:1. No design token changed.
+
+The build now warns for an unset `SITE_URL` and an unset `VITE_SITE_URL`.
+
+The release target is the GitHub Pages project site
+`https://luisleineweber.github.io/route-six/`. `SITE_URL` now accepts a path
+that ends with `/`. Its path becomes the Vite `base`. `assetUrl` resolves
+sprites, type icons, logos, method icons, and export images against that
+base. The repository and the Pages build environment do not exist yet.
+Release stays blocked until a deployed build is checked at that address.
+
+All 763 tests pass in 77 files. `npx tsc -b` and `npx vite build` pass.
+Axe WCAG A/AA reports zero violations at 1440 and 320 pixels, with and
+without the dialog. Evidence and screenshots are in `output/release-blockers/`.

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "cut",
+    "name": "Use Cut in the field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "misty-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Use Fly in the field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "lt-surge-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Use Surf in the field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "koga-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Use Strength in the field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "erika-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "flash",
+    "name": "Use Flash in the field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "brock-defeated"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Fish with the Old Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "vermilion-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Fish with the Good Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "pokemon-flute"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Fish with the Super Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "fuchsia-city"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tri-pass",
+    "name": "Travel among One, Two, Three, and Four Islands",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rainbow-pass",
+    "name": "Travel among Sevii Islands Five to Seven",
+    "requirements": {
+      "kind": "milestone",
+      "id": "rainbow-pass"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Use the Four Island Day Care for breeding",
+    "requirements": {
+      "kind": "milestone",
+      "id": "four-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Use Rock Smash in the field",
+    "requirements": {
+      "kind": "milestone",
+      "id": "one-island"
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Ride the Bicycle",
+    "requirements": {
+      "kind": "item",
+      "id": "bicycle",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Climb waterfalls",
+    "requirements": {
+      "kind": "item",
+      "id": "hm-waterfall",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "saffron-access",
+    "name": "Pass the Saffron guards after giving them Tea",
+    "requirements": {
+      "kind": "item",
+      "id": "tea",
+      "quantity": 1,
+      "consumed": false
+    },
+    "review": {
+      "referenceIds": [
+        "leafgreen-scripts"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Build friendship through normal play",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "personality",
+    "name": "The species personality value determines this evolution",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Raise the required stat",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-evolution"
+      ]
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Keep a free party slot",
+    "requirements": {
+      "kind": "all",
+      "requirements": []
+    },
+    "review": {
+      "checkedOn": "2026-10-12",
+      "referenceIds": [
+        "leafgreen-evolution"
+      ]
+    }
+  }
+]

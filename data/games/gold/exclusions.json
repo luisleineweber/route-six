@@ -1,0 +1,590 @@
+[
+  {
+    "pokemonId": "ledyba",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ledian",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "golem",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ekans",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arbok",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gengar",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "steelix",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "politoed",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowking",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "alakazam",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "scizor",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vulpix",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ninetales",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meowth",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "persian",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "machamp",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shuckle",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kingdra",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "delibird",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "phanpy",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "donphan",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "skarmory",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "porygon2",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omanyte",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omastar",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabuto",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabutops",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bulbasaur",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ivysaur",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venusaur",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmander",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmeleon",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charizard",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "squirtle",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wartortle",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blastoise",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "articuno",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zapdos",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "moltres",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mewtwo",
+    "reason": "other-version",
+    "explanation": "No native Gold acquisition can obtain this species in the reviewed scope. It requires another game version, an external event, or a player trade evolution.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "No event distribution exists in the reviewed ordinary Gold playthrough scope.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "external-event",
+    "explanation": "No event distribution exists in the reviewed ordinary Gold playthrough scope.",
+    "review": {
+      "referenceIds": [
+        "gold-exclusions",
+        "gold-encounters",
+        "gold-trades",
+        "gold-breeding"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

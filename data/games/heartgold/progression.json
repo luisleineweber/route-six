@@ -1,0 +1,2864 @@
+[
+  {
+    "id": "new-bark-town",
+    "name": "Start in New Bark Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "new-bark-town",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose a starter from Elm",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "new-bark-town"
+    ],
+    "locationId": "elms-lab",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-29",
+    "name": "Enter Route 29",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "route-29",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-46",
+    "name": "Reach Route 46",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "route-29"
+    ],
+    "locationId": "route-46",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "cherrygrove",
+    "name": "Reach Cherrygrove City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "route-29"
+    ],
+    "locationId": "cherrygrove-city",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-30",
+    "name": "Enter Route 30",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "cherrygrove"
+    ],
+    "locationId": "route-30",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "oak-pokedex",
+    "name": "Receive the Pokédex from Oak",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "route-30"
+    ],
+    "locationId": "mr-pokemons-house",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "return-to-elm",
+    "name": "Return the Mystery Egg to Elm",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "oak-pokedex"
+    ],
+    "locationId": "elms-lab",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-31",
+    "name": "Enter Route 31",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "return-to-elm"
+    ],
+    "locationId": "route-31",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet",
+    "name": "Reach Violet City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "route-31"
+    ],
+    "locationId": "violet-city",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "sprout-tower",
+    "name": "Enter Sprout Tower",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "violet"
+    ],
+    "locationId": "sprout-tower-1f",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "violet-gym",
+    "name": "Enter Violet Gym",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "violet"
+    ],
+    "locationId": "violet-gym",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "falkner-defeated",
+    "name": "Defeat Falkner",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "violet-gym"
+    ],
+    "locationId": "violet-gym",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-32-north",
+    "name": "Enter northern Route 32",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "violet"
+    ],
+    "locationId": "route-32",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "elm-assistant-egg",
+    "name": "Receive the Egg from Elm’s aide",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "falkner-defeated"
+    ],
+    "locationId": "violet-mart",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-32-south",
+    "name": "Pass the Route 32 gate",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "elm-assistant-egg"
+    ],
+    "locationId": "route-32-south",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-36-east",
+    "name": "Reach eastern Route 36",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "violet"
+    ],
+    "locationId": "route-36-east",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "dark-cave-route-31",
+    "name": "Enter Dark Cave from Route 31",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "route-31"
+    ],
+    "locationId": "dark-cave-route-31",
+    "nextBossId": "falkner",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "union-cave",
+    "name": "Enter Union Cave",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "route-32-south"
+    ],
+    "locationId": "union-cave-1f",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-33",
+    "name": "Enter Route 33",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "union-cave"
+    ],
+    "locationId": "route-33",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea",
+    "name": "Reach Azalea Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "route-33"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea-kurt-dispatch",
+    "name": "Meet Kurt about the Slowpoke Well",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "azalea"
+    ],
+    "locationId": "azalea-kurt-house",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea-rockets-defeated",
+    "name": "Clear the Slowpoke Well Rocket event",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "azalea-kurt-dispatch"
+    ],
+    "locationId": "slowpoke-well-b1f",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "before-bugsy",
+    "name": "Prepare for Bugsy",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "azalea-rockets-defeated"
+    ],
+    "locationId": "azalea-gym",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "bugsy-defeated",
+    "name": "Receive the Hive Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "before-bugsy"
+    ],
+    "locationId": "azalea-gym",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "azalea-rival-defeated",
+    "name": "Complete the Azalea rival battle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "azalea-rockets-defeated"
+    ],
+    "locationId": "azalea-town",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ilex-forest",
+    "name": "Enter Ilex Forest",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "azalea-rival-defeated"
+    ],
+    "locationId": "ilex-forest",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ilex-farfetchd-returned",
+    "name": "Return both Farfetchd",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "ilex-forest"
+    ],
+    "locationId": "ilex-forest",
+    "nextBossId": "bugsy",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-34",
+    "name": "Reach Route 34",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "ilex-farfetchd-returned",
+      "bugsy-defeated"
+    ],
+    "locationId": "route-34",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "goldenrod",
+    "name": "Reach Goldenrod City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "route-34"
+    ],
+    "locationId": "goldenrod-city",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "radio-quiz",
+    "name": "Complete the Radio Tower quiz",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "goldenrod"
+    ],
+    "locationId": "goldenrod-radio-tower",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "before-whitney",
+    "name": "Prepare for Whitney",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "goldenrod"
+    ],
+    "locationId": "goldenrod-gym",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "whitney-battle-won",
+    "name": "Win the Whitney battle",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "before-whitney"
+    ],
+    "locationId": "goldenrod-gym",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "whitney-defeated",
+    "name": "Receive the Plain Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "whitney-battle-won"
+    ],
+    "locationId": "goldenrod-gym",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-35",
+    "name": "Enter Route 35",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "goldenrod"
+    ],
+    "locationId": "route-35",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "national-park",
+    "name": "Enter National Park",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "route-35"
+    ],
+    "locationId": "national-park",
+    "nextBossId": "whitney",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-36-west",
+    "name": "Reach western Route 36",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "national-park"
+    ],
+    "locationId": "route-36-west",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sudowoodo-cleared",
+    "name": "Complete the Sudowoodo encounter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "route-36-east",
+      "whitney-defeated"
+    ],
+    "locationId": "route-36-east",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-37",
+    "name": "Reach Route 37",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "sudowoodo-cleared"
+    ],
+    "locationId": "route-37",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ecruteak",
+    "name": "Reach Ecruteak City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "route-37"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "burned-tower-rival",
+    "name": "Defeat the rival in Burned Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "ecruteak"
+    ],
+    "locationId": "burned-tower-1f",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "beasts-released",
+    "name": "Release the roaming beasts",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "burned-tower-rival"
+    ],
+    "locationId": "burned-tower-b1f",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-38",
+    "name": "Enter Route 38",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "ecruteak"
+    ],
+    "locationId": "route-38",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-39",
+    "name": "Enter Route 39",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "route-38"
+    ],
+    "locationId": "route-39",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "bill-ecruteak-met",
+    "name": "Meet Bill in Ecruteak",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "ecruteak"
+    ],
+    "locationId": "ecruteak-pokemon-center",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dance-theater-rocket-cleared",
+    "name": "Clear the Dance Theater Rocket event",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "ecruteak"
+    ],
+    "locationId": "ecruteak-dance-theater",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "before-morty",
+    "name": "Prepare for Morty",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "beasts-released"
+    ],
+    "locationId": "ecruteak-gym",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "morty-defeated",
+    "name": "Receive the Fog Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "before-morty"
+    ],
+    "locationId": "ecruteak-gym",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-42-west",
+    "name": "Reach western Route 42",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "ecruteak"
+    ],
+    "locationId": "route-42-west",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "karate-king-defeated",
+    "name": "Defeat the Karate King",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "route-42-west"
+    ],
+    "locationId": "mount-mortar-karate-king",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-42-east",
+    "name": "Cross Route 42",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "route-42-west"
+    ],
+    "locationId": "route-42-east",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "olivine",
+    "name": "Reach Olivine City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "ecruteak"
+    ],
+    "locationId": "olivine-city",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lighthouse-jasmine-met",
+    "name": "Meet Jasmine at the lighthouse",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 52,
+    "previousIds": [
+      "olivine"
+    ],
+    "locationId": "olivine-lighthouse-light-room",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-40",
+    "name": "Enter Route 40",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "olivine"
+    ],
+    "locationId": "route-40",
+    "nextBossId": "morty",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-41",
+    "name": "Surf to Route 41",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "route-40",
+      "morty-defeated",
+      "dance-theater-rocket-cleared"
+    ],
+    "locationId": "route-41",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "cianwood",
+    "name": "Reach Cianwood City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "olivine",
+      "morty-defeated",
+      "dance-theater-rocket-cleared"
+    ],
+    "locationId": "cianwood-city",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "secret-potion-received",
+    "name": "Receive the SecretPotion",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 56,
+    "previousIds": [
+      "cianwood",
+      "lighthouse-jasmine-met"
+    ],
+    "locationId": "cianwood-pharmacy",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "amphy-healed",
+    "name": "Heal Amphy",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 57,
+    "previousIds": [
+      "secret-potion-received"
+    ],
+    "locationId": "olivine-lighthouse-light-room",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "route-47",
+    "name": "Reach Route 47",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 58,
+    "previousIds": [
+      "cianwood",
+      "amphy-healed"
+    ],
+    "locationId": "route-47",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-48",
+    "name": "Reach Route 48",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "route-47"
+    ],
+    "locationId": "route-48",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "before-chuck",
+    "name": "Prepare for Chuck",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "cianwood"
+    ],
+    "locationId": "cianwood-gym",
+    "nextBossId": "chuck",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "chuck-defeated",
+    "name": "Receive the Storm Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "before-chuck"
+    ],
+    "locationId": "cianwood-gym",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "before-jasmine",
+    "name": "Prepare for Jasmine",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "amphy-healed"
+    ],
+    "locationId": "olivine-gym",
+    "nextBossId": "jasmine",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "jasmine-defeated",
+    "name": "Receive the Mineral Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "before-jasmine"
+    ],
+    "locationId": "olivine-gym",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mahogany",
+    "name": "Reach Mahogany Town",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "route-42-east"
+    ],
+    "locationId": "mahogany-town",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-43",
+    "name": "Enter Route 43",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "mahogany"
+    ],
+    "locationId": "route-43",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "lake-of-rage",
+    "name": "Reach Lake of Rage",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "route-43"
+    ],
+    "locationId": "lake-of-rage",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "red-gyarados-resolved",
+    "name": "Resolve the red Gyarados encounter",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "lake-of-rage"
+    ],
+    "locationId": "lake-of-rage",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "lance-at-lake",
+    "name": "Meet Lance at Lake of Rage",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "red-gyarados-resolved"
+    ],
+    "locationId": "lake-of-rage",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "rocket-hq-generator-scene",
+    "name": "Complete the Rocket generator scene",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "mahogany",
+      "lance-at-lake"
+    ],
+    "locationId": "mahogany-rocket-hq-b2f",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rocket-hq-cleared",
+    "name": "Clear the Rocket Hideout",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "rocket-hq-generator-scene"
+    ],
+    "locationId": "mahogany-rocket-hq-b2f",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "before-pryce",
+    "name": "Prepare for Pryce",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 71,
+    "previousIds": [
+      "mahogany"
+    ],
+    "locationId": "mahogany-gym",
+    "nextBossId": "pryce",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pryce-defeated",
+    "name": "Receive the Glacier Badge",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 72,
+    "previousIds": [
+      "before-pryce"
+    ],
+    "locationId": "mahogany-gym",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "radio-disguise",
+    "name": "Obtain the Rocket disguise",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 73,
+    "previousIds": [
+      "goldenrod",
+      "morty-defeated",
+      "chuck-defeated",
+      "jasmine-defeated",
+      "pryce-defeated"
+    ],
+    "locationId": "goldenrod-underground",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "radio-petrel-defeated",
+    "name": "Defeat Petrel and receive the Basement Key",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 74,
+    "previousIds": [
+      "radio-disguise"
+    ],
+    "locationId": "radio-tower-director-office",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "radio-director-rescued",
+    "name": "Receive the Card Key",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 75,
+    "previousIds": [
+      "radio-petrel-defeated"
+    ],
+    "locationId": "goldenrod-underground-director",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "radio-tower-cleared",
+    "name": "Clear the Goldenrod Radio Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 76,
+    "previousIds": [
+      "radio-director-rescued"
+    ],
+    "locationId": "radio-tower-director-office",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-44",
+    "name": "Enter Route 44",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 77,
+    "previousIds": [
+      "mahogany",
+      "radio-tower-cleared"
+    ],
+    "locationId": "route-44",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "ice-path",
+    "name": "Enter Ice Path",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 78,
+    "previousIds": [
+      "route-44"
+    ],
+    "locationId": "ice-path-1f",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-30"
+    }
+  },
+  {
+    "id": "blackthorn",
+    "name": "Reach Blackthorn City",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 79,
+    "previousIds": [
+      "ice-path",
+      "whitney-defeated"
+    ],
+    "locationId": "blackthorn-city",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-45",
+    "name": "Reach Route 45",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 80,
+    "previousIds": [
+      "blackthorn"
+    ],
+    "locationId": "route-45",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "before-clair",
+    "name": "Prepare for Clair",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 81,
+    "previousIds": [
+      "blackthorn"
+    ],
+    "locationId": "blackthorn-gym",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "clair-battle-won",
+    "name": "Defeat Clair",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 82,
+    "previousIds": [
+      "before-clair"
+    ],
+    "locationId": "blackthorn-gym",
+    "nextBossId": "clair",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rising-badge",
+    "name": "Receive the Rising Badge",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 83,
+    "previousIds": [
+      "clair-battle-won",
+      "rocket-hq-cleared",
+      "dance-theater-rocket-cleared"
+    ],
+    "locationId": "dragons-den-shrine",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "elm-after-rising",
+    "name": "Visit Elm after the Rising Badge",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 84,
+    "previousIds": [
+      "rising-badge"
+    ],
+    "locationId": "elms-lab",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ecruteak-rival-message",
+    "name": "Meet the rival outside the Dance Theater",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 85,
+    "previousIds": [
+      "elm-after-rising"
+    ],
+    "locationId": "ecruteak-city",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "kimono-girls",
+    "name": "Defeat the Kimono Girls",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 86,
+    "previousIds": [
+      "ecruteak-rival-message"
+    ],
+    "locationId": "ecruteak-dance-theater",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "tower-legend-resolved",
+    "name": "Face Ho-Oh at the Bell Tower",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 87,
+    "previousIds": [
+      "kimono-girls"
+    ],
+    "locationId": "bell-tower-summit",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "route-27-west",
+    "name": "Cross Route 27 toward the Pok?mon League",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 88,
+    "previousIds": [
+      "rising-badge",
+      "tower-legend-resolved"
+    ],
+    "locationId": "route-27-west",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "tohjo-falls",
+    "name": "Enter Tohjo Falls",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 89,
+    "previousIds": [
+      "route-27-west"
+    ],
+    "locationId": "tohjo-falls",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-27-east",
+    "name": "Cross Tohjo Falls",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 90,
+    "previousIds": [
+      "tohjo-falls",
+      "rising-badge"
+    ],
+    "locationId": "route-27-east",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-26",
+    "name": "Enter Route 26",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 91,
+    "previousIds": [
+      "route-27-east"
+    ],
+    "locationId": "route-26",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Enter Victory Road",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 92,
+    "previousIds": [
+      "route-26"
+    ],
+    "locationId": "victory-road",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "clair-tm59-received",
+    "name": "Receive TM59 from Clair",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 93,
+    "previousIds": [
+      "rising-badge"
+    ],
+    "locationId": "dragons-den",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "indigo-plateau",
+    "name": "Reach Indigo Plateau",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 94,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "before-league",
+    "name": "Prepare for the Pokemon League",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 95,
+    "previousIds": [
+      "indigo-plateau",
+      "falkner-defeated",
+      "bugsy-defeated",
+      "whitney-defeated",
+      "morty-defeated",
+      "chuck-defeated",
+      "jasmine-defeated",
+      "pryce-defeated",
+      "rising-badge"
+    ],
+    "locationId": "league-entrance",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "will-defeated",
+    "name": "Defeat Will",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 96,
+    "previousIds": [
+      "before-league"
+    ],
+    "locationId": "league-will-room",
+    "nextBossId": "koga",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "koga-defeated",
+    "name": "Defeat Koga",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 97,
+    "previousIds": [
+      "will-defeated"
+    ],
+    "locationId": "league-koga-room",
+    "nextBossId": "bruno",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "bruno-defeated",
+    "name": "Defeat Bruno",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 98,
+    "previousIds": [
+      "koga-defeated"
+    ],
+    "locationId": "league-bruno-room",
+    "nextBossId": "karen",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "karen-defeated",
+    "name": "Defeat Karen",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 99,
+    "previousIds": [
+      "bruno-defeated"
+    ],
+    "locationId": "league-karen-room",
+    "nextBossId": "lance",
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lance-defeated",
+    "name": "Defeat Lance",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 100,
+    "previousIds": [
+      "karen-defeated"
+    ],
+    "locationId": "league-lance-room",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-cleared",
+    "name": "Enter the Hall of Fame",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 101,
+    "previousIds": [
+      "lance-defeated"
+    ],
+    "locationId": "league-hall-of-fame",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ss-ticket-received",
+    "name": "Receive the S.S. Ticket",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 102,
+    "previousIds": [
+      "league-cleared"
+    ],
+    "locationId": "elms-lab",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "Receive the National Pokédex",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 103,
+    "previousIds": [
+      "ss-ticket-received"
+    ],
+    "locationId": "olivine-port",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ss-aqua-boarded",
+    "name": "Board the S.S. Aqua",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 104,
+    "previousIds": [
+      "national-dex"
+    ],
+    "locationId": "olivine-port",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "ss-aqua-arrived",
+    "name": "Complete the first S.S. Aqua arrival scene",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 105,
+    "previousIds": [
+      "ss-aqua-boarded"
+    ],
+    "locationId": "ss-aqua-grandfather-cabin",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "kanto",
+    "name": "Arrive in Vermilion City",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 106,
+    "previousIds": [
+      "ss-aqua-arrived"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-6",
+    "name": "Enter Route 6",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 107,
+    "previousIds": [
+      "kanto"
+    ],
+    "locationId": "route-6",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "saffron-city",
+    "name": "Reach Saffron City",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 108,
+    "previousIds": [
+      "route-6"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-17",
+    "name": "Reach Route 17",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 109,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "route-17",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-18",
+    "name": "Reach Route 18",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 110,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "route-18",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-7",
+    "name": "Reach Route 7",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 111,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "route-7",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-8",
+    "name": "Reach Route 8",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 112,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "route-8",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-5",
+    "name": "Enter Route 5",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 113,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "route-5",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cerulean-city",
+    "name": "Reach Cerulean City",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 114,
+    "previousIds": [
+      "route-5"
+    ],
+    "locationId": "cerulean-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-1",
+    "name": "Reach Route 1",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 115,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-1",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-2",
+    "name": "Reach Route 2",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 116,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-2",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-21",
+    "name": "Reach Route 21",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 117,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-21",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-22",
+    "name": "Reach Route 22",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 118,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-22",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-24",
+    "name": "Reach Route 24",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 119,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-24",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-25",
+    "name": "Reach Route 25",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 120,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-25",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-3",
+    "name": "Reach Route 3",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 121,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-3",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-4",
+    "name": "Reach Route 4",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 122,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-4",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "brock-defeated",
+    "name": "Receive the Boulder Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 123,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "pewter-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-9",
+    "name": "Enter Route 9",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 124,
+    "previousIds": [
+      "cerulean-city"
+    ],
+    "locationId": "route-9",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "surge-defeated",
+    "name": "Receive the Thunder Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 125,
+    "previousIds": [
+      "kanto"
+    ],
+    "locationId": "vermilion-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-10-north",
+    "name": "Enter northern Route 10",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 126,
+    "previousIds": [
+      "route-9"
+    ],
+    "locationId": "route-10-north",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "power-plant-story",
+    "name": "Hear the Power Plant manager",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 127,
+    "previousIds": [
+      "route-10-north"
+    ],
+    "locationId": "power-plant",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "erika-defeated",
+    "name": "Receive the Rainbow Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 128,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "celadon-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cerulean-rocket-appears",
+    "name": "Find the Rocket in Cerulean Gym",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 129,
+    "previousIds": [
+      "power-plant-story"
+    ],
+    "locationId": "cerulean-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "misty-defeated",
+    "name": "Receive the Cascade Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 130,
+    "previousIds": [
+      "cerulean-rocket-appears"
+    ],
+    "locationId": "cerulean-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-24-rocket-defeated",
+    "name": "Defeat the Rocket on Route 24",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 131,
+    "previousIds": [
+      "cerulean-rocket-appears"
+    ],
+    "locationId": "route-24",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sabrina-defeated",
+    "name": "Receive the Marsh Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 132,
+    "previousIds": [
+      "saffron-city"
+    ],
+    "locationId": "saffron-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "machine-part-recovered",
+    "name": "Recover the Machine Part",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 133,
+    "previousIds": [
+      "route-24-rocket-defeated"
+    ],
+    "locationId": "cerulean-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "power-restored",
+    "name": "Restore the Power Plant",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 134,
+    "previousIds": [
+      "machine-part-recovered"
+    ],
+    "locationId": "power-plant-repair",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "copycat-lost-item-requested",
+    "name": "Speak to Copycat about her missing doll",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 135,
+    "previousIds": [
+      "power-restored",
+      "saffron-city"
+    ],
+    "locationId": "saffron-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "lost-item-recovered",
+    "name": "Collect Copycat’s doll at the Vermilion Pokémon Fan Club",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 136,
+    "previousIds": [
+      "copycat-lost-item-requested"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "steven-lati-meeting",
+    "name": "Meet Steven outside the Vermilion Pokémon Fan Club",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 137,
+    "previousIds": [
+      "lost-item-recovered"
+    ],
+    "locationId": "vermilion-city",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "Cross Rock Tunnel",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 138,
+    "previousIds": [
+      "route-10-north"
+    ],
+    "locationId": "rock-tunnel",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-10-south",
+    "name": "Reach southern Route 10",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 139,
+    "previousIds": [
+      "rock-tunnel"
+    ],
+    "locationId": "route-10-south",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lavender-town",
+    "name": "Reach Lavender Town",
+    "kind": "area",
+    "phase": "post-game",
+    "displayOrder": 140,
+    "previousIds": [
+      "route-10-south"
+    ],
+    "locationId": "lavender-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-12",
+    "name": "Reach Route 12",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 141,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-12",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-13",
+    "name": "Reach Route 13",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 142,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-13",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-14",
+    "name": "Reach Route 14",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 143,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-14",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-15",
+    "name": "Reach Route 15",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 144,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-15",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-19",
+    "name": "Reach Route 19",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 145,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-19",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "route-20",
+    "name": "Reach Route 20",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 146,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "route-20",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "janine-defeated",
+    "name": "Receive the Soul Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 147,
+    "previousIds": [
+      "lavender-town"
+    ],
+    "locationId": "fuchsia-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "blaine-defeated",
+    "name": "Receive the Volcano Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 148,
+    "previousIds": [
+      "janine-defeated"
+    ],
+    "locationId": "seafoam-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "blue-defeated",
+    "name": "Receive the Earth Badge",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 149,
+    "previousIds": [
+      "brock-defeated",
+      "misty-defeated",
+      "surge-defeated",
+      "erika-defeated",
+      "janine-defeated",
+      "sabrina-defeated",
+      "blaine-defeated"
+    ],
+    "locationId": "viridian-gym",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oak-rock-climb-ready",
+    "name": "Receive HM08 from Oak",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 150,
+    "previousIds": [
+      "blue-defeated"
+    ],
+    "locationId": "pallet-oak-lab",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-28",
+    "name": "Reach Route 28",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 151,
+    "previousIds": [
+      "cerulean-city",
+      "oak-rock-climb-ready"
+    ],
+    "locationId": "route-28",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-01"
+    }
+  },
+  {
+    "id": "red-defeated",
+    "name": "Defeat Red",
+    "kind": "boss",
+    "phase": "post-game",
+    "displayOrder": 152,
+    "previousIds": [
+      "oak-rock-climb-ready"
+    ],
+    "locationId": "mount-silver-summit",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "steven-hoenn-starter-ready",
+    "name": "Meet Steven at Silph Co. after defeating Red",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 153,
+    "previousIds": [
+      "steven-lati-meeting",
+      "red-defeated"
+    ],
+    "locationId": "saffron-silph-hq",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "heartgold-source"
+      ],
+      "checkedOn": "2026-11-05"
+    }
+  },
+  {
+    "id": "radio-expansion",
+    "name": "Receive the Radio expansion",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 154,
+    "previousIds": [
+      "power-restored",
+      "lavender-town"
+    ],
+    "locationId": "lavender-radio-station",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-11",
+    "name": "Enter Route 11",
+    "kind": "route",
+    "phase": "post-game",
+    "displayOrder": 155,
+    "previousIds": [
+      "kanto"
+    ],
+    "locationId": "route-11",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "snorlax-cleared",
+    "name": "Clear Snorlax from Route 11",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 156,
+    "previousIds": [
+      "route-11",
+      "radio-expansion"
+    ],
+    "locationId": "route-11",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "soulsilver-pret-2026-10-13"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

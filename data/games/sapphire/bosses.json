@@ -1,0 +1,15 @@
+[
+  {"id":"roxanne","name":"Roxanne","kind":"gym","badgeNumber":1,"specialtyTypeId":"rock","highestLevel":15,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"brawly","name":"Brawly","kind":"gym","badgeNumber":2,"specialtyTypeId":"fighting","highestLevel":18,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"wattson","name":"Wattson","kind":"gym","badgeNumber":3,"specialtyTypeId":"electric","highestLevel":23,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"flannery","name":"Flannery","kind":"gym","badgeNumber":4,"specialtyTypeId":"fire","highestLevel":28,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"norman","name":"Norman","kind":"gym","badgeNumber":5,"specialtyTypeId":"normal","highestLevel":31,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"winona","name":"Winona","kind":"gym","badgeNumber":6,"specialtyTypeId":"flying","highestLevel":33,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"tate-and-liza","name":"Tate & Liza","kind":"gym","badgeNumber":7,"specialtyTypeId":"psychic","highestLevel":42,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"wallace","name":"Wallace","kind":"gym","badgeNumber":8,"specialtyTypeId":"water","highestLevel":43,"review":{"referenceIds":["sapphire-bosses","sapphire-progression"],"checkedOn":"2026-10-12"}},
+  {"id":"sidney","name":"Sidney","kind":"elite-four","highestLevel":49,"review":{"referenceIds":["sapphire-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"phoebe","name":"Phoebe","kind":"elite-four","highestLevel":51,"review":{"referenceIds":["sapphire-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"glacia","name":"Glacia","kind":"elite-four","highestLevel":53,"review":{"referenceIds":["sapphire-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"drake","name":"Drake","kind":"elite-four","highestLevel":55,"review":{"referenceIds":["sapphire-bosses"],"checkedOn":"2026-10-12"}},
+  {"id":"steven","name":"Steven","kind":"champion","highestLevel":58,"review":{"referenceIds":["sapphire-bosses"],"checkedOn":"2026-10-12"}}
+]

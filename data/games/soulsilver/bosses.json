@@ -1,0 +1,15 @@
+[
+  { "id": "falkner", "name": "Falkner", "kind": "gym", "badgeNumber": 1, "specialtyTypeId": "flying", "highestLevel": 13, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "bugsy", "name": "Bugsy", "kind": "gym", "badgeNumber": 2, "specialtyTypeId": "bug", "highestLevel": 17, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "whitney", "name": "Whitney", "kind": "gym", "badgeNumber": 3, "specialtyTypeId": "normal", "highestLevel": 19, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "morty", "name": "Morty", "kind": "gym", "badgeNumber": 4, "specialtyTypeId": "ghost", "highestLevel": 25, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "chuck", "name": "Chuck", "kind": "gym", "badgeNumber": 5, "specialtyTypeId": "fighting", "highestLevel": 31, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "jasmine", "name": "Jasmine", "kind": "gym", "badgeNumber": 6, "specialtyTypeId": "steel", "highestLevel": 35, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "pryce", "name": "Pryce", "kind": "gym", "badgeNumber": 7, "specialtyTypeId": "ice", "highestLevel": 34, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "clair", "name": "Clair", "kind": "gym", "badgeNumber": 8, "specialtyTypeId": "dragon", "highestLevel": 41, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "will", "name": "Will", "kind": "elite-four", "highestLevel": 42, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "koga", "name": "Koga", "kind": "elite-four", "highestLevel": 44, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "bruno", "name": "Bruno", "kind": "elite-four", "highestLevel": 46, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "karen", "name": "Karen", "kind": "elite-four", "highestLevel": 47, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } },
+  { "id": "lance", "name": "Lance", "kind": "champion", "highestLevel": 50, "review": { "referenceIds": ["soulsilver-bosses"], "checkedOn": "2026-10-13" } }
+]

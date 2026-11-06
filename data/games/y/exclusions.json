@@ -1,0 +1,2983 @@
+[
+  {
+    "pokemonId": "aggron",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "aipom",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "ambipom",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "anorith",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "arcanine",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "arceus",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "armaldo",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "aron",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "azelf",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "baltoy",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "bayleef",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "beautifly",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "beheeyem",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "beldum",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "blaziken",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "blissey",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "blitzle",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "bouffalant",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "braviary",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "breloom",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "bronzong",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "bronzor",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "buneary",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cacnea",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cacturne",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "camerupt",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cascoon",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "castform",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "celebi",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "chansey",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cherrim",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cherubi",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "chikorita",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "chimchar",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cinccino",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "clauncher",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "clawitzer",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "claydol",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "clefable",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "clefairy",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cleffa",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cobalion",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cofagrigus",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "combusken",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cottonee",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cradily",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cresselia",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "croconaw",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "cyndaquil",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "darkrai",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "darmanitan",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "darumaka",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "deerling",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "deoxys",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "dewgong",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "dewott",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "dialga",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "diancie",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "donphan",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "drilbur",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "drowzee",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "dusclops",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "dusknoir",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "duskull",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "dustox",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "eelektrik",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "eelektross",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "electabuzz",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "electivire",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "elekid",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "elgyem",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "emboar",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "empoleon",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "entei",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "excadrill",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "feebas",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "feraligatr",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "finneon",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "forretress",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "frillish",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "froslass",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "galvantula",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "gastrodon",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "genesect",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "girafarig",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "giratina",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "glalie",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "glameow",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "grimer",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "grotle",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "groudon",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "grovyle",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "growlithe",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "happiny",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "heatran",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "herdier",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "hitmonchan",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "hitmonlee",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "hitmontop",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "ho-oh",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "hoopa",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "houndoom",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "houndour",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "hypno",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "infernape",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "jellicent",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "jirachi",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "joltik",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "keldeo",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "kingler",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "klang",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "klink",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "klinklang",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "koffing",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "krabby",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "kricketot",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "kricketune",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "kyogre",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "kyurem",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lairon",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "landorus",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "larvesta",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "latias",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "latios",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "leavanny",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lileep",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lilligant",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lillipup",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lopunny",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lugia",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "lumineon",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "luxio",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "luxray",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "magby",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "magmar",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "magmortar",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "manaphy",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mandibuzz",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mankey",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "maractus",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "marshtomp",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "meganium",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "meloetta",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "meowth",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mesprit",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "metagross",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "metang",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mightyena",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "milotic",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "minccino",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "misdreavus",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mismagius",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "monferno",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "mudkip",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "muk",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "munna",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "musharna",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "natu",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "ninetales",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "numel",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "nuzleaf",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "oshawott",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "palkia",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "palpitoad",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "paras",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "parasect",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "persian",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "petilil",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "phanpy",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "phione",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "pidove",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "pignite",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "pineco",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "pinsir",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "piplup",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "ponyta",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "poochyena",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "porygon",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "porygon-z",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "porygon2",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "primeape",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "prinplup",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "purugly",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "quilava",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "raikou",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "rapidash",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "raticate",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "rattata",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "rayquaza",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "regice",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "regigigas",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "regirock",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "registeel",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "reshiram",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "rufflet",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "samurott",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sawk",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sawsbuck",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sceptile",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sealeo",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "seedot",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "seel",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "seismitoad",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "serperior",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "servine",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sewaddle",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "shaymin",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "shellos",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "shiftry",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "shinx",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "shroomish",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "silcoon",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "slaking",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "slakoth",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "slurpuff",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "snivy",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "snorunt",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "spheal",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "spiritomb",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "stantler",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "starmie",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "staryu",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "stoutland",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "suicune",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sunflora",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "sunkern",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "swadloon",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "swampert",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "swirlix",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tangela",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tangrowth",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tepig",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "terrakion",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "thundurus",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "togekiss",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "togepi",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "togetic",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "torchic",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tornadus",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "torterra",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "totodile",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tranquill",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "treecko",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tropius",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "turtwig",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tympole",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tynamo",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "typhlosion",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "tyrogue",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "unfezant",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "unown",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "uxie",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "venomoth",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "venonat",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "victini",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "vigoroth",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "virizion",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "volcanion",
+    "reason": "external-event",
+    "explanation": "This species needs an external distribution or an event-only family seed. The retail offline wild, gift, fixed and NPC trade inventory has no native starting animal.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "volcarona",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "vullaby",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "vulpix",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "walrein",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "weezing",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "whimsicott",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "wurmple",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "xatu",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "xerneas",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "yamask",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "zebstrika",
+    "reason": "external-connection",
+    "explanation": "This species or its required family seed needs a registered Friend Safari. The complete native wild, fixed, gift, fossil and NPC trade inventory has no offline seed. Breeding or evolution cannot create one without that outside connection.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  },
+  {
+    "pokemonId": "zekrom",
+    "reason": "other-version",
+    "explanation": "The complete native wild, gift, fixed, fossil and NPC trade inventory has no acquisition seed. Evolution and breeding closure add no native path. The independent unavailable or version-exclusive list confirms that another game is required.",
+    "review": {
+      "referenceIds": [
+        "xy-reviewed-scope"
+      ],
+      "checkedOn": "2026-10-21"
+    }
+  }
+]

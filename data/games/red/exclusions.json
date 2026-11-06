@@ -1,0 +1,14 @@
+[
+  {"pokemonId":"sandshrew","reason":"other-version","explanation":"Sandshrew is a Blue-version encounter. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"sandslash","reason":"other-version","explanation":"Sandslash evolves from the Blue-exclusive Sandshrew. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"vulpix","reason":"other-version","explanation":"Vulpix is a Blue-version encounter. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"ninetales","reason":"other-version","explanation":"Ninetales evolves from the Blue-exclusive Vulpix. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"meowth","reason":"other-version","explanation":"Meowth is a Blue-version encounter. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"persian","reason":"other-version","explanation":"Persian evolves from the Blue-exclusive Meowth. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"bellsprout","reason":"other-version","explanation":"Bellsprout is a Blue-version encounter. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"weepinbell","reason":"other-version","explanation":"Weepinbell evolves from the Blue-exclusive Bellsprout. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"victreebel","reason":"other-version","explanation":"Victreebel evolves from the Blue-exclusive Bellsprout line. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"pinsir","reason":"other-version","explanation":"Pinsir is a Blue-version Safari Zone encounter and prize. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"magmar","reason":"other-version","explanation":"Magmar is a Blue-version encounter. Red has no native acquisition source.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}},
+  {"pokemonId":"mew","reason":"external-event","explanation":"Mew needs an external distribution event in normal play. Glitch-based encounters are outside this scope.","review":{"referenceIds":["red-exclusions"],"checkedOn":"2026-10-12"}}
+]

@@ -1,0 +1,25 @@
+# Route Six
+
+> A free Pokémon team planner and playthrough guide. Team Planner supports 24 games from Generations I to VI. Progress Planner supports all 24 games.
+
+## Interface
+
+- [Open the planner](./): Browser application. JavaScript is required for the interactive controls.
+- Team Planner: Choose up to six Pokémon. Check type weaknesses, resistances, immunities, and attack coverage with the selected game's type chart.
+- Progress Planner: Select a Gym or Victory Road checkpoint. Check encounter locations, access requirements, evolutions, breeding, and optional level limits.
+- Search: Find Pokémon by name, type, or Pokédex number. Regional Pokédex order comes first.
+- Export: Save the team as a PNG image.
+
+## Supported games
+
+- Both planners: Red, Blue, Yellow, Gold, Silver, Crystal, Ruby, Sapphire, Emerald, FireRed, LeafGreen, Diamond, Pearl, Platinum, Black, White, Black 2, White 2, X, Y, Omega Ruby, Alpha Sapphire, HeartGold, SoulSilver.
+
+All game names in these lists refer to Pokémon editions. Emerald is the default game. All listed games support both planners.
+
+## Limits
+
+- Type analysis does not include moves, items, or abilities.
+- Progress planning checks possible access within one game. Player trades, transfers, and external distribution events are outside its scope.
+- Plans reset when the page reloads. PNG export keeps an image, not an editable save.
+- The application uses local game data and images. No account is required.
+- Route Six is an unofficial fan project.

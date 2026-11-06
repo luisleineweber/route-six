@@ -1,0 +1,376 @@
+[
+  {
+    "id": "white-form-deerling-to-deerling-summer",
+    "pokemonId": "deerling",
+    "fromFormId": null,
+    "toFormId": "deerling-summer",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-deerling-summer-to-deerling",
+    "pokemonId": "deerling",
+    "fromFormId": "deerling-summer",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-deerling-to-deerling-autumn",
+    "pokemonId": "deerling",
+    "fromFormId": null,
+    "toFormId": "deerling-autumn",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-deerling-autumn-to-deerling",
+    "pokemonId": "deerling",
+    "fromFormId": "deerling-autumn",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-deerling-to-deerling-winter",
+    "pokemonId": "deerling",
+    "fromFormId": null,
+    "toFormId": "deerling-winter",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-deerling-winter-to-deerling",
+    "pokemonId": "deerling",
+    "fromFormId": "deerling-winter",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-sawsbuck-to-sawsbuck-summer",
+    "pokemonId": "sawsbuck",
+    "fromFormId": null,
+    "toFormId": "sawsbuck-summer",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-sawsbuck-summer-to-sawsbuck",
+    "pokemonId": "sawsbuck",
+    "fromFormId": "sawsbuck-summer",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-sawsbuck-to-sawsbuck-autumn",
+    "pokemonId": "sawsbuck",
+    "fromFormId": null,
+    "toFormId": "sawsbuck-autumn",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-sawsbuck-autumn-to-sawsbuck",
+    "pokemonId": "sawsbuck",
+    "fromFormId": "sawsbuck-autumn",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-sawsbuck-to-sawsbuck-winter",
+    "pokemonId": "sawsbuck",
+    "fromFormId": null,
+    "toFormId": "sawsbuck-winter",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-sawsbuck-winter-to-sawsbuck",
+    "pokemonId": "sawsbuck",
+    "fromFormId": "sawsbuck-winter",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "season-change"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-to-rotom-heat",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-heat",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-heat-to-rotom",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-heat",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-to-rotom-wash",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-wash",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-wash-to-rotom",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-wash",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-to-rotom-frost",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-frost",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-frost-to-rotom",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-frost",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-to-rotom-fan",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-fan",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-fan-to-rotom",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-fan",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-to-rotom-mow",
+    "pokemonId": "rotom",
+    "fromFormId": null,
+    "toFormId": "rotom-mow",
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "white-form-rotom-mow-to-rotom",
+    "pokemonId": "rotom",
+    "fromFormId": "rotom-mow",
+    "toFormId": null,
+    "heldItemId": null,
+    "requirements": {
+      "kind": "capability",
+      "id": "rotom-appliances"
+    },
+    "review": {
+      "referenceIds": [
+        "white-native-forms"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

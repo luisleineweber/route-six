@@ -1,0 +1,888 @@
+[
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-celadon",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-celadon",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-stone-celadon",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-celadon",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-stone-mt-moon",
+        "locationId": "mt-moon",
+        "requirements": {
+          "kind": "milestone",
+          "id": "mt-moon"
+        },
+        "maxUses": 2,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-route-2",
+        "locationId": "route-2",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-2"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-locations"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-rocket-hideout",
+        "locationId": "rocket-hideout",
+        "requirements": {
+          "kind": "milestone",
+          "id": "rocket-hideout-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-pokemon-mansion",
+        "locationId": "pokemon-mansion",
+        "requirements": {
+          "kind": "milestone",
+          "id": "cinnabar-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-locations"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "dome-fossil-mt-moon",
+        "locationId": "mt-moon",
+        "requirements": {
+          "kind": "milestone",
+          "id": "mt-moon"
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "dome-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-choices"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "helix-fossil-mt-moon",
+        "locationId": "mt-moon",
+        "requirements": {
+          "kind": "milestone",
+          "id": "mt-moon"
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "helix-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-choices"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "old-amber-museum",
+        "locationId": "pewter-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ss-ticket",
+    "name": "S.S. Ticket",
+    "sources": [
+      {
+        "id": "ss-ticket-bill",
+        "locationId": "route-25",
+        "requirements": {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm01-cut",
+    "name": "HM01 Cut",
+    "sources": [
+      {
+        "id": "hm01-ss-anne",
+        "locationId": "ss-anne",
+        "requirements": {
+          "kind": "milestone",
+          "id": "misty-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm02-fly",
+    "name": "HM02 Fly",
+    "sources": [
+      {
+        "id": "hm02-route-16",
+        "locationId": "route-16-fly-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-locations",
+            "blue-capabilities"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm03-surf",
+    "name": "HM03 Surf",
+    "sources": [
+      {
+        "id": "hm03-safari-zone",
+        "locationId": "safari-zone",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fuchsia-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm04-strength",
+    "name": "HM04 Strength",
+    "sources": [
+      {
+        "id": "hm04-fuchsia",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "item",
+          "id": "gold-teeth",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm05-flash",
+    "name": "HM05 Flash",
+    "sources": [
+      {
+        "id": "hm05-route-2",
+        "locationId": "route-2",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pewter-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "gold-teeth",
+    "name": "Gold Teeth",
+    "sources": [
+      {
+        "id": "gold-teeth-safari-zone",
+        "locationId": "safari-zone",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fuchsia-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "poke-flute",
+    "name": "Poké Flute",
+    "sources": [
+      {
+        "id": "poke-flute-fuji",
+        "locationId": "pokemon-tower",
+        "requirements": {
+          "kind": "milestone",
+          "id": "pokemon-tower-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-scope",
+    "name": "Silph Scope",
+    "sources": [
+      {
+        "id": "silph-scope-hideout",
+        "locationId": "rocket-hideout",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lift-key",
+    "name": "Lift Key",
+    "sources": [
+      {
+        "id": "lift-key-hideout",
+        "locationId": "rocket-hideout",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "card-key",
+    "name": "Card Key",
+    "sources": [
+      {
+        "id": "card-key-silph-co",
+        "locationId": "silph-co",
+        "requirements": {
+          "kind": "milestone",
+          "id": "saffron-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "secret-key",
+    "name": "Secret Key",
+    "sources": [
+      {
+        "id": "secret-key-mansion",
+        "locationId": "pokemon-mansion",
+        "requirements": {
+          "kind": "milestone",
+          "id": "cinnabar-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "coin-case",
+    "name": "Coin Case",
+    "sources": [
+      {
+        "id": "coin-case-celadon",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Old Rod",
+    "sources": [
+      {
+        "id": "old-rod-vermilion",
+        "locationId": "vermilion-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-locations"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Good Rod",
+    "sources": [
+      {
+        "id": "good-rod-fuchsia",
+        "locationId": "fuchsia-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "fuchsia-city"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "sources": [
+      {
+        "id": "super-rod-route-12-house",
+        "locationId": "route-12-super-rod-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-locations"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fresh-water",
+    "name": "Fresh Water",
+    "sources": [
+      {
+        "id": "fresh-water-celadon-mart",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "soda-pop",
+    "name": "Soda Pop",
+    "sources": [
+      {
+        "id": "soda-pop-celadon-mart",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "sources": [
+      {
+        "id": "lemonade-celadon-mart",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "celadon-city"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bicycle-voucher",
+    "name": "Bike Voucher",
+    "sources": [
+      {
+        "id": "bicycle-voucher-fan-club",
+        "locationId": "vermilion-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-locations"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "sources": [
+      {
+        "id": "bicycle-bike-shop",
+        "locationId": "cerulean-city",
+        "requirements": {
+          "kind": "item",
+          "id": "bicycle-voucher",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "blue-items",
+            "blue-capabilities",
+            "blue-locations"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "blue-items",
+        "blue-capabilities",
+        "blue-locations"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

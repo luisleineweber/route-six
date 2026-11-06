@@ -1,0 +1,174 @@
+[
+  {
+    "id": "brock",
+    "name": "Brock",
+    "kind": "gym",
+    "highestLevel": 14,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 1,
+    "specialtyTypeId": "rock"
+  },
+  {
+    "id": "misty",
+    "name": "Misty",
+    "kind": "gym",
+    "highestLevel": 21,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 2,
+    "specialtyTypeId": "water"
+  },
+  {
+    "id": "lt-surge",
+    "name": "Lt. Surge",
+    "kind": "gym",
+    "highestLevel": 24,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 3,
+    "specialtyTypeId": "electric"
+  },
+  {
+    "id": "erika",
+    "name": "Erika",
+    "kind": "gym",
+    "highestLevel": 29,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 4,
+    "specialtyTypeId": "grass"
+  },
+  {
+    "id": "koga",
+    "name": "Koga",
+    "kind": "gym",
+    "highestLevel": 43,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 5,
+    "specialtyTypeId": "poison"
+  },
+  {
+    "id": "sabrina",
+    "name": "Sabrina",
+    "kind": "gym",
+    "highestLevel": 43,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 6,
+    "specialtyTypeId": "psychic"
+  },
+  {
+    "id": "blaine",
+    "name": "Blaine",
+    "kind": "gym",
+    "highestLevel": 47,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 7,
+    "specialtyTypeId": "fire"
+  },
+  {
+    "id": "giovanni",
+    "name": "Giovanni",
+    "kind": "gym",
+    "highestLevel": 50,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    },
+    "badgeNumber": 8,
+    "specialtyTypeId": "ground"
+  },
+  {
+    "id": "lorelei",
+    "name": "Lorelei",
+    "kind": "elite-four",
+    "highestLevel": 54,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "kind": "elite-four",
+    "highestLevel": 56,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "agatha",
+    "name": "Agatha",
+    "kind": "elite-four",
+    "highestLevel": 58,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "kind": "elite-four",
+    "highestLevel": 60,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "kind": "champion",
+    "highestLevel": 63,
+    "review": {
+      "referenceIds": [
+        "leafgreen-bosses"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

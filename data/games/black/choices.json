@@ -1,0 +1,64 @@
+[
+  {
+    "id": "starter",
+    "name": "Choose one starter",
+    "options": [
+      "snivy",
+      "tepig",
+      "oshawott"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "black-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "story-dragon",
+    "name": "Catch the story dragon once",
+    "options": [
+      "castle",
+      "deferred"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "black-native-events"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "castelia-evolution-stone",
+    "name": "Choose one stone at Castelia Thumb Pier",
+    "options": [
+      "fire-stone",
+      "water-stone",
+      "leaf-stone"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "black-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "id": "fossil-choice",
+    "name": "Choose one Unova fossil",
+    "options": [
+      "cover-fossil",
+      "plume-fossil"
+    ],
+    "maximumSelections": 1,
+    "review": {
+      "referenceIds": [
+        "black-native-items"
+      ],
+      "checkedOn": "2026-10-27"
+    }
+  }
+]

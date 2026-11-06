@@ -1,0 +1,84 @@
+{
+  "id": "pearl",
+  "name": "Pokémon Pearl",
+  "generation": 4,
+  "region": "Sinnoh",
+  "firstMilestoneId": "twinleaf",
+  "planner": {
+    "defaultMilestoneId": "victory-road",
+    "checkpoints": [
+      {
+        "milestoneId": "oreburgh-gym",
+        "label": "Gym 1: Roark: Rock",
+        "title": "Gym 1",
+        "detail": "Roark: Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "eterna-gym",
+        "label": "Gym 2: Gardenia: Grass",
+        "title": "Gym 2",
+        "detail": "Gardenia: Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "veilstone-gym",
+        "label": "Gym 3: Maylene: Fighting",
+        "title": "Gym 3",
+        "detail": "Maylene: Fighting",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "pastoria-gym",
+        "label": "Gym 4: Crasher Wake: Water",
+        "title": "Gym 4",
+        "detail": "Crasher Wake: Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "hearthome-gym",
+        "label": "Gym 5: Fantina: Ghost",
+        "title": "Gym 5",
+        "detail": "Fantina: Ghost",
+        "typeId": "ghost"
+      },
+      {
+        "milestoneId": "canalave-gym",
+        "label": "Gym 6: Byron: Steel",
+        "title": "Gym 6",
+        "detail": "Byron: Steel",
+        "typeId": "steel"
+      },
+      {
+        "milestoneId": "snowpoint-gym",
+        "label": "Gym 7: Candice: Ice",
+        "title": "Gym 7",
+        "detail": "Candice: Ice",
+        "typeId": "ice"
+      },
+      {
+        "milestoneId": "sunyshore-gym",
+        "label": "Gym 8: Volkner: Electric",
+        "title": "Gym 8",
+        "detail": "Volkner: Electric",
+        "typeId": "electric"
+      },
+            {
+        "milestoneId": "victory-road",
+        "label": "Victory Road",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "pearl-native-progress"
+    ],
+    "checkedOn": "2026-10-19"
+  }
+}

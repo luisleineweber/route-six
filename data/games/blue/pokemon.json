@@ -1,0 +1,2782 @@
+[
+  {
+    "pokemonId": "bulbasaur",
+    "regionalDex": 1,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/1.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ivysaur",
+    "regionalDex": 2,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/2.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venusaur",
+    "regionalDex": 3,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/3.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmander",
+    "regionalDex": 4,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/4.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charmeleon",
+    "regionalDex": 5,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/5.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "charizard",
+    "regionalDex": 6,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/6.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "squirtle",
+    "regionalDex": 7,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/7.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wartortle",
+    "regionalDex": 8,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/8.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "blastoise",
+    "regionalDex": 9,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/9.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "caterpie",
+    "regionalDex": 10,
+    "types": [
+      "bug"
+    ],
+    "spriteSrc": "/pokemon/10.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "metapod",
+    "regionalDex": 11,
+    "types": [
+      "bug"
+    ],
+    "spriteSrc": "/pokemon/11.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "butterfree",
+    "regionalDex": 12,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/12.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weedle",
+    "regionalDex": 13,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/13.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kakuna",
+    "regionalDex": 14,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/14.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "beedrill",
+    "regionalDex": 15,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/15.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pidgey",
+    "regionalDex": 16,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/16.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pidgeotto",
+    "regionalDex": 17,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/17.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pidgeot",
+    "regionalDex": 18,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/18.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rattata",
+    "regionalDex": 19,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/19.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "raticate",
+    "regionalDex": 20,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/20.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "spearow",
+    "regionalDex": 21,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/21.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "fearow",
+    "regionalDex": 22,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/22.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ekans",
+    "regionalDex": 23,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/23.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arbok",
+    "regionalDex": 24,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/24.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pikachu",
+    "regionalDex": 25,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/25.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "raichu",
+    "regionalDex": 26,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/26.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sandshrew",
+    "regionalDex": 27,
+    "types": [
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/27.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "sandslash",
+    "regionalDex": 28,
+    "types": [
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/28.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoran-f",
+    "regionalDex": 29,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/29.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidorina",
+    "regionalDex": 30,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/30.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoqueen",
+    "regionalDex": 31,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/31.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoran-m",
+    "regionalDex": 32,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/32.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidorino",
+    "regionalDex": 33,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/33.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "nidoking",
+    "regionalDex": 34,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/34.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "clefairy",
+    "regionalDex": 35,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/35.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "clefable",
+    "regionalDex": 36,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/36.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vulpix",
+    "regionalDex": 37,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/37.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ninetales",
+    "regionalDex": 38,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/38.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jigglypuff",
+    "regionalDex": 39,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/39.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "wigglytuff",
+    "regionalDex": 40,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/40.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zubat",
+    "regionalDex": 41,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/41.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "golbat",
+    "regionalDex": 42,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/42.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "oddish",
+    "regionalDex": 43,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/43.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gloom",
+    "regionalDex": 44,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/44.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vileplume",
+    "regionalDex": 45,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/45.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "paras",
+    "regionalDex": 46,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "spriteSrc": "/pokemon/46.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "parasect",
+    "regionalDex": 47,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "spriteSrc": "/pokemon/47.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venonat",
+    "regionalDex": 48,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/48.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "venomoth",
+    "regionalDex": 49,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/49.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "diglett",
+    "regionalDex": 50,
+    "types": [
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/50.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dugtrio",
+    "regionalDex": 51,
+    "types": [
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/51.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "meowth",
+    "regionalDex": 52,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/52.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "persian",
+    "regionalDex": 53,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/53.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "psyduck",
+    "regionalDex": 54,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/54.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "golduck",
+    "regionalDex": 55,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/55.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mankey",
+    "regionalDex": 56,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/56.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "primeape",
+    "regionalDex": 57,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/57.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "growlithe",
+    "regionalDex": 58,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/58.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "arcanine",
+    "regionalDex": 59,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/59.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poliwag",
+    "regionalDex": 60,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/60.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poliwhirl",
+    "regionalDex": 61,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/61.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "poliwrath",
+    "regionalDex": 62,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/62.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "abra",
+    "regionalDex": 63,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/63.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kadabra",
+    "regionalDex": 64,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/64.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "alakazam",
+    "regionalDex": 65,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/65.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "machop",
+    "regionalDex": 66,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/66.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "machoke",
+    "regionalDex": 67,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/67.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "machamp",
+    "regionalDex": 68,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/68.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "bellsprout",
+    "regionalDex": 69,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/69.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weepinbell",
+    "regionalDex": 70,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/70.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "victreebel",
+    "regionalDex": 71,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/71.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tentacool",
+    "regionalDex": 72,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/72.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tentacruel",
+    "regionalDex": 73,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/73.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "geodude",
+    "regionalDex": 74,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/74.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "graveler",
+    "regionalDex": 75,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/75.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "golem",
+    "regionalDex": 76,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/76.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ponyta",
+    "regionalDex": 77,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/77.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rapidash",
+    "regionalDex": 78,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/78.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowpoke",
+    "regionalDex": 79,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/79.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "slowbro",
+    "regionalDex": 80,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/80.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magnemite",
+    "regionalDex": 81,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/81.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magneton",
+    "regionalDex": 82,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/82.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "farfetchd",
+    "regionalDex": 83,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/83.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "doduo",
+    "regionalDex": 84,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/84.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dodrio",
+    "regionalDex": 85,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/85.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seel",
+    "regionalDex": 86,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/86.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dewgong",
+    "regionalDex": 87,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "spriteSrc": "/pokemon/87.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "grimer",
+    "regionalDex": 88,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/88.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "muk",
+    "regionalDex": 89,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/89.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "shellder",
+    "regionalDex": 90,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/90.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cloyster",
+    "regionalDex": 91,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "spriteSrc": "/pokemon/91.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gastly",
+    "regionalDex": 92,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/92.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "haunter",
+    "regionalDex": 93,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/93.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gengar",
+    "regionalDex": 94,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/94.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "onix",
+    "regionalDex": 95,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/95.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "drowzee",
+    "regionalDex": 96,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/96.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hypno",
+    "regionalDex": 97,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/97.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "krabby",
+    "regionalDex": 98,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/98.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kingler",
+    "regionalDex": 99,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/99.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "voltorb",
+    "regionalDex": 100,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/100.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electrode",
+    "regionalDex": 101,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/101.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "exeggcute",
+    "regionalDex": 102,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/102.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "exeggutor",
+    "regionalDex": 103,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/103.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "cubone",
+    "regionalDex": 104,
+    "types": [
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/104.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "marowak",
+    "regionalDex": 105,
+    "types": [
+      "ground"
+    ],
+    "spriteSrc": "/pokemon/105.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hitmonlee",
+    "regionalDex": 106,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/106.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "hitmonchan",
+    "regionalDex": 107,
+    "types": [
+      "fighting"
+    ],
+    "spriteSrc": "/pokemon/107.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lickitung",
+    "regionalDex": 108,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/108.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "koffing",
+    "regionalDex": 109,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/109.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "weezing",
+    "regionalDex": 110,
+    "types": [
+      "poison"
+    ],
+    "spriteSrc": "/pokemon/110.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rhyhorn",
+    "regionalDex": 111,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "spriteSrc": "/pokemon/111.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "rhydon",
+    "regionalDex": 112,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "spriteSrc": "/pokemon/112.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "chansey",
+    "regionalDex": 113,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/113.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tangela",
+    "regionalDex": 114,
+    "types": [
+      "grass"
+    ],
+    "spriteSrc": "/pokemon/114.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kangaskhan",
+    "regionalDex": 115,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/115.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "horsea",
+    "regionalDex": 116,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/116.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seadra",
+    "regionalDex": 117,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/117.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "goldeen",
+    "regionalDex": 118,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/118.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "seaking",
+    "regionalDex": 119,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/119.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "staryu",
+    "regionalDex": 120,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/120.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "starmie",
+    "regionalDex": 121,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/121.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mr-mime",
+    "regionalDex": 122,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/122.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "scyther",
+    "regionalDex": 123,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/123.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jynx",
+    "regionalDex": 124,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/124.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "electabuzz",
+    "regionalDex": 125,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/125.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magmar",
+    "regionalDex": 126,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/126.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "pinsir",
+    "regionalDex": 127,
+    "types": [
+      "bug"
+    ],
+    "spriteSrc": "/pokemon/127.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "tauros",
+    "regionalDex": 128,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/128.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "magikarp",
+    "regionalDex": 129,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/129.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "gyarados",
+    "regionalDex": 130,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/130.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "lapras",
+    "regionalDex": 131,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "spriteSrc": "/pokemon/131.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "ditto",
+    "regionalDex": 132,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/132.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "eevee",
+    "regionalDex": 133,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/133.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "vaporeon",
+    "regionalDex": 134,
+    "types": [
+      "water"
+    ],
+    "spriteSrc": "/pokemon/134.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "jolteon",
+    "regionalDex": 135,
+    "types": [
+      "electric"
+    ],
+    "spriteSrc": "/pokemon/135.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "flareon",
+    "regionalDex": 136,
+    "types": [
+      "fire"
+    ],
+    "spriteSrc": "/pokemon/136.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "porygon",
+    "regionalDex": 137,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/137.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omanyte",
+    "regionalDex": 138,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteSrc": "/pokemon/138.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "omastar",
+    "regionalDex": 139,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteSrc": "/pokemon/139.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabuto",
+    "regionalDex": 140,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteSrc": "/pokemon/140.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "kabutops",
+    "regionalDex": 141,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "spriteSrc": "/pokemon/141.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "aerodactyl",
+    "regionalDex": 142,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/142.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "snorlax",
+    "regionalDex": 143,
+    "types": [
+      "normal"
+    ],
+    "spriteSrc": "/pokemon/143.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "articuno",
+    "regionalDex": 144,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/144.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "zapdos",
+    "regionalDex": 145,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/145.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "moltres",
+    "regionalDex": 146,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/146.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dratini",
+    "regionalDex": 147,
+    "types": [
+      "dragon"
+    ],
+    "spriteSrc": "/pokemon/147.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dragonair",
+    "regionalDex": 148,
+    "types": [
+      "dragon"
+    ],
+    "spriteSrc": "/pokemon/148.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "dragonite",
+    "regionalDex": 149,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "spriteSrc": "/pokemon/149.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mewtwo",
+    "regionalDex": 150,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/150.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "pokemonId": "mew",
+    "regionalDex": 151,
+    "types": [
+      "psychic"
+    ],
+    "spriteSrc": "/pokemon/151.png",
+    "genders": [
+      "not-applicable"
+    ],
+    "breeding": null,
+    "review": {
+      "referenceIds": [
+        "blue-species"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

@@ -1,0 +1,629 @@
+[
+  {
+    "id": "cut",
+    "name": "Cut",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "eterna-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm01",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Fly",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "veilstone-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm02",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "surf",
+    "name": "Surf",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "hearthome-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm03",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "canalave-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm04",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "defog",
+    "name": "Defog",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "pastoria-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm05",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "rock-smash",
+    "name": "Rock Smash",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "oreburgh-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm06",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Waterfall",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "sunyshore-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm07",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "rock-climb",
+    "name": "Rock Climb",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "snowpoint-gym"
+        },
+        {
+          "kind": "item",
+          "id": "hm08",
+          "quantity": 1,
+          "consumed": false
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Old Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-3"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Good Rod",
+    "requirements": {
+      "kind": "milestone",
+      "id": "hearthome-contest"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-8"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "day-care",
+    "name": "Day Care",
+    "requirements": {
+      "kind": "milestone",
+      "id": "solaceon"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-9"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "underground",
+    "name": "Underground",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-city"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "eterna-galactic-clear"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-6"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "honey-tree",
+    "name": "Honey Tree",
+    "requirements": {
+      "kind": "milestone",
+      "id": "windworks-key"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-5"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "national-dex",
+    "name": "National Pokedex",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "national-dex-before-hall"
+        },
+        {
+          "kind": "milestone",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "fight-area"
+        },
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-23"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "pastoria-access",
+    "name": "Visit Pastoria City",
+    "requirements": {
+      "kind": "any",
+      "requirements": [
+        {
+          "kind": "milestone",
+          "id": "early-pastoria"
+        },
+        {
+          "kind": "milestone",
+          "id": "pastoria"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "poke-radar",
+    "name": "Use the Poke Radar",
+    "requirements": {
+      "kind": "capability",
+      "id": "national-dex"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "swarm",
+    "name": "Ask the sister in Sandgem for the daily swarm",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "milestone",
+          "id": "hall-of-fame"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "great-marsh-daily",
+    "name": "Enter the Great Marsh Safari Game",
+    "requirements": {
+      "kind": "capability",
+      "id": "pastoria-access"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "trophy-garden-daily",
+    "name": "Speak to Mr. Backlot about a daily garden visitor",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "capability",
+          "id": "national-dex"
+        },
+        {
+          "kind": "location",
+          "id": "trophy-garden"
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-22"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "move-reminder",
+    "name": "Visit the Move Reminder",
+    "requirements": {
+      "kind": "location",
+      "id": "pastoria"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-12"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Friendship",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "day",
+    "name": "Day",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "night",
+    "name": "Night",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "party-space",
+    "name": "Party Space",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "personality",
+    "name": "Personality",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "stat-training",
+    "name": "Stat Training",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-plant-battle",
+    "name": "Burmy Plant Battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "starter"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-sandy-battle",
+    "name": "Burmy Sandy Battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "oreburgh-gate"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "burmy-trash-battle",
+    "name": "Burmy Trash Battle",
+    "requirements": {
+      "kind": "milestone",
+      "id": "jubilife"
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-progress"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "see-10-unown-forms",
+    "name": "Catch 10 different Unown forms",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-ruins-b1f-main-room"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "see-26-unown-forms",
+    "name": "Catch 26 different Unown forms",
+    "requirements": {
+      "kind": "location",
+      "id": "solaceon-ruins-b1f-main-room"
+    },
+    "review": {
+      "referenceIds": [
+        "diamond-pearl-walkthrough-11"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  },
+  {
+    "id": "beauty",
+    "name": "Cook and feed eight Pamtre Poffins with at least 25 dryness",
+    "requirements": {
+      "kind": "all",
+      "requirements": [
+        {
+          "kind": "location",
+          "id": "hearthome"
+        },
+        {
+          "kind": "item",
+          "id": "poffin-case",
+          "quantity": 1,
+          "consumed": false
+        },
+        {
+          "kind": "item",
+          "id": "pamtre-berry",
+          "quantity": 8,
+          "consumed": true
+        }
+      ]
+    },
+    "review": {
+      "referenceIds": [
+        "pearl-native-rules",
+        "dp-poffin-cooking"
+      ],
+      "checkedOn": "2026-10-19"
+    }
+  }
+]

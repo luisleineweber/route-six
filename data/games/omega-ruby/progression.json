@@ -1,0 +1,1441 @@
+[
+  {
+    "id": "littleroot",
+    "name": "Begin in Littleroot Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 0,
+    "previousIds": [],
+    "locationId": "littleroot-town",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "starter",
+    "name": "Choose one Hoenn starter on Route 101",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 1,
+    "previousIds": [
+      "littleroot"
+    ],
+    "locationId": "hoenn-route-101",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "oldale",
+    "name": "Reach Oldale Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 2,
+    "previousIds": [
+      "starter"
+    ],
+    "locationId": "oldale-town",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-103",
+    "name": "Battle your friend on Route 103",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 3,
+    "previousIds": [
+      "oldale"
+    ],
+    "locationId": "hoenn-route-103",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokedex",
+    "name": "Receive the Pokédex and Poké Balls",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 4,
+    "previousIds": [
+      "route-103"
+    ],
+    "locationId": "littleroot-town",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dexnav",
+    "name": "Receive the DexNav on Route 101",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 5,
+    "previousIds": [
+      "pokedex"
+    ],
+    "locationId": "hoenn-route-101",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-102",
+    "name": "Travel through Route 102",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 6,
+    "previousIds": [
+      "dexnav"
+    ],
+    "locationId": "hoenn-route-102",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "petalburg",
+    "name": "Meet Norman in Petalburg City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 7,
+    "previousIds": [
+      "route-102"
+    ],
+    "locationId": "petalburg-city",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-104-south",
+    "name": "Reach southern Route 104",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 8,
+    "previousIds": [
+      "petalburg"
+    ],
+    "locationId": "hoenn-route-104-south",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "petalburg-woods",
+    "name": "Pass through Petalburg Woods",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 9,
+    "previousIds": [
+      "route-104-south"
+    ],
+    "locationId": "petalburg-woods",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-104-north",
+    "name": "Reach northern Route 104",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 10,
+    "previousIds": [
+      "petalburg-woods"
+    ],
+    "locationId": "hoenn-route-104-north",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rustboro",
+    "name": "Reach Rustboro City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 11,
+    "previousIds": [
+      "route-104-north"
+    ],
+    "locationId": "rustboro-city",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rustboro-gym",
+    "name": "Defeat Roxanne at Rustboro Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 12,
+    "previousIds": [
+      "rustboro"
+    ],
+    "locationId": "rustboro-city",
+    "nextBossId": "roxanne",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-116",
+    "name": "Chase the thief onto Route 116",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 13,
+    "previousIds": [
+      "rustboro-gym"
+    ],
+    "locationId": "hoenn-route-116",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rusturf-tunnel",
+    "name": "Recover the Devon Parts in Rusturf Tunnel",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 14,
+    "previousIds": [
+      "route-116"
+    ],
+    "locationId": "rusturf-tunnel",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "devon-letter",
+    "name": "Receive Mr. Stone's letter and HM01",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 15,
+    "previousIds": [
+      "rusturf-tunnel"
+    ],
+    "locationId": "rustboro-city",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dewford",
+    "name": "Sail with Mr. Briney to Dewford Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 16,
+    "previousIds": [
+      "devon-letter"
+    ],
+    "locationId": "dewford-town",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "granite-cave",
+    "name": "Deliver the letter in Granite Cave",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 17,
+    "previousIds": [
+      "dewford"
+    ],
+    "locationId": "granite-cave",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dewford-gym",
+    "name": "Defeat Brawly at Dewford Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 18,
+    "previousIds": [
+      "dewford"
+    ],
+    "locationId": "dewford-town",
+    "nextBossId": "brawly",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "slateport",
+    "name": "Sail with Mr. Briney to Slateport City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 19,
+    "previousIds": [
+      "granite-cave",
+      "dewford-gym"
+    ],
+    "locationId": "slateport-city",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-110",
+    "name": "Travel north on Route 110",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 20,
+    "previousIds": [
+      "slateport"
+    ],
+    "locationId": "hoenn-route-110",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mauville",
+    "name": "Reach Mauville City and choose a Bike",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 21,
+    "previousIds": [
+      "route-110"
+    ],
+    "locationId": "mauville-city",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "rock-smash-received",
+    "name": "Defeat Wally and receive HM06",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 22,
+    "previousIds": [
+      "mauville"
+    ],
+    "locationId": "mauville-city",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mauville-gym",
+    "name": "Defeat Wattson at Mauville Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 23,
+    "previousIds": [
+      "rock-smash-received"
+    ],
+    "locationId": "mauville-city",
+    "nextBossId": "wattson",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-117",
+    "name": "Travel west on Route 117",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 24,
+    "previousIds": [
+      "mauville-gym"
+    ],
+    "locationId": "hoenn-route-117",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "verdanturf",
+    "name": "Reach Verdanturf Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 25,
+    "previousIds": [
+      "route-117"
+    ],
+    "locationId": "verdanturf-town",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-111-south",
+    "name": "Travel north on southern Route 111",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 26,
+    "previousIds": [
+      "mauville-gym"
+    ],
+    "locationId": "hoenn-route-111",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-112-south",
+    "name": "Receive HM04 on southern Route 112",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 27,
+    "previousIds": [
+      "route-111-south"
+    ],
+    "locationId": "hoenn-route-112-south",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fiery-path",
+    "name": "Pass through Fiery Path",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 28,
+    "previousIds": [
+      "route-112-south"
+    ],
+    "locationId": "fiery-path",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-112-north",
+    "name": "Reach northern Route 112",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 29,
+    "previousIds": [
+      "fiery-path"
+    ],
+    "locationId": "hoenn-route-112-north",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-113",
+    "name": "Travel through Route 113",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 30,
+    "previousIds": [
+      "route-112-north"
+    ],
+    "locationId": "hoenn-route-113",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fallarbor",
+    "name": "Reach Fallarbor Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 31,
+    "previousIds": [
+      "route-113"
+    ],
+    "locationId": "fallarbor-town",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-114",
+    "name": "Travel through Route 114",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 32,
+    "previousIds": [
+      "fallarbor"
+    ],
+    "locationId": "hoenn-route-114",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "meteor-falls",
+    "name": "Confront the villain team at Meteor Falls",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 33,
+    "previousIds": [
+      "route-114"
+    ],
+    "locationId": "meteor-falls",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-115",
+    "name": "Exit Meteor Falls to Route 115",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 34,
+    "previousIds": [
+      "meteor-falls"
+    ],
+    "locationId": "hoenn-route-115",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mt-chimney",
+    "name": "Ride the cable car to Mt. Chimney",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 35,
+    "previousIds": [
+      "meteor-falls"
+    ],
+    "locationId": "mt-chimney",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "jagged-pass",
+    "name": "Descend Jagged Pass",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 36,
+    "previousIds": [
+      "mt-chimney"
+    ],
+    "locationId": "jagged-pass",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lavaridge",
+    "name": "Reach Lavaridge Town",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 37,
+    "previousIds": [
+      "jagged-pass"
+    ],
+    "locationId": "lavaridge-town",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lavaridge-gym",
+    "name": "Defeat Flannery at Lavaridge Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "lavaridge"
+    ],
+    "locationId": "lavaridge-town",
+    "nextBossId": "flannery",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "go-goggles",
+    "name": "Receive the Go-Goggles",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 39,
+    "previousIds": [
+      "lavaridge-gym"
+    ],
+    "locationId": "lavaridge-town",
+    "nextBossId": "norman",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-111-desert",
+    "name": "Cross the Route 111 desert",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 40,
+    "previousIds": [
+      "go-goggles"
+    ],
+    "locationId": "route-111-desert",
+    "nextBossId": "norman",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "petalburg-gym",
+    "name": "Defeat Norman at Petalburg Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 41,
+    "previousIds": [
+      "lavaridge-gym"
+    ],
+    "locationId": "petalburg-city",
+    "nextBossId": "norman",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "surf-received",
+    "name": "Receive HM03 from Wally's father",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 42,
+    "previousIds": [
+      "petalburg-gym"
+    ],
+    "locationId": "petalburg-city",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-118",
+    "name": "Surf across Route 118",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 43,
+    "previousIds": [
+      "surf-received"
+    ],
+    "locationId": "hoenn-route-118",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "southern-island",
+    "name": "Receive the Mega Bracelet on Southern Island",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 44,
+    "previousIds": [
+      "route-118"
+    ],
+    "locationId": "southern-island",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-119",
+    "name": "Travel north on Route 119",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 45,
+    "previousIds": [
+      "southern-island"
+    ],
+    "locationId": "hoenn-route-119",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "weather-institute",
+    "name": "Clear the Weather Institute",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 46,
+    "previousIds": [
+      "route-119"
+    ],
+    "locationId": "weather-institute",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fly-received",
+    "name": "Defeat your friend and receive HM02",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 47,
+    "previousIds": [
+      "weather-institute"
+    ],
+    "locationId": "hoenn-route-119",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fortree",
+    "name": "Reach Fortree City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 48,
+    "previousIds": [
+      "fly-received"
+    ],
+    "locationId": "fortree-city",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-120",
+    "name": "Receive the Devon Scope on Route 120",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 49,
+    "previousIds": [
+      "fortree"
+    ],
+    "locationId": "hoenn-route-120",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "fortree-gym",
+    "name": "Defeat Winona at Fortree Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 50,
+    "previousIds": [
+      "route-120"
+    ],
+    "locationId": "fortree-city",
+    "nextBossId": "winona",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-121",
+    "name": "Travel east on Route 121",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 51,
+    "previousIds": [
+      "fortree-gym"
+    ],
+    "locationId": "hoenn-route-121",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "safari-zone",
+    "name": "Enter the Safari Zone",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 52,
+    "previousIds": [
+      "route-121"
+    ],
+    "locationId": "safari-zone",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-122",
+    "name": "Surf on Route 122",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 53,
+    "previousIds": [
+      "route-121"
+    ],
+    "locationId": "hoenn-route-122",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mt-pyre",
+    "name": "Reach the Mt. Pyre summit",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 54,
+    "previousIds": [
+      "route-122"
+    ],
+    "locationId": "mt-pyre",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-123",
+    "name": "Travel along Route 123",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 55,
+    "previousIds": [
+      "route-122"
+    ],
+    "locationId": "hoenn-route-123",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "lilycove",
+    "name": "Reach Lilycove City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 56,
+    "previousIds": [
+      "mt-pyre"
+    ],
+    "locationId": "lilycove-city",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "villain-hideout",
+    "name": "Clear the villain team hideout",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 57,
+    "previousIds": [
+      "lilycove"
+    ],
+    "locationId": "villain-hideout",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "route-124",
+    "name": "Surf on Route 124",
+    "kind": "route",
+    "phase": "main-story",
+    "displayOrder": 58,
+    "previousIds": [
+      "villain-hideout"
+    ],
+    "locationId": "hoenn-route-124",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mossdeep",
+    "name": "Reach Mossdeep City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 59,
+    "previousIds": [
+      "route-124"
+    ],
+    "locationId": "mossdeep-city",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "mossdeep-gym",
+    "name": "Defeat Tate and Liza at Mossdeep Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 60,
+    "previousIds": [
+      "mossdeep"
+    ],
+    "locationId": "mossdeep-city",
+    "nextBossId": "tate-and-liza",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "dive-received",
+    "name": "Receive HM07 from Steven",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 61,
+    "previousIds": [
+      "mossdeep-gym"
+    ],
+    "locationId": "mossdeep-city",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "seafloor-cavern",
+    "name": "Dive to Seafloor Cavern",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 62,
+    "previousIds": [
+      "dive-received"
+    ],
+    "locationId": "seafloor-cavern",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sootopolis",
+    "name": "Dive to Sootopolis City",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 63,
+    "previousIds": [
+      "seafloor-cavern"
+    ],
+    "locationId": "sootopolis-city",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "cave-of-origin",
+    "name": "Calm the ancient Pokémon in the Cave of Origin",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 64,
+    "previousIds": [
+      "sootopolis"
+    ],
+    "locationId": "cave-of-origin",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "eon-flute",
+    "name": "Receive the Eon Flute from Steven",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 65,
+    "previousIds": [
+      "cave-of-origin"
+    ],
+    "locationId": "sootopolis-city",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sootopolis-gym",
+    "name": "Defeat Wallace at Sootopolis Gym",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 66,
+    "previousIds": [
+      "eon-flute"
+    ],
+    "locationId": "sootopolis-city",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "new-mauville",
+    "name": "Check New Mauville for Wattson",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 67,
+    "previousIds": [
+      "cave-of-origin"
+    ],
+    "locationId": "new-mauville",
+    "nextBossId": "wallace",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "victory-road",
+    "name": "Climb Victory Road",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 68,
+    "previousIds": [
+      "sootopolis-gym"
+    ],
+    "locationId": "victory-road",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "pokemon-league",
+    "name": "Enter the Pokémon League",
+    "kind": "story",
+    "phase": "main-story",
+    "displayOrder": 69,
+    "previousIds": [
+      "victory-road"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-sidney",
+    "name": "Defeat Sidney",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 70,
+    "previousIds": [
+      "pokemon-league"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "sidney",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-phoebe",
+    "name": "Defeat Phoebe",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 71,
+    "previousIds": [
+      "league-sidney"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "phoebe",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-glacia",
+    "name": "Defeat Glacia",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 72,
+    "previousIds": [
+      "league-phoebe"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "glacia",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-drake",
+    "name": "Defeat Drake",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 73,
+    "previousIds": [
+      "league-glacia"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "drake",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "hall-of-fame",
+    "name": "Defeat Champion Steven",
+    "kind": "boss",
+    "phase": "main-story",
+    "displayOrder": 74,
+    "previousIds": [
+      "league-drake"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": "steven",
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "delta-episode",
+    "name": "Begin the Delta Episode",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 75,
+    "previousIds": [
+      "hall-of-fame"
+    ],
+    "locationId": "littleroot-town",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "sky-pillar",
+    "name": "Enter the Sky Pillar with Wallace's help",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 76,
+    "previousIds": [
+      "delta-episode"
+    ],
+    "locationId": "sky-pillar",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "delta-complete",
+    "name": "Stop the meteoroid with Rayquaza",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 77,
+    "previousIds": [
+      "sky-pillar"
+    ],
+    "locationId": "sky-pillar",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "battle-resort",
+    "name": "Reach the Battle Resort",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 78,
+    "previousIds": [
+      "delta-complete"
+    ],
+    "locationId": "battle-resort",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  },
+  {
+    "id": "league-rematch",
+    "name": "Win the League rematch",
+    "kind": "story",
+    "phase": "post-game",
+    "displayOrder": 79,
+    "previousIds": [
+      "delta-complete"
+    ],
+    "locationId": "pokemon-league",
+    "nextBossId": null,
+    "review": {
+      "referenceIds": [
+        "oras-reviewed-story"
+      ],
+      "checkedOn": "2026-10-31"
+    }
+  }
+]

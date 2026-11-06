@@ -1,0 +1,749 @@
+[
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-bills-grandfather",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "oddish",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "leaf-stone-gina",
+        "locationId": "route-34",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-34"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-bills-grandfather",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "staryu",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "water-stone-tully",
+        "locationId": "route-42",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-42"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-bills-grandfather",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "growlithe",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "fire-stone-alan",
+        "locationId": "route-36",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-36"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-stone-bills-grandfather",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "pichu",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "thunder-stone-dana",
+        "locationId": "route-38",
+        "requirements": {
+          "kind": "milestone",
+          "id": "route-38"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "sun-stone-bug-contest",
+        "locationId": "national-park",
+        "requirements": {
+          "kind": "capability",
+          "id": "bug-contest"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "Kings Rock",
+    "sources": [
+      {
+        "id": "kings-rock-slowpoke-well",
+        "locationId": "slowpoke-well",
+        "requirements": {
+          "kind": "milestone",
+          "id": "bugsy-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "kings-rock-poliwhirl",
+        "locationId": "route-42",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "poliwhirl",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "kings-rock-slowpoke",
+        "locationId": "slowpoke-well",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "slowpoke",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "dragon-scale-mount-mortar",
+        "locationId": "mt-mortar",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "pryce-defeated"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            },
+            {
+              "kind": "capability",
+              "id": "strength"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-horsea",
+        "locationId": "route-41",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "horsea",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "dragon-scale-seadra",
+        "locationId": "route-41",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "seadra",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "metal-coat-fast-ship",
+        "locationId": "olivine-port",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "metal-coat-magnemite",
+        "locationId": "route-38",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "magnemite",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "metal-coat-magneton",
+        "locationId": "route-38",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "magneton",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-stone-mount-moon-square",
+        "locationId": "mount-moon",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-ruins-alph",
+        "locationId": "ruins-of-alph",
+        "requirements": {
+          "kind": "milestone",
+          "id": "ruins-of-alph-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-tohjo-falls",
+        "locationId": "tohjo-falls",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "indigo-plateau"
+            },
+            {
+              "kind": "capability",
+              "id": "waterfall"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-mom",
+        "locationId": "new-bark-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "new-bark-town"
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-clefairy",
+        "locationId": "mount-moon",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "clefairy",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-cleffa",
+        "locationId": "route-34",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "cleffa",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up-Grade",
+    "sources": [
+      {
+        "id": "up-grade-silph-co",
+        "locationId": "saffron-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "up-grade-porygon",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "porygon",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-species"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "everstone",
+    "name": "Everstone",
+    "sources": [
+      {
+        "id": "everstone-bills-grandfather",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "goldenrod-city"
+            },
+            {
+              "kind": "pokemon",
+              "id": "lickitung",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "everstone-elm-togepi",
+        "locationId": "new-bark-town",
+        "requirements": {
+          "kind": "pokemon",
+          "id": "togepi",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items",
+            "crystal-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items",
+        "crystal-evolutions"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "squirtbottle",
+    "name": "SquirtBottle",
+    "sources": [
+      {
+        "id": "squirtbottle-flower-shop",
+        "locationId": "goldenrod-city",
+        "requirements": {
+          "kind": "milestone",
+          "id": "whitney-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items",
+            "crystal-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "expn-card",
+    "name": "EXPN Card",
+    "sources": [
+      {
+        "id": "expn-card-lavender-radio-tower",
+        "locationId": "lavender-town",
+        "requirements": {
+          "kind": "milestone",
+          "id": "kanto-open"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "crystal-items",
+            "crystal-progression"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "crystal-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]

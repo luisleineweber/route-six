@@ -1,0 +1,2244 @@
+[
+  {
+    "id": "species",
+    "title": "Species names, types, Egg Groups and genders",
+    "locator": "src/data/pokemon/species_info.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/pokemon/species_info.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "evolution",
+    "title": "Emerald evolution rules",
+    "locator": "src/data/pokemon/evolution.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/pokemon/evolution.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "encounters",
+    "title": "Emerald encounter tables",
+    "locator": "src/data/wild_encounters.json",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/wild_encounters.json",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "bosses",
+    "title": "Gym and League parties",
+    "locator": "src/data/trainer_parties.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/trainer_parties.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "breeding",
+    "title": "Day Care compatibility and offspring",
+    "locator": "src/daycare.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/daycare.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "hatch",
+    "title": "Egg hatch level",
+    "locator": "include/constants/daycare.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/include/constants/daycare.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "scripts",
+    "title": "Location and event scripts",
+    "locator": "data/maps",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/maps",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "trades",
+    "title": "In-game trade details",
+    "locator": "src/data/trade.h",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/data/trade.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "type-chart",
+    "title": "Generation III type effectiveness",
+    "locator": "src/pokemon.c",
+    "url": "https://github.com/pret/pokeemerald/tree/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/pokemon.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "outbreaks",
+    "title": "Emerald TV outbreak species, levels and story gate",
+    "locator": "src/tv.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/tv.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "items",
+    "title": "Emerald item pickups",
+    "locator": "data/scripts/item_ball_scripts.inc",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/data/scripts/item_ball_scripts.inc",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "puzzles",
+    "title": "Emerald Regi door actions and party order",
+    "locator": "src/braille_puzzles.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/braille_puzzles.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "special-encounters",
+    "title": "Feebas fishing checks",
+    "locator": "src/wild_encounter.c",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/src/wild_encounter.c",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "hoenn-dex",
+    "title": "Emerald Hoenn Pokedex order",
+    "locator": "include/constants/pokedex.h",
+    "url": "https://github.com/pret/pokeemerald/blob/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/include/constants/pokedex.h",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+  },
+  {
+    "id": "red-species",
+    "title": "Pokémon Red species stats, types, and Pokédex order",
+    "locator": "data/pokemon/base_stats.asm; data/pokemon/dex_order.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-game",
+    "title": "Pokémon Red version scope and game rules",
+    "locator": "README.md; constants/pokemon_constants.asm; data/maps/headers",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-type-chart",
+    "title": "Generation I type IDs and effectiveness rules",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/types",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-progression",
+    "title": "Story events, badge flags, and map progression",
+    "locator": "data/maps/objects; data/maps/scripts; constants/event_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-bosses",
+    "title": "Gym, Elite Four, and Champion parties",
+    "locator": "data/trainers/parties.asm; data/trainers/names.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/trainers",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-locations",
+    "title": "Map identities and access scripts",
+    "locator": "data/maps/headers; data/maps/objects; data/maps/scripts; data/maps/blocks/Route2.blk; gfx/blocksets/overworld.bst; gfx/overworld.png",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-capabilities",
+    "title": "Field moves, badges, and overworld access checks",
+    "locator": "data/maps/scripts; engine/events; data/items/use_overworld.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/engine/events",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-items",
+    "title": "Item pickups, marts, key items, and fossils",
+    "locator": "data/items; data/events/hidden_item_coords.asm; data/maps/objects",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/items",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-choices",
+    "title": "Starter, Eevee, dojo, fossil, and Game Corner choices",
+    "locator": "data/maps/scripts; data/events/prizes.asm; data/events/prize_mon_levels.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/events",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-encounters",
+    "title": "Pokémon Red encounter, gift, prize, and NPC trade sources",
+    "locator": "data/wild/grass_water.asm; data/wild/probabilities.asm; data/wild/good_rod.asm; data/wild/super_rod.asm; data/wild/maps; data/events/trades.asm; data/events/prizes.asm; data/events/prize_mon_levels.asm; data/maps/objects/PowerPlant.asm; scripts/PowerPlant.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/wild",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-breeding",
+    "title": "Breeding support check",
+    "locator": "No breeding system exists in Generation I; reviewed against the Red/Blue game source",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-evolutions",
+    "title": "Level and item evolution data",
+    "locator": "data/pokemon/evos_moves.asm; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "red-exclusions",
+    "title": "Version exclusives and external Mew distribution",
+    "locator": "data/wild/maps; data/maps/scripts; data/pokemon/mew.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "gold-species",
+    "title": "Gold species types, gender ratios and Egg Groups",
+    "locator": "data/pokemon/base_stats.asm and data/pokemon/base_stats/*.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon/base_stats",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-dex",
+    "title": "Gold Pokédex order and species list",
+    "locator": "data/pokemon/dex_order_new.asm and constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-type-chart",
+    "title": "Generation II type matchups",
+    "locator": "data/types/type_matchups.asm and engine/pokemon/types.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/types",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-encounters",
+    "title": "Gold wild encounters, fishing, swarms and roaming species",
+    "locator": "data/wild/johto_grass.asm, data/wild/kanto_grass.asm, data/wild/johto_water.asm, data/wild/kanto_water.asm, data/wild/fish.asm, data/wild/swarm_grass.asm, data/wild/swarm_water.asm, data/wild/roammon_maps.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-headbutt-contest",
+    "title": "Headbutt encounters and Bug-Catching Contest species",
+    "locator": "data/wild/treemons.asm, data/wild/treemon_maps.asm, data/wild/bug_contest_mons.asm, engine/events/treemons.asm, engine/overworld/events.asm, engine/events/bug_contest",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/wild",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-progression",
+    "title": "Gold story, route and event scripts",
+    "locator": "maps/*.asm and data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-bosses",
+    "title": "Gold Gym, Elite Four, Champion and Red teams",
+    "locator": "data/trainers/leaders.asm and data/trainers/parties.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/trainers",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-evolutions",
+    "title": "Gold evolution triggers and levels",
+    "locator": "data/pokemon/evos_attacks.asm and engine/pokemon/evolve.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-breeding",
+    "title": "Gold breeding, offspring and egg levels",
+    "locator": "engine/pokemon/breeding.asm, engine/events/daycare.asm and maps/Daycare.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-items",
+    "title": "Gold item placements, marts, berry trees and key items",
+    "locator": "maps/*.asm, data/items/marts.asm, data/items/fruit_trees.asm and constants/item_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/items",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-trades",
+    "title": "Gold in-game NPC trades",
+    "locator": "data/events/npc_trades.asm, constants/npc_trade_constants.asm and maps/*.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/events/npc_trades.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-choices",
+    "title": "Gold starter and one-time Pokémon choices",
+    "locator": "maps/NewBarkTown.asm, maps/SilverCaveRoom1.asm and event scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-time",
+    "title": "Gold time, weekday, swarm, phone and evolution conditions",
+    "locator": "home/time.asm, engine/events/checktime.asm, engine/pokemon/evolve.asm and engine/phone/phone.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-hatch",
+    "title": "Gold egg hatch level and hatch handling",
+    "locator": "engine/pokemon/breeding.asm and engine/events/happiness_egg.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon/breeding.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "gold-exclusions",
+    "title": "Gold version, trade and event acquisition limits",
+    "locator": "data/wild/*.asm, data/pokemon/evos_attacks.asm, data/events/npc_trades.asm and event scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "ruby-game",
+    "title": "Pokémon Ruby identity and game version",
+    "locator": "config.mk",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/config.mk",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-profiles",
+    "title": "Ruby species, types, genders, Egg Groups, and species IDs",
+    "locator": "src/data/pokemon/base_stats.h; include/constants/species.h",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-dex",
+    "title": "Ruby Hoenn Pokédex order",
+    "locator": "include/constants/species.h; src/pokemon_1.c; include/pokedex.h",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-type-chart",
+    "title": "Ruby Generation III type effectiveness",
+    "locator": "data/type_effectiveness.inc",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/type_effectiveness.inc",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-progression",
+    "title": "Ruby story flags, access events, and ordinary postgame events",
+    "locator": "data/maps/*/scripts.inc; data/scripts/; data/event_scripts.s",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-bosses",
+    "title": "Ruby Gym, rival, villain, and League parties",
+    "locator": "src/data/trainer_parties.h; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/trainer_parties.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-locations",
+    "title": "Ruby map identities and region layout",
+    "locator": "data/maps/*/map.json; data/maps/map_groups.json",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-capabilities",
+    "title": "Ruby field moves and overworld capability scripts",
+    "locator": "data/field_move_scripts.inc; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-items",
+    "title": "Ruby item pickups, key items, and item gates",
+    "locator": "data/item_ball_scripts.inc; data/maps/Route111/scripts.inc; data/maps/MauvilleCity/scripts.inc; data/maps/NewMauville_Inside/scripts.inc; data/maps/Route121_SafariZoneEntrance/scripts.inc; data/maps/LilycoveCity_DepartmentStore_5F/scripts.inc; data/maps/SlateportCity_ContestLobby/scripts.inc; data/maps/*/scripts.inc; include/constants/items.h",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/item_ball_scripts.inc",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-choices",
+    "title": "Ruby one-time starter, fossil, and story choices",
+    "locator": "data/maps/Route111/scripts.inc; data/maps/SlateportCity_Harbor/scripts.inc; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-encounters",
+    "title": "Ruby wild encounter tables and encounter methods",
+    "locator": "src/data/wild_encounters.json; src/wild_encounter.c; src/time_events.c; data/maps/Route130/scripts.inc; data/maps/PacifidlogTown_House5/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-gifts-trades",
+    "title": "Ruby gift Pokémon, in-game trades, and static encounters",
+    "locator": "src/trade.c; data/maps/RustboroCity_House1/scripts.inc; data/maps/FortreeCity_House1/scripts.inc; data/maps/PacifidlogTown_House3/scripts.inc; data/maps/Route111/scripts.inc; data/maps/RustboroCity_DevonCorp_2F/scripts.inc; data/maps/*/scripts.inc; include/trade.h; src/roamer.c; data/scripts/tv.inc; data/maps/LilycoveCity_Harbor/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/trade.c#L851-L883",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-evolutions",
+    "title": "Ruby evolution methods, levels, and conditions",
+    "locator": "src/data/pokemon/evolution.h; src/pokemon_1.c; src/evolution_scene.c",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon/evolution.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-breeding",
+    "title": "Ruby Day Care compatibility, offspring, and hatch level",
+    "locator": "src/daycare.c; include/daycare.h; src/data/pokemon/base_stats.h",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/daycare.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "ruby-exclusions",
+    "title": "Ruby version and distribution availability boundaries",
+    "locator": "config.mk; data/maps/*/scripts.inc; src/mystery_event_script.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-species",
+    "title": "Sapphire species types, genders and Egg Groups",
+    "locator": "src/data/pokemon/base_stats.h and include/constants/species.h",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-dex",
+    "title": "Sapphire Hoenn and National Pokédex species order",
+    "locator": "include/constants/species.h; Hoenn dex constants and national dex constants",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/constants/species.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-type-chart",
+    "title": "Generation III type effectiveness",
+    "locator": "src/battle_util.c and battle damage type-effectiveness handling",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_util.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-encounters",
+    "title": "Sapphire wild encounter tables",
+    "locator": "src/data/wild_encounters.json and src/wild_encounter.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-progression",
+    "title": "Sapphire route, story and event scripts",
+    "locator": "data/maps/Route101 through Route134 scripts and map files; story map scripts; data/scripts/hall_of_fame.inc; data/scripts/tv.inc; data/event_scripts.s; src/field_control_avatar.c; src/pokemon_menu.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-bosses",
+    "title": "Sapphire Gym, Aqua, Elite Four and Champion parties",
+    "locator": "src/data/trainer_parties.h and trainer constants",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/trainer_parties.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-evolutions",
+    "title": "Sapphire evolution triggers and conditions",
+    "locator": "src/data/pokemon/evolution.h; src/pokemon_3.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/pokemon",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-breeding",
+    "title": "Sapphire breeding compatibility and offspring rules",
+    "locator": "src/daycare.c and src/data/pokemon/base_stats.h",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/daycare.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-hatch",
+    "title": "Sapphire egg hatch level",
+    "locator": "include/daycare.h (EGG_HATCH_LEVEL)",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/daycare.h",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-items",
+    "title": "Sapphire item identities and placements",
+    "locator": "include/constants/items.h; data/item_ball_scripts.inc; data/maps/*/scripts.inc; shop inventories",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-trades",
+    "title": "Sapphire NPC trade offers and requirements",
+    "locator": "data/maps/*/scripts.inc; src/trader.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-choices",
+    "title": "Sapphire starters, fossils, one-time gifts and version choice",
+    "locator": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc; Route111 desert scripts; Route114 Fossil Maniac scripts; postgame scripts",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-postgame",
+    "title": "Sapphire postgame access, roamer and ordinary legendary events",
+    "locator": "data/scripts/hall_of_fame.inc; data/scripts/tv.inc; data/maps/*/scripts.inc; src/time_events.c; src/roamer.c",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-feebas",
+    "title": "Feebas fishing checks and Route 119 fishing spot rules",
+    "locator": "src/wild_encounter.c (CheckFeebas and FishingWildEncounter); data/maps/Route119",
+    "url": "https://github.com/pret/pokeruby/blob/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/wild_encounter.c",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-mirage-island",
+    "title": "Mirage Island daily personality check and encounter access",
+    "locator": "src/time_events.c; data/maps/Route130/scripts.inc; data/maps/PacifidlogTown_House5/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "sapphire-regi-puzzle",
+    "title": "Sealed Chamber and Regi unlock party requirements",
+    "locator": "data/maps/Underwater_Route134/scripts.inc; data/maps/SealedChamber_OuterRoom/scripts.inc; data/maps/SealedChamber_InnerRoom/scripts.inc",
+    "url": "https://github.com/pret/pokeruby/tree/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps",
+    "revision": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f"
+  },
+  {
+    "id": "silver-species",
+    "title": "Silver species types, gender ratios and Egg Groups",
+    "locator": "data/pokemon/base_stats.asm and data/pokemon/base_stats/*.asm; review Silver conditionals",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon/base_stats",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-dex",
+    "title": "Silver Pokédex order and species list",
+    "locator": "data/pokemon/dex_order_new.asm and constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-type-chart",
+    "title": "Generation II type matchups in Silver",
+    "locator": "data/types/type_matchups.asm and engine/pokemon/types.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/types",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-encounters",
+    "title": "Silver land, water and fishing encounters",
+    "locator": "data/wild/johto_grass.asm, data/wild/kanto_grass.asm, data/wild/johto_water.asm, data/wild/kanto_water.asm, data/wild/fish.asm, data/wild/probabilities.asm, data/maps/maps.asm and Silver-specific conditionals",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/wild",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-special-encounters",
+    "title": "Silver Headbutt, Bug-Catching Contest, swarm and roaming encounters",
+    "locator": "data/wild/treemons.asm, data/wild/treemon_maps.asm, data/wild/bug_contest_mons.asm, data/wild/swarm_grass.asm, data/wild/swarm_water.asm, data/wild/roammon_maps.asm, engine/events/treemons.asm, engine/overworld/wildmons.asm and their map/event handlers",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/wild",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-progression",
+    "title": "Silver Johto and Kanto story, route and event scripts",
+    "locator": "maps/*.asm and data/maps/scripts.asm; check Silver-specific map and script conditionals",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-bosses",
+    "title": "Silver Gym, Elite Four, Champion and Red teams",
+    "locator": "data/trainers/leaders.asm and data/trainers/parties.asm; select Silver trainer parties",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/trainers",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-evolutions",
+    "title": "Silver evolution triggers, levels and conditions",
+    "locator": "data/pokemon/evos_attacks.asm and engine/pokemon/evolve.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-breeding",
+    "title": "Silver breeding, offspring, compatibility and Day Care access",
+    "locator": "engine/pokemon/breeding.asm, engine/events/daycare.asm and maps/Daycare.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-items",
+    "title": "Silver item placements, marts, fruit trees and key items",
+    "locator": "maps/*.asm, data/items/marts.asm, data/items/fruit_trees.asm and constants/item_constants.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/items",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-trades",
+    "title": "Silver in-game NPC trades",
+    "locator": "data/events/npc_trades.asm, constants/npc_trade_constants.asm and Silver trade scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/data/events/npc_trades.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-choices",
+    "title": "Silver starter, one-time gifts and choice events",
+    "locator": "maps/NewBarkTown.asm, maps/SilverCaveRoom1.asm and one-time event scripts under maps/",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/maps",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-time",
+    "title": "Silver clock, weekday, swarm, phone and timed evolution rules",
+    "locator": "home/time.asm, engine/events/checktime.asm, engine/pokemon/evolve.asm and engine/phone/phone.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-hatch",
+    "title": "Silver egg hatch level and hatch handling",
+    "locator": "engine/pokemon/breeding.asm and engine/events/happiness_egg.asm",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8/engine/pokemon/breeding.asm",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "silver-exclusions",
+    "title": "Silver version, player-trade and external-event acquisition limits",
+    "locator": "Silver-specific data/wild/*.asm, data/pokemon/evos_attacks.asm, data/events/npc_trades.asm and map event scripts",
+    "url": "https://github.com/pret/pokegold/tree/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+    "revision": "ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8"
+  },
+  {
+    "id": "crystal-species",
+    "title": "Crystal species types, gender ratios, Egg Groups and regional Pokédex",
+    "locator": "data/pokemon/base_stats.asm; data/pokemon/names.asm; data/pokemon/dex_order_new.asm; constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/pokemon",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-type-chart",
+    "title": "Generation II type chart and type effectiveness",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm; engine/pokemon/types.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/types",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-game",
+    "title": "Crystal version identity and game constants",
+    "locator": "README.md; constants/pokemon_constants.asm; constants/map_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-progression",
+    "title": "Crystal story flags, routes, events and postgame progression",
+    "locator": "data/maps/maps.asm; data/maps/scripts.asm; data/maps/map_data.asm; maps/*.asm; constants/event_flags.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/maps",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-bosses",
+    "title": "Crystal Gym, Elite Four, Champion and Red parties",
+    "locator": "data/trainers/leaders.asm; data/trainers/parties.asm; maps/*.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/trainers",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-locations",
+    "title": "Crystal map identities and map access scripts",
+    "locator": "data/maps/attributes.asm; data/maps/maps.asm; data/maps/map_data.asm; maps/*.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/maps",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-capabilities",
+    "title": "Crystal field moves, badges and overworld checks",
+    "locator": "engine/events/field_moves.asm; engine/events/overworld.asm; data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/events",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-items",
+    "title": "Crystal item placements, marts, fruit trees and key items",
+    "locator": "data/items/marts.asm; data/items/fruit_trees.asm; maps/*.asm; data/maps/scripts.asm; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/items",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-choices",
+    "title": "Crystal starter, one-time gifts, Odd Egg and Kanto starter choices",
+    "locator": "maps/NewBarkTown.asm; maps/GoldenrodCity.asm; maps/OaksLab.asm; data/events/odd_eggs.asm; data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/maps",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-encounters",
+    "title": "Crystal Johto and Kanto encounters, fishing, Headbutt, swarms and roaming Pokémon",
+    "locator": "data/wild/johto_grass.asm; data/wild/kanto_grass.asm; data/wild/johto_water.asm; data/wild/kanto_water.asm; data/wild/fish.asm; data/wild/treemons.asm; data/wild/treemon_maps.asm; data/wild/swarm_grass.asm; data/wild/swarm_water.asm; data/wild/roammon_maps.asm; data/wild/bug_contest_mons.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/wild",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-breeding",
+    "title": "Crystal Day-Care compatibility and offspring rules",
+    "locator": "engine/pokemon/breeding.asm; engine/events/daycare.asm; maps/Daycare.asm; data/pokemon/base_stats.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/pokemon/breeding.asm",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-hatch",
+    "title": "Crystal egg hatch level and hatch handling",
+    "locator": "engine/pokemon/breeding.asm; engine/events/happiness_egg.asm; data/events/odd_eggs.asm",
+    "url": "https://github.com/pret/pokecrystal/blob/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/pokemon/breeding.asm",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-evolutions",
+    "title": "Crystal level, item, trade, friendship, time and stat evolution rules",
+    "locator": "data/pokemon/evos_attacks.asm; engine/pokemon/evolve.asm; constants/pokemon_data_constants.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/data/pokemon",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-time",
+    "title": "Crystal clock, weekday, day-part, daily and swarm rules",
+    "locator": "home/time.asm; engine/events/checktime.asm; engine/pokemon/evolve.asm; engine/phone/phone.asm; data/wild/swarm_grass.asm; data/wild/swarm_water.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6/engine/events",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "crystal-exclusions",
+    "title": "Crystal version differences, trade evolutions and event-only access",
+    "locator": "data/wild/*.asm; data/pokemon/evos_attacks.asm; data/events/odd_eggs.asm; data/maps/scripts.asm",
+    "url": "https://github.com/pret/pokecrystal/tree/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "revision": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6"
+  },
+  {
+    "id": "blue-species",
+    "title": "Pokémon Blue species, types, and Pokédex order",
+    "locator": "data/pokemon/base_stats.asm; data/pokemon/dex_order.asm; constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-game",
+    "title": "Pokémon Blue version scope and game rules",
+    "locator": "README.md; constants/pokemon_constants.asm; constants/type_constants.asm; data/maps/headers",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-type-chart",
+    "title": "Generation I type IDs and effectiveness rules",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm; engine/battle/core.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/types",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-progression",
+    "title": "Kanto story events, badges, and map progression",
+    "locator": "scripts; data/maps/objects; constants/event_constants.asm; constants/map_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-bosses",
+    "title": "Blue Gym, Elite Four, and Champion parties",
+    "locator": "data/trainers/parties.asm; data/trainers/names.asm; data/trainers/special_moves.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/trainers",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-locations",
+    "title": "Kanto map identities and access scripts",
+    "locator": "data/maps/headers; data/maps/objects; scripts; data/maps/dungeon_maps.asm; data/maps/force_bike_surf.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-capabilities",
+    "title": "Field moves, badges, and overworld access checks",
+    "locator": "scripts; data/maps/badge_maps.asm; data/maps/force_bike_surf.asm; data/items/use_overworld.asm; constants/event_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/maps",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-items",
+    "title": "Blue item pickups, marts, key items, and fossils",
+    "locator": "data/items; data/events/hidden_item_coords.asm; data/maps/objects; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/items",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-choices",
+    "title": "Starter, Eevee, dojo, fossil, and Game Corner choices",
+    "locator": "scripts; data/events/prizes.asm; data/events/prize_mon_levels.asm; data/events/trades.asm; data/maps/objects/*Trade*.asm; data/maps/objects/PowerPlant.asm; scripts/PowerPlant.asm; data/maps/toggleable_objects.asm; constants/event_constants.asm",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/events",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-encounters",
+    "title": "Pokémon Blue wild encounter tables and methods",
+    "locator": "data/wild/probabilities.asm; data/wild/grass_water.asm; data/wild/good_rod.asm; data/wild/super_rod.asm; data/wild/maps; Blue/Red version conditionals in encounter files",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/wild",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-breeding",
+    "title": "Pokémon Blue breeding support check",
+    "locator": "No breeding system exists in Generation I; reviewed against the pinned Red/Blue game source",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-evolutions",
+    "title": "Blue level, stone, and trade evolution data",
+    "locator": "data/pokemon/evos_moves.asm; constants/item_constants.asm; scripts",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data/pokemon",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "blue-exclusions",
+    "title": "Blue version exclusives and external Mew distribution",
+    "locator": "data/wild/maps; scripts; data/pokemon/mew.asm; Blue/Red version conditionals",
+    "url": "https://github.com/pret/pokered/tree/af519899719f0754965776faac0e836a3b906e6d/data",
+    "revision": "af519899719f0754965776faac0e836a3b906e6d"
+  },
+  {
+    "id": "yellow-species",
+    "title": "Pokémon Yellow species stats, types, and Pokédex order",
+    "locator": "data/pokemon/base_stats/*.asm; constants/pokemon_constants.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/pokemon",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-game",
+    "title": "Pokémon Yellow version identity and rules",
+    "locator": "README.md; constants/pokemon_constants.asm; data/maps/headers",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-type-chart",
+    "title": "Generation I type IDs and effectiveness rules",
+    "locator": "constants/type_constants.asm; data/types/type_matchups.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/types",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-progression",
+    "title": "Story events, badge flags, and map progression",
+    "locator": "data/maps/objects; scripts; constants/event_constants.asm; data/maps/badge_maps.asm; maps.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-bosses",
+    "title": "Gym, Elite Four, and Champion parties",
+    "locator": "data/trainers/parties.asm; data/trainers/names.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/trainers",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-locations",
+    "title": "Map identities and map access scripts",
+    "locator": "data/maps/headers; data/maps/objects; scripts; maps.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-capabilities",
+    "title": "Field moves, badges, and overworld access checks",
+    "locator": "scripts; engine/items/item_effects.asm; data/items/use_overworld.asm; data/maps/badge_maps.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-items",
+    "title": "Item pickups, marts, key items, and fossils",
+    "locator": "data/items; data/events/hidden_item_coords.asm; data/maps/objects; constants/item_constants.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/items",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-choices",
+    "title": "Pikachu starter and one-time gifts, fossils, dojo, and Eevee choices",
+    "locator": "scripts; data/events/prizes.asm; data/events/prize_mon_levels.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/events",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-encounters",
+    "title": "Pokémon Yellow wild encounter tables and methods",
+    "locator": "data/wild/maps/*.asm; data/wild/probabilities.asm; data/wild/good_rod.asm; data/wild/super_rod.asm; engine/items/item_effects.asm; engine/items/super_rod.asm; constants/pokemon_data_constants.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/wild",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-breeding",
+    "title": "Breeding support check",
+    "locator": "Pokémon Yellow has no breeding system; reviewed against the pinned game source",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-evolutions",
+    "title": "Level, stone, and trade evolution data, including the starter Pikachu exception",
+    "locator": "data/pokemon/evos_moves.asm; constants/item_constants.asm; engine/items/item_effects.asm; engine/pikachu/pikachu_status.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data/pokemon",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "yellow-exclusions",
+    "title": "Native-access exclusions and external Mew distribution",
+    "locator": "data/wild/maps; scripts; data/pokemon/base_stats/mew.asm",
+    "url": "https://github.com/pret/pokeyellow/tree/e89ead154b9968aa50eed9328ff2b38b6c194382/data",
+    "revision": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  {
+    "id": "firered-species",
+    "title": "PokÃ©mon FireRed species, types, gender ratios, Egg Groups, and PokÃ©dex order",
+    "locator": "src/data/pokemon/species_info.h; src/data/pokemon/pokedex_orders.h; include/constants/pokedex.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-game",
+    "title": "PokÃ©mon FireRed version scope, unlock flags, and daycare rules",
+    "locator": "include/constants/pokedex.h; include/constants/flags.h; src/pokedex.c; data/maps/PalletTown/scripts.inc; data/scripts/day_care.inc; src/data/wild_encounters.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-type-chart",
+    "title": "Generation III types and effectiveness rules",
+    "locator": "include/constants/pokemon.h; src/battle_main.c (gTypeEffectiveness); src/battle_util.c",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-progression",
+    "title": "Kanto story flags, Gym badges, League, and Sevii post-game progression",
+    "locator": "include/constants/flags.h; data/maps/*/scripts.inc; data/maps/*/map.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-bosses",
+    "title": "Gym, Elite Four, Champion, and rival parties",
+    "locator": "src/data/trainer_parties.h; src/data/trainers.h; data/maps/*/scripts.inc",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-locations",
+    "title": "Kanto and Sevii map identities and access",
+    "locator": "data/maps/*/map.json; data/maps/*/scripts.inc; data/maps/*/text.inc; src/data/wild_encounters.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-capabilities",
+    "title": "Field moves, badges, rods, and key-item access checks",
+    "locator": "data/scripts/field_moves.inc; data/maps/*/scripts.inc; include/constants/flags.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/scripts",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-items",
+    "title": "Item definitions, map pickups, and item-gated progression",
+    "locator": "src/data/items.json; data/maps/*/scripts.inc; data/maps/*/map.json; data/scripts/item_ball_scripts.inc",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/items.json",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-choices",
+    "title": "Starter, fossil, dojo, Eevee, and one-time choices",
+    "locator": "data/maps/*/scripts.inc; src/data/wild_encounters.json; src/data/items.json",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-encounters",
+    "title": "FireRed wild, static, gift, and in-game trade sources",
+    "locator": "src/data/wild_encounters.json; data/maps/*/scripts.inc; data/maps/*/text.inc; src/data/ingame_trades.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-breeding",
+    "title": "FireRed daycare, egg, and offspring rules",
+    "locator": "data/scripts/day_care.inc; src/pokemon.c; src/data/pokemon/species_info.h; include/constants/daycare.h; src/daycare.c:GetEggSpecies, DetermineEggSpeciesAndParentSlots; Nidoran and Illumise split outcomes",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/daycare.c",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-evolutions",
+    "title": "FireRed evolution triggers and restrictions",
+    "locator": "src/data/pokemon/evolution.h; src/evolution_scene.c; src/pokemon.c; include/constants/items.h; include/constants/flags.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon/evolution.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "firered-exclusions",
+    "title": "FireRed version exclusives, National Dex restrictions, and event-only species",
+    "locator": "src/data/wild_encounters.json; data/maps/*/scripts.inc; src/pokedex.c; src/evolution_scene.c; include/constants/flags.h; src/data/pokemon/evolution.h",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-overview",
+    "title": "pret/pokefirered LeafGreen source reconstruction",
+    "locator": "Repository identity, supported ROM targets, and project scope",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-species",
+    "title": "pret/pokefirered species data",
+    "locator": "src/data/pokemon/species_info.h; LeafGreen species type, gender ratio, egg groups, and species data",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon/species_info.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-dex",
+    "title": "pret/pokefirered PokÃ©dex ordering",
+    "locator": "src/data/pokemon/pokedex_orders.h and src/data/pokemon/pokedex_entries.h; regional and National Pokedex orders and availability",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-evolution",
+    "title": "pret/pokefirered evolution data",
+    "locator": "src/data/pokemon/evolution.h; level, item, friendship, and trade evolution rules",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/pokemon/evolution.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-encounters",
+    "title": "pret/pokefirered wild encounters",
+    "locator": "src/data/wild_encounters.json; LeafGreen version encounter tables and encounter levels by map",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/wild_encounters.json",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-scripts",
+    "title": "pret/pokefirered LeafGreen map scripts and events",
+    "locator": "data/maps/*/scripts.inc and data/maps/*/map.json; inspect each Kanto and Sevii map for progression flags, gifts, static encounters, item access, and version checks",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/data/maps",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-bosses",
+    "title": "pret/pokefirered trainer parties",
+    "locator": "src/data/trainer_parties.h and data/maps/*/scripts.inc; Gym, rival, and League parties and levels",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/trainer_parties.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-items",
+    "title": "pret/pokefirered item definitions and item placements",
+    "locator": "src/data/items.json; data/maps/*/scripts.inc; item definitions, field items, shop rewards, and key item events",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/items.json",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-type-chart",
+    "title": "pret/pokefirered battle type rules",
+    "locator": "src/battle_util.c and include/constants/battle.h; Generation III type effectiveness values",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/src",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-version",
+    "title": "pret/pokefirered version-specific rules",
+    "locator": "include/constants/flags.h; include/constants/species.h; data/maps/*/scripts.inc; LeafGreen version flags and version-exclusive gifts/encounters",
+    "url": "https://github.com/pret/pokefirered/tree/037335f4c725d7c9aecdac87066f2002b4bd7e14/include/constants",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-daycare",
+    "title": "pret/pokefirered breeding rules",
+    "locator": "src/daycare.c and include/constants/daycare.h; breeding, egg creation, compatibility, and hatch rules",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/daycare.c",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-trades",
+    "title": "LeafGreen in-game trades",
+    "locator": "src/data/ingame_trades.h; data/maps/*/scripts.inc; requested and received species for all nine NPC trades",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/data/ingame_trades.h",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "leafgreen-roamers",
+    "title": "LeafGreen roaming beasts",
+    "locator": "src/roamer.c; data/maps/OneIsland_PokemonCenter_1F/scripts.inc; level, starter mapping, roaming region, and Sapphire-return release event",
+    "url": "https://github.com/pret/pokefirered/blob/037335f4c725d7c9aecdac87066f2002b4bd7e14/src/roamer.c",
+    "revision": "037335f4c725d7c9aecdac87066f2002b4bd7e14"
+  },
+  {
+    "id": "generation-iv-identities",
+    "title": "Generation IV National Pokédex species identities",
+    "locator": "generated/species.txt indices 387–493; res/pokemon/<species>/data.json pokedex_data/en/name. All 107 new species reviewed in National Dex order. Forms keep one species identity.",
+    "url": "https://github.com/pret/pokeplatinum/blob/fe1ea418a7364c93daf0d07ae55e195452d8803c/generated/species.txt",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c"
+  },
+  {
+    "id": "generation-v-identities",
+    "title": "Generation V National Pokédex species identities",
+    "locator": "PKHeX.Core/Game/Enums/Species.cs values 494–649; PKHeX.Core/Legality/Legal.cs MaxSpeciesID_4 and MaxSpeciesID_5. All 156 new species reviewed in National Dex order.",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Game/Enums/Species.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "generation-vi-identities",
+    "title": "Generation VI National Pokédex species identities",
+    "locator": "PKHeX.Core/Game/Enums/Species.cs values 650–721; PKHeX.Core/Legality/Legal.cs MaxSpeciesID_5 and MaxSpeciesID_6. Flabébé keeps its English accents and uses the stable ASCII ID flabebe. Forms keep one species identity.",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Game/Enums/Species.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "diamond-trainers",
+    "title": "Diamond trainer parties and trainer identifiers",
+    "locator": "files/poketool/trainer/, arm9/src/trainer_data.c, include/constants/trainers.h",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "pearl-bosses",
+    "title": "Pearl Gym and League trainer parties",
+    "locator": "files/poketool/trainer/trdata.json, entries #246, #315-320, #250, #261-264, and #267; include/constants/badge.h assigns Gym badge order; arm9/src/trainer_data.c reads NARC_POKETOOL_TRAINER_TRDATA (NARC 57) and TRPOKE (NARC 58), while include/filesystem.h assigns these archive IDs",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290/files/poketool/trainer",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "platinum-bosses",
+    "title": "Pokémon Platinum trainer parties and Gym events",
+    "url": "https://github.com/pret/pokeplatinum/tree/fe1ea418a7364c93daf0d07ae55e195452d8803c/res/trainers/data",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "locator": "Version-specific leader, Elite Four, and Champion party JSON; cross-check Gym scripts for badge events."
+  },
+  {
+    "id": "platinum-breeding",
+    "title": "Pokémon Platinum breeding and Day Care rules",
+    "url": "https://github.com/pret/pokeplatinum/blob/fe1ea418a7364c93daf0d07ae55e195452d8803c/src/overlay005/daycare.c",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "locator": "Day Care compatibility and offspring selection; cross-check species data and hatch code for incense and hatch level."
+  },
+  {
+    "id": "platinum-game",
+    "title": "Pokémon Platinum game and story data",
+    "url": "https://github.com/pret/pokeplatinum/tree/fe1ea418a7364c93daf0d07ae55e195452d8803c/res/field/scripts",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "locator": "Pinned Platinum field scripts and map script assignments; game identity, story flags, gifts, and postgame events."
+  },
+  {
+    "id": "platinum-type-chart",
+    "title": "Pokémon Platinum type effectiveness",
+    "url": "https://github.com/pret/pokeplatinum/blob/fe1ea418a7364c93daf0d07ae55e195452d8803c/src/battle/battle_lib.c",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "locator": "Type effectiveness table near lines 2380-2510; verify every pair and type order."
+  },
+  {
+    "id": "heartgold-source",
+    "title": "Pokémon HeartGold source reconstruction",
+    "url": "https://github.com/pret/pokeheartgold/tree/53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
+    "revision": "53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
+    "locator": "README.md; include/constants/species.h; src/battle/overlay_12_0224E4FC.c; files/poketool/trainer/trainers.json; files/poketool/personal/personal.json; files/poketool/personal/evo.json; src/get_egg.c; files/fielddata/{script,eventdata,encountdata}; files/itemtool/itemdata"
+  },
+  {
+    "id": "soulsilver-pret-2026-10-13",
+    "title": "pret/pokeheartgold: HeartGold and SoulSilver decompilation",
+    "url": "https://github.com/pret/pokeheartgold/tree/53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
+    "revision": "53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
+    "locator": "src/battle/overlay_12_0224E4FC.c sTypeEffectiveness; include/constants/pokemon.h type IDs; all 17 by 17 maintained chart cells checked against the pinned sparse table"
+  },
+  {
+    "id": "black-bosses",
+    "title": "Black and White Gym Leaders and Elite Four",
+    "locator": "Gym Leaders: sections Gym #1–#8; Elite Four #1–#4; Other trainers: N and Ghetsis",
+    "url": "https://pokemondb.net/black-white/gymleaders-elitefour"
+  },
+  {
+    "id": "black-launch-observation",
+    "title": "Pokémon Black and White game coverage (launch-era observations)",
+    "locator": "Game Coverage, lines headed Gym Leader data and Elite Four data, 2010-09",
+    "url": "https://www.pokebeach.com/2010/09/pokemon-black-and-white-game-coverage-begins"
+  },
+  {
+    "id": "black-type-chart",
+    "title": "Type chart",
+    "locator": "Between Generations V and VI; 17-type Generation V matchup matrix",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart"
+  },
+  {
+    "id": "black-type-chart-crosscheck",
+    "title": "PokéAPI type data",
+    "locator": "Type records 1–17; Generation V past_damage_relations",
+    "url": "https://pokeapi.co/api/v2/type/"
+  },
+  {
+    "id": "white-bosses",
+    "title": "Pokémon White Gym, Elite Four, and story-final trainer levels",
+    "locator": "Game-specific documented parties cross-checked against Bulbapedia for boss identities and story order; no reconstruction locator verified",
+    "url": "https://pokejungle.net/pokemon-black-white-black-2-and-white-2/gym-leaders-elite-4-and-champions/",
+    "revision": "reviewed 2026-10-13; web guide has no immutable revision"
+  },
+  {
+    "id": "white-type-chart",
+    "title": "Generation V type effectiveness chart",
+    "locator": "Generations II-V chart; Gen V has 17 types, before Fairy and before Gen VI Steel matchup changes",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type_chart_(Generation_II-IV)",
+    "revision": "reviewed 2026-10-13; web page has no immutable revision"
+  },
+  {
+    "id": "black-2-bosses",
+    "title": "Black 2 first-run boss parties",
+    "locator": "Gym #1–#8; Elite Four #1–#4; Champion Iris; Other trainers → Team Plasma Ghetsis",
+    "url": "https://pokemondb.net/black-white-2/gymleaders-elitefour"
+  },
+  {
+    "id": "black-2-bulbapedia-type-chart",
+    "title": "Generation II–V type chart boundary",
+    "locator": "Type chart used from Generation II to Generation V; changes between Generations V and VI",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart"
+  },
+  {
+    "id": "black-2-serebii-bosses",
+    "title": "Black 2/White 2 Elite Four and Champion parties",
+    "locator": "Elite #1–#4 and Champion Iris; standard mode",
+    "url": "https://www.serebii.net/black2white2/elitefour.shtml"
+  },
+  {
+    "id": "black-2-serebii-gyms",
+    "title": "Black 2/White 2 Gym parties",
+    "locator": "Gym #1–#8; standard parties",
+    "url": "https://www.serebii.net/black2white2/gyms.shtml"
+  },
+  {
+    "id": "black-2-type-chart",
+    "title": "Generation 2–5 type chart",
+    "locator": "Generation 2-5 type chart table; 17 attacking and defending types",
+    "url": "https://pokemondb.net/type/old"
+  },
+  {
+    "id": "white-2-trainers",
+    "title": "Pokémon Black 2 & White 2 Gyms and Pokémon Database Gym/League tables",
+    "url": "https://www.serebii.net/black2white2/gyms.shtml",
+    "locator": "Serebii Gym 1-8 normal-mode party level sections; cross-check https://pokemondb.net/black-white-2/gymleaders-elitefour sections Gym Leaders and Elite Four"
+  },
+  {
+    "id": "white-2-type-chart",
+    "title": "Type/Type chart; Smogon Black/White reference",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart",
+    "locator": "Generations II-V table (17 types), lines/section: Generation II through V; cross-check https://www.smogon.com/bw/ Types"
+  },
+  {
+    "id": "x-bosses",
+    "title": "Pokemon X and Y Gym Leaders and Elite Four",
+    "url": "https://www.serebii.net/xy/gyms.shtml",
+    "revision": "checked 2026-10-13",
+    "locator": "Gym #1-8, lines 393-626; cross-check teams and levels at https://pokemondb.net/x-y/gymleaders-elitefour, lines 87-248"
+  },
+  {
+    "id": "x-story-boss",
+    "title": "Pokemon X and Y Team Flare HQ",
+    "url": "https://www.serebii.net/pokearth/kalos/teamflarehq.shtml",
+    "revision": "checked 2026-10-13",
+    "locator": "Final Xerneas room, lines 447-456; cross-check https://www.serebii.net/xy/teamflare.shtml, lines 412-425"
+  },
+  {
+    "id": "x-type-chart",
+    "title": "Generation VI type chart",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart",
+    "revision": "checked 2026-10-13",
+    "locator": "Generation VI onward table and Gen V-VI changes; cross-check complete current chart at https://pokemondb.net/type, lines 80-124"
+  },
+  {
+    "id": "y-bosses",
+    "title": "Pokémon X and Y Gym Leaders and Elite Four",
+    "url": "https://www.dittobase.com/x-y/gym-leaders-elite-four",
+    "locator": "Gym Leaders lines 45 onward; Elite Four lines 127 onward; first-clear teams"
+  },
+  {
+    "id": "y-type-chart",
+    "title": "Type/Type chart",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart",
+    "locator": "Generation VI onward complete matchup chart and changes from Generations V to VI"
+  },
+  {
+    "id": "omega-ruby-bosses",
+    "title": "Pokémon Omega Ruby & Alpha Sapphire Gym Leaders and Elite Four",
+    "locator": "Serebii ORAS Gym Leaders, Gym 1-8 first battle party level rows; Elite Four, first League battle party level rows; cross-check Roxanne in Bulbapedia ORAS walkthrough Section 2",
+    "url": "https://www.serebii.net/omegarubyalphasapphire/gyms.shtml",
+    "revision": "Unversioned specialist reference, reviewed 2026-10-13; cross-check source pinned at 3a766f2cfb5e51c1e428cfe87d0dba91a8f01640"
+  },
+  {
+    "id": "omega-ruby-type-chart",
+    "title": "Generation VI type chart",
+    "locator": "Pokémon Database Gen 6+ 18-type matrix; independently compare each interaction with Pokémon Showdown data/typechart.ts",
+    "url": "https://pokemondb.net/type",
+    "revision": "Unversioned specialist reference, reviewed 2026-10-13"
+  },
+  {
+    "id": "platinum-profiles",
+    "title": "Pokémon Platinum species records",
+    "url": "https://github.com/pret/pokeplatinum/tree/fe1ea418a7364c93daf0d07ae55e195452d8803c/res/pokemon",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "locator": "Per-species data.json records for types, gender ratios and Egg Groups; cross-check form data and evolution fields."
+  },
+  {
+    "id": "white-personal-data",
+    "title": "Pokémon White personal data: types, genders, and Egg Groups",
+    "locator": "PKHeX.Core/Resources/byte/personal/personal_bw; offsets and record size in PKHeX.Core/PersonalInfo/Info/PersonalInfo5BW.cs; BW form handling in PKHeX.Core/PersonalInfo/Table/PersonalTable5BW.cs",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "y-pkhex-personal",
+    "title": "PKHeX Generation VI Pokémon personal table and record definitions",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "PKHeX.Core/Resources/byte/personal/personal_xy; PKHeX.Core/PersonalInfo/Table/PersonalTable6XY.cs; PKHeX.Core/PersonalInfo/Info/PersonalInfo6XY.cs; PKHeX.Core/Game/Enums/MoveType.cs; PKHeX.Core/PersonalInfo/Enums/EggGroup.cs"
+  },
+  {
+    "id": "alpha-sapphire-bosses",
+    "title": "Pokémon Omega Ruby & Alpha Sapphire: Gym Leaders",
+    "url": "https://www.serebii.net/omegarubyalphasapphire/gyms.shtml",
+    "revision": "live page checked 2026-10-13",
+    "locator": "Gym and League first-run highest party levels"
+  },
+  {
+    "id": "alpha-sapphire-hoenn-dex",
+    "title": "Pokémon Omega Ruby & Alpha Sapphire: Hoenn Pokédex",
+    "url": "https://www.serebii.net/omegarubyalphasapphire/hoenndex.shtml",
+    "revision": "live page checked 2026-10-13",
+    "locator": "Hoenn regional numbers #001–#211 and National Dex species links"
+  },
+  {
+    "id": "alpha-sapphire-pkhex",
+    "title": "PKHeX: Alpha/Omega personal data and record layout",
+    "url": "https://github.com/kwsch/PKHeX",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "PKHeX.Core/PersonalInfo/Info/PersonalInfo6AO.cs; PKHeX.Core/PersonalInfo/Table/PersonalTable6AO.cs; PKHeX.Core/Resources/byte/personal/personal_ao; record offsets 0x06–0x07 types, 0x12 gender, 0x16–0x17 Egg Groups"
+  },
+  {
+    "id": "alpha-sapphire-type-chart",
+    "title": "Type/Type chart: Generation VI onward",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart",
+    "revision": "live page checked 2026-10-13",
+    "locator": "Generation VI onward full type chart and changes from Generation V"
+  },
+  {
+    "id": "x-type-chart-code-review",
+    "title": "x Generation VI type chart code review",
+    "locator": "data/typechart.ts damageTaken mapping: 0 neutral, 1 weak, 2 resist, 3 immune. All 324 pairs checked; only the game's 18 types are used. Review corrected reversed Fairy pairs and old Steel resistances.",
+    "url": "https://github.com/smogon/pokemon-showdown/blob/3a766f2cfb5e51c1e428cfe87d0dba91a8f01640/data/typechart.ts",
+    "revision": "3a766f2cfb5e51c1e428cfe87d0dba91a8f01640"
+  },
+  {
+    "id": "y-type-chart-code-review",
+    "title": "y Generation VI type chart code review",
+    "locator": "data/typechart.ts damageTaken mapping: 0 neutral, 1 weak, 2 resist, 3 immune. All 324 pairs checked; only the game's 18 types are used. Review corrected reversed Fairy pairs and old Steel resistances.",
+    "url": "https://github.com/smogon/pokemon-showdown/blob/3a766f2cfb5e51c1e428cfe87d0dba91a8f01640/data/typechart.ts",
+    "revision": "3a766f2cfb5e51c1e428cfe87d0dba91a8f01640"
+  },
+  {
+    "id": "omega-ruby-type-chart-code-review",
+    "title": "omega-ruby Generation VI type chart code review",
+    "locator": "data/typechart.ts damageTaken mapping: 0 neutral, 1 weak, 2 resist, 3 immune. All 324 pairs checked; only the game's 18 types are used. Review corrected reversed Fairy pairs and old Steel resistances.",
+    "url": "https://github.com/smogon/pokemon-showdown/blob/3a766f2cfb5e51c1e428cfe87d0dba91a8f01640/data/typechart.ts",
+    "revision": "3a766f2cfb5e51c1e428cfe87d0dba91a8f01640"
+  },
+  {
+    "id": "alpha-sapphire-type-chart-code-review",
+    "title": "alpha-sapphire Generation VI type chart code review",
+    "locator": "data/typechart.ts damageTaken mapping: 0 neutral, 1 weak, 2 resist, 3 immune. All 324 pairs checked; only the game's 18 types are used. Review corrected reversed Fairy pairs and old Steel resistances.",
+    "url": "https://github.com/smogon/pokemon-showdown/blob/3a766f2cfb5e51c1e428cfe87d0dba91a8f01640/data/typechart.ts",
+    "revision": "3a766f2cfb5e51c1e428cfe87d0dba91a8f01640"
+  },
+  {
+    "id": "diamond-pkhex-personal",
+    "title": "PKHeX Generation IV Diamond/Pearl personal table",
+    "locator": "PKHeX.Core/PersonalInfo/PersonalTable.cs PersonalTable.DP; PKHeX.Core/Resources/byte/personal/personal_dp; PKHeX.Core/PersonalInfo/Info/PersonalInfo4.cs",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "diamond-species",
+    "title": "Pokémon Diamond species personal records",
+    "locator": "files/poketool/personal/personal.json baseStats[1..493]; include/constants/pokemon.h type and Egg Group IDs",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "diamond-type-chart-code-review",
+    "title": "Generation IV battle type chart source review",
+    "locator": "src/battle/overlay_12_0224E4FC.c, sTypeEffectiveness; compare all 289 pairs with pret/pokeplatinum fe1ea418a7364c93daf0d07ae55e195452d8803c src/battle/battle_lib.c; unspecified pairs are neutral",
+    "url": "https://github.com/pret/pokeheartgold/blob/53dded53802b237d39fabfd8ee396fe9cdc8aa3e/src/battle/overlay_12_0224E4FC.c",
+    "revision": "53dded53802b237d39fabfd8ee396fe9cdc8aa3e"
+  },
+  {
+    "id": "pearl-personal-data",
+    "title": "Pokémon Pearl species types, gender ratios, and Egg Groups",
+    "locator": "files/poketool/personal_pearl/personal.json: baseStats[1..493], fields species, types, genderRatio, eggGroups; row index matches National Dex. genderRatio 2.0 is genderless, 0.0 male-only, 1.0 female-only, intermediate values both.",
+    "url": "https://github.com/pret/pokediamond/blob/b623abef1b4dfe204ca50aab42447ac00c134290/files/poketool/personal_pearl/personal.json",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "pearl-type-chart",
+    "title": "Generation IV type effectiveness used by Pokémon Pearl",
+    "locator": "Generations II–V chart, all 17 types and 289 matchups; Steel retains Ghost and Dark resistances.",
+    "url": "https://pokemondb.net/type/old",
+    "revision": "Reviewed 2026-10-13; unversioned page"
+  },
+  {
+    "id": "soulsilver-bosses",
+    "title": "SoulSilver first Johto Gym and League trainer parties",
+    "locator": "files/poketool/trainer/trainers.json trainers[20,21,30,31,34,33,32,35,245,247,418,246,244].party[].level; first Johto Gym and League battles; badge order and trainer class identify the leaders",
+    "url": "https://github.com/pret/pokeheartgold/blob/53dded53802b237d39fabfd8ee396fe9cdc8aa3e/files/poketool/trainer/trainers.json",
+    "revision": "53dded53802b237d39fabfd8ee396fe9cdc8aa3e"
+  },
+  {
+    "id": "black-personal-table",
+    "title": "PKHeX Generation V personal records",
+    "locator": "PKHeX.Core/PersonalInfo/Table/PersonalTable5BW.cs and PKHeX.Core/PersonalInfo/Info/PersonalInfo5BW.cs; embedded Black/White personal table resource",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "black-2-personal-data",
+    "title": "PKHeX Black 2/White 2 personal data records",
+    "locator": "PersonalTable.B2W2 binding to GetTable(\"b2w2\"); PKHeX.Core/Resources/byte/personal/personal_b2w2; 709 records, 76 bytes each",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_b2w2",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "white-2-pkhex-personal",
+    "title": "PKHeX Black 2 and White 2 personal data table and record structure",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "PKHeX.Core/Resources/byte/personal/personal_b2w2: records indexed by National Dex species, base species 1-649 inspected; PKHeX.Core/PersonalInfo/PersonalTable.cs: PersonalTable.B2W2 loads GetTable(\"b2w2\"); PKHeX.Core/PKM/PK5.cs: PersonalInfo uses PersonalTable.B2W2.GetFormEntry(Species, Form); PKHeX.Core/PersonalInfo/Info/PersonalInfo5B2W2.cs: SIZE 0x4C, Type1 0x06, Type2 0x07, Gender 0x12, EggGroup1 0x16, EggGroup2 0x17, FormStatsIndex 0x1C, FormCount 0x20; PKHeX.Core/PersonalInfo/Table/PersonalTable5B2W2.cs: form index resolution"
+  },
+  {
+    "id": "x-personal-data",
+    "title": "PKHeX X/Y personal data",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "PKHeX.Core/PersonalInfo/Info/PersonalInfo6XY.cs; PKHeX.Core/PersonalInfo/PersonalTable.cs; embedded resource named personal_xy; X/Y records 1-721"
+  },
+  {
+    "id": "omega-ruby-profiles",
+    "title": "PKHeX ORAS personal data at pinned revision",
+    "locator": "PersonalTable.cs: AO = new(GetTable(\"ao\")); GetTable resolves personal_ao; Resources/byte/personal/personal_ao rows 1-721, each 0x50 bytes; PersonalInfo6AO.cs offsets 0x06 Type1, 0x07 Type2, 0x12 Gender, 0x16 EggGroup1, 0x17 EggGroup2; PKHeX.Core/Game/Enums/MoveType.cs and PKHeX.Core/PersonalInfo/Enums/EggGroup.cs",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "generation-iv-vi-egg-level",
+    "title": "Generation IV to VI native Egg hatch level",
+    "locator": "PKHeX.Core/Legality/Encounters/Templates/Gen4/EncounterEgg4.cs, Gen5/EncounterEgg5.cs and Gen6/EncounterEgg6.cs: public const byte Level = 1; LevelMin and LevelMax use Level.",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Templates",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "diamond-regional-dex-reviewed",
+    "title": "diamond regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=5"
+  },
+  {
+    "id": "pearl-regional-dex-reviewed",
+    "title": "pearl regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=5"
+  },
+  {
+    "id": "platinum-regional-dex-reviewed",
+    "title": "platinum regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=6"
+  },
+  {
+    "id": "heartgold-regional-dex-reviewed",
+    "title": "heartgold regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=7"
+  },
+  {
+    "id": "soulsilver-regional-dex-reviewed",
+    "title": "soulsilver regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=7"
+  },
+  {
+    "id": "black-regional-dex-reviewed",
+    "title": "black regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=8"
+  },
+  {
+    "id": "white-regional-dex-reviewed",
+    "title": "white regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=8"
+  },
+  {
+    "id": "black-2-regional-dex-reviewed",
+    "title": "black-2 regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=9"
+  },
+  {
+    "id": "white-2-regional-dex-reviewed",
+    "title": "white-2 regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=9"
+  },
+  {
+    "id": "omega-ruby-regional-dex-reviewed",
+    "title": "omega-ruby regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=15"
+  },
+  {
+    "id": "alpha-sapphire-regional-dex-reviewed",
+    "title": "alpha-sapphire regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=15"
+  },
+  {
+    "id": "x-regional-dex-reviewed",
+    "title": "x regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=12 (Central), 13 (Coastal), 14 (Mountain); separate sequences"
+  },
+  {
+    "id": "y-regional-dex-reviewed",
+    "title": "y regional Pokedex order at pinned PokeAPI revision",
+    "url": "https://github.com/PokeAPI/pokeapi/blob/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv/pokemon_dex_numbers.csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "data/v2/csv/pokemon_dex_numbers.csv; pokedex_id=12 (Central), 13 (Coastal), 14 (Mountain); separate sequences"
+  },
+  {
+    "id": "platinum-form-sprites",
+    "title": "Platinum alternate form images in the pinned PokeAPI sprite archive",
+    "url": "https://github.com/PokeAPI/sprites/tree/ba403973fdf9d0ac59175813861e6a1f8ed5020c/sprites/pokemon/versions/generation-iv/platinum",
+    "revision": "ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "sprites/pokemon/versions/generation-iv/platinum/: 412-sandy.png, 412-trash.png, 10004.png (Wormadam Sandy), 10005.png (Wormadam Trash), 422-east.png, 423-east.png, 10007.png (Giratina Origin). Identity cross-check: pinned PokeAPI pokemon.csv at 81d20919845b6a445969b9265aab5cec6b04cece. Native types/genders/Egg Groups: pret/pokeplatinum fe1ea418a7364c93daf0d07ae55e195452d8803c res/pokemon/ species and forms data."
+  },
+  {
+    "id": "platinum-source",
+    "title": "Reviewed native Platinum game source",
+    "url": "https://github.com/pret/pokeplatinum/tree/fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
+    "locator": "Native encounter tables, map headers and events, story and gift scripts, item sources, evolution, daycare, forms and acquisition inventory. See docs/platinum-sources.md."
+  },
+  {
+    "id": "diamond-native-progress",
+    "title": "Original Diamond and Pearl native story review",
+    "locator": "Gym scripts, HM badge checks, grant event joins and Galactic key records",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "diamond-native-wild",
+    "title": "Original DP native wild encounters",
+    "locator": "424-byte encounter members; map_header.c; overlay_06 special pools, form bytes and conditional slots",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "diamond-native-rules",
+    "title": "Original DP evolution, breeding, forms and held-item rules",
+    "locator": "personal.json, pms.json, evo.json, wotbl.json; pokemon.c:GetMonEvolution; overlay05 Day Care; overlay11 Pickup",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-1",
+    "title": "Original Diamond and Pearl walkthrough, part 1",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_1"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-2",
+    "title": "Original Diamond and Pearl walkthrough, part 2",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_2"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-3",
+    "title": "Original Diamond and Pearl walkthrough, part 3",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_3"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-4",
+    "title": "Original Diamond and Pearl walkthrough, part 4",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_4"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-5",
+    "title": "Original Diamond and Pearl walkthrough, part 5",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_5"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-6",
+    "title": "Original Diamond and Pearl walkthrough, part 6",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_6"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-7",
+    "title": "Original Diamond and Pearl walkthrough, part 7",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_7"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-8",
+    "title": "Original Diamond and Pearl walkthrough, part 8",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_8"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-9",
+    "title": "Original Diamond and Pearl walkthrough, part 9",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_9"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-10",
+    "title": "Original Diamond and Pearl walkthrough, part 10",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_10"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-11",
+    "title": "Original Diamond and Pearl walkthrough, part 11",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_11"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-12",
+    "title": "Original Diamond and Pearl walkthrough, part 12",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_12"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-13",
+    "title": "Original Diamond and Pearl walkthrough, part 13",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_13"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-14",
+    "title": "Original Diamond and Pearl walkthrough, part 14",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_14"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-15",
+    "title": "Original Diamond and Pearl walkthrough, part 15",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_15"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-16",
+    "title": "Original Diamond and Pearl walkthrough, part 16",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_16"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-17",
+    "title": "Original Diamond and Pearl walkthrough, part 17",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_17"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-18",
+    "title": "Original Diamond and Pearl walkthrough, part 18",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_18"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-19",
+    "title": "Original Diamond and Pearl walkthrough, part 19",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_19"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-20",
+    "title": "Original Diamond and Pearl walkthrough, part 20",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_20"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-21",
+    "title": "Original Diamond and Pearl walkthrough, part 21",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_21"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-22",
+    "title": "Original Diamond and Pearl walkthrough, part 22",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_22"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-23",
+    "title": "Original Diamond and Pearl walkthrough, part 23",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_23"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-24",
+    "title": "Original Diamond and Pearl walkthrough, part 24",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_24"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-25",
+    "title": "Original Diamond and Pearl walkthrough, part 25",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_25"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-26",
+    "title": "Original Diamond and Pearl walkthrough, part 26",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_26"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-28",
+    "title": "Original Diamond and Pearl walkthrough, part 28",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_28"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-29",
+    "title": "Original Diamond and Pearl walkthrough, part 29",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_29"
+  },
+  {
+    "id": "diamond-pearl-walkthrough-30",
+    "title": "Original Diamond and Pearl walkthrough, part 30",
+    "locator": "Original Nintendo DS versions; reviewed 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Diamond_and_Pearl/Part_30"
+  },
+  {
+    "id": "dp-item-locations",
+    "title": "Original Diamond/Pearl item locations",
+    "locator": "Community guides; original DS versions; checked 2026-10-19",
+    "url": "https://www.serebii.net/diamondpearl/items.shtml"
+  },
+  {
+    "id": "dp-pkhex-fixed-inventory",
+    "title": "PKHeX original DP fixed encounter inventory",
+    "locator": "Encounters4DPPt.cs: StaticDPPt, StaticDP, matching StaticD/StaticP and TradeGift_DPPt",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen4/Encounters4DPPt.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774"
+  },
+  {
+    "id": "dp-amity-square",
+    "title": "Original DP Amity Square partners and item pool",
+    "locator": "Eleven eligible species; repeatable berries; checked 2026-10-19; community source",
+    "url": "https://www.serebii.net/diamondpearl/amity.shtml"
+  },
+  {
+    "id": "dp-poffin-cooking",
+    "title": "Generation IV Poffin cooking and feeding",
+    "locator": "Dryness, nature multiplier, smoothness, sheen and solo cooking; checked 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Poffin"
+  },
+  {
+    "id": "dp-form-inheritance",
+    "title": "Original Shellos forms and evolution",
+    "locator": "East Sea Shellos to East Sea Gastrodon at level30; checked 2026-10-19; community source",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)"
+  },
+  {
+    "id": "pearl-native-progress",
+    "title": "Original Diamond and Pearl native story review",
+    "locator": "Gym scripts, HM badge checks, grant event joins and Galactic key records",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "pearl-native-wild",
+    "title": "Original DP native wild encounters",
+    "locator": "424-byte encounter members; map_header.c; overlay_06 special pools, form bytes and conditional slots",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "pearl-native-rules",
+    "title": "Original DP evolution, breeding, forms and held-item rules",
+    "locator": "personal.json, pms.json, evo.json, wotbl.json; pokemon.c:GetMonEvolution; overlay05 Day Care; overlay11 Pickup",
+    "url": "https://github.com/pret/pokediamond/tree/b623abef1b4dfe204ca50aab42447ac00c134290",
+    "revision": "b623abef1b4dfe204ca50aab42447ac00c134290"
+  },
+  {
+    "id": "xy-reviewed-story",
+    "title": "X and Y story, routes and field moves",
+    "url": "https://www.thonky.com/pokemon-x-y/",
+    "locator": "Community walkthrough; checked 2026-10-21; pages: ambrette-town, anistar-city, aquacorde-town, avance-trail, azure-bay, brun-way, camphrier-town, connecting-cave, coumarine-city, couriway-town, cyllage-city, dendemille-town, derniere-way, elite-four-champion, fourrage-road, frost-cavern, geosenge-town, glittering-cave, grande-vallee-way, gym-leader-clemont, gym-leader-grant, gym-leader-korrina, gym-leader-olympia, gym-leader-ramos, gym-leader-valerie, gym-leader-viola, gym-leader-wulfric, kalos-power-plant, laverre-city, laverre-nature-trail, lost-hotel, lumiose-badlands, lumiose-city, lumiose-city-north, lysandre-labs, mamoswine-road, melancolie-path, menhir-trail, miroir-way, muraille-coast, muraille-coast-part-2, ouvert-way, palais-lane, parfum-palace, parterre-way, poke-ball-factory, pokemon-village, post-game, reflection-cave, riviere-walk, riviere-walk-west, santalune-city, santalune-forest, shalour-city, snowbelle-city, spikes-passage, team-flare-secret-hq, tower-of-mastery-2, vallee-etroite-way, vaniville-town, versant-road, victory-road, winding-woods"
+  },
+  {
+    "id": "xy-reviewed-wild",
+    "title": "X/Y detailed native wild comparison",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "locator": "Pinned encounters, encounter_slots and location indices; PKHeX enc6_x/y raw area comparison; 3 Y horde-level disagreements and Frost Y rare-row guide disagreement retained in review notes."
+  },
+  {
+    "id": "xy-reviewed-evolution",
+    "title": "X/Y evolution tuples and method semantics",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "locator": "evos_g6.pkl native species scope and lvlmove_xy.pkl; paired PokeAPI XY evolution conditions; exact item game-index join."
+  },
+  {
+    "id": "xy-reviewed-breeding",
+    "title": "Generation VI breeding and offspring forms",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Breeding.cs",
+    "locator": "Egg Groups plus reviewed species/form inheritance and all nine incense exceptions; xy-breeding-comparison.json records the independent matrix comparison."
+  },
+  {
+    "id": "xy-reviewed-forms",
+    "title": "X/Y personal form records",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_xy",
+    "locator": "PersonalInfo6XY 0x40-byte records, form pointer at0x1c; explicit cosmetic/battle state boundary in notes."
+  },
+  {
+    "id": "xy-reviewed-fixed",
+    "title": "X/Y gifts, fixed captures, fossils, trades and Berry Fields",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6XY.cs",
+    "locator": "Encounters6XY.cs pinned inventory plus reviewed gift, legendary, fossil, hotel, weekday and berry-color sources. xy-npc-counts records finite NPC quantities."
+  },
+  {
+    "id": "xy-reviewed-items",
+    "title": "X/Y native item supplies",
+    "url": "https://www.serebii.net/xy/items.shtml",
+    "locator": "Exact source URLs and inference boundaries in xy-item-supply-check and candidate item evidence."
+  },
+  {
+    "id": "xy-reviewed-scope",
+    "title": "X/Y native offline acquisition scope",
+    "url": "https://www.serebii.net/xy/unobtainable.shtml",
+    "locator": "Full unavailable and version-exclusive inventories, all 194 pinned Friend Safari rows, native source and family closure. xy-exclusion-inventory-check.json keeps per-species evidence."
+  },
+  {
+    "id": "x-form-genders",
+    "title": "X Meowstic form genders",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_xy",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Species678: base is the male form; form ordinal1 is female. The personal gender ratio covers the species. Each selected form has its own gender. Checked2026-10-21."
+  },
+  {
+    "id": "xy-form-sprites",
+    "title": "X/Y alternate form images in the pinned PokeAPI archive",
+    "url": "https://github.com/PokeAPI/sprites/tree/ba403973fdf9d0ac59175813861e6a1f8ed5020c/sprites/pokemon",
+    "revision": "ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "Twelve sprites matched by exact pinned pokemon.csv form identifier; output/source-review/xy-form-sprites/review.json keeps filenames and SHA256 values. Existing seven form images retain their earlier source."
+  },
+  {
+    "id": "xy-npc-trades",
+    "title": "X/Y NPC offers and locations",
+    "url": "https://www.serebii.net/xy/ingametrade.shtml",
+    "locator": "Nine received trade templates, their offered species, Shauna alternatives and hotel visit conditions; checked2026-10-21."
+  },
+  {
+    "id": "xy-npc-counts",
+    "title": "X/Y finite NPC trade quantities",
+    "url": "https://pokemon.neoseeker.com/wiki/Cyllage_City",
+    "locator": "Steelix: Only One; hotel Magikarp and Eevee: One. One animal per character; the three Shauna rows remain alternatives, not three NPCs. Checked2026-10-21."
+  },
+  {
+    "id": "xy-berry-fields",
+    "title": "X/Y Berry Field tree colors and pests",
+    "url": "https://www.serebii.net/xy/berryfields.shtml",
+    "locator": "Six color/species pairs; level14-15 confirmed by pinned detailed encounter rows and reviewed Route7 guide; planting needs a native seed berry."
+  },
+  {
+    "id": "xy-gift-guides",
+    "title": "X/Y starter and gift locations",
+    "url": "https://www.serebii.net/xy/gift.shtml",
+    "locator": "Kalos and Kanto starter choices, Tower of Mastery Lucario and Route12 Lapras; checked2026-10-21."
+  },
+  {
+    "id": "xy-legendary-guides",
+    "title": "X/Y legendary encounter conditions",
+    "url": "https://www.serebii.net/xy/legendary.shtml",
+    "locator": "Version box legend, Mewtwo, Zygarde, and starter-selected bird after11roaming meetings; checked2026-10-21."
+  },
+  {
+    "id": "y-form-genders",
+    "title": "Y Meowstic form genders",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/personal/personal_xy",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Species678: base is the male form; form ordinal1 is female. The personal gender ratio covers the species. Each selected form has its own gender. Checked2026-10-21."
+  },
+  {
+    "id": "black-native-wild",
+    "title": "black reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=17; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_b.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "black-native-evolution",
+    "title": "black Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_bw.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "black-native-breeding",
+    "title": "black reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "Gen V mechanics cross-check: sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "black-native-events",
+    "title": "black reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select black branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/black-sources.md."
+  },
+  {
+    "id": "black-native-swarm",
+    "title": "black daily native swarms",
+    "url": "https://www.serebii.net/blackwhite/swarms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 and reviewed local gameplay snapshot 2026-10-27",
+    "locator": "Black/White daily swarm location and version tables, reported rate 40%, after the National Pokedex. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_b.pkl swarm slots."
+  },
+  {
+    "id": "black-native-story",
+    "title": "black reviewed story, route and event access",
+    "url": "https://www.serebii.net/blackwhite/tmhm.shtml",
+    "revision": "SHA-256 785d80eb1e0470a84c10db51ff9a3df6f4dec6fbba552d820a73055ba4716589",
+    "locator": "Game-specific walkthrough stage and area tables in docs/black-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "black-native-items",
+    "title": "black reviewed native evolution and access items",
+    "url": "https://www.serebii.net/blackwhite/items.shtml",
+    "revision": "SHA-256 c3845084f4779ad366b26fd95feeb9193b2da10241acaf665d1bc1787e3e7b8e",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "black-native-forms",
+    "title": "black persistent native form types and actions",
+    "url": "https://www.serebii.net/blackwhite/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/black-forms.md."
+  },
+  {
+    "id": "black-native-scope",
+    "title": "black complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/blackwhite/unobtainable.shtml",
+    "revision": "SHA-256 39582fdcc9702aed6ad083d910986baab8c27fc09fa2d6693d6f61cc77a554e8",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/black-coverage.md."
+  },
+  {
+    "id": "white-native-wild",
+    "title": "white reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=18; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_w.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "white-native-evolution",
+    "title": "white Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_bw.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "white-native-breeding",
+    "title": "white reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "Gen V mechanics cross-check: sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "white-native-events",
+    "title": "white reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select white branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/white-sources.md."
+  },
+  {
+    "id": "white-native-swarm",
+    "title": "white daily native swarms",
+    "url": "https://www.serebii.net/blackwhite/swarms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 and reviewed local gameplay snapshot 2026-10-27",
+    "locator": "Black/White daily swarm location and version tables, reported rate 40%, after the National Pokedex. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_w.pkl swarm slots."
+  },
+  {
+    "id": "white-native-story",
+    "title": "white reviewed story, route and event access",
+    "url": "https://www.serebii.net/blackwhite/tmhm.shtml",
+    "revision": "SHA-256 785d80eb1e0470a84c10db51ff9a3df6f4dec6fbba552d820a73055ba4716589",
+    "locator": "Game-specific walkthrough stage and area tables in docs/white-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "white-native-items",
+    "title": "white reviewed native evolution and access items",
+    "url": "https://www.serebii.net/blackwhite/items.shtml",
+    "revision": "SHA-256 c3845084f4779ad366b26fd95feeb9193b2da10241acaf665d1bc1787e3e7b8e",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "white-native-forms",
+    "title": "white persistent native form types and actions",
+    "url": "https://www.serebii.net/blackwhite/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/white-forms.md."
+  },
+  {
+    "id": "white-native-scope",
+    "title": "white complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/blackwhite/unobtainable.shtml",
+    "revision": "SHA-256 39582fdcc9702aed6ad083d910986baab8c27fc09fa2d6693d6f61cc77a554e8",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/white-coverage.md."
+  },
+  {
+    "id": "white-native-forest",
+    "title": "White initial offline White Forest residents",
+    "url": "https://www.smogon.com/ingame/guides/bc_wf_mechanics",
+    "revision": "SHA-256 27cf452154e93008f46892001a0eeff625113855954e296318df8ae696ef6941",
+    "locator": "How Trainers Are Selected: 10 overworld residents out of 30, level 5 grass and water pools; Why Trainers Leave and Recruitment Restrictions. Initial residents only; no Entralink recruitment. Exact resident names in source details and a maximum-ten choice group."
+  },
+  {
+    "id": "black-2-native-wild",
+    "title": "black-2 reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=21; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_b2.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "black-2-native-evolution",
+    "title": "black-2 Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_b2w2.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "black-2-native-breeding",
+    "title": "black-2 reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "black-2-native-events",
+    "title": "black-2 reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select black-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/black-2-sources.md."
+  },
+  {
+    "id": "black-2-native-swarm",
+    "title": "black-2 daily native swarms",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/enc_pokeset.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "SWARM_DATA, FLAG_SWARMS, createSwarm, FieldEncount_SetupFromData. Black 2/White 2 branches select their own species. createSwarm accepts random values 0–40 out of 0–99: 41%, not the nominal 40% in secondary tables. Random bounds: src/system/gfl_use.c GFL_RandomLCAlt. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_b2.pkl swarm slots."
+  },
+  {
+    "id": "black-2-native-story",
+    "title": "black-2 reviewed story, route and event access",
+    "url": "https://www.serebii.net/black2white2/tmhm.shtml",
+    "revision": "SHA-256 910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db",
+    "locator": "Game-specific walkthrough stage and area tables in docs/black-2-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "black-2-native-items",
+    "title": "black-2 reviewed native evolution and access items",
+    "url": "https://www.serebii.net/black2white2/items.shtml",
+    "revision": "SHA-256 f1e1f4e60598e0fe5a0fab16a73856a4c7b647f41c7ea2507a241e125fbc6e37",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "black-2-native-forms",
+    "title": "black-2 persistent native form types and actions",
+    "url": "https://www.serebii.net/black2white2/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/black-2-forms.md."
+  },
+  {
+    "id": "black-2-native-scope",
+    "title": "black-2 complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/black2white2/unobtainable.shtml",
+    "revision": "SHA-256 8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/black-2-coverage.md."
+  },
+  {
+    "id": "black-2-native-grotto",
+    "title": "black-2 native Hidden Grotto and solo mission review",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "HOLLOW_FILE_VERSION selects 1; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/black-2-sources.md."
+  },
+  {
+    "id": "white-2-native-wild",
+    "title": "white-2 reviewed wild encounters",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/81d20919845b6a445969b9265aab5cec6b04cece/data/v2/csv",
+    "revision": "81d20919845b6a445969b9265aab5cec6b04cece",
+    "locator": "encounters.csv version_id=22; encounter_slots.csv, encounter_condition_value_map.csv, encounter_condition_values.csv, location_areas.csv. Source IDs retain the first encounter_id of the equal area/species/method/season aggregation. Bounds independently checked against kwsch/PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774, PKHeX.Core/Resources/legality/wild/Gen5/encounter_w2.pkl; EncounterArea5.cs. The reviewed area access map is separate."
+  },
+  {
+    "id": "white-2-native-evolution",
+    "title": "white-2 Generation V evolution and level-up rules",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "evolve/evos_g5.pkl, species-indexed 8-byte tuples; EvolutionType.cs; levelup/lvlmove_b2w2.pkl. Methods 1–27; Beauty has no native increase and remains excluded as an action. Known-move learning uses this game table, not a later generation."
+  },
+  {
+    "id": "white-2-native-breeding",
+    "title": "white-2 reviewed native offspring and Day Care",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/sodateya.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "sodateya.c getChild, nidoranCompute, volbeatCompute, incenseHandler, sIncenses, shellosHandler, basculinHandler; res/pokemon/<species>/data.json baby_species. Gen V hatch level: pinned PKHeX EncounterEgg5.cs. The game-specific Day Care gate is documented separately; this reference does not imply that BW uses the sequel story."
+  },
+  {
+    "id": "white-2-native-events",
+    "title": "white-2 reviewed fixed encounters and NPC trades",
+    "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select white-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/white-2-sources.md."
+  },
+  {
+    "id": "white-2-native-swarm",
+    "title": "white-2 daily native swarms",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/enc_pokeset.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "SWARM_DATA, FLAG_SWARMS, createSwarm, FieldEncount_SetupFromData. Black 2/White 2 branches select their own species. createSwarm accepts random values 0–40 out of 0–99: 41%, not the nominal 40% in secondary tables. Random bounds: src/system/gfl_use.c GFL_RandomLCAlt. Version-specific bounds and species: PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774 encounter_w2.pkl swarm slots."
+  },
+  {
+    "id": "white-2-native-story",
+    "title": "white-2 reviewed story, route and event access",
+    "url": "https://www.serebii.net/black2white2/tmhm.shtml",
+    "revision": "SHA-256 910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db",
+    "locator": "Game-specific walkthrough stage and area tables in docs/white-2-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+  },
+  {
+    "id": "white-2-native-items",
+    "title": "white-2 reviewed native evolution and access items",
+    "url": "https://www.serebii.net/black2white2/items.shtml",
+    "revision": "SHA-256 f1e1f4e60598e0fe5a0fab16a73856a4c7b647f41c7ea2507a241e125fbc6e37",
+    "locator": "Evolution items, incenses, fossils, TM/HM and key-item rows. Each source names its location and action. Sequel dust-cloud cross-check: a17a9fedc6344da8bc063b0517a755faee137b0b src/ov036/effect_encount.c DUST_CLOUD_ITEMS_NORMAL, DUST_CLOUD_SHARD_ZONES and EffectEncount_GenDustCloudItem. Relic Passage/Reversal Mountain shards do not supply stones."
+  },
+  {
+    "id": "white-2-native-forms",
+    "title": "white-2 persistent native form types and actions",
+    "url": "https://www.serebii.net/black2white2/forms.shtml",
+    "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
+    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/white-2-forms.md."
+  },
+  {
+    "id": "white-2-native-scope",
+    "title": "white-2 complete reviewed native acquisition inventory and exclusions",
+    "url": "https://www.serebii.net/black2white2/unobtainable.shtml",
+    "revision": "SHA-256 8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64",
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/white-2-coverage.md."
+  },
+  {
+    "id": "white-2-native-grotto",
+    "title": "white-2 native Hidden Grotto and solo mission review",
+    "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
+    "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
+    "locator": "HOLLOW_FILE_VERSION selects 0; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/white-2-sources.md."
+  },
+  {
+    "id": "oras-reviewed-story",
+    "title": "ORAS story order, field moves and location gates",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire",
+    "revision": "Wikitext saved 2026-10-31 in output/source-review/oras-bulbapedia-20261031",
+    "locator": "Walkthrough Parts 1-25 and Hoenn location pages (Geography, Items, access notes). Badge field moves cross-checked with Serebii ORAS Gym Leaders and PokemonDB ORAS HM locations. Badge 7 enables Dive before Seafloor Cavern; Wallace follows the Cave of Origin."
+  },
+  {
+    "id": "oras-reviewed-wild",
+    "title": "ORAS wild, DexNav and Mirage spot encounter tables",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/legality/wild/Gen6",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "encounter_or.pkl and encounter_as.pkl via EncounterArea6AO.cs: 41-slot standard areas (12 grass, 12 long grass, 3 DexNav, 5 surf, 3 per rod), 5-slot Rock Smash and 15-slot Horde areas. Rates are the Generation VI slot rates; 170 of 172 pools equal Bulbapedia ORAS catch tables (slot-rate-check.json). DexNav-only Pokémon follow Bulbapedia hidden-Pokémon divisions after Groudon/Kyogre."
+  },
+  {
+    "id": "oras-reviewed-fixed",
+    "title": "ORAS gifts, fixed encounters, portals, trades and fossils",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen6/Encounters6AO.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Encounter_AO_Regular, StaticO, StaticA and TradeGift_AO for species, levels and genders; Bulbapedia ORAS location pages (Route 101, Southern Island, Sky Pillar, Sealed Chamber, Island Cave, Sea Mauville, Mirage spots, Soaring in the sky) for story, party and item gates."
+  },
+  {
+    "id": "oras-reviewed-evolution",
+    "title": "Generation VI evolution rules applied to ORAS",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/byte/evolve/evos_g6.pkl",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "EvolutionTree.cs binds ORAS to evos_g6.pkl; the reviewed X/Y rules match all 364 edges (omega-ruby-continuation/full-rule-comparison.md). ORAS location evolutions use New Mauville, Petalburg Woods and the Shoal Cave ice room; Feebas also evolves by beauty 170."
+  },
+  {
+    "id": "oras-reviewed-breeding",
+    "title": "Generation VI breeding rules applied to ORAS",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Breeding.cs",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Reviewed X/Y offspring and incense rules; ORAS and X profiles have equal Egg Groups and genders except the Meowstic form split. Day Care on Route 117 (Walkthrough Part 6)."
+  },
+  {
+    "id": "oras-reviewed-items",
+    "title": "ORAS item locations used by gates and rules",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire",
+    "revision": "Wikitext saved 2026-10-31 in output/source-review/oras-bulbapedia-20261031",
+    "locator": "ORAS Itemlist rows on Hoenn location and Mirage spot pages; Slateport Market incense shop; Treasure Hunter trades on Route 124; Dusk Stone page (Inverse Battle Stop)."
+  },
+  {
+    "id": "oras-reviewed-forms",
+    "title": "ORAS native Shellos and Gastrodon forms",
+    "url": "https://github.com/kwsch/PKHeX/tree/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Resources/legality/wild/Gen6/encounter_as.pkl",
+    "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
+    "locator": "Alpha Sapphire DexNav slots on Routes 103 and 110 carry Shellos form 1 (East Sea); Omega Ruby carries form 0 (West Sea). Bulbapedia Route 103 and Route 110 ORAS hidden-Pokémon rows confirm West Sea in Omega Ruby and East Sea in Alpha Sapphire. Cosplay Pikachu and Deoxys forms are not modeled."
+  },
+  {
+    "id": "oras-reviewed-scope",
+    "title": "ORAS unobtainable and version-exclusive Pokémon",
+    "url": "https://www.serebii.net/omegarubyalphasapphire/unobtainable.shtml",
+    "revision": "Saved 2026-10-31 in output/source-review/oras-serebii-20261031",
+    "locator": "Unobtainable list (242 species) and version exclusives list; compared with the native source, evolution and breeding closure."
+  },
+  {
+    "id": "hgss-reviewed-scope",
+    "title": "HeartGold and SoulSilver native scope cross-check",
+    "url": "https://www.serebii.net/heartgoldsoulsilver/unobtainable.shtml",
+    "locator": "Reviewed 2026-11-05. Compare unobtainable.shtml, exclusives.shtml and pokewalker-pkmn.shtml with the native wild, fixed, fossil, NPC trade, evolution and breeding inventories. Pok?walker, player trades, transfers and event distributions stay outside this planner."
+  },
+  {
+    "id": "hgss-headbutt-paths",
+    "title": "HeartGold and SoulSilver special Headbutt tree approaches",
+    "url": "https://www.serebii.net/heartgoldsoulsilver/headbutt.shtml",
+    "locator": "Specific Trees section, reviewed 2026-11-05. Native tree coordinates: files/arc/headbutt.json at pret revision 53dded53802b237d39fabfd8ee396fe9cdc8aa3e. Cherrygrove needs Surf and Rock Climb; Route 38 uses Rock Climb from Route 39; National Park needs Rock Climb. Route 25 and Pewter need neither move."
+  }
+]

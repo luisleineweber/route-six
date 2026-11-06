@@ -1,0 +1,1359 @@
+[
+  {
+    "id": "ss-ticket",
+    "name": "S.S. Ticket",
+    "sources": [
+      {
+        "id": "ss-ticket-bill",
+        "locationId": "route25-sea-cottage",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "misty-defeated"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "sources": [
+      {
+        "id": "tea-celadon",
+        "locationId": "celadon-tea-condominium",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "poke-flute",
+    "name": "Poké Flute",
+    "sources": [
+      {
+        "id": "poke-flute-fuji",
+        "locationId": "lavender-fuji-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "item",
+              "id": "silph-scope",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "milestone",
+              "id": "fuji-rescued"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "silph-scope",
+    "name": "Silph Scope",
+    "sources": [
+      {
+        "id": "silph-scope-hideout",
+        "locationId": "rocket-hideout-b4f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "rocket-hideout-cleared"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bike-voucher",
+    "name": "Bike Voucher",
+    "sources": [
+      {
+        "id": "bike-voucher-fan-club",
+        "locationId": "vermilion-fan-club",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "sources": [
+      {
+        "id": "bicycle-voucher-exchange",
+        "locationId": "cerulean-bike-shop",
+        "requirements": {
+          "kind": "item",
+          "id": "bike-voucher",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-rod",
+    "name": "Old Rod",
+    "sources": [
+      {
+        "id": "old-rod-guru",
+        "locationId": "vermilion-fishing-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "good-rod",
+    "name": "Good Rod",
+    "sources": [
+      {
+        "id": "good-rod-guru",
+        "locationId": "fuchsia-good-rod-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "super-rod",
+    "name": "Super Rod",
+    "sources": [
+      {
+        "id": "super-rod-guru",
+        "locationId": "route12-fishing-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm01",
+    "name": "HM01 Cut",
+    "sources": [
+      {
+        "id": "hm01-ss-anne-captain",
+        "locationId": "ss-anne-captains-office",
+        "requirements": {
+          "kind": "item",
+          "id": "ss-ticket",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm02",
+    "name": "HM02 Fly",
+    "sources": [
+      {
+        "id": "hm02-route16-house",
+        "locationId": "route16-house",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "item",
+              "id": "poke-flute",
+              "quantity": 1,
+              "consumed": false
+            },
+            {
+              "kind": "item",
+              "id": "bicycle",
+              "quantity": 1,
+              "consumed": false
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm03",
+    "name": "HM03 Surf",
+    "sources": [
+      {
+        "id": "hm03-safari-secret-house",
+        "locationId": "safari-zone-secret-house",
+        "requirements": {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm04",
+    "name": "HM04 Strength",
+    "sources": [
+      {
+        "id": "hm04-warden",
+        "locationId": "fuchsia-wardens-house",
+        "requirements": {
+          "kind": "item",
+          "id": "gold-teeth",
+          "quantity": 1,
+          "consumed": true
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm05",
+    "name": "HM05 Flash",
+    "sources": [
+      {
+        "id": "hm05-route2-aide",
+        "locationId": "route2-east-building",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "hm05-reward-opportunity"
+            },
+            {
+              "kind": "capability",
+              "id": "cut-access"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm06",
+    "name": "HM06 Rock Smash",
+    "sources": [
+      {
+        "id": "hm06-ember-spa",
+        "locationId": "one-island-ember-spa",
+        "requirements": {
+          "kind": "milestone",
+          "id": "one-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "hm07",
+    "name": "HM07 Waterfall",
+    "sources": [
+      {
+        "id": "hm07-icefall-cave",
+        "locationId": "four-island-icefall-cave-1f",
+        "requirements": {
+          "kind": "milestone",
+          "id": "four-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "gold-teeth",
+    "name": "Gold Teeth",
+    "sources": [
+      {
+        "id": "gold-teeth-safari-zone",
+        "locationId": "safari-zone-west",
+        "requirements": {
+          "kind": "milestone",
+          "id": "koga-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "sources": [
+      {
+        "id": "moon-stone-mt-moon-b2f",
+        "locationId": "mt-moon-b2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-mt-moon-1f",
+        "locationId": "mt-moon-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-rocket-hideout-b2f",
+        "locationId": "rocket-hideout-b2f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-mansion",
+        "locationId": "pokemon-mansion-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "moon-stone-joyful-game-corner",
+        "locationId": "two-island-joyful-game-corner",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "lostelle-rescued"
+            },
+            {
+              "kind": "item",
+              "id": "meteorite",
+              "quantity": 1,
+              "consumed": true
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "sources": [
+      {
+        "id": "fire-stone-celadon-dept",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "fire-stone-mt-ember",
+        "locationId": "mt-ember-exterior",
+        "requirements": {
+          "kind": "milestone",
+          "id": "one-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "sources": [
+      {
+        "id": "water-stone-celadon-dept",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "water-stone-seafoam",
+        "locationId": "seafoam-islands-b4f",
+        "requirements": {
+          "kind": "capability",
+          "id": "strength-access"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "sources": [
+      {
+        "id": "thunder-stone-celadon-dept",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "thunder-stone-power-plant",
+        "locationId": "power-plant",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "sources": [
+      {
+        "id": "leaf-stone-celadon-dept",
+        "locationId": "celadon-city",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": null,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      },
+      {
+        "id": "leaf-stone-safari-zone",
+        "locationId": "safari-zone-east",
+        "requirements": {
+          "kind": "item",
+          "id": "poke-flute",
+          "quantity": 1,
+          "consumed": false
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "helix-fossil",
+    "name": "Helix Fossil",
+    "sources": [
+      {
+        "id": "helix-fossil-mt-moon",
+        "locationId": "mt-moon-b2f-fossils",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "helix-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "firered-items",
+            "firered-choices"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items",
+        "firered-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dome-fossil",
+    "name": "Dome Fossil",
+    "sources": [
+      {
+        "id": "dome-fossil-mt-moon",
+        "locationId": "mt-moon-b2f-fossils",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": {
+          "groupId": "fossil-choice",
+          "optionId": "dome-fossil"
+        },
+        "review": {
+          "referenceIds": [
+            "firered-items",
+            "firered-choices"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items",
+        "firered-choices"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "old-amber",
+    "name": "Old Amber",
+    "sources": [
+      {
+        "id": "old-amber-pewter-museum",
+        "locationId": "pewter-museum-1f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "coin-case",
+    "name": "Coin Case",
+    "sources": [
+      {
+        "id": "coin-case-celadon-restaurant",
+        "locationId": "celadon-restaurant",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "tri-pass",
+    "name": "Tri-Pass",
+    "sources": [
+      {
+        "id": "tri-pass-celio-one-island",
+        "locationId": "one-island",
+        "requirements": {
+          "kind": "milestone",
+          "id": "blaine-defeated"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "rainbow-pass",
+    "name": "Rainbow Pass",
+    "sources": [
+      {
+        "id": "rainbow-pass-celio",
+        "locationId": "one-island",
+        "requirements": {
+          "kind": "milestone",
+          "id": "ruby-returned"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lift-key",
+    "name": "Lift Key",
+    "sources": [
+      {
+        "id": "lift-key-hideout",
+        "locationId": "rocket-hideout-b4f",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "secret-key",
+    "name": "Secret Key",
+    "sources": [
+      {
+        "id": "secret-key-pokemon-mansion",
+        "locationId": "pokemon-mansion-b1f",
+        "requirements": {
+          "kind": "capability",
+          "id": "surf-access"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "sources": [
+      {
+        "id": "ruby-mt-ember",
+        "locationId": "mt-ember-ruby-path-b3f",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "one-island"
+            },
+            {
+              "kind": "capability",
+              "id": "strength-access"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sapphire",
+    "name": "Sapphire",
+    "sources": [
+      {
+        "id": "sapphire-dotted-hole",
+        "locationId": "six-island",
+        "requirements": {
+          "kind": "all",
+          "requirements": [
+            {
+              "kind": "milestone",
+              "id": "six-island"
+            },
+            {
+              "kind": "capability",
+              "id": "cut-access"
+            }
+          ]
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "sources": [
+      {
+        "id": "sun-stone-ruin-valley",
+        "locationId": "six-island-ruin-valley",
+        "requirements": {
+          "kind": "milestone",
+          "id": "national-dex"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "meteorite",
+    "name": "Meteorite",
+    "sources": [
+      {
+        "id": "meteorite-bill-one-island",
+        "locationId": "one-island",
+        "requirements": {
+          "kind": "milestone",
+          "id": "one-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "lax-incense",
+    "name": "Lax Incense",
+    "sources": [
+      {
+        "id": "lax-incense-lost-cave",
+        "locationId": "five-island-lost-cave-room11",
+        "requirements": {
+          "kind": "milestone",
+          "id": "five-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "sea-incense",
+    "name": "Sea Incense",
+    "sources": [
+      {
+        "id": "sea-incense-lost-cave",
+        "locationId": "five-island-lost-cave-room12",
+        "requirements": {
+          "kind": "milestone",
+          "id": "five-island"
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "kings-rock",
+    "name": "King's Rock",
+    "sources": [
+      {
+        "id": "kings-rock-firered-item-ball",
+        "locationId": "seven-island-sevault-canyon",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "metal-coat",
+    "name": "Metal Coat",
+    "sources": [
+      {
+        "id": "metal-coat-firered-item-ball",
+        "locationId": "five-island-memorial-pillar",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "dragon-scale",
+    "name": "Dragon Scale",
+    "sources": [
+      {
+        "id": "dragon-scale-firered-item-ball",
+        "locationId": "six-island-water-path",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "up-grade",
+    "name": "Up-Grade",
+    "sources": [
+      {
+        "id": "up-grade-firered-item-ball",
+        "locationId": "five-island-rocket-warehouse",
+        "requirements": {
+          "kind": "all",
+          "requirements": []
+        },
+        "maxUses": 1,
+        "choice": null,
+        "review": {
+          "referenceIds": [
+            "firered-items"
+          ],
+          "checkedOn": "2026-10-12"
+        }
+      }
+    ],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "deep-sea-tooth",
+    "name": "Deep Sea Tooth",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "sources": [],
+    "review": {
+      "referenceIds": [
+        "firered-items"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  }
+]
