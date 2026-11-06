@@ -47,8 +47,8 @@ Keep progress settings, access status, sources, and level limits in the
 Progress Planner. Start the Progress Planner at Victory Road with the Current
 progress target. Keep the team and progress settings when the view changes.
 
-Show Progress Planner settings in a top bar before the team slots and
-catalogue. Wrap controls into rows on narrow screens. Both modes use the full
+Show Progress Planner settings in a top bar below the page heading and before
+the team slots and catalogue. Wrap controls into rows on narrow screens. Both modes use the full
 content width. Use only the eight Gym checkpoints, then Victory Road, in one
 flat list for every game. If a game has no Victory Road milestone, show only
 its eight Gyms. Start at Victory Road when it exists; otherwise start at Gym 8.
@@ -61,17 +61,24 @@ Show six slots in one row on wide screens, three per row on medium screens,
 and two compact cards per row on phones. Keep empty slots visible and mark each
 slot with its number. A tile has one main control that opens the details.
 Filled slots have one Remove control. Empty slots have one Add control.
+Give each filled slot and the details dialog header a soft sprite area in the
+Pokémon's type colours. Blend two colours for two types. Show Remove on hover
+and keyboard focus, and keep it visible on touch screens.
 
 When the full team row scrolls above the viewport, show a full-width team bar
-at the top. Center six small 4:3 cards in one row. Use two rows of three on
+at the top. Align six small 4:3 cards with the page content in one row. Use flatter 2:1
+cards on wide screens. Use two rows of three on
 narrow screens. Split the upper area 60/40: sprite on the left, type logos on
 the right. Show the name below. Keep empty cards with a question mark and Add
 control. Show Remove on hover and keyboard focus, and keep it visible on touch
-screens. Keep search and keyboard focus below the bar.
+screens. On phones the bar has no Remove control; players remove members in the
+team slots. Keep search and keyboard focus below the bar.
 
 Combine weaknesses, resistances, and immunities in one compact defense chart.
 Show six marks per attack type, one per team member. Use distinct symbols and
-colours with a short legend. Keep attack coverage as a compact type strip.
+colours with a short legend. Print the damage multiplier in each mark (4, 2, ½,
+¼, 0) and leave neutral marks blank. Tint an attack type when more members are
+weak to it than resist it. Keep attack coverage as a compact type strip.
 
 Both catalogues use type logos and a search field. The Progress Planner also
 uses status chips that show their counts. Sort regional Pokédex species first
@@ -87,7 +94,8 @@ Keep acquisition paths in the Progress Planner details dialog.
 Show nine catalogue cards per row in the Team Planner and six in the Progress
 Planner on wide screens. Use fewer columns on small screens. Show all matching
 species in one grid without page controls. On small screens, let players choose two, three, or four columns.
-Team cards open details when selected. Use a small sprite movement on hover
+Show Add on hover and keyboard focus in both catalogues, and keep it visible on
+touch screens. Hide Add when the team is full. Team cards open details when selected. Use a small sprite movement on hover
 and focus. Place the types at the bottom right. Show Add above the top right
 corner on hover and keyboard focus. Keep Add visible on touch screens.
 Progress cards combine access status and source in one statement on wide screens.
