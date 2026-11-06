@@ -31,8 +31,8 @@ input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1
 
 /* Buttons */
 .primary-button, .secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 2.75rem; padding: 0.5rem 1.125rem; border: 0; border-radius: var(--radius-control); font-size: 0.9375rem; font-weight: 600; transition: background-color 150ms ease-out, scale 100ms ease-out; }
-.secondary-button { background: var(--tile); color: var(--ink); }
-.secondary-button:hover:not(:disabled) { background: var(--tile-hover); }
+.secondary-button { background: var(--surface); box-shadow: var(--shadow-ring); color: var(--ink); }
+.secondary-button:hover:not(:disabled) { background: var(--tile); }
 .primary-button { background: var(--accent); color: white; }
 .primary-button:hover:not(:disabled) { background: var(--accent-hover); }
 .primary-button:disabled { opacity: 1; background: var(--tile); color: var(--muted); }

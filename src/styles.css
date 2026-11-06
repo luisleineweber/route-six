@@ -17,8 +17,8 @@
   /* Surfaces: groups are told apart by tone and space, not by lines. */
   --bg: oklch(0.975 0.003 95);
   --surface: oklch(1 0 0);
-  --tile: oklch(0.958 0.004 95);
-  --tile-hover: oklch(0.936 0.005 95);
+  --tile: oklch(0.948 0.005 95);
+  --tile-hover: oklch(0.926 0.006 95);
 
   --ink: oklch(0.24 0.008 260);
   --muted: oklch(0.47 0.008 260);
@@ -64,7 +64,7 @@ button, a { touch-action: manipulation; }
 a { color: var(--accent-ink); text-underline-offset: 0.2em; }
 h1, h2, h3, h4, p, dl, dd, figure { margin: 0; }
 h1 { font-size: 1.75rem; line-height: 1.2; letter-spacing: -0.02em; font-weight: 700; text-wrap: balance; }
-h2 { font-size: 1.25rem; line-height: 1.3; font-weight: 650; text-wrap: balance; }
+h2 { font-size: 1.25rem; line-height: 1.3; font-weight: 600; text-wrap: balance; }
 h3 { font-size: 1rem; line-height: 1.3; font-weight: 600; }
 h4 { font-size: 0.9375rem; font-weight: 600; }
 p { text-wrap: pretty; max-width: 68ch; }
