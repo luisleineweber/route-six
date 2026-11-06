@@ -105,7 +105,7 @@
   .progress-catalogue .access-compact > svg { flex-shrink: 0; }
   .progress-catalogue .access-compact > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .catalogue-card-identity { position: relative; gap: 0; }
-  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.5rem); line-height: 1.25rem; text-align: start; white-space: normal; overflow: visible; }
+  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.5rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.875rem; }
   .catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0; flex-wrap: nowrap; }
   .catalogue .catalogue-card-identity .type-icon { width: 1.25rem; height: 1.25rem; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.625rem; height: 1.25rem; overflow: hidden; }
@@ -145,4 +145,15 @@
   .catalogue-filter-marker { display: none; }
   .catalogue-filter-group .catalogue-filter-anchor, .catalogue-filter-group .filters { display: contents; }
   .catalogue-filter-group > .chip-row { order: 1; }
+}
+
+/* A full team cannot add more; the hint above the grid says so. */
+.pokemon-card:not(.pokemon-added) .add-button:disabled { display: none; }
+@media (pointer: coarse) {
+  .team-catalogue .add-button, .progress-catalogue .add-button { inset-block-start: 0.25rem; inset-inline-end: 0.25rem; }
+}
+@media (max-width: 40rem) {
+  .filters { gap: 0.75rem; }
+  .type-filter-summary { min-height: 0; }
+  .type-filter-summary:has(.text-button) { min-height: 2.5rem; }
 }

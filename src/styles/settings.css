@@ -25,4 +25,8 @@
 @media (min-width: 52rem) {
   .settings-fields { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 1fr); }
 }
-@media (max-width: 24rem) { .settings { padding: 1rem; } }
+@media (max-width: 40rem) {
+  .settings { padding: 1rem; }
+  .settings-fields { gap: 0.875rem; }
+  .settings .field-hint { display: none; }
+}
