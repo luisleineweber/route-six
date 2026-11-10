@@ -30,12 +30,13 @@ export function TypeAnalysis({ team }: { team: (string | null)[] }) {
               const id = team[index];
               const multiplier = id ? damageMultiplier(game, type, id) : 1;
               const status = !id ? 'empty' : multiplier === 0 ? 'immune' : multiplier < 1 ? 'resist' : multiplier > 1 ? 'weak' : 'neutral';
-              return <span key={index} className={`defense-mark defense-${status}`} title={id ? `${pokemonIdentity(id).name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'}>{id ? markSymbol(multiplier) : ''}</span>;
+              return <span key={index} className={`defense-mark defense-${status}${multiplier >= 4 ? ' defense-double' : ''}`} title={id ? `${pokemonIdentity(id).name}: ${multiplier}× ${typeName(type)} damage` : 'Empty slot'}>{id ? markSymbol(multiplier) : ''}</span>;
             })}</span>
           </li>;
         })}</ul>
         <ul className="defense-legend" aria-hidden="true">
           <li><span className="defense-mark defense-weak">2</span>Weak</li>
+          <li><span className="defense-mark defense-weak defense-double">4</span>Very weak</li>
           <li><span className="defense-mark defense-resist">½</span>Resists</li>
           <li><span className="defense-mark defense-immune">0</span>Immune</li>
           <li><span className="defense-mark defense-neutral" />Neutral</li>

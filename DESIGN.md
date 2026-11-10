@@ -66,8 +66,8 @@ Pokémon's type colours. Blend two colours for two types. Show Remove on hover
 and keyboard focus, and keep it visible on touch screens.
 
 When the full team row scrolls above the viewport, show a full-width team bar
-at the top. Align six small 4:3 cards with the page content in one row. Use flatter 2:1
-cards on wide screens. Use two rows of three on
+at the top. Center six small 4:3 cards in one row. Keep the row narrower than
+the page on wide screens. Use two rows of three on
 narrow screens. Split the upper area 60/40: sprite on the left, type logos on
 the right. Show the name below. Keep empty cards with a question mark and Add
 control. Show Remove on hover and keyboard focus, and keep it visible on touch
@@ -77,8 +77,9 @@ team slots. Keep search and keyboard focus below the bar.
 Combine weaknesses, resistances, and immunities in one compact defense chart.
 Show six marks per attack type, one per team member. Use distinct symbols and
 colours with a short legend. Print the damage multiplier in each mark (4, 2, ½,
-¼, 0) and leave neutral marks blank. Tint an attack type when more members are
+¼, 0) and leave neutral marks blank. Give 4× marks a darker red. Tint an attack type when more members are
 weak to it than resist it. Keep attack coverage as a compact type strip.
+Fade uncovered types and give them a dashed ring, so grey types stay clear.
 
 Both catalogues use type logos and a search field. The Progress Planner also
 uses status chips that show their counts. Sort regional Pokédex species first
@@ -108,6 +109,8 @@ visible results contain different access states.
 ## PNG exports
 
 PNG exports use a separate poster layout. They do not change the page layout.
+After a download, the export button shows a green check for two seconds. Do not
+show a text message for success; keep a visible message for errors only.
 Use three columns and export at 2400 pixels wide. Give each Pokémon a large
 pixel sprite. In Progress exports, use a type-colored image area with large
 type symbols in the background. For two types, split the color area diagonally into equal areas.

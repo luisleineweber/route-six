@@ -46,14 +46,3 @@
   .team-bar-remove > svg { margin: 0.25rem; width: 1rem; height: 1rem; }
   .team-bar-remove > svg { position: relative; }
 }
-/* Wide screens: the bar spans the page content, with flatter cards at the same height. */
-@media (min-width: 60rem) {
-  .team-bar { padding-inline: 2rem; }
-  .team-bar-slots { max-width: calc(var(--page-width) - 4rem); }
-}
-@media (min-width: 72rem) {
-  .team-bar-card { aspect-ratio: 2 / 1; grid-template-rows: minmax(3.25rem, 1fr) auto; }
-  .team-bar-identity { grid-template-columns: 1fr auto 1fr; column-gap: 0.75rem; }
-  .team-bar-identity .pokemon-sprite { grid-column: 2; width: 4rem; height: 4rem; }
-  .team-bar-identity .type-list { justify-self: start; }
-}
