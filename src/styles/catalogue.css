@@ -122,7 +122,7 @@
   .catalogue-filter-anchor { position: sticky; top: var(--team-bar-height, 0px); z-index: 11; display: flow-root; }
   .catalogue-filter-anchor > .filters { transition: box-shadow 150ms ease-out; }
   /* While pinned, the controls extend the team overview across the viewport and take over its shadow. */
-  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), 0 4px 12px oklch(0 0 0 / 0.06); clip-path: inset(0 -100vmax -1.5rem); }
+  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), var(--shadow-bar); clip-path: inset(0 -100vmax -1.5rem); }
   html:has(.catalogue-filter-anchor[data-stuck]) .team-bar.visible { box-shadow: none; }
   .filters .catalogue-search, .filters .type-filter-controls { min-width: 0; }
   .filters .catalogue-search { grid-column: 1; grid-row: 1; }
