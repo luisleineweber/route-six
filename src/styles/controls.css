@@ -5,7 +5,7 @@ input[type='search'], select { width: 100%; min-height: 2.75rem; padding: 0.5rem
 input[type='search']::placeholder { color: var(--muted); }
 input[type='search']:hover, select:hover { border-color: var(--ink); }
 @media (max-width: 40rem) { input[type='search'], select { font-size: 1rem; } }
-input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1.125rem; margin: 0; accent-color: var(--accent); }
+input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1.125rem; margin: 0; accent-color: var(--selected-fill); }
 .field-hint { margin-top: 0.5rem; color: var(--muted); font-size: 0.8125rem; line-height: 1.5; }
 .field-hint strong { color: var(--ink); }
 .check-label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.5rem; margin: 0; font-weight: 400; cursor: pointer; }

@@ -1,8 +1,9 @@
 # Route Six field guide
 
 Players use the guide next to their game in normal room light. Keep one calm
-surface: light in the light theme, dark grey in the dark theme. Group content with space and tone. Do not use divider lines,
-eyebrow labels, hero text, or decorative stamps.
+surface: light in the light theme, dark grey in the dark theme. Group content
+with space and tone. Do not use divider lines, eyebrow labels, hero text, or
+decorative stamps.
 
 Keep the visible planner copy short. Put search descriptions in page metadata
 and agent summaries in separate text files.
@@ -13,19 +14,20 @@ Define colours in OKLCH. In the light theme, keep the content surfaces white
 and neutral grey. Use a dark, strong colour from the selected game for the
 header, primary actions, and current selections. Show the field guide icon and
 header text in white. Mark the active planner with a white background and dark
-text. Keep
-hover and focus states clear on the dark header. Pair each status colour with
-a name and an icon. Type colours come only from the type logos.
+text. Keep hover and focus states clear on the dark header. Pair each status
+colour with a name and an icon. Type colours come only from the type logos.
 
 Follow the system colour scheme. Each game sets only a hue and a chroma. The
 stylesheet sets the lightness for each theme. In the dark theme, keep the
 surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
 Keep the header and primary actions in the dark game colour with white text.
 Use a light tone of the game colour (lightness 0.8) for links, focus,
-selection lines, pressed chips, switches that are on, and text selection, with
-dark text on it. Mark the active planner with the page background, light text,
-and a white ring. Make hover on primary actions lighter, not darker. Use light status colours on dark tint surfaces. In the defense chart, give
-the strongest effect the brightest mark. PNG exports stay light.
+selection lines, pressed chips, checked boxes, switches that are on, and text
+selection, with dark text on it. Mark the active planner with the page
+background, light text, and a white ring. Make hover on primary actions
+lighter, not darker. Use light status colours on dark tint surfaces. In the
+defense chart, give the strongest effect the brightest mark. PNG exports stay
+light.
 
 ## Type
 
