@@ -59,7 +59,7 @@ export function buildTeamExport(game: GameData, state: PlannerState, progress: b
     state.respectLevelLimit ? snapshot!.levelLimit ? `Level limit: ${snapshot!.levelLimit.level}` : 'No active level limit' : 'Level limit off'].join(' · ') : 'Base stats · Highest value in red';
   return {
     kind: progress ? 'progress' : 'team', title: mode, subtitle,
-    logoSrc: `/games/${state.gameId}-logo.png`,
+    logoSrc: `/games/${state.gameId}-logo.webp`,
     filename: `${state.gameId}-${progress ? 'progress' : 'team'}-planner.png`,
     slots: state.team.map(id => {
       if (!id) return { name: 'Empty slot', dex: null, spriteSrc: null, types: [], progress: null };

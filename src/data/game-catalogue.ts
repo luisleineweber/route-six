@@ -28,7 +28,7 @@ const generations = [
 
 export const gameCatalogue: GameOption[] = generations.flatMap((games, index) => games.map(({ name, accentColor }) => {
   const id = name.toLowerCase().replace(/[’!:,]/g, '').replaceAll(' ', '-');
-  return { id, name: `Pokémon ${name}`, generation: index + 1, logoSrc: `/games/${id}-logo.png`, accentColor };
+  return { id, name: `Pokémon ${name}`, generation: index + 1, logoSrc: `/games/${id}-logo.webp`, accentColor };
 }));
 
 export const gameGroups = generations.map((_, index) => ({
