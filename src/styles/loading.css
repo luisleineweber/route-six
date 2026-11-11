@@ -1,0 +1,108 @@
+/* Loading states. The Route Six mark walks its route and lights the six team points.
+   Placeholders keep the layout steady. With reduced motion, the mark and bars stay still. */
+:root {
+  --skeleton: oklch(0.915 0 0);
+  --skeleton-shine: oklch(0.965 0 0);
+}
+
+/* Route Six loader */
+.loading-mark { display: block; flex-shrink: 0; overflow: visible; color: var(--accent); }
+.loading-mark-sm { width: 1.25rem; height: 1.25rem; }
+.loading-mark-md { width: 2.25rem; height: 2.25rem; }
+.loading-mark-lg { width: 5rem; height: 5rem; }
+.loading-mark path { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.loading-mark-track { opacity: 0.18; }
+.loading-mark-point { fill: currentColor; transform-box: fill-box; transform-origin: center; }
+
+/* Indeterminate bar */
+.startup-bar, .game-loading-bar { position: relative; display: block; overflow: hidden; block-size: 0.25rem; border-radius: 999px; background: color-mix(in oklch, var(--bar-color) 16%, transparent); }
+.startup-bar::after, .game-loading-bar::after { content: ''; position: absolute; inset-block: 0; inset-inline-start: 0; inline-size: 100%; border-radius: inherit; background: var(--bar-color); }
+
+/* Placeholders */
+.skeleton-line { display: block; inline-size: 7rem; max-inline-size: 100%; block-size: 0.75rem; border-radius: 999px; background: var(--skeleton); }
+.skeleton-sprite { display: block; inline-size: min(5rem, 70%); aspect-ratio: 1; margin-block-end: 0.5rem; border-radius: 50%; background: var(--skeleton); }
+
+/* Status line for checks inside the page */
+.loading-note { display: flex; align-items: center; gap: 1rem; max-width: none; margin-top: 1rem; padding: 1rem 1.25rem; border-radius: var(--radius-tile); background: var(--accent-tint); }
+.loading-note-copy { display: grid; gap: 0.125rem; max-width: none; line-height: 1.4; }
+.loading-note-copy strong { color: var(--ink); font-size: 0.9375rem; font-weight: 600; }
+.loading-note-copy span { color: var(--muted); font-size: 0.8125rem; }
+
+/* Startup */
+.startup-screen { --bar-color: var(--accent); display: grid; place-content: center; justify-items: center; gap: 0.5rem; min-height: 100svh; padding: 1.5rem; text-align: center; }
+.startup-screen .loading-mark { margin-block-end: 0.75rem; }
+.startup-screen p { color: var(--muted); }
+.startup-screen .startup-bar { inline-size: 10rem; margin-block-start: 1rem; }
+
+/* Game change */
+.game-loading-notice { --bar-color: var(--next-accent); position: fixed; inset-block-end: max(1rem, env(safe-area-inset-bottom)); inset-inline-start: 50%; translate: -50% 0; z-index: 25; display: flex; align-items: center; gap: 1rem; width: max-content; max-width: calc(100% - 2rem); overflow: hidden; padding: 0.75rem 1.25rem 0.875rem 0.875rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-ring), 0 8px 24px oklch(0 0 0 / 0.12); }
+.game-loading-notice .game-logo { flex-shrink: 0; width: 4.5rem; height: 2.25rem; object-fit: contain; }
+.game-loading-notice p { display: grid; min-width: 0; line-height: 1.4; overflow-wrap: anywhere; }
+.game-loading-notice p > span { color: var(--muted); font-size: 0.8125rem; }
+.game-loading-notice .loading-mark { color: var(--next-accent); }
+.game-loading-notice .game-loading-bar { position: absolute; inset-inline: 0; inset-block-end: 0; border-radius: 0; }
+.game-selector.is-loading > summary { cursor: progress; }
+.game-selector.is-loading > summary > .game-logo { opacity: 0.6; }
+.game-selector > summary > .loading-mark { color: white; }
+@media (max-width: 44rem) {
+  .game-selector > summary > .loading-mark { position: absolute; inset-inline-end: 0.75rem; inset-block-start: calc(50% - 0.625rem); }
+}
+@media (max-width: 30rem) {
+  .game-loading-notice p > span { display: none; }
+}
+
+/* Details dialog */
+.details-loading { display: grid; gap: 1rem; margin-top: var(--page-gap, 1.5rem); }
+.details-loading .loading-note { margin-top: 0; }
+.details-skeleton { display: grid; gap: 0.75rem; }
+.details-skeleton > div { display: grid; gap: 0.625rem; padding: 1rem; border-radius: var(--radius-tile); background: var(--tile); }
+
+/* Catalogue cards while access is checked */
+.pokemon-card.skeleton { justify-content: center; min-height: 15rem; padding-block: 1.5rem; }
+@container catalogue (max-width: 39.999rem) {
+  .progress-catalogue .pokemon-card.skeleton { aspect-ratio: 1; min-height: 0; padding: 1rem 0.5rem; }
+  .pokemon-card.skeleton .skeleton-line:last-child { display: none; }
+}
+
+/* Export button */
+.secondary-button.is-busy:disabled { opacity: 1; cursor: progress; }
+
+/* Dim the planner while another game loads. */
+.app-shell[aria-busy='true'] main { opacity: 0.6; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .loading-mark-runner { stroke-dasharray: 24 100; animation: route-walk 1.8s linear infinite; }
+  /* Each point lights when the runner reaches it. --at is the point's place on the route. */
+  .loading-mark-point { animation: route-point 1.8s ease-out infinite; animation-delay: calc(var(--at) * 1.45s - 1.8s); }
+
+  .startup-bar::after, .game-loading-bar::after { inline-size: 40%; animation: bar-slide 1.3s ease-in-out infinite; }
+
+  .skeleton-line, .skeleton-sprite {
+    background: linear-gradient(100deg, var(--skeleton) 35%, var(--skeleton-shine) 50%, var(--skeleton) 65%) var(--skeleton);
+    background-size: 300% 100%;
+    animation: skeleton-shine 1.6s linear infinite;
+  }
+
+  .loading-note, .details-skeleton, .skeleton-grid { animation: loading-appear 240ms ease-out 180ms both; }
+  .startup-screen { animation: loading-appear 240ms ease-out 150ms both; }
+  .game-loading-notice { animation: notice-rise 200ms ease-out 120ms both; }
+  .app-shell main { transition: opacity 200ms ease-out; }
+  .app-shell[aria-busy='true'] main { transition-delay: 150ms; }
+}
+
+@keyframes route-walk { from { stroke-dashoffset: 24; } to { stroke-dashoffset: -100; } }
+@keyframes route-point {
+  0% { opacity: 0.3; transform: scale(0.75); }
+  8% { opacity: 1; transform: scale(1.3); }
+  30% { opacity: 1; transform: scale(1); }
+  70%, 100% { opacity: 0.3; transform: scale(0.75); }
+}
+@keyframes bar-slide { from { translate: -100% 0; } to { translate: 250% 0; } }
+@keyframes skeleton-shine { from { background-position: 100% 0; } to { background-position: 0 0; } }
+@keyframes loading-appear { from { opacity: 0; translate: 0 0.25rem; } }
+@keyframes notice-rise { from { opacity: 0; translate: -50% 0.5rem; } }
+
+@media (forced-colors: active) {
+  .loading-mark { color: CanvasText; }
+  .skeleton-line, .skeleton-sprite { background: GrayText; }
+}

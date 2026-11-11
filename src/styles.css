@@ -10,6 +10,7 @@
 @import './styles/details.css';
 @import './styles/evolution.css';
 @import './styles/footer.css';
+@import './styles/loading.css';
 
 :root {
   color-scheme: light;
