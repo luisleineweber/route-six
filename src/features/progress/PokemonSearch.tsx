@@ -6,6 +6,7 @@ import { defaultCatalogueStatus, matchesCatalogueStatus, matchesCatalogueTypes, 
 import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 import { CatalogueFilters } from './CatalogueFilters';
 import { PokemonCatalogueCard } from './PokemonCatalogueCard';
+import { useProgressiveCount } from './use-progressive-count';
 import { statusIcons, statusNames } from '../../components/StatusLabel';
 import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
 import { isExclusionBlocker } from '../../domain/availability/exclusions';
@@ -61,6 +62,8 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     const profile = profiles.get(pokemon.id)!;
     if (profile.regionalDex !== undefined) regionalCounts.set(profile.regionalDexSectionId, (regionalCounts.get(profile.regionalDexSectionId) ?? 0) + 1);
   }
+  const showsSkeleton = progressPage && !snapshot;
+  const renderedCount = useProgressiveCount(showsSkeleton ? 0 : visible.length, JSON.stringify([game.game.id, progressPage, showsSkeleton, query, selectedTypes, status]));
   const nationalVisible = visible.filter(pokemon => profiles.get(pokemon.id)?.regionalDex === undefined);
   const canAdd = activeSlot !== null || team.includes(null);
   const clearFilters = () => { setQuery('');setSelectedTypes([]);setStatusChoice(null); };
@@ -86,12 +89,12 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
       </div>
     </CatalogueFilters>
 
-    {progressPage && !snapshot ? <>
+    {showsSkeleton ? <>
         <p className="loading-note" role="status"><span className="loading-dot" />Checking which Pokémon are available…</p>
         <div className="pokemon-grid" aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i} />)}</div>
       </>
       : !visible.length ? <div className="empty-results"><Search size={26} aria-hidden="true" /><h3>No Pokémon match these filters.</h3><p>{progressPage ? 'Change your search, type, or status filters.' : 'Change the name or type.'}</p><button className="secondary-button" onClick={clearFilters}>Clear filters</button></div>
-      : <div className={`pokemon-grid${showCompactStatus ? ' mixed-access' : ''}`}>{visible.map((pokemon, index) => {
+      : <div className={`pokemon-grid${showCompactStatus ? ' mixed-access' : ''}`}>{visible.slice(0, renderedCount).map((pokemon, index) => {
         const entry = snapshot?.entries[pokemon.id];
         const earliest = entry?.status === 'later' && snapshot ? firstAccessOptions(game, snapshot, entry) : [];
         // Keep the source location and first-access point on the same future path.
