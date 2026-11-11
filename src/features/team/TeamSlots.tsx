@@ -3,6 +3,7 @@ import { Plus, X } from 'lucide-react';
 import { pokemonIdentity } from '../../data/dataset';
 import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
 import { StatusLabel } from '../../components/StatusLabel';
+import { SkeletonLine } from '../../components/Loading';
 import type { AvailabilitySnapshot } from '../../domain/types';
 
 export function TeamSlots({ team, snapshot, progressPage, activeSlot, onChoose, onRemove, onDetails }: {
@@ -28,7 +29,7 @@ export function TeamSlots({ team, snapshot, progressPage, activeSlot, onChoose, 
         <PokemonSprite id={id} />
         <h3><button className="card-link" aria-label={`View ${name} details`} onClick={() => onDetails(id)}>{name}</button></h3>
         <PokemonTypes id={id} compact />
-        {progressPage && (snapshot ? <StatusLabel status={snapshot.entries[id].status} /> : <span className="status-label status-pending">Checking access…</span>)}
+        {progressPage && (snapshot ? <StatusLabel status={snapshot.entries[id].status} /> : <span className="status-label status-pending"><SkeletonLine /><span className="sr-only">Checking access…</span></span>)}
       </> : <button ref={element => { emptyControls.current[index] = element; }} className="empty-slot-button" onClick={() => onChoose(index)}><span className="empty-plus"><Plus size={22} aria-hidden="true" /></span>Add Pokémon<span className="sr-only"> to slot {index + 1}</span></button>}
     </article>;
   })}</div>;

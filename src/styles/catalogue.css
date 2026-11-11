@@ -63,8 +63,6 @@
   .card-identity { margin-top: 1rem; }
 }
 
-.skeleton { min-height: 15rem; animation: pulse 1.4s ease-in-out infinite; }
-@keyframes pulse { 50% { opacity: 0.55; } }
 .empty-results { display: grid; justify-items: center; gap: 0.5rem; padding: 3rem 1.5rem; border-radius: var(--radius-tile); background: var(--tile); text-align: center; }
 .empty-results > svg { color: var(--muted); }
 .empty-results p { margin-bottom: 0.5rem; color: var(--muted); }
