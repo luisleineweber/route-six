@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { AppHeader, type PlannerPage } from '../src/components/AppHeader';
 
 const renderHeader = (page: PlannerPage) => renderToStaticMarkup(createElement(AppHeader, {
-  gameId: 'emerald', onGameChange: () => {}, page, onPageChange: () => {},
+  gameId: 'emerald', loadingGameId: null, onGameChange: () => {}, page, onPageChange: () => {},
 }));
 
 describe('Header', () => {

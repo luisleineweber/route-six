@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { gameCatalogue, gameGroups, isGameReady } from '../data/game-catalogue';
 import { GameLogo } from './GameLogo';
+import { LoadingMark } from './Loading';
 
 function fitDropdown(details: HTMLDetailsElement | null) {
   if (!details?.open) return;
@@ -9,7 +10,7 @@ function fitDropdown(details: HTMLDetailsElement | null) {
   if (dropdown) dropdown.style.setProperty('--game-menu-height', `${Math.max(0, window.innerHeight - dropdown.getBoundingClientRect().top - 16)}px`);
 }
 
-export function GameSelector({ gameId, onChange }: { gameId: string; onChange: (id: string) => void }) {
+export function GameSelector({ gameId, loadingGameId, onChange }: { gameId: string; loadingGameId: string | null; onChange: (id: string) => void }) {
   const details = useRef<HTMLDetailsElement>(null);
   const list = useRef<HTMLDivElement>(null);
   const selected = gameCatalogue.find(game => game.id === gameId)!;
@@ -26,7 +27,7 @@ export function GameSelector({ gameId, onChange }: { gameId: string; onChange: (
     };
   }, []);
   const close = () => { details.current?.removeAttribute('open'); details.current?.querySelector('summary')?.focus(); };
-  return <details className="game-selector" ref={details} onToggle={event => {
+  return <details className={`game-selector${loadingGameId ? ' is-loading' : ''}`} ref={details} onToggle={event => {
     if (!event.currentTarget.open) return;
     fitDropdown(event.currentTarget);
     const group = list.current?.querySelector<HTMLElement>(`#generation-${selected.generation}`);
@@ -41,8 +42,8 @@ export function GameSelector({ gameId, onChange }: { gameId: string; onChange: (
   }}>
     <summary>
       <GameLogo gameId={gameId} />
-      <span className="selected-game"><strong>{selected.name}</strong><span>Change game</span></span>
-      <ChevronDown size={18} className="chevron" aria-hidden="true" />
+      <span className="selected-game"><strong>{selected.name}</strong><span>{loadingGameId ? 'Loading game…' : 'Change game'}</span></span>
+      {loadingGameId ? <LoadingMark size="sm" /> : <ChevronDown size={18} className="chevron" aria-hidden="true" />}
     </summary>
     <div className="game-dropdown" role="region" aria-label="Choose a game">
       <div className="game-list" ref={list}>
