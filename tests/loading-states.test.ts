@@ -28,7 +28,8 @@ describe('Loading states', () => {
 
   it('opens the planner with the Route Six loader', () => {
     const html = renderToStaticMarkup(createElement(StartupScreen));
-    expect(html).toContain('class="startup-screen" role="status"');
+    expect(html).toContain('<main class="startup-screen">');
+    expect(html).toContain('<p role="status">Opening the planner…</p>');
     expect(html).toContain('<h1>Route Six</h1>');
   });
 });
