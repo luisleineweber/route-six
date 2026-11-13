@@ -404,7 +404,8 @@ export interface TeamWarning {
 
 export interface TeamCheck {
   feasible: boolean;
-  chosenPathIds: Id[];
+  /** One entry per team member, in team order. Null when no path was chosen for that member. */
+  chosenPathIds: (Id | null)[];
   warnings: TeamWarning[];
 }
 

@@ -53,6 +53,39 @@ describe('PNG catch locations', () => {
     expect(model.slots[0].progress!.location).toBe(content.location);
   });
 
+  it('names non-wild methods with the same labels as the planner', () => {
+    const starter = emerald.sources.find(source => source.pokemonId === 'mudkip' && source.details.kind === 'starter')!;
+    const path = { ...sourcePaths()[1], id: 'starter', pokemonId: 'mudkip', sourceIds: [starter.id], evolutionIds: [] };
+    const state = snapshot([path]);
+    state.entries.mudkip = { ...state.entries.gyarados, pokemonId: 'mudkip', currentPathIds: ['starter'] };
+    expect(progressContent(emerald, state, 'mudkip', path).method).toBe('Starter');
+  });
+
+  it('keeps a gender-only evolution rule in the main evolution chain', () => {
+    const diamond = dataset.games.find(game => game.game.id === 'diamond')!;
+    const combee = diamond.sources.find(source => source.pokemonId === 'combee')!;
+    const rule = diamond.evolutions.find(rule => rule.toPokemonId === 'vespiquen')!;
+    const path = { ...sourcePaths()[1], id: 'vespiquen', pokemonId: 'vespiquen', sourceIds: [combee.id], evolutionIds: [rule.id] };
+    const state = snapshot([path]);
+    state.entries.vespiquen = { ...state.entries.gyarados, pokemonId: 'vespiquen', currentPathIds: ['vespiquen'] };
+    expect(progressContent(diamond, state, 'vespiquen', path).stages[1].conditions).toContain('Female only.');
+  });
+
+  it('keeps extra evolution items and breeding held items in the export instructions', () => {
+    const nincada = emerald.sources.find(source => source.pokemonId === 'nincada' && source.details.kind === 'wild')!;
+    const shedinjaRule = emerald.evolutions.find(rule => rule.toPokemonId === 'shedinja')!;
+    const shedinja = { ...sourcePaths()[1], id: 'shedinja', pokemonId: 'shedinja', sourceIds: [nincada.id], evolutionIds: [shedinjaRule.id] };
+    const marill = { ...sourcePaths()[1], id: 'marill', pokemonId: 'marill', sourceIds: [emerald.sources.find(source => source.pokemonId === 'marill')!.id], evolutionIds: [] };
+    const azurill: AcquisitionPath = { ...marill, id: 'azurill', pokemonId: 'azurill', sourceIds: ['breed-azurill-azurill'],
+      breedingSteps: [{ sourceId: 'breed-azurill-azurill', ruleId: 'breed-azurill', parents: [
+        { pokemonId: 'marill', gender: 'female', pathId: 'marill' }, { pokemonId: 'marill', gender: 'male', pathId: 'marill' }] }] };
+    const state = snapshot([shedinja, marill, azurill]);
+    state.entries.shedinja = { ...state.entries.gyarados, pokemonId: 'shedinja', currentPathIds: ['shedinja'] };
+    state.entries.azurill = { ...state.entries.gyarados, pokemonId: 'azurill', currentPathIds: ['azurill'] };
+    expect(progressContent(emerald, state, 'shedinja', shedinja).stages[1].conditions).toContain('Use Poké Ball.');
+    expect(progressContent(emerald, state, 'azurill', azurill).acquisition).toContain('One parent must hold Sea Incense. The held item is kept.');
+  });
+
   it('lists each additional place once instead of repeating fishing methods', () => {
     const paths = sourcePaths();
     const magikarp = emerald.sources.filter(source => source.pokemonId === 'magikarp' && source.locationId === 'route-103');
