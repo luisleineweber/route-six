@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLayoutEffect, useRef } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types';
 import { pokemonIdentity } from '../../data/dataset';
@@ -6,12 +6,15 @@ import { useGameData } from '../planner/GameContext';
 import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 
 export function TypeAnalysis({ team }: { team: (string | null)[] }) {
-  const [initiallyOpen] = useState(() => typeof window !== 'undefined' && window.innerWidth > 480);
+  // The prerendered start page starts closed. Wider screens open the panel
+  // after hydration, so the server and client markup match.
+  const details = useRef<HTMLDetailsElement>(null);
+  useLayoutEffect(() => { if (window.innerWidth > 480) details.current!.open = true; }, []);
   const game = useGameData();
   const members = team.filter((id): id is string => id !== null);
   const analysis = analyzeTypes(game, members);
   const covered = new Set(analysis.coveredTypes);
-  return <details className="analysis" open={initiallyOpen}>
+  return <details ref={details} className="analysis">
     <summary><h2>Type analysis</h2><ChevronDown size={20} aria-hidden="true" /></summary>
     {!members.length ? <p className="muted">Add a Pokémon to see weaknesses and attack coverage.</p> : <>
       <div className="defense-chart">
