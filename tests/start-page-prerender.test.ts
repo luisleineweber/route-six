@@ -47,6 +47,10 @@ describe('prerendered start page', () => {
     expect(body).toContain('Add a Pokémon to see weaknesses and attack coverage.');
     expect(body).toContain('Emerald');
     expect(body.match(/<main\b/g)).toHaveLength(1);
+    // Keep the page small: the add confirmation icon joins a card only after an add.
+    expect(body).toContain('class="lucide lucide-plus add-icon"');
+    expect(body).not.toContain('added-icon');
+    expect(body).not.toMatch(/dex-name">[^<]*<!-- -->/);
     // Only the real interface: no loading screen and no extra search copy.
     expect(body).not.toContain('Opening Route Six');
     expect(body).not.toContain('planner-guide');
