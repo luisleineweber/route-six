@@ -161,13 +161,17 @@
   .team-catalogue .pokemon-card { padding-inline: 0.375rem; }
 }
 
-/* Wide progress cards share the team card anatomy: name and types on one row, status below. */
+/* Wide progress cards share the team card anatomy: name and types on one row, status below.
+   The card must also be wide enough, or the types leave no room for the name. */
 @container catalogue (min-width: 40rem) {
-  .progress-catalogue .catalogue-card-identity { position: relative; }
-  .progress-catalogue .pokemon-card .card-link { align-items: stretch; }
-  .progress-catalogue .card-sprite { align-self: center; }
-  .progress-catalogue .card-name { min-height: 1.5rem; padding-inline-end: 3.75rem; text-align: start; line-height: 1.5rem; }
-  .progress-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0.25rem; }
-  .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; text-align: start; }
-  .progress-catalogue .access-summary { min-height: 2.8em; }
+  .progress-catalogue .card-name { text-align: center; }
+  @container pokemon-card (min-width: 8rem) {
+    .progress-catalogue .catalogue-card-identity { position: relative; }
+    .progress-catalogue .pokemon-card .card-link { align-items: stretch; }
+    .progress-catalogue .card-sprite { align-self: center; }
+    .progress-catalogue .card-name { min-height: 1.5rem; padding-inline-end: 3.75rem; text-align: start; line-height: 1.5rem; }
+    .progress-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0.25rem; }
+    .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; text-align: start; }
+    .progress-catalogue .access-summary { min-height: 2.8em; }
+  }
 }
