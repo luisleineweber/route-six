@@ -7,6 +7,7 @@ import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 import { CatalogueFilters } from './CatalogueFilters';
 import { PokemonCatalogueCard } from './PokemonCatalogueCard';
 import { statusIcons, statusNames } from '../../components/StatusLabel';
+import { LoadingNote, SkeletonLine } from '../../components/Loading';
 import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, PlanningTarget } from '../../domain/types';
 import { isExclusionBlocker } from '../../domain/availability/exclusions';
 import { regionalDexName, sortPokemonByPokedex } from '../planner/pokedex-order';
@@ -87,8 +88,8 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     </CatalogueFilters>
 
     {progressPage && !snapshot ? <>
-        <p className="loading-note" role="status"><span className="loading-dot" />Checking which Pokémon are available…</p>
-        <div className="pokemon-grid" aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i} />)}</div>
+        <LoadingNote title="Checking which Pokémon are available…" detail="Checking each way to catch, evolve, trade, or breed them." />
+        <div className="pokemon-grid skeleton-grid" aria-hidden="true">{Array.from({length:18},(_,i) => <div className="pokemon-card skeleton" key={i}><span className="skeleton-sprite" /><SkeletonLine width="70%" /><SkeletonLine width="45%" /></div>)}</div>
       </>
       : !visible.length ? <div className="empty-results"><Search size={26} aria-hidden="true" /><h3>No Pokémon match these filters.</h3><p>{progressPage ? 'Change your search, type, or status filters.' : 'Change the name or type.'}</p><button className="secondary-button" onClick={clearFilters}>Clear filters</button></div>
       : <div className={`pokemon-grid${showCompactStatus ? ' mixed-access' : ''}`}>{visible.map((pokemon, index) => {

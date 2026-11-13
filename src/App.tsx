@@ -18,6 +18,8 @@ import { TypeAnalysis } from './features/team/TypeAnalysis';
 import { PokemonSearch } from './features/progress/PokemonSearch';
 import { AcquisitionDetails } from './components/AcquisitionDetails';
 import { ExportTeamButton } from './features/export/ExportTeamButton';
+import { GameLoadingNotice } from './components/GameLoadingNotice';
+import { LoadingNote } from './components/Loading';
 
 export default function App({ initialGame }: { initialGame: GameData }) {
   const [state,dispatch] = useReducer(plannerReducer,initialGame,createInitialState);
@@ -86,14 +88,13 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   };
   return <GameContext value={game}>
     <a className="skip-link" href="#main">Skip to planner</a>
-    <AppHeader gameId={state.gameId} onGameChange={gameSelection.select} page={page} onPageChange={setPage} />
-    {canUndoGame && <div className="game-change-notice" role="group" aria-label="Game change">
+    <AppHeader gameId={state.gameId} loadingGameId={loadingGameId} onGameChange={gameSelection.select} page={page} onPageChange={setPage} />
+    {loadingGameId ? <GameLoadingNotice gameId={loadingGameId} /> : canUndoGame && <div className="game-change-notice" role="group" aria-label="Game change">
       <p>Switched to <strong>{game.game.name}</strong>.</p>
       <button ref={undoButton} type="button" className="secondary-button" onClick={() => gameSelection.undo()}><Undo2 size={17} aria-hidden="true" />Undo</button>
     </div>}
     {!progressUnavailable && <TeamBar team={state.team} teamRef={teamSlots} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} />}
-    <div className="app-shell">
-      {loadingGameId && <p role="status">Loading {gameCatalogue.find(option=>option.id===loadingGameId)!.name}…</p>}
+    <div className="app-shell" aria-busy={loadingGameId !== null}>
       {gameError && <div className="error-message" role="alert"><strong>The selected game could not load.</strong><p>{gameError}</p><p>Select the game again to retry.</p></div>}
       {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
       <main ref={main} id="main" tabIndex={-1}>
@@ -104,7 +105,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
         <section className="team-section" aria-labelledby="team-title">
           <h2 id="team-title" className="sr-only">Your team</h2>
           <div ref={teamSlots}><TeamSlots team={state.team} snapshot={progressPage ? snapshot : null} progressPage={progressPage} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} /></div>
-          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <p className="loading-note" role="status"><span className="loading-dot" />Checking team access{state.respectLevelLimit?' with the level limit':' without the level limit'}…</p>)}
+          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <LoadingNote title="Checking team access…" detail={state.respectLevelLimit ? 'Using the level limit for each team member.' : 'Checking without the level limit.'} />)}
         </section>
         {page==='team' && <TypeAnalysis team={state.team} />}
         <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />

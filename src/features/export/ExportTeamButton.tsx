@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Download } from 'lucide-react';
 import type { AvailabilitySnapshot } from '../../domain/types';
+import { LoadingMark } from '../../components/Loading';
 import { useGameData } from '../planner/GameContext';
 import type { PlannerState } from '../planner/state';
 
@@ -28,8 +29,8 @@ export function ExportTeamButton({ state, progressPage, snapshot }: {
     } finally { setBusy(false); }
   }
   return <div className="team-export">
-    <button className="secondary-button" disabled={disabled} onClick={exportTeam}>
-      <Download size={18} aria-hidden="true" /><span className="export-label">{busy ? 'Creating PNG...' : 'Export team as PNG'}</span><span className="export-label-short">{busy ? 'Creating...' : 'Export PNG'}</span>
+    <button className={`secondary-button${busy ? ' is-busy' : ''}`} disabled={disabled} aria-busy={busy} onClick={exportTeam}>
+      {busy ? <LoadingMark size="sm" /> : <Download size={18} aria-hidden="true" />}<span className="export-label">{busy ? 'Creating PNG...' : 'Export team as PNG'}</span><span className="export-label-short">{busy ? 'Creating...' : 'Export PNG'}</span>
     </button>
     <p className="small muted" role={error ? 'alert' : 'status'}>{message}</p>
   </div>;

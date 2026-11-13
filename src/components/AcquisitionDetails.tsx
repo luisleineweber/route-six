@@ -5,6 +5,7 @@ import { gameReferences } from '../data/game-references';
 import { useGameData } from '../features/planner/GameContext';
 import { PokemonSprite, PokemonTypes, TypeBadge } from './PokemonIdentity';
 import { StatusLabel } from './StatusLabel';
+import { LoadingNote, SkeletonLine } from './Loading';
 import { damageMultiplier } from '../domain/team/analyze-types';
 import type { AvailabilitySnapshot } from '../domain/types';
 import { AcquisitionPathGroup } from './AcquisitionPathGroup';
@@ -49,7 +50,7 @@ export function AcquisitionDetails({ id, snapshot, progressPage, onClose, onAdd,
           {firstPoints.length > 1 && <div><h4>Other ways to get it</h4><ul>{firstPoints.slice(1).map(point=><li key={point.id}>{point.label}</li>)}</ul></div>}
           {!entry.blockers.length && <p>At {game.milestones.find(point=>point.id===snapshot!.query.milestoneId)!.name}.</p>}
         </details>
-      </> : <p role="status">Checking how to get this Pokémon…</p>) : null}
+      </> : <div className="details-loading"><LoadingNote title="Checking how to get this Pokémon…" /><div className="details-skeleton" aria-hidden="true">{[0, 1, 2].map(row => <div key={row}><SkeletonLine width="40%" /><SkeletonLine width="85%" /></div>)}</div></div>) : null}
       {progressPage && <details className="data-references"><summary>Sources <ChevronDown className="chevron" size={16} aria-hidden="true" /></summary><p>Sources for {game.game.name}. Last checked: {game.game.review.checkedOn}.</p><ul>{gameReferences(sharedData,game).map(r=><li key={r.id}><a href={r.url} target="_blank" rel="noreferrer">{r.title}</a></li>)}</ul></details>}</div>
       <div className="dialog-footer"><button className="primary-button" disabled={!canAdd} onClick={()=>{onAdd(id!);onClose();}}><Plus size={17} aria-hidden="true" /> Add {pokemon.name} to team</button></div>
     </>}
