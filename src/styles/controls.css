@@ -6,7 +6,7 @@ input[type='search']::placeholder { color: var(--muted); }
 input[type='search']:hover, select:hover { border-color: var(--ink); }
 input[type='search']:focus-visible { border-color: transparent; outline-offset: 0; }
 @media (max-width: 40rem) { input[type='search'], select { font-size: 1rem; } }
-input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1.125rem; margin: 0; accent-color: var(--accent); }
+input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1.125rem; margin: 0; accent-color: var(--selected-fill); }
 .field-hint { margin-top: 0.5rem; color: var(--muted); font-size: 0.8125rem; line-height: 1.5; }
 .field-hint strong { color: var(--ink); }
 .check-label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.5rem; margin: 0; font-weight: 400; cursor: pointer; }
@@ -18,8 +18,9 @@ input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1
 .switch-control { display: flex; align-items: center; gap: 0.625rem; }
 .switch-state { min-width: 1.5rem; color: var(--muted); font-size: 0.8125rem; text-align: end; }
 .switch { appearance: none; position: relative; flex-shrink: 0; width: 2.75rem; height: 1.625rem; margin: 0; border-radius: 999px; background: var(--control-line); cursor: pointer; transition: background-color 150ms ease-out; }
-.switch::before { content: ''; position: absolute; inset: 0.1875rem; width: 1.25rem; height: 1.25rem; border-radius: 50%; background: white; box-shadow: 0 1px 2px oklch(0 0 0 / 0.3); transition: translate 150ms ease-out; }
-.switch:checked { background: var(--accent); }
+.switch::before { content: ''; position: absolute; inset: 0.1875rem; width: 1.25rem; height: 1.25rem; border-radius: 50%; background: white; box-shadow: var(--shadow-knob); transition: translate 150ms ease-out; }
+.switch:checked { background: var(--selected-fill); }
+.switch:checked::before { background: var(--on-selected); }
 .switch:checked::before { translate: 1.125rem 0; }
 
 .segments { display: grid; grid-template-columns: 1fr 1fr; gap: 0.25rem; padding: 0.25rem; border-radius: calc(var(--radius-control) + 0.25rem); background: var(--tile); }
@@ -33,7 +34,7 @@ input[type='checkbox']:not(.switch) { flex-shrink: 0; width: 1.125rem; height: 1
 .primary-button, .secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 2.75rem; padding: 0.5rem 1.125rem; border: 0; border-radius: var(--radius-control); font-size: 0.9375rem; font-weight: 600; transition: background-color 150ms ease-out, scale 100ms ease-out; }
 .secondary-button { background: var(--surface); box-shadow: var(--shadow-ring); color: var(--ink); }
 .secondary-button:hover:not(:disabled) { background: var(--tile); }
-.primary-button { background: var(--accent); color: white; }
+.primary-button { background: var(--accent); color: var(--on-accent); }
 .primary-button:hover:not(:disabled) { background: var(--accent-hover); }
 .primary-button:disabled { opacity: 1; background: var(--tile); color: var(--muted); }
 .primary-button:active:not(:disabled), .secondary-button:active:not(:disabled), .icon-button:active:not(:disabled) { scale: 0.96; }
@@ -57,7 +58,7 @@ details[open] > summary > .chevron { rotate: 180deg; }
 .chip.status-later svg { color: var(--later); }
 .chip.status-blocked svg { color: var(--blocked); }
 .chip-count { color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
-.chip[aria-pressed='true'] { background: var(--accent); color: white; }
+.chip[aria-pressed='true'] { background: var(--selected-fill); color: var(--on-selected); }
 .chip[aria-pressed='true'] svg, .chip[aria-pressed='true'] .chip-count { color: inherit; }
 @media (max-width: 40rem) {
   /* One scrolling row that runs to the screen edge, so cut-off chips read as scrollable. */
@@ -93,5 +94,5 @@ details[open] > summary > .chevron { rotate: 180deg; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 1rem; }
 .count { flex-shrink: 0; color: var(--muted); font-size: 0.875rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .loading-note { display: flex; align-items: center; gap: 0.75rem; max-width: none; margin-top: 1rem; color: var(--muted); font-size: 0.875rem; }
-.loading-dot { display: block; flex-shrink: 0; width: 1rem; height: 1rem; border: 2px solid var(--tile-hover); border-top-color: var(--accent); border-radius: 50%; animation: checking 800ms linear infinite; }
+.loading-dot { display: block; flex-shrink: 0; width: 1rem; height: 1rem; border: 2px solid var(--tile-hover); border-top-color: var(--accent-line); border-radius: 50%; animation: checking 800ms linear infinite; }
 @keyframes checking { to { rotate: 360deg; } }
