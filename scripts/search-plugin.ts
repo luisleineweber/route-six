@@ -4,12 +4,14 @@ import { crawlFiles, missingReleaseUrls, publicSiteUrl, searchTags, searchVerifi
 export function searchPlugin(): Plugin {
   let siteUrl: string | null = null;
   let verification: string | null = null;
-  let building = false;
+  // The client build owns the HTML, warnings, and crawl files. The SSR build
+  // for the prerendered start page only needs the shared base path.
+  let clientBuild = false;
   let missingUrls: string[] = [];
   return {
     name: 'route-six-search',
     config(_, environment) {
-      building = environment.command === 'build';
+      clientBuild = environment.command === 'build' && !environment.isSsrBuild;
       const env = loadEnv(environment.mode, process.cwd(), ['SITE_', 'VITE_SITE_', 'GOOGLE_SITE_']);
       const result = publicSiteUrl(env.SITE_URL);
       if (!result.ok) throw new Error(result.error);
@@ -22,13 +24,14 @@ export function searchPlugin(): Plugin {
       return siteUrl ? { base: new URL(siteUrl).pathname } : undefined;
     },
     buildStart() {
-      if (building) for (const warning of missingUrls) this.warn(warning);
+      if (clientBuild) for (const warning of missingUrls) this.warn(warning);
     },
     transformIndexHtml(html, context) {
       if (context.path !== '/' && context.path !== '/index.html') return html;
       return { html, tags: searchTags(siteUrl, verification) };
     },
     generateBundle() {
+      if (!clientBuild) return;
       const files = crawlFiles(siteUrl);
       this.emitFile({ type: 'asset', fileName: 'robots.txt', source: files.robots });
       if (files.sitemap) this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: files.sitemap });
