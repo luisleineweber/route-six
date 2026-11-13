@@ -12,7 +12,7 @@
 @import './styles/footer.css';
 
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
 
   /* Surfaces: groups are told apart by tone and space, not by lines. */
   --bg: oklch(0.975 0.003 95);
@@ -24,14 +24,37 @@
   --muted: oklch(0.47 0.008 260);
   --control-line: oklch(0.6 0.008 260);
 
-  /* The selected game sets the accent for the header, actions, and selection. */
-  --accent: oklch(0.43 0.11 155);
+  /* The selected game sets hue and chroma. Each theme derives its accent roles from them. */
+  --game-hue: 155;
+  --game-chroma: 0.11;
+  --accent: oklch(0.43 var(--game-chroma) var(--game-hue));
   --accent-hover: color-mix(in oklch, var(--accent) 85%, black);
   --accent-tint: color-mix(in oklch, var(--accent) 10%, white);
   --accent-ink: var(--accent-hover);
+  --accent-line: var(--accent);
+  --on-accent: white;
   --focus: var(--accent);
+  --nav-selected-bg: white;
+  --nav-selected-ink: var(--accent-ink);
+  --nav-selected-ring: 0 1px 3px oklch(0 0 0 / 0.18);
+  /* Pressed chips, switches, and text selection. */
+  --selected-fill: var(--accent);
+  --on-selected: var(--on-accent);
+
+  /* Type colours mix with this base for sprite areas. Translucent layers sit on those areas. */
+  --tint-base: white;
+  --tint-glow: oklch(1 0 0 / 0.55);
+  --glass: oklch(1 0 0 / 0.75);
+  --glass-strong: oklch(1 0 0 / 0.85);
+  --glass-soft: oklch(1 0 0 / 0.6);
+  --glass-faint: oklch(1 0 0 / 0.55);
+  /* Secondary text on the accent fill, and on type-tinted headers. */
+  --on-accent-soft: oklch(1 0 0 / 0.85);
+  --secondary-text-opacity: 0.75;
 
   --ok: oklch(0.45 0.11 155);
+  --ok-bg: oklch(0.95 0.04 155);
+  --ok-line: oklch(0.45 0.11 155 / 0.45);
   --later: oklch(0.48 0.1 70);
   --blocked: oklch(0.5 0.15 30);
   --warning-bg: oklch(0.955 0.045 85);
@@ -39,13 +62,111 @@
   --danger-bg: oklch(0.957 0.032 28);
   --danger-ink: oklch(0.42 0.14 28);
 
+  /* Defense chart marks. Stronger effects use stronger fills in both themes. */
+  --defense-mark: oklch(0.93 0.006 95);
+  --defense-mark-ink: oklch(0.25 0.02 260);
+  --defense-empty-line: oklch(0.3 0.01 260 / 0.1);
+  --defense-weak: oklch(0.8 0.11 28);
+  --defense-weak-ink: oklch(0.3 0.1 28);
+  --defense-double: oklch(0.55 0.17 28);
+  --defense-double-ink: white;
+  --defense-resist: oklch(0.86 0.06 240);
+  --defense-resist-ink: oklch(0.3 0.08 250);
+  --defense-immune: oklch(0.36 0.07 250);
+  --defense-immune-ink: white;
+  --uncovered-line: oklch(0.55 0.01 260);
+
   --radius-control: 0.625rem;
   --radius-tile: 1rem;
   --shadow-ring: 0 0 0 1px oklch(0.3 0.01 260 / 0.07), 0 1px 2px oklch(0.3 0.01 260 / 0.05), 0 2px 6px oklch(0.3 0.01 260 / 0.04);
   --shadow-panel: 0 1px 2px oklch(0.3 0.01 260 / 0.05), 0 4px 14px oklch(0.3 0.01 260 / 0.05);
   --shadow-raised: 0 0 0 1px oklch(0.3 0.01 260 / 0.08), 0 2px 4px oklch(0.3 0.01 260 / 0.06), 0 8px 20px oklch(0.3 0.01 260 / 0.08);
+  --shadow-bar: 0 1px 0 oklch(0.3 0.01 260 / 0.04), 0 8px 18px -8px oklch(0.3 0.01 260 / 0.18);
+  --shadow-sticky: 0 10px 20px -12px oklch(0.3 0.01 260 / 0.22);
+  --shadow-footer: 0 -12px 22px -14px oklch(0.3 0.01 260 / 0.25);
+  --shadow-notice: 0 8px 24px oklch(0 0 0 / 0.12);
+  --shadow-knob: 0 1px 2px oklch(0 0 0 / 0.3);
+  --shadow-popover: 0 0 0 1px oklch(0 0 0 / 0.06), 0 0.5rem 1rem oklch(0 0 0 / 0.06), 0 1.5rem 3.5rem oklch(0 0 0 / 0.14);
+  --shadow-dropdown: 0 0 0 1px oklch(0 0 0 / 0.08), 0 0.75rem 2.5rem oklch(0 0 0 / 0.14);
+  --dialog-shadow: oklch(0.2 0.03 160 / 0.22);
+  --backdrop: oklch(0.22 0.02 260 / 0.58);
   --page-width: 84rem;
   --page-gap: 3rem;
+}
+
+/* Dark surfaces stay neutral. Accent text and lines use a light tone of the game colour. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0.17 0 0);
+    --surface: oklch(0.21 0 0);
+    --tile: oklch(0.25 0 0);
+    --tile-hover: oklch(0.29 0 0);
+
+    --ink: oklch(0.93 0 0);
+    --muted: oklch(0.72 0 0);
+    --control-line: oklch(0.58 0 0);
+
+    --accent: oklch(0.45 var(--game-chroma) var(--game-hue));
+    /* Hover lifts the fill away from the dark page instead of sinking into it. */
+    --accent-hover: oklch(0.5 var(--game-chroma) var(--game-hue));
+    /* A direct value: mixing with achromatic grey in OKLCH pulls the hue to red. */
+    --accent-tint: oklch(0.28 calc(var(--game-chroma) * 0.35) var(--game-hue));
+    --accent-ink: oklch(0.8 calc(var(--game-chroma) * 0.7) var(--game-hue));
+    --accent-line: var(--accent-ink);
+    --focus: var(--accent-ink);
+    --nav-selected-bg: var(--bg);
+    --nav-selected-ink: var(--ink);
+    --nav-selected-ring: inset 0 0 0 2px var(--on-accent);
+    /* The dark fill is too close to the surfaces, so selection uses the light game tone. */
+    --selected-fill: var(--accent-ink);
+    --on-selected: var(--bg);
+
+    /* The base hue is none, so the mix keeps the type hue instead of pulling it to red. */
+    --tint-base: oklch(0.22 0 none);
+    --tint-glow: oklch(1 0 0 / 0.06);
+    --glass: oklch(0.17 0 0 / 0.7);
+    --glass-strong: oklch(0.17 0 0 / 0.8);
+    --glass-soft: oklch(0.17 0 0 / 0.6);
+    --glass-faint: oklch(0.17 0 0 / 0.55);
+    /* The dark accent and tint surfaces are lighter, so secondary text needs more opacity for 4.5:1. */
+    --on-accent-soft: oklch(1 0 0 / 0.95);
+    --secondary-text-opacity: 0.9;
+
+    --ok: oklch(0.78 0.12 155);
+    --ok-bg: oklch(0.3 0.05 155);
+    --ok-line: oklch(0.78 0.12 155 / 0.45);
+    --later: oklch(0.8 0.11 75);
+    --blocked: oklch(0.74 0.14 30);
+    --warning-bg: oklch(0.3 0.05 80);
+    --warning-ink: oklch(0.86 0.1 85);
+    --danger-bg: oklch(0.3 0.06 28);
+    --danger-ink: oklch(0.82 0.1 28);
+
+    --defense-mark: oklch(0.3 0 0);
+    --defense-mark-ink: oklch(0.9 0 0);
+    --defense-empty-line: oklch(1 0 0 / 0.14);
+    --defense-weak: oklch(0.45 0.12 28);
+    --defense-weak-ink: oklch(0.94 0.03 28);
+    --defense-double: oklch(0.72 0.16 28);
+    --defense-double-ink: oklch(0.2 0.06 28);
+    --defense-resist: oklch(0.4 0.08 245);
+    --defense-resist-ink: oklch(0.93 0.03 245);
+    --defense-immune: oklch(0.86 0.06 245);
+    --defense-immune-ink: oklch(0.24 0.06 250);
+    --uncovered-line: oklch(0.62 0 0);
+
+    --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
+    --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06), 0 4px 14px oklch(0 0 0 / 0.35);
+    --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16), 0 2px 4px oklch(0 0 0 / 0.4), 0 8px 20px oklch(0 0 0 / 0.45);
+    --shadow-bar: 0 1px 0 oklch(1 0 0 / 0.06), 0 8px 18px -8px oklch(0 0 0 / 0.6);
+    --shadow-sticky: 0 10px 20px -12px oklch(0 0 0 / 0.7);
+    --shadow-footer: 0 -12px 22px -14px oklch(0 0 0 / 0.7);
+    --shadow-notice: 0 8px 24px oklch(0 0 0 / 0.5);
+    --shadow-popover: 0 0 0 1px oklch(1 0 0 / 0.1), 0 0.5rem 1rem oklch(0 0 0 / 0.3), 0 1.5rem 3.5rem oklch(0 0 0 / 0.5);
+    --shadow-dropdown: 0 0 0 1px oklch(1 0 0 / 0.1), 0 0.75rem 2.5rem oklch(0 0 0 / 0.5);
+    --dialog-shadow: oklch(0 0 0 / 0.5);
+    --backdrop: oklch(0 0 0 / 0.6);
+  }
 }
 
 * { box-sizing: border-box; }
@@ -69,7 +190,7 @@ h3 { font-size: 1rem; line-height: 1.3; font-weight: 600; }
 h4 { font-size: 0.9375rem; font-weight: 600; }
 p { text-wrap: pretty; max-width: 68ch; }
 ul, ol { margin: 0; padding-inline-start: 1.25rem; }
-::selection { background: var(--accent); color: white; }
+::selection { background: var(--selected-fill); color: var(--on-selected); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .small { font-size: 0.8125rem; }
 .muted { color: var(--muted); }

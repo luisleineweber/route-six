@@ -16,7 +16,7 @@
 .progress-copy > span { color: var(--muted); font-size: 0.8125rem; }
 .progress-chevron { display: flex; flex-shrink: 0; color: var(--muted); }
 .progress-trigger[data-state='open'] .progress-chevron { rotate: 180deg; }
-.progress-dropdown { display: flex; flex-direction: column; z-index: 30; width: var(--radix-select-trigger-width); min-width: min(20rem, calc(100vw - 1.5rem)); max-width: calc(100vw - 1.5rem); max-height: var(--radix-select-content-available-height); padding: 0.375rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: 0 0 0 1px oklch(0 0 0 / 0.08), 0 0.75rem 2.5rem oklch(0 0 0 / 0.14); }
+.progress-dropdown { display: flex; flex-direction: column; z-index: 30; width: var(--radix-select-trigger-width); min-width: min(20rem, calc(100vw - 1.5rem)); max-width: calc(100vw - 1.5rem); max-height: var(--radix-select-content-available-height); padding: 0.375rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-dropdown); }
 .progress-viewport { flex: 1; min-height: 0; max-height: 36rem; overscroll-behavior: contain; }
 .progress-option { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; min-height: 3.5rem; padding: 0.625rem; border-radius: 0.625rem; cursor: pointer; user-select: none; }
 .progress-option[data-state='checked'] { background: var(--accent-tint); color: var(--accent-ink); }

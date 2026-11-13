@@ -28,7 +28,7 @@
 .dex-number { color: var(--muted); font-size: 0.8125rem; font-variant-numeric: tabular-nums; }
 .pokemon-card .dex-number { position: absolute; inset-block-start: 0.75rem; inset-inline-start: 0.875rem; max-inline-size: calc(100% - 4rem); text-align: start; line-height: 1.25; }
 .add-button { position: absolute; inset-block-start: 0.25rem; inset-inline-end: 0.25rem; z-index: 1; background: var(--surface); box-shadow: var(--shadow-ring); color: var(--accent-ink); }
-.add-button:hover:not(:disabled) { background: var(--accent); color: white; }
+.add-button:hover:not(:disabled) { background: var(--accent); color: var(--on-accent); }
 .source-summary { color: var(--muted); font-size: 0.8125rem; line-height: 1.4; }
 .access-summary { align-items: flex-start; justify-content: center; font-weight: 400; }
 .access-summary > svg { flex-shrink: 0; margin-top: 0.125rem; }
@@ -126,7 +126,7 @@
   .catalogue-filter-anchor { position: sticky; top: var(--team-bar-height, 0px); z-index: 11; display: flow-root; }
   .catalogue-filter-anchor > .filters { transition: box-shadow 150ms ease-out; }
   /* While pinned, the controls extend the team overview across the viewport and take over its shadow. */
-  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), 0 10px 20px -12px oklch(0.3 0.01 260 / 0.22); clip-path: inset(0 -100vmax -1.5rem); }
+  .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), var(--shadow-sticky); clip-path: inset(0 -100vmax -1.5rem); }
   html:has(.catalogue-filter-anchor[data-stuck]) .team-bar.visible { box-shadow: none; }
   .filters .catalogue-search, .filters .type-filter-controls { min-width: 0; }
   .filters .catalogue-search { grid-column: 1; grid-row: 1; }
