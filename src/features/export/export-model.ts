@@ -8,14 +8,26 @@ import type { AvailabilitySnapshot, GameData, PlanningTarget } from '../../domai
 import type { PlannerState } from '../planner/state';
 import { progressContent, compareProgressPaths, type ProgressContent } from './progress-content';
 
-export interface ExportSlot {
+interface EmptyExportSlot {
   name: string;
-  dex: number | null;
-  spriteSrc: string | null;
+  dex: null;
+  spriteSrc: null;
+  types: string[];
+  progress: null;
+  baseStats?: undefined;
+}
+
+interface PokemonExportSlot {
+  name: string;
+  dex: number;
+  spriteSrc: string;
   types: string[];
   progress: ProgressContent | null;
   baseStats?: BaseStats;
 }
+
+/** A Pokémon slot always has a Dex number and a sprite. An empty slot has neither. */
+export type ExportSlot = EmptyExportSlot | PokemonExportSlot;
 
 export interface TeamExport {
   kind: 'team' | 'progress';
@@ -29,6 +41,8 @@ export interface TeamExport {
   notes: string[];
 }
 
+const memberNames = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
+
 function selectTeamPaths(game: GameData, snapshot: AvailabilitySnapshot, members: string[], target: PlanningTarget) {
   const sorted = (ids: string[]) => [...ids].sort((first, second) =>
     compareProgressPaths(game, snapshot.paths[first], snapshot.paths[second]));
@@ -39,9 +53,11 @@ function selectTeamPaths(game: GameData, snapshot: AvailabilitySnapshot, members
   }
   const result = checkTeam({ ...snapshot, entries }, members, target);
   return {
-    paths: result.chosenPathIds.map(id => snapshot.paths[id]),
+    paths: result.chosenPathIds.map(id => id === null ? undefined : snapshot.paths[id]),
     notes: result.warnings.filter(warning => warning.code === 'choice-conflict' || warning.code === 'finite-resource')
-      .map(warning => `Team conflict: ${warning.message}`),
+      // The sheet has no member list, so it names the Pokémon instead of "These members".
+      .map(warning => `Team conflict: ${warning.message.replace(/^These members/,
+        memberNames.format(warning.slotIndexes.map(index => pokemonIdentity(members[index]).name)))}`),
   };
 }
 

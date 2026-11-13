@@ -2,13 +2,13 @@ import type { TeamExport } from './export-model';
 import { colors, pngBlob, setFont, wrap } from './canvas-tools';
 import { layoutProgressRows, layoutProgressAlternativesSection, progressText, type TextBlock } from './progress-layout';
 import { drawPokemonPoster, drawSheetCredit, drawSheetHeading, drawSheetNotes, posterWidth,
-  sheetCreditHeight, sheetHeadingHeight, sheetMargin, sheetWidth, type ExportImages } from './render-poster';
+  exportImage, sheetCreditHeight, sheetHeadingHeight, sheetMargin, sheetWidth, type ExportImages } from './render-poster';
 
 export function drawTextBlocks(ctx: CanvasRenderingContext2D, blocks: TextBlock[], images: ExportImages, x: number, y: number) {
   for (const block of blocks) {
     setFont(ctx, block.size, block.bold); ctx.fillStyle = block.color;
-    const textX = x + (block.iconSrc ? 28 : 0);
-    if (block.iconSrc) ctx.drawImage(images.get(block.iconSrc)!, x, y + block.y + block.size - 20, 20, 20);
+    const textX = x + block.indent;
+    if (block.iconSrc) ctx.drawImage(exportImage(images, block.iconSrc), x, y + block.y + block.size - 20, 20, 20);
     block.lines.forEach((line, i) => ctx.fillText(line, textX, y + block.y + i * block.lineHeight));
   }
 }
@@ -42,14 +42,14 @@ export function renderProgressPng(model: TeamExport, images: ExportImages): Prom
         const center = bodyX + (i + 0.5) * layout.stageWidth;
         const evolutionY = sectionY + layout.evolutionY;
         ctx.imageSmoothingEnabled = false;
-        ctx.drawImage(images.get(stage.spriteSrc)!, center - 36, evolutionY, 72, 72);
+        ctx.drawImage(exportImage(images, stage.spriteSrc), center - 36, evolutionY, 72, 72);
         ctx.imageSmoothingEnabled = true;
-        ctx.textAlign = 'center'; setFont(ctx, progressText.stageName, true); ctx.fillStyle = colors.ink;
-        layout.names[i].forEach((line, j) => ctx.fillText(line, center, evolutionY + 80 + j * progressText.stageNameLineHeight));
+        ctx.textAlign = 'center'; setFont(ctx, layout.stageNameSize, true); ctx.fillStyle = colors.ink;
+        layout.names[i].forEach((line, j) => ctx.fillText(line, center, evolutionY + 80 + j * layout.stageNameLineHeight));
         setFont(ctx, progressText.requirement); ctx.fillStyle = colors.detail;
         layout.requirements[i].forEach((line, j) => ctx.fillText(line, center, evolutionY + 88 + layout.nameHeight + j * progressText.requirementLineHeight));
         if (i < layout.stages.length - 1) {
-          setFont(ctx, 22); ctx.fillText('→', center + layout.stageWidth / 2, evolutionY + 24);
+          setFont(ctx, 22); ctx.fillStyle = colors.ink; ctx.fillText('→', center + layout.stageWidth / 2, evolutionY + 24);
         }
         ctx.textAlign = 'left';
       });

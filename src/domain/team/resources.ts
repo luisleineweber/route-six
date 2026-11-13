@@ -4,6 +4,13 @@ import { addIndividual, itemQuantities, neededCopies } from '../resource-use';
 
 export interface Conflict { kind: 'choice-conflict' | 'finite-resource'; id: string }
 
+/** True when the path takes part in the conflict: it selects in the choice group or claims the finite resource.
+ * Proof paths already list every origin and item use as a claim (claimsFor), so claims cover both path kinds. */
+export function pathUsesConflict(path: AcquisitionPath, conflict: Conflict): boolean {
+  if (conflict.kind === 'choice-conflict') return path.choices.some(choice => choice.groupId === conflict.id);
+  return path.claims.some(claim => claim.resourceId === conflict.id);
+}
+
 export function findConflict(snapshot: Pick<AvailabilitySnapshot, 'choiceGroups' | 'resourceLimits'>, paths: AcquisitionPath[]): Conflict | null {
   for (const group of snapshot.choiceGroups) {
     const selected = new Set(paths.flatMap(p => p.choices).filter(c => c.groupId === group.id).map(c => c.optionId));

@@ -15,6 +15,24 @@ describe('Team feasibility',()=>{
     for(const id of ['treecko','torchic'])source(game,id,id,5,none,{maxUses:1,choice:{groupId:'starter',optionId:id}});source(game,'wild','poochyena');
     const s=snapshot(data);expect(checkTeam(s,['treecko','torchic'],'whole-game').warnings[0].code).toBe('choice-conflict');expect(checkTeam(s,['poochyena','poochyena'],'current-progress').feasible).toBe(true);
   });
+  it('still reports a conflict between reachable members when another member is unavailable',()=>{
+    const {data,game}=fixture(['treecko','torchic','mudkip','poochyena']);game.choices.push({id:'starter',name:'Starter',options:['treecko','torchic'],maximumSelections:1,review});
+    for(const id of ['treecko','torchic'])source(game,id,id,5,none,{maxUses:1,choice:{groupId:'starter',optionId:id}});source(game,'wild','poochyena');
+    const s=snapshot(data);
+    const check=checkTeam(s,['treecko','mudkip','torchic'],'whole-game');
+    expect(check.warnings.map(warning=>warning.code).sort()).toEqual(['choice-conflict','unavailable']);
+    expect(check.warnings.find(warning=>warning.code==='choice-conflict')!.slotIndexes).toEqual([0,2]);
+    const partial=checkTeam(s,['poochyena','mudkip'],'whole-game');
+    expect(partial.feasible).toBe(false);
+    expect(partial.chosenPathIds[0]).toBe(s.entries.poochyena.currentPathIds[0]);
+    expect(partial.chosenPathIds[1]).toBeNull();
+  });
+  it('names only the members that share a finite source in a resource conflict',()=>{
+    const {data,game}=fixture(['treecko','poochyena']);source(game,'gift','treecko',5,none,{maxUses:1});source(game,'wild','poochyena');
+    const check=checkTeam(snapshot(data),['treecko','poochyena','treecko'],'current-progress');
+    expect(check.warnings).toHaveLength(1);
+    expect(check.warnings[0]).toMatchObject({code:'finite-resource',slotIndexes:[0,2]});
+  });
   it('tries alternative sources and future sources before showing a conflict',()=>{
     const {data,game}=fixture(['treecko','torchic']);game.choices.push({id:'starter',name:'Starter',options:['treecko','torchic'],maximumSelections:1,review});
     for(const id of ['treecko','torchic'])source(game,id,id,5,none,{maxUses:1,choice:{groupId:'starter',optionId:id}});source(game,'future-torchic','torchic',5,milestone('future'));

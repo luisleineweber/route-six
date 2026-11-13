@@ -45,8 +45,8 @@ describe.each(ids)('%s progress export choices', id => {
     const model = buildTeamExport(game, state, true, snapshot);
     expect(model.slots[1].dex).toBeNull();
     const methods = [model.slots[0].progress!.method, model.slots[3].progress!.method];
-    expect(methods.filter(method => method === 'static')).toHaveLength(1);
-    expect(methods.filter(method => method === 'breeding')).toHaveLength(1);
+    expect(methods.filter(method => method === 'Fixed encounter')).toHaveLength(1);
+    expect(methods.filter(method => method === 'Breeding')).toHaveLength(1);
   });
 
   it.each([
@@ -60,8 +60,8 @@ describe.each(ids)('%s progress export choices', id => {
     const model = buildTeamExport(game, state, true, snapshot);
     expect(model.slots[1].dex).toBeNull();
     const methods = [model.slots[0].progress!.method, model.slots[2].progress!.method];
-    expect(methods.filter(method => method === 'starter')).toHaveLength(1);
-    expect(methods.filter(method => method === 'game trade')).toHaveLength(1);
+    expect(methods.filter(method => method === 'Starter')).toHaveLength(1);
+    expect(methods.filter(method => method === 'In-game trade')).toHaveLength(1);
     expect([model.slots[0].progress, model.slots[2].progress]
       .some(content => content?.acquisition.includes('Offer Bunnelby.'))).toBe(true);
   });

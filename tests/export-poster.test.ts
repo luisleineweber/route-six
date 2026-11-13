@@ -4,13 +4,14 @@ import { drawPokemonPoster, posterWidth } from '../src/features/export/render-po
 describe('PNG type backgrounds', () => {
   it('splits dual types diagonally into equal areas without repeated type circles', () => {
     const polygons: number[][][] = [];
+    const lines: number[][][] = [];
     const imagesDrawn: { src: string; box: number[] }[] = [];
     const noop = () => {};
     let points: number[][] = [];
     const ctx = { save: noop, restore: noop, roundRect: noop, clip: noop,
       beginPath: () => { points = []; }, moveTo: (...point: number[]) => points.push(point),
       lineTo: (...point: number[]) => points.push(point), closePath: noop,
-      fill: () => polygons.push(points), fillText: noop, fillRect: noop,
+      fill: () => polygons.push(points), stroke: () => lines.push(points), fillText: noop, fillRect: noop,
       measureText: (text: string) => ({ width: text.length * 10 }),
       drawImage: (image: HTMLImageElement, ...box: number[]) => imagesDrawn.push({ src: image.src, box }),
     } as unknown as CanvasRenderingContext2D;
@@ -23,6 +24,7 @@ describe('PNG type backgrounds', () => {
       [[0, 0], [posterWidth, 0], [0, height]],
       [[posterWidth, 0], [posterWidth, height], [0, height]],
     ]);
+    expect(lines).toEqual([[[posterWidth, 0], [0, height]]]);
     const symbols = imagesDrawn.filter(image => image.src.includes('type-symbols'));
     expect(symbols).toHaveLength(2);
     symbols.forEach(({ box: [x, y, width, symbolHeight] }, index) => {
