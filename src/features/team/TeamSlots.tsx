@@ -1,9 +1,10 @@
 import { useLayoutEffect, useRef } from 'react';
 import { Plus, X } from 'lucide-react';
 import { pokemonIdentity } from '../../data/dataset';
-import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
+import { PokemonSprite, PokemonTypes, typeTint } from '../../components/PokemonIdentity';
 import { StatusLabel } from '../../components/StatusLabel';
 import type { AvailabilitySnapshot } from '../../domain/types';
+import { useGameData } from '../planner/GameContext';
 
 export function TeamSlots({ team, snapshot, progressPage, activeSlot, onChoose, onRemove, onDetails }: {
   team: (string | null)[]; snapshot: AvailabilitySnapshot | null; progressPage: boolean; activeSlot: number | null;
@@ -25,11 +26,16 @@ export function TeamSlots({ team, snapshot, progressPage, activeSlot, onChoose, 
           removedSlot.current = index;
           onRemove(index);
         }}><X size={16} aria-hidden="true" /></button>
-        <PokemonSprite id={id} />
+        <SpriteWell id={id} />
         <h3><button className="card-link" aria-label={`View ${name} details`} onClick={() => onDetails(id)}>{name}</button></h3>
         <PokemonTypes id={id} compact />
         {progressPage && (snapshot ? <StatusLabel status={snapshot.entries[id].status} /> : <span className="status-label status-pending">Checking access…</span>)}
       </> : <button ref={element => { emptyControls.current[index] = element; }} className="empty-slot-button" onClick={() => onChoose(index)}><span className="empty-plus"><Plus size={22} aria-hidden="true" /></span>Add Pokémon<span className="sr-only"> to slot {index + 1}</span></button>}
     </article>;
   })}</div>;
+}
+
+function SpriteWell({ id }: { id: string }) {
+  const game = useGameData();
+  return <span className="sprite-well" style={typeTint(game, id)}><PokemonSprite id={id} /></span>;
 }

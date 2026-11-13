@@ -30,7 +30,7 @@ export function PlannerSettings({ state, dispatch }: { state: PlannerState; disp
             <input type="radio" name="target" checked={state.target === option.id} onChange={() => update({ target: option.id })} />
             <span>{option.name}</span>
           </label>)}</div>
-          <p id="target-hint" className="field-hint">{target.description} Search filters change the list only.</p>
+          <p id="target-hint" className="field-hint">{target.description}</p>
         </fieldset>
         <div className="field">
           <label className="level-label" htmlFor="level-limit">Use level limits</label>
