@@ -1,6 +1,6 @@
 import type { ExportSlot } from './export-model';
 import type { ExportImages } from './render-poster';
-import { posterWidth } from './render-poster';
+import { exportImage, posterWidth } from './render-poster';
 import { colors, setFont } from './canvas-tools';
 import { drawStatChart, statChartColors } from './render-stat-chart';
 import { fitTeamSprite, spriteBounds, teamCard, teamPosterLayout } from './team-poster-layout';
@@ -21,7 +21,7 @@ export function drawTeamPoster(ctx: CanvasRenderingContext2D, slot: ExportSlot, 
   if (slot.dex !== null) {
     ctx.textAlign = 'right'; setFont(ctx, 14);
     ctx.fillText(`#${String(slot.dex).padStart(3, '0')}`, x + posterWidth - 16, y + 16); ctx.textAlign = 'left';
-    const image = images.get(slot.spriteSrc!)!;
+    const image = exportImage(images, slot.spriteSrc);
     const bounds = spriteBounds(image), box = fitTeamSprite(bounds);
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(image, bounds.x, bounds.y, bounds.width, bounds.height, x + box.x, y + box.y, box.width, box.height);
@@ -36,7 +36,7 @@ export function drawTeamPoster(ctx: CanvasRenderingContext2D, slot: ExportSlot, 
   layout.name.forEach((line, i) => ctx.fillText(line, x + 16, y + teamCard.nameY + i * teamCard.nameLineHeight));
   slot.types.forEach((type, i) => {
     const yy = y + layout.typeY + i * 20;
-    ctx.drawImage(images.get(`/types/${type}.svg`)!, x + 16, yy, 18, 18);
+    ctx.drawImage(exportImage(images, `/types/${type}.svg`), x + 16, yy, 18, 18);
     setFont(ctx, 13); ctx.fillText(type[0].toUpperCase() + type.slice(1), x + 41, yy + 1);
   });
   ctx.restore();

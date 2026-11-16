@@ -40,6 +40,14 @@ const evolved: AcquisitionPath = {
 };
 
 describe('detail acquisition paths', () => {
+  it('lists an extra evolution item in the evolution steps, like the PNG export', () => {
+    const shedinja: AcquisitionPath = { ...evolved, id: 'shedinja', pokemonId: 'shedinja',
+      sourceIds: [emerald.sources.find(source => source.pokemonId === 'nincada' && source.details.kind === 'wild')!.id],
+      evolutionIds: ['nincada-to-shedinja'], minimumLevel: 20 };
+    const steps = acquisitionPaths([shedinja]).split('<h4>Evolution steps</h4>')[1];
+    expect(steps).toContain('Use Poké Ball.');
+  });
+
   it.each(['available', 'later'] as const)('lists the current Pokémon evolution when %s', status => {
     const html = acquisitionPaths([evolved], status);
     expect(titles(html)).toEqual(['Evolve Barboach']);

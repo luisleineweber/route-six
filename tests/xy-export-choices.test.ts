@@ -28,6 +28,18 @@ beforeAll(() => {
 }, 60_000);
 
 describe.each(ids)('%s progress export choices', id => {
+  it.each([
+    [['chespin', 'fennekin', 'froakie', 'pangoro'], [0, 1, 2]],
+    [['pangoro', 'chespin', 'fennekin', 'froakie'], [1, 2, 3]],
+  ])('names only the starters, not Pangoro with its free Scraggy path (%j)', (team, expected) => {
+    const snapshot = snapshots.get(id)!;
+    const pangoro = snapshot.entries.pangoro.currentPathIds.map(pathId => snapshot.paths[pathId]);
+    expect(pangoro.some(path => path.choices.length > 0)).toBe(true);
+    expect(pangoro.some(path => path.choices.length === 0)).toBe(true);
+    const conflict = checkTeam(snapshot, team, 'current-progress').warnings.find(warning => warning.code === 'choice-conflict')!;
+    expect(conflict.slotIndexes).toEqual(expected);
+  });
+
   it('keeps the shared starter choice conflict visible in the export', () => {
     const game = dataset.games.find(row => row.game.id === id)!;
     const state = { ...createInitialState(game), milestoneId: 'kiloude', respectLevelLimit: false,
@@ -45,8 +57,8 @@ describe.each(ids)('%s progress export choices', id => {
     const model = buildTeamExport(game, state, true, snapshot);
     expect(model.slots[1].dex).toBeNull();
     const methods = [model.slots[0].progress!.method, model.slots[3].progress!.method];
-    expect(methods.filter(method => method === 'static')).toHaveLength(1);
-    expect(methods.filter(method => method === 'breeding')).toHaveLength(1);
+    expect(methods.filter(method => method === 'Fixed encounter')).toHaveLength(1);
+    expect(methods.filter(method => method === 'Breeding')).toHaveLength(1);
   });
 
   it.each([
@@ -60,8 +72,8 @@ describe.each(ids)('%s progress export choices', id => {
     const model = buildTeamExport(game, state, true, snapshot);
     expect(model.slots[1].dex).toBeNull();
     const methods = [model.slots[0].progress!.method, model.slots[2].progress!.method];
-    expect(methods.filter(method => method === 'starter')).toHaveLength(1);
-    expect(methods.filter(method => method === 'game trade')).toHaveLength(1);
+    expect(methods.filter(method => method === 'Starter')).toHaveLength(1);
+    expect(methods.filter(method => method === 'In-game trade')).toHaveLength(1);
     expect([model.slots[0].progress, model.slots[2].progress]
       .some(content => content?.acquisition.includes('Offer Bunnelby.'))).toBe(true);
   });

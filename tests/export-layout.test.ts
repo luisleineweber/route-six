@@ -19,7 +19,7 @@ const slot: ExportSlot = {
   name: 'Flygon', dex: 330, spriteSrc: '/pokemon/330.png', types: ['ground', 'dragon'],
   progress: {
     location: 'Route 111', method: 'Grass', methodIconSrc: '/methods/grass.svg',
-    acquisition: ['Catch Trapinch in the desert.'], missingSource: null,
+    acquisition: ['Catch Trapinch in the desert.'], missingSource: null, availableLater: false,
     routeOptions: [{ location: 'Mirage Tower and fossil choice', sourceName: 'Trapinch', method: 'Grass', methodIconSrc: '/methods/grass.svg', evolutionNotes: [] }],
     stages: [
       { name: 'Trapinch', dex: 328, spriteSrc: '/pokemon/328.png', requirement: null, conditions: [] },
@@ -49,7 +49,7 @@ describe('PNG export text layout', () => {
       fillText: (...args: (string | number)[]) => text.push(args),
     } as unknown as CanvasRenderingContext2D;
     drawTextBlocks(ctx, [{ y: 30, size: 17, bold: false, color: '#000',
-      lines: ['Seedot · Grass', 'A second line'], lineHeight: 24, iconSrc: '/methods/grass.svg' }],
+      lines: ['Seedot · Grass', 'A second line'], lineHeight: 24, iconSrc: '/methods/grass.svg', indent: 28 }],
     new Map([['/methods/grass.svg', {} as HTMLImageElement]]), 40, 100);
     expect(images).toEqual([[40, 127, 20, 20]]);
     expect(text).toEqual([['Seedot · Grass', 68, 130], ['A second line', 68, 154]]);
@@ -63,6 +63,29 @@ describe('PNG export text layout', () => {
     expect(wrap(ctx, '', 90)).toEqual([]);
   });
 
+  it('shrinks evolution names before it splits a name inside a word', () => {
+    const ctx = measuringContext();
+    const stage = (name: string, dex: number) => ({ name, dex, spriteSrc: `/pokemon/${dex}.png`, requirement: null, conditions: [] });
+    const charizard = { ...slot, progress: { ...slot.progress!, routeOptions: [],
+      stages: [stage('Charmander', 4), stage('Charmeleon', 5), stage('Charizard', 6)] } };
+    const layout = layoutProgressContent(ctx, charizard, posterWidth - 32);
+    expect(layout.names).toEqual([['Charmander'], ['Charmeleon'], ['Charizard']]);
+    expect(layout.stageNameSize).toBeLessThan(progressText.stageName);
+    expect(layoutProgressContent(ctx, slot, posterWidth - 32).stageNameSize).toBe(progressText.stageName);
+  });
+
+  it('keeps one left edge for method lines with and without an icon, and labels later members', () => {
+    const ctx = measuringContext();
+    const starter = { ...slot, progress: { ...slot.progress!, method: 'Starter', methodIconSrc: null, availableLater: true } };
+    const withIcon = layoutProgressContent(ctx, slot, posterWidth - 32).blocks.find(block => block.lines[0]?.includes('· Grass'))!;
+    const layout = layoutProgressContent(ctx, starter, posterWidth - 32);
+    const withoutIcon = layout.blocks.find(block => block.lines[0]?.includes('· Starter'))!;
+    expect(withoutIcon.indent).toBe(withIcon.indent);
+    expect(withoutIcon.iconSrc).toBeNull();
+    expect(layout.blocks.find(block => block.lines[0]?.startsWith('Catch Trapinch'))!.indent).toBe(withIcon.indent);
+    expect(layout.blocks[0].lines).toEqual(['Available later']);
+  });
+
   it('measures every source and evolution condition within the export column', () => {
     const ctx = measuringContext();
     const width = posterWidth - 32;
@@ -72,7 +95,7 @@ describe('PNG export text layout', () => {
     expect(layout.conditions.join(' ')).toContain('Flygon: Keep this condition in the export.');
     for (const block of [...layout.blocks, ...layout.evolutionBlocks, ...alternatives.blocks]) {
       ctx.font = `400 ${block.size}px sans-serif`;
-      expect(block.lines.every(line => ctx.measureText(line).width <= width - (block.iconSrc ? 28 : 0))).toBe(true);
+      expect(block.lines.every(line => ctx.measureText(line).width <= width - block.indent)).toBe(true);
     }
     expect(layout.blocks.every(block => block.y + block.lines.length * block.lineHeight <= layout.sourceHeight)).toBe(true);
     expect(layout.conditionsY).toBeGreaterThanOrEqual(layout.evolutionY + 80 + layout.nameHeight + 8 + 23);

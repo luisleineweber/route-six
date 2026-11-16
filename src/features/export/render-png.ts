@@ -4,7 +4,7 @@ import { colors, pngBlob, setFont, wrap } from './canvas-tools';
 import { renderProgressPng } from './render-progress';
 import { renderTeamAnalysis, teamAnalysisHeight } from './render-team-analysis';
 import { drawSheetCredit, drawSheetHeading, drawSheetNotes, posterGap, posterWidth,
-  sheetCreditHeight, sheetHeadingHeight, sheetMargin as margin, sheetWidth as width } from './render-poster';
+  sheetCreditHeight, sheetHeadingHeight, sheetLogoSrc, sheetMargin as margin, sheetWidth as width } from './render-poster';
 import { drawTeamPoster } from './render-team-poster';
 import { teamPosterLayout } from './team-poster-layout';
 
@@ -28,6 +28,7 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
     ...(slot.progress?.routeOptions.flatMap(option => option.methodIconSrc ? [option.methodIconSrc] : []) ?? []),
   ]));
   urls.add(model.logoSrc);
+  urls.add(sheetLogoSrc);
   model.defense.forEach(row => urls.add(`/types/${row.type}.svg`));
   const images = new Map(await Promise.all([...urls].map(async url => [url, await loadImage(url)] as const)));
   if (model.kind === 'progress') return renderProgressPng(model, images);
@@ -40,7 +41,7 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
   const analysisHeight = teamAnalysisHeight(ctx, model);
   setFont(ctx, 18);
   const noteLines = model.notes.flatMap(note => wrap(ctx, note, width - margin * 2));
-  const creditY = teamBottom + analysisHeight + 40 + noteLines.length * 26 + 24;
+  const creditY = teamBottom + analysisHeight + 40 + (noteLines.length ? noteLines.length * 26 + 24 : 0);
   const height = creditY + sheetCreditHeight(ctx) + margin;
   canvas.width = width * 2; canvas.height = Math.ceil(height) * 2;
   ctx.scale(2, 2);
@@ -57,7 +58,7 @@ export async function renderTeamPng(model: TeamExport): Promise<Blob> {
 
   renderTeamAnalysis(ctx, model, images, teamBottom);
   drawSheetNotes(ctx, noteLines, teamBottom + analysisHeight + 40);
-  drawSheetCredit(ctx, creditY);
+  drawSheetCredit(ctx, images, creditY);
   return pngBlob(canvas);
 }
 

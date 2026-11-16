@@ -1,7 +1,7 @@
 import { pokemonById, pokemonIdentity } from '../../data/dataset';
 import { selectionId, selectionProfile } from '../../domain/pokemon-selection';
-import { pathSource, pathOptionName, breedingParentName, sourceMethod } from '../../components/acquisition-presentation';
-import { evolutionConditionText, evolutionLabels } from '../../components/evolution-presentation';
+import { pathSource, pathOptionName, breedingHeldItemText, breedingParentName, sourceMethod } from '../../components/acquisition-presentation';
+import { evolutionConditionText, evolutionGenderLabel, evolutionItemLabels, evolutionLabels } from '../../components/evolution-presentation';
 import { encounterInstructions } from '../../components/encounter-presentation';
 import { fusionInstruction } from '../../components/form-change-presentation';
 import { tradeInstructions } from '../../components/trade-presentation';
@@ -25,6 +25,8 @@ export interface ProgressContent {
   routeOptions: ProgressRouteOption[];
   stages: EvolutionStage[];
   missingSource: { title: string; explanation: string } | null;
+  /** The chosen path opens only after the selected progress point. */
+  availableLater: boolean;
 }
 
 export interface ProgressRouteOption {
@@ -128,21 +130,27 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
         : exclusion?.code === 'external-connection' ? exclusion.message
         : entry.blockers[0]?.message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonById.get(word)?.name ?? word)
           ?? 'No acquisition path meets the selected progress and level settings.';
-    return { location: null, method: '', methodIconSrc: null, acquisition: [], routeOptions: [], stages: [], missingSource: {
+    return { location: null, method: '', methodIconSrc: null, acquisition: [], routeOptions: [], stages: [], availableLater: false, missingSource: {
       title: exclusion ? `Not obtainable in ${game.game.name.replace(/^Pokémon /, '')}` : 'Requirements not met', explanation,
     } };
   }
   const source = pathSource(game, path);
   const location = game.locations.find(location => location.id === source.locationId)!;
-  const method = source.details.kind === 'wild' ? sourceMethod(source.details) : null;
+  const method = sourceMethod(source.details);
   const stages = [stage(game, selectionId(source.pokemonId, source.formId))];
   for (const id of path.evolutionIds) {
     const rule = game.evolutions.find(rule => rule.id === id)!;
     const target = path.coProductIds.includes(rule.toPokemonId) ? path.pokemonId : rule.toPokemonId;
     const requirement = evolutionRequirement(game, rule);
-    stages.push(stage(game, selectionId(target, target === rule.toPokemonId ? rule.toFormId : null), requirement, rule.conditions.map(condition => evolutionConditionText(game, condition))));
+    const gender = evolutionGenderLabel(game, rule);
+    const conditions = [...(gender ? [`${gender}.`] : []), ...evolutionItemLabels(game, rule).map(label => `${label}.`),
+      ...rule.conditions.map(condition => evolutionConditionText(game, condition))];
+    stages.push(stage(game, selectionId(target, target === rule.toPokemonId ? rule.toFormId : null), requirement, conditions));
   }
-  const acquisition = path.breedingSteps.map(step => `Parents: ${step.parents.map(parent => breedingParentName(parent, snapshot)).join(' + ')}.`);
+  const acquisition = path.breedingSteps.flatMap(step => {
+    const heldItem = breedingHeldItemText(game, step.ruleId);
+    return [`Parents: ${step.parents.map(parent => breedingParentName(parent, snapshot)).join(' + ')}.`, ...(heldItem ? [heldItem] : [])];
+  });
   acquisition.push(...encounterInstructions(source));
   acquisition.push(...itemSourceInstructions(game,path));
   for (const id of path.formChangeIds ?? []) {
@@ -165,7 +173,8 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
   const area = source.details.kind === 'wild' ? pathOptionName(game, { ...path, evolutionIds: [] }) : 'Source option';
   const locationName = area === 'Source option' ? location.name : `${location.name} · ${area.replace(/\bb?\d+f\b/gi, floor => floor.toUpperCase())}`;
   return { location: locationName,
-    method: method?.name ?? source.details.kind.replaceAll('-', ' '),
-    methodIconSrc: method?.iconSrc ?? null,
-    acquisition, routeOptions: otherRouteOptions(game, snapshot, id, path), stages, missingSource: null };
+    method: method.name,
+    methodIconSrc: method.iconSrc,
+    acquisition, routeOptions: otherRouteOptions(game, snapshot, id, path), stages, missingSource: null,
+    availableLater: !entry.currentPathIds.includes(path.id) };
 }
