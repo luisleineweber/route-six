@@ -1,5 +1,13 @@
-import type { AvailabilitySnapshot, PlanningTarget, TeamCheck, TeamWarning } from '../types';
+import type { AcquisitionPath, AvailabilitySnapshot, PlanningTarget, TeamCheck, TeamWarning } from '../types';
 import { findConflict, pathUsesConflict, type Conflict } from './resources';
+
+/** Name the members that cannot avoid the conflict: every path of theirs uses it.
+ * A member with a conflict-free path is left out. When no member is forced, the conflict comes only
+ * from optional paths together, so the members that can take part are named instead. */
+function conflictMembers(options: AcquisitionPath[][], reachable: number[], conflict: Conflict): number[] {
+  const forced = reachable.filter(index => options[index].every(path => pathUsesConflict(path, conflict)));
+  return forced.length ? forced : reachable.filter(index => options[index].some(path => pathUsesConflict(path, conflict)));
+}
 
 export function checkTeam(snapshot: AvailabilitySnapshot, team: string[], target: PlanningTarget): TeamCheck {
   const warnings: TeamWarning[] = [];
@@ -15,12 +23,16 @@ export function checkTeam(snapshot: AvailabilitySnapshot, team: string[], target
   // Members without a path are already reported. The others must still fit together.
   const reachable = options.flatMap((paths, index) => paths.length ? [index] : []);
   const selected: typeof options[number] = [];
-  let conflict: Conflict | null = null;
+  // Keep the conflict from the shallowest failed step: it needs the fewest members, so it is the cause.
+  let conflict: { found: Conflict; paths: number } | null = null;
   function search(position: number): boolean {
     if (position === reachable.length) return true;
     for (const path of options[reachable[position]]) {
       const found = findConflict(snapshot, [...selected, path]);
-      if (found) { conflict = found; continue; }
+      if (found) {
+        if (!conflict || selected.length + 1 < conflict.paths) conflict = { found, paths: selected.length + 1 };
+        continue;
+      }
       selected.push(path);
       if (search(position + 1)) return true;
       selected.pop();
@@ -32,11 +44,10 @@ export function checkTeam(snapshot: AvailabilitySnapshot, team: string[], target
     reachable.forEach((index, position) => { chosenPathIds[index] = selected[position].id; });
     return { feasible: !warnings.length, chosenPathIds, warnings };
   }
-  const found = conflict as Conflict | null;
+  const found = (conflict as { found: Conflict } | null)?.found ?? null;
   const relatedId = found?.id ?? null;
   const group = snapshot.choiceGroups.find(g => g.id === relatedId);
-  // Name only the members that can take part in the conflict, not every reachable member.
-  const involved = found ? reachable.filter(index => options[index].some(path => pathUsesConflict(path, found))) : reachable;
+  const involved = found ? conflictMembers(options, reachable, found) : reachable;
   warnings.push({ code: found?.kind ?? 'finite-resource', relatedId, slotIndexes: involved,
     message: group ? `These members need incompatible choices in ${group.name}. Select another family or source.`
       : `These members need more uses of ${relatedId?.replace(/^(source|item-source):/, '') ?? 'a finite source'} than one playthrough supplies.` });

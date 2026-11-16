@@ -28,6 +28,18 @@ beforeAll(() => {
 }, 60_000);
 
 describe.each(ids)('%s progress export choices', id => {
+  it.each([
+    [['chespin', 'fennekin', 'froakie', 'pangoro'], [0, 1, 2]],
+    [['pangoro', 'chespin', 'fennekin', 'froakie'], [1, 2, 3]],
+  ])('names only the starters, not Pangoro with its free Scraggy path (%j)', (team, expected) => {
+    const snapshot = snapshots.get(id)!;
+    const pangoro = snapshot.entries.pangoro.currentPathIds.map(pathId => snapshot.paths[pathId]);
+    expect(pangoro.some(path => path.choices.length > 0)).toBe(true);
+    expect(pangoro.some(path => path.choices.length === 0)).toBe(true);
+    const conflict = checkTeam(snapshot, team, 'current-progress').warnings.find(warning => warning.code === 'choice-conflict')!;
+    expect(conflict.slotIndexes).toEqual(expected);
+  });
+
   it('keeps the shared starter choice conflict visible in the export', () => {
     const game = dataset.games.find(row => row.game.id === id)!;
     const state = { ...createInitialState(game), milestoneId: 'kiloude', respectLevelLimit: false,
