@@ -95,9 +95,9 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     <div className="app-shell">
       {loadingGameId && <p role="status">Loading {gameCatalogue.find(option=>option.id===loadingGameId)!.name}…</p>}
       {gameError && <div className="error-message" role="alert"><strong>The selected game could not load.</strong><p>{gameError}</p><p>Select the game again to retry.</p></div>}
-      {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
       <main ref={main} id="main" tabIndex={-1}>
-        <div className="section-heading planner-heading"><h1>{page === 'team' ? 'Team planner' : 'Progress planner'}</h1>{!progressUnavailable && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
+        <div className="section-heading planner-heading"><h1>{page === 'team' ? 'Team Planner' : 'Progress Planner'}</h1>{!progressUnavailable && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
+        {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
         {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress Planner is not available for {game.game.name} yet.</h2><p>You can still build a team and check its types.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
         {game.game.planner === null && <p className="field-hint" role="status">You can still use the Team Planner for {game.game.name}. Progress planning is not available yet.</p>}
         {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={()=>window.location.reload()}>Reload guide</button></div>}
