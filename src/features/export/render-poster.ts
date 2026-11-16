@@ -106,17 +106,30 @@ export function drawSheetNotes(ctx: CanvasRenderingContext2D, lines: string[], y
 function sheetSiteLines(ctx: CanvasRenderingContext2D) {
   const siteUrl = import.meta.env.VITE_SITE_URL?.trim();
   setFont(ctx, 18);
-  return wrap(ctx, siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '') ?? '', sheetWidth - sheetMargin * 2);
+  return wrap(ctx, siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '') ?? '', sheetWidth - sheetMargin * 2 - creditLogoSize - 16);
+}
+
+export const sheetLogoSrc = '/favicon.svg';
+const creditLogoSize = 52;
+const creditTextX = sheetMargin + creditLogoSize + 16;
+
+function creditLayout(ctx: CanvasRenderingContext2D) {
+  const siteLines = sheetSiteLines(ctx);
+  const textHeight = 26 + siteLines.length * 24;
+  return { siteLines, textHeight, height: Math.max(creditLogoSize, textHeight) };
 }
 
 export function sheetCreditHeight(ctx: CanvasRenderingContext2D) {
-  return 44 + sheetSiteLines(ctx).length * 24;
+  return creditLayout(ctx).height;
 }
 
-export function drawSheetCredit(ctx: CanvasRenderingContext2D, y: number) {
-  const siteLines = sheetSiteLines(ctx);
+/** The Route Six logo sits left of the site name and URL, centred on the text block. */
+export function drawSheetCredit(ctx: CanvasRenderingContext2D, images: ExportImages, y: number) {
+  const { siteLines, textHeight, height } = creditLayout(ctx);
+  ctx.drawImage(exportImage(images, sheetLogoSrc), sheetMargin, y + (height - creditLogoSize) / 2, creditLogoSize, creditLogoSize);
+  const textY = y + (height - textHeight) / 2;
   ctx.fillStyle = colors.ink; setFont(ctx, 20, true);
-  ctx.fillText('Made with Route Six', sheetMargin, y);
+  ctx.fillText('Made with Route Six', creditTextX, textY);
   ctx.fillStyle = colors.muted; setFont(ctx, 18);
-  siteLines.forEach((line, index) => ctx.fillText(line, sheetMargin, y + 28 + index * 24));
+  siteLines.forEach((line, index) => ctx.fillText(line, creditTextX, textY + 28 + index * 24));
 }

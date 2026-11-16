@@ -63,6 +63,6 @@ export function renderProgressPng(model: TeamExport, images: ExportImages): Prom
     alternatives.placements.forEach(({ group, x, y }) => drawTextBlocks(ctx, group.blocks, images, x, y));
   }
   drawSheetNotes(ctx, notes, bottom, colors.weak);
-  drawSheetCredit(ctx, creditY);
+  drawSheetCredit(ctx, images, creditY);
   return pngBlob(canvas);
 }

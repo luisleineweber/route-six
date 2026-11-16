@@ -87,6 +87,6 @@ export function buildTeamExport(game: GameData, state: PlannerState, progress: b
     }),
     defense: progress ? [] : game.typeChart.typeIds.map(type => ({ type, multipliers: state.team.map(id => id ? damageMultiplier(game, type, id) : null) })),
     coverage: progress ? [] : analysis.coveredTypes,
-    notes: progress ? selected.notes : ['Types only. Abilities, items, and moves are not included.'],
+    notes: progress ? selected.notes : [],
   };
 }

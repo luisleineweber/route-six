@@ -6,7 +6,7 @@ const contentWidth = sheetWidth - margin * 2;
 const labelWidth = 190;
 const columnWidth = (contentWidth - labelWidth) / 6;
 const rowHeight = 32;
-const coverageColumns = 7;
+const coverageColumns = 8;
 const coverageRowHeight = 38;
 
 const defenseMarks = [
@@ -34,8 +34,8 @@ function drawDefenseMark(ctx: CanvasRenderingContext2D, value: number | null, x:
 
 function coverageGroups(model: TeamExport) {
   return [
-    { title: 'Super-effective coverage', types: model.coverage },
-    { title: 'No super-effective coverage', types: model.defense.map(row => row.type).filter(type => !model.coverage.includes(type)) },
+    { title: 'Hit super-effectively', types: model.coverage },
+    { title: 'Not hit super-effectively', types: model.defense.map(row => row.type).filter(type => !model.coverage.includes(type)) },
   ];
 }
 
@@ -54,14 +54,15 @@ function teamAnalysisLayout(ctx: CanvasRenderingContext2D, model: TeamExport, to
   const heading = defenseHeading(ctx, model);
   const rowsY = headingY + heading.height;
   const coverageTitleY = rowsY + model.defense.length * rowHeight + 32;
-  let y = coverageTitleY + 44;
+  const coverageSubtitleY = coverageTitleY + 38;
+  let y = coverageSubtitleY + 40;
   const groups = coverageGroups(model).map(group => {
     const groupTitleY = y;
     const typesY = groupTitleY + 36;
     y = typesY + Math.max(1, Math.ceil(group.types.length / coverageColumns)) * coverageRowHeight + 16;
     return { ...group, titleY: groupTitleY, typesY };
   });
-  return { titleY, subtitleY, legendY, headingY, heading, rowsY, coverageTitleY, groups, bottom: y };
+  return { titleY, subtitleY, legendY, headingY, heading, rowsY, coverageTitleY, coverageSubtitleY, groups, bottom: y };
 }
 
 export function teamAnalysisHeight(ctx: CanvasRenderingContext2D, model: TeamExport): number {
@@ -106,9 +107,11 @@ export function renderTeamAnalysis(ctx: CanvasRenderingContext2D, model: TeamExp
   });
   ctx.fillStyle = colors.ink; setFont(ctx, 24, true);
   ctx.fillText(`Attack coverage · ${model.coverage.length} / ${model.defense.length}`, margin, layout.coverageTitleY);
+  ctx.fillStyle = colors.muted; setFont(ctx, 16);
+  ctx.fillText('From each Pokémon’s own types. Abilities, items, and moves are not included.', margin, layout.coverageSubtitleY);
   layout.groups.forEach(group => {
     ctx.fillStyle = colors.ink; setFont(ctx, 18, true);
-    ctx.fillText(`${group.title} · ${group.types.length}`, margin, group.titleY);
+    ctx.fillText(group.title, margin, group.titleY);
     setFont(ctx, 16);
     if (!group.types.length) {
       ctx.fillStyle = colors.muted; ctx.fillText('None', margin, group.typesY + 4);
