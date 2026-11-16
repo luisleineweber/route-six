@@ -1,12 +1,7 @@
 /* Loading states. The Route Six mark walks its route and lights the six team points.
    Placeholders keep the layout steady. With reduced motion, the mark and bars stay still. */
-:root {
-  --skeleton: oklch(0.915 0 0);
-  --skeleton-shine: oklch(0.965 0 0);
-}
-
 /* Route Six loader */
-.loading-mark { display: block; flex-shrink: 0; overflow: visible; color: var(--accent); }
+.loading-mark { display: block; flex-shrink: 0; overflow: visible; color: var(--accent-line); }
 .loading-mark-sm { width: 1.25rem; height: 1.25rem; }
 .loading-mark-md { width: 2.25rem; height: 2.25rem; }
 .loading-mark-lg { width: 5rem; height: 5rem; }
@@ -29,13 +24,16 @@
 .loading-note-copy span { color: var(--muted); font-size: 0.8125rem; }
 
 /* Startup */
-.startup-screen { --bar-color: var(--accent); display: grid; place-content: center; justify-items: center; gap: 0.5rem; min-height: 100svh; padding: 1.5rem; text-align: center; }
+.startup-screen { --bar-color: var(--accent-line); display: grid; place-content: center; justify-items: center; gap: 0.5rem; min-height: 100svh; padding: 1.5rem; text-align: center; }
 .startup-screen .loading-mark { margin-block-end: 0.75rem; }
 .startup-screen p { color: var(--muted); }
 .startup-screen .startup-bar { inline-size: 10rem; margin-block-start: 1rem; }
 
 /* Game change */
-.game-loading-notice { --bar-color: var(--next-accent); position: fixed; inset-block-end: max(1rem, env(safe-area-inset-bottom)); inset-inline-start: 50%; translate: -50% 0; z-index: 25; display: flex; align-items: center; gap: 1rem; width: max-content; max-width: calc(100% - 2rem); overflow: hidden; padding: 0.75rem 1.25rem 0.875rem 0.875rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-ring), 0 8px 24px oklch(0 0 0 / 0.12); }
+/* The next game's accent, in the same role as --accent-line: the base fill on light surfaces, a light tone on dark ones. */
+.game-loading-notice { --next-accent: oklch(0.43 var(--next-chroma) var(--next-hue)); }
+:root[data-theme="dark"] .game-loading-notice { --next-accent: oklch(0.8 calc(var(--next-chroma) * 0.7) var(--next-hue)); }
+.game-loading-notice { --bar-color: var(--next-accent); position: fixed; inset-block-end: max(1rem, env(safe-area-inset-bottom)); inset-inline-start: 50%; translate: -50% 0; z-index: 25; display: flex; align-items: center; gap: 1rem; width: max-content; max-width: calc(100% - 2rem); overflow: hidden; padding: 0.75rem 1.25rem 0.875rem 0.875rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-ring), var(--shadow-notice); }
 .game-loading-notice .game-logo { flex-shrink: 0; width: 4.5rem; height: 2.25rem; object-fit: contain; }
 .game-loading-notice p { display: grid; min-width: 0; line-height: 1.4; overflow-wrap: anywhere; }
 .game-loading-notice p > span { color: var(--muted); font-size: 0.8125rem; }
@@ -43,7 +41,7 @@
 .game-loading-notice .game-loading-bar { position: absolute; inset-inline: 0; inset-block-end: 0; border-radius: 0; }
 .game-selector.is-loading > summary { cursor: progress; }
 .game-selector.is-loading > summary > .game-logo { opacity: 0.6; }
-.game-selector > summary > .loading-mark { color: white; }
+.game-selector > summary > .loading-mark { color: var(--on-accent); }
 @media (max-width: 44rem) {
   .game-selector > summary > .loading-mark { position: absolute; inset-inline-end: 0.75rem; inset-block-start: calc(50% - 0.625rem); }
 }
@@ -67,9 +65,6 @@
 /* Export button */
 .secondary-button.is-busy:disabled { opacity: 1; cursor: progress; }
 
-/* Dim the planner while another game loads. */
-.app-shell[aria-busy='true'] main { opacity: 0.6; }
-
 @media (prefers-reduced-motion: no-preference) {
   .loading-mark-runner { stroke-dasharray: 24 100; animation: route-walk 1.8s linear infinite; }
   /* Each point lights when the runner reaches it. --at is the point's place on the route. */
@@ -86,8 +81,6 @@
   .loading-note, .details-skeleton, .skeleton-grid { animation: loading-appear 240ms ease-out 180ms both; }
   .startup-screen { animation: loading-appear 240ms ease-out 150ms both; }
   .game-loading-notice { animation: notice-rise 200ms ease-out 120ms both; }
-  .app-shell main { transition: opacity 200ms ease-out; }
-  .app-shell[aria-busy='true'] main { transition-delay: 150ms; }
 }
 
 @keyframes route-walk { from { stroke-dashoffset: 24; } to { stroke-dashoffset: -100; } }

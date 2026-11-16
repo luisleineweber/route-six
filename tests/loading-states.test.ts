@@ -23,7 +23,7 @@ describe('Loading states', () => {
     const html = renderToStaticMarkup(createElement(GameLoadingNotice, { gameId: 'crystal' }));
     expect(html).toContain('role="status"');
     expect(html).toContain('<strong>Loading Pokémon Crystal…</strong>');
-    expect(html).toMatch(/--next-accent:oklch\(/);
+    expect(html).toContain('--next-hue:198;--next-chroma:0.075');
   });
 
   it('opens the planner with the Route Six loader', () => {

@@ -7,7 +7,7 @@ import { LoadingMark } from './Loading';
 export function GameLoadingNotice({ gameId }: { gameId: string }) {
   const game = gameCatalogue.find(option => option.id === gameId);
   if (!game) throw new Error(`Missing game: ${gameId}`);
-  return <div className="game-loading-notice" role="status" style={{ '--next-accent': game.accentColor } as CSSProperties}>
+  return <div className="game-loading-notice" role="status" style={{ '--next-hue': game.accent.hue, '--next-chroma': game.accent.chroma } as CSSProperties}>
     <GameLogo gameId={gameId} />
     <p><strong>Loading {game.name}…</strong><span>Getting Pokémon, places, and progress points.</span></p>
     <LoadingMark size="sm" />
