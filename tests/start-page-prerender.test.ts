@@ -5,6 +5,7 @@ import { insertStartPage } from '../scripts/prerender-page';
 import { searchPlugin } from '../scripts/search-plugin';
 import { siteTitle } from '../src/content/site-copy';
 import { startPage } from '../src/entry-server';
+import { emerald } from './local-data';
 
 afterEach(() => vi.unstubAllEnvs());
 
@@ -49,6 +50,8 @@ describe('prerendered start page', () => {
     expect(body).toContain('<details class="analysis analysis-unsettled" open="">');
     expect(body).toContain('Add a Pokémon to see weaknesses and attack coverage.');
     expect(body).toContain('Emerald');
+    // Every catalogue card is in the static page, not only the first client batch.
+    expect(body.match(/<article class="pokemon-card[" ]/g)).toHaveLength(emerald.profiles.length);
     expect(body.match(/<main\b/g)).toHaveLength(1);
     // Keep the page small: the add confirmation icon joins a card only after an add.
     expect(body).toContain('class="lucide lucide-plus add-icon"');
