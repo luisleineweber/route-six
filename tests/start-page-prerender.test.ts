@@ -44,6 +44,9 @@ describe('prerendered start page', () => {
     expect(body).toContain('<span>Progress Planner</span><span>Where and when to find your team</span>');
     expect(body).toMatch(/<h1>Team planner<\/h1>/);
     expect(body).toContain('<h2>Type analysis</h2>');
+    // Open in the markup, so wide screens do not shift at hydration. Narrow
+    // screens hide the unsettled content with CSS until the client closes it.
+    expect(body).toContain('<details class="analysis analysis-unsettled" open="">');
     expect(body).toContain('Add a Pokémon to see weaknesses and attack coverage.');
     expect(body).toContain('Emerald');
     expect(body.match(/<main\b/g)).toHaveLength(1);
