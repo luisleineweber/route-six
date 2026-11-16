@@ -77,6 +77,10 @@
   --defense-immune-ink: white;
   --uncovered-line: oklch(0.55 0.01 260);
 
+  /* Loading placeholders and their moving shine. */
+  --skeleton: oklch(0.915 0 0);
+  --skeleton-shine: oklch(0.965 0 0);
+
   --radius-control: 0.625rem;
   --radius-tile: 1rem;
   --shadow-ring: 0 0 0 1px oklch(0.3 0.01 260 / 0.07), 0 1px 2px oklch(0.3 0.01 260 / 0.05), 0 2px 6px oklch(0.3 0.01 260 / 0.04);
@@ -155,6 +159,9 @@
     --defense-immune: oklch(0.86 0.06 245);
     --defense-immune-ink: oklch(0.24 0.06 250);
     --uncovered-line: oklch(0.62 0 0);
+
+    --skeleton: var(--tile-hover);
+    --skeleton-shine: oklch(0.34 0 0);
 
     --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
     --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06), 0 4px 14px oklch(0 0 0 / 0.35);
