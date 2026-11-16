@@ -42,7 +42,7 @@ describe('prerendered start page', () => {
     expect(body).toContain('aria-label="Planner pages"');
     expect(body).toContain('<span>Team Planner</span><span>Your six Pokémon and their types</span>');
     expect(body).toContain('<span>Progress Planner</span><span>Where and when to find your team</span>');
-    expect(body).toMatch(/<h1>Team planner<\/h1>/);
+    expect(body).toContain('<h1>Team Planner</h1>');
     expect(body).toContain('<h2>Type analysis</h2>');
     // Open in the markup, so wide screens do not shift at hydration. Narrow
     // screens hide the unsettled content with CSS until the client closes it.
