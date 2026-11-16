@@ -5,7 +5,9 @@ import type { AvailabilitySnapshot, Blocker } from '../src/domain/types';
 import { TeamWarnings } from '../src/features/team/TeamWarnings';
 import { checkTeam } from '../src/domain/team/check-team';
 import { groupTeamWarnings } from '../src/features/team/team-warning-summary';
-import { fixture, milestone, none, review, source } from './fixtures';
+import { evolution, fixture, milestone, none, review, source } from './fixtures';
+import { buildTeamExport } from '../src/features/export/export-model';
+import { createInitialState } from '../src/features/planner/state';
 import { getAvailability } from '../src/domain/availability';
 
 function blocked(members: [string, Blocker['code'], string][]): AvailabilitySnapshot {
@@ -24,6 +26,23 @@ function render(snapshot: AvailabilitySnapshot, team: string[], target: 'current
 }
 
 describe('team access warnings', () => {
+  it('keeps the general heading when a choice limit and a shared resource block the team together', () => {
+    const { data, game } = fixture(['pikachu', 'raichu', 'treecko']);
+    game.choices.push({ id: 'starter', name: 'Starter', options: ['treecko', 'raichu'], maximumSelections: 1, review });
+    source(game, 'treecko', 'treecko', 5, none, { maxUses: 1, choice: { groupId: 'starter', optionId: 'treecko' } });
+    source(game, 'raichu-choice', 'raichu', 5, none, { maxUses: 1, choice: { groupId: 'starter', optionId: 'raichu' } });
+    source(game, 'shared', 'pikachu', 5, none, { maxUses: 1 }); evolution(game, 'pikachu', 'raichu', 10);
+    const result = getAvailability(data, { gameId: 'emerald', milestoneId: 'gate', respectLevelLimit: true });
+    if (!result.ok) throw new Error('Invalid test query');
+    const team = ['treecko', 'raichu', 'pikachu'];
+    const html = render(result.value, team);
+    expect(html).toContain('Team requirements conflict');
+    expect(html).not.toContain('Not enough shared resources');
+    expect(html).not.toContain('Conflicting team choices');
+    const model = buildTeamExport(game, { ...createInitialState(game), team: [...team, null, null, null] }, true, result.value);
+    expect(model.notes).toEqual(['Team conflict: Treecko, Raichu, and Pikachu cannot all be obtained in one playthrough. Select another family or source.']);
+  });
+
   it('groups repeated issues with the reason before its Pokémon controls', () => {
     const snapshot = blocked([
       ['spiritomb', 'other-version', 'Long source review for Spiritomb.'],
