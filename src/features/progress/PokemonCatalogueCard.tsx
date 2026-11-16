@@ -14,6 +14,9 @@ export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectio
   const hasRegionalDex = regionalDex !== undefined;
   const dexName = hasRegionalDex ? regionalDexName(game, regionalDexSectionId) : 'National';
   const [feedback, setFeedback] = useState(0);
+  // The check icon joins the DOM on the first add only. The prerendered page
+  // then has no hidden icon in each of its cards; @starting-style fades it in.
+  const [added, setAdded] = useState(false);
   useEffect(() => {
     if (!feedback) return;
     const timer = window.setTimeout(() => setFeedback(0), 1800);
@@ -21,13 +24,14 @@ export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectio
   }, [feedback]);
 
   return <article className={`pokemon-card${feedback ? ' pokemon-added' : ''}`}>
-    <span className="dex-number" title={`${dexName} Pokédex`}><span className="dex-name">{dexName} </span>#{String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}</span>
+    <span className="dex-number" title={`${dexName} Pokédex`}><span className="dex-name">{`${dexName} `}</span>{`#${String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}`}</span>
     <button className="icon-button add-button" aria-label={`${activeSlot !== null ? 'Set' : 'Add'} ${pokemon.name}${activeSlot !== null ? ` in slot ${activeSlot + 1}` : ' to team'}`} disabled={!canAdd} onClick={() => {
       onAdd(pokemonId);
+      setAdded(true);
       setFeedback(value => value + 1);
     }}>
       <Plus className="add-icon" size={18} aria-hidden="true" />
-      <Check className="added-icon" size={18} aria-hidden="true" />
+      {added && <Check className="added-icon" size={18} aria-hidden="true" />}
       {feedback > 0 && <span className="pokemon-add-label" aria-hidden="true">Added</span>}
     </button>
     <div className="catalogue-card-identity">

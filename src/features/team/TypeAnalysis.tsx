@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { analyzeTypes, damageMultiplier } from '../../domain/team/analyze-types';
 import { pokemonIdentity } from '../../data/dataset';
@@ -8,13 +8,24 @@ import { TypeIcon, typeName } from '../../components/PokemonIdentity';
 const markSymbols: Record<number, string> = { 0: '0', 0.25: '¼', 0.5: '½', 1: '', 2: '2', 4: '4' };
 const markSymbol = (multiplier: number) => markSymbols[multiplier] ?? `${multiplier}`;
 
+/** Matches the narrow-screen rule for `.analysis-unsettled` in analysis.css. */
+const narrowScreen = '(max-width: 30rem)';
+
 export function TypeAnalysis({ team }: { team: (string | null)[] }) {
-  const [initiallyOpen] = useState(() => typeof window !== 'undefined' && window.innerWidth > 480);
+  // Server and client render the same open panel, so wide screens do not shift
+  // after hydration. Narrow screens start closed: CSS hides the content of the
+  // unsettled panel, and this effect closes it before the first client paint.
+  const details = useRef<HTMLDetailsElement>(null);
+  const [settled, setSettled] = useState(false);
+  useLayoutEffect(() => {
+    if (window.matchMedia(narrowScreen).matches) details.current!.open = false;
+    setSettled(true);
+  }, []);
   const game = useGameData();
   const members = team.filter((id): id is string => id !== null);
   const analysis = analyzeTypes(game, members);
   const covered = new Set(analysis.coveredTypes);
-  return <details className="analysis" open={initiallyOpen}>
+  return <details ref={details} className={`analysis${settled ? '' : ' analysis-unsettled'}`} open>
     <summary><h2>Type analysis</h2><ChevronDown size={20} aria-hidden="true" /></summary>
     {!members.length ? <p className="muted">Add a Pokémon to see weaknesses and attack coverage.</p> : <>
       <div className="defense-chart">
