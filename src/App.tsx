@@ -40,7 +40,9 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const {snapshot,loading,error} = useAvailability(state, progressPage);
   const gameOption = gameCatalogue.find(option => option.id === state.gameId)!;
   useEffect(() => {
-    document.documentElement.style.setProperty('--accent', gameOption.accentColor);
+    const root = document.documentElement.style;
+    root.setProperty('--game-hue', String(gameOption.accent.hue));
+    root.setProperty('--game-chroma', String(gameOption.accent.chroma));
   }, [game, gameOption]);
   const team = state.team.filter((id):id is string=>id!==null);
   const [gameSelection] = useState(() => createGameSelection({

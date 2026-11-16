@@ -5,14 +5,12 @@ export interface GameOption {
   name: string;
   generation: number;
   logoSrc: string;
-  accentColor: string;
+  /** OKLCH hue and chroma of the game colour. The stylesheet sets the lightness for each theme. */
+  accent: { hue: number; chroma: number };
 }
 
 // Presentation only. A game can be selected after its local dataset is reviewed.
-const game = (name: string, hue: number, chroma = 0.15) => ({
-  name,
-  accentColor: `oklch(0.43 ${chroma.toFixed(3)} ${hue})`,
-});
+const game = (name: string, hue: number, chroma = 0.15) => ({ name, accent: { hue, chroma } });
 
 const generations = [
   [game('Red', 28), game('Blue', 250), game('Yellow', 98, 0.09)],
@@ -26,9 +24,9 @@ const generations = [
   [game('Scarlet', 27), game('Violet', 291), game('Legends: Z-A', 194, 0.075)],
 ];
 
-export const gameCatalogue: GameOption[] = generations.flatMap((games, index) => games.map(({ name, accentColor }) => {
+export const gameCatalogue: GameOption[] = generations.flatMap((games, index) => games.map(({ name, accent }) => {
   const id = name.toLowerCase().replace(/[’!:,]/g, '').replaceAll(' ', '-');
-  return { id, name: `Pokémon ${name}`, generation: index + 1, logoSrc: `/games/${id}-logo.png`, accentColor };
+  return { id, name: `Pokémon ${name}`, generation: index + 1, logoSrc: `/games/${id}-logo.png`, accent };
 }));
 
 export const gameGroups = generations.map((_, index) => ({
