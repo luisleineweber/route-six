@@ -33,6 +33,34 @@ describe('Team feasibility',()=>{
     expect(check.warnings).toHaveLength(1);
     expect(check.warnings[0]).toMatchObject({code:'finite-resource',slotIndexes:[0,2]});
   });
+  it('reports the conflict that blocks the team, not a resource the team can avoid',()=>{
+    // A (Raichu) can share the single Pikachu with B or catch its own Raichu. C and D need two starters.
+    const {data,game}=fixture(['pikachu','raichu','treecko','torchic']);game.choices.push({id:'starter',name:'Starter',options:['treecko','torchic'],maximumSelections:1,review});
+    source(game,'shared','pikachu',5,none,{maxUses:1});source(game,'wild-raichu','raichu');evolution(game,'pikachu','raichu',10);
+    for(const id of ['treecko','torchic'])source(game,id,id,5,none,{maxUses:1,choice:{groupId:'starter',optionId:id}});
+    const conflict=checkTeam(snapshot(data),['raichu','pikachu','treecko','torchic'],'current-progress').warnings[0];
+    expect(conflict).toMatchObject({code:'choice-conflict',relatedId:'starter',slotIndexes:[2,3]});
+  });
+  it('names every member of a conflict that needs both a choice and a shared resource',()=>{
+    // A needs the Treecko choice. B takes the Raichu choice or evolves the single Pikachu. C needs that Pikachu.
+    const {data,game}=fixture(['pikachu','raichu','treecko']);game.choices.push({id:'starter',name:'Starter',options:['treecko','raichu'],maximumSelections:1,review});
+    source(game,'treecko','treecko',5,none,{maxUses:1,choice:{groupId:'starter',optionId:'treecko'}});
+    source(game,'raichu-choice','raichu',5,none,{maxUses:1,choice:{groupId:'starter',optionId:'raichu'}});
+    source(game,'shared','pikachu',5,none,{maxUses:1});evolution(game,'pikachu','raichu',10);
+    const check=checkTeam(snapshot(data),['treecko','raichu','pikachu'],'current-progress');
+    expect(check.warnings).toHaveLength(1);
+    expect(check.warnings[0]).toMatchObject({relatedId:null,slotIndexes:[0,1,2],
+      message:'These members cannot all be obtained in one playthrough. Select another family or source.'});
+  });
+  it('leaves out a member that can take a free path when shared sources run out',()=>{
+    // Three Pikachu share two single sources. Raichu can use either source or catch its own.
+    const {data,game}=fixture(['pikachu','raichu']);
+    source(game,'first','pikachu',5,none,{maxUses:1});source(game,'second','pikachu',5,none,{maxUses:1});
+    source(game,'wild-raichu','raichu');evolution(game,'pikachu','raichu',10);
+    const check=checkTeam(snapshot(data),['raichu','pikachu','pikachu','pikachu'],'current-progress');
+    expect(check.warnings).toHaveLength(1);
+    expect(check.warnings[0]).toMatchObject({code:'finite-resource',slotIndexes:[1,2,3]});
+  });
   it('tries alternative sources and future sources before showing a conflict',()=>{
     const {data,game}=fixture(['treecko','torchic']);game.choices.push({id:'starter',name:'Starter',options:['treecko','torchic'],maximumSelections:1,review});
     for(const id of ['treecko','torchic'])source(game,id,id,5,none,{maxUses:1,choice:{groupId:'starter',optionId:id}});source(game,'future-torchic','torchic',5,milestone('future'));

@@ -1,12 +1,48 @@
 import type { AcquisitionPath, AvailabilitySnapshot, PlanningTarget, TeamCheck, TeamWarning } from '../types';
-import { findConflict, pathUsesConflict, type Conflict } from './resources';
+import { findConflict, type Conflict } from './resources';
 
-/** Name the members that cannot avoid the conflict: every path of theirs uses it.
- * A member with a conflict-free path is left out. When no member is forced, the conflict comes only
- * from optional paths together, so the members that can take part are named instead. */
-function conflictMembers(options: AcquisitionPath[][], reachable: number[], conflict: Conflict): number[] {
-  const forced = reachable.filter(index => options[index].every(path => pathUsesConflict(path, conflict)));
-  return forced.length ? forced : reachable.filter(index => options[index].some(path => pathUsesConflict(path, conflict)));
+type TeamSearch = { paths: AcquisitionPath[]; conflicts: [] } | { paths: null; conflicts: Conflict[] };
+
+/** Find one path per member that fits together. On failure, return every conflict the search met. */
+function searchTeam(snapshot: AvailabilitySnapshot, options: AcquisitionPath[][], members: number[]): TeamSearch {
+  const selected: AcquisitionPath[] = [];
+  const conflicts = new Map<string, Conflict>();
+  function search(position: number): boolean {
+    if (position === members.length) return true;
+    for (const path of options[members[position]]) {
+      const found = findConflict(snapshot, [...selected, path]);
+      if (found) { conflicts.set(`${found.kind}:${found.id}`, found); continue; }
+      selected.push(path);
+      if (search(position + 1)) return true;
+      selected.pop();
+    }
+    return false;
+  }
+  return search(0) ? { paths: selected, conflicts: [] } : { paths: null, conflicts: [...conflicts.values()] };
+}
+
+/** Remove each member that the conflict does not need. Every member left is needed for the conflict. */
+function conflictCore(snapshot: AvailabilitySnapshot, options: AcquisitionPath[][], members: number[]): number[] {
+  let core = members;
+  for (const member of members) {
+    const without = core.filter(index => index !== member);
+    if (!searchTeam(snapshot, options, without).paths) core = without;
+  }
+  return core;
+}
+
+function conflictWarning(snapshot: AvailabilitySnapshot, slotIndexes: number[], conflicts: Conflict[]): TeamWarning {
+  if (conflicts.length !== 1) {
+    // Several choices or resources block the members together, so no single one can be named.
+    const code = conflicts.every(conflict => conflict.kind === 'choice-conflict') ? 'choice-conflict' : 'finite-resource';
+    return { code, relatedId: null, slotIndexes,
+      message: 'These members cannot all be obtained in one playthrough. Select another family or source.' };
+  }
+  const [conflict] = conflicts;
+  const group = snapshot.choiceGroups.find(g => g.id === conflict.id);
+  return { code: conflict.kind, relatedId: conflict.id, slotIndexes,
+    message: group ? `These members need incompatible choices in ${group.name}. Select another family or source.`
+      : `These members need more uses of ${conflict.id.replace(/^(source|item-source):/, '')} than one playthrough supplies.` };
 }
 
 export function checkTeam(snapshot: AvailabilitySnapshot, team: string[], target: PlanningTarget): TeamCheck {
@@ -22,34 +58,13 @@ export function checkTeam(snapshot: AvailabilitySnapshot, team: string[], target
   });
   // Members without a path are already reported. The others must still fit together.
   const reachable = options.flatMap((paths, index) => paths.length ? [index] : []);
-  const selected: typeof options[number] = [];
-  // Keep the conflict from the shallowest failed step: it needs the fewest members, so it is the cause.
-  let conflict: { found: Conflict; paths: number } | null = null;
-  function search(position: number): boolean {
-    if (position === reachable.length) return true;
-    for (const path of options[reachable[position]]) {
-      const found = findConflict(snapshot, [...selected, path]);
-      if (found) {
-        if (!conflict || selected.length + 1 < conflict.paths) conflict = { found, paths: selected.length + 1 };
-        continue;
-      }
-      selected.push(path);
-      if (search(position + 1)) return true;
-      selected.pop();
-    }
-    return false;
-  }
-  if (search(0)) {
+  const result = searchTeam(snapshot, options, reachable);
+  if (result.paths) {
     const chosenPathIds: (string | null)[] = team.map(() => null);
-    reachable.forEach((index, position) => { chosenPathIds[index] = selected[position].id; });
+    reachable.forEach((index, position) => { chosenPathIds[index] = result.paths[position].id; });
     return { feasible: !warnings.length, chosenPathIds, warnings };
   }
-  const found = (conflict as { found: Conflict } | null)?.found ?? null;
-  const relatedId = found?.id ?? null;
-  const group = snapshot.choiceGroups.find(g => g.id === relatedId);
-  const involved = found ? conflictMembers(options, reachable, found) : reachable;
-  warnings.push({ code: found?.kind ?? 'finite-resource', relatedId, slotIndexes: involved,
-    message: group ? `These members need incompatible choices in ${group.name}. Select another family or source.`
-      : `These members need more uses of ${relatedId?.replace(/^(source|item-source):/, '') ?? 'a finite source'} than one playthrough supplies.` });
+  const core = conflictCore(snapshot, options, reachable);
+  warnings.push(conflictWarning(snapshot, core, searchTeam(snapshot, options, core).conflicts));
   return { feasible: false, chosenPathIds: team.map(() => null), warnings };
 }
