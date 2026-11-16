@@ -4,14 +4,13 @@
 .loading-mark { display: block; flex-shrink: 0; overflow: visible; color: var(--accent-line); }
 .loading-mark-sm { width: 1.25rem; height: 1.25rem; }
 .loading-mark-md { width: 2.25rem; height: 2.25rem; }
-.loading-mark-lg { width: 5rem; height: 5rem; }
 .loading-mark path { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
 .loading-mark-track { opacity: 0.18; }
 .loading-mark-point { fill: currentColor; transform-box: fill-box; transform-origin: center; }
 
 /* Indeterminate bar */
-.startup-bar, .game-loading-bar { position: relative; display: block; overflow: hidden; block-size: 0.25rem; border-radius: 999px; background: color-mix(in oklch, var(--bar-color) 16%, transparent); }
-.startup-bar::after, .game-loading-bar::after { content: ''; position: absolute; inset-block: 0; inset-inline-start: 0; inline-size: 100%; border-radius: inherit; background: var(--bar-color); }
+.game-loading-bar { position: relative; display: block; overflow: hidden; block-size: 0.25rem; border-radius: 999px; background: color-mix(in oklch, var(--bar-color) 16%, transparent); }
+.game-loading-bar::after { content: ''; position: absolute; inset-block: 0; inset-inline-start: 0; inline-size: 100%; border-radius: inherit; background: var(--bar-color); }
 
 /* Placeholders */
 .skeleton-line { display: block; inline-size: 7rem; max-inline-size: 100%; block-size: 0.75rem; border-radius: 999px; background: var(--skeleton); }
@@ -22,12 +21,6 @@
 .loading-note-copy { display: grid; gap: 0.125rem; max-width: none; line-height: 1.4; }
 .loading-note-copy strong { color: var(--ink); font-size: 0.9375rem; font-weight: 600; }
 .loading-note-copy span { color: var(--muted); font-size: 0.8125rem; }
-
-/* Startup */
-.startup-screen { --bar-color: var(--accent-line); display: grid; place-content: center; justify-items: center; gap: 0.5rem; min-height: 100svh; padding: 1.5rem; text-align: center; }
-.startup-screen .loading-mark { margin-block-end: 0.75rem; }
-.startup-screen p { color: var(--muted); }
-.startup-screen .startup-bar { inline-size: 10rem; margin-block-start: 1rem; }
 
 /* Game change */
 /* The next game's accent, in the same role as --accent-line: the base fill on light surfaces, a light tone on dark ones. */
@@ -70,7 +63,7 @@
   /* Each point lights when the runner reaches it. --at is the point's place on the route. */
   .loading-mark-point { animation: route-point 1.8s ease-out infinite; animation-delay: calc(var(--at) * 1.45s - 1.8s); }
 
-  .startup-bar::after, .game-loading-bar::after { inline-size: 40%; animation: bar-slide 1.3s ease-in-out infinite; }
+  .game-loading-bar::after { inline-size: 40%; animation: bar-slide 1.3s ease-in-out infinite; }
 
   .skeleton-line, .skeleton-sprite {
     background: linear-gradient(100deg, var(--skeleton) 35%, var(--skeleton-shine) 50%, var(--skeleton) 65%) var(--skeleton);
@@ -79,7 +72,6 @@
   }
 
   .loading-note, .details-skeleton, .skeleton-grid { animation: loading-appear 240ms ease-out 180ms both; }
-  .startup-screen { animation: loading-appear 240ms ease-out 150ms both; }
   .game-loading-notice { animation: notice-rise 200ms ease-out 120ms both; }
 }
 

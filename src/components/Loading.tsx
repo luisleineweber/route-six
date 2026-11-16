@@ -5,7 +5,7 @@ const route = 'M46 10H30C18 10 12 20 12 32V38C12 48 20 54 32 54S52 48 52 38 44 2
 // Each point has its approximate place on the route (0 to 1), so it lights when the runner arrives.
 const points = [[46, 10, 0], [24, 11, 0.15], [12, 32, 0.29], [23, 53, 0.45], [49, 48, 0.64], [34, 24, 0.86]] as const;
 
-export type LoadingMarkSize = 'sm' | 'md' | 'lg';
+export type LoadingMarkSize = 'sm' | 'md';
 
 /** The Route Six mark as a loader: a runner walks the route and lights the six team points in turn. */
 export function LoadingMark({ size = 'md' }: { size?: LoadingMarkSize }) {
