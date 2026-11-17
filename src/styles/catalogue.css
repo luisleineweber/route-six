@@ -34,6 +34,7 @@
 .source-summary { color: var(--muted); font-size: 0.8125rem; line-height: 1.4; }
 .access-summary { align-items: flex-start; justify-content: center; font-weight: 400; }
 .access-summary > svg { flex-shrink: 0; margin-top: 0.125rem; }
+.access-summary.access-full > span { color: var(--muted); }
 
 .team-catalogue .pokemon-card { padding: 1.75rem 0.5rem 1rem; }
 .team-catalogue .pokemon-card .card-link { gap: 0.25rem; }
@@ -104,13 +105,13 @@
   .progress-catalogue .access-compact > svg { flex-shrink: 0; }
   .progress-catalogue .access-compact > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .catalogue-card-identity { position: relative; gap: 0; }
-  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.5rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8125rem; }
+  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.75rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8125rem; }
   .catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0; flex-wrap: nowrap; }
-  .catalogue .catalogue-card-identity .type-icon { width: 1.125rem; height: 1.125rem; }
-  .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.5625rem; height: 1.125rem; overflow: hidden; }
+  .catalogue .catalogue-card-identity .type-icon { width: 1.375rem; height: 1.375rem; }
+  .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.6875rem; height: 1.375rem; overflow: hidden; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:first-child { border-radius: 50% 0 0 50%; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child { border-radius: 0 50% 50% 0; }
-  .catalogue .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child .type-icon { translate: -0.5625rem 0; }
+  .catalogue .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child .type-icon { translate: -0.6875rem 0; }
   /* Very narrow cards need the full line for readable names. */
   @container pokemon-card (max-width: 4rem) {
     .catalogue-card-identity .card-name { width: 100%; }
@@ -172,6 +173,5 @@
     .progress-catalogue .card-name { min-height: 1.5rem; padding-inline-end: 3.75rem; text-align: start; line-height: 1.5rem; }
     .progress-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0.25rem; }
     .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; text-align: start; }
-    .progress-catalogue .access-summary { min-height: 2.8em; }
   }
 }

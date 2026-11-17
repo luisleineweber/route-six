@@ -38,12 +38,14 @@
   --nav-selected-bg: white;
   --nav-selected-ink: var(--accent-ink);
   --nav-selected-ring: 0 1px 3px oklch(0 0 0 / 0.18);
+  --nav-selected-muted: var(--muted);
   /* Pressed chips, switches, and text selection. */
   --selected-fill: var(--accent);
   --on-selected: var(--on-accent);
 
   /* Type colours mix with this base for sprite areas. Translucent layers sit on those areas. */
   --tint-base: white;
+  --tint-mix: 34%;
   --tint-glow: oklch(1 0 0 / 0.55);
   --glass: oklch(1 0 0 / 0.75);
   --glass-strong: oklch(1 0 0 / 0.85);
@@ -66,7 +68,7 @@
   /* Defense chart marks. Stronger effects use stronger fills in both themes. */
   --defense-mark: oklch(0.955 0.004 95);
   --defense-mark-ink: oklch(0.25 0.02 260);
-  --defense-empty-line: oklch(0.3 0.01 260 / 0.22);
+  --defense-empty-line: oklch(0.3 0.01 260 / 0.16);
   --defense-weak: oklch(0.8 0.11 28);
   --defense-weak-ink: oklch(0.3 0.1 28);
   --defense-double: oklch(0.55 0.17 28);
@@ -88,7 +90,7 @@
   --shadow-raised: 0 0 0 1px oklch(0.3 0.01 260 / 0.08), 0 2px 4px oklch(0.3 0.01 260 / 0.06), 0 8px 20px oklch(0.3 0.01 260 / 0.08);
   --shadow-bar: 0 1px 0 oklch(0.3 0.01 260 / 0.04), 0 8px 18px -8px oklch(0.3 0.01 260 / 0.18);
   --shadow-sticky: 0 10px 20px -12px oklch(0.3 0.01 260 / 0.22);
-  --shadow-footer: 0 -12px 22px -14px oklch(0.3 0.01 260 / 0.25);
+  --shadow-footer: 0 -10px 18px -14px oklch(0.3 0.01 260 / 0.16);
   --shadow-notice: 0 8px 24px oklch(0 0 0 / 0.12);
   --shadow-knob: 0 1px 2px oklch(0 0 0 / 0.3);
   --shadow-popover: 0 0 0 1px oklch(0 0 0 / 0.06), 0 0.5rem 1rem oklch(0 0 0 / 0.06), 0 1.5rem 3.5rem oklch(0 0 0 / 0.14);
@@ -125,12 +127,15 @@
   --nav-selected-bg: oklch(0.95 0 0);
   --nav-selected-ink: oklch(0.3 var(--game-chroma) var(--game-hue));
   --nav-selected-ring: 0 1px 3px oklch(0 0 0 / 0.3);
+  --nav-selected-muted: oklch(0.45 0 0);
   /* The dark fill is too close to the surfaces, so selection uses the light game tone. */
   --selected-fill: var(--accent-ink);
   --on-selected: var(--bg);
 
   /* The base hue is none, so the mix keeps the type hue instead of pulling it to red. */
-  --tint-base: oklch(0.22 0 none);
+  --tint-base: oklch(0.27 0 none);
+  /* Strong type colours turn olive on dark grey, so the dark theme mixes in less. */
+  --tint-mix: 24%;
   --tint-glow: oklch(1 0 0 / 0.06);
   --glass: oklch(0.17 0 0 / 0.7);
   --glass-strong: oklch(0.17 0 0 / 0.8);
