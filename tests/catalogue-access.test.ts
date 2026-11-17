@@ -33,6 +33,9 @@ function card(paths: AcquisitionPath[], status: AvailabilityEntry['status'] = 'l
   return html.match(/<article\b[^>]*>[\s\S]*?<\/article>/)![0];
 }
 
+/** Card text without markup; source facts render in separate spans. */
+const text = (html: string) => html.replace(/<[^>]+>/g, '');
+
 function loadingCatalogue(target: 'whole-game' | 'current-progress') {
   return renderToStaticMarkup(createElement(GameContext, { value: emerald }, createElement(PokemonSearch, {
     snapshot: null, target, progressPage: true, team: Array(6).fill(null), activeSlot: null,
@@ -85,7 +88,7 @@ describe('catalogue access summaries', () => {
       evolutionIds: ['pikachu-to-raichu'],
     };
     const html = card([evolved], status);
-    expect(html).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Pikachu · Thunder Stone`);
+    expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Pikachu · Thunder Stone`);
     expect(html).not.toContain('Safari Zone');
     expect(html).not.toContain('Lv. 25');
     if (status === 'later') expect(html).toContain('Available from Evolve Pikachu — after “Receive the Devon Scope”');
@@ -98,10 +101,10 @@ describe('catalogue access summaries', () => {
       evolutionIds: ['ralts-to-kirlia', 'kirlia-to-gardevoir'],
     };
     const html = card([evolved], status);
-    expect(html).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Ralts · Lv. 30`);
+    expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Ralts · Lv. 30`);
     expect(html).not.toContain('Lv. 20');
     expect(html).not.toContain('Lv. 41');
-    expect(html).not.toContain(': Route 102 ·');
+    expect(text(html)).not.toContain(': Route 102 ·');
     if (status === 'later') expect(html).toContain('Available from Evolve Kirlia — at “Route 102”');
   });
 
@@ -111,7 +114,7 @@ describe('catalogue access summaries', () => {
       evolutionIds: ['golbat-to-crobat'],
     };
     const html = card([evolved], 'available');
-    expect(html).toContain('Now: Evolve Golbat');
+    expect(text(html)).toContain('Now: Evolve Golbat');
     expect(html).not.toContain('Lv.');
     expect(html).not.toContain('Route 102');
   });
@@ -129,14 +132,14 @@ describe('catalogue access summaries', () => {
       }] as AcquisitionPath['breedingSteps'],
     };
     const html = card([bred]);
-    expect(html).toContain('Later: Route 117 and Day Care · Breeding');
+    expect(text(html)).toContain('Later: Route 117 and Day Care · Breeding');
     expect(html).toContain('Available from Day Care breeding — after “Receive the Devon Scope”');
     expect(html).not.toContain('Route 104');
   });
 
   it('keeps a direct location beside its future access requirement', () => {
     const html = card([path('bagon', 'wild-meteor-falls-bagon-room-grass-bagon', 'juan-defeated')]);
-    expect(html).toContain('Later: Meteor Falls');
+    expect(text(html)).toContain('Later: Meteor Falls');
     expect(html).toContain('Available from Meteor Falls — after “Defeat Juan and receive Waterfall”');
   });
 
@@ -146,8 +149,8 @@ describe('catalogue access summaries', () => {
     const late = path('pikachu', 'late-source', 'national-dex');
     const first = { ...path('pikachu', source.id, 'devon-scope'), id: 'first-path' };
     const html = card([late, first], 'later', game);
-    expect(html).toContain('Later: Safari Zone');
+    expect(text(html)).toContain('Later: Safari Zone');
     expect(html).toContain('Available from Safari Zone — after “Receive the Devon Scope”');
-    expect(html).not.toContain('Later: Route 101');
+    expect(text(html)).not.toContain('Later: Route 101');
   });
 });
