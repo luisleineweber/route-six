@@ -43,9 +43,7 @@
   --selected-fill: var(--accent);
   --on-selected: var(--on-accent);
 
-  /* Type colours mix with this base for sprite areas. Translucent layers sit on those areas. */
-  --tint-base: white;
-  --tint-mix: 34%;
+  /* Translucent layers on the type-coloured sprite areas. */
   --tint-glow: oklch(1 0 0 / 0.55);
   --glass: oklch(1 0 0 / 0.75);
   --glass-strong: oklch(1 0 0 / 0.85);
@@ -132,10 +130,6 @@
   --selected-fill: var(--accent-ink);
   --on-selected: var(--bg);
 
-  /* The base hue is none, so the mix keeps the type hue instead of pulling it to red. */
-  --tint-base: oklch(0.27 0 none);
-  /* Strong type colours turn olive on dark grey, so the dark theme mixes in less. */
-  --tint-mix: 24%;
   --tint-glow: oklch(1 0 0 / 0.06);
   --glass: oklch(0.17 0 0 / 0.7);
   --glass-strong: oklch(0.17 0 0 / 0.8);
@@ -182,6 +176,18 @@
   --shadow-dropdown: 0 0 0 1px oklch(1 0 0 / 0.1), 0 0.75rem 2.5rem oklch(0 0 0 / 0.5);
   --dialog-shadow: oklch(0 0 0 / 0.5);
   --backdrop: oklch(0 0 0 / 0.6);
+}
+
+/* Sprite areas take each type colour from the element's --tint-a and --tint-b.
+   Light: a pastel mix with white. Dark: only the hue, at one low lightness, because
+   darkened yellows and pinks turn olive and maroon. */
+:is(.sprite-well, .dialog-head) {
+  --well-a: color-mix(in oklch, var(--tint-a) 34%, white);
+  --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
+}
+:root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
+  --well-a: oklch(from var(--tint-a) 0.33 0.035 h);
+  --well-b: oklch(from var(--tint-b) 0.33 0.035 h);
 }
 
 * { box-sizing: border-box; }
