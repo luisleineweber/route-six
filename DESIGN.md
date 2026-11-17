@@ -24,6 +24,8 @@ sets `data-theme` before the first paint. Each game sets only a hue and a chroma
 stylesheet sets the lightness for each theme. In the dark theme, keep the
 surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
 Keep the header and primary actions in the dark game colour with white text.
+The header sits one step darker (lightness 0.37) than primary actions (0.45),
+because it is the largest accent area.
 Use a light tone of the game colour (lightness 0.8) for links, focus,
 selection lines, pressed chips, selected segments, checked boxes, switches that are on, and text
 selection, with dark text on it. Mark the active planner with a near-white
@@ -87,7 +89,9 @@ slot with its number. A tile has one main control that opens the details.
 Filled slots have one Remove control. Empty slots have one Add control.
 Give each filled slot and the details dialog header a soft sprite area in the
 Pokémon's type colours. Blend two colours for two types. Show Remove on hover
-and keyboard focus, and keep it visible on touch screens.
+and keyboard focus, and keep it visible on touch screens. Empty slots keep the
+height of a filled Team Planner slot. In slot status lines, Available now uses
+muted text with a green icon; later and blocked states keep their colour.
 
 When the full team row scrolls above the viewport, show a full-width team bar
 at the top. Center six small 4:3 cards in one row. Keep the row narrower than
