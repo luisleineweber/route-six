@@ -133,6 +133,7 @@ describe('catalogue access summaries', () => {
     };
     const html = card([bred]);
     expect(text(html)).toContain('Later: Route 117 and Day Care · Breeding');
+    expect(html).toContain('Route\u00a0117');
     expect(html).toContain('Available from Day Care breeding after “Receive the Devon Scope”');
     expect(html).not.toContain('Route 104');
   });

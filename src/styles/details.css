@@ -31,7 +31,8 @@
 .dialog-content > .path-details + .progress-details { margin-top: 1rem; }
 .dialog-content > .progress-details + * { margin-top: 0.25rem; }
 /* Sources uses the same quiet row style as the availability row above it. */
-.dialog-content > .data-references > summary { padding-inline: 1rem; color: var(--muted); font-weight: 400; }
+.dialog-content > .data-references > summary { display: flex; min-height: 2.75rem; padding-inline: 1rem; color: var(--muted); font-weight: 400; }
+.dialog-content > .data-references > summary > .chevron { margin-inline-start: auto; }
 /* Headings with a control are 2.5rem tall, so less margin gives the same visible gap as h3 + content. */
 .dialog-content > .section-heading + * { margin-top: 0.25rem; }
 .dialog-content > .path-details + .path-details { margin-top: 0.5rem; }

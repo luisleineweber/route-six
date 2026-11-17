@@ -193,8 +193,8 @@
   /* A neutral base with light glows: the first type behind the sprite, the second at the lower corner. */
   --well-a: oklch(0.27 0 0);
   --well-b: oklch(0.27 0 0);
-  --well-glow: oklch(from var(--tint-a) 0.78 0.12 h / 0.24);
-  --well-glow-b: oklch(from var(--tint-b) 0.78 0.12 h / 0.2);
+  --well-glow: oklch(from var(--tint-a) 0.86 0.11 h / 0.28);
+  --well-glow-b: oklch(from var(--tint-b) 0.86 0.11 h / 0.24);
 }
 
 * { box-sizing: border-box; }

@@ -31,7 +31,8 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
     return [phrase];
   }
   const source = pathSource(game, path);
-  const details = [game.locations.find(location => location.id === source.locationId)!.name];
+  // A no-break space before a number keeps names such as "Route 120" together.
+  const details = [game.locations.find(location => location.id === source.locationId)!.name.replace(/ (\d)/g, '\u00a0$1')];
   if (path.breedingSteps.length) details.push('Breeding');
   return details;
 }
