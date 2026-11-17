@@ -130,6 +130,8 @@
   /* While pinned, the controls extend the team overview across the viewport and take over its shadow. */
   .catalogue-filter-anchor[data-stuck] > .filters { box-shadow: 0 -100vmax 0 100vmax var(--bg), var(--shadow-sticky); clip-path: inset(0 -100vmax -1.5rem); }
   html:has(.catalogue-filter-anchor[data-stuck]) .team-bar.visible { box-shadow: none; }
+  /* The page scroll padding covers the team overview; catalogue content also clears the pinned controls. */
+  .catalogue :not(.catalogue-filter-anchor, .catalogue-filter-anchor *) { scroll-margin-top: var(--catalogue-filter-height, 0px); }
   .filters .catalogue-search, .filters .type-filter-controls { min-width: 0; }
   .filters .catalogue-search { grid-column: 1; grid-row: 1; }
   .filters .type-filter-controls { grid-column: 2; grid-row: 1; display: flex; align-items: center; justify-content: flex-end; }
