@@ -170,7 +170,7 @@
   --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.11), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
   --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06), 0 4px 14px oklch(0 0 0 / 0.35);
   --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16), 0 2px 4px oklch(0 0 0 / 0.4), 0 8px 20px oklch(0 0 0 / 0.45);
-  --shadow-bar: 0 1px 0 oklch(1 0 0 / 0.06), 0 8px 18px -8px oklch(0 0 0 / 0.6);
+  --shadow-bar: 0 8px 18px -8px oklch(0 0 0 / 0.6);
   --shadow-sticky: 0 10px 20px -12px oklch(0 0 0 / 0.7);
   --shadow-footer: 0 -12px 22px -14px oklch(0 0 0 / 0.7);
   --shadow-notice: 0 8px 24px oklch(0 0 0 / 0.5);
@@ -189,10 +189,10 @@
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }
 :root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
-  --well-a: oklch(from var(--tint-a) 0.3 0.018 h);
-  --well-b: oklch(from var(--tint-b) 0.3 0.018 h);
+  --well-a: oklch(from var(--tint-a) 0.29 0.006 h);
+  --well-b: oklch(from var(--tint-b) 0.29 0.006 h);
   /* The glow behind the sprite carries the type colour; the base stays near grey. */
-  --well-glow: oklch(from var(--tint-a) 0.6 0.09 h / 0.2);
+  --well-glow: oklch(from var(--tint-a) 0.62 0.11 h / 0.28);
 }
 
 * { box-sizing: border-box; }
