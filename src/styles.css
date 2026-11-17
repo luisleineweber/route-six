@@ -64,9 +64,9 @@
   --danger-ink: oklch(0.42 0.14 28);
 
   /* Defense chart marks. Stronger effects use stronger fills in both themes. */
-  --defense-mark: oklch(0.93 0.006 95);
+  --defense-mark: oklch(0.955 0.004 95);
   --defense-mark-ink: oklch(0.25 0.02 260);
-  --defense-empty-line: oklch(0.3 0.01 260 / 0.1);
+  --defense-empty-line: oklch(0.3 0.01 260 / 0.22);
   --defense-weak: oklch(0.8 0.11 28);
   --defense-weak-ink: oklch(0.3 0.1 28);
   --defense-double: oklch(0.55 0.17 28);
@@ -121,9 +121,10 @@
   --accent-ink: oklch(0.8 calc(var(--game-chroma) * 0.7) var(--game-hue));
   --accent-line: var(--accent-ink);
   --focus: var(--accent-ink);
-  --nav-selected-bg: var(--bg);
-  --nav-selected-ink: var(--ink);
-  --nav-selected-ring: inset 0 0 0 2px var(--on-accent);
+  /* A light tab reads as selected on the dark header; a dark tab reads as a hole. */
+  --nav-selected-bg: oklch(0.95 0 0);
+  --nav-selected-ink: oklch(0.3 var(--game-chroma) var(--game-hue));
+  --nav-selected-ring: 0 1px 3px oklch(0 0 0 / 0.3);
   /* The dark fill is too close to the surfaces, so selection uses the light game tone. */
   --selected-fill: var(--accent-ink);
   --on-selected: var(--bg);
@@ -144,14 +145,14 @@
   --ok-line: oklch(0.78 0.12 155 / 0.45);
   --later: oklch(0.8 0.11 75);
   --blocked: oklch(0.74 0.14 30);
-  --warning-bg: oklch(0.3 0.05 80);
+  --warning-bg: oklch(0.25 0.025 80);
   --warning-ink: oklch(0.86 0.1 85);
   --danger-bg: oklch(0.3 0.06 28);
   --danger-ink: oklch(0.82 0.1 28);
 
-  --defense-mark: oklch(0.3 0 0);
+  --defense-mark: oklch(0.265 0 0);
   --defense-mark-ink: oklch(0.9 0 0);
-  --defense-empty-line: oklch(1 0 0 / 0.14);
+  --defense-empty-line: oklch(1 0 0 / 0.22);
   --defense-weak: oklch(0.45 0.12 28);
   --defense-weak-ink: oklch(0.94 0.03 28);
   --defense-double: oklch(0.72 0.16 28);
@@ -228,6 +229,7 @@ main > .error-message + * { margin-top: 0; }
   .header-inner, .app-shell { padding-inline: 2rem; }
   .app-shell { padding-block: 1.5rem 3rem; }
 }
+@media (min-width: 60rem) { :root { --page-gap: 2.5rem; } }
 @media (min-width: 60rem) and (max-width: 72rem) { :root { --page-gap: 2rem; } }
 @media (max-width: 40rem) { :root { --page-gap: 2rem; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

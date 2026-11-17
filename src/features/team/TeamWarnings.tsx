@@ -22,6 +22,8 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
     : check.warnings.every(warning => warning.code === 'unavailable' || warning.code === 'later')
       ? `${affected} Pokémon unavailable for this plan`
       : 'This team needs a change';
+  // One group whose title the heading already says, such as "Available later", needs no second heading.
+  const repeatsHeading = groups.length === 1 && heading.toLowerCase().endsWith(groups[0].title.toLowerCase());
   const hasDetails = groups.some(group => group.pokemonIds.length > 0);
   return <div className="team-access team-access-issues">
     <div className="team-access-heading">
@@ -33,7 +35,7 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
     </div>
     <ul className="team-issue-list">{groups.map(group => <li key={JSON.stringify([group.title, group.message])}>
       <div className="team-issue-reason">
-        <h4>{group.title}</h4>
+        {!repeatsHeading && <h4>{group.title}</h4>}
         {group.message && <p>{group.message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonNames.get(word) ?? word)}</p>}
       </div>
       {group.pokemonIds.length > 0 && <div className="team-issue-members">{group.pokemonIds.map(id => <button key={id} type="button" className="team-issue-details" onClick={() => onDetails(id)} aria-label={`View ${pokemonIdentity(id).name} access details`} aria-haspopup="dialog">

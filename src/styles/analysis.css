@@ -10,12 +10,12 @@
   .analysis-unsettled[open] > summary { margin-bottom: 0; }
   .analysis-unsettled[open] > summary svg { transform: none; }
 }
-.defense-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 0.5rem 0.75rem; padding: 0; margin-block: 0.875rem 1rem; list-style: none; }
+.defense-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.5rem 1.5rem; padding: 0; margin-block: 0.875rem 1rem; list-style: none; }
 .defense-type { display: flex; align-items: center; gap: 0.625rem; padding: 0.25rem 0.5rem 0.25rem 0.25rem; border-radius: 999px; }
-.defense-risk { background: var(--danger-bg); }
+.defense-risk { background: color-mix(in oklch, var(--danger-bg) 70%, transparent); }
 .defense-marks { display: flex; gap: 4px; }
 .defense-mark { display: inline-grid; place-items: center; flex-shrink: 0; width: 1.25rem; height: 1.625rem; border-radius: 0.3125rem; background: var(--defense-mark); color: var(--defense-mark-ink); font-size: 0.8125rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
-.defense-empty { background: transparent; box-shadow: inset 0 0 0 1px var(--defense-empty-line); }
+.defense-empty { background: transparent; outline: 1px dashed var(--defense-empty-line); outline-offset: -1px; }
 .defense-weak { background: var(--defense-weak); color: var(--defense-weak-ink); }
 .defense-weak.defense-double { background: var(--defense-double); color: var(--defense-double-ink); }
 .defense-resist { background: var(--defense-resist); color: var(--defense-resist-ink); }

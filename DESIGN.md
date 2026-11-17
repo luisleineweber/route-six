@@ -25,9 +25,9 @@ stylesheet sets the lightness for each theme. In the dark theme, keep the
 surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
 Keep the header and primary actions in the dark game colour with white text.
 Use a light tone of the game colour (lightness 0.8) for links, focus,
-selection lines, pressed chips, checked boxes, switches that are on, and text
-selection, with dark text on it. Mark the active planner with the page
-background, light text, and a white ring. Make hover on primary actions
+selection lines, pressed chips, selected segments, checked boxes, switches that are on, and text
+selection, with dark text on it. Mark the active planner with a near-white
+background and dark game-colour text, as in the light theme. Make hover on primary actions
 lighter, not darker. Use light status colours on dark tint surfaces. In the
 defense chart, give the strongest effect the brightest mark. PNG exports stay
 light.
@@ -53,8 +53,9 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
 - The theme switch sits at the end of the planner row: three icon-only radios
   (monitor, sun, moon) in the same darker surface as the planner controls,
   with the selected one styled like the active planner. Names stay available
-  as tooltips and to assistive technology. On phones it takes its own full
-  row below the planner controls.
+  as tooltips and to assistive technology. On phones it sits at the end of
+  the name row, and the short description below the name is hidden on very
+  narrow screens.
 - Each of Emerald's 17 types has a round logo (`public/types/`, MIT licence).
   Slots and catalogue cards show the logo alone. The name stays available as a
   tooltip and to assistive technology. The details dialog and the type
@@ -105,7 +106,8 @@ Fade uncovered types and give them a dashed ring, so grey types stay clear.
 Both catalogues use type logos and a search field. The Progress Planner also
 uses status chips that show their counts. Sort regional Pokédex species first
 in regional order. Then show the remaining species in National Dex order.
-Show the name of the Dex with its number.
+Group headings name the Dex. Cards show only the number and keep the Dex
+name for assistive technology and the tooltip.
 Use native radio inputs, checkboxes, details, and a dialog. Use the Radix Select
 primitive for the progress dropdown's keyboard access and focus handling.
 Build the level limit as a switch.
@@ -113,6 +115,8 @@ Whole-game planning in the Progress Planner shows every obtainable species,
 including future sources. Keep source filters out of both catalogues.
 Keep acquisition paths in the Progress Planner details dialog.
 
+Catalogue cards use the content surface with a soft ring, like the team
+slots, and lift on hover.
 Show nine catalogue cards per row in the Team Planner and six in the Progress
 Planner on wide screens. Use fewer columns on small screens. Show all matching
 species in one grid without page controls. On small screens, let players choose two, three, or four columns.
