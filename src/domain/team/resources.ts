@@ -39,3 +39,22 @@ export function findConflict(snapshot: Pick<AvailabilitySnapshot, 'choiceGroups'
   }
   return null;
 }
+
+/**
+ * Describe everything about the path that `findConflict` can see. Two paths with the same effect are
+ * interchangeable in every team, in the same position. Return null when the path can never take part in a conflict.
+ */
+export function conflictEffect(snapshot: Pick<AvailabilitySnapshot, 'choiceGroups' | 'resourceLimits'>, path: AcquisitionPath): string | null {
+  const finite = (id: string) => snapshot.resourceLimits[id] !== null && snapshot.resourceLimits[id] !== undefined;
+  const choices = path.choices.filter(choice => snapshot.choiceGroups.some(group => group.id === choice.groupId));
+  const proof = path as Partial<ProofPath>;
+  if (!proof.individuals) {
+    const claims = path.claims.filter(claim => finite(claim.resourceId));
+    return choices.length || claims.length ? JSON.stringify([choices, 'plain', claims]) : null;
+  }
+  const items = proof.itemUses!.filter(use => finite(use.resourceId));
+  // Item demand counts the owners of each use, so owners from unlimited sources still matter.
+  const owners = new Set(items.flatMap(use => use.heldByOrigin ?? (use.consumed ? use.ownerOrigin : undefined) ?? []));
+  const animals = proof.individuals.filter(animal => finite(animal.origin) || owners.has(animal.origin));
+  return choices.length || items.length || animals.length ? JSON.stringify([choices, 'proof', animals, items]) : null;
+}
