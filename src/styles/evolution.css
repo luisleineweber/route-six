@@ -1,9 +1,9 @@
 .pokemon-evolution { container-type: inline-size; }
 .evolution-heading { align-items: center; min-height: 2.5rem; }
-.evolution-family { display: grid; justify-items: center; gap: 1rem; }
+.evolution-family { display: grid; justify-items: start; gap: 1rem; }
 .evolution-stage { display: flex; align-items: center; gap: 0.5rem; min-width: 0; }
-.evolution-pokemon { display: grid; justify-items: center; align-content: center; flex-shrink: 0; gap: 0.125rem; width: 7.5rem; min-height: 8.75rem; padding: 0.5rem; border: 0; border-radius: var(--radius-control); background: var(--tile); color: var(--ink); font-size: 0.8125rem; font-weight: 600; }
-.evolution-pokemon .pokemon-sprite { width: 6rem; height: 6rem; }
+.evolution-pokemon { display: grid; justify-items: center; align-content: center; flex-shrink: 0; gap: 0.125rem; width: 7rem; min-height: 7.75rem; padding: 0.5rem; border: 0; border-radius: var(--radius-control); background: var(--tile); color: var(--ink); font-size: 0.8125rem; font-weight: 600; }
+.evolution-pokemon .pokemon-sprite { width: 5rem; height: 5rem; }
 .evolution-pokemon:hover { background: var(--tile-hover); }
 .evolution-pokemon[aria-current='true'] { background: var(--accent-tint); color: var(--accent-ink); }
 .evolution-branches { display: grid; gap: 1rem; padding: 0; list-style: none; min-width: 0; }

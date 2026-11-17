@@ -114,6 +114,8 @@
   --control-line: oklch(0.58 0 0);
 
   --accent: oklch(0.45 var(--game-chroma) var(--game-hue));
+  /* The header is the largest accent area, so it sits one step darker than buttons. */
+  --header-bg: oklch(0.37 var(--game-chroma) var(--game-hue));
   /* Hover lifts the fill away from the dark page instead of sinking into it. */
   --accent-hover: oklch(0.5 var(--game-chroma) var(--game-hue));
   /* A direct value: mixing with achromatic grey in OKLCH pulls the hue to red. */
@@ -130,7 +132,7 @@
   --selected-fill: var(--accent-ink);
   --on-selected: var(--bg);
 
-  --tint-glow: oklch(1 0 0 / 0.06);
+  --tint-glow: oklch(1 0 0 / 0.09);
   --glass: oklch(0.17 0 0 / 0.7);
   --glass-strong: oklch(0.17 0 0 / 0.8);
   --glass-soft: oklch(0.17 0 0 / 0.6);
@@ -186,8 +188,8 @@
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }
 :root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
-  --well-a: oklch(from var(--tint-a) 0.33 0.035 h);
-  --well-b: oklch(from var(--tint-b) 0.33 0.035 h);
+  --well-a: oklch(from var(--tint-a) 0.3 0.022 h);
+  --well-b: oklch(from var(--tint-b) 0.3 0.022 h);
 }
 
 * { box-sizing: border-box; }
@@ -242,5 +244,5 @@ main > .error-message + * { margin-top: 0; }
 }
 @media (min-width: 60rem) { :root { --page-gap: 2.5rem; } }
 @media (min-width: 60rem) and (max-width: 72rem) { :root { --page-gap: 2rem; } }
-@media (max-width: 40rem) { :root { --page-gap: 2rem; } }
+@media (max-width: 40rem) { :root { --page-gap: 2rem; } main > .settings + * { margin-top: 1.5rem; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

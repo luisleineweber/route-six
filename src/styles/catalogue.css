@@ -85,8 +85,9 @@
   .type-filter .type-toggle { width: 100%; max-width: 2.75rem; }
   .type-filter .type-icon { width: 100%; height: auto; aspect-ratio: 1; }
   .filters .catalogue-search { order: 0; }
-  .filters > .chip-row { order: 1; }
-  .filters .type-filter-controls { order: 2; }
+  /* Same order as on wide screens: search, types, then status. */
+  .filters .type-filter-controls { order: 1; }
+  .filters > .chip-row { order: 2; }
 }
 
 .access-compact { display: none; }
@@ -145,7 +146,7 @@
   .catalogue-filter-group { display: grid; gap: 0.75rem; margin-bottom: 1rem; }
   .catalogue-filter-marker { display: none; }
   .catalogue-filter-group .catalogue-filter-anchor, .catalogue-filter-group .filters { display: contents; }
-  .catalogue-filter-group > .chip-row { order: 1; }
+  .catalogue-filter-group > .chip-row { order: 2; }
 }
 
 /* A full team cannot add more; the hint above the grid says so. */
@@ -172,6 +173,6 @@
     .progress-catalogue .card-sprite { align-self: center; }
     .progress-catalogue .card-name { min-height: 1.5rem; padding-inline-end: 3.75rem; text-align: start; line-height: 1.5rem; }
     .progress-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0.25rem; }
-    .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; text-align: start; }
+    .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; font-size: 0.875rem; line-height: 1.45; text-align: start; }
   }
 }
