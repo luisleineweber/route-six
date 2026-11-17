@@ -41,7 +41,9 @@
 .team-catalogue .card-identity { margin-top: 0; }
 .team-catalogue .card-link::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius-tile); }
 .team-catalogue .pokemon-card:has(.card-link:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
-.team-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0.75rem; inset-inline-end: 0.75rem; }
+/* The search field has a placeholder and a visible icon; its label stays for assistive technology at every width. */
+.filters .search-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.team-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0.875rem; inset-inline-end: 0.5rem; }
 .team-catalogue .catalogue-card-identity > .type-list.joined-types { gap: 0; }
 .team-catalogue .joined-types .type-badge { width: 12px; height: 24px; overflow: hidden; }
 .team-catalogue .joined-types .type-badge:first-child { border-radius: 50% 0 0 50%; }
@@ -139,7 +141,7 @@
   .filters .type-toggle[aria-pressed='true'] { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--ink); }
   .filters .type-toggle { flex-shrink: 0; }
   .catalogue-filter-group > .chip-row { margin-bottom: 1.5rem; }
-  .filters .search-label, .filters .type-filter-summary p { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .filters .type-filter-summary p { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 
 @media (max-width: 40rem) {

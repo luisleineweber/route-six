@@ -188,8 +188,8 @@
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }
 :root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
-  --well-a: oklch(from var(--tint-a) 0.3 0.022 h);
-  --well-b: oklch(from var(--tint-b) 0.3 0.022 h);
+  --well-a: oklch(from var(--tint-a) 0.31 0.03 h);
+  --well-b: oklch(from var(--tint-b) 0.31 0.03 h);
 }
 
 * { box-sizing: border-box; }
