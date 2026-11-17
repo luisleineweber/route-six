@@ -2,10 +2,10 @@ import { readFileSync } from 'node:fs';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
-import { ThemeSwitch } from '../src/components/ThemeSwitch';
+import { ThemeToggle } from '../src/components/ThemeToggle';
 import {
-  applyTheme, parseThemePreference, readThemePreference, resolveTheme, themeColors, themeStorageKey,
-  writeThemePreference, type ThemeStorage,
+  applyTheme, followSystemTheme, oppositeTheme, parseThemePreference, readThemePreference, resolveTheme, themeColors, themeStorageKey,
+  writeTheme, type ThemeStorage,
 } from '../src/theme/theme';
 
 function memoryStorage(initial: Record<string, string> = {}): ThemeStorage & { values: Record<string, string> } {
@@ -14,7 +14,6 @@ function memoryStorage(initial: Record<string, string> = {}): ThemeStorage & { v
     values,
     getItem: key => values[key] ?? null,
     setItem: (key, value) => { values[key] = value; },
-    removeItem: key => { delete values[key]; },
   };
 }
 
@@ -35,16 +34,21 @@ describe('theme preference', () => {
     expect(readThemePreference(blocked)).toBe('system');
   });
 
-  it('saves light and dark and removes the key for System', () => {
+  it('saves the chosen theme', () => {
     const storage = memoryStorage();
-    expect(writeThemePreference(() => storage, 'dark')).toEqual({ ok: true });
-    expect(storage.values[themeStorageKey]).toBe('dark');
-    expect(writeThemePreference(() => storage, 'system')).toEqual({ ok: true });
-    expect(storage.values).toEqual({});
+    expect(writeTheme(() => storage, 'dark')).toEqual({ ok: true });
+    expect(readThemePreference(() => storage)).toBe('dark');
+    expect(writeTheme(() => storage, 'light')).toEqual({ ok: true });
+    expect(storage.values[themeStorageKey]).toBe('light');
   });
 
   it('reports a failed save instead of throwing', () => {
-    expect(writeThemePreference(blocked, 'light')).toMatchObject({ ok: false });
+    expect(writeTheme(blocked, 'light')).toMatchObject({ ok: false });
+  });
+
+  it('switches to the other theme', () => {
+    expect(oppositeTheme('light')).toBe('dark');
+    expect(oppositeTheme('dark')).toBe('light');
   });
 
   it('resolves System from the system colour scheme', () => {
@@ -59,6 +63,44 @@ describe('theme preference', () => {
     applyTheme(target, 'dark');
     expect(target.root.dataset.theme).toBe('dark');
     expect(target.themeColor.content).toBe(themeColors.dark);
+  });
+});
+
+describe('following the system theme', () => {
+  function fakeQuery(matches: boolean) {
+    const listeners = new Set<() => void>();
+    return {
+      matches, listeners,
+      addEventListener: (_: 'change', listener: () => void) => { listeners.add(listener); },
+      removeEventListener: (_: 'change', listener: () => void) => { listeners.delete(listener); },
+      change(next: boolean) { this.matches = next; listeners.forEach(listener => listener()); },
+    };
+  }
+
+  it('catches a system change from before the toggle mounted', () => {
+    const shown: string[] = [];
+    // The inline script showed light; the system turned dark while the app loaded.
+    followSystemTheme(fakeQuery(true), () => 'system', theme => shown.push(theme));
+    expect(shown).toEqual(['dark']);
+  });
+
+  it('follows later system changes and stops after cleanup', () => {
+    const query = fakeQuery(false);
+    const shown: string[] = [];
+    const stop = followSystemTheme(query, () => 'system', theme => shown.push(theme));
+    query.change(true);
+    stop();
+    query.change(false);
+    expect(shown).toEqual(['light', 'dark']);
+    expect(query.listeners.size).toBe(0);
+  });
+
+  it('keeps a chosen theme when the system changes', () => {
+    const query = fakeQuery(false);
+    const shown: string[] = [];
+    followSystemTheme(query, () => 'light', theme => shown.push(theme));
+    query.change(true);
+    expect(shown).toEqual([]);
   });
 });
 
@@ -115,15 +157,20 @@ describe('theme stylesheet', () => {
   });
 });
 
-describe('theme switch', () => {
-  it('renders three icon radios with names for assistive technology and System checked on the server', () => {
-    const html = renderToStaticMarkup(createElement(ThemeSwitch));
-    expect(html).toContain('role="radiogroup" aria-label="Colour theme"');
-    expect(html.match(/type="radio"/g)).toHaveLength(3);
-    expect(html.match(/checked=""/g)).toHaveLength(1);
-    expect(html).toMatch(/<input[^>]*checked=""[^>]*value="system"/);
-    for (const name of ['Match system', 'Light', 'Dark']) expect(html).toContain(`<span class="sr-only">${name}</span>`);
-    // No visible text: every text node sits in an sr-only span.
-    expect(html.replace(/<span class="sr-only">[^<]*<\/span>/g, '').replace(/<[^>]+>/g, '')).toBe('');
+describe('theme toggle', () => {
+  it('renders one icon-only toggle button with a name for assistive technology', () => {
+    const html = renderToStaticMarkup(createElement(ThemeToggle));
+    expect(html.match(/<button/g)).toHaveLength(1);
+    expect(html).toContain('class="theme-toggle" aria-label="Dark theme" aria-pressed="false"');
+    expect(html).toContain('class="lucide lucide-moon theme-toggle-moon"');
+    expect(html).toContain('class="lucide lucide-sun theme-toggle-sun"');
+    // No visible text: the button holds only the two icons.
+    expect(html.replace(/<[^>]+>/g, '')).toBe('');
+  });
+
+  it('shows the icon of the other theme from data-theme, before hydration', () => {
+    const css = readFileSync('src/styles/header.css', 'utf8');
+    expect(css).toContain('.theme-toggle-sun, :root[data-theme="dark"] .theme-toggle-moon { display: none; }');
+    expect(css).toContain(':root[data-theme="dark"] .theme-toggle-sun { display: block; }');
   });
 });
