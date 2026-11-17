@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Check, Download } from 'lucide-react';
 import type { AvailabilitySnapshot } from '../../domain/types';
+import { LoadingMark } from '../../components/Loading';
 import { useGameData } from '../planner/GameContext';
 import type { PlannerState } from '../planner/state';
 
@@ -35,8 +36,8 @@ export function ExportTeamButton({ state, progressPage, snapshot }: {
     } finally { setBusy(false); }
   }
   return <div className="team-export">
-    <button className={`secondary-button export-button${saved ? ' export-saved' : ''}`} disabled={disabled} onClick={exportTeam}>
-      <span className="export-icons" aria-hidden="true"><Download size={18} className="export-icon" /><Check size={18} className="export-done-icon" /></span>
+    <button className={`secondary-button export-button${saved ? ' export-saved' : ''}${busy ? ' is-busy' : ''}`} disabled={disabled} aria-busy={busy} onClick={exportTeam}>
+      {busy ? <LoadingMark size="sm" /> : <span className="export-icons" aria-hidden="true"><Download size={18} className="export-icon" /><Check size={18} className="export-done-icon" /></span>}
       <span className="export-label">{busy ? 'Creating PNG...' : 'Export team as PNG'}</span><span className="export-label-short">{busy ? 'Creating...' : 'Export PNG'}</span>
     </button>
     <p className="sr-only" role="status">{saved ? 'Team PNG saved.' : ''}</p>

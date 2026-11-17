@@ -4,9 +4,17 @@ import { describe, expect, it } from 'vitest';
 import { GameSelector } from '../src/components/GameSelector';
 import { gameCatalogue, gameGroups, isGameReady } from '../src/data/game-catalogue';
 
-const renderSelector = (gameId = 'emerald') => renderToStaticMarkup(createElement(GameSelector, { gameId, onChange: () => {} }));
+const renderSelector = (gameId = 'emerald', loadingGameId: string | null = null) => renderToStaticMarkup(createElement(GameSelector, { gameId, loadingGameId, onChange: () => {} }));
 
 describe('Game selection', () => {
+  it('keeps the current game in the trigger and shows the loader while another game loads', () => {
+    const html = renderSelector('emerald', 'crystal');
+    expect(html).toContain('class="game-selector is-loading"');
+    expect(html).toContain('<strong>Pokémon Emerald</strong><span>Loading game…</span>');
+    expect(html).toContain('class="loading-mark loading-mark-sm"');
+    expect(html).not.toContain('lucide-chevron-down');
+  });
+
   it('keeps the selected game in the trigger and groups the library without a visible menu title', () => {
     const html = renderSelector();
     expect(html).toContain('<strong>Pokémon Emerald</strong><span>Change game</span>');
