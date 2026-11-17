@@ -1,6 +1,7 @@
 import { Compass, Users } from 'lucide-react';
 import { GameSelector } from './GameSelector';
 import { RouteSixMark } from './RouteSixMark';
+import { ThemeToggle } from './ThemeToggle';
 
 export type PlannerPage = 'team' | 'progress';
 
@@ -31,6 +32,7 @@ export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
           <span className="planner-nav-copy"><span>{name}</span><span>{description}</span></span>
         </button>)}
       </nav>
+      <ThemeToggle />
     </div>
   </header>;
 }

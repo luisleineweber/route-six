@@ -12,6 +12,7 @@ describe('Header', () => {
     const html = renderHeader('team');
     expect(html.indexOf('class="brand"')).toBeLessThan(html.indexOf('class="game-selector"'));
     expect(html.indexOf('class="game-selector"')).toBeLessThan(html.indexOf('class="planner-nav"'));
+    expect(html.indexOf('class="planner-nav"')).toBeLessThan(html.indexOf('class="theme-toggle"'));
     expect(html).toContain('<strong>Route Six</strong>');
     expect(html).toContain('<strong>Pokémon Emerald</strong><span>Change game</span>');
   });
@@ -25,7 +26,7 @@ describe('Header', () => {
   // WCAG 2.5.3: the accessible name must contain all visible button text.
   it('leitet den Namen der Planerauswahl aus dem sichtbaren Text ab', () => {
     const html = renderHeader('team');
-    const nav = html.slice(html.indexOf('<button', html.indexOf('class="planner-nav"')));
+    const nav = html.slice(html.indexOf('<button', html.indexOf('class="planner-nav"')), html.indexOf('</nav>'));
     expect(nav).not.toMatch(/aria-labelledby|aria-describedby|aria-label=/);
     expect(nav).toContain('<span>Team Planner</span><span>Your six Pokémon and their types</span>');
     expect(nav).toContain('<span>Progress Planner</span><span>Where and when to find your team</span>');
