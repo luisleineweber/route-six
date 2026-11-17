@@ -12,7 +12,7 @@ describe('Header', () => {
     const html = renderHeader('team');
     expect(html.indexOf('class="brand"')).toBeLessThan(html.indexOf('class="game-selector"'));
     expect(html.indexOf('class="game-selector"')).toBeLessThan(html.indexOf('class="planner-nav"'));
-    expect(html.indexOf('class="planner-nav"')).toBeLessThan(html.indexOf('class="theme-switch"'));
+    expect(html.indexOf('class="planner-nav"')).toBeLessThan(html.indexOf('class="theme-toggle"'));
     expect(html).toContain('<strong>Route Six</strong>');
     expect(html).toContain('<strong>Pokémon Emerald</strong><span>Change game</span>');
   });

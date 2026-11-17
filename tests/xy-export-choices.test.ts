@@ -1,30 +1,14 @@
 import { beforeAll, describe, expect, it } from 'vitest';
 import { dataset } from './local-data';
-import { solve } from '../src/domain/availability/solve';
 import { checkTeam } from '../src/domain/team/check-team';
 import { createInitialState } from '../src/features/planner/state';
 import { buildTeamExport } from '../src/features/export/export-model';
 import type { AvailabilitySnapshot } from '../src/domain/types';
-
-const ids = ['x', 'y'] as const;
+import { kiloudeSnapshot, xyGameIds as ids } from './xy-snapshots';
 const snapshots = new Map<string, AvailabilitySnapshot>();
 
 beforeAll(() => {
-  for (const id of ids) {
-    const game = dataset.games.find(row => row.game.id === id)!;
-    const ctx = solve(game, game.milestones.find(row => row.id === 'kiloude')!, false);
-    const snapshot: AvailabilitySnapshot = {
-      query: { gameId: id, milestoneId: 'kiloude', respectLevelLimit: false },
-      levelLimit: null, entries: {}, paths: {}, choiceGroups: game.choices,
-      resourceLimits: ctx.resourceLimits,
-    };
-    for (const [selection, paths] of ctx.paths) {
-      for (const path of paths) snapshot.paths[path.id] = path;
-      snapshot.entries[selection] = { pokemonId: paths[0].pokemonId, status: 'available',
-        currentPathIds: paths.map(path => path.id), futurePathIds: [], firstMilestoneIds: [], blockers: [] };
-    }
-    snapshots.set(id, snapshot);
-  }
+  for (const id of ids) snapshots.set(id, kiloudeSnapshot(id));
 }, 60_000);
 
 describe.each(ids)('%s progress export choices', id => {

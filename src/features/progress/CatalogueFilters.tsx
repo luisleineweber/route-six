@@ -29,6 +29,20 @@ export function CatalogueFilters({ resetKey, statusFilters, children }: { resetK
     };
   }, []);
 
+  // Catalogue content keeps focused items clear of the pinned controls.
+  useEffect(() => {
+    const root = document.documentElement;
+    const element = anchor.current!;
+    const observer = new ResizeObserver(() => {
+      root.style.setProperty('--catalogue-filter-height', `${element.getBoundingClientRect().height}px`);
+    });
+    observer.observe(element);
+    return () => {
+      observer.disconnect();
+      root.style.removeProperty('--catalogue-filter-height');
+    };
+  }, []);
+
   useLayoutEffect(() => {
     const changed = previousKey.current !== resetKey;
     previousKey.current = resetKey;

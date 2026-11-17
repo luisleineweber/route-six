@@ -34,31 +34,27 @@
 .game-option .game-logo { max-width: 100%; width: 8.5rem; height: 4.5rem; }
 .game-option:hover:not(:disabled) { background: var(--tile); }
 .game-option-note { color: var(--muted); font-size: 0.8125rem; }
-.theme-switch { grid-area: theme; justify-self: end; display: flex; gap: 0.25rem; padding: 0.25rem; border-radius: calc(var(--radius-control) + 0.25rem); background: oklch(0 0 0 / 0.16); }
-.theme-switch > label { position: relative; display: grid; place-items: center; width: 2.75rem; height: 3rem; border-radius: var(--radius-control); color: oklch(1 0 0 / 0.92); cursor: pointer; }
-.theme-switch > label:hover { background: oklch(1 0 0 / 0.12); color: var(--on-accent); }
-.theme-switch > label:has(:checked) { background: var(--nav-selected-bg); color: var(--nav-selected-ink); box-shadow: var(--nav-selected-ring); }
-.theme-switch > label:has(:focus-visible) { outline: 3px solid var(--on-accent); outline-offset: 2px; }
+.theme-toggle { grid-area: theme; justify-self: end; display: grid; place-items: center; width: 4rem; height: 4rem; padding: 0; border: 0; border-radius: var(--radius-tile); background: oklch(0 0 0 / 0.16); color: oklch(1 0 0 / 0.92); }
+.theme-toggle:hover { background: oklch(1 0 0 / 0.12); color: var(--on-accent); }
+.theme-toggle:focus-visible { outline-color: var(--on-accent); }
+.theme-toggle-sun, :root[data-theme="dark"] .theme-toggle-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle-sun { display: block; }
 @media (prefers-reduced-motion: no-preference) {
   .app-header { transition: background-color 180ms ease-out; }
   .planner-nav button, .game-selector > summary { transition: background-color 150ms ease-out, color 150ms ease-out; }
   .game-option { transition: background-color 150ms ease-out; }
-  .theme-switch > label { transition: background-color 150ms ease-out, color 150ms ease-out, box-shadow 150ms ease-out; }
-  .theme-switch > label:active { scale: 0.94; }
+  .theme-toggle { transition: background-color 150ms ease-out, color 150ms ease-out; }
+  .theme-toggle:active { scale: 0.94; }
   .game-option:active:not(:disabled) { scale: 0.96; }
 }
 @media (max-width: 44rem) {
-  .header-inner { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'brand theme' 'game game' 'nav nav'; gap: 0.5rem; padding-block: 0.625rem 0.75rem; }
+  .header-inner { grid-template-areas: 'brand theme' 'game game' 'nav nav'; gap: 0.5rem 1rem; padding-block: 0.625rem 0.75rem; }
   .brand .route-six-mark { width: 2.25rem; height: 2.25rem; }
   .brand-copy { gap: 0; }
   .brand-copy > strong { font-size: 1.375rem; }
   .brand-copy > span { font-size: 0.8125rem; }
-  @media (max-width: 26rem) { .brand-copy > span { display: none; } }
   .planner-nav { width: 100%; }
-  /* The theme control shares the name row, so the phone header keeps three rows. */
-  .theme-switch { gap: 0.125rem; padding: 0.1875rem; }
-  .theme-switch > label { width: 2.5rem; height: 2.5rem; }
-  .theme-switch svg { width: 18px; height: 18px; }
+  .theme-toggle { width: 3rem; height: 3rem; border-radius: var(--radius-control); }
   .planner-nav button { flex-basis: 8rem; justify-content: center; min-height: 2.75rem; padding: 0.625rem 0.5rem; font-size: 0.875rem; }
   .planner-nav button > svg, .planner-nav-copy > span + span { display: none; }
   .game-selector { justify-self: stretch; max-width: none; }
@@ -73,6 +69,5 @@
 }
 @media (forced-colors: active) {
   .planner-nav button.selected { border: 2px solid Highlight; }
-  .game-selector > summary { border: 1px solid ButtonText; }
-  .theme-switch > label:has(:checked) { border: 2px solid Highlight; }
+  .game-selector > summary, .theme-toggle { border: 1px solid ButtonText; }
 }
