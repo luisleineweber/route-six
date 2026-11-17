@@ -67,6 +67,8 @@
 .progress-details > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; min-height: 2.75rem; cursor: pointer; list-style: none; }
 .progress-details > summary::-webkit-details-marker { display: none; }
 .progress-details .status-label { color: var(--muted); }
+/* Label left, status and chevron right, like the path rows above. */
+.progress-details > summary .status-label { margin-inline-start: auto; }
 .progress-details > div, .progress-details > p { margin-top: 0.75rem; }
 .progress-details ul { margin-top: 0.5rem; }
 .path-body p + p { margin-top: 0.625rem; }

@@ -23,7 +23,7 @@
 @media (max-width: 41.999rem) {
   /* Phones remove members in the main team cards; the small bar keeps sprite and types clear. */
   .team-bar-remove { display: none; }
-  .team-bar-number { inset-block-start: 0.25rem; inset-inline-start: 0.375rem; min-width: 0; height: auto; padding: 0; background: none; box-shadow: none; color: var(--muted); }
+  .team-bar-number { inset-block-start: 0.25rem; inset-inline-start: 0.25rem; min-width: 1.125rem; height: 1.125rem; }
   .team-bar { padding-block: 0.5rem; }
   .team-bar-slots { gap: 0.5rem; }
   .team-bar-card { aspect-ratio: 2 / 1; grid-template-rows: minmax(2rem, 1fr) auto; }
