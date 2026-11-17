@@ -17,7 +17,10 @@ header text in white. Mark the active planner with a white background and dark
 text. Keep hover and focus states clear on the dark header. Pair each status
 colour with a name and an icon. Type colours come only from the type logos.
 
-Follow the system colour scheme. Each game sets only a hue and a chroma. The
+Follow the system colour scheme by default. Players can choose System, Light,
+or Dark in the header; the browser keeps that choice. The dark tokens live in
+one `:root[data-theme="dark"]` block, and an inline script in `index.html`
+sets `data-theme` before the first paint. Each game sets only a hue and a chroma. The
 stylesheet sets the lightness for each theme. In the dark theme, keep the
 surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
 Keep the header and primary actions in the dark game colour with white text.
@@ -47,6 +50,11 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
   description of each view. On phones, put the game below the name and show
   only the planner names, without icons or descriptions. Group the game menu
   by generation. Mark games without reviewed local data as planned.
+- The theme switch sits at the end of the planner row: three icon-only radios
+  (monitor, sun, moon) in the same darker surface as the planner controls,
+  with the selected one styled like the active planner. Names stay available
+  as tooltips and to assistive technology. On phones it takes its own full
+  row below the planner controls.
 - Each of Emerald's 17 types has a round logo (`public/types/`, MIT licence).
   Slots and catalogue cards show the logo alone. The name stays available as a
   tooltip and to assistive technology. The details dialog and the type
