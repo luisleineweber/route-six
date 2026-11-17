@@ -107,7 +107,7 @@
   color-scheme: dark;
 
   --bg: oklch(0.17 0 0);
-  --surface: oklch(0.21 0 0);
+  --surface: oklch(0.22 0 0);
   --tile: oklch(0.25 0 0);
   --tile-hover: oklch(0.29 0 0);
 
@@ -171,7 +171,7 @@
   --skeleton: var(--tile-hover);
   --skeleton-shine: oklch(0.34 0 0);
 
-  --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
+  --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.11), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
   --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06), 0 4px 14px oklch(0 0 0 / 0.35);
   --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16), 0 2px 4px oklch(0 0 0 / 0.4), 0 8px 20px oklch(0 0 0 / 0.45);
   --shadow-bar: 0 1px 0 oklch(1 0 0 / 0.06), 0 8px 18px -8px oklch(0 0 0 / 0.6);
