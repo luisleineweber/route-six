@@ -23,10 +23,12 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
   if (path.evolutionIds.length) {
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
-    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
-    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
-    if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
-    return details;
+    // One plain phrase, so a wrapped line reads as a sentence instead of a list.
+    // No-break spaces keep "at Lv. 16" together when the line wraps.
+    let phrase = `Evolve ${pokemonById.get(first.fromPokemonId)!.name}`;
+    if (last.minimumLevel !== null) phrase += ` at\u00a0Lv.\u00a0${last.minimumLevel}`;
+    if (last.itemId) phrase += ` with ${game.items.find(item => item.id === last.itemId)!.name}`;
+    return [phrase];
   }
   const source = pathSource(game, path);
   const details = [game.locations.find(location => location.id === source.locationId)!.name];

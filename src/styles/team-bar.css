@@ -34,6 +34,8 @@
 @media (min-width: 42rem) {
   .team-bar-slots { grid-template-columns: repeat(6, minmax(0, 1fr)); max-width: 57.75rem; }
   .team-bar-card { padding: 0.5rem; }
+  /* Keep the sprite clear of the slot number pill. */
+  .team-bar-identity { padding-block-start: 0.25rem; padding-inline-start: 0.5rem; }
   .team-bar-question { font-size: 2.5rem; }
 }
 @media (min-width: 52rem) {

@@ -189,10 +189,10 @@
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }
 :root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
-  --well-a: oklch(from var(--tint-a) 0.29 0.006 h);
-  --well-b: oklch(from var(--tint-b) 0.29 0.006 h);
-  /* The glow behind the sprite carries the type colour; the base stays near grey. */
-  --well-glow: oklch(from var(--tint-a) 0.62 0.11 h / 0.28);
+  --well-a: oklch(from var(--tint-a) 0.29 0.01 h);
+  --well-b: oklch(from var(--tint-b) 0.29 0.01 h);
+  /* A light glow behind the sprite carries the type colour like light, not paint; the base stays near grey. */
+  --well-glow: oklch(from var(--tint-a) 0.8 0.09 h / 0.16);
 }
 
 * { box-sizing: border-box; }

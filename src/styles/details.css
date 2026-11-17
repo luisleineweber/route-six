@@ -29,6 +29,7 @@
 /* A heading row with a control is 2.5rem tall; a smaller top gap keeps the visible rhythm. */
 .dialog-content > * + .section-heading { margin-top: 1.25rem; }
 .dialog-content > .path-details + .progress-details { margin-top: 1rem; }
+.dialog-content > .progress-details + * { margin-top: 1rem; }
 /* Headings with a control are 2.5rem tall, so less margin gives the same visible gap as h3 + content. */
 .dialog-content > .section-heading + * { margin-top: 0.25rem; }
 .dialog-content > .path-details + .path-details { margin-top: 0.5rem; }
