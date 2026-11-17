@@ -1,7 +1,7 @@
 .acquisition-dialog { width: min(42rem, calc(100% - 1rem)); max-width: calc(100% - 1rem); max-height: min(90dvh, 56rem); padding: 0; border: 0; border-radius: 1.25rem; overflow: hidden; background: var(--surface); color: var(--ink); box-shadow: 0 24px 80px var(--dialog-shadow), var(--shadow-ring); }
 .acquisition-dialog[open] { display: flex; flex-direction: column; }
 .acquisition-dialog::backdrop { background: var(--backdrop); }
-.dialog-head { display: flex; flex-shrink: 0; align-items: center; gap: 1.25rem; padding: 1.5rem; background: var(--tile); background-image: linear-gradient(135deg, var(--well-a), var(--well-b)); }
+.dialog-head { display: flex; flex-shrink: 0; align-items: center; gap: 1.25rem; padding: 1.5rem; background: var(--tile); background-image: radial-gradient(40% 90% at 90% 100%, var(--well-glow-b), transparent), linear-gradient(135deg, var(--well-a), var(--well-b)); }
 .dialog-head .pokemon-sprite { flex-shrink: 0; }
 .dialog-head > .icon-button { align-self: flex-start; background: var(--glass-strong); color: var(--ink); box-shadow: var(--shadow-ring); }
 .dialog-head > .icon-button:hover:not(:disabled) { background: var(--surface); }
@@ -29,7 +29,9 @@
 /* A heading row with a control is 2.5rem tall; a smaller top gap keeps the visible rhythm. */
 .dialog-content > * + .section-heading { margin-top: 1.25rem; }
 .dialog-content > .path-details + .progress-details { margin-top: 1rem; }
-.dialog-content > .progress-details + * { margin-top: 1rem; }
+.dialog-content > .progress-details + * { margin-top: 0.25rem; }
+/* Sources uses the same quiet row style as the availability row above it. */
+.dialog-content > .data-references > summary { padding-inline: 1rem; color: var(--muted); font-weight: 400; }
 /* Headings with a control are 2.5rem tall, so less margin gives the same visible gap as h3 + content. */
 .dialog-content > .section-heading + * { margin-top: 0.25rem; }
 .dialog-content > .path-details + .path-details { margin-top: 0.5rem; }

@@ -24,8 +24,8 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
     // One plain phrase, so a wrapped line reads as a sentence instead of a list.
-    // No-break spaces keep "at Lv. 16" together when the line wraps.
-    let phrase = `Evolve ${pokemonById.get(first.fromPokemonId)!.name}`;
+    // No-break spaces keep "Evolve Treecko" and "at Lv. 16" together when the line wraps.
+    let phrase = `Evolve\u00a0${pokemonById.get(first.fromPokemonId)!.name}`;
     if (last.minimumLevel !== null) phrase += ` at\u00a0Lv.\u00a0${last.minimumLevel}`;
     if (last.itemId) phrase += ` with ${game.items.find(item => item.id === last.itemId)!.name}`;
     return [phrase];

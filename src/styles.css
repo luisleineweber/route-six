@@ -64,7 +64,7 @@
   --danger-ink: oklch(0.42 0.14 28);
 
   /* Defense chart marks. Stronger effects use stronger fills in both themes. */
-  --defense-mark: oklch(0.955 0.004 95);
+  --defense-mark: oklch(0.94 0.004 95);
   --defense-mark-ink: oklch(0.25 0.02 260);
   --defense-empty-line: oklch(0.3 0.01 260 / 0.16);
   --defense-weak: oklch(0.8 0.11 28);
@@ -185,14 +185,16 @@
    darkened yellows and pinks turn olive and maroon. */
 :is(.sprite-well, .dialog-head) {
   --well-glow: var(--tint-glow);
+  --well-glow-b: transparent;
   --well-a: color-mix(in oklch, var(--tint-a) 34%, white);
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }
 :root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
-  --well-a: oklch(from var(--tint-a) 0.29 0.01 h);
-  --well-b: oklch(from var(--tint-b) 0.29 0.01 h);
-  /* A light glow behind the sprite carries the type colour like light, not paint; the base stays near grey. */
-  --well-glow: oklch(from var(--tint-a) 0.8 0.09 h / 0.16);
+  /* A neutral base with light glows: the first type behind the sprite, the second at the lower corner. */
+  --well-a: oklch(0.27 0 0);
+  --well-b: oklch(0.27 0 0);
+  --well-glow: oklch(from var(--tint-a) 0.78 0.12 h / 0.24);
+  --well-glow-b: oklch(from var(--tint-b) 0.78 0.12 h / 0.2);
 }
 
 * { box-sizing: border-box; }

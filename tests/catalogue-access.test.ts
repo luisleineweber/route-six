@@ -91,7 +91,7 @@ describe('catalogue access summaries', () => {
     expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Pikachu with Thunder Stone`);
     expect(html).not.toContain('Safari Zone');
     expect(html).not.toContain('Lv. 25');
-    if (status === 'later') expect(html).toContain('Available from Evolve Pikachu — after “Receive the Devon Scope”');
+    if (status === 'later') expect(html).toContain('Available from Evolve Pikachu after “Receive the Devon Scope”');
   });
 
   it.each(['later', 'available'] as const)('shows the first Pokémon and the final evolution level when %s', status => {
@@ -105,7 +105,7 @@ describe('catalogue access summaries', () => {
     expect(html).not.toContain('Lv. 20');
     expect(html).not.toContain('Lv. 41');
     expect(text(html)).not.toContain(': Route 102 ·');
-    if (status === 'later') expect(html).toContain('Available from Evolve Kirlia — at “Route 102”');
+    if (status === 'later') expect(html).toContain('Available from Evolve Kirlia at Route 102');
   });
 
   it('does not invent a fixed level for a friendship evolution', () => {
@@ -133,14 +133,14 @@ describe('catalogue access summaries', () => {
     };
     const html = card([bred]);
     expect(text(html)).toContain('Later: Route 117 and Day Care · Breeding');
-    expect(html).toContain('Available from Day Care breeding — after “Receive the Devon Scope”');
+    expect(html).toContain('Available from Day Care breeding after “Receive the Devon Scope”');
     expect(html).not.toContain('Route 104');
   });
 
   it('keeps a direct location beside its future access requirement', () => {
     const html = card([path('bagon', 'wild-meteor-falls-bagon-room-grass-bagon', 'juan-defeated')]);
     expect(text(html)).toContain('Later: Meteor Falls');
-    expect(html).toContain('Available from Meteor Falls — after “Defeat Juan and receive Waterfall”');
+    expect(html).toContain('Available from Meteor Falls after “Defeat Juan and receive Waterfall”');
   });
 
   it('uses the source path that matches the displayed first-access point', () => {
@@ -150,7 +150,7 @@ describe('catalogue access summaries', () => {
     const first = { ...path('pikachu', source.id, 'devon-scope'), id: 'first-path' };
     const html = card([late, first], 'later', game);
     expect(text(html)).toContain('Later: Safari Zone');
-    expect(html).toContain('Available from Safari Zone — after “Receive the Devon Scope”');
+    expect(html).toContain('Available from Safari Zone after “Receive the Devon Scope”');
     expect(text(html)).not.toContain('Later: Route 101');
   });
 });

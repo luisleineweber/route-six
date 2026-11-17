@@ -33,7 +33,7 @@ describe('Complete Emerald integration',()=>{
         }
       }
       expect(firstAccessOptions(emerald, snapshot, snapshot.entries.makuhita)[0].label)
-        .toBe('Granite Cave — after “Sail with Mr. Briney”');
+        .toBe('Granite Cave after “Sail with Mr. Briney”');
     }
   });
   it('covers the National Dex, all 34 routes and every League opponent',()=>{
