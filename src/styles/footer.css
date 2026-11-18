@@ -20,7 +20,7 @@
 .footer-project-link > svg:last-of-type { margin-inline-start: 0.5rem; }
 .footer-project-link:hover { background: var(--accent-hover); }
 .footer-credits { margin-top: 0.5rem; font-size: 0.8125rem; }
-.footer-credits > summary { display: flex; align-items: center; gap: 0.5rem; width: fit-content; max-width: 100%; min-height: 2.75rem; border-radius: var(--radius-control); color: var(--accent-ink); cursor: pointer; list-style: none; }
+.footer-credits > summary { display: flex; align-items: center; gap: 0.5rem; width: fit-content; max-width: 100%; min-height: 2.75rem; border-radius: var(--radius-control); color: var(--accent-ink); cursor: pointer; list-style: none; user-select: none; }
 .footer-credits > summary::-webkit-details-marker { display: none; }
 .footer-credits > summary:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 .footer-credits > summary > svg { flex-shrink: 0; }

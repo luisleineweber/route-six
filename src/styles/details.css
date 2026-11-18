@@ -60,7 +60,7 @@
 .path-option > summary::-webkit-details-marker { display: none; }
 .path-option > summary:hover { background: var(--bg); }
 .progress-details { color: var(--muted); font-size: 0.8125rem; }
-.progress-details > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; min-height: 2.75rem; cursor: pointer; list-style: none; }
+.progress-details > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; min-height: 2.75rem; cursor: pointer; list-style: none; user-select: none; }
 .progress-details > summary::-webkit-details-marker { display: none; }
 .progress-details .status-label { color: var(--muted); }
 .progress-details > div, .progress-details > p { margin-top: 0.75rem; }
