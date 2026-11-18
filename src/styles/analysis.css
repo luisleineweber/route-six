@@ -1,5 +1,5 @@
 .analysis { min-width: 0; padding: 1.25rem 1.5rem 1.5rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-panel); }
-.analysis > summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; cursor: pointer; list-style: none; }
+.analysis > summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; cursor: pointer; list-style: none; user-select: none; }
 .analysis > summary::-webkit-details-marker { display: none; }
 .analysis > summary svg { transition: transform 150ms ease-out; }
 .analysis[open] > summary svg { transform: rotate(180deg); }
