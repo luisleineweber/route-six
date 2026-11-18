@@ -25,9 +25,7 @@
 /* Game change */
 /* The next game's accent, in the same role as --accent-line: the base fill on light surfaces, a light tone on dark ones. */
 .game-loading-notice { --next-accent: oklch(0.43 var(--next-chroma) var(--next-hue)); }
-@media (prefers-color-scheme: dark) {
-  .game-loading-notice { --next-accent: oklch(0.8 calc(var(--next-chroma) * 0.7) var(--next-hue)); }
-}
+:root[data-theme="dark"] .game-loading-notice { --next-accent: oklch(0.8 calc(var(--next-chroma) * 0.7) var(--next-hue)); }
 .game-loading-notice { --bar-color: var(--next-accent); position: fixed; inset-block-end: max(1rem, env(safe-area-inset-bottom)); inset-inline-start: 50%; translate: -50% 0; z-index: 25; display: flex; align-items: center; gap: 1rem; width: max-content; max-width: calc(100% - 2rem); overflow: hidden; padding: 0.75rem 1.25rem 0.875rem 0.875rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-ring), var(--shadow-notice); }
 .game-loading-notice .game-logo { flex-shrink: 0; width: 4.5rem; height: 2.25rem; object-fit: contain; }
 .game-loading-notice p { display: grid; min-width: 0; line-height: 1.4; overflow-wrap: anywhere; }

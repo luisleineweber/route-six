@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
@@ -154,6 +154,11 @@ describe('theme stylesheet', () => {
     expect(css).not.toContain('prefers-color-scheme');
     expect(css.match(/:root\[data-theme="dark"\] \{/g)).toHaveLength(1);
     expect(css).toMatch(/:root\[data-theme="dark"\] \{\s+color-scheme: dark;/);
+  });
+
+  // Component sheets must follow the chosen theme too, not the system setting.
+  it.each(readdirSync('src/styles').filter(file => file.endsWith('.css')))('follows data-theme instead of the system scheme in %s', file => {
+    expect(readFileSync(`src/styles/${file}`, 'utf8')).not.toContain('prefers-color-scheme');
   });
 });
 
