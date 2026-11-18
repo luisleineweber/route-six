@@ -1,6 +1,7 @@
 import { Compass, Users } from 'lucide-react';
 import { GameSelector } from './GameSelector';
 import { RouteSixMark } from './RouteSixMark';
+import { ThemeToggle } from './ThemeToggle';
 
 export type PlannerPage = 'team' | 'progress';
 
@@ -9,8 +10,9 @@ const pages = [
   { id: 'progress', name: 'Progress Planner', description: 'Where and when to find your team', Icon: Compass },
 ] as const;
 
-export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
+export function AppHeader({ gameId, loadingGameId, onGameChange, page, onPageChange }: {
   gameId: string;
+  loadingGameId: string | null;
   onGameChange: (id: string) => void;
   page: PlannerPage;
   onPageChange: (page: PlannerPage) => void;
@@ -21,7 +23,7 @@ export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
         <RouteSixMark />
         <span className="brand-copy"><strong>Route Six</strong><span>Pokémon playthrough planner</span></span>
       </p>
-      <GameSelector gameId={gameId} onChange={onGameChange} />
+      <GameSelector gameId={gameId} loadingGameId={loadingGameId} onChange={onGameChange} />
       <nav className="planner-nav" aria-label="Planner pages">
         {pages.map(({ id, name, description, Icon }) => <button type="button" key={id}
           className={page === id ? 'selected' : ''}
@@ -31,6 +33,7 @@ export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
           <span className="planner-nav-copy"><span>{name}</span><span>{description}</span></span>
         </button>)}
       </nav>
+      <ThemeToggle />
     </div>
   </header>;
 }
