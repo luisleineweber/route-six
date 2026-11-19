@@ -131,6 +131,8 @@ touch screens. Hide Add when the team is full. Team cards open details when sele
 and focus. Place the types at the bottom right. Show Add above the top right
 corner on hover and keyboard focus. Keep Add visible on touch screens.
 Progress cards combine access status and source in one statement on wide screens.
+Write the source as short facts joined by a middle dot (Evolve Treecko · Lv. 16), so it fits one
+line on a card. Keep each fact whole when the line wraps.
 When a Progress card is too narrow for the name and types on one row, center the
 name above the types.
 On small screens, use three columns by default and large sprites. Put the name

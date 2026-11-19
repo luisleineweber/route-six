@@ -2,6 +2,8 @@
 .acquisition-dialog[open] { display: flex; flex-direction: column; }
 .acquisition-dialog::backdrop { background: var(--backdrop); }
 .dialog-head { display: flex; flex-shrink: 0; align-items: center; gap: 1.25rem; padding: 1.5rem; background: var(--tile); background-image: radial-gradient(40% 90% at 90% 100%, var(--well-glow-b), transparent), linear-gradient(135deg, var(--well-a), var(--well-b)); }
+/* Dark: the neutral base hides type a, so it gets its own glow behind the sprite, like type b on the right. */
+:root[data-theme="dark"] .dialog-head { background-image: radial-gradient(55% 150% at 6% 30%, oklch(from var(--tint-a) 0.86 0.11 h / 0.34), transparent), radial-gradient(40% 90% at 90% 100%, var(--well-glow-b), transparent), linear-gradient(135deg, var(--well-a), var(--well-b)); }
 .dialog-head .pokemon-sprite { flex-shrink: 0; }
 .dialog-head > .icon-button { align-self: flex-start; background: var(--glass-strong); color: var(--ink); box-shadow: var(--shadow-ring); }
 .dialog-head > .icon-button:hover:not(:disabled) { background: var(--surface); }

@@ -180,6 +180,6 @@
     .progress-catalogue .card-sprite { align-self: center; }
     .progress-catalogue .card-name { min-height: 1.5rem; padding-inline-end: 3.75rem; text-align: start; line-height: 1.5rem; }
     .progress-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0.25rem; }
-    .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; font-size: 0.875rem; line-height: 1.45; text-align: start; }
+    .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; text-align: start; }
   }
 }

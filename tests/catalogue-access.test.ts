@@ -88,7 +88,7 @@ describe('catalogue access summaries', () => {
       evolutionIds: ['pikachu-to-raichu'],
     };
     const html = card([evolved], status);
-    expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Pikachu with Thunder Stone`);
+    expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Pikachu · Thunder Stone`);
     expect(html).not.toContain('Safari Zone');
     expect(html).not.toContain('Lv. 25');
     if (status === 'later') expect(html).toContain('Available from Evolve Pikachu after “Receive the Devon Scope”');
@@ -101,7 +101,7 @@ describe('catalogue access summaries', () => {
       evolutionIds: ['ralts-to-kirlia', 'kirlia-to-gardevoir'],
     };
     const html = card([evolved], status);
-    expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Ralts at Lv. 30`);
+    expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Ralts · Lv. 30`);
     expect(html).not.toContain('Lv. 20');
     expect(html).not.toContain('Lv. 41');
     expect(text(html)).not.toContain(': Route 102 ·');

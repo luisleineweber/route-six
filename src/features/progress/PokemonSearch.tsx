@@ -23,12 +23,11 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
   if (path.evolutionIds.length) {
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
-    // One plain phrase, so a wrapped line reads as a sentence instead of a list.
-    // No-break spaces keep "Evolve Treecko" and "at Lv. 16" together when the line wraps.
-    let phrase = `Evolve\u00a0${pokemonById.get(first.fromPokemonId)!.name}`;
-    if (last.minimumLevel !== null) phrase += ` at\u00a0Lv.\u00a0${last.minimumLevel}`;
-    if (last.itemId) phrase += ` with ${game.items.find(item => item.id === last.itemId)!.name}`;
-    return [phrase];
+    // Short facts fit one line on a card; no-break spaces keep "Evolve Treecko" and "Lv. 16" whole when it wraps.
+    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
+    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
+    if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
+    return details;
   }
   const source = pathSource(game, path);
   // A no-break space before a number keeps names such as "Route 120" together.
