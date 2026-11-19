@@ -207,6 +207,8 @@ body {
 button, input, select { font: inherit; }
 button, a, input, select { -webkit-tap-highlight-color: transparent; }
 button { cursor: pointer; }
+/* Buttons are controls, not text to copy: a double click or long press must not select their labels. */
+button { user-select: none; }
 button:disabled { cursor: not-allowed; opacity: 0.45; }
 button, a { touch-action: manipulation; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
