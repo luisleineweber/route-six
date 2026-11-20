@@ -33,9 +33,12 @@ selection, with dark text on it. Mark the active planner with a near-white
 background and dark game-colour text, as in the light theme. Make hover on primary actions
 lighter, not darker. Use light status colours on dark tint surfaces. In the
 defense chart, give the strongest effect the brightest mark. Dark sprite areas
-use a neutral base with light glows, the first type behind the sprite and the
-second at the lower corner, so yellows and pinks do not turn olive or maroon. Show the 2× and 4× weakness multipliers in the details
+mix both type colours with the dark surface, as in the light theme. Do not use drop
+shadows on page surfaces in dark mode; use a thin light ring. Only floating layers
+such as menus and dialogs cast a shadow. Show the 2× and 4× weakness multipliers in the details
 dialog with the defense chart colours. PNG exports stay light.
+In the type filter, unselected types turn grey while a type is selected; the selected
+types keep their colour and a thin ring.
 
 ## Type
 

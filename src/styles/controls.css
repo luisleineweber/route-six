@@ -74,10 +74,12 @@ details[open] > summary > .chevron { rotate: 180deg; }
 .type-filter-controls { display: grid; gap: 0.5rem; }
 .type-filter-summary { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; min-height: 2.5rem; }
 .type-filter-summary p { color: var(--muted); font-size: 0.875rem; }
-.type-toggle { padding: 0.125rem; border: 0; border-radius: 50%; background: transparent; line-height: 0; transition: opacity 150ms ease-out, box-shadow 150ms ease-out; }
-.type-toggle.dimmed { opacity: 0.4; }
-.type-toggle:hover { opacity: 1; }
-.type-toggle[aria-pressed='true'] { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--ink); }
+.type-toggle { padding: 0.125rem; border: 0; border-radius: 50%; background: transparent; line-height: 0; transition: opacity 150ms ease-out, filter 150ms ease-out, box-shadow 150ms ease-out; }
+/* Unselected types turn grey instead of only fading, so they do not turn muddy on the dark page. */
+.type-toggle.dimmed { opacity: 0.5; filter: grayscale(1); }
+.type-toggle:hover { opacity: 1; filter: none; }
+/* A thin, soft ring: the dimmed neighbours already show the choice, so the ring only confirms it. */
+.type-toggle[aria-pressed='true'] { box-shadow: 0 0 0 1.5px var(--bg), 0 0 0 3px oklch(from var(--ink) l c h / 0.6); }
 @media (pointer: coarse) { .type-toggle { padding: 0.25rem; } }
 
 /* Status */

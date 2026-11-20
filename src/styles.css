@@ -167,9 +167,10 @@
   --skeleton: var(--tile-hover);
   --skeleton-shine: oklch(0.34 0 0);
 
-  --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.11), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
-  --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06), 0 4px 14px oklch(0 0 0 / 0.35);
-  --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16), 0 2px 4px oklch(0 0 0 / 0.4), 0 8px 20px oklch(0 0 0 / 0.45);
+  /* Flat surfaces: a near-black page cannot show a drop shadow, so in-page surfaces use a thin light ring only. */
+  --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08);
+  --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06);
+  --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16);
   --shadow-bar: 0 8px 18px -8px oklch(0 0 0 / 0.6);
   --shadow-sticky: 0 10px 20px -12px oklch(0 0 0 / 0.7);
   --shadow-footer: 0 -12px 22px -14px oklch(0 0 0 / 0.7);
@@ -180,9 +181,8 @@
   --backdrop: oklch(0 0 0 / 0.6);
 }
 
-/* Sprite areas take each type colour from the element's --tint-a and --tint-b.
-   Light: a pastel mix with white. Dark: only the hue, at one low lightness, because
-   darkened yellows and pinks turn olive and maroon. */
+/* Sprite areas take each type colour from the element's --tint-a and --tint-b:
+   a mix with white in light mode and with the dark surface in dark mode. */
 :is(.sprite-well, .dialog-head) {
   --well-glow: var(--tint-glow);
   --well-glow-b: transparent;
@@ -190,11 +190,8 @@
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }
 :root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
-  /* A neutral base with light glows: the first type behind the sprite, the second at the lower corner. */
-  --well-a: oklch(0.27 0 0);
-  --well-b: oklch(0.27 0 0);
-  --well-glow: oklch(from var(--tint-a) 0.86 0.11 h / 0.28);
-  --well-glow-b: oklch(from var(--tint-b) 0.86 0.11 h / 0.24);
+  --well-a: color-mix(in oklch, var(--tint-a) 34%, oklch(0.22 0 none));
+  --well-b: color-mix(in oklch, var(--tint-b) 34%, oklch(0.22 0 none));
 }
 
 * { box-sizing: border-box; }
