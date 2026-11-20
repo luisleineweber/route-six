@@ -147,6 +147,8 @@ describe('team access warnings', () => {
     const current = render(result.value, ['ralts']);
     expect(current).toContain('1 Pokémon available later');
     expect(current).toContain('Choose a later progress point or plan for the whole game.');
+    // The heading already says "available later", so the group repeats no title.
+    expect(current).not.toContain('<h4>');
     const html = render(result.value, ['ralts'], 'whole-game');
     expect(html).toContain('Team available over the whole game.');
     expect(html).toContain('Ralts is available later.');

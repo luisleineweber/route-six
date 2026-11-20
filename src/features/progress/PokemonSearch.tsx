@@ -14,22 +14,32 @@ import { isExclusionBlocker } from '../../domain/availability/exclusions';
 import { regionalDexName, sortPokemonByPokedex } from '../planner/pokedex-order';
 import { firstAccessOptions, pathSource } from '../../components/acquisition-presentation';
 
-function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null) {
-  if (entry.status === 'unavailable') return entry.blockers.find(isExclusionBlocker)?.message;
-  if (entry.status === 'blocked') return entry.blockers[0]?.message;
-  if (!path) return 'View ways to get it';
+/** Short source facts for a card. Multi-part summaries return each fact separately so a line never breaks inside one. */
+function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null): string[] {
+  const message = (text: string | undefined) => text === undefined ? [] : [text];
+  if (entry.status === 'unavailable') return message(entry.blockers.find(isExclusionBlocker)?.message);
+  if (entry.status === 'blocked') return message(entry.blockers[0]?.message);
+  if (!path) return ['View ways to get it'];
   if (path.evolutionIds.length) {
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
-    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
-    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
+    // Short facts fit one line on a card; no-break spaces keep "Evolve Treecko" and "Lv. 16" whole when it wraps.
+    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
+    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
     if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
-    return details.join(' · ');
+    return details;
   }
   const source = pathSource(game, path);
-  const details = [game.locations.find(location => location.id === source.locationId)!.name];
+  // A no-break space before a number keeps names such as "Route 120" together.
+  const details = [game.locations.find(location => location.id === source.locationId)!.name.replace(/ (\d)/g, '\u00a0$1')];
   if (path.breedingSteps.length) details.push('Breeding');
-  return details.join(' · ');
+  return details;
+}
+
+/** Each later fact starts with its separator, so a wrapped line never ends with a hanging dot. */
+function SourceParts({ parts }: { parts: string[] }) {
+  if (parts.length < 2) return <>{parts[0]}</>;
+  return <>{parts.map((part, index) => <Fragment key={index}>{index > 0 && ' '}<span className="source-part">{index > 0 && '· '}{part}</span></Fragment>)}</>;
 }
 
 export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onDetails, onCancel }: {
@@ -124,7 +134,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
           </>}
           <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails}>
           {progressPage && entry && <>
-            <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
+            <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: <SourceParts parts={summarize(game, entry, path)} /></span></p>
             {showCompactStatus && <p className={`access-compact status-label status-${entry.status}`} title={`${statusNames[entry.status]}: ${compactLabel}`}>{StatusIcon && <StatusIcon size={12} aria-hidden="true" />}<span>{compactLabel}</span></p>}
             {entry.status === 'later' && earliest.length > 0 && <p className="source-summary access-full">Available from {earliest[0].label}</p>}
           </>}

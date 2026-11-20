@@ -25,13 +25,20 @@ sets `data-theme` before the first paint. Each game sets only a hue and a chroma
 stylesheet sets the lightness for each theme. In the dark theme, keep the
 surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
 Keep the header and primary actions in the dark game colour with white text.
+The header sits one step darker (lightness 0.37) than primary actions (0.45),
+because it is the largest accent area.
 Use a light tone of the game colour (lightness 0.8) for links, focus,
-selection lines, pressed chips, checked boxes, switches that are on, and text
-selection, with dark text on it. Mark the active planner with the page
-background, light text, and a white ring. Make hover on primary actions
+selection lines, pressed chips, selected segments, checked boxes, switches that are on, and text
+selection, with dark text on it. Mark the active planner with a near-white
+background and dark game-colour text, as in the light theme. Make hover on primary actions
 lighter, not darker. Use light status colours on dark tint surfaces. In the
-defense chart, give the strongest effect the brightest mark. PNG exports stay
-light.
+defense chart, give the strongest effect the brightest mark. Dark sprite areas
+mix both type colours with the dark surface, as in the light theme. Do not use drop
+shadows on page surfaces in dark mode; use a thin light ring. Only floating layers
+such as menus and dialogs cast a shadow. Show the 2× and 4× weakness multipliers in the details
+dialog with the defense chart colours. PNG exports stay light.
+In the type filter, unselected types turn grey while a type is selected; the selected
+types keep their colour and a thin ring.
 
 ## Type
 
@@ -85,7 +92,9 @@ slot with its number. A tile has one main control that opens the details.
 Filled slots have one Remove control. Empty slots have one Add control.
 Give each filled slot and the details dialog header a soft sprite area in the
 Pokémon's type colours. Blend two colours for two types. Show Remove on hover
-and keyboard focus, and keep it visible on touch screens.
+and keyboard focus, and keep it visible on touch screens. Empty slots keep the
+height of a filled Team Planner slot. In slot status lines, Available now uses
+muted text with a green icon; later and blocked states keep their colour.
 
 When the full team row scrolls above the viewport, show a full-width team bar
 at the top. Center six small 4:3 cards in one row. Keep the row narrower than
@@ -106,7 +115,8 @@ Fade uncovered types and give them a dashed ring, so grey types stay clear.
 Both catalogues use type logos and a search field. The Progress Planner also
 uses status chips that show their counts. Sort regional Pokédex species first
 in regional order. Then show the remaining species in National Dex order.
-Show the name of the Dex with its number.
+Group headings name the Dex. Cards show only the number and keep the Dex
+name for assistive technology and the tooltip.
 Use native radio inputs, checkboxes, details, and a dialog. Use the Radix Select
 primitive for the progress dropdown's keyboard access and focus handling.
 Build the level limit as a switch.
@@ -114,6 +124,8 @@ Whole-game planning in the Progress Planner shows every obtainable species,
 including future sources. Keep source filters out of both catalogues.
 Keep acquisition paths in the Progress Planner details dialog.
 
+Catalogue cards use the content surface with a soft ring, like the team
+slots, and lift on hover.
 Show nine catalogue cards per row in the Team Planner and six in the Progress
 Planner on wide screens. Use fewer columns on small screens. Show all matching
 species in one grid without page controls. On small screens, let players choose two, three, or four columns.
@@ -122,6 +134,8 @@ touch screens. Hide Add when the team is full. Team cards open details when sele
 and focus. Place the types at the bottom right. Show Add above the top right
 corner on hover and keyboard focus. Keep Add visible on touch screens.
 Progress cards combine access status and source in one statement on wide screens.
+Write the source as short facts joined by a middle dot (Evolve Treecko · Lv. 16), so it fits one
+line on a card. Keep each fact whole when the line wraps.
 When a Progress card is too narrow for the name and types on one row, center the
 name above the types.
 On small screens, use three columns by default and large sprites. Put the name

@@ -31,7 +31,8 @@
 @media (max-width: 40rem) {
   .settings { padding: 1rem; }
   .settings-fields { gap: 0.75rem; }
-  .settings .switch-row, .settings-fields .segments, .settings .progress-trigger { min-height: 3.5rem; }
+  .settings .switch-row, .settings-fields .segments { min-height: 3rem; }
+  .settings .progress-trigger { min-height: 3.5rem; }
   .settings .progress-trigger { padding-block: 0.375rem; }
   .settings .field-hint { display: none; }
 }
