@@ -1,0 +1,19 @@
+.swap-dialog { width: min(32rem, calc(100% - 1rem)); max-width: calc(100% - 1rem); padding: 0; border: 0; border-radius: 1.25rem; background: var(--surface); color: var(--ink); box-shadow: 0 24px 80px var(--dialog-shadow), var(--shadow-ring); }
+.swap-dialog::backdrop { background: var(--backdrop); }
+.swap-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 1rem; padding: 1rem 1rem 0.5rem 1.25rem; }
+.swap-head .pokemon-sprite { width: 4.5rem; height: 4.5rem; image-rendering: pixelated; }
+.swap-head h2 { font-size: 1.25rem; text-wrap: balance; }
+.swap-head p { margin-top: 0.25rem; color: var(--muted); font-size: 0.875rem; }
+.swap-head > .icon-button { align-self: flex-start; }
+.swap-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; padding: 0.75rem 1.25rem 1.25rem; list-style: none; }
+.swap-option { position: relative; display: flex; flex-direction: column; align-items: center; gap: 0.25rem; width: 100%; padding: 1.5rem 0.5rem 0.75rem; border: 0; border-radius: var(--radius-tile); background: var(--tile); color: var(--ink); font-weight: 600; transition: background-color 150ms ease-out, box-shadow 150ms ease-out; }
+.swap-option .pokemon-sprite { width: 4.5rem; height: 4.5rem; image-rendering: pixelated; }
+.swap-option .slot-number { inset-block-start: 0.5rem; inset-inline-start: 0.5rem; }
+.swap-option-name { max-width: 100%; overflow-wrap: anywhere; font-size: 0.875rem; }
+.swap-option:hover { background: var(--surface); box-shadow: var(--shadow-ring); }
+.swap-option:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+@media (max-width: 24rem) {
+  .swap-options { grid-template-columns: repeat(2, minmax(0, 1fr)); padding-inline: 1rem; }
+  .swap-head { padding-inline-start: 1rem; }
+}

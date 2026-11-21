@@ -21,7 +21,7 @@ function emptyCatalogue(progressPage: boolean) {
   const game = { ...emerald, profiles: progressPage ? emerald.profiles.filter(p => p.pokemonId === 'bagon') : [] };
   return renderToStaticMarkup(createElement(GameContext, { value: game }, createElement(PokemonSearch, {
     snapshot, target: 'current-progress', progressPage, team: Array(6).fill(null), activeSlot: null,
-    onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+    onAdd: () => {}, onSwap: () => {}, onDetails: () => {}, onCancel: () => {},
   })));
 }
 

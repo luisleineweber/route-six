@@ -20,7 +20,7 @@ function details(paths: AcquisitionPath[], status: 'available' | 'later' = 'avai
   return renderToStaticMarkup(createElement(GameContext, { value: emerald },
     createElement(AcquisitionDetails, {
       id: pokemonId, snapshot, progressPage: true, canAdd: true,
-      onClose: () => {}, onAdd: () => {}, onNavigate: () => {},
+      onClose: () => {}, onAdd: () => {}, onSwap: () => {}, onNavigate: () => {},
     })));
 }
 
