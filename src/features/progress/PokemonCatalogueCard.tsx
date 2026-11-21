@@ -5,9 +5,9 @@ import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
 import { useGameData } from '../planner/GameContext';
 import { regionalDexName } from '../planner/pokedex-order';
 
-export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectionId, progressPage, activeSlot, canAdd, onAdd, onDetails, children }: {
+export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectionId, progressPage, activeSlot, canAdd, onAdd, onDetails, children, teamName = 'team' }: {
   pokemonId: string; regionalDex?: number; regionalDexSectionId?: string; progressPage: boolean; activeSlot: number | null; canAdd: boolean;
-  onAdd: (id: string) => void; onDetails: (id: string) => void; children?: ReactNode;
+  onAdd: (id: string) => void; onDetails: (id: string) => void; children?: ReactNode; teamName?: string;
 }) {
   const game = useGameData();
   const pokemon = pokemonById.get(pokemonId)!;
@@ -25,7 +25,7 @@ export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectio
 
   return <article className={`pokemon-card${feedback ? ' pokemon-added' : ''}`}>
     <span className="dex-number" title={`${dexName} Pokédex`}><span className="dex-name">{`${dexName} `}</span>{`#${String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}`}</span>
-    <button className="icon-button add-button" aria-label={`${activeSlot !== null ? 'Set' : 'Add'} ${pokemon.name}${activeSlot !== null ? ` in slot ${activeSlot + 1}` : ' to team'}`} disabled={!canAdd} onClick={() => {
+    <button className="icon-button add-button" aria-label={`${activeSlot !== null ? 'Set' : 'Add'} ${pokemon.name}${activeSlot !== null ? ` in slot ${activeSlot + 1}` : ` to ${teamName}`}`} disabled={!canAdd} onClick={() => {
       onAdd(pokemonId);
       setAdded(true);
       setFeedback(value => value + 1);

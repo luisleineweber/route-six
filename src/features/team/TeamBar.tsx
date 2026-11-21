@@ -34,9 +34,10 @@ function TeamBarCard({ id, index, activeSlot, onChoose, onDetails, onRemove }: T
   </article>;
 }
 
-export function TeamBar({ team, teamRef, ...actions }: TeamBarActions & {
+export function TeamBar({ team, teamRef, label = 'Team overview', ...actions }: TeamBarActions & {
   team: (string | null)[];
   teamRef: RefObject<HTMLDivElement | null>;
+  label?: string;
 }) {
   const bar = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
@@ -74,7 +75,7 @@ export function TeamBar({ team, teamRef, ...actions }: TeamBarActions & {
       root.style.removeProperty('--team-bar-height');
     };
   }, []);
-  return <section ref={bar} className={`team-bar${visible ? ' visible' : ''}`} aria-label="Team overview" aria-hidden={!visible} inert={!visible}>
+  return <section ref={bar} className={`team-bar${visible ? ' visible' : ''}`} aria-label={label} aria-hidden={!visible} inert={!visible}>
     <div className="team-bar-slots">{team.map((id, index) => <TeamBarCard key={index} id={id} index={index} {...actions} />)}</div>
   </section>;
 }
