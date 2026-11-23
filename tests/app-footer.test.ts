@@ -1,66 +1,51 @@
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { afterEach, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import { AppFooter } from '../src/components/AppFooter';
-import type { GameData } from '../src/domain/types';
-import { GameContext } from '../src/features/planner/GameContext';
-import { dataset, emerald } from './local-data';
+import { assetUrl } from '../src/data/asset-url';
 
-function renderFooter(game: GameData = emerald) {
-  return renderToStaticMarkup(createElement(GameContext, { value: game }, createElement(AppFooter)));
+function renderFooter() {
+  return renderToStaticMarkup(createElement(AppFooter));
 }
 
+// CI sets VITE_SITE_URL. Each test sets its own value so results do not depend on the environment.
+beforeEach(() => vi.stubEnv('VITE_SITE_URL', ''));
 afterEach(() => vi.unstubAllEnvs());
 
-it('replaces the MVP line with game context, session guidance, and fan attribution', () => {
+it('keeps only the session guidance, credits, fan attribution, and a way back', () => {
   const html = renderFooter();
   expect(html).toContain('<footer class="app-footer">');
   expect(html).toContain('Route Six');
-  expect(html).toContain('Pokémon Emerald');
-  expect(html).toContain('<dt>Region</dt><dd>Hoenn</dd>');
-  expect(html).toContain('<dt>Generation</dt><dd>3</dd>');
-  expect(html).toContain(`<dd>${emerald.profiles.length} species</dd>`);
-  expect(html).toContain('Team &amp; Progress');
-  expect(html).toContain('Plans reset when you reload. Export your team to keep a copy.');
+  expect(html).toContain('Plans reset when you reload. Export your team as a PNG to keep a copy.');
   expect(html).toContain('An unofficial fan project');
   expect(html).toContain('The Pokémon Company');
   expect(html).toContain('href="#main"');
-  expect(html).not.toContain('MVP specification');
+  expect(html).not.toContain('<dl');
+  expect(html).not.toContain('<details');
 });
 
-it('uses the selected game and shows its active planners', () => {
-  const heartgold = dataset.games.find(game => game.game.id === 'heartgold')!;
-  const html = renderFooter(heartgold);
-  expect(html).toContain('Pokémon HeartGold');
-  expect(html).toContain(`<dd>${heartgold.profiles.length} species</dd>`);
-  expect(html).toContain('Team &amp; Progress');
-  expect(html).not.toContain('Progress planning is not available for this game yet.');
-  expect(html).not.toContain('Pokémon Emerald');
-});
-
-it.each([undefined, '', '   '])('shows the project link as coming soon when no URL is configured (%s)', value => {
+it.each([undefined, '', '   '])('omits the site link when no URL is configured (%s)', value => {
   vi.stubEnv('VITE_SITE_URL', value);
   const html = renderFooter();
-  expect(html).toContain('Project link coming soon.');
-  expect(html).not.toContain('class="footer-project-link"');
+  expect(html).not.toContain('Route Six site');
+  expect(html).not.toContain('coming soon');
 });
 
-it('uses the configured Route Six site destination', () => {
+it('links the configured Route Six site in a new tab, outside the credits', () => {
   vi.stubEnv('VITE_SITE_URL', ' https://route-six.example ');
   const html = renderFooter();
-  expect(html).toContain('href="https://route-six.example"');
-  expect(html).toContain('Visit the Route Six site');
+  const link = html.match(/<a class="footer-link" href="https:\/\/route-six\.example".*?<\/a>/)![0];
+  expect(link).toContain('target="_blank" rel="noopener noreferrer"');
+  expect(link).toContain('Route Six site');
+  expect(link).toContain('opens in a new tab');
+  expect(html.match(/<p class="footer-credits">.*?<\/p>/)![0]).not.toContain('route-six.example');
 });
 
-it('keeps source credits in a native disclosure with asset attribution and new-tab notices', () => {
-  const html = renderFooter();
-  expect(html).toContain('<details class="footer-credits"><summary>');
-  expect(html).toContain('Sources &amp; credits');
-  expect(html).toContain('These links show the sources used for game details.');
-  expect(html).toContain('href="https://github.com/PokeAPI/sprites"');
-  expect(html).toContain('href="https://github.com/partywhale/pokemon-type-icons"');
-  expect(html).toContain('href="/types/LICENSE.txt"');
-  const credits = html.match(/<details class="footer-credits">.*?<\/details>/)![0];
+it('credits asset sources with licence and new-tab notices', () => {
+  const credits = renderFooter().match(/<p class="footer-credits">.*?<\/p>/)![0];
+  expect(credits).toContain('href="https://github.com/PokeAPI/sprites"');
+  expect(credits).toContain('href="https://github.com/partywhale/pokemon-type-icons"');
+  expect(credits).toContain(`href="${assetUrl('/types/LICENSE.txt')}"`);
   expect(credits.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(3);
   expect(credits.match(/opens in a new tab/g)).toHaveLength(3);
 });
