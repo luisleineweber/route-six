@@ -174,6 +174,12 @@ describe('team access warnings', () => {
     expect(html).not.toContain('Team available at your selected progress.');
   });
 
+  it('shows Pokémon names instead of raw ids in warning reasons', () => {
+    const single = render(blocked([['zekrom', 'pokemon', 'Obtain 1 zekrom for this action.']]), ['zekrom']);
+    expect(single).toContain('Obtain 1 Zekrom for this action.');
+    expect(single).not.toContain('1 zekrom');
+  });
+
   it('keeps empty and successful teams quiet and informative', () => {
     const empty = render(blocked([]), []);
     expect(empty).toContain('Add a Pokémon to check team access.');

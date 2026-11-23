@@ -74,6 +74,16 @@ describe('detail acquisition paths', () => {
     expect(html).toContain('From Lv. 31');
   });
 
+  it('shows the group level only when it is above the level the method already names', () => {
+    const atRuleLevel = acquisitionPaths([evolved]);
+    expect(atRuleLevel).toContain('Level up at Lv. 30+');
+    expect(atRuleLevel).not.toContain('class="path-meta"');
+    const later = { ...evolved, id: 'later', minimumLevel: 34 };
+    const higher = acquisitionPaths([later, { ...later, id: 'later-2', sourceIds: ['wild-route-111-good-rod-barboach'], minimumLevel: 38 }]);
+    expect(higher).toContain('Level up at Lv. 30+');
+    expect(higher).toContain('<span class="path-meta">From Lv. 34</span>');
+  });
+
   it('uses the immediate predecessor of a later evolution stage', () => {
     const gardevoir = { ...evolved, pokemonId: 'gardevoir', minimumLevel: 30,
       sourceIds: ['wild-route-102-grass-ralts'], evolutionIds: ['ralts-to-kirlia', 'kirlia-to-gardevoir'] };

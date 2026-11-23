@@ -24,8 +24,8 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
     // Short facts fit one line on a card; no-break spaces keep "Evolve Treecko" and "Lv. 16" whole when it wraps.
-    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
-    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
+    const details = [`Evolve\u00a0${pokemonById.get(first.fromPokemonId)!.name}`];
+    if (last.minimumLevel !== null) details.push(`Lv.\u00a0${last.minimumLevel}`);
     if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
     return details;
   }
@@ -36,10 +36,10 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
   return details;
 }
 
-/** Each later fact starts with its separator, so a wrapped line never ends with a hanging dot. */
+/** Each later fact starts with its separator and a no-break space, so a wrapped line never ends with a hanging dot. */
 function SourceParts({ parts }: { parts: string[] }) {
   if (parts.length < 2) return <>{parts[0]}</>;
-  return <>{parts.map((part, index) => <Fragment key={index}>{index > 0 && ' '}<span className="source-part">{index > 0 && '· '}{part}</span></Fragment>)}</>;
+  return <>{parts.map((part, index) => <Fragment key={index}>{index > 0 && ' ·\u00a0'}{part}</Fragment>)}</>;
 }
 
 export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onDetails, onCancel }: {

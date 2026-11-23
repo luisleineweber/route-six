@@ -66,8 +66,12 @@ details[open] > summary > .chevron { rotate: 180deg; }
   /* One scrolling row that runs to the screen edge, so cut-off chips read as scrollable. */
   .chip-row { flex-wrap: nowrap; gap: 0.375rem; overflow-x: auto; overscroll-behavior-inline: contain; margin-inline: -1.25rem; padding: 0.125rem 1.25rem 0.5rem; scroll-padding-inline: 1.25rem; scrollbar-width: thin; scrollbar-color: var(--control-line) transparent; }
   .chip-row > .chip { flex: 0 0 auto; padding-inline: 0.625rem; }
-  /* The fade at the end shows that the row scrolls. */
-  .chip-row { mask-image: linear-gradient(to right, black calc(100% - 2.5rem), transparent); }
+  /* The fade at the end shows that more chips are offscreen. It closes as the row reaches its end;
+     a row that fits, or a browser without scroll timelines, has no fade. */
+  .chip-row { mask-image: linear-gradient(to right, black calc(100% - var(--chip-fade)), transparent); }
+  @supports (animation-timeline: scroll()) {
+    .chip-row { animation: chip-row-fade linear both; animation-timeline: scroll(self inline); }
+  }
   .type-filter-summary p { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 .type-filter { gap: 0.25rem; }
@@ -100,3 +104,5 @@ details[open] > summary > .chevron { rotate: 180deg; }
 /* Sections */
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; margin-bottom: 1rem; }
 .count { flex-shrink: 0; color: var(--muted); font-size: 0.875rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+@property --chip-fade { syntax: '<length>'; inherits: false; initial-value: 0px; }
+@keyframes chip-row-fade { 0%, 85% { --chip-fade: 2.5rem; } 100% { --chip-fade: 0px; } }

@@ -102,8 +102,8 @@ describe('catalogue access summaries', () => {
     };
     const html = card([evolved], status);
     expect(text(html)).toContain(`${status === 'later' ? 'Later' : 'Now'}: Evolve Ralts · Lv. 30`);
-    expect(html).not.toContain('Lv. 20');
-    expect(html).not.toContain('Lv. 41');
+    expect(text(html)).not.toContain('Lv. 20');
+    expect(text(html)).not.toContain('Lv. 41');
     expect(text(html)).not.toContain(': Route 102 ·');
     if (status === 'later') expect(html).toContain('Available from Evolve Kirlia at Route 102');
   });

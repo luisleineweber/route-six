@@ -31,8 +31,8 @@
 .pokemon-card .dex-number { position: absolute; inset-block-start: 0.75rem; inset-inline-start: 0.875rem; max-inline-size: calc(100% - 4rem); text-align: start; line-height: 1.25; }
 .add-button { position: absolute; inset-block-start: 0.25rem; inset-inline-end: 0.25rem; z-index: 1; background: var(--surface); box-shadow: var(--shadow-ring); color: var(--accent-ink); }
 .add-button:hover:not(:disabled) { background: var(--accent); color: var(--on-accent); }
-.source-summary { color: var(--muted); font-size: 0.8125rem; line-height: 1.4; text-wrap: balance; }
-.source-part { white-space: nowrap; }
+/* Facts break at their spaces only when a card is too narrow; a long name breaks last, so text never runs past the card. */
+.source-summary { min-width: 0; color: var(--muted); font-size: 0.8125rem; line-height: 1.4; text-wrap: balance; overflow-wrap: break-word; }
 .access-summary { align-items: flex-start; justify-content: center; font-weight: 400; }
 .access-summary > svg { flex-shrink: 0; margin-top: 0.125rem; }
 .access-summary.access-full > span { color: var(--muted); }

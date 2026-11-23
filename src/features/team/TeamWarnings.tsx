@@ -23,7 +23,7 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
       ? `${affected} Pokémon unavailable for this plan`
       : 'This team needs a change';
   const laterOnly = check.warnings.every(warning => warning.code === 'later');
-  const readable = (message: string) => message.replace(/[a-z]+(?:-[a-z]+)*/g, word => pokemonNames.get(word) ?? word);
+  const readable = (message: string) => message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonNames.get(word) ?? word);
   const members = (ids: string[]) => ids.length > 0 && <div className="team-issue-members">{ids.map(id => <button key={id} type="button" className="team-issue-details" onClick={() => onDetails(id)} aria-label={`View ${pokemonIdentity(id).name} access details`} aria-haspopup="dialog">
     {pokemonIdentity(id).name}
   </button>)}</div>;

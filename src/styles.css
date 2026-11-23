@@ -185,7 +185,6 @@
    a mix with white in light mode and with the dark surface in dark mode. */
 :is(.sprite-well, .dialog-head) {
   --well-glow: var(--tint-glow);
-  --well-glow-b: transparent;
   --well-a: color-mix(in oklch, var(--tint-a) 34%, white);
   --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
 }

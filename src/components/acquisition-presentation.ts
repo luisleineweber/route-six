@@ -59,15 +59,15 @@ function acquisitionGroup(game: GameData, path: AcquisitionPath) {
     return { id: JSON.stringify(['evolution', path.pokemonId, evolution.id]),
       title: `Evolve ${pokemonIdentity(selectionId(evolution.fromPokemonId, evolution.fromFormId)).name}`,
       method: evolutionLabels(game, evolution).join(' · '), iconSrc: null,
-      // The method already names the level, such as "Level up at Lv. 23+".
-      methodShowsLevel: evolution.minimumLevel !== null };
+      // The level the method already names, such as 23 in "Level up at Lv. 23+".
+      methodLevel: evolution.minimumLevel };
   }
   const source = pathSource(game, path);
   const location = game.locations.find(location => location.id === source.locationId)!;
   const method = sourceMethod(source.details);
   return { id: JSON.stringify([location.id, source.details.kind, source.details.kind === 'wild' ? source.details.method : null]),
     title: source.details.kind === 'breeding' ? 'Day Care breeding' : location.name,
-    method: method.name, iconSrc: method.iconSrc, methodShowsLevel: false };
+    method: method.name, iconSrc: method.iconSrc, methodLevel: null };
 }
 
 export function groupAcquisitionPaths(game: GameData, snapshot: AvailabilitySnapshot, ids: string[]) {

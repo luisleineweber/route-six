@@ -15,7 +15,7 @@
 .defense-risk { background: color-mix(in oklch, var(--danger-bg) 70%, transparent); }
 .defense-marks { display: flex; gap: 3px; }
 .defense-mark { display: inline-grid; place-items: center; flex-shrink: 0; width: 1.375rem; height: 1.75rem; border-radius: 0.3125rem; background: var(--defense-mark); color: var(--defense-mark-ink); font-size: 0.875rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
-.defense-empty { background: color-mix(in oklch, var(--defense-mark) 65%, transparent); }
+.defense-empty { background: transparent; box-shadow: inset 0 0 0 1px var(--defense-empty-line); }
 .defense-weak { background: var(--defense-weak); color: var(--defense-weak-ink); }
 .defense-weak.defense-double { background: var(--defense-double); color: var(--defense-double-ink); }
 .defense-resist { background: var(--defense-resist); color: var(--defense-resist-ink); }
