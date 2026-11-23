@@ -23,8 +23,8 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
   if (path.evolutionIds.length) {
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
-    // Short facts fit one line on a card; no-break spaces keep "Evolve Treecko" and "Lv. 16" whole when it wraps.
-    const details = [`Evolve\u00a0${pokemonById.get(first.fromPokemonId)!.name}`];
+    // Short facts fit one line on a card. In a narrow card, "Evolve" may break from the name, but "Lv. 16" stays whole.
+    const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
     if (last.minimumLevel !== null) details.push(`Lv.\u00a0${last.minimumLevel}`);
     if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
     return details;
