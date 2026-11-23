@@ -14,6 +14,7 @@ import { useAvailability } from './features/planner/use-availability';
 import { TeamSlots } from './features/team/TeamSlots';
 import { TeamBar } from './features/team/TeamBar';
 import { TeamWarnings } from './features/team/TeamWarnings';
+import { SwapTeamDialog } from './features/team/SwapTeamDialog';
 import { TypeAnalysis } from './features/team/TypeAnalysis';
 import { PokemonSearch } from './features/progress/PokemonSearch';
 import { AcquisitionDetails } from './components/AcquisitionDetails';
@@ -34,6 +35,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const [page,setPage] = useState<PlannerPage>('team');
   const [activeSlot,setActiveSlot] = useState<number|null>(null);
   const [details,setDetails] = useState<string|null>(null);
+  const [swapping,setSwapping] = useState<string|null>(null);
   const [announcement,setAnnouncement] = useState('');
   const main = useRef<HTMLElement>(null);
   const teamSlots = useRef<HTMLDivElement>(null);
@@ -61,7 +63,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
       currentGame.current = next; currentState.current = nextState;
       setGame(next);
       dispatch({type:'restore',state:nextState});
-      setActiveSlot(null); setDetails(null);
+      setActiveSlot(null); setDetails(null); setSwapping(null);
       setAnnouncement(`Switched to ${next.game.name}.`);
     },
     onUndoAvailable: available => {
@@ -82,6 +84,22 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     dispatch({type:'add',pokemonId:id,slot});
     setActiveSlot(null);
     setAnnouncement(`${pokemonIdentity(id).name} added to slot ${slot+1}.`);
+  };
+  // Both dialogs close in their own effects. Child effects run first, so this
+  // effect moves focus after the dialogs closed and no longer make the page inert.
+  const swappedSlot = useRef<number|null>(null);
+  useEffect(() => {
+    if (swappedSlot.current === null) return;
+    teamSlots.current?.querySelector<HTMLElement>(`.team-slot:nth-child(${swappedSlot.current+1}) .card-link`)?.focus();
+    swappedSlot.current = null;
+  }, [state.team]);
+  const swap = (slot:number) => {
+    const id = swapping!;
+    const replaced = state.team[slot]!;
+    dispatch({type:'add',pokemonId:id,slot});
+    swappedSlot.current = slot;
+    setSwapping(null); setDetails(null);
+    setAnnouncement(`${pokemonIdentity(id).name} replaced ${pokemonIdentity(replaced).name} in slot ${slot+1}.`);
   };
   const remove = (slot:number) => {
     dispatch({type:'remove',slot});
@@ -110,13 +128,14 @@ export default function App({ initialGame }: { initialGame: GameData }) {
           {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <LoadingNote title="Checking team access…" detail={state.respectLevelLimit ? 'Using the level limit for each team member.' : 'Checking without the level limit.'} />)}
         </section>
         {page==='team' && <TypeAnalysis team={state.team} />}
-        <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
+        <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onSwap={setSwapping} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
         </>}
       </main>
     </div>
     <AppFooter />
     <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
-    <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={progressPage} onClose={()=>setDetails(null)} onAdd={add} canAdd={activeSlot!==null || state.team.includes(null)} />
+    <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={progressPage} onClose={()=>setDetails(null)} onAdd={add} onSwap={setSwapping} canAdd={activeSlot!==null || state.team.includes(null)} />
+    <SwapTeamDialog pokemonId={swapping} team={state.team} onSwap={swap} onClose={()=>setSwapping(null)} />
     {progressPage && loading && <span className="sr-only" aria-live="polite">Checking Pokémon availability.</span>}
   </GameContext>;
 }

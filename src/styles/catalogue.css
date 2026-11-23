@@ -48,7 +48,6 @@
   .pokemon-card .add-button { opacity: 0; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
   .pokemon-card:hover .add-button,
   .pokemon-card:has(:focus-visible) .add-button { opacity: 1; }
-  .pokemon-card:is(:hover, :has(:focus-visible)) .add-button:disabled { opacity: 0.45; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .team-catalogue .pokemon-sprite { transition: translate 150ms ease-out; }
@@ -148,9 +147,6 @@
   .catalogue-filter-group .catalogue-filter-anchor, .catalogue-filter-group .filters { display: contents; }
   .catalogue-filter-group > .chip-row { order: 1; }
 }
-
-/* A full team cannot add more; the hint above the grid says so. */
-.pokemon-card:not(.pokemon-added) .add-button:disabled { display: none; }
 @media (pointer: coarse) {
   .team-catalogue .add-button, .progress-catalogue .add-button { inset-block-start: 0.25rem; inset-inline-end: 0.25rem; }
 }

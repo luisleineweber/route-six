@@ -28,7 +28,7 @@ function card(paths: AcquisitionPath[], status: AvailabilityEntry['status'] = 'l
     value: { ...game, profiles: game.profiles.filter(profile => profile.pokemonId === pokemonId) },
   }, createElement(PokemonSearch, {
     snapshot, target: 'whole-game', progressPage: true, team: Array(6).fill(null), activeSlot: null,
-    onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+    onAdd: () => {}, onSwap: () => {}, onDetails: () => {}, onCancel: () => {},
   })));
   return html.match(/<article\b[^>]*>[\s\S]*?<\/article>/)![0];
 }
@@ -36,7 +36,7 @@ function card(paths: AcquisitionPath[], status: AvailabilityEntry['status'] = 'l
 function loadingCatalogue(target: 'whole-game' | 'current-progress') {
   return renderToStaticMarkup(createElement(GameContext, { value: emerald }, createElement(PokemonSearch, {
     snapshot: null, target, progressPage: true, team: Array(6).fill(null), activeSlot: null,
-    onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+    onAdd: () => {}, onSwap: () => {}, onDetails: () => {}, onCancel: () => {},
   })));
 }
 
@@ -62,7 +62,7 @@ describe('catalogue access summaries', () => {
       value: { ...emerald, profiles: emerald.profiles.filter(profile => profile.pokemonId in snapshot.entries) },
     }, createElement(PokemonSearch, {
       snapshot, target: 'whole-game', progressPage: true, team: Array(6).fill(null), activeSlot: null,
-      onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+      onAdd: () => {}, onSwap: () => {}, onDetails: () => {}, onCancel: () => {},
     })));
     const labels = html.match(/<p class="access-compact[^>]*>[\s\S]*?<\/p>/g)!;
     expect(labels).toHaveLength(2);
