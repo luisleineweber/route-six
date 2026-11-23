@@ -3,25 +3,29 @@
 .analysis > summary::-webkit-details-marker { display: none; }
 .analysis > summary svg { transition: transform 150ms ease-out; }
 .analysis[open] > summary svg { transform: rotate(180deg); }
-.analysis[open] > summary { margin-bottom: 0.75rem; }
+.analysis[open] > summary { margin-bottom: 1rem; }
 /* The prerendered panel is open. Until hydration closes it, narrow screens show it closed (TypeAnalysis.tsx). */
 @media (max-width: 30rem) {
   .analysis-unsettled[open] > :not(summary) { display: none; }
   .analysis-unsettled[open] > summary { margin-bottom: 0; }
   .analysis-unsettled[open] > summary svg { transform: none; }
 }
-.defense-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 0.5rem 0.75rem; padding: 0; margin-block: 0.875rem 1rem; list-style: none; }
-.defense-type { display: flex; align-items: center; gap: 0.625rem; padding: 0.25rem 0.5rem 0.25rem 0.25rem; border-radius: 999px; }
-.defense-risk { background: var(--danger-bg); }
-.defense-marks { display: flex; gap: 4px; }
-.defense-mark { display: inline-grid; place-items: center; flex-shrink: 0; width: 1.25rem; height: 1.625rem; border-radius: 0.3125rem; background: var(--defense-mark); color: var(--defense-mark-ink); font-size: 0.8125rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.defense-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.5rem 1.5rem; padding: 0; margin-block: 0.875rem 1rem; list-style: none; }
+.defense-type { display: flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.375rem 0.25rem 0.25rem; border-radius: 999px; }
+.defense-risk { background: color-mix(in oklch, var(--danger-bg) 70%, transparent); }
+.defense-marks { display: flex; gap: 3px; }
+.defense-mark { display: inline-grid; place-items: center; flex-shrink: 0; width: 1.375rem; height: 1.75rem; border-radius: 0.3125rem; background: var(--defense-mark); color: var(--defense-mark-ink); font-size: 0.875rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
 .defense-empty { background: transparent; box-shadow: inset 0 0 0 1px var(--defense-empty-line); }
 .defense-weak { background: var(--defense-weak); color: var(--defense-weak-ink); }
 .defense-weak.defense-double { background: var(--defense-double); color: var(--defense-double-ink); }
 .defense-resist { background: var(--defense-resist); color: var(--defense-resist-ink); }
 .defense-immune { background: var(--defense-immune); color: var(--defense-immune-ink); }
+/* Wide screens fit six types per row and spread the spare space evenly. */
+@media (min-width: 83rem) { .defense-grid { grid-template-columns: repeat(6, max-content); justify-content: space-between; column-gap: 0.5rem; } }
 .defense-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; padding: 0; margin: 0; list-style: none; color: var(--muted); font-size: 0.8125rem; }
 .defense-legend li { display: inline-flex; align-items: center; gap: 0.375rem; }
+/* The neutral key needs an edge to stay visible on the panel. */
+.defense-legend .defense-mark:not(.defense-weak, .defense-resist, .defense-immune) { box-shadow: inset 0 0 0 1px var(--defense-empty-line); }
 .defense-legend .defense-hint { padding-inline-start: 0.5rem; }
 .attack-chart { margin-top: 1.75rem; }
 .attack-chart h3 { display: flex; align-items: baseline; gap: 0.75rem; }
@@ -33,10 +37,10 @@
 .analysis-note { margin-top: 1rem; color: var(--muted); font-size: 0.8125rem; }
 @media (max-width: 40rem) {
   .analysis { padding: 1rem 1rem 1.25rem; }
-  .defense-grid { grid-template-columns: repeat(auto-fill, minmax(8.25rem, 1fr)); gap: 0.25rem 0.5rem; }
+  .defense-grid { grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); gap: 0.25rem 0.5rem; }
   .defense-type { gap: 0.375rem; padding-inline-end: 0.25rem; }
   .defense-type .type-icon { width: 1.5rem; height: 1.5rem; }
   .defense-marks { gap: 2px; }
-  .defense-grid .defense-mark { width: 0.875rem; height: 1.375rem; }
+  .defense-grid .defense-mark { width: 1rem; height: 1.5rem; }
   .defense-legend .defense-hint { padding-inline-start: 0; }
 }

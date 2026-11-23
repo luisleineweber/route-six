@@ -39,12 +39,12 @@
   --nav-selected-bg: white;
   --nav-selected-ink: var(--accent-ink);
   --nav-selected-ring: 0 1px 3px oklch(0 0 0 / 0.18);
+  --nav-selected-muted: var(--muted);
   /* Pressed chips, switches, and text selection. */
   --selected-fill: var(--accent);
   --on-selected: var(--on-accent);
 
-  /* Type colours mix with this base for sprite areas. Translucent layers sit on those areas. */
-  --tint-base: white;
+  /* Translucent layers on the type-coloured sprite areas. */
   --tint-glow: oklch(1 0 0 / 0.55);
   --glass: oklch(1 0 0 / 0.75);
   --glass-strong: oklch(1 0 0 / 0.85);
@@ -65,9 +65,9 @@
   --danger-ink: oklch(0.42 0.14 28);
 
   /* Defense chart marks. Stronger effects use stronger fills in both themes. */
-  --defense-mark: oklch(0.93 0.006 95);
+  --defense-mark: oklch(0.94 0.004 95);
   --defense-mark-ink: oklch(0.25 0.02 260);
-  --defense-empty-line: oklch(0.3 0.01 260 / 0.1);
+  --defense-empty-line: oklch(0.3 0.01 260 / 0.16);
   --defense-weak: oklch(0.8 0.11 28);
   --defense-weak-ink: oklch(0.3 0.1 28);
   --defense-double: oklch(0.55 0.17 28);
@@ -89,7 +89,7 @@
   --shadow-raised: 0 0 0 1px oklch(0.3 0.01 260 / 0.08), 0 2px 4px oklch(0.3 0.01 260 / 0.06), 0 8px 20px oklch(0.3 0.01 260 / 0.08);
   --shadow-bar: 0 1px 0 oklch(0.3 0.01 260 / 0.04), 0 8px 18px -8px oklch(0.3 0.01 260 / 0.18);
   --shadow-sticky: 0 10px 20px -12px oklch(0.3 0.01 260 / 0.22);
-  --shadow-footer: 0 -12px 22px -14px oklch(0.3 0.01 260 / 0.25);
+  --shadow-footer: 0 -10px 18px -14px oklch(0.3 0.01 260 / 0.16);
   --shadow-notice: 0 8px 24px oklch(0 0 0 / 0.12);
   --shadow-knob: 0 1px 2px oklch(0 0 0 / 0.3);
   --shadow-popover: 0 0 0 1px oklch(0 0 0 / 0.06), 0 0.5rem 1rem oklch(0 0 0 / 0.06), 0 1.5rem 3.5rem oklch(0 0 0 / 0.14);
@@ -106,7 +106,7 @@
   color-scheme: dark;
 
   --bg: oklch(0.17 0 0);
-  --surface: oklch(0.21 0 0);
+  --surface: oklch(0.22 0 0);
   --tile: oklch(0.25 0 0);
   --tile-hover: oklch(0.29 0 0);
 
@@ -115,6 +115,8 @@
   --control-line: oklch(0.58 0 0);
 
   --accent: oklch(0.45 var(--game-chroma) var(--game-hue));
+  /* The header is the largest accent area, so it sits one step darker than buttons. */
+  --header-bg: oklch(0.37 var(--game-chroma) var(--game-hue));
   /* Hover lifts the fill away from the dark page instead of sinking into it. */
   --accent-hover: oklch(0.5 var(--game-chroma) var(--game-hue));
   /* A direct value: mixing with achromatic grey in OKLCH pulls the hue to red. */
@@ -122,16 +124,16 @@
   --accent-ink: oklch(0.8 calc(var(--game-chroma) * 0.7) var(--game-hue));
   --accent-line: var(--accent-ink);
   --focus: var(--accent-ink);
-  --nav-selected-bg: var(--bg);
-  --nav-selected-ink: var(--ink);
-  --nav-selected-ring: inset 0 0 0 2px var(--on-accent);
+  /* A light tab reads as selected on the dark header; a dark tab reads as a hole. */
+  --nav-selected-bg: oklch(0.95 0 0);
+  --nav-selected-ink: oklch(0.3 var(--game-chroma) var(--game-hue));
+  --nav-selected-ring: 0 1px 3px oklch(0 0 0 / 0.3);
+  --nav-selected-muted: oklch(0.45 0 0);
   /* The dark fill is too close to the surfaces, so selection uses the light game tone. */
   --selected-fill: var(--accent-ink);
   --on-selected: var(--bg);
 
-  /* The base hue is none, so the mix keeps the type hue instead of pulling it to red. */
-  --tint-base: oklch(0.22 0 none);
-  --tint-glow: oklch(1 0 0 / 0.06);
+  --tint-glow: oklch(1 0 0 / 0.09);
   --glass: oklch(0.17 0 0 / 0.7);
   --glass-strong: oklch(0.17 0 0 / 0.8);
   --glass-soft: oklch(0.17 0 0 / 0.6);
@@ -145,14 +147,14 @@
   --ok-line: oklch(0.78 0.12 155 / 0.45);
   --later: oklch(0.8 0.11 75);
   --blocked: oklch(0.74 0.14 30);
-  --warning-bg: oklch(0.3 0.05 80);
+  --warning-bg: oklch(0.25 0.025 80);
   --warning-ink: oklch(0.86 0.1 85);
   --danger-bg: oklch(0.3 0.06 28);
   --danger-ink: oklch(0.82 0.1 28);
 
-  --defense-mark: oklch(0.3 0 0);
+  --defense-mark: oklch(0.265 0 0);
   --defense-mark-ink: oklch(0.9 0 0);
-  --defense-empty-line: oklch(1 0 0 / 0.14);
+  --defense-empty-line: oklch(1 0 0 / 0.22);
   --defense-weak: oklch(0.45 0.12 28);
   --defense-weak-ink: oklch(0.94 0.03 28);
   --defense-double: oklch(0.72 0.16 28);
@@ -166,10 +168,11 @@
   --skeleton: var(--tile-hover);
   --skeleton-shine: oklch(0.34 0 0);
 
-  --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08), 0 1px 2px -1px oklch(0 0 0 / 0.4), 0 2px 4px oklch(0 0 0 / 0.3);
-  --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06), 0 4px 14px oklch(0 0 0 / 0.35);
-  --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16), 0 2px 4px oklch(0 0 0 / 0.4), 0 8px 20px oklch(0 0 0 / 0.45);
-  --shadow-bar: 0 1px 0 oklch(1 0 0 / 0.06), 0 8px 18px -8px oklch(0 0 0 / 0.6);
+  /* Flat surfaces: a near-black page cannot show a drop shadow, so in-page surfaces use a thin light ring only. */
+  --shadow-ring: 0 0 0 1px oklch(1 0 0 / 0.08);
+  --shadow-panel: 0 0 0 1px oklch(1 0 0 / 0.06);
+  --shadow-raised: 0 0 0 1px oklch(1 0 0 / 0.16);
+  --shadow-bar: 0 8px 18px -8px oklch(0 0 0 / 0.6);
   --shadow-sticky: 0 10px 20px -12px oklch(0 0 0 / 0.7);
   --shadow-footer: 0 -12px 22px -14px oklch(0 0 0 / 0.7);
   --shadow-notice: 0 8px 24px oklch(0 0 0 / 0.5);
@@ -177,6 +180,18 @@
   --shadow-dropdown: 0 0 0 1px oklch(1 0 0 / 0.1), 0 0.75rem 2.5rem oklch(0 0 0 / 0.5);
   --dialog-shadow: oklch(0 0 0 / 0.5);
   --backdrop: oklch(0 0 0 / 0.6);
+}
+
+/* Sprite areas take each type colour from the element's --tint-a and --tint-b:
+   a mix with white in light mode and with the dark surface in dark mode. */
+:is(.sprite-well, .dialog-head) {
+  --well-glow: var(--tint-glow);
+  --well-a: color-mix(in oklch, var(--tint-a) 34%, white);
+  --well-b: color-mix(in oklch, var(--tint-b) 34%, white);
+}
+:root[data-theme="dark"] :is(.sprite-well, .dialog-head) {
+  --well-a: color-mix(in oklch, var(--tint-a) 34%, oklch(0.22 0 none));
+  --well-b: color-mix(in oklch, var(--tint-b) 34%, oklch(0.22 0 none));
 }
 
 * { box-sizing: border-box; }
@@ -231,6 +246,7 @@ main > .error-message + * { margin-top: 0; }
   .header-inner, .app-shell { padding-inline: 2rem; }
   .app-shell { padding-block: 1.5rem 3rem; }
 }
+@media (min-width: 60rem) { :root { --page-gap: 2.5rem; } }
 @media (min-width: 60rem) and (max-width: 72rem) { :root { --page-gap: 2rem; } }
-@media (max-width: 40rem) { :root { --page-gap: 2rem; } }
+@media (max-width: 40rem) { :root { --page-gap: 2rem; } main > .settings + * { margin-top: 1.5rem; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

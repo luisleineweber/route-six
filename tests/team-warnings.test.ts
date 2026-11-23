@@ -147,6 +147,8 @@ describe('team access warnings', () => {
     const current = render(result.value, ['ralts']);
     expect(current).toContain('1 Pokémon available later');
     expect(current).toContain('Choose a later progress point or plan for the whole game.');
+    // The heading already says "available later", so the group repeats no title.
+    expect(current).not.toContain('<h4>');
     const html = render(result.value, ['ralts'], 'whole-game');
     expect(html).toContain('Team available over the whole game.');
     expect(html).toContain('Ralts is available later.');
@@ -170,6 +172,12 @@ describe('team access warnings', () => {
     const html = render(snapshot, team, 'whole-game');
     expect(html).toContain('Team available over the whole game.');
     expect(html).not.toContain('Team available at your selected progress.');
+  });
+
+  it('shows Pokémon names instead of raw ids in warning reasons', () => {
+    const single = render(blocked([['zekrom', 'pokemon', 'Obtain 1 zekrom for this action.']]), ['zekrom']);
+    expect(single).toContain('Obtain 1 Zekrom for this action.');
+    expect(single).not.toContain('1 zekrom');
   });
 
   it('keeps empty and successful teams quiet and informative', () => {
