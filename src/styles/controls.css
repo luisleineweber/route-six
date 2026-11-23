@@ -71,6 +71,10 @@ details[open] > summary > .chevron { rotate: 180deg; }
   .chip-row { mask-image: linear-gradient(to right, black calc(100% - var(--chip-fade)), transparent); }
   @supports (animation-timeline: scroll()) {
     .chip-row { animation: chip-row-fade linear both; animation-timeline: scroll(self inline); }
+    /* The fade follows the scroll position and does not move by itself, so reduced motion keeps it. */
+    @media (prefers-reduced-motion: reduce) {
+      .chip-row { animation: chip-row-fade linear both !important; animation-timeline: scroll(self inline) !important; }
+    }
   }
   .type-filter-summary p { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
