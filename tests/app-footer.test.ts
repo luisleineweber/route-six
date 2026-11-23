@@ -1,6 +1,6 @@
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { afterEach, beforeEach, expect, it, vi } from 'vitest';
+import { afterEach, expect, it, vi } from 'vitest';
 import { AppFooter } from '../src/components/AppFooter';
 import { assetUrl } from '../src/data/asset-url';
 
@@ -8,37 +8,33 @@ function renderFooter() {
   return renderToStaticMarkup(createElement(AppFooter));
 }
 
-// CI sets VITE_SITE_URL. Each test sets its own value so results do not depend on the environment.
-beforeEach(() => vi.stubEnv('VITE_SITE_URL', ''));
 afterEach(() => vi.unstubAllEnvs());
 
 it('keeps only the session guidance, credits, fan attribution, and a way back', () => {
   const html = renderFooter();
   expect(html).toContain('<footer class="app-footer">');
   expect(html).toContain('Route Six');
-  expect(html).toContain('Plans reset when you reload. Export your team as a PNG to keep a copy.');
-  expect(html).toContain('An unofficial fan project');
+  expect(html).toContain('Plans reset when you reload. Export a PNG to keep your team.');
+  expect(html).toContain('Unofficial fan project');
   expect(html).toContain('The Pokémon Company');
   expect(html).toContain('href="#main"');
   expect(html).not.toContain('<dl');
   expect(html).not.toContain('<details');
 });
 
-it.each([undefined, '', '   '])('omits the site link when no URL is configured (%s)', value => {
-  vi.stubEnv('VITE_SITE_URL', value);
-  const html = renderFooter();
-  expect(html).not.toContain('Route Six site');
-  expect(html).not.toContain('coming soon');
+it('does not link the site to itself, even when the site URL is set', () => {
+  vi.stubEnv('VITE_SITE_URL', 'https://route-six.example');
+  expect(renderFooter()).not.toContain('route-six.example');
 });
 
-it('links the configured Route Six site in a new tab, outside the credits', () => {
-  vi.stubEnv('VITE_SITE_URL', ' https://route-six.example ');
-  const html = renderFooter();
-  const link = html.match(/<a class="footer-link" href="https:\/\/route-six\.example".*?<\/a>/)![0];
+it('links the GitHub repository in a new tab with a hidden mark and a label that phones hide visually', () => {
+  const link = renderFooter().match(/<a class="footer-github".*?<\/a>/)![0];
+  expect(link).toContain('href="https://github.com/luisleineweber/route-six"');
   expect(link).toContain('target="_blank" rel="noopener noreferrer"');
-  expect(link).toContain('Route Six site');
+  expect(link).toContain('<svg');
+  expect(link).toContain('aria-hidden="true"');
+  expect(link).toContain('<span class="footer-github-label">View on GitHub</span>');
   expect(link).toContain('opens in a new tab');
-  expect(html.match(/<p class="footer-credits">.*?<\/p>/)![0]).not.toContain('route-six.example');
 });
 
 it('credits asset sources with licence and new-tab notices', () => {
