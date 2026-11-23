@@ -10,7 +10,9 @@
 .swap-option .pokemon-sprite { width: 4.5rem; height: 4.5rem; image-rendering: pixelated; }
 .swap-option .slot-number { inset-block-start: 0.5rem; inset-inline-start: 0.5rem; }
 .swap-option-name { max-width: 100%; overflow-wrap: anywhere; font-size: 0.875rem; }
-.swap-option:hover { background: var(--surface); box-shadow: var(--shadow-ring); }
+.swap-option:hover:not(:disabled) { background: var(--surface); box-shadow: var(--shadow-ring); }
+.swap-option:disabled { color: var(--muted); cursor: not-allowed; }
+.swap-option:disabled .pokemon-sprite { opacity: 0.45; }
 .swap-option:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 
 @media (max-width: 24rem) {

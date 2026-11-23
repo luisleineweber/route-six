@@ -1,17 +1,28 @@
-import { createElement } from 'react';
+// @vitest-environment happy-dom
+import { act, createElement } from 'react';
+import { createRoot } from 'react-dom/client';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it } from 'vitest';
 import { emerald } from './local-data';
+import App from '../src/App';
 import { GameContext } from '../src/features/planner/GameContext';
 import { PokemonCatalogueCard } from '../src/features/progress/PokemonCatalogueCard';
 import { SwapTeamDialog } from '../src/features/team/SwapTeamDialog';
-import { plannerReducer, createInitialState } from '../src/features/planner/state';
+
+(globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 
 const card = (canAdd: boolean) => renderToStaticMarkup(createElement(GameContext, { value: emerald },
   createElement(PokemonCatalogueCard, {
     pokemonId: 'silcoon', progressPage: false, activeSlot: null,
     canAdd, onAdd: () => {}, onSwap: () => {}, onDetails: () => {},
   })));
+
+const swapChoices = (pokemonId: string, team: string[]) => {
+  const html = renderToStaticMarkup(createElement(GameContext, { value: emerald },
+    createElement(SwapTeamDialog, { pokemonId, team, onSwap: () => {}, onClose: () => {} })));
+  return [...html.matchAll(/<button type="button" class="swap-option"([^>]*)aria-label="([^"]+)"/g)]
+    .map(([, attributes, label]) => `${label}${attributes.includes('disabled') ? ' (disabled)' : ''}`);
+};
 
 const fullTeam = ['swampert', 'gardevoir', 'aggron', 'altaria', 'roselia', 'absol'];
 
@@ -29,16 +40,46 @@ describe('swapping into a full team', () => {
   });
 
   it('lists every team member as a swap choice by slot', () => {
-    const html = renderToStaticMarkup(createElement(GameContext, { value: emerald },
-      createElement(SwapTeamDialog, { pokemonId: 'silcoon', team: fullTeam, onSwap: () => {}, onClose: () => {} })));
-    expect(html).toContain('Swap in Silcoon');
-    expect([...html.matchAll(/aria-label="Replace ([^"]+) in slot (\d)"/g)].map(match => `${match[2]}:${match[1]}`))
-      .toEqual(['1:Swampert', '2:Gardevoir', '3:Aggron', '4:Altaria', '5:Roselia', '6:Absol']);
+    expect(swapChoices('silcoon', fullTeam)).toEqual([
+      'Replace Swampert in slot 1', 'Replace Gardevoir in slot 2', 'Replace Aggron in slot 3',
+      'Replace Altaria in slot 4', 'Replace Roselia in slot 5', 'Replace Absol in slot 6',
+    ]);
   });
 
-  it('replaces only the chosen slot', () => {
-    const state = { ...createInitialState(emerald), team: fullTeam };
-    expect(plannerReducer(state, { type: 'add', pokemonId: 'silcoon', slot: 5 }).team)
-      .toEqual(['swampert', 'gardevoir', 'aggron', 'altaria', 'roselia', 'silcoon']);
+  it('disables only the slots that already hold the incoming Pokémon', () => {
+    expect(swapChoices('absol', ['absol', 'gardevoir', 'aggron', 'altaria', 'roselia', 'absol'])).toEqual([
+      'Absol is already in slot 1 (disabled)', 'Replace Gardevoir in slot 2', 'Replace Aggron in slot 3',
+      'Replace Altaria in slot 4', 'Replace Roselia in slot 5', 'Absol is already in slot 6 (disabled)',
+    ]);
+  });
+});
+
+describe('focus after a swap', () => {
+  let root: ReturnType<typeof createRoot> | null = null;
+  afterEach(() => { act(() => root?.unmount()); root = null; document.body.innerHTML = ''; });
+
+  const button = (label: string, scope: ParentNode = document) => {
+    const element = scope.querySelector<HTMLButtonElement>(`button[aria-label="${label}"]`);
+    if (!element) throw new Error(`Missing button: ${label}`);
+    return element;
+  };
+  const click = (element: HTMLElement) => act(() => { element.click(); });
+
+  it('moves focus to the team slot that got the new Pokémon when the swap starts in the details dialog', () => {
+    const container = document.body.appendChild(document.createElement('div'));
+    root = createRoot(container);
+    act(() => root!.render(createElement(App, { initialGame: emerald })));
+    const catalogue = document.getElementById('pokemon-search')!;
+    for (const name of ['Treecko', 'Grovyle', 'Sceptile', 'Torchic', 'Combusken', 'Blaziken']) click(button(`Add ${name} to team`, catalogue));
+
+    click(button('View Mudkip details', catalogue));
+    click(Array.from(document.querySelectorAll<HTMLButtonElement>('.dialog-footer button')).find(element => element.textContent?.includes('Swap Mudkip into team'))!);
+    click(button('Replace Blaziken in slot 6', document.querySelector('.swap-dialog')!));
+
+    expect(document.querySelector('.acquisition-dialog')!.hasAttribute('open')).toBe(false);
+    expect(document.querySelector('.swap-dialog')!.hasAttribute('open')).toBe(false);
+    const focused = document.activeElement as HTMLElement;
+    expect(focused.getAttribute('aria-label')).toBe('View Mudkip details');
+    expect(focused.closest('.team-slot')?.getAttribute('aria-label')).toBe('Team slot 6: Mudkip');
   });
 });

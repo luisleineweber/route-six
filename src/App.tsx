@@ -85,10 +85,19 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     setActiveSlot(null);
     setAnnouncement(`${pokemonIdentity(id).name} added to slot ${slot+1}.`);
   };
+  // Both dialogs close in their own effects. Child effects run first, so this
+  // effect moves focus after the dialogs closed and no longer make the page inert.
+  const swappedSlot = useRef<number|null>(null);
+  useEffect(() => {
+    if (swappedSlot.current === null) return;
+    teamSlots.current?.querySelector<HTMLElement>(`.team-slot:nth-child(${swappedSlot.current+1}) .card-link`)?.focus();
+    swappedSlot.current = null;
+  }, [state.team]);
   const swap = (slot:number) => {
     const id = swapping!;
     const replaced = state.team[slot]!;
     dispatch({type:'add',pokemonId:id,slot});
+    swappedSlot.current = slot;
     setSwapping(null); setDetails(null);
     setAnnouncement(`${pokemonIdentity(id).name} replaced ${pokemonIdentity(replaced).name} in slot ${slot+1}.`);
   };

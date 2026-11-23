@@ -13,6 +13,7 @@ export function SwapTeamDialog({ pokemonId, team, onSwap, onClose }: {
     else if (!pokemonId) dialog.current?.close();
   }, [pokemonId]);
   const incoming = pokemonId ? pokemonIdentity(pokemonId) : null;
+  const firstChoice = team.findIndex(memberId => memberId !== null && memberId !== pokemonId);
   return <dialog ref={dialog} className="swap-dialog" aria-labelledby="swap-title" aria-describedby="swap-hint" onCancel={onClose} onClick={event => { if (event.target === dialog.current) onClose(); }}>
     {incoming && <>
       <div className="swap-head">
@@ -21,7 +22,9 @@ export function SwapTeamDialog({ pokemonId, team, onSwap, onClose }: {
         <button type="button" className="icon-button" onClick={onClose} aria-label="Cancel swap"><X size={20} aria-hidden="true" /></button>
       </div>
       <ul className="swap-options">{team.map((memberId, slot) => memberId && <li key={slot}>
-        <button type="button" className="swap-option" autoFocus={slot === 0} onClick={() => onSwap(slot)} aria-label={`Replace ${pokemonIdentity(memberId).name} in slot ${slot + 1}`}>
+        {/* A slot that already holds the incoming Pokémon would not change the team. */}
+        <button type="button" className="swap-option" autoFocus={slot === firstChoice} disabled={memberId === pokemonId} onClick={() => onSwap(slot)}
+          aria-label={memberId === pokemonId ? `${incoming.name} is already in slot ${slot + 1}` : `Replace ${pokemonIdentity(memberId).name} in slot ${slot + 1}`}>
           <span className="slot-number" aria-hidden="true">{slot + 1}</span>
           <PokemonSprite id={memberId} />
           <span className="swap-option-name">{pokemonIdentity(memberId).name}</span>
