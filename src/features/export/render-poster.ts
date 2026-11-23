@@ -7,6 +7,12 @@ export const sheetMargin = 40;
 export const posterGap = 24;
 export const posterWidth = (sheetWidth - sheetMargin * 2 - posterGap * 2) / 3;
 export type ExportImages = Map<string, HTMLImageElement>;
+
+export function exportImage(images: ExportImages, src: string): HTMLImageElement {
+  const image = images.get(src);
+  if (!image) throw new Error(`Export image was not loaded: ${src}`);
+  return image;
+}
 const headingTextX = sheetMargin + 264;
 const headingTitleSize = 52;
 const headingTitleLineHeight = 60;
@@ -27,7 +33,7 @@ export function sheetHeadingHeight(ctx: CanvasRenderingContext2D, model: TeamExp
 
 export function drawSheetHeading(ctx: CanvasRenderingContext2D, model: TeamExport, images: ExportImages) {
   const layout = sheetHeadingLayout(ctx, model);
-  const logo = images.get(model.logoSrc)!;
+  const logo = exportImage(images, model.logoSrc);
   const scale = Math.min(232 / logo.naturalWidth, 100 / logo.naturalHeight);
   const width = logo.naturalWidth * scale;
   const height = logo.naturalHeight * scale;
@@ -56,12 +62,17 @@ export function drawPokemonPoster(ctx: CanvasRenderingContext2D, slot: ExportSlo
       ctx.lineTo(x, y + height); ctx.closePath(); ctx.fill();
     }
   });
+  if (slot.types.length === 2) {
+    // Light type colors can sit close together, so a thin line marks the split.
+    ctx.strokeStyle = colors.background; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(x + width, y); ctx.lineTo(x, y + height); ctx.stroke();
+  }
   slot.types.forEach((type, i) => {
     ctx.globalAlpha = 0.4;
     const size = 88;
     const iconX = i ? x + width - size - 12 : x + 12;
     const iconY = i ? height * 0.39 : 44;
-    ctx.drawImage(images.get(`/type-symbols/${type}.svg`)!, iconX, y + iconY, size, size);
+    ctx.drawImage(exportImage(images, `/type-symbols/${type}.svg`), iconX, y + iconY, size, size);
     ctx.globalAlpha = 1;
   });
   ctx.globalAlpha = 1;
@@ -72,7 +83,7 @@ export function drawPokemonPoster(ctx: CanvasRenderingContext2D, slot: ExportSlo
     ctx.fillText(`Dex #${String(slot.dex).padStart(3, '0')}`, x + width - 20, y + 18);
     ctx.textAlign = 'left';
     ctx.imageSmoothingEnabled = false;
-    ctx.drawImage(images.get(slot.spriteSrc!)!, x + (width - 152) / 2, y + 34, 152, 152);
+    ctx.drawImage(exportImage(images, slot.spriteSrc), x + (width - 152) / 2, y + 34, 152, 152);
     ctx.imageSmoothingEnabled = true;
   } else {
     ctx.textAlign = 'center'; setFont(ctx, 96, true); ctx.fillStyle = colors.muted;
@@ -95,17 +106,30 @@ export function drawSheetNotes(ctx: CanvasRenderingContext2D, lines: string[], y
 function sheetSiteLines(ctx: CanvasRenderingContext2D) {
   const siteUrl = import.meta.env.VITE_SITE_URL?.trim();
   setFont(ctx, 18);
-  return wrap(ctx, siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '') ?? '', sheetWidth - sheetMargin * 2);
+  return wrap(ctx, siteUrl?.replace(/^https?:\/\//, '').replace(/\/$/, '') ?? '', sheetWidth - sheetMargin * 2 - creditLogoSize - 16);
+}
+
+export const sheetLogoSrc = '/favicon.svg';
+const creditLogoSize = 52;
+const creditTextX = sheetMargin + creditLogoSize + 16;
+
+function creditLayout(ctx: CanvasRenderingContext2D) {
+  const siteLines = sheetSiteLines(ctx);
+  const textHeight = 26 + siteLines.length * 24;
+  return { siteLines, textHeight, height: Math.max(creditLogoSize, textHeight) };
 }
 
 export function sheetCreditHeight(ctx: CanvasRenderingContext2D) {
-  return 44 + sheetSiteLines(ctx).length * 24;
+  return creditLayout(ctx).height;
 }
 
-export function drawSheetCredit(ctx: CanvasRenderingContext2D, y: number) {
-  const siteLines = sheetSiteLines(ctx);
+/** The Route Six logo sits left of the site name and URL, centred on the text block. */
+export function drawSheetCredit(ctx: CanvasRenderingContext2D, images: ExportImages, y: number) {
+  const { siteLines, textHeight, height } = creditLayout(ctx);
+  ctx.drawImage(exportImage(images, sheetLogoSrc), sheetMargin, y + (height - creditLogoSize) / 2, creditLogoSize, creditLogoSize);
+  const textY = y + (height - textHeight) / 2;
   ctx.fillStyle = colors.ink; setFont(ctx, 20, true);
-  ctx.fillText('Made with Route Six', sheetMargin, y);
+  ctx.fillText('Made with Route Six', creditTextX, textY);
   ctx.fillStyle = colors.muted; setFont(ctx, 18);
-  siteLines.forEach((line, index) => ctx.fillText(line, sheetMargin, y + 28 + index * 24));
+  siteLines.forEach((line, index) => ctx.fillText(line, creditTextX, textY + 28 + index * 24));
 }

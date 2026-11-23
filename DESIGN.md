@@ -1,20 +1,37 @@
 # Route Six field guide
 
 Players use the guide next to their game in normal room light. Keep one calm
-light surface. Group content with space and tone. Do not use divider lines,
-eyebrow labels, hero text, or decorative stamps.
+surface: light in the light theme, dark grey in the dark theme. Group content
+with space and tone. Do not use divider lines, eyebrow labels, hero text, or
+decorative stamps.
 
 Keep the visible planner copy short. Put search descriptions in page metadata
 and agent summaries in separate text files.
 
 ## Colour
 
-Define colours in OKLCH. Keep the content surfaces white and neutral grey.
-Use a dark, strong colour from the selected game for the header, primary
-actions, and current selections. Show the field guide icon and header text in
-white. Mark the active planner with a white background and dark text. Keep
-hover and focus states clear on the dark header. Pair each status colour with
-a name and an icon. Type colours come only from the type logos.
+Define colours in OKLCH. In the light theme, keep the content surfaces white
+and neutral grey. Use a dark, strong colour from the selected game for the
+header, primary actions, and current selections. Show the field guide icon and
+header text in white. Mark the active planner with a white background and dark
+text. Keep hover and focus states clear on the dark header. Pair each status
+colour with a name and an icon. Type colours come only from the type logos.
+
+Follow the system colour scheme until the player presses the theme button in
+the header. The button switches between light and dark; the browser keeps that
+choice. The dark tokens live in
+one `:root[data-theme="dark"]` block, and an inline script in `index.html`
+sets `data-theme` before the first paint. Each game sets only a hue and a chroma. The
+stylesheet sets the lightness for each theme. In the dark theme, keep the
+surfaces neutral grey, from oklch 0.17 for the page to 0.29 for tile hover.
+Keep the header and primary actions in the dark game colour with white text.
+Use a light tone of the game colour (lightness 0.8) for links, focus,
+selection lines, pressed chips, checked boxes, switches that are on, and text
+selection, with dark text on it. Mark the active planner with the page
+background, light text, and a white ring. Make hover on primary actions
+lighter, not darker. Use light status colours on dark tint surfaces. In the
+defense chart, give the strongest effect the brightest mark. PNG exports stay
+light.
 
 ## Type
 
@@ -34,6 +51,11 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
   description of each view. On phones, put the game below the name and show
   only the planner names, without icons or descriptions. Group the game menu
   by generation. Mark games without reviewed local data as planned.
+- The theme button is one square, icon-only toggle at the end of the planner
+  row, in the same darker surface as the game control. It shows the theme a
+  press selects: a moon in the light theme, a sun in the dark theme. Its name
+  and state stay available to assistive technology. On phones it sits next to
+  the name and mark.
 - Each of Emerald's 17 types has a round logo (`public/types/`, MIT licence).
   Slots and catalogue cards show the logo alone. The name stays available as a
   tooltip and to assistive technology. The details dialog and the type
@@ -57,8 +79,8 @@ Keep progress settings, access status, sources, and level limits in the
 Progress Planner. Start the Progress Planner at Victory Road with the Current
 progress target. Keep the team and progress settings when the view changes.
 
-Show Progress Planner settings in a top bar before the team slots and
-catalogue. Wrap controls into rows on narrow screens. Both modes use the full
+Show Progress Planner settings in a top bar below the page heading and before
+the team slots and catalogue. Wrap controls into rows on narrow screens. Both modes use the full
 content width. Use only the eight Gym checkpoints, then Victory Road, in one
 flat list for every game. If a game has no Victory Road milestone, show only
 its eight Gyms. Start at Victory Road when it exists; otherwise start at Gym 8.
@@ -71,17 +93,25 @@ Show six slots in one row on wide screens, three per row on medium screens,
 and two compact cards per row on phones. Keep empty slots visible and mark each
 slot with its number. A tile has one main control that opens the details.
 Filled slots have one Remove control. Empty slots have one Add control.
+Give each filled slot and the details dialog header a soft sprite area in the
+Pokémon's type colours. Blend two colours for two types. Show Remove on hover
+and keyboard focus, and keep it visible on touch screens.
 
 When the full team row scrolls above the viewport, show a full-width team bar
-at the top. Center six small 4:3 cards in one row. Use two rows of three on
+at the top. Center six small 4:3 cards in one row. Keep the row narrower than
+the page on wide screens. Use two rows of three on
 narrow screens. Split the upper area 60/40: sprite on the left, type logos on
 the right. Show the name below. Keep empty cards with a question mark and Add
 control. Show Remove on hover and keyboard focus, and keep it visible on touch
-screens. Keep search and keyboard focus below the bar.
+screens. On phones the bar has no Remove control; players remove members in the
+team slots. Keep search and keyboard focus below the bar.
 
 Combine weaknesses, resistances, and immunities in one compact defense chart.
 Show six marks per attack type, one per team member. Use distinct symbols and
-colours with a short legend. Keep attack coverage as a compact type strip.
+colours with a short legend. Print the damage multiplier in each mark (4, 2, ½,
+¼, 0) and leave neutral marks blank. Give 4× marks a darker red. Tint an attack type when more members are
+weak to it than resist it. Keep attack coverage as a compact type strip.
+Fade uncovered types and give them a dashed ring, so grey types stay clear.
 
 Both catalogues use type logos and a search field. The Progress Planner also
 uses status chips that show their counts. Sort regional Pokédex species first
@@ -97,10 +127,13 @@ Keep acquisition paths in the Progress Planner details dialog.
 Show nine catalogue cards per row in the Team Planner and six in the Progress
 Planner on wide screens. Use fewer columns on small screens. Show all matching
 species in one grid without page controls. On small screens, let players choose two, three, or four columns.
-Team cards open details when selected. Use a small sprite movement on hover
+Show Add on hover and keyboard focus in both catalogues, and keep it visible on
+touch screens. Hide Add when the team is full. Team cards open details when selected. Use a small sprite movement on hover
 and focus. Place the types at the bottom right. Show Add above the top right
 corner on hover and keyboard focus. Keep Add visible on touch screens.
 Progress cards combine access status and source in one statement on wide screens.
+When a Progress card is too narrow for the name and types on one row, center the
+name above the types.
 On small screens, use three columns by default and large sprites. Put the name
 and type icon on one row below the sprite in both catalogues. Use a split icon
 for two types. Keep locations
@@ -110,6 +143,8 @@ visible results contain different access states.
 ## PNG exports
 
 PNG exports use a separate poster layout. They do not change the page layout.
+After a download, the export button shows a green check for two seconds. Do not
+show a text message for success; keep a visible message for errors only.
 Use three columns and export at 2400 pixels wide. Give each Pokémon a large
 pixel sprite. In Progress exports, use a type-colored image area with large
 type symbols in the background. For two types, split the color area diagonally into equal areas.

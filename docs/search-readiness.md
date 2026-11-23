@@ -1,6 +1,6 @@
 # Route Six search setup
 
-Updated on 6 November 2026.
+Updated on 13 November 2026.
 
 ## Page purpose
 
@@ -13,16 +13,26 @@ The title leads with the task players can do. Route Six remains the site name.
 The title stays the same when a player changes the game or planner view.
 Those controls share one URL; they are not separate search pages.
 
-Keep the interface compact. Use the original planner headings, header
-description, and loading message. Do not add visible marketing paragraphs or
+Keep the interface compact. Use the original planner headings and header
+description. Do not add visible marketing paragraphs or
 a guide section for search purposes.
 
 ## Build output
 
 The Vite search plugin writes the title, description, Open Graph tags, and
 Twitter card tags into the head of `dist/index.html`. This metadata does not
-add text to the visible page. Google renders the React app to read its page
-content; this build does not add a separate text version of the interface.
+add text to the visible page.
+
+The build then prerenders the start page. `vite build --ssr
+src/entry-server.tsx` builds a renderer into `dist-ssr/`, and
+`scripts/prerender.ts` renders the real initial interface with
+`react-dom/server` into `#root` of `dist/index.html`. The HTML then contains
+the header, game selector, planner navigation, team slots, type analysis, and
+the Pokédex list of the default game. It is the same tree the browser shows;
+there is no separate text version. In the browser, `src/main.tsx` loads the
+same game and calls `hydrateRoot`. Effects, workers, and canvas code do not
+run during the build render. A render error or a missing `#root` stops the
+build. `npm run dev` serves the empty template and renders on the client.
 
 `public/llms.txt` provides a separate plain-text summary for agents. It covers
 features, supported games, and limits. A help link in the HTML head points to

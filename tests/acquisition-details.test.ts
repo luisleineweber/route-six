@@ -20,7 +20,7 @@ function details(paths: AcquisitionPath[], status: 'available' | 'later' = 'avai
   return renderToStaticMarkup(createElement(GameContext, { value: emerald },
     createElement(AcquisitionDetails, {
       id: pokemonId, snapshot, progressPage: true, canAdd: true,
-      onClose: () => {}, onAdd: () => {}, onNavigate: () => {},
+      onClose: () => {}, onAdd: () => {}, onSwap: () => {}, onNavigate: () => {},
     })));
 }
 
@@ -40,6 +40,24 @@ const evolved: AcquisitionPath = {
 };
 
 describe('detail acquisition paths', () => {
+  it('keeps stage details read-only when no team action is available', () => {
+    const html = renderToStaticMarkup(createElement(GameContext, { value: emerald },
+      createElement(AcquisitionDetails, {
+        id: 'whiscash', snapshot: null, progressPage: true, canAdd: false,
+        onClose: () => {}, onAdd: () => {}, onNavigate: () => {},
+      })));
+    expect(html).toContain('<h2 id="details-title" tabindex="-1">Whiscash</h2>');
+    expect(html).not.toContain('class="dialog-footer"');
+  });
+
+  it('lists an extra evolution item in the evolution steps, like the PNG export', () => {
+    const shedinja: AcquisitionPath = { ...evolved, id: 'shedinja', pokemonId: 'shedinja',
+      sourceIds: [emerald.sources.find(source => source.pokemonId === 'nincada' && source.details.kind === 'wild')!.id],
+      evolutionIds: ['nincada-to-shedinja'], minimumLevel: 20 };
+    const steps = acquisitionPaths([shedinja]).split('<h4>Evolution steps</h4>')[1];
+    expect(steps).toContain('Use Poké Ball.');
+  });
+
   it.each(['available', 'later'] as const)('lists the current Pokémon evolution when %s', status => {
     const html = acquisitionPaths([evolved], status);
     expect(titles(html)).toEqual(['Evolve Barboach']);

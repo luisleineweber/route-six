@@ -37,6 +37,16 @@ export function pathSource(game: GameData, path: AcquisitionPath) {
   return source;
 }
 
+/** The held item a breeding rule needs, as an instruction. Null when the rule needs no item. */
+export function breedingHeldItemText(game: GameData, ruleId: string): string | null {
+  const rule = game.breedingRules.find(rule => rule.id === ruleId);
+  if (!rule) throw new Error(`Missing breeding rule: ${ruleId}`);
+  if (!rule.requiredHeldItemId) return null;
+  const item = game.items.find(item => item.id === rule.requiredHeldItemId);
+  if (!item) throw new Error(`Missing breeding held item: ${rule.requiredHeldItemId}`);
+  return `One parent must hold ${item.name}. The held item is kept.`;
+}
+
 export function breedingParentName(parent: ParentWitness, snapshot: AvailabilitySnapshot): string {
   return pokemonIdentity(selectionId(parent.pokemonId, parent.formId ?? snapshot.paths[parent.pathId]?.formId)).name;
 }

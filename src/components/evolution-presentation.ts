@@ -63,15 +63,25 @@ function requiredItemLabels(game: GameData, evolution: Evolution, requirement: R
   return [`${requirement.consumed ? 'Use' : 'Carry'} ${name}`];
 }
 
+/** Items the evolution needs besides its trigger item, such as the Poké Ball for Shedinja. */
+export function evolutionItemLabels(game: GameData, evolution: Evolution): string[] {
+  return requiredItemLabels(game, evolution, evolution.requirements);
+}
+
+/** Name the one gender that can evolve, when the species has more than one. */
+export function evolutionGenderLabel(game: GameData, evolution: Evolution): string | null {
+  const genders = [...new Set(evolution.genderTransitions?.map(transition => transition.from))];
+  return genders.length === 1 && selectionProfile(game, selectionId(evolution.fromPokemonId, evolution.fromFormId)).genders.length > 1
+    ? `${genders[0][0].toUpperCase()}${genders[0].slice(1)} only` : null;
+}
+
 export function evolutionLabels(game: GameData, evolution: Evolution): string[] {
   const item = evolution.itemId ? game.items.find(item => item.id === evolution.itemId) : null;
   if (evolution.itemId && !item) throw new Error(`Missing evolution item: ${evolution.itemId}`);
   const trigger = evolution.trigger === 'use-item' ? `Use ${item!.name}`
     : evolution.trigger === 'player-trade' ? item ? `Trade while holding ${item.name}` : 'Trade'
     : evolution.minimumLevel !== null ? `Level up at Lv. ${evolution.minimumLevel}+` : 'Level up';
-  const genders = [...new Set(evolution.genderTransitions?.map(transition => transition.from))];
-  const gender = genders.length === 1 && selectionProfile(game, selectionId(evolution.fromPokemonId, evolution.fromFormId)).genders.length > 1
-    ? [`${genders[0][0].toUpperCase()}${genders[0].slice(1)} only`] : [];
-  return [trigger, ...gender, ...evolution.conditions.map(condition => conditionLabel(game, condition)),
-    ...requiredItemLabels(game, evolution, evolution.requirements)];
+  const gender = evolutionGenderLabel(game, evolution);
+  return [trigger, ...(gender ? [gender] : []), ...evolution.conditions.map(condition => conditionLabel(game, condition)),
+    ...evolutionItemLabels(game, evolution)];
 }

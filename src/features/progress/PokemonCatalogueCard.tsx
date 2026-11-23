@@ -1,19 +1,22 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { Check, ChevronRight, Plus } from 'lucide-react';
+import { ArrowLeftRight, Check, ChevronRight, Plus } from 'lucide-react';
 import { pokemonById } from '../../data/dataset';
 import { PokemonSprite, PokemonTypes } from '../../components/PokemonIdentity';
 import { useGameData } from '../planner/GameContext';
 import { regionalDexName } from '../planner/pokedex-order';
 
-export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectionId, progressPage, activeSlot, canAdd, onAdd, onDetails, children }: {
+export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectionId, progressPage, activeSlot, canAdd, onAdd, onSwap, onDetails, children }: {
   pokemonId: string; regionalDex?: number; regionalDexSectionId?: string; progressPage: boolean; activeSlot: number | null; canAdd: boolean;
-  onAdd: (id: string) => void; onDetails: (id: string) => void; children?: ReactNode;
+  onAdd: (id: string) => void; onSwap: (id: string) => void; onDetails: (id: string) => void; children?: ReactNode;
 }) {
   const game = useGameData();
   const pokemon = pokemonById.get(pokemonId)!;
   const hasRegionalDex = regionalDex !== undefined;
   const dexName = hasRegionalDex ? regionalDexName(game, regionalDexSectionId) : 'National';
   const [feedback, setFeedback] = useState(0);
+  // The check icon joins the DOM on the first add only. The prerendered page
+  // then has no hidden icon in each of its cards; @starting-style fades it in.
+  const [added, setAdded] = useState(false);
   useEffect(() => {
     if (!feedback) return;
     const timer = window.setTimeout(() => setFeedback(0), 1800);
@@ -21,15 +24,20 @@ export function PokemonCatalogueCard({ pokemonId, regionalDex, regionalDexSectio
   }, [feedback]);
 
   return <article className={`pokemon-card${feedback ? ' pokemon-added' : ''}`}>
-    <span className="dex-number" title={`${dexName} Pokédex`}><span className="dex-name">{dexName} </span>#{String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}</span>
-    <button className="icon-button add-button" aria-label={`${activeSlot !== null ? 'Set' : 'Add'} ${pokemon.name}${activeSlot !== null ? ` in slot ${activeSlot + 1}` : ' to team'}`} disabled={!canAdd} onClick={() => {
+    <span className="dex-number" title={`${dexName} Pokédex`}><span className="dex-name">{`${dexName} `}</span>{`#${String(regionalDex ?? pokemon.nationalDex).padStart(3, '0')}`}</span>
+    {/* The add button stays during its feedback, also when that add fills the team. */}
+    {canAdd || feedback > 0 ? <button className="icon-button add-button" aria-label={`${activeSlot !== null ? 'Set' : 'Add'} ${pokemon.name}${activeSlot !== null ? ` in slot ${activeSlot + 1}` : ' to team'}`} disabled={!canAdd} onClick={() => {
       onAdd(pokemonId);
+      setAdded(true);
       setFeedback(value => value + 1);
     }}>
       <Plus className="add-icon" size={18} aria-hidden="true" />
-      <Check className="added-icon" size={18} aria-hidden="true" />
+      {added && <Check className="added-icon" size={18} aria-hidden="true" />}
       {feedback > 0 && <span className="pokemon-add-label" aria-hidden="true">Added</span>}
     </button>
+    : <button className="icon-button add-button swap-button" aria-label={`Swap ${pokemon.name} into team`} title="Swap into team" onClick={() => onSwap(pokemonId)}>
+      <ArrowLeftRight size={18} aria-hidden="true" />
+    </button>}
     <div className="catalogue-card-identity">
       <h3 className="card-identity"><button className="card-link" title={pokemon.name} aria-label={`View ${pokemon.name} details`} onClick={() => onDetails(pokemonId)}>
         <span className="card-sprite">

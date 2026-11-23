@@ -341,7 +341,7 @@
     "phase": "main-story",
     "displayOrder": 18,
     "previousIds": [
-      "clair-defeated"
+      "league-entry"
     ],
     "locationId": "indigo-plateau",
     "nextBossId": "brock",
@@ -708,6 +708,25 @@
       "referenceIds": [
         "silver-progression",
         "silver-special-encounters"
+      ],
+      "checkedOn": "2026-10-12"
+    }
+  },
+  {
+    "id": "league-entry",
+    "name": "Reach Indigo Plateau before battling Will",
+    "kind": "area",
+    "phase": "main-story",
+    "displayOrder": 38,
+    "previousIds": [
+      "clair-defeated"
+    ],
+    "locationId": "indigo-plateau",
+    "nextBossId": "will",
+    "review": {
+      "referenceIds": [
+        "silver-progression",
+        "silver-bosses"
       ],
       "checkedOn": "2026-10-12"
     }

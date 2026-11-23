@@ -1,17 +1,19 @@
-import { Compass, Route, Users } from 'lucide-react';
+import { Compass, Users } from 'lucide-react';
 import { GameSelector } from './GameSelector';
 import { RouteSixMark } from './RouteSixMark';
+import { ThemeToggle } from './ThemeToggle';
 
 export type PlannerPage = 'team' | 'progress' | 'full-game';
 
 const pages = [
   { id: 'team', name: 'Team Planner', description: 'Your six Pokémon and their types', Icon: Users },
   { id: 'progress', name: 'Progress Planner', description: 'Where and when to find your team', Icon: Compass },
-  { id: 'full-game', name: 'Full Game', description: 'Build each team toward the League', Icon: Route },
+  { id: 'full-game', name: 'Full Game', description: null, Icon: null },
 ] as const;
 
-export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
+export function AppHeader({ gameId, loadingGameId, onGameChange, page, onPageChange }: {
   gameId: string;
+  loadingGameId: string | null;
   onGameChange: (id: string) => void;
   page: PlannerPage;
   onPageChange: (page: PlannerPage) => void;
@@ -22,16 +24,17 @@ export function AppHeader({ gameId, onGameChange, page, onPageChange }: {
         <RouteSixMark />
         <span className="brand-copy"><strong>Route Six</strong><span>Pokémon playthrough planner</span></span>
       </p>
-      <GameSelector gameId={gameId} onChange={onGameChange} />
+      <GameSelector gameId={gameId} loadingGameId={loadingGameId} onChange={onGameChange} />
       <nav className="planner-nav" aria-label="Planner pages">
         {pages.map(({ id, name, description, Icon }) => <button type="button" key={id}
           className={page === id ? 'selected' : ''}
           aria-current={page === id ? 'page' : undefined}
           onClick={() => onPageChange(id)}>
-          <Icon size={21} aria-hidden="true" />
-          <span className="planner-nav-copy"><span>{name}</span><span>{description}</span></span>
+          {Icon && <Icon size={21} aria-hidden="true" />}
+          <span className="planner-nav-copy"><span>{name}</span>{description && <span>{description}</span>}</span>
         </button>)}
       </nav>
+      <ThemeToggle />
     </div>
   </header>;
 }

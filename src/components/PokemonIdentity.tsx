@@ -1,6 +1,9 @@
 import { useGameData } from '../features/planner/GameContext';
 import { selectionProfile } from '../domain/pokemon-selection';
 import { assetUrl } from '../data/asset-url';
+import type { CSSProperties } from 'react';
+import type { GameData } from '../domain/types';
+import { typeColor } from '../features/export/type-colors';
 
 export const typeName = (type: string) => type[0].toUpperCase() + type.slice(1);
 
@@ -32,4 +35,10 @@ export function PokemonTypes({ id, compact = false, joined = false }: { id: stri
   return <div className={`type-list${joinPair ? ' joined-types' : ''}`} title={joinPair ? profile.types.map(typeName).join(' / ') : undefined}>
     {profile.types.map(type => <TypeBadge key={type} type={type} compact={compact} />)}
   </div>;
+}
+
+/** Soft type colours behind a sprite. A single type uses its colour twice. */
+export function typeTint(game: GameData, id: string): CSSProperties {
+  const [first, second = first] = selectionProfile(game, id).types;
+  return { '--tint-a': typeColor(first), '--tint-b': typeColor(second) } as CSSProperties;
 }

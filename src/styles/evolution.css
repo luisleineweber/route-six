@@ -8,7 +8,7 @@
 .evolution-pokemon[aria-current='true'] { background: var(--accent-tint); color: var(--accent-ink); }
 .evolution-branches { display: grid; gap: 1rem; padding: 0; list-style: none; min-width: 0; }
 .evolution-branches > li { display: flex; align-items: center; gap: 0.5rem; min-width: 0; }
-.evolution-method { display: grid; justify-items: center; align-content: center; gap: 0.25rem; width: 6rem; flex-shrink: 0; text-align: center; color: var(--muted); font-size: 0.8125rem; overflow-wrap: anywhere; }
+.evolution-method { display: grid; justify-items: center; align-content: center; gap: 0.25rem; width: 7.5rem; flex-shrink: 0; text-align: center; color: var(--muted); font-size: 0.8125rem; text-wrap: balance; overflow-wrap: break-word; }
 .evolution-method ul { display: grid; gap: 0.375rem; padding: 0; list-style: none; }
 .pokemon-evolution > p { margin-top: 1rem; }
 .evolution-name { display: block; min-width: 0; max-width: 100%; width: 100%; overflow-x: auto; scrollbar-width: none; white-space: nowrap; }

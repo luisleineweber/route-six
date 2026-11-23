@@ -55,7 +55,7 @@ export function StageTeam({ stage, snapshot, state, dispatch, onDetails }: {
     {snapshot && !league && <details className="stage-editor" open={editing} onToggle={event => setEditing(event.currentTarget.open)}>
       <summary>Edit team for {stage.title}<ChevronDown size={16} aria-hidden="true" /></summary>
       {editing && <>
-      <p className="field-hint">Choose available replacements for this stage. Your final team stays the same.</p>
+      <p className="field-hint">Your final team stays the same.</p>
       <div className="stage-fields">{members!.map((member, slot) => {
         const overridden = Object.hasOwn(state.stageOverrides[stage.id] ?? {}, slot);
         const value = overridden ? member.pokemonId ?? '' : 'automatic';

@@ -25,6 +25,9 @@ export default defineConfig({
     },
   },
   worker: { format: 'es' },
+  // `vite build --ssr src/entry-server.tsx` builds the start page renderer for
+  // scripts/prerender.ts. It needs no copy of the public assets.
+  environments: { ssr: { build: { outDir: 'dist-ssr', copyPublicDir: false } } },
   // Full game fixtures retain proof caches. Run one at a time so concurrent
   // solver work does not exceed the integration setup time limit.
   test: { environment: 'node', include: ['tests/**/*.test.ts'], maxWorkers: 1 },

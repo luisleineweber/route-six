@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#fbfcfb" />
+    <script>
+      // Sets the colour theme before the first paint. Keep in step with
+      // src/theme/theme.ts; tests/theme.test.ts runs this script.
+      (function () {
+        var stored = null;
+        try { stored = window.localStorage.getItem('route-six-theme'); } catch (error) {}
+        var theme = stored === 'light' || stored === 'dark' ? stored
+          : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#0f0f0f' : '#fbfcfb';
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>

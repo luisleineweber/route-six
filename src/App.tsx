@@ -14,11 +14,14 @@ import { useAvailability } from './features/planner/use-availability';
 import { TeamSlots } from './features/team/TeamSlots';
 import { TeamBar } from './features/team/TeamBar';
 import { TeamWarnings } from './features/team/TeamWarnings';
+import { SwapTeamDialog } from './features/team/SwapTeamDialog';
 import { TypeAnalysis } from './features/team/TypeAnalysis';
 import { PokemonSearch } from './features/progress/PokemonSearch';
 import { AcquisitionDetails } from './components/AcquisitionDetails';
 import { ExportTeamButton } from './features/export/ExportTeamButton';
 import { FullGamePlanner } from './features/full-game/FullGamePlanner';
+import { GameLoadingNotice } from './components/GameLoadingNotice';
+import { LoadingNote } from './components/Loading';
 
 export default function App({ initialGame }: { initialGame: GameData }) {
   const [state,dispatch] = useReducer(plannerReducer,initialGame,createInitialState);
@@ -33,6 +36,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const [page,setPage] = useState<PlannerPage>('team');
   const [activeSlot,setActiveSlot] = useState<number|null>(null);
   const [details,setDetails] = useState<string|null>(null);
+  const [swapping,setSwapping] = useState<string|null>(null);
   const [announcement,setAnnouncement] = useState('');
   const main = useRef<HTMLElement>(null);
   const teamSlots = useRef<HTMLDivElement>(null);
@@ -41,7 +45,9 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const {snapshot,loading,error} = useAvailability(state, progressPage);
   const gameOption = gameCatalogue.find(option => option.id === state.gameId)!;
   useEffect(() => {
-    document.documentElement.style.setProperty('--accent', gameOption.accentColor);
+    const root = document.documentElement.style;
+    root.setProperty('--game-hue', String(gameOption.accent.hue));
+    root.setProperty('--game-chroma', String(gameOption.accent.chroma));
   }, [game, gameOption]);
   const team = state.team.filter((id):id is string=>id!==null);
   const [gameSelection] = useState(() => createGameSelection({
@@ -58,7 +64,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
       currentGame.current = next; currentState.current = nextState;
       setGame(next);
       dispatch({type:'restore',state:nextState});
-      setActiveSlot(null); setDetails(null);
+      setActiveSlot(null); setDetails(null); setSwapping(null);
       setAnnouncement(`Switched to ${next.game.name}.`);
     },
     onUndoAvailable: available => {
@@ -80,6 +86,22 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     setActiveSlot(null);
     setAnnouncement(`${pokemonIdentity(id).name} added to slot ${slot+1}.`);
   };
+  // Both dialogs close in their own effects. Child effects run first, so this
+  // effect moves focus after the dialogs closed and no longer make the page inert.
+  const swappedSlot = useRef<number|null>(null);
+  useEffect(() => {
+    if (swappedSlot.current === null) return;
+    teamSlots.current?.querySelector<HTMLElement>(`.team-slot:nth-child(${swappedSlot.current+1}) .card-link`)?.focus();
+    swappedSlot.current = null;
+  }, [state.team]);
+  const swap = (slot:number) => {
+    const id = swapping!;
+    const replaced = state.team[slot]!;
+    dispatch({type:'add',pokemonId:id,slot});
+    swappedSlot.current = slot;
+    setSwapping(null); setDetails(null);
+    setAnnouncement(`${pokemonIdentity(id).name} replaced ${pokemonIdentity(replaced).name} in slot ${slot+1}.`);
+  };
   const remove = (slot:number) => {
     dispatch({type:'remove',slot});
     if(activeSlot===slot)setActiveSlot(null);
@@ -87,18 +109,17 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   };
   return <GameContext value={game}>
     <a className="skip-link" href="#main">Skip to planner</a>
-    <AppHeader gameId={state.gameId} onGameChange={gameSelection.select} page={page} onPageChange={setPage} />
-    {canUndoGame && <div className="game-change-notice" role="group" aria-label="Game change">
+    <AppHeader gameId={state.gameId} loadingGameId={loadingGameId} onGameChange={gameSelection.select} page={page} onPageChange={setPage} />
+    {loadingGameId ? <GameLoadingNotice gameId={loadingGameId} /> : canUndoGame && <div className="game-change-notice" role="group" aria-label="Game change">
       <p>Switched to <strong>{game.game.name}</strong>.</p>
       <button ref={undoButton} type="button" className="secondary-button" onClick={() => gameSelection.undo()}><Undo2 size={17} aria-hidden="true" />Undo</button>
     </div>}
     {!progressUnavailable && page !== 'full-game' && <TeamBar team={state.team} teamRef={teamSlots} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} />}
-    <div className="app-shell">
-      {loadingGameId && <p role="status">Loading {gameCatalogue.find(option=>option.id===loadingGameId)!.name}…</p>}
+    <div className="app-shell" aria-busy={loadingGameId !== null}>
       {gameError && <div className="error-message" role="alert"><strong>The selected game could not load.</strong><p>{gameError}</p><p>Select the game again to retry.</p></div>}
-      {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
       <main ref={main} id="main" tabIndex={-1}>
-        <div className="section-heading planner-heading"><h1>{page === 'team' ? 'Team planner' : page === 'full-game' ? 'Full game planner' : 'Progress planner'}</h1>{!progressUnavailable && page !== 'full-game' && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
+        <div className="section-heading planner-heading"><h1>{page === 'team' ? 'Team Planner' : page === 'full-game' ? 'Full game planner' : 'Progress Planner'}</h1>{!progressUnavailable && page !== 'full-game' && <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />}</div>
+        {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
         {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">{page === 'full-game' ? 'Full Game' : 'Progress Planner'} is not available for {game.game.name} yet.</h2><p>You can still build a team and check its types.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
         {game.game.planner === null && <p className="field-hint" role="status">You can still use the Team Planner for {game.game.name}. Progress planning is not available yet.</p>}
         {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={()=>window.location.reload()}>Reload guide</button></div>}
@@ -106,17 +127,18 @@ export default function App({ initialGame }: { initialGame: GameData }) {
           <h2 id="team-title" className={page === 'full-game' ? '' : 'sr-only'}>{page === 'full-game' ? 'Your final team' : 'Your team'}</h2>
           {page === 'full-game' && <p className="final-team-hint">Choose six Pokémon for the Elite Four and Champion. This team is shared with the other planners.</p>}
           <div ref={teamSlots}><TeamSlots team={state.team} snapshot={progressPage ? snapshot : null} progressPage={progressPage} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} /></div>
-          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <p className="loading-note" role="status"><span className="loading-dot" />Checking team access{state.respectLevelLimit?' with the level limit':' without the level limit'}…</p>)}
+          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <LoadingNote title="Checking team access…" detail={state.respectLevelLimit ? 'Using the level limit for each team member.' : 'Checking without the level limit.'} />)}
         </section>
         {page==='team' && <TypeAnalysis team={state.team} />}
         {page === 'full-game' && <FullGamePlanner key={`full-game-${state.gameId}`} state={state} dispatch={dispatch} />}
-        <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
+        <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress'} team={state.team} activeSlot={activeSlot} onAdd={add} onSwap={setSwapping} onDetails={setDetails} onCancel={()=>setActiveSlot(null)} />
         </>}
       </main>
     </div>
     <AppFooter />
     <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
-    <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={progressPage} onClose={()=>setDetails(null)} onAdd={add} canAdd={activeSlot!==null || state.team.includes(null)} />
+    <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={progressPage} onClose={()=>setDetails(null)} onAdd={add} onSwap={setSwapping} canAdd={activeSlot!==null || state.team.includes(null)} />
+    <SwapTeamDialog pokemonId={swapping} team={state.team} onSwap={swap} onClose={()=>setSwapping(null)} />
     {progressPage && loading && <span className="sr-only" aria-live="polite">Checking Pokémon availability.</span>}
   </GameContext>;
 }

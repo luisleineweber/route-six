@@ -30,8 +30,10 @@ export function groupTeamWarnings(snapshot: AvailabilitySnapshot, warnings: Team
         title = blocker?.code === 'level-limit' ? 'Above the level limit' : 'Requirement not met';
         message = blocker?.message ?? 'No source meets the selected progress and level limit.';
       }
-    } else if (warning.code === 'choice-conflict') title = 'Conflicting team choices';
-    else if (warning.code === 'finite-resource') title = 'Not enough shared resources';
+    }
+    // A conflict without relatedId comes from several choices or resources together, so the general heading stays.
+    else if (warning.code === 'choice-conflict' && warning.relatedId !== null) title = 'Conflicting team choices';
+    else if (warning.code === 'finite-resource' && warning.relatedId !== null) title = 'Not enough shared resources';
     else if (warning.code === 'too-many-members') title = 'Too many team members';
     const key = JSON.stringify([title, message]);
     const group = groups.get(key) ?? { title, message, pokemonIds: [] };

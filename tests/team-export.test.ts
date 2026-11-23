@@ -26,7 +26,7 @@ describe('team PNG content', () => {
     const result = snapshot([evolved], ['evolved']);
     const state = { ...initialState, milestoneId: result.query.milestoneId, team: ['raichu', null, null, null, null, null] };
     const model = buildTeamExport(game, state, true, result);
-    expect(model.logoSrc).toBe('/games/emerald-logo.png');
+    expect(model.logoSrc).toBe('/games/emerald-logo.webp');
     expect(model.subtitle).not.toContain(game.game.name);
     expect(model.subtitle).not.toContain('Current/Goal');
     expect(model.slots[0].spriteSrc).toBe('/pokemon/alternate-raichu.webp');
@@ -38,7 +38,7 @@ describe('team PNG content', () => {
   it('keeps six slot positions and exact damage multipliers', () => {
     const model = buildTeamExport(emerald, { ...initialState, team: [null, 'swampert', null, null, null, null] }, false, null);
     expect(model.slots).toHaveLength(6);
-    expect(model.logoSrc).toBe('/games/emerald-logo.png');
+    expect(model.logoSrc).toBe('/games/emerald-logo.webp');
     expect(model.slots[0].dex).toBeNull();
     expect(model.slots[1].name).toBe('Swampert');
     expect(model.slots[1].baseStats).toEqual([100, 110, 90, 60, 85, 90]);

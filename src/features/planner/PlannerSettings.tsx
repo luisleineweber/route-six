@@ -30,12 +30,12 @@ export function PlannerSettings({ state, dispatch }: { state: PlannerState; disp
             <input type="radio" name="target" checked={state.target === option.id} onChange={() => update({ target: option.id })} />
             <span>{option.name}</span>
           </label>)}</div>
-          <p id="target-hint" className="field-hint">{target.description} Search filters change the list only.</p>
+          <p id="target-hint" className="field-hint">{target.description}</p>
         </fieldset>
         <div className="field">
           <label className="level-label" htmlFor="level-limit">Use level limits</label>
           <label className="switch-row" htmlFor="level-limit">
-            <span>{boss ? `${boss.name} · Lv. ${boss.highestLevel}` : 'No active level limit'}</span>
+            <span className="switch-value">{boss ? `${boss.name} · Lv. ${boss.highestLevel}` : 'No active level limit'}</span>
             <span className="switch-control"><span className="switch-state" aria-hidden="true">{state.respectLevelLimit ? 'On' : 'Off'}</span>
               <input id="level-limit" className="switch" type="checkbox" role="switch" aria-label="Use level limits" aria-describedby="level-limit-hint" checked={state.respectLevelLimit} onChange={e => update({ respectLevelLimit: e.target.checked })} /></span>
           </label>
