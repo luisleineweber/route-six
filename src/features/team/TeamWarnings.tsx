@@ -4,9 +4,11 @@ import { checkTeam } from '../../domain/team/check-team';
 import type { AvailabilitySnapshot, PlanningTarget } from '../../domain/types';
 import { groupTeamWarnings } from './team-warning-summary';
 
-export function TeamWarnings({ snapshot, team, target, onDetails }: {
-  snapshot: AvailabilitySnapshot; team: string[]; target: PlanningTarget; onDetails: (id: string) => void;
+export function TeamWarnings({ snapshot, team: slots, target, onDetails }: {
+  snapshot: AvailabilitySnapshot; team: readonly (string | null)[]; target: PlanningTarget; onDetails: (id: string) => void;
 }) {
+  const occupied = slots.flatMap((id, slot) => id === null ? [] : [{ id, slot }]);
+  const team = occupied.map(member => member.id);
   if (!team.length) return <div className="team-access team-access-summary" role="status"><Info size={18} aria-hidden="true" /><p>Add a Pokémon to check team access.</p></div>;
   const check = checkTeam(snapshot, team, target);
   const later = team.filter(id => snapshot.entries[id].status === 'later');
@@ -35,6 +37,10 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
       <div className="team-issue-reason">
         <h4>{group.title}</h4>
         {group.message && <p>{group.message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonNames.get(word) ?? word)}</p>}
+        {group.conflictSlots && <p>{group.conflictSlots.map(index => {
+          const { id, slot } = occupied[index];
+          return `Slot ${slot + 1}: ${pokemonIdentity(id).name}`;
+        }).join(', ')}</p>}
       </div>
       {group.pokemonIds.length > 0 && <div className="team-issue-members">{group.pokemonIds.map(id => <button key={id} type="button" className="team-issue-details" onClick={() => onDetails(id)} aria-label={`View ${pokemonIdentity(id).name} access details`} aria-haspopup="dialog">
         {pokemonIdentity(id).name}

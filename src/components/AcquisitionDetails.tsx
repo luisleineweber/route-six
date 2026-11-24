@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ChevronDown, MapPin, Plus, X } from 'lucide-react';
+import { ArrowLeftRight, ChevronDown, MapPin, Plus, X } from 'lucide-react';
 import { sharedData, pokemonById, pokemonIdentity } from '../data/dataset';
 import { gameReferences } from '../data/game-references';
 import { useGameData } from '../features/planner/GameContext';
@@ -15,7 +15,7 @@ import { selectionProfile } from '../domain/pokemon-selection';
 import { regionalDexName } from '../features/planner/pokedex-order';
 
 
-export function AcquisitionDetails({ id, snapshot, progressPage, onClose, onAdd, onNavigate, canAdd, teamName = 'team' }: { id:string|null; snapshot:AvailabilitySnapshot|null; progressPage:boolean; onClose:()=>void; onAdd:(id:string)=>void; onNavigate:(id:string)=>void; canAdd:boolean; teamName?:string }) {
+export function AcquisitionDetails({ id, snapshot, progressPage, onClose, onAdd, onSwap, onNavigate, canAdd, teamName = 'team' }: { id:string|null; snapshot:AvailabilitySnapshot|null; progressPage:boolean; onClose:()=>void; onAdd:(id:string)=>void; onSwap:(id:string)=>void; onNavigate:(id:string)=>void; canAdd:boolean; teamName?:string }) {
   const game = useGameData();
   const dialog = useRef<HTMLDialogElement>(null);
   const title = useRef<HTMLHeadingElement>(null);
@@ -52,7 +52,10 @@ export function AcquisitionDetails({ id, snapshot, progressPage, onClose, onAdd,
         </details>
       </> : <div className="details-loading"><LoadingNote title="Checking how to get this Pokémon…" /><div className="details-skeleton" aria-hidden="true">{[0, 1, 2].map(row => <div key={row}><SkeletonLine width="40%" /><SkeletonLine width="85%" /></div>)}</div></div>) : null}
       {progressPage && <details className="data-references"><summary>Sources <ChevronDown className="chevron" size={16} aria-hidden="true" /></summary><p>Sources for {game.game.name}. Last checked: {game.game.review.checkedOn}.</p><ul>{gameReferences(sharedData,game).map(r=><li key={r.id}><a href={r.url} target="_blank" rel="noreferrer">{r.title}</a></li>)}</ul></details>}</div>
-      <div className="dialog-footer">{!canAdd && <p className="dialog-footer-note">Your {teamName} is full.</p>}<button className="primary-button" disabled={!canAdd} onClick={()=>{onAdd(id!);onClose();}}><Plus size={17} aria-hidden="true" /> Add {pokemon.name} to {teamName}</button></div>
+      <div className="dialog-footer">{canAdd
+        ? <button className="primary-button" onClick={()=>{onAdd(id!);onClose();}}><Plus size={17} aria-hidden="true" /> Add {pokemon.name} to {teamName}</button>
+        : <><p className="dialog-footer-note">Your {teamName} is full.</p><button className="primary-button" onClick={()=>onSwap(id!)}><ArrowLeftRight size={17} aria-hidden="true" /> Swap {pokemon.name} into {teamName}</button></>}
+      </div>
     </>}
   </dialog>;
 }

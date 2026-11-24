@@ -11,6 +11,7 @@ interface TeamWarningGroup {
   title: string;
   message: string | null;
   pokemonIds: string[];
+  conflictSlots?: number[];
 }
 
 export function groupTeamWarnings(snapshot: AvailabilitySnapshot, warnings: TeamWarning[]) {
@@ -38,6 +39,9 @@ export function groupTeamWarnings(snapshot: AvailabilitySnapshot, warnings: Team
     const key = JSON.stringify([title, message]);
     const group = groups.get(key) ?? { title, message, pokemonIds: [] };
     if (id && !group.pokemonIds.includes(id)) group.pokemonIds.push(id);
+    if (warning.code === 'choice-conflict' || warning.code === 'finite-resource') {
+      group.conflictSlots = [...new Set([...(group.conflictSlots ?? []), ...warning.slotIndexes])].sort((a, b) => a - b);
+    }
     groups.set(key, group);
   }
   return [...groups.values()];

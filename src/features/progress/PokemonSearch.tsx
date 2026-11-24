@@ -32,9 +32,9 @@ function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPa
   return details.join(' · ');
 }
 
-export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onDetails, onCancel, teamName = 'team' }: {
+export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onSwap, onDetails, onCancel, teamName = 'team' }: {
   snapshot: AvailabilitySnapshot | null; target: PlanningTarget; progressPage: boolean; team: (string|null)[];
-  activeSlot: number|null; onAdd: (id:string) => void; onDetails: (id:string) => void; onCancel: () => void;
+  activeSlot: number|null; onAdd: (id:string) => void; onSwap: (id:string) => void; onDetails: (id:string) => void; onCancel: () => void;
   /** Names the team that receives added Pokémon. */
   teamName?: string;
 }) {
@@ -76,7 +76,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     : 'All Pokémon';
   return <section className={`catalogue ${progressPage ? 'progress-catalogue' : 'team-catalogue'}`} id="pokemon-search" aria-labelledby="catalogue-title">
     <div className="section-heading"><h2 id="catalogue-title">{catalogueTitle}</h2></div>
-    {!canAdd && <p className="full-team-hint">Your {teamName} is full. Remove a member to add another Pokémon.</p>}
+    {!canAdd && <p className="full-team-hint">Your {teamName} is full. Use the swap button on a Pokémon to replace a team member.</p>}
     {activeSlot !== null && <div className="slot-prompt" role="status"><span>Choose a Pokémon for slot {activeSlot+1}.</span><button className="text-button" onClick={onCancel}><X size={16} aria-hidden="true" /> Cancel</button></div>}
     <CatalogueFilters resetKey={JSON.stringify([query, selectedTypes, status])} statusFilters={progressPage && <div className="chip-row" role="group" aria-label="Filter by status">{statusChips.map(({id,name,count,Icon}) => <button key={id} className={`chip status-${id}`} aria-pressed={status===id} onClick={() => setStatusChoice(id)}>
         {Icon && <Icon size={15} aria-hidden="true" />}{name}{counts && <span className="chip-count">{count}</span>}</button>)}</div>}>
@@ -124,7 +124,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
             <div className="dex-grid-heading national-dex-heading"><h3>National Pokédex</h3><span className="dex-group-count">{nationalVisible.length} Pokémon</span></div>
             {game.game.id === 'emerald' && <p className="dex-grid-note">The National Pokédex unlocks after the Hall of Fame. Some species are available earlier.</p>}
           </>}
-          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails} teamName={teamName}>
+          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onSwap={onSwap} onDetails={onDetails} teamName={teamName}>
           {progressPage && entry && <>
             <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
             {showCompactStatus && <p className={`access-compact status-label status-${entry.status}`} title={`${statusNames[entry.status]}: ${compactLabel}`}>{StatusIcon && <StatusIcon size={12} aria-hidden="true" />}<span>{compactLabel}</span></p>}

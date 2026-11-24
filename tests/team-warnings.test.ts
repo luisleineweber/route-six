@@ -118,11 +118,11 @@ describe('team access warnings', () => {
     expect(html).toContain('Minimum level 55 exceeds the level limit of 49.');
   });
 
-  it('keeps team resource conflicts visible without inventing a species link', () => {
+  it('keeps the affected slots for team resource conflicts', () => {
     const snapshot = blocked([]);
     const message = 'These members need incompatible choices in Starter. Select another family or source.';
     expect(groupTeamWarnings(snapshot, [{ code: 'choice-conflict', message, relatedId: 'starter', slotIndexes: [0, 1] }]))
-      .toEqual([{ title: 'Conflicting team choices', message, pokemonIds: [] }]);
+      .toEqual([{ title: 'Conflicting team choices', message, pokemonIds: [], conflictSlots: [0, 1] }]);
   });
 
   it('does not describe obtainable members as unavailable when their choices conflict', () => {
@@ -131,9 +131,12 @@ describe('team access warnings', () => {
     for (const id of ['treecko', 'torchic']) source(game, id, id, 5, none, { maxUses: 1, choice: { groupId: 'starter', optionId: id } });
     const result = getAvailability(data, { gameId: 'emerald', milestoneId: 'gate', respectLevelLimit: false });
     if (!result.ok) throw new Error('Fixture query failed');
-    const html = render(result.value, ['treecko', 'torchic']);
+    const html = renderToStaticMarkup(createElement(TeamWarnings, {
+      snapshot: result.value, team: ['treecko', null, 'torchic'], target: 'current-progress', onDetails: () => {},
+    }));
     expect(html).toContain('This team needs a change');
     expect(html).toContain('Conflicting team choices');
+    expect(html).toContain('Slot 1: Treecko, Slot 3: Torchic');
     expect(html).not.toContain('Pokémon unavailable');
     expect(html).not.toContain('Select a Pokémon for access details.');
     expect(html).not.toContain('<button');
