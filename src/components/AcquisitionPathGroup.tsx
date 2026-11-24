@@ -16,7 +16,7 @@ export function AcquisitionPathGroup({ group, snapshot }: { group: PathGroup; sn
   return <details className="path-details">
     <summary>
       <span className="path-title">{group.title}<span className="path-subtitle path-method">{group.iconSrc && <img className="method-icon" src={assetUrl(group.iconSrc)} alt="" width={24} height={24} />}<span>{group.method}{options.length > 1 && ` · ${options.length} options`}</span></span></span>
-      <span className="path-meta">From Lv. {minimumLevel}</span>
+      {group.methodLevel !== minimumLevel && <span className="path-meta">From Lv. {minimumLevel}</span>}
       <ChevronDown className="chevron" size={18} aria-hidden="true" />
     </summary>
     {options.length === 1 ? <AcquisitionPathBody path={options[0]} snapshot={snapshot} /> : <div className="path-options">

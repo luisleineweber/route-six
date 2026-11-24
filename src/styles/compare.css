@@ -24,17 +24,16 @@
 .compare-card h4 { margin-bottom: 0.5rem; }
 .compare-figure strong { font-size: 1.5rem; font-variant-numeric: tabular-nums; }
 .compare-label { margin-top: 0.75rem; color: var(--muted); font-size: 0.8125rem; font-weight: 600; }
-.compare-block > .compare-label { margin-top: 0; }
 .compare-types { margin-top: 0.5rem; }
 
-/* Team defense: attack types in rows, one column of counts for each team. */
-.compare-table-wrap { margin-block: 0.75rem 1rem; overflow-x: auto; }
+/* Team defense groups three count columns under each team. */
+.compare-table-wrap { overflow-x: auto; }
 .compare-defense { width: 100%; border-collapse: separate; border-spacing: 0 2px; font-size: 0.875rem; }
 .compare-defense th, .compare-defense td { padding: 0.25rem 0.5rem; text-align: start; }
 .compare-defense thead th { color: var(--muted); font-size: 0.8125rem; font-weight: 600; vertical-align: bottom; }
 .compare-defense thead .compare-count { display: block; }
 .compare-defense tbody th { font-weight: 600; }
-.compare-defense td { border-radius: 999px; }
+.compare-defense :is(th[scope="colgroup"], .compare-defense-labels th, td) { text-align: center; }
 .compare-type { display: inline-flex; align-items: center; gap: 0.5rem; }
 .compare-mark-zero { background: transparent; box-shadow: inset 0 0 0 1px var(--defense-empty-line); color: var(--muted); font-weight: 400; }
 .compare-defense-empty { color: var(--muted); }
@@ -42,11 +41,17 @@
   .compare-block { padding: 1rem; }
   .compare-defense th, .compare-defense td { padding-inline: 0.25rem; }
   .compare-type { gap: 0.375rem; }
-  .compare-defense .defense-marks { gap: 2px; }
+}
+@media (max-width: 27rem) {
+  .compare-block { padding-inline: 0.75rem; }
+  .compare-defense th, .compare-defense td { padding-inline: 0.0625rem; }
+  .compare-defense tbody th { font-size: 0.75rem; }
+  .compare-defense .compare-type img { display: none; }
+  .compare-defense thead .compare-defense-labels th { font-size: 0.6875rem; }
 }
 
-/* Obtainability */
-.compare-access-counts { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin: 0; }
+/* Team access */
+.compare-access-counts { margin: 0; }
 .compare-access-counts dt { color: var(--muted); font-size: 0.8125rem; font-weight: 600; }
 .compare-access-counts dd { margin: 0; font-variant-numeric: tabular-nums; }
 .compare-access-counts dd strong { font-size: 1.25rem; }

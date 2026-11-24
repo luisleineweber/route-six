@@ -58,14 +58,16 @@ function acquisitionGroup(game: GameData, path: AcquisitionPath) {
     if (!evolution) throw new Error(`Missing acquisition evolution: ${evolutionId}`);
     return { id: JSON.stringify(['evolution', path.pokemonId, evolution.id]),
       title: `Evolve ${pokemonIdentity(selectionId(evolution.fromPokemonId, evolution.fromFormId)).name}`,
-      method: evolutionLabels(game, evolution).join(' · '), iconSrc: null };
+      method: evolutionLabels(game, evolution).join(' · '), iconSrc: null,
+      // The level the method already names, such as 23 in "Level up at Lv. 23+".
+      methodLevel: evolution.minimumLevel };
   }
   const source = pathSource(game, path);
   const location = game.locations.find(location => location.id === source.locationId)!;
   const method = sourceMethod(source.details);
   return { id: JSON.stringify([location.id, source.details.kind, source.details.kind === 'wild' ? source.details.method : null]),
     title: source.details.kind === 'breeding' ? 'Day Care breeding' : location.name,
-    method: method.name, iconSrc: method.iconSrc };
+    method: method.name, iconSrc: method.iconSrc, methodLevel: null };
 }
 
 export function groupAcquisitionPaths(game: GameData, snapshot: AvailabilitySnapshot, ids: string[]) {
@@ -93,8 +95,9 @@ export function firstAccessLabel(game: GameData, path: AcquisitionPath, mileston
   if (!point) throw new Error(`Missing first-access point: ${milestoneId}`);
   const { title } = acquisitionGroup(game, path);
   if (title === point.name) return title;
-  const relation = point.kind === 'route' || point.kind === 'area' ? 'at' : 'after';
-  return `${title} — ${relation} “${point.name}”`;
+  // Places read as plain text; event names keep quotes so they read as one name.
+  if (point.kind === 'route' || point.kind === 'area') return `${title} at ${point.name}`;
+  return `${title} after “${point.name}”`;
 }
 
 export function firstAccessOptions(game: GameData, snapshot: AvailabilitySnapshot, entry: AvailabilityEntry) {

@@ -15,7 +15,7 @@ describe('Catalogue batches', () => {
   it('renders every card on the server, so the prerendered page and hydration match', () => {
     const html = renderToStaticMarkup(createElement(GameContext, { value: emerald }, createElement(PokemonSearch, {
       snapshot: null, target: 'whole-game', progressPage: false, team: Array(6).fill(null), activeSlot: null,
-      onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+      onAdd: () => {}, onSwap: () => {}, onDetails: () => {}, onCancel: () => {},
     })));
     expect(emerald.profiles.length).toBeGreaterThan(firstBatchSize);
     expect(html.match(/<article\b/g)).toHaveLength(emerald.profiles.length);

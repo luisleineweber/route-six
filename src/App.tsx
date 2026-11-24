@@ -7,13 +7,14 @@ import type { GameData } from './domain/types';
 import { AppHeader, type PlannerPage } from './components/AppHeader';
 import { AppFooter } from './components/AppFooter';
 import { GameContext } from './features/planner/GameContext';
-import { PlannerSettings } from './features/planner/PlannerSettings';
+import { PlannerSettings, type PlannerSettingsChange } from './features/planner/PlannerSettings';
 import { createInitialState, plannerReducer } from './features/planner/state';
 import { createGameSelection } from './features/planner/game-selection';
 import { useAvailability } from './features/planner/use-availability';
 import { TeamSlots } from './features/team/TeamSlots';
 import { TeamBar } from './features/team/TeamBar';
 import { TeamWarnings } from './features/team/TeamWarnings';
+import { SwapTeamDialog } from './features/team/SwapTeamDialog';
 import { TypeAnalysis } from './features/team/TypeAnalysis';
 import { PokemonSearch } from './features/progress/PokemonSearch';
 import { AcquisitionDetails } from './components/AcquisitionDetails';
@@ -36,6 +37,8 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const [page,setPage] = useState<PlannerPage>('team');
   const [activeSlot,setActiveSlot] = useState<number|null>(null);
   const [details,setDetails] = useState<string|null>(null);
+  const [swapping,setSwapping] = useState<string|null>(null);
+  const swappedSlot = useRef<number|null>(null);
   const [announcement,setAnnouncement] = useState('');
   const main = useRef<HTMLElement>(null);
   const teamSlots = useRef<HTMLDivElement>(null);
@@ -46,12 +49,19 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const progressPage = page === 'progress' && !progressUnavailable;
   // The comparison checks access with the same shared settings and one snapshot for both teams.
   const comparisonAccess = comparison !== null && game.game.planner !== null;
-  const {snapshot,loading,error} = useAvailability(state, progressPage || comparisonAccess);
+  const availability = useAvailability(state, progressPage || comparisonAccess);
+  const {snapshot,loading,error,retry} = availability;
   const detailsWithAccess = progressPage || comparisonAccess;
   // Every add and remove action goes to the second team while the comparison is open.
   const editedTeam = comparison ? comparison.slots : state.team;
   const editedSlot = comparison ? comparison.activeSlot : activeSlot;
   const teamName = comparison ? 'second team' : 'team';
+  const updateSettings: PlannerSettingsChange = values => dispatch({ type:'settings', values });
+  useEffect(() => {
+    if (swappedSlot.current === null) return;
+    teamSlots.current?.querySelector<HTMLElement>(`.team-slot:nth-child(${swappedSlot.current+1}) .card-link`)?.focus();
+    swappedSlot.current = null;
+  }, [editedTeam]);
   useEffect(() => {
     if (comparison !== null || !returnToCompareButton.current) return;
     returnToCompareButton.current = false;
@@ -63,7 +73,6 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     root.setProperty('--game-hue', String(gameOption.accent.hue));
     root.setProperty('--game-chroma', String(gameOption.accent.chroma));
   }, [game, gameOption]);
-  const team = state.team.filter((id):id is string=>id!==null);
   const [gameSelection] = useState(() => createGameSelection({
     getState: () => currentState.current,
     getGame: () => currentGame.current,
@@ -78,7 +87,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
       currentGame.current = next; currentState.current = nextState;
       setGame(next);
       dispatch({type:'restore',state:nextState});
-      setActiveSlot(null); setDetails(null);
+      setActiveSlot(null); setDetails(null); setSwapping(null);
       dispatchComparison({type:'close'});
       setAnnouncement(`Switched to ${next.game.name}.`);
     },
@@ -94,12 +103,23 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     document.getElementById('pokemon-search')?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
     document.getElementById('pokemon-query')?.focus({preventScroll:true});
   };
+  const setMember = (id:string,slot:number) => {
+    if (comparison) dispatchComparison({type:'add',pokemonId:id,slot});
+    else { dispatch({type:'add',pokemonId:id,slot}); setActiveSlot(null); }
+  };
   const add = (id:string) => {
     const slot = editedSlot??editedTeam.indexOf(null);
     if (slot<0) return;
-    if (comparison) dispatchComparison({type:'add',pokemonId:id,slot});
-    else { dispatch({type:'add',pokemonId:id,slot}); setActiveSlot(null); }
+    setMember(id,slot);
     setAnnouncement(`${pokemonIdentity(id).name} added to ${comparison ? 'second team ' : ''}slot ${slot+1}.`);
+  };
+  const swap = (slot:number) => {
+    const replaced = editedTeam[slot];
+    if (!swapping || !replaced || swapping === replaced) return;
+    swappedSlot.current = slot;
+    setMember(swapping,slot);
+    setSwapping(null); setDetails(null);
+    setAnnouncement(`${pokemonIdentity(swapping).name} replaced ${pokemonIdentity(replaced).name} in ${comparison ? 'second team ' : ''}slot ${slot+1}.`);
   };
   const remove = (slot:number) => {
     if (comparison) dispatchComparison({type:'remove',slot});
@@ -110,7 +130,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const openComparison = () => { setActiveSlot(null); dispatchComparison({type:'open'}); };
   const closeComparison = () => { returnToCompareButton.current = true; dispatchComparison({type:'close'}); };
   const copyCurrentTeam = () => { dispatchComparison({type:'copy',team:state.team}); setAnnouncement('Current team copied to the second team.'); };
-  const changePage = (next:PlannerPage) => { dispatchComparison({type:'close'}); setPage(next); };
+  const changePage = (next:PlannerPage) => { setSwapping(null); dispatchComparison({type:'close'}); setPage(next); };
   return <GameContext value={game}>
     <a className="skip-link" href="#main">Skip to planner</a>
     <AppHeader gameId={state.gameId} loadingGameId={loadingGameId} onGameChange={gameSelection.select} page={page} onPageChange={changePage} />
@@ -122,30 +142,32 @@ export default function App({ initialGame }: { initialGame: GameData }) {
     <div className="app-shell" aria-busy={loadingGameId !== null}>
       {gameError && <div className="error-message" role="alert"><strong>The selected game could not load.</strong><p>{gameError}</p><p>Select the game again to retry.</p></div>}
       <main ref={main} id="main" tabIndex={-1}>
-        {comparison ? <TeamComparison state={state} dispatch={dispatch} draft={comparison} draftRef={teamSlots} availability={{snapshot,loading,error}}
+        {comparison ? <TeamComparison state={state} onSettingsChange={updateSettings} draft={comparison} draftRef={teamSlots} availability={availability}
           onBack={closeComparison} onCopy={copyCurrentTeam} onChoose={choose} onRemove={remove} onDetails={setDetails} /> : <>
         <div className="section-heading planner-heading"><h1>{page === 'team' ? 'Team Planner' : 'Progress Planner'}</h1>{!progressUnavailable && <div className="planner-actions">
           {page === 'team' && <button ref={compareButton} type="button" className="secondary-button compare-button" onClick={openComparison}><GitCompareArrows size={18} aria-hidden="true" /><span className="compare-label-long">Compare teams</span><span className="compare-label-short">Compare</span></button>}
           <ExportTeamButton key={page} state={state} progressPage={progressPage} snapshot={snapshot} />
         </div>}</div>
-        {progressPage && <PlannerSettings state={state} dispatch={dispatch} />}
+        {progressPage && <PlannerSettings state={state} onChange={updateSettings} />}
         {progressUnavailable ? <section className="empty-results" aria-labelledby="progress-not-ready-title"><h2 id="progress-not-ready-title">Progress Planner is not available for {game.game.name} yet.</h2><p>You can still build a team and check its types.</p><button className="secondary-button" onClick={()=>{setPage('team');main.current?.focus();}}>Open Team Planner</button></section> : <>
         {game.game.planner === null && <p className="field-hint" role="status">You can still use the Team Planner for {game.game.name}. Progress planning is not available yet.</p>}
-        {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={()=>window.location.reload()}>Reload guide</button></div>}
+        {progressPage && error && <div className="error-message" role="alert"><strong>The guide could not check access.</strong><p>{error}</p><button className="secondary-button" onClick={retry}>Retry access check</button></div>}
         <section className="team-section" aria-labelledby="team-title">
           <h2 id="team-title" className="sr-only">Your team</h2>
-          <div ref={teamSlots}><TeamSlots team={state.team} snapshot={progressPage ? snapshot : null} progressPage={progressPage} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} /></div>
-          {progressPage && (snapshot ? <TeamWarnings snapshot={snapshot} team={team} target={state.target} onDetails={setDetails} /> : <LoadingNote title="Checking team access…" detail={state.respectLevelLimit ? 'Using the level limit for each team member.' : 'Checking without the level limit.'} />)}
+          <div ref={teamSlots}><TeamSlots team={state.team} snapshot={snapshot} progressPage={progressPage && !error} activeSlot={activeSlot} onChoose={choose} onDetails={setDetails} onRemove={remove} /></div>
+          {progressPage && snapshot && <TeamWarnings snapshot={snapshot} team={state.team} target={state.target} onDetails={setDetails} />}
+          {progressPage && loading && <LoadingNote title="Checking team access…" detail={state.respectLevelLimit ? 'Using the level limit for each team member.' : 'Checking without the level limit.'} />}
         </section>
         {page==='team' && <TypeAnalysis team={state.team} />}
         </>}
         </>}
-        {!progressUnavailable && <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress' && !comparison} team={editedTeam} activeSlot={editedSlot} onAdd={add} onDetails={setDetails} onCancel={cancelChoice} teamName={teamName} />}
+        {!progressUnavailable && <PokemonSearch key={state.gameId} snapshot={snapshot} target={state.target} progressPage={page==='progress' && !comparison} team={editedTeam} activeSlot={editedSlot} onAdd={add} onSwap={setSwapping} onDetails={setDetails} onCancel={cancelChoice} teamName={teamName} />}
       </main>
     </div>
     <AppFooter />
     <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
-    <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={detailsWithAccess} onClose={()=>setDetails(null)} onAdd={add} canAdd={editedSlot!==null || editedTeam.includes(null)} teamName={teamName} />
+    <AcquisitionDetails onNavigate={setDetails} id={details} snapshot={snapshot} progressPage={detailsWithAccess && !error} onClose={()=>setDetails(null)} onAdd={add} onSwap={setSwapping} canAdd={editedSlot!==null || editedTeam.includes(null)} teamName={teamName} />
+    <SwapTeamDialog pokemonId={swapping} team={editedTeam} onSwap={swap} onClose={()=>setSwapping(null)} />
     {detailsWithAccess && loading && <span className="sr-only" aria-live="polite">Checking Pokémon availability.</span>}
   </GameContext>;
 }

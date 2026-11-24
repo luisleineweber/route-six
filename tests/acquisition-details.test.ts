@@ -20,7 +20,7 @@ function details(paths: AcquisitionPath[], status: 'available' | 'later' = 'avai
   return renderToStaticMarkup(createElement(GameContext, { value: emerald },
     createElement(AcquisitionDetails, {
       id: pokemonId, snapshot, progressPage: true, canAdd: true,
-      onClose: () => {}, onAdd: () => {}, onNavigate: () => {},
+      onClose: () => {}, onAdd: () => {}, onSwap: () => {}, onNavigate: () => {},
     })));
 }
 
@@ -74,6 +74,16 @@ describe('detail acquisition paths', () => {
     expect(html).toContain('From Lv. 31');
   });
 
+  it('shows the group level only when it is above the level the method already names', () => {
+    const atRuleLevel = acquisitionPaths([evolved]);
+    expect(atRuleLevel).toContain('Level up at Lv. 30+');
+    expect(atRuleLevel).not.toContain('class="path-meta"');
+    const later = { ...evolved, id: 'later', minimumLevel: 34 };
+    const higher = acquisitionPaths([later, { ...later, id: 'later-2', sourceIds: ['wild-route-111-good-rod-barboach'], minimumLevel: 38 }]);
+    expect(higher).toContain('Level up at Lv. 30+');
+    expect(higher).toContain('<span class="path-meta">From Lv. 34</span>');
+  });
+
   it('uses the immediate predecessor of a later evolution stage', () => {
     const gardevoir = { ...evolved, pokemonId: 'gardevoir', minimumLevel: 30,
       sourceIds: ['wild-route-102-grass-ralts'], evolutionIds: ['ralts-to-kirlia', 'kirlia-to-gardevoir'] };
@@ -102,14 +112,14 @@ describe('first access labels', () => {
       sourceIds: ['wild-route-102-grass-ralts'], firstMilestoneIds: ['route-102'] };
     const html = details([ralts]);
     expect(html).toContain('<p>Available from Route 102.</p>');
-    expect(html).not.toContain('Route 102 — at “Route 102”');
+    expect(html).not.toContain('Route 102 at Route 102');
   });
 
   it('connects the first catch location to its progress requirement in the summary and path details', () => {
     const makuhita = { ...evolved, pokemonId: 'makuhita', evolutionIds: [], minimumLevel: 6,
       sourceIds: ['wild-granite-cave-1f-grass-makuhita'], firstMilestoneIds: ['mr-briney'] };
     const html = details([makuhita]);
-    const label = 'Granite Cave — after “Sail with Mr. Briney”';
+    const label = 'Granite Cave after “Sail with Mr. Briney”';
     expect(html).toContain(`<p>Available from ${label}.</p>`);
     expect(html).toContain(`<dt>Available from</dt><dd>${label}</dd>`);
   });
@@ -119,7 +129,7 @@ describe('first access labels', () => {
       sourceIds: ['wild-meteor-falls-upper-super-rod-whiscash'], firstMilestoneIds: ['juan-defeated'] };
     const early = { ...evolved, firstMilestoneIds: ['norman-defeated'] };
     const html = details([caught, early], 'available', ['norman-defeated']);
-    expect(html).toContain('<p>Available from Evolve Barboach — after “Defeat Norman and receive Surf”.</p>');
+    expect(html).toContain('<p>Available from Evolve Barboach after “Defeat Norman and receive Surf”.</p>');
   });
 
   it('ties each independent first-access point to its own source', () => {
@@ -128,7 +138,7 @@ describe('first access labels', () => {
     const scope = { ...route, id: 'scope', sourceIds: ['wild-safari-zone-southwest-old-rod-magikarp'], firstMilestoneIds: ['devon-scope'] };
     const html = details([scope, route], 'later', ['route-123', 'devon-scope']);
     expect(html).toContain('<p>Available from Route 123.</p>');
-    expect(html).toContain('<li>Safari Zone — after “Receive the Devon Scope”</li>');
+    expect(html).toContain('<li>Safari Zone after “Receive the Devon Scope”</li>');
   });
 
   it('does not show internal resource IDs', () => {

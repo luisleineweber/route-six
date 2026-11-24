@@ -118,11 +118,11 @@ describe('team access warnings', () => {
     expect(html).toContain('Minimum level 55 exceeds the level limit of 49.');
   });
 
-  it('keeps team resource conflicts visible without inventing a species link', () => {
+  it('keeps the affected slots for team resource conflicts', () => {
     const snapshot = blocked([]);
     const message = 'These members need incompatible choices in Starter. Select another family or source.';
     expect(groupTeamWarnings(snapshot, [{ code: 'choice-conflict', message, relatedId: 'starter', slotIndexes: [0, 1] }]))
-      .toEqual([{ title: 'Conflicting team choices', message, pokemonIds: [] }]);
+      .toEqual([{ title: 'Conflicting team choices', message, pokemonIds: [], conflictSlots: [0, 1] }]);
   });
 
   it('does not describe obtainable members as unavailable when their choices conflict', () => {
@@ -131,9 +131,12 @@ describe('team access warnings', () => {
     for (const id of ['treecko', 'torchic']) source(game, id, id, 5, none, { maxUses: 1, choice: { groupId: 'starter', optionId: id } });
     const result = getAvailability(data, { gameId: 'emerald', milestoneId: 'gate', respectLevelLimit: false });
     if (!result.ok) throw new Error('Fixture query failed');
-    const html = render(result.value, ['treecko', 'torchic']);
+    const html = renderToStaticMarkup(createElement(TeamWarnings, {
+      snapshot: result.value, team: ['treecko', null, 'torchic'], target: 'current-progress', onDetails: () => {},
+    }));
     expect(html).toContain('This team needs a change');
     expect(html).toContain('Conflicting team choices');
+    expect(html).toContain('Slot 1: Treecko, Slot 3: Torchic');
     expect(html).not.toContain('Pokémon unavailable');
     expect(html).not.toContain('Select a Pokémon for access details.');
     expect(html).not.toContain('<button');
@@ -147,6 +150,8 @@ describe('team access warnings', () => {
     const current = render(result.value, ['ralts']);
     expect(current).toContain('1 Pokémon available later');
     expect(current).toContain('Choose a later progress point or plan for the whole game.');
+    // The heading already says "available later", so the group repeats no title.
+    expect(current).not.toContain('<h4>');
     const html = render(result.value, ['ralts'], 'whole-game');
     expect(html).toContain('Team available over the whole game.');
     expect(html).toContain('Ralts is available later.');
@@ -170,6 +175,12 @@ describe('team access warnings', () => {
     const html = render(snapshot, team, 'whole-game');
     expect(html).toContain('Team available over the whole game.');
     expect(html).not.toContain('Team available at your selected progress.');
+  });
+
+  it('shows Pokémon names instead of raw ids in warning reasons', () => {
+    const single = render(blocked([['zekrom', 'pokemon', 'Obtain 1 zekrom for this action.']]), ['zekrom']);
+    expect(single).toContain('Obtain 1 Zekrom for this action.');
+    expect(single).not.toContain('1 zekrom');
   });
 
   it('keeps empty and successful teams quiet and informative', () => {

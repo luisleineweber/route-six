@@ -10,6 +10,12 @@ export const comparedTeams = [
   { key: 'draft', name: 'Second team' },
 ] as const;
 
+const defenses = [
+  { key: 'weaknesses', status: 'weak', label: 'Weak' },
+  { key: 'resistances', status: 'resist', label: 'Resist' },
+  { key: 'immunities', status: 'immune', label: 'Immune' },
+] as const;
+
 export function CoverageComparison({ comparison }: { comparison: TeamsComparison }) {
   const only = { current: comparison.currentOnlyCoverage, draft: comparison.draftOnlyCoverage };
   return <section className="compare-block" aria-labelledby="compare-coverage-title">
@@ -23,7 +29,7 @@ export function CoverageComparison({ comparison }: { comparison: TeamsComparison
           <p className="compare-label">Only this team covers</p>
           {only[key].length
             ? <ul className="type-counts compare-types">{only[key].map(type => <li key={type}><TypeBadge type={type} /></li>)}</ul>
-            : <p className="muted">No types. The other team covers each of these types.</p>}
+            : <p className="muted">None</p>}
         </>}
       </div>;
     })}</div>
@@ -31,46 +37,40 @@ export function CoverageComparison({ comparison }: { comparison: TeamsComparison
   </section>;
 }
 
-function DefenseCell({ summary, type }: { summary: TeamSummary; type: string }) {
-  if (summary.memberCount === 0) return <td className="compare-defense-empty"><span aria-hidden="true">–</span><span className="sr-only">No Pokémon</span></td>;
+function DefenseCells({ summary, type }: { summary: TeamSummary; type: string }) {
   const { weaknesses, resistances, immunities } = summary.types;
-  const counts = [
-    { status: 'weak', value: weaknesses[type] },
-    { status: 'resist', value: resistances[type] },
-    { status: 'immune', value: immunities[type] },
-  ];
   const risk = weaknesses[type] >= 2 && weaknesses[type] > resistances[type] + immunities[type];
-  const of = summary.memberCount;
-  return <td className={risk ? 'defense-risk' : undefined}>
-    <span className="sr-only">{counts.map(({ status, value }) => `${value} of ${of} ${status}`).join(', ')}.</span>
-    <span className="defense-marks" aria-hidden="true">{counts.map(({ status, value }) =>
-      <span key={status} className={`defense-mark ${value ? `defense-${status}` : 'compare-mark-zero'}`}>{value}</span>)}</span>
-  </td>;
+  return defenses.map(({ key, status }) => {
+    const value = summary.types[key][type];
+    return summary.memberCount === 0
+      ? <td key={key} className="compare-defense-empty"><span aria-hidden="true">–</span><span className="sr-only">No Pokémon</span></td>
+      : <td key={key} className={risk ? 'defense-risk' : undefined}>
+        <span className="sr-only">{value} of {summary.memberCount}</span>
+        <span aria-hidden="true" className={`defense-mark ${value ? `defense-${status}` : 'compare-mark-zero'}`}>{value}</span>
+      </td>;
+  });
 }
 
 export function DefenseComparison({ comparison }: { comparison: TeamsComparison }) {
   const game = useGameData();
   return <section className="compare-block" aria-labelledby="compare-defense-title">
     <h3 id="compare-defense-title">Team defense</h3>
-    <p className="compare-label" id="compare-defense-hint">Members that are weak, resist, or are immune to each attack type.</p>
     <div className="compare-table-wrap">
-      <table className="compare-defense" aria-labelledby="compare-defense-title" aria-describedby="compare-defense-hint">
+      <table className="compare-defense" aria-labelledby="compare-defense-title">
+        <colgroup span={1} />
+        {comparedTeams.map(({ key }) => <colgroup key={key} span={defenses.length} />)}
         <thead><tr>
-          <th scope="col">Attack</th>
-          {comparedTeams.map(({ key, name }) => <th key={key} scope="col">{name}<span className="compare-count">{comparison[key].memberCount} Pokémon</span></th>)}
+          <th scope="col" rowSpan={2}>Attack</th>
+          {comparedTeams.map(({ key, name }) => <th key={key} scope="colgroup" colSpan={defenses.length}>{name}<span className="compare-count">{comparison[key].memberCount} Pokémon</span></th>)}
+        </tr><tr className="compare-defense-labels">
+          {comparedTeams.flatMap(({ key }) => defenses.map(({ status, label }) => <th key={`${key}-${status}`} scope="col">{label}</th>))}
         </tr></thead>
         <tbody>{game.typeChart.typeIds.map(type => <tr key={type}>
           <th scope="row"><span className="compare-type"><TypeIcon type={type} size={24} /><span>{typeName(type)}</span></span></th>
-          <DefenseCell summary={comparison.current} type={type} />
-          <DefenseCell summary={comparison.draft} type={type} />
+          <DefenseCells summary={comparison.current} type={type} />
+          <DefenseCells summary={comparison.draft} type={type} />
         </tr>)}</tbody>
       </table>
     </div>
-    <ul className="defense-legend" aria-hidden="true">
-      <li><span className="defense-mark defense-weak">2</span>Weak</li>
-      <li><span className="defense-mark defense-resist">1</span>Resist</li>
-      <li><span className="defense-mark defense-immune">1</span>Immune</li>
-      <li className="defense-hint">Counts in this order for each team</li>
-    </ul>
   </section>;
 }

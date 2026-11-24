@@ -14,27 +14,37 @@ import { isExclusionBlocker } from '../../domain/availability/exclusions';
 import { regionalDexName, sortPokemonByPokedex } from '../planner/pokedex-order';
 import { firstAccessOptions, pathSource } from '../../components/acquisition-presentation';
 
-function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null) {
-  if (entry.status === 'unavailable') return entry.blockers.find(isExclusionBlocker)?.message;
-  if (entry.status === 'blocked') return entry.blockers[0]?.message;
-  if (!path) return 'View ways to get it';
+/** Short source facts for a card. Multi-part summaries return each fact separately so a line never breaks inside one. */
+function summarize(game: GameData, entry: AvailabilityEntry, path: AcquisitionPath | null): string[] {
+  const message = (text: string | undefined) => text === undefined ? [] : [text];
+  if (entry.status === 'unavailable') return message(entry.blockers.find(isExclusionBlocker)?.message);
+  if (entry.status === 'blocked') return message(entry.blockers[0]?.message);
+  if (!path) return ['View ways to get it'];
   if (path.evolutionIds.length) {
     const first = game.evolutions.find(rule => rule.id === path.evolutionIds[0])!;
     const last = game.evolutions.find(rule => rule.id === path.evolutionIds.at(-1))!;
+    // Short facts fit one line on a card. In a narrow card, "Evolve" may break from the name, but "Lv. 16" stays whole.
     const details = [`Evolve ${pokemonById.get(first.fromPokemonId)!.name}`];
-    if (last.minimumLevel !== null) details.push(`Lv. ${last.minimumLevel}`);
+    if (last.minimumLevel !== null) details.push(`Lv.\u00a0${last.minimumLevel}`);
     if (last.itemId) details.push(game.items.find(item => item.id === last.itemId)!.name);
-    return details.join(' · ');
+    return details;
   }
   const source = pathSource(game, path);
-  const details = [game.locations.find(location => location.id === source.locationId)!.name];
+  // A no-break space before a number keeps names such as "Route 120" together.
+  const details = [game.locations.find(location => location.id === source.locationId)!.name.replace(/ (\d)/g, '\u00a0$1')];
   if (path.breedingSteps.length) details.push('Breeding');
-  return details.join(' · ');
+  return details;
 }
 
-export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onDetails, onCancel, teamName = 'team' }: {
+/** Each later fact starts with its separator and a no-break space, so a wrapped line never ends with a hanging dot. */
+function SourceParts({ parts }: { parts: string[] }) {
+  if (parts.length < 2) return <>{parts[0]}</>;
+  return <>{parts.map((part, index) => <Fragment key={index}>{index > 0 && ' ·\u00a0'}{part}</Fragment>)}</>;
+}
+
+export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot, onAdd, onSwap, onDetails, onCancel, teamName = 'team' }: {
   snapshot: AvailabilitySnapshot | null; target: PlanningTarget; progressPage: boolean; team: (string|null)[];
-  activeSlot: number|null; onAdd: (id:string) => void; onDetails: (id:string) => void; onCancel: () => void;
+  activeSlot: number|null; onAdd: (id:string) => void; onSwap: (id:string) => void; onDetails: (id:string) => void; onCancel: () => void;
   /** Names the team that receives added Pokémon. */
   teamName?: string;
 }) {
@@ -76,7 +86,7 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
     : 'All Pokémon';
   return <section className={`catalogue ${progressPage ? 'progress-catalogue' : 'team-catalogue'}`} id="pokemon-search" aria-labelledby="catalogue-title">
     <div className="section-heading"><h2 id="catalogue-title">{catalogueTitle}</h2></div>
-    {!canAdd && <p className="full-team-hint">Your {teamName} is full. Remove a member to add another Pokémon.</p>}
+    {!canAdd && <p className="full-team-hint">Your {teamName} is full. Use the swap button on a Pokémon to replace a team member.</p>}
     {activeSlot !== null && <div className="slot-prompt" role="status"><span>Choose a Pokémon for slot {activeSlot+1}.</span><button className="text-button" onClick={onCancel}><X size={16} aria-hidden="true" /> Cancel</button></div>}
     <CatalogueFilters resetKey={JSON.stringify([query, selectedTypes, status])} statusFilters={progressPage && <div className="chip-row" role="group" aria-label="Filter by status">{statusChips.map(({id,name,count,Icon}) => <button key={id} className={`chip status-${id}`} aria-pressed={status===id} onClick={() => setStatusChoice(id)}>
         {Icon && <Icon size={15} aria-hidden="true" />}{name}{counts && <span className="chip-count">{count}</span>}</button>)}</div>}>
@@ -124,9 +134,9 @@ export function PokemonSearch({ snapshot, target, progressPage, team, activeSlot
             <div className="dex-grid-heading national-dex-heading"><h3>National Pokédex</h3><span className="dex-group-count">{nationalVisible.length} Pokémon</span></div>
             {game.game.id === 'emerald' && <p className="dex-grid-note">The National Pokédex unlocks after the Hall of Fame. Some species are available earlier.</p>}
           </>}
-          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onDetails={onDetails} teamName={teamName}>
+          <PokemonCatalogueCard pokemonId={pokemon.id} regionalDex={profile.regionalDex} regionalDexSectionId={profile.regionalDexSectionId} progressPage={progressPage} activeSlot={activeSlot} canAdd={canAdd} onAdd={onAdd} onSwap={onSwap} onDetails={onDetails} teamName={teamName}>
           {progressPage && entry && <>
-            <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: {summarize(game, entry, path)}</span></p>
+            <p className={`source-summary access-summary access-full status-label status-${entry.status}`}>{StatusIcon && <StatusIcon size={15} aria-hidden="true" />}<span>{accessLabel}: <SourceParts parts={summarize(game, entry, path)} /></span></p>
             {showCompactStatus && <p className={`access-compact status-label status-${entry.status}`} title={`${statusNames[entry.status]}: ${compactLabel}`}>{StatusIcon && <StatusIcon size={12} aria-hidden="true" />}<span>{compactLabel}</span></p>}
             {entry.status === 'later' && earliest.length > 0 && <p className="source-summary access-full">Available from {earliest[0].label}</p>}
           </>}
