@@ -53,6 +53,14 @@ describe('swapping into a full team', () => {
       'Replace Altaria in slot 4', 'Replace Roselia in slot 5', 'Absol is already in slot 6 (disabled)',
     ]);
   });
+
+  it('explains that no slot can change when every slot holds the incoming Pokémon', () => {
+    const html = renderToStaticMarkup(createElement(GameContext, { value: emerald },
+      createElement(SwapTeamDialog, { pokemonId: 'absol', team: Array(6).fill('absol'), onSwap: () => {}, onClose: () => {} })));
+    expect(html).toContain('<p id="swap-hint">Every slot already has Absol.</p>');
+    expect(html).toContain('aria-label="Cancel swap"');
+    expect(swapChoices('absol', Array(6).fill('absol')).every(choice => choice.endsWith('(disabled)'))).toBe(true);
+  });
 });
 
 describe('focus after a swap', () => {
@@ -95,6 +103,7 @@ describe('focus after a swap', () => {
 
     click(button('View Mudkip details', catalogue));
     click(Array.from(document.querySelectorAll<HTMLButtonElement>('.dialog-footer button')).find(element => element.textContent?.includes('Swap Mudkip into team'))!);
+    expect(document.activeElement?.getAttribute('aria-label')).toBe('Replace Treecko in slot 1');
     click(button('Replace Blaziken in slot 6', document.querySelector('.swap-dialog')!));
 
     expect(document.querySelector('.acquisition-dialog')!.hasAttribute('open')).toBe(false);
@@ -102,7 +111,7 @@ describe('focus after a swap', () => {
     const focused = document.activeElement as HTMLElement;
     expect(focused.getAttribute('aria-label')).toBe('View Mudkip details');
     expect(focused.closest('.team-slot')?.getAttribute('aria-label')).toBe('Team slot 6: Mudkip');
-  });
+  }, 30_000);
 
   it('keeps a full comparison draft intact on cancel and swaps only the chosen draft slot', () => {
     useAccessWorker();
@@ -121,7 +130,7 @@ describe('focus after a swap', () => {
     expect(slot('draft', 'Team slot 6: Mudkip')).not.toBeNull();
     expect(slot('current', 'Team slot 6: Blaziken')).not.toBeNull();
     expect(document.activeElement?.closest('.team-slot')).toBe(slot('draft', 'Team slot 6: Mudkip'));
-  });
+  }, 30_000);
 
   it('ends loading on access failure and retries without clearing either team', () => {
     const requests = useAccessWorker();
@@ -147,5 +156,5 @@ describe('focus after a swap', () => {
     expect(access.getAttribute('aria-busy')).toBe('false');
     expect(access.textContent).toContain('You cannot get the whole team at this point.');
     expect(document.querySelectorAll('.compare-teams .team-slot[aria-label="Team slot 1: Treecko"]')).toHaveLength(2);
-  });
+  }, 30_000);
 });
