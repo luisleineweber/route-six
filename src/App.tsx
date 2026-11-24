@@ -90,7 +90,7 @@ export default function App({ initialGame }: { initialGame: GameData }) {
   const swappedSlot = useRef<number|null>(null);
   useEffect(() => {
     if (swappedSlot.current === null) return;
-    teamSlots.current?.querySelector<HTMLElement>(`.team-slot:nth-child(${swappedSlot.current+1}) .card-link`)?.focus();
+    teamSlots.current?.querySelector<HTMLElement>(`.team-slot:nth-child(${swappedSlot.current+1}) .card-link`)?.focus({preventScroll:true});
     swappedSlot.current = null;
   }, [state.team]);
   const swap = (slot:number) => {

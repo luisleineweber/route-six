@@ -83,7 +83,16 @@ describe('focus after a swap', () => {
     click(button('View Mudkip details', catalogue));
     click(Array.from(document.querySelectorAll<HTMLButtonElement>('.dialog-footer button')).find(element => element.textContent?.includes('Swap Mudkip into team'))!);
     expect(document.activeElement?.getAttribute('aria-label')).toBe('Replace Treecko in slot 1');
-    click(button('Replace Blaziken in slot 6', document.querySelector('.swap-dialog')!));
+    const focusCalls: { label: string | null; options?: FocusOptions }[] = [];
+    const focus = HTMLElement.prototype.focus;
+    HTMLElement.prototype.focus = function (this: HTMLElement, options?: FocusOptions) {
+      focusCalls.push({ label: this.getAttribute('aria-label'), options });
+      focus.call(this, options);
+    };
+    try { click(button('Replace Blaziken in slot 6', document.querySelector('.swap-dialog')!)); }
+    finally { HTMLElement.prototype.focus = focus; }
+    // The team section can be far above the catalogue. Focus must not scroll the page there.
+    expect(focusCalls.filter(call => call.label === 'View Mudkip details')).toEqual([{ label: 'View Mudkip details', options: { preventScroll: true } }]);
 
     expect(document.querySelector('.acquisition-dialog')!.hasAttribute('open')).toBe(false);
     expect(document.querySelector('.swap-dialog')!.hasAttribute('open')).toBe(false);
