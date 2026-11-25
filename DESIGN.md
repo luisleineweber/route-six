@@ -51,6 +51,11 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
 - Route Six is the working name. Its mark draws a six with a route and six
   points, one for each team slot (`public/route-six.svg`). Use the same mark
   in the footer and browser icon. Keep the mark white in the header.
+- The footer links the public GitHub repository with one round pill button.
+  It has a soft tint and ring in the game colour. On hover, its text turns to
+  the game colour and it lifts a little; it does not lift under reduced motion.
+  On phones it shows only the GitHub logo, next to the Route Six name. The
+  footer does not link the site to itself.
 - The header has two rows. Put the name and mark on the leading side and the
   selected game's official logo on the other side (`public/games/`). Give the
   game control a darker surface and a Change game hint. Put both planner
