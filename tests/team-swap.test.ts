@@ -2,7 +2,8 @@
 import { act, createElement } from 'react';
 import { createRoot } from 'react-dom/client';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { afterEach, describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import type { AvailabilityQuery, AvailabilitySnapshot } from '../src/domain/types';
 import { emerald } from './local-data';
 import App from '../src/App';
 import { GameContext } from '../src/features/planner/GameContext';
@@ -64,7 +65,7 @@ describe('swapping into a full team', () => {
 
 describe('focus after a swap', () => {
   let root: ReturnType<typeof createRoot> | null = null;
-  afterEach(() => { act(() => root?.unmount()); root = null; document.body.innerHTML = ''; });
+  afterEach(() => { act(() => root?.unmount()); root = null; document.body.innerHTML = ''; vi.unstubAllGlobals(); });
 
   const button = (label: string, scope: ParentNode = document) => {
     const element = scope.querySelector<HTMLButtonElement>(`button[aria-label="${label}"]`);
@@ -73,11 +74,31 @@ describe('focus after a swap', () => {
   };
   const click = (element: HTMLElement) => act(() => { element.click(); });
 
-  it('moves focus to the team slot that got the new Pokémon when the swap starts in the details dialog', () => {
+  const renderApp = () => {
     const container = document.body.appendChild(document.createElement('div'));
     root = createRoot(container);
     act(() => root!.render(createElement(App, { initialGame: emerald })));
-    const catalogue = document.getElementById('pokemon-search')!;
+    return document.getElementById('pokemon-search')!;
+  };
+
+  const useAccessWorker = () => {
+    type Reply = { id: number; error: string } | { id: number; result: { ok: true; value: AvailabilitySnapshot } };
+    const requests: { id: number; query: AvailabilityQuery; respond: (reply: Reply) => void }[] = [];
+    vi.stubGlobal('Worker', class {
+      onmessage?: (event: { data: Reply }) => void;
+      postMessage(request: { id: number; query: AvailabilityQuery }) {
+        requests.push({ ...request, respond: data => this.onmessage?.({ data }) });
+      }
+      terminate() {}
+    });
+    return requests;
+  };
+
+  const openComparison = () => click(document.querySelector<HTMLButtonElement>('.compare-button')!);
+  const copyTeam = () => click(document.querySelector<HTMLButtonElement>('.compare-team-heading button')!);
+
+  it('moves focus to the team slot that got the new Pokémon when the swap starts in the details dialog', () => {
+    const catalogue = renderApp();
     for (const name of ['Treecko', 'Grovyle', 'Sceptile', 'Torchic', 'Combusken', 'Blaziken']) click(button(`Add ${name} to team`, catalogue));
 
     click(button('View Mudkip details', catalogue));
@@ -90,5 +111,50 @@ describe('focus after a swap', () => {
     const focused = document.activeElement as HTMLElement;
     expect(focused.getAttribute('aria-label')).toBe('View Mudkip details');
     expect(focused.closest('.team-slot')?.getAttribute('aria-label')).toBe('Team slot 6: Mudkip');
+  }, 30_000);
+
+  it('keeps a full comparison draft intact on cancel and swaps only the chosen draft slot', () => {
+    useAccessWorker();
+    const catalogue = renderApp();
+    for (const name of ['Treecko', 'Grovyle', 'Sceptile', 'Torchic', 'Combusken', 'Blaziken']) click(button(`Add ${name} to team`, catalogue));
+    openComparison();
+    copyTeam();
+    const dialog = document.querySelector('.swap-dialog')!;
+    const slot = (team: 'current' | 'draft', label: string) =>
+      document.querySelector(`[aria-labelledby="compare-${team}-title"] .team-slot[aria-label="${label}"]`);
+    click(button('Swap Mudkip into second team', catalogue));
+    click(button('Cancel swap', dialog));
+    expect(slot('draft', 'Team slot 6: Blaziken')).not.toBeNull();
+    click(button('Swap Mudkip into second team', catalogue));
+    click(button('Replace Blaziken in slot 6', dialog));
+    expect(slot('draft', 'Team slot 6: Mudkip')).not.toBeNull();
+    expect(slot('current', 'Team slot 6: Blaziken')).not.toBeNull();
+    expect(document.activeElement?.closest('.team-slot')).toBe(slot('draft', 'Team slot 6: Mudkip'));
+  }, 30_000);
+
+  it('ends loading on access failure and retries without clearing either team', () => {
+    const requests = useAccessWorker();
+    const catalogue = renderApp();
+    click(button('Add Treecko to team', catalogue));
+    openComparison();
+    copyTeam();
+    const access = document.getElementById('compare-access-title')!.parentElement!;
+    const failed = requests[0];
+    act(() => failed.respond({ id: failed.id, error: 'Test access failure' }));
+    expect(access.getAttribute('aria-busy')).toBe('false');
+    expect(document.querySelector('.compare-teams .status-pending')).toBeNull();
+    expect(access.querySelector('[role="alert"]')?.textContent).toContain('Test access failure');
+
+    click(access.querySelector('button')!);
+    expect(access.getAttribute('aria-busy')).toBe('true');
+    expect(requests).toHaveLength(2);
+    const retry = requests[1];
+    act(() => retry.respond({ id: retry.id, result: { ok: true, value: {
+      query: retry.query, levelLimit: null, paths: {}, choiceGroups: [], resourceLimits: {},
+      entries: { treecko: { pokemonId: 'treecko', status: 'unavailable', currentPathIds: [], futurePathIds: [], firstMilestoneIds: [], blockers: [] } },
+    } } }));
+    expect(access.getAttribute('aria-busy')).toBe('false');
+    expect(access.textContent).toContain('You cannot get the whole team at this point.');
+    expect(document.querySelectorAll('.compare-teams .team-slot[aria-label="Team slot 1: Treecko"]')).toHaveLength(2);
   }, 30_000);
 });
