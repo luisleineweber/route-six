@@ -199,7 +199,7 @@ describe('Pokémon Red reviewed data', () => {
     for (const table of tables) {
       const rows = red.sources.filter(source => source.id.startsWith(`wild-${table}-grass-`));
       expect(rows, table).toHaveLength(tableCounts[table]);
-      expect(rows.reduce((sum, source) => sum + (source.details.kind === 'wild' ? source.details.ratePercent : 0), 0), table)
+      expect(rows.reduce((sum, source) => sum + (source.details.kind === 'wild' ? source.details.ratePercent ?? NaN : 0), 0), table)
         .toBeCloseTo(100, 0);
     }
     const forest = red.sources.filter(source => source.id.startsWith('wild-viridianforest-grass-'));

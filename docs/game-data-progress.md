@@ -1,8 +1,7 @@
 # Game data status
 
-Current status, 5 November 2026: all 24 enabled games support both planners.
-HeartGold and SoulSilver are active. See [the HGSS review](hgss-progress-review.md).
-Earlier counts and pending-game notes below are historical.
+Current status, 24 November 2026: 30 games support both planners.
+See [Generation VII coverage](generation-seven-coverage.md) for the six new games.
 
 
 Updated on 27 October 2026. The app now supports 24 Team Planner games and

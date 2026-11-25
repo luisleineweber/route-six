@@ -136,7 +136,7 @@ export type Boss = {
   highestLevel: Level;
   review: Review;
 } & ({ kind: "gym"; badgeNumber: number; specialtyTypeId: Id | null }
-  | { kind: "elite-four" | "champion" | "trainer" });
+  | { kind: "elite-four" | "champion" | "trainer" | "trial" | "grand-trial" });
 
 export interface Location {
   id: Id;
@@ -199,10 +199,11 @@ export type SourceDetails =
         | "dark-grass" | "grass-spots" | "cave-spots" | "bridge-spots" | "surf-spots" | "super-rod-spots"
         | "horde" | "rough-terrain" | "yellow-flowers" | "red-flowers" | "purple-flowers"
         | "ceiling-ambush" | "ground-ambush" | "rustling-bush-ambush" | "sky-ambush" | "trash-can-ambush"
-        | "long-grass" | "dive";
-      ratePercent: number;
+        | "long-grass" | "dive" | "sos" | "island-scan" | "fishing" | "fishing-spots" | "berry-piles" | "ambush" | "poke-pelago";
+      ratePercent: number | null;
     }
   | { kind: "starter" | "gift" | "static" | "roaming" | "egg" }
+  | { kind: "overworld"; habitat: "land" | "air" | "water"; rare: boolean }
   | { kind: "honey-tree"; rareTreeOnly: boolean }
   | { kind: "berry-tree"; color: "red" | "blue" | "purple" | "green" | "yellow" | "pink" }
   | { kind: "dexnav"; habitat: "grass" | "long-grass" | "cave" | "surf" }
@@ -215,6 +216,7 @@ export type SourceDetails =
   | { kind: "breeding"; ruleId: Id; capabilityId: Id };
 
 export type EncounterCondition =
+  | { kind: "sos"; callerIds: Id[]; weather: "rain" | "hail" | "sandstorm" | null }
   | { kind: "time"; periods: ("morning" | "day" | "night")[] }
   | { kind: "season"; seasons: ("spring" | "summer" | "autumn" | "winter")[] }
   | { kind: "weekday"; day: "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday" | "sunday" }
@@ -245,7 +247,7 @@ export interface PokemonSource {
 export type EvolutionCondition =
   | { kind: "friendship"; minimum: number }
   | { kind: "beauty"; minimum: number }
-  | { kind: "time"; period: "day" | "night" }
+  | { kind: "time"; period: "day" | "night" | "dusk" }
   | { kind: "stats"; relation: "attack-lt-defense" | "attack-eq-defense" | "attack-gt-defense" }
   | { kind: "personality"; modulus: number; minimum: number; maximum: number }
   | { kind: "party-space"; freeSlots: number }
@@ -281,6 +283,8 @@ export interface Evolution {
 
 export interface Exclusion {
   pokemonId: Id;
+  /** Omitted covers the entire species. Null covers the base selection only. */
+  formId?: Id | null;
   reason: "other-version" | "external-event" | "external-connection";
   explanation: string;
   review: Review;

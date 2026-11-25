@@ -24,6 +24,12 @@ export const progressGameLoaders: Readonly<Record<string, () => Promise<unknown>
   'alpha-sapphire': () => import('./games/alpha-sapphire').then(module => module.rawGame),
   heartgold: () => import('./games/heartgold').then(module => module.rawGame),
   soulsilver: () => import('./games/soulsilver').then(module => module.rawGame),
+  sun: () => import('./games/sun').then(module => module.rawGame),
+  moon: () => import('./games/moon').then(module => module.rawGame),
+  'ultra-sun': () => import('./games/ultra-sun').then(module => module.rawGame),
+  'ultra-moon': () => import('./games/ultra-moon').then(module => module.rawGame),
+  'lets-go-pikachu': () => import('./games/lets-go-pikachu').then(module => module.rawGame),
+  'lets-go-eevee': () => import('./games/lets-go-eevee').then(module => module.rawGame),
 };
 
 export const gameLoaders = progressGameLoaders;

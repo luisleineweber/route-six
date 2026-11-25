@@ -1,0 +1,20 @@
+[
+  {"pokemonId":"sandshrew","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"sandslash","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"oddish","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"gloom","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"vileplume","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"mankey","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"primeape","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"growlithe","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"grimer","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"muk","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"scyther","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"sandshrew","formId":"sandshrew-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"sandslash","formId":"sandslash-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"grimer","formId":"grimer-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"muk","formId":"muk-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Pikachu!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"mew","formId":null,"reason":"external-event","explanation":"Mew requires a Poké Ball Plus gift or another external source.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"meltan","formId":null,"reason":"external-connection","explanation":"Meltan requires a Pokémon GO transfer.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"melmetal","formId":null,"reason":"external-connection","explanation":"Melmetal evolves from Meltan in Pokémon GO and must be transferred.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}}
+]

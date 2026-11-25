@@ -89,7 +89,7 @@ the four supplied files. Validation must not depend on a remote schema server.
 
 ## Shared identity and game rules
 
-The shared identity list reaches National Dex 721. Each game still declares
+The shared identity list reaches National Dex 809. Each game still declares
 its own supported species in its profile file. New shared identities do not
 add species to an older game's catalogue or access results.
 
@@ -111,8 +111,8 @@ Game evolution records contain version-specific rules.
 This avoids assigning later-generation
 types or evolutions to Emerald.
 
-The shared catalogue currently has 721 species. Each game's profiles define
-which species that game supports. Generation does not imply membership.
+Each game's profiles define which species that game supports. Generation
+does not imply membership.
 Each profile must refer to a shared species that exists by the game's generation.
 An unsupported species has no profile. A supported but unobtainable species has
 a profile and a reviewed exclusion or blocked acquisition path. Both planners
@@ -196,7 +196,13 @@ Level rules are fixed, range, or match the Pokémon offered in a game trade.
 The last rule must name the offered species. The source details must name the
 same offered species. The validator checks this equality.
 
-Wild details include method and encounter rate. Other source kinds are starter,
+Wild details include a method and a reviewed encounter rate. A null rate
+leaves the percentage out of the interface. SOS sources can name possible
+callers and required weather in their encounter conditions. The caller
+appears in the encounter and does not need to be on the player's team.
+Let's Go overworld sources specify land, water, or air and whether the
+spawn is rare. Water and air sources require Sea Skim and high flight.
+Other source kinds are starter,
 gift, static encounter, egg gift, fossil revival, and game trade. Fossils name
 the consumed item. Game trades name the offered Pokémon. Those requirements
 must also appear in the requirement tree so they cannot be ignored.
@@ -293,6 +299,10 @@ Record the actual condition. Do not replace a rule with a blanket statement
 that all non-level evolutions are available.
 
 ## Exclusions and coverage
+
+An exclusion with no `formId` applies to the species and all its forms.
+Use `formId: null` for the base form only. Use the form's ID to exclude only
+that form. This lets native and transfer-only forms share one species ID.
 
 Use an explicit exclusion for a species that needs another version or an external
 distribution event. A player-trade-only form is explained by its blocked evolution

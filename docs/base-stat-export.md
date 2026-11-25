@@ -11,10 +11,10 @@ All six cards use the same height. Empty slots remain visible.
 
 ## Maintained facts
 
-The seven JSON record files in `data/base-stats/` contain 721 species and
-28 selectable forms. Each record keeps its reference IDs and review date.
+The JSON record files in `data/base-stats/` contain 809 species and their
+reviewed selectable forms. Each record keeps its reference IDs and review date.
 Identical stat sets share a row with explicit native table IDs. The table
-map in `src/data/base-stats.ts` names all 24 supported games. Missing facts
+map in `src/data/base-stats.ts` names all 30 supported games. Missing facts
 produce a visible export error. There is no runtime service or data importer.
 
 Keep these files maintained by hand. Add new facts with the source table,
@@ -29,8 +29,7 @@ uses one Special axis in Generation I. Later charts put Special Defense and
 Special Attack on the left side. All charts use a fixed 0–255 range without
 printed scale values.
 
-The native personal tables cover 11,194 species and form selections across the
-24 games. All 386 Emerald species were checked against the pinned species
+All 386 Emerald species were checked against the pinned species
 table. The 385 non-Deoxys entries match. The shared Deoxys entry contains its
 Normal Forme; Emerald uses Speed Forme. The native Emerald, FireRed and
 LeafGreen stat sets remain separate. Other checks cover the Generation VI

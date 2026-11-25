@@ -27,7 +27,7 @@ function conditionLabel(game: GameData, condition: EvolutionCondition): string {
   switch (condition.kind) {
     case 'friendship': return `Friendship ${condition.minimum}+`;
     case 'beauty': return `Beauty ${condition.minimum}+`;
-    case 'time': return condition.period === 'day' ? 'During the day' : 'During the night';
+    case 'time': return condition.period === 'dusk' ? 'At dusk' : `During the ${condition.period}`;
     case 'stats': return { 'attack-lt-defense': 'Attack < Defense', 'attack-eq-defense': 'Attack = Defense', 'attack-gt-defense': 'Attack > Defense' }[condition.relation];
     case 'personality': return `Personality remainder ${condition.minimum}–${condition.maximum} (mod ${condition.modulus})`;
     case 'party-space': return `${condition.freeSlots} free party slot${condition.freeSlots === 1 ? '' : 's'}`;
@@ -35,7 +35,7 @@ function conditionLabel(game: GameData, condition: EvolutionCondition): string {
     case 'held-item': return `Hold ${game.items.find(item => item.id === condition.itemId)!.name}`;
     case 'party-pokemon': return `${pokemonIdentity(condition.pokemonId).name} in the party`;
     case 'party-type': return `Another ${condition.typeId}-type Pokémon in the party`;
-    case 'affection': return 'At least two hearts in Pokémon-Amie';
+    case 'affection': return game.game.generation === 7 ? 'At least two hearts in Pokémon Refresh' : 'At least two hearts in Pokémon-Amie';
     case 'weather': return 'Natural rain';
     case 'device-orientation': return 'Nintendo 3DS upside-down';
     case 'known-move': return `Know ${condition.moveName}`;

@@ -70,7 +70,8 @@ export function validateCrossGameProfiles(games: GameData[]): ValidationIssue[] 
   for (const sameGeneration of byGeneration.values()) {
     if (sameGeneration.length < 2) continue;
     compare(sameGeneration, 'Type order', profile => profile.types, sameTypes, issues);
-    compare(sameGeneration, 'Egg Groups', eggGroups, (a, b) => a === b, issues);
+    compare(sameGeneration.filter(game => game.game.breeding !== null),
+      'Egg Groups', eggGroups, (a, b) => a === b, issues);
     compare(sameGeneration, 'Available genders', genders, (a, b) => a === b, issues);
   }
   return issues;

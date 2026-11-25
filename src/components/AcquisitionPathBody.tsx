@@ -19,12 +19,12 @@ export function AcquisitionPathBody({ path, snapshot }: { path: AcquisitionPath;
   const fossilId = source.details.kind === 'fossil' ? source.details.itemId : null;
   const method = sourceMethod(source.details);
   return <div className="path-body">
-    {path.evolutionIds.length > 0 && <h4>Starting source: {pokemonById.get(source.pokemonId)!.name}</h4>}
+    {path.evolutionIds.length > 0 && <h4>Starting source: {pokemonIdentity(selectionId(source.pokemonId, source.formId)).name}</h4>}
     <dl className="source-facts">
       <div><dt>Method</dt><dd className="path-method">{method.iconSrc && <img className="method-icon" src={assetUrl(method.iconSrc)} alt="" width={24} height={24} />}<span>{method.name}</span></dd></div>
       <div><dt>Location</dt><dd>{location.name}</dd></div>
       <div><dt>Source level</dt><dd>{level}</dd></div>
-      {source.details.kind === 'wild' && <div><dt>Encounter rate</dt><dd>{source.details.ratePercent}%</dd></div>}
+      {source.details.kind === 'wild' && source.details.ratePercent !== null && <div><dt>Encounter rate</dt><dd>{source.details.ratePercent}%</dd></div>}
       <div><dt>Minimum level</dt><dd>Lv. {path.minimumLevel}</dd></div>
       {path.firstMilestoneIds.length > 0 && <div><dt>Available from</dt><dd>{firstAccessLabel(game, path, path.firstMilestoneIds[0])}</dd></div>}
     </dl>

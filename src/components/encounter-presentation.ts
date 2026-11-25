@@ -1,7 +1,15 @@
 import type { EncounterCondition, PokemonSource } from '../domain/types';
+import { pokemonIdentity } from '../data/dataset';
+
+const callers = new Intl.ListFormat('en', { style: 'long', type: 'disjunction' });
 
 function conditionText(condition: EncounterCondition): string {
   switch (condition.kind) {
+    case 'sos': {
+      const name = condition.callerIds.length ? callers.format(condition.callerIds.map(id => pokemonIdentity(id).name))
+        : 'a wild Pokémon';
+      return `Wait for ${name} to call for help${condition.weather ? ` during ${condition.weather}` : ''}.`;
+    }
     case 'time': return `Visit during the ${condition.periods.join(' or ')}.`;
     case 'season': return `Visit during ${condition.seasons.join(' or ')}.`;
     case 'weekday': return `Visit on ${condition.day[0].toUpperCase() + condition.day.slice(1)}.`;

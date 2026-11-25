@@ -2240,5 +2240,137 @@
     "title": "HeartGold and SoulSilver special Headbutt tree approaches",
     "url": "https://www.serebii.net/heartgoldsoulsilver/headbutt.shtml",
     "locator": "Specific Trees section, reviewed 2026-11-05. Native tree coordinates: files/arc/headbutt.json at pret revision 53dded53802b237d39fabfd8ee396fe9cdc8aa3e. Cherrygrove needs Surf and Rock Climb; Route 38 uses Rock Climb from Route 39; National Park needs Rock Climb. Route 25 and Pewter need neither move."
+  },
+  {
+    "id": "gen7-personal",
+    "title": "Generation VII personal tables",
+    "locator": "personal_sm, personal_uu and personal_gg; PersonalInfo7 and PersonalInfo7GG describe the record layout.",
+    "url": "https://github.com/kwsch/PKHeX/tree/a5311f9f55a84376fd2e2499b25d9fb9640d9f2d/PKHeX.Core/Resources/byte/personal",
+    "revision": "a5311f9f55a84376fd2e2499b25d9fb9640d9f2d"
+  },
+  {
+    "id": "gen7-dex",
+    "title": "Generation VII English species identities and regional Pokédex numbers",
+    "locator": "pokemon_species.csv, pokemon_species_names.csv, pokemon_dex_numbers.csv (16, 21, 26), pokemon_forms.csv and pokemon_form_names.csv.",
+    "url": "https://github.com/PokeAPI/pokeapi/tree/de6760be38b60a3024f1d9054330ff265f0dc619/data/v2/csv",
+    "revision": "de6760be38b60a3024f1d9054330ff265f0dc619"
+  },
+  {
+    "id": "gen7-sprites",
+    "title": "Generation VII species and form sprites",
+    "locator": "National Dex and form IDs from PokéAPI. Alolan form PNGs use frame 0 of versions/generation-vii/ultra-sun-ultra-moon GIFs.",
+    "url": "https://github.com/PokeAPI/sprites/tree/c0542f7c51215d9672439012838c99f520596cbd/sprites/pokemon",
+    "revision": "c0542f7c51215d9672439012838c99f520596cbd"
+  },
+  {
+    "id": "gen7-type-chart",
+    "title": "Generation VII standard type matchups",
+    "locator": "Type effectiveness chart, Generation VI onwards",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart",
+    "revision": "2026-11-23"
+  },
+  {
+    "id": "lets-go-encounters",
+    "title": "Pokémon Let’s Go legality encounter tables",
+    "url": "https://github.com/kwsch/PKHeX/tree/a5311f9f55a84376fd2e2499b25d9fb9640d9f2d/PKHeX.Core",
+    "locator": "Resources/legality/wild/Gen7/encounter_gp.pkl and encounter_ge.pkl; Legality/Encounters/Data/Gen7/Encounters7GG.cs",
+    "revision": "a5311f9f55a84376fd2e2499b25d9fb9640d9f2d"
+  },
+  {
+    "id": "lets-go-evolutions",
+    "title": "Pokémon Let’s Go evolution tables",
+    "url": "https://github.com/kwsch/PKHeX/blob/a5311f9f55a84376fd2e2499b25d9fb9640d9f2d/PKHeX.Core/Resources/byte/evolve/evos_gg.pkl",
+    "locator": "evos_gg.pkl and personal_gg form indexes",
+    "revision": "a5311f9f55a84376fd2e2499b25d9fb9640d9f2d"
+  },
+  {
+    "id": "lets-go-story",
+    "title": "Pokémon Let’s Go walkthrough and access gates",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon:_Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee!",
+    "locator": "Parts 1–13, including Bill, S.S. Anne, Silph Scope, Poké Flute, Secret Techniques, Pokémon League, and Cerulean Cave"
+  },
+  {
+    "id": "lets-go-bosses",
+    "title": "Pokémon Let’s Go Gym Leaders and Elite Four",
+    "url": "https://pokemondb.net/lets-go-pikachu-eevee/gymleaders-elitefour",
+    "locator": "First trainer battles and party levels"
+  },
+  {
+    "id": "lets-go-items",
+    "title": "Pokémon Let’s Go evolution item locations",
+    "url": "https://altissimo1.github.io/Main-Series/LGPE/evo-items.html",
+    "locator": "Overworld, walking Pokémon and Celadon Department Store item sources"
+  },
+  {
+    "id": "lets-go-trades",
+    "title": "Pokémon Let’s Go in-game trades",
+    "url": "https://www.serebii.net/letsgopikachueevee/trade.shtml",
+    "locator": "Trade species, forms, NPC locations and received levels"
+  },
+  {
+    "id": "lets-go-gifts",
+    "title": "Pokémon Let’s Go gifts and fossil restoration",
+    "url": "https://www.serebii.net/letsgopikachueevee/gift.shtml",
+    "locator": "Gift locations, purchase, catch count, Dojo choice, Silph Co., fossil restoration"
+  },
+  {
+    "id": "lets-go-spawns",
+    "title": "Pokémon Let’s Go overworld encounter habitat and rarity",
+    "url": "https://www.serebii.net/letsgopikachueevee/capture.shtml",
+    "locator": "Kanto locations, spawn methods, special spawns, and side-by-side edition tables"
+  },
+  {
+    "id": "lets-go-fossils",
+    "title": "Pokémon Let’s Go respawning items",
+    "url": "https://www.serebii.net/letsgopikachueevee/respawningitems.shtml",
+    "locator": "Repeatable hidden cave Moon Stones and fossil crystal in Cerulean Cave"
+  },
+  {
+    "id": "lets-go-availability",
+    "title": "Pokémon Let’s Go native Pokédex availability",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_availability_(Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee!)",
+    "locator": "Version exclusives, game trades, partner forms and external mythical Pokémon"
+  },
+  {
+    "id": "alola-encounters",
+    "title": "Alola ROM encounter tables",
+    "locator": "encounters/by_location/sun_moon.js and ultra_sun_ultra_moon.js",
+    "url": "https://github.com/Scotts-Thoughts/pokemon-data/tree/96107bb60fc031b699602483ce67fe201443af1d/encounters/by_location",
+    "revision": "96107bb60fc031b699602483ce67fe201443af1d"
+  },
+  {
+    "id": "alola-static",
+    "title": "PKHeX Generation VII fixed encounters and in-game trades",
+    "locator": "Encounters7SM.cs and Encounters7USUM.cs",
+    "url": "https://github.com/kwsch/PKHeX/tree/a5311f9f55a84376fd2e2499b25d9fb9640d9f2d/PKHeX.Core/Legality/Encounters/Data/Gen7",
+    "revision": "a5311f9f55a84376fd2e2499b25d9fb9640d9f2d"
+  },
+  {
+    "id": "alola-original-story",
+    "title": "Sun and Moon route and trial order",
+    "locator": "Walkthrough, island trials and grand trials",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Sun_and_Moon",
+    "revision": "2026-11-23"
+  },
+  {
+    "id": "alola-ultra-story",
+    "title": "Ultra Sun and Ultra Moon route and trial order",
+    "locator": "Walkthrough, island trials and grand trials",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Ultra_Sun_and_Ultra_Moon",
+    "revision": "2026-11-23"
+  },
+  {
+    "id": "alola-rules",
+    "title": "Poké Pelago access, upgrades, and Pokémon visitors",
+    "locator": "Isle Abeens and Isle Aphun",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Pelago",
+    "revision": "2026-11-23"
+  },
+  {
+    "id": "alola-sos",
+    "title": "SOS Battle mechanics in Ultra Sun and Ultra Moon",
+    "locator": "The Pokémon Company strategy guide for SOS calls, Adrenaline Orbs and weather",
+    "url": "https://www.pokemon.com/uk/features/special-pokemon-answer-the-call-for-help-in-sos-battles",
+    "revision": "2026-11-23"
   }
 ]

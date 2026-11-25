@@ -3,7 +3,7 @@ import { getAvailability } from '../src/domain/availability';
 import { progressCheckpointOptions } from '../src/features/planner/progress-checkpoints';
 import { dataset } from './local-data';
 
-const plannedGames = dataset.games.filter(game => game.game.planner !== null);
+const plannedGames = dataset.games.filter(game => game.game.planner !== null && game.bosses.some(boss => boss.kind === 'gym'));
 
 describe('Checkpoint level limits', () => {
   it.each(plannedGames.map(game => [game.game.id, game] as const))('%s uses the selected Gym Leader for each Gym checkpoint', (_id, game) => {

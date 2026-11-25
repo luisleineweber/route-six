@@ -68,14 +68,14 @@ describe('Pokémon Blue reviewed data', () => {
       const speciesIndex = source.id.indexOf(marker);
       expect(speciesIndex).toBeGreaterThan('wild-'.length);
       const tableId = `${source.id.slice('wild-'.length, speciesIndex)}-${source.details.method}`;
-      tableWeights.set(tableId, (tableWeights.get(tableId) ?? 0) + source.details.ratePercent);
+      tableWeights.set(tableId, (tableWeights.get(tableId) ?? 0) + (source.details.ratePercent ?? NaN));
     }
     expect(tableWeights.size).toBe(58);
     expect([...tableWeights.values()].every(weight => Math.abs(weight - 100) < 0.000001)).toBe(true);
 
     const forestPikachu = tableSources.filter(source => source.id.startsWith('wild-viridian-forest-grass-pikachu-'));
     expect(forestPikachu.map(source => source.details.kind === 'wild' ? source.details.ratePercent : 0)).toEqual([4.296875, 1.171875]);
-    expect(forestPikachu.reduce((total, source) => total + (source.details.kind === 'wild' ? source.details.ratePercent : 0), 0)).toBe(5.46875);
+    expect(forestPikachu.reduce((total, source) => total + (source.details.kind === 'wild' ? source.details.ratePercent ?? NaN : 0), 0)).toBe(5.46875);
     expect(tableSources.some(source => source.id.startsWith('wild-sea-routes-route-19-surf-tentacool-'))).toBe(true);
     expect(tableSources.filter(source => source.id.startsWith('wild-sea-routes-route-19-surf-tentacool-'))).toHaveLength(7);
   });

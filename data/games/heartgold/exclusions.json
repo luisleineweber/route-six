@@ -265,6 +265,7 @@
   },
   {
     "pokemonId": "gastrodon",
+    "formId": null,
     "reason": "external-connection",
     "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
     "review": {
@@ -276,7 +277,8 @@
     }
   },
   {
-    "pokemonId": "gastrodon-east",
+    "pokemonId": "gastrodon",
+    "formId": "gastrodon-east",
     "reason": "external-connection",
     "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
     "review": {
@@ -289,6 +291,7 @@
   },
   {
     "pokemonId": "giratina",
+    "formId": null,
     "reason": "external-event",
     "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
     "review": {
@@ -300,7 +303,8 @@
     }
   },
   {
-    "pokemonId": "giratina-origin",
+    "pokemonId": "giratina",
+    "formId": "giratina-origin",
     "reason": "external-event",
     "explanation": "You need an event Pokémon or a transfer from another game. This planner does not include those connections.",
     "review": {
@@ -817,6 +821,7 @@
   },
   {
     "pokemonId": "shellos",
+    "formId": null,
     "reason": "external-connection",
     "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
     "review": {
@@ -828,7 +833,8 @@
     }
   },
   {
-    "pokemonId": "shellos-east",
+    "pokemonId": "shellos",
+    "formId": "shellos-east",
     "reason": "external-connection",
     "explanation": "You need the Pokéwalker accessory or a transfer from another game. This planner covers the game itself.",
     "review": {

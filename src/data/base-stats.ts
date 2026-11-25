@@ -4,6 +4,7 @@ import hoenn from '../../data/base-stats/hoenn.json';
 import sinnoh from '../../data/base-stats/sinnoh.json';
 import unova from '../../data/base-stats/unova.json';
 import kalos from '../../data/base-stats/kalos.json';
+import alola from '../../data/base-stats/alola.json';
 import forms from '../../data/base-stats/forms.json';
 import references from '../../data/base-stats/references.json';
 import type { BaseStats } from '../domain/base-stats';
@@ -15,6 +16,8 @@ const gameTables: Readonly<Record<string, string>> = {
   diamond: 'dp', pearl: 'dp', platinum: 'pt', heartgold: 'hgss', soulsilver: 'hgss',
   black: 'bw', white: 'bw', 'black-2': 'b2w2', 'white-2': 'b2w2',
   x: 'xy', y: 'xy', 'omega-ruby': 'ao', 'alpha-sapphire': 'ao',
+  sun: 'sm', moon: 'sm', 'ultra-sun': 'uu', 'ultra-moon': 'uu',
+  'lets-go-pikachu': 'gg', 'lets-go-eevee': 'gg',
 };
 interface StatRecord {
   id: string;
@@ -56,7 +59,7 @@ export function validateBaseStats(input: unknown): Result<Map<string, StatRecord
   return errors.length ? { ok: false, error: errors } : { ok: true, value: records };
 }
 
-export const rawBaseStats = [...kanto, ...johto, ...hoenn, ...sinnoh, ...unova, ...kalos, ...forms];
+export const rawBaseStats = [...kanto, ...johto, ...hoenn, ...sinnoh, ...unova, ...kalos, ...alola, ...forms];
 const checked = validateBaseStats(rawBaseStats);
 if (!checked.ok) throw new Error(checked.error.map(issue => `${issue.fieldPath} [${issue.recordId}]: ${issue.message}`).join('\n'));
 const records = checked.value;

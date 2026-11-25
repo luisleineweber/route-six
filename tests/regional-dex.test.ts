@@ -49,7 +49,7 @@ describe('Regional Pokédex numbers starting at zero', () => {
     const { game } = zeroDex();
     const html = renderToStaticMarkup(createElement(GameContext, { value: game },
       createElement(PokemonCatalogueCard, {
-        pokemonId: 'ralts', regionalDex: 0, progressPage: false, activeSlot: null,
+        selectionId: 'ralts', regionalDex: 0, progressPage: false, activeSlot: null,
         canAdd: true, onAdd: () => {}, onDetails: () => {},
       }),
     ));
@@ -112,7 +112,7 @@ describe('Regional Pokédex sections', () => {
     const { game } = sectionedDex();
     const html = renderToStaticMarkup(createElement(GameContext, { value: game },
       createElement(PokemonCatalogueCard, {
-        pokemonId: 'ralts', regionalDex: 1, regionalDexSectionId: 'coastal', progressPage: false,
+        selectionId: 'ralts', regionalDex: 1, regionalDexSectionId: 'coastal', progressPage: false,
         activeSlot: null, canAdd: true, onAdd: () => {}, onDetails: () => {},
       }),
     ));

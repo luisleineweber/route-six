@@ -45,8 +45,13 @@ export function formChangePaths(ctx: AccessContext): ProofPath[] {
           }), ...witness.individuals.map(individual => change.fusionPartnerPokemonId
             && individual.use === 'consume' && individual.stages.at(-1)?.split(':')[0] === change.fusionPartnerPokemonId
               ? { ...individual, storedByOrigin: parent.outputOrigin } : individual)],
-          itemUses: [...itemUses, ...witness.itemUses.map(use => heldSources.has(use.resourceId) && !use.consumed
-            ? { ...use, heldByOrigin: parent.outputOrigin } : use)],
+          itemUses: [...itemUses, ...witness.itemUses.map(use => {
+            if (use.consumed && !use.ownerOrigin && !use.acquisitionId) {
+              return { ...use, token: `${parent.outputOrigin}:${change.id}:${use.token}`, ownerOrigin: parent.outputOrigin };
+            }
+            if (heldSources.has(use.resourceId) && !use.consumed) return { ...use, heldByOrigin: parent.outputOrigin };
+            return use;
+          })],
         };
         path.claims = claimsFor(path);
         paths.push(path);
