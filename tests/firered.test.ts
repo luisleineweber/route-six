@@ -18,9 +18,9 @@ import exclusions from '../data/games/firered/exclusions.json';
 import { rawSharedData } from '../src/data/shared-data';
 import { validateDataset } from '../src/data/validate-dataset';
 import { solve } from '../src/domain/availability/solve';
-import commonSchema from '../docs/schema/common.schema.json';
-import gameSchema from '../docs/schema/game.schema.json';
-import acquisitionSchema from '../docs/schema/acquisition.schema.json';
+import commonSchema from '../schema/common.schema.json';
+import gameSchema from '../schema/game.schema.json';
+import acquisitionSchema from '../schema/acquisition.schema.json';
 import { rawGame as rawModule } from '../src/data/games/firered';
 
 const ajv = new Ajv2020({ allErrors: true, strict: false });

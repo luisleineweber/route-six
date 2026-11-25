@@ -45,7 +45,7 @@ You can use Route Six on a phone or a computer.
 | Unova | Black, White, Black 2, White 2 |
 | Kalos | X, Y |
 
-[Game coverage and source notes](docs/game-data-progress.md) explain the details and known limits.
+[Supported games and limits](docs/games.md) explains what Route Six counts as available.
 
 **More games are planned.** We plan to add the remaining Pokémon games over
 time. The table above shows what you can use today. New games will be added
@@ -65,7 +65,7 @@ Found a wrong location or a missing requirement? [Open an issue](https://github.
 Include the game, your selected progress point and the Pokémon involved.
 Screenshots help too.
 
-For setup, tests and data changes, read the [development guide](docs/development.md).
+For setup, tests and data changes, read the [development guide](CONTRIBUTING.md).
 
 ## Credits and licence
 

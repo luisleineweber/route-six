@@ -8,8 +8,8 @@ root = Path(__file__).resolve().parent.parent
 output = root / 'output'
 output.mkdir(exist_ok=True)
 paths = subprocess.check_output(['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'], cwd=root).decode().split('\0')
-folders = {'src', 'scripts', 'tests', 'data', 'public', 'docs', '.github'}
-files = {'README.md', 'LICENSE', 'NOTICE.md', 'DESIGN.md', 'CONTEXT.md', 'package.json', 'package-lock.json', 'tsconfig.json', 'vite.config.ts', 'index.html', '.gitignore', '.env.example'}
+folders = {'src', 'scripts', 'tests', 'data', 'public', 'docs', 'schema', '.github'}
+files = {'README.md', 'CONTRIBUTING.md', 'LICENSE', 'NOTICE.md', 'DESIGN.md', 'CONTEXT.md', 'package.json', 'package-lock.json', 'tsconfig.json', 'vite.config.ts', 'index.html', '.gitignore', '.env.example'}
 included = sorted({name for name in paths if name and (Path(name).parts[0] in folders or name in files)
                    and not name.endswith(('.log', '.tsbuildinfo', '.pyc')) and '__pycache__' not in Path(name).parts})
 archive = output / 'route-six-release-source.zip'

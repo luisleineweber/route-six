@@ -1552,7 +1552,7 @@
     "title": "Reviewed native Platinum game source",
     "url": "https://github.com/pret/pokeplatinum/tree/fe1ea418a7364c93daf0d07ae55e195452d8803c",
     "revision": "fe1ea418a7364c93daf0d07ae55e195452d8803c",
-    "locator": "Native encounter tables, map headers and events, story and gift scripts, item sources, evolution, daycare, forms and acquisition inventory. See docs/platinum-sources.md."
+    "locator": "Native encounter tables, map headers and events, story and gift scripts, item sources, evolution, daycare, forms and acquisition inventory."
   },
   {
     "id": "diamond-native-progress",
@@ -1926,7 +1926,7 @@
     "title": "black reviewed fixed encounters and NPC trades",
     "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs",
     "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
-    "locator": "Static Encounter/Gift Tables and Trade Tables, select black branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/black-sources.md."
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select black branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables."
   },
   {
     "id": "black-native-swarm",
@@ -1940,7 +1940,7 @@
     "title": "black reviewed story, route and event access",
     "url": "https://www.serebii.net/blackwhite/tmhm.shtml",
     "revision": "SHA-256 785d80eb1e0470a84c10db51ff9a3df6f4dec6fbba552d820a73055ba4716589",
-    "locator": "Game-specific walkthrough stage and area tables in docs/black-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+    "locator": "HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
   },
   {
     "id": "black-native-items",
@@ -1954,14 +1954,14 @@
     "title": "black persistent native form types and actions",
     "url": "https://www.serebii.net/blackwhite/forms.shtml",
     "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
-    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/black-forms.md."
+    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice."
   },
   {
     "id": "black-native-scope",
     "title": "black complete reviewed native acquisition inventory and exclusions",
     "url": "https://www.serebii.net/blackwhite/unobtainable.shtml",
     "revision": "SHA-256 39582fdcc9702aed6ad083d910986baab8c27fc09fa2d6693d6f61cc77a554e8",
-    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/black-coverage.md."
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure."
   },
   {
     "id": "white-native-wild",
@@ -1989,7 +1989,7 @@
     "title": "white reviewed fixed encounters and NPC trades",
     "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5BW.cs",
     "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
-    "locator": "Static Encounter/Gift Tables and Trade Tables, select white branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/white-sources.md."
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select white branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables."
   },
   {
     "id": "white-native-swarm",
@@ -2003,7 +2003,7 @@
     "title": "white reviewed story, route and event access",
     "url": "https://www.serebii.net/blackwhite/tmhm.shtml",
     "revision": "SHA-256 785d80eb1e0470a84c10db51ff9a3df6f4dec6fbba552d820a73055ba4716589",
-    "locator": "Game-specific walkthrough stage and area tables in docs/white-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+    "locator": "HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
   },
   {
     "id": "white-native-items",
@@ -2017,14 +2017,14 @@
     "title": "white persistent native form types and actions",
     "url": "https://www.serebii.net/blackwhite/forms.shtml",
     "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
-    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/white-forms.md."
+    "locator": "personal_bw species/form records and PersonalInfo5BW.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice."
   },
   {
     "id": "white-native-scope",
     "title": "white complete reviewed native acquisition inventory and exclusions",
     "url": "https://www.serebii.net/blackwhite/unobtainable.shtml",
     "revision": "SHA-256 39582fdcc9702aed6ad083d910986baab8c27fc09fa2d6693d6f61cc77a554e8",
-    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/white-coverage.md."
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure."
   },
   {
     "id": "white-native-forest",
@@ -2059,7 +2059,7 @@
     "title": "black-2 reviewed fixed encounters and NPC trades",
     "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs",
     "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
-    "locator": "Static Encounter/Gift Tables and Trade Tables, select black-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/black-2-sources.md."
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select black-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables."
   },
   {
     "id": "black-2-native-swarm",
@@ -2073,7 +2073,7 @@
     "title": "black-2 reviewed story, route and event access",
     "url": "https://www.serebii.net/black2white2/tmhm.shtml",
     "revision": "SHA-256 910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db",
-    "locator": "Game-specific walkthrough stage and area tables in docs/black-2-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+    "locator": "HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
   },
   {
     "id": "black-2-native-items",
@@ -2087,21 +2087,21 @@
     "title": "black-2 persistent native form types and actions",
     "url": "https://www.serebii.net/black2white2/forms.shtml",
     "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
-    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/black-2-forms.md."
+    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice."
   },
   {
     "id": "black-2-native-scope",
     "title": "black-2 complete reviewed native acquisition inventory and exclusions",
     "url": "https://www.serebii.net/black2white2/unobtainable.shtml",
     "revision": "SHA-256 8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64",
-    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/black-2-coverage.md."
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_b2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure."
   },
   {
     "id": "black-2-native-grotto",
     "title": "black-2 native Hidden Grotto and solo mission review",
     "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
     "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
-    "locator": "HOLLOW_FILE_VERSION selects 1; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/black-2-sources.md."
+    "locator": "HOLLOW_FILE_VERSION selects 1; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c."
   },
   {
     "id": "white-2-native-wild",
@@ -2129,7 +2129,7 @@
     "title": "white-2 reviewed fixed encounters and NPC trades",
     "url": "https://github.com/kwsch/PKHeX/blob/641c26ba100225f3605e5a44b61b3b16e15a3774/PKHeX.Core/Legality/Encounters/Data/Gen5/Encounters5B2W2.cs",
     "revision": "641c26ba100225f3605e5a44b61b3b16e15a3774",
-    "locator": "Static Encounter/Gift Tables and Trade Tables, select white-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables. Pinned source and gameplay cross-checks, finite uses, offers, choices and event gates: docs/white-2-sources.md."
+    "locator": "Static Encounter/Gift Tables and Trade Tables, select white-2 branches only. Exclude distribution, Dream World, Dream Radar and Memory Link tables."
   },
   {
     "id": "white-2-native-swarm",
@@ -2143,7 +2143,7 @@
     "title": "white-2 reviewed story, route and event access",
     "url": "https://www.serebii.net/black2white2/tmhm.shtml",
     "revision": "SHA-256 910efd4d07cbde00b79101fa7b2441e5817a7848160b5ed752b72579895580db",
-    "locator": "Game-specific walkthrough stage and area tables in docs/white-2-sources.md. HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
+    "locator": "HM gift table; Dreamyard, Route 4, Chargestone Cave access cross-checks. B2W2 native scripts at a17a9fedc6344da8bc063b0517a755faee137b0b include Route 5 introduction, Driftveil Zorua and Rock Peak Chamber key reward. Boss caps keep their existing game-specific references."
   },
   {
     "id": "white-2-native-items",
@@ -2157,21 +2157,21 @@
     "title": "white-2 persistent native form types and actions",
     "url": "https://www.serebii.net/black2white2/forms.shtml",
     "revision": "PKHeX 641c26ba100225f3605e5a44b61b3b16e15a3774; native sequel source a17a9fedc6344da8bc063b0517a755faee137b0b; pinned image archive ba403973fdf9d0ac59175813861e6a1f8ed5020c",
-    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice. Sprite selectors: docs/white-2-forms.md."
+    "locator": "personal_b2w2 species/form records and PersonalInfo5B2W2.cs. Rotom appliances: Shopping Mall Nine; seasonal forms: src/ov012/season_form.c. B2W2 fusion: src/ov165/plist_demo.c CheckFuse/CheckSeparate/Fuse/Separate and plist_sys.c func_ov165_0219becc. Both Kyurem forms remain Dragon/Ice."
   },
   {
     "id": "white-2-native-scope",
     "title": "white-2 complete reviewed native acquisition inventory and exclusions",
     "url": "https://www.serebii.net/black2white2/unobtainable.shtml",
     "revision": "SHA-256 8b2747e89242fa69f6989d23c7c9eb8573c01fb42f50047145e2e41fb4592a64",
-    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure. Exact per-species exclusions and evidence exceptions: docs/white-2-coverage.md."
+    "locator": "Unobtainable inventory, cross-checked against this version's encounter_w2.pkl and fixed/gift/trade tables at 641c26ba100225f3605e5a44b61b3b16e15a3774, all reviewed native pools, and evolution/breeding closure."
   },
   {
     "id": "white-2-native-grotto",
     "title": "white-2 native Hidden Grotto and solo mission review",
     "url": "https://github.com/fuddlesworth/pokebw2/blob/a17a9fedc6344da8bc063b0517a755faee137b0b/src/ov036/scrcmd_hidden_hollow.c",
     "revision": "a17a9fedc6344da8bc063b0517a755faee137b0b",
-    "locator": "HOLLOW_FILE_VERSION selects 0; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c; see docs/white-2-sources.md."
+    "locator": "HOLLOW_FILE_VERSION selects 0; s0294_HiddenHollowGetParam, HOLLOW_MISSION_LEVELS. Slots independently reviewed against this version PKHeX resource, published physical-site tables, and suloku/BW2_grottoswarm 2a68f0cd10cb4e680b9514d4b72f053cbee8a3e3. Source IDs name grotto indexes from src/ov012/hidden_hollow.c HIDDEN_HOLLOW_ENTRANCES. Route 22 bounds 40/45 give 40–44. Native solo mission: src/ov026/fest_mission_hollow.c."
   },
   {
     "id": "oras-reviewed-story",
