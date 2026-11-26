@@ -1,13 +1,7 @@
 # Adding reviewed game data
 
-The dataset uses schema version 2. All eleven catalogue games from Generations
-I to III support both planners. Thirteen games from Generations IV to VI
-support Team Planner. Diamond, Pearl, Platinum, Black, White, Black 2,
-White 2, X, Y, Omega Ruby, and Alpha Sapphire also support Progress Planner.
-HeartGold and SoulSilver still need their access review. The totals are 24
-Team Planner games and 22 Progress Planner games.
-Ruby passed the second-game checks before the group.
-A catalogue entry or logo does not provide game rules.
+The dataset uses schema version 2. All 30 enabled games from Generations
+I to VII support both planners. See [Generation VII coverage](generation-seven-coverage.md).
 
 A game is complete only when its reviewed Progress Planner works. Team
 Planner registration alone does not complete a game. Black, White, Black 2,
@@ -31,10 +25,9 @@ that the game supports the species but has no native acquisition in this scope.
 Do not use exclusions to hide unfinished data. Check the supported list against
 the game's pinned reference and add an exact coverage test.
 
-The shared identities now reach National Dex 721. Generation IV–VI datasets
-are still in review; see [their current status](generation-456-progress.md).
-Each game must still declare its own supported profile list. A larger shared
-list does not expand an older game's supported species.
+The shared identities reach National Dex 809. Each game declares its
+supported profile list. The Generation VII Alola games share equal profiles
+and supply separate regional Dex lists for the original and Ultra games.
 
 All game files remain manually maintained. Runtime imports load files shipped
 with the app. They do not download game data from an external service.
@@ -56,9 +49,11 @@ with the app. They do not download game data from an external service.
 5. Set `game.planner.defaultMilestoneId` and its `checkpoints`. Each checkpoint
    refers to a real milestone. Give it its visible label, title, detail, and
    nullable type ID. The existing milestone `displayOrder` determines order.
-   Include Gym 1 through Gym 8, then Victory Road when the game has that
-   milestone. Do not add starter, story, League, or post-game checkpoints. Set
-   Victory Road as the default when it exists; otherwise use Gym 8.
+   For a region with Gyms, include Gym 1 through Gym 8, then Victory Road when
+   the game has that milestone. Set Victory Road as the default when it
+   exists. Otherwise use Gym 8. For Alola, use the island trials and grand
+   trials in game order. Keep starter, story, League, and post-game milestones
+   in the access data when they control access.
    For reviewed team data without progress coverage, set both `game.planner`
    and `game.firstMilestoneId` to null. Keep the progress collections empty.
    This is an explicit pending review, not a claim that no encounters exist.
@@ -71,7 +66,7 @@ with the app. They do not download game data from an external service.
    assembled object. No conversion or external data import belongs here.
    A game with reviewed form changes also imports `form-changes.json` and
    supplies the optional `formChanges` collection.
-8. Add the module to `progressGameLoaders` or `teamGameLoaders` in
+8. Add the module to `progressGameLoaders` in
    `src/data/game-registry.ts`. The registry
    key must equal `game.id` and a game catalogue ID. The catalogue generation
    must match the game record. Team registration needs complete reviewed base

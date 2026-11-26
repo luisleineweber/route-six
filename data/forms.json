@@ -341,5 +341,383 @@
       ],
       "checkedOn": "2026-10-27"
     }
+  },
+  {
+    "id": "rattata-alola",
+    "pokemonId": "rattata",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "raticate-alola",
+    "pokemonId": "raticate",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "raichu-alola",
+    "pokemonId": "raichu",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "sandshrew-alola",
+    "pokemonId": "sandshrew",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "sandslash-alola",
+    "pokemonId": "sandslash",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "vulpix-alola",
+    "pokemonId": "vulpix",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "ninetales-alola",
+    "pokemonId": "ninetales",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "diglett-alola",
+    "pokemonId": "diglett",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "dugtrio-alola",
+    "pokemonId": "dugtrio",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "meowth-alola",
+    "pokemonId": "meowth",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "persian-alola",
+    "pokemonId": "persian",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "geodude-alola",
+    "pokemonId": "geodude",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "graveler-alola",
+    "pokemonId": "graveler",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "golem-alola",
+    "pokemonId": "golem",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "grimer-alola",
+    "pokemonId": "grimer",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "muk-alola",
+    "pokemonId": "muk",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "exeggutor-alola",
+    "pokemonId": "exeggutor",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "marowak-alola",
+    "pokemonId": "marowak",
+    "name": "Alolan Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "oricorio-pom-pom",
+    "pokemonId": "oricorio",
+    "name": "Pom-Pom Style",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "oricorio-pau",
+    "pokemonId": "oricorio",
+    "name": "Pa’u Style",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "oricorio-sensu",
+    "pokemonId": "oricorio",
+    "name": "Sensu Style",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "lycanroc-midnight",
+    "pokemonId": "lycanroc",
+    "name": "Midnight Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "lycanroc-dusk",
+    "pokemonId": "lycanroc",
+    "name": "Dusk Form",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "necrozma-dusk",
+    "pokemonId": "necrozma",
+    "name": "Dusk Mane",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "necrozma-dawn",
+    "pokemonId": "necrozma",
+    "name": "Dawn Wings",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "pikachu-partner",
+    "pokemonId": "pikachu",
+    "name": "Partner",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
+  },
+  {
+    "id": "eevee-partner",
+    "pokemonId": "eevee",
+    "name": "Partner",
+    "introducedGeneration": 7,
+    "review": {
+      "referenceIds": [
+        "gen7-personal",
+        "gen7-dex",
+        "gen7-sprites"
+      ],
+      "checkedOn": "2026-11-23"
+    }
   }
 ]

@@ -33,7 +33,6 @@ describe('Generation V and VI species identities', () => {
 
   it('keeps the accented display name separate from the stable ASCII ID', () => {
     expect(pokemon.find(species => species.nationalDex === 669)).toMatchObject({ id: 'flabebe', name: 'Flabébé' });
-    expect(pokemon.at(-1)).toMatchObject({ id: 'volcanion', nationalDex: 721, introducedGeneration: 6 });
-    expect(new Set(pokemon.map(species => species.nationalDex)).size).toBe(721);
+    expect(pokemon.find(species => species.nationalDex === 721)).toMatchObject({ id: 'volcanion', introducedGeneration: 6 });
   });
 });

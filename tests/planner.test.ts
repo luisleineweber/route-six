@@ -31,14 +31,19 @@ describe('Shared planner catalogue', () => {
 });
 
 describe('Progress checkpoints', () => {
-  it('limits each ready game to Gym 1–8 and Victory Road when present', () => {
-    for (const game of dataset.games.filter(game => game.game.planner !== null)) {
+  it('offers Gym 1–8 and the League approach in games with Gyms', () => {
+    const withGyms = dataset.games.filter(game => game.game.planner !== null && game.bosses.some(boss => boss.kind === 'gym'));
+    const leagueCheckpoints: Record<string, string> = {
+      heartgold: 'before-league', soulsilver: 'before-league',
+      'lets-go-pikachu': 'indigo-plateau', 'lets-go-eevee': 'indigo-plateau',
+    };
+    for (const game of withGyms) {
       const options = progressCheckpointOptions(game);
       const isGym = (option: typeof options[number]) => /^Gym [1-8]$/.test(option.title)
         || /Badge$/.test(option.title) || /-gym$/.test(option.id);
       const gymOptions = options.filter(isGym);
       const hasVictoryRoad = game.milestones.some(milestone => milestone.id === 'victory-road');
-      const leagueCheckpoint = ['heartgold', 'soulsilver'].includes(game.game.id) ? 'before-league' : 'victory-road';
+      const leagueCheckpoint = leagueCheckpoints[game.game.id] ?? 'victory-road';
       expect(gymOptions, game.game.id).toHaveLength(8);
       expect(options.filter(option => !isGym(option)).map(option => option.id), game.game.id)
         .toEqual(hasVictoryRoad ? [leagueCheckpoint] : []);

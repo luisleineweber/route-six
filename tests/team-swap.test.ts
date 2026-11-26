@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { afterEach, describe, expect, it } from 'vitest';
 import { emerald } from './local-data';
+import { loadGame } from '../src/data/game-loader';
 import App from '../src/App';
 import { GameContext } from '../src/features/planner/GameContext';
 import { PokemonCatalogueCard } from '../src/features/progress/PokemonCatalogueCard';
@@ -13,7 +14,7 @@ import { SwapTeamDialog } from '../src/features/team/SwapTeamDialog';
 
 const card = (canAdd: boolean) => renderToStaticMarkup(createElement(GameContext, { value: emerald },
   createElement(PokemonCatalogueCard, {
-    pokemonId: 'silcoon', progressPage: false, activeSlot: null,
+    selectionId: 'silcoon', progressPage: false, activeSlot: null,
     canAdd, onAdd: () => {}, onSwap: () => {}, onDetails: () => {},
   })));
 
@@ -72,6 +73,23 @@ describe('focus after a swap', () => {
     return element;
   };
   const click = (element: HTMLElement) => act(() => { element.click(); });
+
+  it('swaps the partner form from the catalogue into a full team', async () => {
+    const loaded = await loadGame('lets-go-pikachu');
+    if (!loaded.ok) throw new Error(JSON.stringify(loaded.error));
+    const container = document.body.appendChild(document.createElement('div'));
+    root = createRoot(container);
+    act(() => root!.render(createElement(App, { initialGame: loaded.value })));
+    const catalogue = document.getElementById('pokemon-search')!;
+    for (const name of ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon', 'Charizard']) {
+      click(button(`Add ${name} to team`, catalogue));
+    }
+
+    click(button('Swap Pikachu (Partner) into team', catalogue));
+    click(button('Replace Charizard in slot 6', document.querySelector('.swap-dialog')!));
+    expect(document.querySelector('.team-slot:nth-child(6)')?.getAttribute('aria-label'))
+      .toBe('Team slot 6: Pikachu (Partner)');
+  }, 30_000);
 
   it('moves focus to the team slot that got the new Pokémon when the swap starts in the details dialog', () => {
     const container = document.body.appendChild(document.createElement('div'));

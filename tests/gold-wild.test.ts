@@ -198,7 +198,7 @@ describe('PokÃ©mon Gold land, Surf, and fishing coverage', () => {
     for (const [key, rows] of groups) {
       expect(rows).toHaveLength(6);
       expect(rows.reduce((sum, source) => sum +
-        (source.details.kind === 'wild' ? source.details.ratePercent : 0), 0)).toBe(100);
+        (source.details.kind === 'wild' ? source.details.ratePercent ?? NaN : 0), 0)).toBe(100);
       expect(rows.every((source) => source.locationId === key.replace(/-(common|rare)$/, '') &&
         source.details.kind === 'wild' && source.details.method === 'headbutt' &&
         source.requirements.kind === 'capability' && source.requirements.id === 'headbutt' &&
@@ -222,13 +222,13 @@ describe('PokÃ©mon Gold land, Surf, and fishing coverage', () => {
     for (const rows of grassGroups.values()) {
       expect(rows).toHaveLength(7);
       expect(rows.reduce((sum, source) => sum +
-        (source.details.kind === 'wild' ? source.details.ratePercent : 0), 0)).toBe(100);
+        (source.details.kind === 'wild' ? source.details.ratePercent ?? NaN : 0), 0)).toBe(100);
       expect(rows.every((source) => source.requirements.kind === 'all' &&
         source.requirements.requirements.some((item) => item.kind === 'capability' && item.id === 'swarm-report'))).toBe(true);
     }
     expect(surf.map((source) => source.pokemonId)).toEqual(['goldeen', 'marill', 'seaking']);
     expect(surf.reduce((sum, source) => sum +
-      (source.details.kind === 'wild' ? source.details.ratePercent : 0), 0)).toBe(100);
+      (source.details.kind === 'wild' ? source.details.ratePercent ?? NaN : 0), 0)).toBe(100);
     expect([...grass, ...surf].every((source) => source.review.referenceIds.includes('gold-time'))).toBe(true);
   });
 

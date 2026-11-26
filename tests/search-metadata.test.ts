@@ -67,12 +67,10 @@ describe('search page output', () => {
   });
 
   it('keeps the separate agent summary in line with the registered planners', () => {
-    const names = (ids: string[]) => ids.map(id => gameCatalogue.find(game => game.id === id)!.name.replace('Pokémon ', '')).sort();
     const summary = readFileSync(new URL('../public/llms.txt', import.meta.url), 'utf8');
-    const list = (prefix: string) => summary.split('\n').find(line => line.startsWith(prefix))!
-      .slice(prefix.length).replace(/\.$/, '').split(', ').sort();
-    expect(list('- Both planners: ')).toEqual(names(Object.keys(progressGameLoaders)));
-    expect(summary).not.toContain('- Team Planner only: ');
+    const names = gameCatalogue.filter(game => Object.hasOwn(progressGameLoaders, game.id))
+      .map(game => game.name.replace('Pokémon ', ''));
+    expect(summary.split(/\r?\n/)).toContain(`- Both planners: ${names.join(', ')}`);
     expect(summary).toContain('Plans reset when the page reloads.');
     expect(summary).toContain('unofficial fan project');
   });

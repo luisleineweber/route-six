@@ -1,5 +1,5 @@
 import type { AcquisitionPath, AvailabilityEntry, AvailabilitySnapshot, GameData, ParentWitness, SourceDetails } from '../domain/types';
-import { pokemonById, pokemonIdentity } from '../data/dataset';
+import { pokemonIdentity } from '../data/dataset';
 import { selectionId } from '../domain/pokemon-selection';
 import { evolutionLabels } from './evolution-presentation';
 
@@ -20,9 +20,16 @@ const sourceMethodNames = {
   'long-grass': 'Long grass', dive: 'Dive in seaweed', dexnav: 'DexNav hidden Pokémon',
   'game-trade': 'In-game trade', breeding: 'Breeding',
   'hidden-grotto': 'Hidden Grotto', 'white-forest': 'White Forest resident',
+  sos: 'SOS Battle', 'island-scan': 'Island Scan', fishing: 'Fishing', 'fishing-spots': 'Fishing at a bubbling spot',
+  'berry-piles': 'Berry pile', ambush: 'Ambush encounter', 'poke-pelago': 'Poké Pelago',
 } as const;
 
 export function sourceMethod(details: SourceDetails) {
+  if (details.kind === 'overworld') {
+    const terrain = { land: 'On land', air: 'In the air', water: 'On water' }[details.habitat];
+    return { name: details.rare ? `Rare spawn · ${terrain.toLowerCase()}` : terrain,
+      iconSrc: details.habitat === 'water' ? '/methods/surf.svg' : null };
+  }
   const key = details.kind === 'wild' ? details.method : details.kind;
   const rod = key === 'super-rod-spots' ? 'super-rod' : key;
   const itemIcon = rod === 'old-rod' || rod === 'good-rod' || rod === 'super-rod' ? `/items/${rod}.png` : null;
@@ -65,7 +72,7 @@ function acquisitionGroup(game: GameData, path: AcquisitionPath) {
   const source = pathSource(game, path);
   const location = game.locations.find(location => location.id === source.locationId)!;
   const method = sourceMethod(source.details);
-  return { id: JSON.stringify([location.id, source.details.kind, source.details.kind === 'wild' ? source.details.method : null]),
+  return { id: JSON.stringify([location.id, source.details.kind, method.name]),
     title: source.details.kind === 'breeding' ? 'Day Care breeding' : location.name,
     method: method.name, iconSrc: method.iconSrc, methodLevel: null };
 }
@@ -128,7 +135,7 @@ export function pathOptionName(game: GameData, path: AcquisitionPath) {
   const source = pathSource(game, path);
   if (path.evolutionIds.length) {
     const location = game.locations.find(location => location.id === source.locationId)!;
-    return `${pokemonById.get(source.pokemonId)!.name} · ${location.name} · ${sourceMethod(source.details).name}`;
+    return `${pokemonIdentity(selectionId(source.pokemonId, source.formId)).name} · ${location.name} · ${sourceMethod(source.details).name}`;
   }
   // Area names are part of the manually maintained wild-source IDs.
   if (source.details.kind === 'wild') {

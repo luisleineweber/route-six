@@ -1,0 +1,20 @@
+[
+  {"pokemonId":"ekans","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"arbok","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"vulpix","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"ninetales","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"meowth","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"bellsprout","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"weepinbell","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"victreebel","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"koffing","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"weezing","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"pinsir","formId":null,"reason":"other-version","explanation":"Native acquisition is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"vulpix","formId":"vulpix-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"ninetales","formId":"ninetales-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"meowth","formId":"meowth-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"persian","formId":"persian-alola","reason":"other-version","explanation":"The Alolan in-game trade or its evolution is exclusive to Let’s Go, Eevee!.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"mew","formId":null,"reason":"external-event","explanation":"Mew requires a Poké Ball Plus gift or another external source.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"meltan","formId":null,"reason":"external-connection","explanation":"Meltan requires a Pokémon GO transfer.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}},
+  {"pokemonId":"melmetal","formId":null,"reason":"external-connection","explanation":"Melmetal evolves from Meltan in Pokémon GO and must be transferred.","review":{"referenceIds":["lets-go-availability"],"checkedOn":"2026-11-24"}}
+]

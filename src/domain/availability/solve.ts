@@ -15,7 +15,7 @@ export function conditionText(c: EvolutionCondition, generation: number): string
   switch (c.kind) {
     case 'friendship': return `Raise friendship to ${c.minimum}, then gain a level.`;
     case 'beauty': return `Raise Beauty to ${c.minimum} with ${generation === 4 ? 'Poffins' : 'dry Pokéblocks'}, then gain a level.`;
-    case 'time': return `Gain a level during the ${c.period}.`;
+    case 'time': return c.period === 'dusk' ? 'Gain a level at dusk.' : `Gain a level during the ${c.period}.`;
     case 'stats': return `At evolution, ${c.relation.replaceAll('-', ' ')}.`;
     case 'personality': return `Select a personality with remainder ${c.minimum}–${c.maximum} modulo ${c.modulus}.`;
     case 'party-space': return `Leave ${c.freeSlots} free party slot${c.freeSlots === 1 ? '' : 's'}.`;
@@ -23,7 +23,7 @@ export function conditionText(c: EvolutionCondition, generation: number): string
     case 'held-item': return `Hold ${c.itemId}, then gain a level. The evolution uses the item.`;
     case 'party-pokemon': return `Keep ${c.pokemonId} in the party, then gain a level.`;
     case 'party-type': return `Keep another ${c.typeId}-type Pokémon in the party, then gain a level.`;
-    case 'affection': return 'At least two hearts in Pokémon-Amie, then gain a level.';
+    case 'affection': return `At least two hearts in ${generation === 7 ? 'Pokémon Refresh' : 'Pokémon-Amie'}, then gain a level.`;
     case 'weather': return 'Gain a level in natural rain.';
     case 'device-orientation': return 'Hold the Nintendo 3DS upside-down when the Pokémon gains a level.';
     case 'known-move': return `Know ${c.moveName}, then gain a level.`;

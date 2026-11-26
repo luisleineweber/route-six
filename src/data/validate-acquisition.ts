@@ -4,6 +4,7 @@ import { pokemonSelections, selectionId } from '../domain/pokemon-selection';
 import { validateItemSources } from './validate-item-sources';
 import { formChangeRequirements } from '../domain/availability/form-changes';
 import { validateUnovaSource } from './validate-unova-sources';
+import { excludesSelection } from '../domain/availability/exclusions';
 
 function requiresCapability(requirement: Requirement, id: string): boolean {
   if (requirement.kind === 'all') return requirement.requirements.some(child => requiresCapability(child, id));
@@ -52,6 +53,10 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
         issue(source.id, 'sources', 'Rippling water encounters must also require their water access capability.');
       }
     }
+    if (source.details.kind === 'overworld' && source.details.habitat !== 'land') {
+      const access = source.details.habitat === 'air' ? 'high-flight' : 'sea-skim';
+      if (!requiresCapability(source.requirements, access)) issue(source.id, 'sources', `Overworld encounters here require ${access}.`);
+    }
     if (source.details.kind === 'honey-tree') {
       if (!has(source.requirements, 'capability', 'honey-tree') || !has(source.requirements, 'item', 'honey', true)) {
         issue(source.id, 'sources', 'Honey Tree encounters require the Honey Tree action and consumed Honey.');
@@ -71,6 +76,12 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
       if (source.maxUses !== null) issue(source.id, 'sources', 'DexNav hidden Pokémon must be repeatable.');
     }
     for (const condition of source.encounterConditions ?? []) {
+      if (condition.kind === 'sos') {
+        if (source.details.kind !== 'wild' || source.details.method !== 'sos') {
+          issue(source.id, 'sources', 'SOS caller and weather conditions require an SOS encounter.');
+        }
+        for (const id of condition.callerIds) if (!profiles.has(id)) issue(source.id, 'sources', `Unknown SOS caller: ${id}`);
+      }
       const action = condition.kind === 'radio' ? `${condition.sound}-sound`
         : condition.kind === 'headbutt-tree' ? 'headbutt' : condition.kind === 'safari-blocks' ? 'safari-blocks' : null;
       if (action && !requiresCapability(source.requirements, action)) {
@@ -102,7 +113,9 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
     }
     if (source.details.kind === 'breeding') {
       const rule = rules.get(source.details.ruleId);
-      if (!rule?.offspringPokemonIds.includes(source.pokemonId)) issue(source.id, 'sources', 'Breeding source does not match its offspring rule.');
+      if (!rule?.offspringPokemonIds.some(id => id === source.pokemonId || id === selectionId(source.pokemonId, source.formId))) {
+        issue(source.id, 'sources', 'Breeding source does not match its offspring rule.');
+      }
       if (!has(source.requirements, 'capability', source.details.capabilityId)) issue(source.id, 'sources', 'Breeding source must require Day Care access.');
       if (game.game.breeding === null) issue(source.id, 'sources', 'Breeding is not supported in this game.');
       else if (source.level.kind !== 'fixed' || source.level.value !== game.game.breeding.hatchLevel) {
@@ -178,7 +191,7 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
       issue(change.id, 'form-changes', 'Fusion needs another supported species as its partner.');
     }
   }
-  const grounded = new Set([...profiles].filter(([, profile]) => game.exclusions.some(e => e.pokemonId === profile.pokemonId)).map(([id]) => id));
+  const grounded = new Set([...profiles].filter(([, profile]) => game.exclusions.some(e => excludesSelection(e, profile))).map(([id]) => id));
   const groundRequirement = (r:Requirement, seen=new Set<string>()):boolean => {
     if('requirements' in r)return r.kind==='all'?r.requirements.every(c=>groundRequirement(c,seen)):r.requirements.some(c=>groundRequirement(c,seen));
     if(r.kind==='milestone')return true;
@@ -218,8 +231,12 @@ export function validateAcquisition(game: GameData, base: string): ValidationIss
   }
   for (const [id] of profiles) if (!grounded.has(id)) issue(id, 'pokemon', 'Species or form has no grounded source, evolution, or exclusion.');
   for (const exclusion of game.exclusions) {
-    if (!profiles.has(exclusion.pokemonId)) issue(exclusion.pokemonId, 'exclusions', 'Unknown excluded species.');
-    if (game.sources.some(s => s.pokemonId === exclusion.pokemonId && s.details.kind !== 'breeding')) issue(exclusion.pokemonId, 'exclusions', 'Excluded species also has a direct source.');
+    const id = selectionId(exclusion.pokemonId, exclusion.formId);
+    if (profiles.get(id)?.pokemonId !== exclusion.pokemonId) issue(id, 'exclusions', 'Unknown excluded species or form.');
+    if (game.sources.some(s => excludesSelection(exclusion, s) && s.details.kind !== 'breeding')) issue(id, 'exclusions', 'Excluded selection also has a direct source.');
+    if (exclusion.formId !== undefined && game.exclusions.some(e => e.pokemonId === exclusion.pokemonId && e.formId === undefined)) {
+      issue(id, 'exclusions', 'This selection already has a species-wide exclusion.');
+    }
   }
   // A capability/item cycle without Pokémon participation is a data error.
   const dependencyRows = new Map<string, Requirement[]>([

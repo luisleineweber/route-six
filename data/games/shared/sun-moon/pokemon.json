@@ -1,0 +1,4 @@
+[
+  {"pokemonId":"lycanroc","types":["rock"],"breeding":{"eggGroupIds":["field"]},"review":{"referenceIds":["gen7-personal","gen7-sprites"],"checkedOn":"2026-11-23"},"genders":["male","female"],"spriteSrc":"/pokemon/745.png","forms":[{"formId":"lycanroc-midnight","types":["rock"],"breeding":{"eggGroupIds":["field"]},"review":{"referenceIds":["gen7-personal","gen7-sprites"],"checkedOn":"2026-11-23"},"genders":["male","female"],"spriteSrc":"/pokemon/lycanroc-midnight.png"}]},
+  {"pokemonId":"necrozma","types":["psychic"],"breeding":{"eggGroupIds":["undiscovered"]},"review":{"referenceIds":["gen7-personal","gen7-sprites"],"checkedOn":"2026-11-23"},"genders":["genderless"],"spriteSrc":"/pokemon/800.png"}
+]

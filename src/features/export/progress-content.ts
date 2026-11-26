@@ -56,6 +56,7 @@ function extraEvolutionNotes(game: GameData, path: AcquisitionPath, selectedPath
 function encounterLabels(source: PokemonSource) {
   return (source.encounterConditions ?? []).map(condition => {
     switch (condition.kind) {
+      case 'sos': return condition.weather ? `SOS in ${condition.weather}` : 'SOS call';
       case 'time': return condition.periods.map(period => period[0].toUpperCase() + period.slice(1)).join('/');
       case 'season': return condition.seasons.map(season => season[0].toUpperCase() + season.slice(1)).join('/');
       case 'weekday': return condition.day[0].toUpperCase() + condition.day.slice(1);
@@ -78,7 +79,7 @@ function otherRouteOptions(game: GameData, snapshot: AvailabilitySnapshot, id: s
   for (const pathId of [...ids].sort((a, b) => compareProgressPaths(game, snapshot.paths[a], snapshot.paths[b]))) {
     const path = snapshot.paths[pathId];
     const source = pathSource(game, path);
-    if (source.details.kind !== 'wild') continue;
+    if (source.details.kind !== 'wild' && source.details.kind !== 'overworld') continue;
     const conditions = encounterLabels(source);
     if (source.locationId === selectedSource.locationId || options.has(source.locationId)) continue;
     const method = sourceMethod(source.details);
@@ -164,7 +165,7 @@ export function progressContent(game: GameData, snapshot: AvailabilitySnapshot, 
   if (path.formChangeIds?.length && stages.at(-1)!.name !== selected.name) stages.push(stage(game, selected.selectionId, 'Change form'));
   if (source.details.kind === 'game-trade') {
     if (source.details.offeredPokemonId === null) acquisition.push(...tradeInstructions(source));
-    else acquisition.push(`Offer ${pokemonById.get(source.details.offeredPokemonId)!.name}.`);
+    else acquisition.push(`Offer ${pokemonIdentity(source.details.offeredPokemonId).name}.`);
   }
   if (source.details.kind === 'fossil') {
     const itemId = source.details.itemId;
