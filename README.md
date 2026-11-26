@@ -8,6 +8,12 @@ Route Six helps you build a team of six before your next playthrough.
 Compare types, find Pokémon in your game and check which team members you
 can get at each stage. Use it in your browser. No account or installation is needed.
 
+The Full Game view uses that team as the goal for the Elite Four and Champion.
+It shows earlier evolution stages and missing members before each Gym. Players
+can select temporary members for each stage. This first layer checks each team
+separately. See [Full Game scope](docs/full-game-planner.md) for its limits.
+
+
 ![An Emerald team in Route Six, with six Pokémon and their types](docs/images/team-planner.png)
 
 ## Build a team you want to play with

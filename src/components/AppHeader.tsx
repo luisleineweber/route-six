@@ -3,11 +3,12 @@ import { GameSelector } from './GameSelector';
 import { RouteSixMark } from './RouteSixMark';
 import { ThemeToggle } from './ThemeToggle';
 
-export type PlannerPage = 'team' | 'progress';
+export type PlannerPage = 'team' | 'progress' | 'full-game';
 
 const pages = [
   { id: 'team', name: 'Team Planner', description: 'Your six Pokémon and their types', Icon: Users },
   { id: 'progress', name: 'Progress Planner', description: 'Where and when to find your team', Icon: Compass },
+  { id: 'full-game', name: 'Full Game', description: null, Icon: null },
 ] as const;
 
 export function AppHeader({ gameId, loadingGameId, onGameChange, page, onPageChange }: {
@@ -29,8 +30,8 @@ export function AppHeader({ gameId, loadingGameId, onGameChange, page, onPageCha
           className={page === id ? 'selected' : ''}
           aria-current={page === id ? 'page' : undefined}
           onClick={() => onPageChange(id)}>
-          <Icon size={21} aria-hidden="true" />
-          <span className="planner-nav-copy"><span>{name}</span><span>{description}</span></span>
+          {Icon && <Icon size={21} aria-hidden="true" />}
+          <span className="planner-nav-copy"><span>{name}</span>{description && <span>{description}</span>}</span>
         </button>)}
       </nav>
       <ThemeToggle />

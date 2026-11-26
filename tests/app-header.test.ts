@@ -17,7 +17,7 @@ describe('Header', () => {
     expect(html).toContain('<strong>Pokémon Emerald</strong><span>Change game</span>');
   });
 
-  it.each(['team', 'progress'] as const)('kennzeichnet nur den aktiven Planer: %s', page => {
+  it.each(['team', 'progress', 'full-game'] as const)('kennzeichnet nur den aktiven Planer: %s', page => {
     const html = renderHeader(page);
     expect(html.match(/aria-current="page"/g)).toHaveLength(1);
     expect(html).toContain('<button type="button" class="selected" aria-current="page">');
@@ -30,5 +30,6 @@ describe('Header', () => {
     expect(nav).not.toMatch(/aria-labelledby|aria-describedby|aria-label=/);
     expect(nav).toContain('<span>Team Planner</span><span>Your six Pokémon and their types</span>');
     expect(nav).toContain('<span>Progress Planner</span><span>Where and when to find your team</span>');
+    expect(nav).toContain('<button type="button" class=""><span class="planner-nav-copy"><span>Full Game</span></span></button>');
   });
 });

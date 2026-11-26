@@ -74,6 +74,41 @@ the original MVP history. The original choices remain here for context.
 - A separate home page was discussed, but it was not selected as a requirement.
 - Type multi-select was discussed, but no default behavior was confirmed.
 
+### Future idea: full-game team view
+
+Recorded on 27 October 2026 for a later release. This idea is not part of the
+current MVP requirements.
+
+The first working layer started on 28 October 2026 at the owner's request.
+See [Full Game planner](full-game-planner.md) for its scope and remaining work.
+
+Start with the player's preferred six-member team for the Elite Four and
+Champion. Show the team across the selected game's main stages. For Emerald,
+use eight Gyms plus the League as nine stages. This interprets the requested
+"9 gyms" as nine stages; the final stage list remains open.
+
+At each stage, show each final team member with one of these states:
+
+- The selected Pokémon is available.
+- Only an earlier evolution stage is available. Show which one can be used.
+- No member of that evolution line is available yet. Show the reason.
+
+Let the player work back from the final team to the earlier stages. Keep
+available members, use available earlier evolution stages, and let the player
+choose temporary replacements for empty slots. Repeat until each stage has a
+full six-member team. Keep the final team visible as the goal.
+
+Use the selected game's access rules and level-limit setting at each stage.
+Check each full team for exclusive choices and finite resources. Earlier
+teams must also fit one playthrough; separate valid teams can still require
+conflicting choices. Flag a final member that cannot be obtained before the
+League, including a member available only after the Champion.
+
+Before implementation, decide how temporary replacements carry between
+stages, how to select between evolution branches, and how this view shares
+the existing six team slots. The current Whole game target checks future
+access, including post-game access; it does not define this proposed view.
+
 ## Original decisions (history)
 
 Record confirmed choices here before writing the MVP plan or application code.

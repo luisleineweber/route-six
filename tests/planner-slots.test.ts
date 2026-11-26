@@ -4,7 +4,7 @@ import { plannerReducer, type PlannerState } from '../src/features/planner/state
 it('fills, replaces, removes, and refills the six team slots', () => {
   let state: PlannerState = {
     gameId: 'emerald', milestoneId: 'victory-road', respectLevelLimit: true,
-    target: 'current-progress', team: Array(6).fill(null),
+    target: 'current-progress', team: Array(6).fill(null), stageOverrides: {},
   };
   for (const pokemonId of ['a', 'b', 'c', 'd', 'e', 'f']) {
     state = plannerReducer(state, { type: 'add', pokemonId, slot: null });
