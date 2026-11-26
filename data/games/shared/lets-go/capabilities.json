@@ -1,0 +1,17 @@
+[
+  {"id":"chop-down","name":"Chop Down from the S.S. Anne captain","requirements":{"kind":"milestone","id":"anne-captain"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"silph-scope","name":"Silph Scope","requirements":{"kind":"milestone","id":"rocket-hideout-cleared"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"poke-flute","name":"Poké Flute from Mr. Fuji","requirements":{"kind":"milestone","id":"fuji-rescued"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"tea","name":"Tea from Brock in Celadon City","requirements":{"kind":"milestone","id":"celadon-city"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"sea-skim","name":"Sea Skim from the surfer near GO Park","requirements":{"kind":"milestone","id":"sea-skim-learned"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"strong-push","name":"Strong Push from the Safari Warden","requirements":{"kind":"milestone","id":"warden-helped"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"buy-route-4-magikarp","name":"Pay 500 at the Route 4 Pokémon Center","requirements":{"kind":"milestone","id":"route-4-center"},"review":{"referenceIds":["lets-go-gifts"],"checkedOn":"2026-11-24"}},
+  {"id":"high-flight","name":"Ride a flying Pokémon after becoming Champion","requirements":{"kind":"milestone","id":"champion-defeated"},"review":{"referenceIds":["lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"legendary-birds-caught","name":"Catch all three stationary legendary birds","requirements":{"kind":"all","requirements":[{"kind":"milestone","id":"champion-defeated"},{"kind":"milestone","id":"power-plant"},{"kind":"milestone","id":"seafoam-islands"},{"kind":"capability","id":"strong-push"}]},"review":{"referenceIds":["lets-go-availability","lets-go-story"],"checkedOn":"2026-11-24"}},
+  {"id":"catch-30-pokemon","name":"Catch 30 Pokémon","requirements":{"kind":"milestone","id":"cerulean-city"},"review":{"referenceIds":["lets-go-gifts"],"checkedOn":"2026-11-24"}},
+  {"id":"catch-50-pokemon","name":"Catch 50 Pokémon","requirements":{"kind":"milestone","id":"route-24"},"review":{"referenceIds":["lets-go-gifts"],"checkedOn":"2026-11-24"}},
+  {"id":"catch-60-pokemon","name":"Catch 60 Pokémon","requirements":{"kind":"milestone","id":"vermilion-city"},"review":{"referenceIds":["lets-go-gifts"],"checkedOn":"2026-11-24"}},
+  {"id":"rock-tunnel-hidden-items","name":"Find hidden items with a walking Rock-type Pokémon","requirements":{"kind":"all","requirements":[{"kind":"milestone","id":"rock-tunnel"},{"kind":"pokemon","id":"geodude","quantity":1,"consumed":false}]},"review":{"referenceIds":["lets-go-items"],"checkedOn":"2026-11-24"}},
+  {"id":"seafoam-hidden-items","name":"Find hidden items with a walking Ice-type Pokémon","requirements":{"kind":"all","requirements":[{"kind":"capability","id":"sea-skim"},{"kind":"pokemon","id":"dewgong","quantity":1,"consumed":false}]},"review":{"referenceIds":["lets-go-items"],"checkedOn":"2026-11-24"}},
+  {"id":"victory-road-hidden-items","name":"Find hidden items with a walking Rock-type Pokémon","requirements":{"kind":"all","requirements":[{"kind":"milestone","id":"victory-road"},{"kind":"pokemon","id":"geodude","quantity":1,"consumed":false}]},"review":{"referenceIds":["lets-go-items"],"checkedOn":"2026-11-24"}}
+]

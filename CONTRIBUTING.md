@@ -67,7 +67,12 @@ data/
     breeding-rules.json
     evolutions.json
     exclusions.json    supported species with no native source, with a reason
+  games/shared/<group>/  files that paired games share, such as sun-moon
 ```
+
+Paired games can share files. For example, `src/data/games/sun.ts` combines
+`data/games/shared/sun-moon/` with Sun's own `game.json` and `progress.json`.
+Each game still has its own `game.json`, sources and exclusions.
 
 JSON Schema checks the shape. `scripts/check-data.ts` checks references and
 game rules. Every record keeps its reference IDs and review date.
@@ -98,6 +103,11 @@ game rules. Every record keeps its reference IDs and review date.
   name exact form IDs. A form change does not create a second Pokémon.
 - Time, season, weekday, swarm and daily conditions use typed
   `encounterConditions`. The host clock never controls access.
+- A wild source with a null rate shows no percentage. SOS sources can name
+  callers and required weather. Let's Go overworld sources name land, water
+  or air and whether the spawn is rare.
+- An exclusion without `formId` covers the species and all its forms.
+  `formId: null` covers the base form only. A form ID covers that form only.
 - Use game-specific reference IDs for new records. Keep existing IDs stable.
 
 ## Add a game
@@ -109,14 +119,16 @@ game rules. Every record keeps its reference IDs and review date.
 4. Give each profile its types, genders, regional Dex number, Egg Groups and
    a local `spriteSrc`. For several regional lists, declare
    `game.regionalDexSections` and give each profile its section ID.
-5. Set `game.planner.checkpoints` (Gym 1 to Gym 8, then Victory Road when the
-   game has it) and `defaultMilestoneId` (Victory Road, else Gym 8).
+5. Set `game.planner.checkpoints` and `defaultMilestoneId`. With Gyms, use
+   Gym 1 to Gym 8, then Victory Road when the game has it, and default to
+   Victory Road, else Gym 8. In Alola, use the island trials and grand trials
+   in game order.
 6. Set `game.breeding` to null or `{ "hatchLevel": <level> }`.
    If the game has native form changes (such as Platinum's Giratina), also add
    `form-changes.json`.
 7. Add `src/data/games/<game-id>.ts` like the Emerald module. With form
    changes, import `form-changes.json` as the `formChanges` collection.
-8. Register it in `src/data/game-registry.ts`. The key must equal `game.id`
+8. Add it to `progressGameLoaders` in `src/data/game-registry.ts`. The key must equal `game.id`
    and a catalogue ID.
 9. Add tests for exact species coverage, early and late access, exclusions,
    defaults and game-specific rules. Check a switch to and from Emerald.

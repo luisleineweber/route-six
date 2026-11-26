@@ -49,6 +49,42 @@ function query(milestoneId: string) {
 }
 
 describe('Species forms', () => {
+  it('uses one consumable item for each Pokémon that changes form', () => {
+    const { data, game } = formFixture();
+    game.sources[0].maxUses = null;
+    game.items.push({ id: 'form-item', name: 'Form item', review, sources: [
+      { id: 'one-form-item', locationId: 'field', requirements: milestone('gate'), maxUses: 1, choice: null, review },
+    ] });
+    game.formChanges![0].requirements = { kind: 'item', id: 'form-item', quantity: 1, consumed: true };
+    const checked = getAvailability(data, { gameId: game.game.id, milestoneId: 'gate', respectLevelLimit: true });
+    if (!checked.ok) throw new Error(JSON.stringify(checked.error));
+    const snapshot = checked.value;
+    expect(snapshot.entries['burmy-trash'].status).toBe('available');
+    expect(checkTeam(snapshot, ['burmy-trash', 'burmy-trash'], 'current-progress').feasible).toBe(false);
+  });
+  it('excludes a base form and a different species form without hiding their native counterparts', () => {
+    const { data, game } = formFixture();
+    game.formChanges = [];
+    game.sources[0].formId = 'burmy-trash';
+    game.sources[0].id = 'burmy-trash-tree';
+    source(game, 'wild-wormadam', 'wormadam', 8, none, { genders: ['female'] });
+    game.evolutions = [];
+    game.exclusions = [
+      { pokemonId: 'burmy', formId: null, reason: 'external-connection', explanation: 'Requires a transfer.', review },
+      { pokemonId: 'wormadam', formId: 'wormadam-trash', reason: 'other-version', explanation: 'Requires another edition.', review },
+    ];
+    const result = validateDataset(data);
+    expect(result.ok, JSON.stringify(result)).toBe(true);
+    const snapshot = getAvailability(data, { gameId: game.game.id, milestoneId: 'start', respectLevelLimit: false });
+    if (!snapshot.ok) throw new Error(JSON.stringify(snapshot.error));
+    expect(snapshot.value.entries.burmy.status).toBe('unavailable');
+    expect(snapshot.value.entries['burmy-trash'].status).toBe('available');
+    expect(snapshot.value.entries.wormadam.status).toBe('available');
+    expect(snapshot.value.entries['wormadam-trash'].status).toBe('unavailable');
+
+    game.exclusions[0].formId = undefined;
+    expect(validateDataset(data).ok).toBe(false);
+  });
   it('keeps East Sea Shellos form when it evolves in the actual Platinum data', () => {
     const full = dataset.games.find(game => game.game.id === 'platinum')!;
     const east = full.sources.find(source => source.pokemonId === 'shellos'

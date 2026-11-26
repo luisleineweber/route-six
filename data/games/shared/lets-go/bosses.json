@@ -1,0 +1,15 @@
+[
+  {"id":"brock","name":"Brock","kind":"gym","badgeNumber":1,"specialtyTypeId":"rock","highestLevel":12,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"misty","name":"Misty","kind":"gym","badgeNumber":2,"specialtyTypeId":"water","highestLevel":19,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"lt-surge","name":"Lt. Surge","kind":"gym","badgeNumber":3,"specialtyTypeId":"electric","highestLevel":26,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"erika","name":"Erika","kind":"gym","badgeNumber":4,"specialtyTypeId":"grass","highestLevel":34,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"koga","name":"Koga","kind":"gym","badgeNumber":5,"specialtyTypeId":"poison","highestLevel":44,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"sabrina","name":"Sabrina","kind":"gym","badgeNumber":6,"specialtyTypeId":"psychic","highestLevel":44,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"blaine","name":"Blaine","kind":"gym","badgeNumber":7,"specialtyTypeId":"fire","highestLevel":48,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"giovanni","name":"Giovanni","kind":"gym","badgeNumber":8,"specialtyTypeId":"ground","highestLevel":50,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"lorelei","name":"Lorelei","kind":"elite-four","highestLevel":52,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"bruno","name":"Bruno","kind":"elite-four","highestLevel":53,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"agatha","name":"Agatha","kind":"elite-four","highestLevel":54,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"lance","name":"Lance","kind":"elite-four","highestLevel":55,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}},
+  {"id":"trace","name":"Trace","kind":"champion","highestLevel":57,"review":{"referenceIds":["lets-go-bosses"],"checkedOn":"2026-11-24"}}
+]

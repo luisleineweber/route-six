@@ -1,0 +1,120 @@
+{
+  "id": "moon",
+  "name": "Pokémon Moon",
+  "generation": 7,
+  "region": "Alola",
+  "firstMilestoneId": "alola-start",
+  "planner": {
+    "defaultMilestoneId": "alola-start",
+    "checkpoints": [
+      {
+        "milestoneId": "alola-start",
+        "label": "First partner Pokémon",
+        "title": "First partner Pokémon",
+        "detail": "Start of the island challenge",
+        "typeId": null
+      },
+      {
+        "milestoneId": "trial-ilima",
+        "label": "Trial 1: Verdant Cavern",
+        "title": "Trial 1: Verdant Cavern",
+        "detail": "Alolan Raticate",
+        "typeId": "normal"
+      },
+      {
+        "milestoneId": "grand-trial-hala",
+        "label": "Grand Trial: Hala",
+        "title": "Grand Trial: Hala",
+        "detail": "Hala",
+        "typeId": "fighting"
+      },
+      {
+        "milestoneId": "trial-lana",
+        "label": "Trial 2: Brooklet Hill",
+        "title": "Trial 2: Brooklet Hill",
+        "detail": "Wishiwashi",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "trial-kiawe",
+        "label": "Trial 3: Wela Volcano Park",
+        "title": "Trial 3: Wela Volcano Park",
+        "detail": "Salazzle",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "trial-mallow",
+        "label": "Trial 4: Lush Jungle",
+        "title": "Trial 4: Lush Jungle",
+        "detail": "Lurantis",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "grand-trial-olivia",
+        "label": "Grand Trial: Olivia",
+        "title": "Grand Trial: Olivia",
+        "detail": "Olivia",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "trial-sophocles",
+        "label": "Trial 5: Hokulani Observatory",
+        "title": "Trial 5: Hokulani Observatory",
+        "detail": "Vikavolt",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "trial-acerola",
+        "label": "Trial 6: Abandoned Megamart",
+        "title": "Trial 6: Abandoned Megamart",
+        "detail": "Mimikyu",
+        "typeId": "ghost"
+      },
+      {
+        "milestoneId": "grand-trial-nanu",
+        "label": "Grand Trial: Nanu",
+        "title": "Grand Trial: Nanu",
+        "detail": "Nanu",
+        "typeId": "dark"
+      },
+      {
+        "milestoneId": "grand-trial-hapu",
+        "label": "Grand Trial: Hapu",
+        "title": "Grand Trial: Hapu",
+        "detail": "Hapu",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "trial-poni",
+        "label": "Trial 7: Vast Poni Canyon",
+        "title": "Trial 7: Vast Poni Canyon",
+        "detail": "Kommo-o",
+        "typeId": "dragon"
+      },
+      {
+        "milestoneId": "pokemon-league",
+        "label": "Pokémon League",
+        "title": "Pokémon League",
+        "detail": "Elite Four",
+        "typeId": null
+      },
+      {
+        "milestoneId": "after-ultra-beast-missions",
+        "label": "Post-game",
+        "title": "Post-game",
+        "detail": "Ultra Beast missions complete",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": {
+    "hatchLevel": 1
+  },
+  "review": {
+    "referenceIds": [
+      "gen7-personal",
+      "gen7-dex"
+    ],
+    "checkedOn": "2026-11-23"
+  }
+}

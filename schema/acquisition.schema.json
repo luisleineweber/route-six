@@ -29,6 +29,14 @@
     "sourceDetails": {
       "oneOf": [
         {
+          "type": "object", "additionalProperties": false, "required": ["kind", "habitat", "rare"],
+          "properties": {
+            "kind": { "const": "overworld" },
+            "habitat": { "enum": ["land", "air", "water"] },
+            "rare": { "type": "boolean" }
+          }
+        },
+        {
           "type": "object", "additionalProperties": false, "required": ["kind", "mode", "mission"],
           "properties": {
             "kind": { "const": "hidden-grotto" }, "mode": { "const": "funfest" },
@@ -61,8 +69,8 @@
           "required": ["kind", "method", "ratePercent"],
           "properties": {
             "kind": { "const": "wild" },
-            "method": { "enum": ["grass", "surf", "old-rod", "good-rod", "super-rod", "rock-smash", "headbutt", "bug-contest", "poke-radar", "dark-grass", "grass-spots", "cave-spots", "bridge-spots", "surf-spots", "super-rod-spots", "horde", "rough-terrain", "yellow-flowers", "red-flowers", "purple-flowers", "ceiling-ambush", "ground-ambush", "rustling-bush-ambush", "sky-ambush", "trash-can-ambush", "long-grass", "dive"] },
-            "ratePercent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
+            "method": { "enum": ["grass", "surf", "old-rod", "good-rod", "super-rod", "rock-smash", "headbutt", "bug-contest", "poke-radar", "dark-grass", "grass-spots", "cave-spots", "bridge-spots", "surf-spots", "super-rod-spots", "horde", "rough-terrain", "yellow-flowers", "red-flowers", "purple-flowers", "ceiling-ambush", "ground-ambush", "rustling-bush-ambush", "sky-ambush", "trash-can-ambush", "long-grass", "dive", "sos", "island-scan", "fishing", "fishing-spots", "berry-piles", "ambush", "poke-pelago"] },
+            "ratePercent": { "type": ["number", "null"], "exclusiveMinimum": 0, "maximum": 100 }
           }
         },
         {
@@ -114,6 +122,14 @@
     },
     "encounterCondition": {
       "oneOf": [
+        {
+          "type": "object", "additionalProperties": false, "required": ["kind", "callerIds", "weather"],
+          "properties": {
+            "kind": { "const": "sos" },
+            "callerIds": { "$ref": "common.schema.json#/$defs/ids" },
+            "weather": { "enum": ["rain", "hail", "sandstorm", null] }
+          }
+        },
         {
           "type": "object", "additionalProperties": false, "required": ["kind", "mission"],
           "properties": { "kind": { "const": "funfest" }, "mission": { "const": "mushrooms" } }
@@ -248,7 +264,7 @@
         },
         {
           "type": "object", "additionalProperties": false, "required": ["kind", "period"],
-          "properties": { "kind": { "const": "time" }, "period": { "enum": ["day", "night"] } }
+          "properties": { "kind": { "const": "time" }, "period": { "enum": ["day", "night", "dusk"] } }
         },
         {
           "type": "object", "additionalProperties": false, "required": ["kind", "relation"],
@@ -394,6 +410,7 @@
       "required": ["pokemonId", "reason", "explanation", "review"],
       "properties": {
         "pokemonId": { "$ref": "common.schema.json#/$defs/id" },
+        "formId": { "$ref": "common.schema.json#/$defs/optionalId" },
         "reason": { "enum": ["other-version", "external-event", "external-connection"] },
         "explanation": { "$ref": "common.schema.json#/$defs/text" },
         "review": { "$ref": "common.schema.json#/$defs/review" }

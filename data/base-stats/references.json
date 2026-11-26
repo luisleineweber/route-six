@@ -19,5 +19,12 @@
     "url": "https://github.com/pret/pokeheartgold/tree/53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
     "revision": "53dded53802b237d39fabfd8ee396fe9cdc8aa3e",
     "locator": "files/poketool/personal/personal.json: BURMY, WORMADAM_SANDY, WORMADAM_TRASH, SHELLOS, GASTRODON, GIRATINA_ORIGIN. Reviewed 2026-11-05; Burmy cloaks and Shellos/Gastrodon coasts share their base species stats."
+  },
+  {
+    "id": "gen7-personal",
+    "title": "Generation VII personal tables",
+    "locator": "personal_sm, personal_uu and personal_gg; PersonalInfo7 and PersonalInfo7GG describe the record layout.",
+    "url": "https://github.com/kwsch/PKHeX/tree/a5311f9f55a84376fd2e2499b25d9fb9640d9f2d/PKHeX.Core/Resources/byte/personal",
+    "revision": "a5311f9f55a84376fd2e2499b25d9fb9640d9f2d"
   }
 ]

@@ -38,7 +38,7 @@ export function validateSemantics(data: Dataset): ValidationIssue[] {
       sources: g.sources, 'breeding-rules': g.breedingRules, evolutions: g.evolutions, exclusions: g.exclusions,
       'form-changes': g.formChanges ?? [] };
     for (const [file, rows] of Object.entries(collections)) {
-      unique(rows as { id?: string; pokemonId?: string }[], r => r.id ?? r.pokemonId!, base + file + '.json');
+      unique(rows as { id?: string; pokemonId?: string; formId?: string | null }[], r => r.id ?? selectionId(r.pokemonId!, r.formId), base + file + '.json');
       for (const row of rows) review(row.review, 'id' in row ? row.id : row.pokemonId, base + file + '.json');
     }
     review(g.game.review, g.game.id, base + 'game.json');

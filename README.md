@@ -28,7 +28,7 @@ locations and evolution steps. Turn on level limits to plan for the next boss.
 
 ## Start in three steps
 
-1. **Choose your game.** Both planners support all 24 games listed below.
+1. **Choose your game.** Both planners support 30 games.
 2. **Build your team.** Add your favourites and compare their types.
 3. **Check your progress.** Find locations and requirements, then export your team as a PNG image.
 
@@ -44,13 +44,14 @@ You can use Route Six on a phone or a computer.
 | Sinnoh | Diamond, Pearl, Platinum |
 | Unova | Black, White, Black 2, White 2 |
 | Kalos | X, Y |
+| Alola | Sun, Moon, Ultra Sun, Ultra Moon |
+| Kanto (Generation VII) | Let’s Go, Pikachu! and Let’s Go, Eevee! |
 
 [Supported games and limits](docs/games.md) explains what Route Six counts as available.
 
 **More games are planned.** We plan to add the remaining Pokémon games over
-time. The table above shows what you can use today. New games will be added
-after their encounter and progress data have been checked. No release dates
-are set yet.
+time. The table above shows what you can use today. Each game joins Progress
+Planner after its encounter and progress data pass review.
 
 ## Before you start
 

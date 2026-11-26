@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { getAvailability } from '../src/domain/availability';
 import { validateDataset } from '../src/data/validate-dataset';
 import { checkTeam } from '../src/domain/team/check-team';
-import { fixture, milestone, none, review, source } from './fixtures';
+import { capability, fixture, milestone, none, review, source } from './fixtures';
 import { progressContent } from '../src/features/export/progress-content';
 
 function encounterFixture() {
@@ -23,6 +23,22 @@ function honeyFixture() {
 }
 
 describe('Conditional encounter actions', () => {
+  it.each([['water', 'sea-skim'], ['air', 'high-flight']] as const)(
+    'gates %s spawns by the correct action and shows their method without an invented rate', (habitat, action) => {
+      const { data, game } = encounterFixture();
+      game.capabilities.push({ id: action, name: 'Reach the habitat', requirements: milestone('gate'), review });
+      const encounter = source(game, 'rare-wurmple', 'wurmple', 5, none,
+        { details: { kind: 'overworld', habitat, rare: true } });
+      expect(validateDataset(data).ok).toBe(false);
+      encounter.requirements = capability(action);
+      expect(validateDataset(data).ok).toBe(true);
+      const early = getAvailability(data, { gameId: game.game.id, milestoneId: 'start', respectLevelLimit: true });
+      if (!early.ok) throw new Error(JSON.stringify(early.error));
+      expect(early.value.entries.wurmple.status).toBe('later');
+      const progress = progressContent(game, early.value, 'wurmple');
+      expect(progress.method).toMatch(/^Rare spawn · /);
+      expect(progress.availableLater).toBe(true);
+    });
   it('keeps an external player connection outside native offline access', () => {
     const { data, game } = encounterFixture();
     const explanation = 'This fixture requires another connected player. Connected play is outside this guide.';

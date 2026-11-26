@@ -3,6 +3,7 @@ import { requirementWitnesses, type AccessContext } from './context';
 import { evolutionRequirements, evolutionWitnesses } from './evolution-actions';
 import { selectionId, selectionProfile } from '../pokemon-selection';
 import { formChangeRequirements } from './form-changes';
+import { excludesSelection } from './exclusions';
 
 export function requirementBlockers(ctx: AccessContext, req: Requirement, seen = new Set<string>()): Blocker[] {
   if (requirementWitnesses(ctx, req).length) return [];
@@ -34,7 +35,7 @@ export function pokemonBlockers(game: GameData, ctx: AccessContext, id: string, 
   if (seen.has(id)) return [{ code: 'breeding-parents', relatedId: id, message: 'No accessible parent pair grounds this breeding path.' }];
   const next = new Set([...seen, id]);
   const profile = selectionProfile(game, id);
-  const exclusion = game.exclusions.find(e => e.pokemonId === profile.pokemonId);
+  const exclusion = game.exclusions.find(e => excludesSelection(e, profile));
   if (exclusion) return [{ code: exclusion.reason, relatedId: id, message: exclusion.explanation }];
   const reasons: Blocker[] = [];
   const locations = new Map(game.locations.map(l => [l.id, l]));

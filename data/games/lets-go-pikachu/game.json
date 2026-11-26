@@ -1,0 +1,84 @@
+{
+  "id": "lets-go-pikachu",
+  "name": "Pokémon Let’s Go, Pikachu!",
+  "generation": 7,
+  "region": "Kanto",
+  "firstMilestoneId": "pallet-town",
+  "planner": {
+    "defaultMilestoneId": "indigo-plateau",
+    "checkpoints": [
+      {
+        "milestoneId": "before-brock",
+        "label": "Gym 1 · Rock · Brock",
+        "title": "Gym 1",
+        "detail": "Brock · Rock",
+        "typeId": "rock"
+      },
+      {
+        "milestoneId": "before-misty",
+        "label": "Gym 2 · Water · Misty",
+        "title": "Gym 2",
+        "detail": "Misty · Water",
+        "typeId": "water"
+      },
+      {
+        "milestoneId": "before-lt-surge",
+        "label": "Gym 3 · Electric · Lt. Surge",
+        "title": "Gym 3",
+        "detail": "Lt. Surge · Electric",
+        "typeId": "electric"
+      },
+      {
+        "milestoneId": "before-erika",
+        "label": "Gym 4 · Grass · Erika",
+        "title": "Gym 4",
+        "detail": "Erika · Grass",
+        "typeId": "grass"
+      },
+      {
+        "milestoneId": "before-koga",
+        "label": "Gym 5 · Poison · Koga",
+        "title": "Gym 5",
+        "detail": "Koga · Poison",
+        "typeId": "poison"
+      },
+      {
+        "milestoneId": "before-sabrina",
+        "label": "Gym 6 · Psychic · Sabrina",
+        "title": "Gym 6",
+        "detail": "Sabrina · Psychic",
+        "typeId": "psychic"
+      },
+      {
+        "milestoneId": "before-blaine",
+        "label": "Gym 7 · Fire · Blaine",
+        "title": "Gym 7",
+        "detail": "Blaine · Fire",
+        "typeId": "fire"
+      },
+      {
+        "milestoneId": "before-giovanni",
+        "label": "Gym 8 · Ground · Giovanni",
+        "title": "Gym 8",
+        "detail": "Giovanni · Ground",
+        "typeId": "ground"
+      },
+      {
+        "milestoneId": "indigo-plateau",
+        "label": "Victory Road and Indigo Plateau",
+        "title": "Victory Road",
+        "detail": "Before the League",
+        "typeId": null
+      }
+    ]
+  },
+  "breeding": null,
+  "review": {
+    "referenceIds": [
+      "gen7-personal",
+      "gen7-dex",
+      "lets-go-story"
+    ],
+    "checkedOn": "2026-11-24"
+  }
+}
