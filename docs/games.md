@@ -49,8 +49,10 @@ choices that you cannot all make in one playthrough.
 
 ## Level limits
 
-When you turn on level limits, Route Six uses the highest level in the next
-boss's team. Level evolutions above that limit count as later.
+When you turn on level limits, each progress point uses the highest level in
+its next boss's team. A Pokémon that needs a higher level is not available
+yet. It shows as later when a later progress point allows it. A Pokémon that
+you could already get stays available.
 
 ## Report a problem
 

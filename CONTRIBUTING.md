@@ -112,7 +112,10 @@ game rules. Every record keeps its reference IDs and review date.
 5. Set `game.planner.checkpoints` (Gym 1 to Gym 8, then Victory Road when the
    game has it) and `defaultMilestoneId` (Victory Road, else Gym 8).
 6. Set `game.breeding` to null or `{ "hatchLevel": <level> }`.
-7. Add `src/data/games/<game-id>.ts` like the Emerald module.
+   If the game has native form changes (such as Platinum's Giratina), also add
+   `form-changes.json`.
+7. Add `src/data/games/<game-id>.ts` like the Emerald module. With form
+   changes, import `form-changes.json` as the `formChanges` collection.
 8. Register it in `src/data/game-registry.ts`. The key must equal `game.id`
    and a catalogue ID.
 9. Add tests for exact species coverage, early and late access, exclusions,
@@ -138,8 +141,9 @@ canonical link, structured data and `sitemap.xml`. Without these values the
 build prints warnings and serves from `/`.
 
 - **Check release** runs on pull requests and pushes to `main`.
-- **Publish beta** runs only when you start it. It tests, audits, builds,
-  runs `npm run release:check` and deploys to GitHub Pages.
+- **Publish beta** runs on pushes to `main` and when you start it by hand.
+  It tests, audits, builds, runs `npm run release:check` and deploys to
+  GitHub Pages. A merge to `main` publishes the site.
 - `npx tsx scripts/check-host.ts <site-url>` checks a running preview or the
   live host.
 - For Search Console, save the HTML tag `content` value as the
