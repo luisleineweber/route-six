@@ -8,8 +8,8 @@ import type { PokemonSource } from '../src/domain/types';
 import locations from '../data/games/gold/locations.json';
 import capabilities from '../data/games/gold/capabilities.json';
 import progression from '../data/games/gold/progression.json';
-import commonSchema from '../docs/schema/common.schema.json';
-import acquisitionSchema from '../docs/schema/acquisition.schema.json';
+import commonSchema from '../schema/common.schema.json';
+import acquisitionSchema from '../schema/acquisition.schema.json';
 
 const pinnedMethods = ['grass', 'surf', 'old-rod', 'good-rod', 'super-rod'] as const;
 const sources = rawSources as unknown as PokemonSource[];

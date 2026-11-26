@@ -2,8 +2,8 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import Ajv2020 from 'ajv/dist/2020';
 import addFormats from 'ajv-formats';
-import commonSchema from '../docs/schema/common.schema.json';
-import gameSchema from '../docs/schema/game.schema.json';
+import commonSchema from '../schema/common.schema.json';
+import gameSchema from '../schema/game.schema.json';
 import emeraldChart from '../data/games/emerald/type-chart.json';
 import type { Boss, TypeChart } from '../src/domain/types';
 

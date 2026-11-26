@@ -55,7 +55,7 @@ const exclusions = readJson<Array<{ pokemonId: string; reason: string }>>('data/
 const schemaAjv = new Ajv2020({ allErrors: true, strict: false });
 addFormats(schemaAjv);
 for (const path of [
-  'docs/schema/common.schema.json', 'docs/schema/game.schema.json', 'docs/schema/acquisition.schema.json',
+  'schema/common.schema.json', 'schema/game.schema.json', 'schema/acquisition.schema.json',
 ]) schemaAjv.addSchema(readJson<Record<string, unknown>>(path));
 const validateSource = schemaAjv.compile({
   $ref: 'https://pokemon-playthrough-planner.local/schema/acquisition.schema.json#/$defs/source',

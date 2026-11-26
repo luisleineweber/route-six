@@ -3,10 +3,10 @@ import { writeFile } from 'node:fs/promises';
 import Ajv2020 from 'ajv/dist/2020';
 import addFormats from 'ajv-formats';
 import standaloneCode from 'ajv/dist/standalone';
-import common from '../docs/schema/common.schema.json';
-import game from '../docs/schema/game.schema.json';
-import acquisition from '../docs/schema/acquisition.schema.json';
-import root from '../docs/schema/planner-data.schema.json';
+import common from '../schema/common.schema.json';
+import game from '../schema/game.schema.json';
+import acquisition from '../schema/acquisition.schema.json';
+import root from '../schema/planner-data.schema.json';
 
 const ajv = new Ajv2020({ allErrors: true, strict: false, code: { source: true, esm: true } });
 addFormats(ajv);

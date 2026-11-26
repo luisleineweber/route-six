@@ -17,9 +17,9 @@ import exclusions from '../data/games/yellow/exclusions.json';
 import breedingRules from '../data/games/yellow/breeding-rules.json';
 import { rawSharedData } from '../src/data/shared-data';
 import { validateDataset } from '../src/data/validate-dataset';
-import commonSchema from '../docs/schema/common.schema.json';
-import gameSchema from '../docs/schema/game.schema.json';
-import acquisitionSchema from '../docs/schema/acquisition.schema.json';
+import commonSchema from '../schema/common.schema.json';
+import gameSchema from '../schema/game.schema.json';
+import acquisitionSchema from '../schema/acquisition.schema.json';
 
 const schemaAjv = new Ajv2020({ allErrors: true, strict: false });
 addFormats(schemaAjv);
