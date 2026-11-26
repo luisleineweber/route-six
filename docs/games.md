@@ -49,8 +49,9 @@ choices that you cannot all make in one playthrough.
 
 ## Level limits
 
-When you turn on level limits, each progress point uses the highest level in
-its next boss's team. A Pokémon that needs a higher level is not available
+When you turn on level limits, a progress point with a next boss uses the
+highest level in that boss's team. Points without a next boss, such as after
+the Champion, have no level limit. A Pokémon that needs a higher level is not available
 yet. It shows as later when a later progress point allows it. A Pokémon that
 you could already get stays available.
 
