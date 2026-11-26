@@ -149,10 +149,10 @@ describe('search page output', () => {
   it('reports each unset public URL for a release build', () => {
     expect(missingReleaseUrls({})).toEqual([
       'SITE_URL is not set. Canonical URL, site structured data, and sitemap are omitted. Set it before publication.',
-      'VITE_SITE_URL is not set. The footer site link and PNG site address are omitted. Set it before publication.',
+      'VITE_SITE_URL is not set. The PNG site address is omitted. Set it before publication.',
     ]);
     expect(missingReleaseUrls({ SITE_URL: 'https://example.com', VITE_SITE_URL: ' ' })).toEqual([
-      'VITE_SITE_URL is not set. The footer site link and PNG site address are omitted. Set it before publication.',
+      'VITE_SITE_URL is not set. The PNG site address is omitted. Set it before publication.',
     ]);
     expect(missingReleaseUrls({ SITE_URL: 'https://example.com', VITE_SITE_URL: 'https://example.com' })).toEqual([]);
   });

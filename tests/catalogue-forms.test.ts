@@ -54,7 +54,7 @@ const snapshot: AvailabilitySnapshot = {
 function render(game: GameData, data: AvailabilitySnapshot | null, target: PlanningTarget = 'whole-game') {
   return renderToStaticMarkup(createElement(GameContext, { value: game }, createElement(PokemonSearch, {
     snapshot: data, progressPage: data !== null, target,
-    team: Array(6).fill(null), activeSlot: null, onAdd: () => {}, onDetails: () => {}, onCancel: () => {},
+    team: Array(6).fill(null), activeSlot: null, onAdd: () => {}, onSwap: () => {}, onDetails: () => {}, onCancel: () => {},
   })));
 }
 

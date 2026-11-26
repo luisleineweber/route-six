@@ -1,4 +1,4 @@
-import { CheckCircle2, Info, TriangleAlert } from 'lucide-react';
+import { CheckCircle2, Clock3, Info, TriangleAlert } from 'lucide-react';
 import { pokemonNames, pokemonIdentity } from '../../data/dataset';
 import { checkTeam } from '../../domain/team/check-team';
 import type { AvailabilitySnapshot, PlanningTarget } from '../../domain/types';
@@ -22,11 +22,28 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
     : check.warnings.every(warning => warning.code === 'unavailable' || warning.code === 'later')
       ? `${affected} Pokémon unavailable for this plan`
       : 'This team needs a change';
+  const laterOnly = check.warnings.every(warning => warning.code === 'later');
+  const readable = (message: string) => message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonNames.get(word) ?? word);
+  const members = (ids: string[]) => ids.length > 0 && <div className="team-issue-members">{ids.map(id => <button key={id} type="button" className="team-issue-details" onClick={() => onDetails(id)} aria-label={`View ${pokemonIdentity(id).name} access details`} aria-haspopup="dialog">
+    {pokemonIdentity(id).name}
+  </button>)}</div>;
+  const StatusIcon = laterOnly ? Clock3 : TriangleAlert;
+  // One group whose title the heading already says, such as "Available later", fits in one row.
+  if (groups.length === 1 && heading.toLowerCase().endsWith(groups[0].title.toLowerCase())) {
+    const [group] = groups;
+    return <div className={`team-access team-access-issues team-access-compact${laterOnly ? ' team-access-later' : ''}`}>
+      <div className="team-access-status" role="status">
+        <StatusIcon size={18} aria-hidden="true" />
+        <div><h3>{heading}</h3>{group.message && <p>{readable(group.message)}</p>}</div>
+      </div>
+      {members(group.pokemonIds)}
+    </div>;
+  }
   const hasDetails = groups.some(group => group.pokemonIds.length > 0);
-  return <div className="team-access team-access-issues">
+  return <div className={`team-access team-access-issues${laterOnly ? ' team-access-later' : ''}`}>
     <div className="team-access-heading">
       <div className="team-access-status" role="status">
-        <TriangleAlert size={18} aria-hidden="true" />
+        <StatusIcon size={18} aria-hidden="true" />
         <h3>{heading}</h3>
       </div>
       {hasDetails && <p className="team-access-hint">Select a Pokémon for access details.</p>}
@@ -34,11 +51,9 @@ export function TeamWarnings({ snapshot, team, target, onDetails }: {
     <ul className="team-issue-list">{groups.map(group => <li key={JSON.stringify([group.title, group.message])}>
       <div className="team-issue-reason">
         <h4>{group.title}</h4>
-        {group.message && <p>{group.message.replace(/\b[a-z]+(?:-[a-z]+)*\b/g, word => pokemonNames.get(word) ?? word)}</p>}
+        {group.message && <p>{readable(group.message)}</p>}
       </div>
-      {group.pokemonIds.length > 0 && <div className="team-issue-members">{group.pokemonIds.map(id => <button key={id} type="button" className="team-issue-details" onClick={() => onDetails(id)} aria-label={`View ${pokemonIdentity(id).name} access details`} aria-haspopup="dialog">
-        {pokemonIdentity(id).name}
-      </button>)}</div>}
+      {members(group.pokemonIds)}
     </li>)}</ul>
   </div>;
 }

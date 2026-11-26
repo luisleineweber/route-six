@@ -25,7 +25,7 @@ export function searchVerification(value: string | undefined):
 
 const releaseUrls = [
   ['SITE_URL', 'Canonical URL, site structured data, and sitemap are omitted.'],
-  ['VITE_SITE_URL', 'The footer site link and PNG site address are omitted.'],
+  ['VITE_SITE_URL', 'The PNG site address is omitted.'],
 ] as const;
 
 export function missingReleaseUrls(env: Record<string, string | undefined>) {

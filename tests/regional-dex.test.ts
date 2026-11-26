@@ -50,7 +50,7 @@ describe('Regional Pokédex numbers starting at zero', () => {
     const html = renderToStaticMarkup(createElement(GameContext, { value: game },
       createElement(PokemonCatalogueCard, {
         selectionId: 'ralts', regionalDex: 0, progressPage: false, activeSlot: null,
-        canAdd: true, onAdd: () => {}, onDetails: () => {},
+        canAdd: true, onAdd: () => {}, onSwap: () => {}, onDetails: () => {},
       }),
     ));
     expect(html).toContain('title="Unova Pokédex"');
@@ -113,7 +113,7 @@ describe('Regional Pokédex sections', () => {
     const html = renderToStaticMarkup(createElement(GameContext, { value: game },
       createElement(PokemonCatalogueCard, {
         selectionId: 'ralts', regionalDex: 1, regionalDexSectionId: 'coastal', progressPage: false,
-        activeSlot: null, canAdd: true, onAdd: () => {}, onDetails: () => {},
+        activeSlot: null, canAdd: true, onAdd: () => {}, onSwap: () => {}, onDetails: () => {},
       }),
     ));
     expect(html).toContain('title="Coastal Kalos Pokédex"');

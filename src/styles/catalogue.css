@@ -16,8 +16,10 @@
 @container (min-width: 40rem) { .pokemon-grid { --screen-columns: 6; } }
 @container (min-width: 54rem) { .pokemon-grid { --screen-columns: 9; } }
 
-.pokemon-card { container: pokemon-card / inline-size; position: relative; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; min-width: 0; padding: 2.5rem 0.625rem 1rem; border-radius: var(--radius-tile); background: var(--tile); text-align: center; transition: background-color 150ms ease-out; }
-.pokemon-card:not(.skeleton):hover { background: var(--tile-hover); }
+.pokemon-card { container: pokemon-card / inline-size; position: relative; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; min-width: 0; padding: 2.5rem 0.625rem 1rem; border-radius: var(--radius-tile); background: var(--surface); box-shadow: var(--shadow-ring); text-align: center; transition: box-shadow 150ms ease-out; }
+.pokemon-card:not(.skeleton):hover { box-shadow: var(--shadow-raised); }
+/* Section headings name the Pokédex, so cards show only the number. */
+.dex-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .card-identity { width: 100%; }
 .catalogue-card-identity { display: flex; flex-direction: column; gap: 0.5rem; width: 100%; min-width: 0; }
 .pokemon-card .card-link { display: flex; flex-direction: column; align-items: center; gap: 0.375rem; width: 100%; min-height: 2.75rem; padding: 0; border: 0; border-radius: var(--radius-control); background: transparent; color: var(--ink); font: inherit; }
@@ -31,15 +33,22 @@
 .pokemon-card .dex-number { position: absolute; inset-block-start: 0.75rem; inset-inline-start: 0.875rem; max-inline-size: calc(100% - 4rem); text-align: start; line-height: 1.25; }
 .add-button { position: absolute; inset-block-start: 0.25rem; inset-inline-end: 0.25rem; z-index: 1; background: var(--surface); box-shadow: var(--shadow-ring); color: var(--accent-ink); }
 .add-button:hover:not(:disabled) { background: var(--accent); color: var(--on-accent); }
-.source-summary { color: var(--muted); font-size: 0.8125rem; line-height: 1.4; }
+/* Facts break at their spaces only when a card is too narrow; a long name breaks last, so text never runs past the card.
+   "anywhere" (not "break-word") lowers the min-content width, so the flex text can shrink to the card. */
+.source-summary { min-width: 0; color: var(--muted); font-size: 0.8125rem; line-height: 1.4; text-wrap: balance; overflow-wrap: anywhere; }
+.source-summary > span { min-width: 0; }
 .access-summary { align-items: flex-start; justify-content: center; font-weight: 400; }
 .access-summary > svg { flex-shrink: 0; margin-top: 0.125rem; }
+.access-summary.access-full > span { color: var(--muted); }
 
-.team-catalogue .pokemon-card { padding: 2rem 0.5rem 1.25rem; }
+.team-catalogue .pokemon-card { padding: 1.75rem 0.5rem 1rem; }
+.team-catalogue .pokemon-card .card-link { gap: 0.25rem; }
 .team-catalogue .card-identity { margin-top: 0; }
 .team-catalogue .card-link::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius-tile); }
 .team-catalogue .pokemon-card:has(.card-link:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
-.team-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0.75rem; inset-inline-end: 0.75rem; }
+/* The search field has a placeholder and a visible icon; its label stays for assistive technology at every width. */
+.filters .search-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.team-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0.875rem; inset-inline-end: 0.5rem; }
 .team-catalogue .catalogue-card-identity > .type-list.joined-types { gap: 0; }
 .team-catalogue .joined-types .type-badge { width: 12px; height: 24px; overflow: hidden; }
 .team-catalogue .joined-types .type-badge:first-child { border-radius: 50% 0 0 50%; }
@@ -50,7 +59,6 @@
   .pokemon-card .add-button { opacity: 0; transition: opacity 150ms ease-out, background-color 150ms ease-out; }
   .pokemon-card:hover .add-button,
   .pokemon-card:has(:focus-visible) .add-button { opacity: 1; }
-  .pokemon-card:is(:hover, :has(:focus-visible)) .add-button:disabled { opacity: 0.45; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .team-catalogue .pokemon-sprite { transition: translate 150ms ease-out; }
@@ -58,7 +66,6 @@
 }
 
 @container pokemon-card (max-width: 10rem) {
-  .dex-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .pokemon-card .dex-number { inset-block-start: 0.625rem; inset-inline-start: 0.5rem; max-inline-size: none; }
   .progress-catalogue .add-button { inset-block-start: 1.875rem; inset-inline-end: 0.25rem; }
   .pokemon-card .card-sprite { --sprite-box: 4rem; --sprite-size: min(5rem, 100%); }
@@ -84,8 +91,9 @@
   .type-filter .type-toggle { width: 100%; max-width: 2.75rem; }
   .type-filter .type-icon { width: 100%; height: auto; aspect-ratio: 1; }
   .filters .catalogue-search { order: 0; }
-  .filters > .chip-row { order: 1; }
-  .filters .type-filter-controls { order: 2; }
+  /* Same order as on wide screens: search, types, then status. */
+  .filters .type-filter-controls { order: 1; }
+  .filters > .chip-row { order: 2; }
 }
 
 .access-compact { display: none; }
@@ -104,13 +112,13 @@
   .progress-catalogue .access-compact > svg { flex-shrink: 0; }
   .progress-catalogue .access-compact > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .catalogue-card-identity { position: relative; gap: 0; }
-  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.5rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8125rem; }
+  .catalogue-card-identity .card-name { align-self: start; width: calc(100% - 1.75rem); line-height: 1.25rem; text-align: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8125rem; }
   .catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0; flex-wrap: nowrap; }
-  .catalogue .catalogue-card-identity .type-icon { width: 1.125rem; height: 1.125rem; }
-  .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.5625rem; height: 1.125rem; overflow: hidden; }
+  .catalogue .catalogue-card-identity .type-icon { width: 1.375rem; height: 1.375rem; }
+  .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge { width: 0.6875rem; height: 1.375rem; overflow: hidden; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:first-child { border-radius: 50% 0 0 50%; }
   .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child { border-radius: 0 50% 50% 0; }
-  .catalogue .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child .type-icon { translate: -0.5625rem 0; }
+  .catalogue .catalogue-card-identity .type-list:has(.type-badge:nth-child(2)) .type-badge:last-child .type-icon { translate: -0.6875rem 0; }
   /* Very narrow cards need the full line for readable names. */
   @container pokemon-card (max-width: 4rem) {
     .catalogue-card-identity .card-name { width: 100%; }
@@ -137,22 +145,18 @@
   .filters .type-filter-controls { grid-column: 2; grid-row: 1; display: flex; align-items: center; justify-content: flex-end; }
   .filters .type-filter-summary { display: contents; }
   .filters .type-filter-summary .text-button { flex-shrink: 0; }
-  .filters .type-filter { min-width: 0; flex-wrap: nowrap; overflow-x: auto; padding: 0.375rem 0.5rem; border-radius: 999px; background: var(--tile); }
-  .filters .type-toggle[aria-pressed='true'] { box-shadow: 0 0 0 2px var(--tile), 0 0 0 4px var(--ink); }
+  .filters .type-filter { min-width: 0; flex-wrap: nowrap; overflow-x: auto; padding: 0.375rem 0.25rem; }
   .filters .type-toggle { flex-shrink: 0; }
   .catalogue-filter-group > .chip-row { margin-bottom: 1.5rem; }
-  .filters .search-label, .filters .type-filter-summary p { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .filters .type-filter-summary p { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 
 @media (max-width: 40rem) {
   .catalogue-filter-group { display: grid; gap: 0.75rem; margin-bottom: 1rem; }
   .catalogue-filter-marker { display: none; }
   .catalogue-filter-group .catalogue-filter-anchor, .catalogue-filter-group .filters { display: contents; }
-  .catalogue-filter-group > .chip-row { order: 1; }
+  .catalogue-filter-group > .chip-row { order: 2; }
 }
-
-/* A full team cannot add more; the hint above the grid says so. */
-.pokemon-card:not(.pokemon-added) .add-button:disabled { display: none; }
 @media (pointer: coarse) {
   .team-catalogue .add-button, .progress-catalogue .add-button { inset-block-start: 0.25rem; inset-inline-end: 0.25rem; }
 }
@@ -176,6 +180,5 @@
     .progress-catalogue .card-name { min-height: 1.5rem; padding-inline-end: 3.75rem; text-align: start; line-height: 1.5rem; }
     .progress-catalogue .catalogue-card-identity > .type-list { position: absolute; inset-block-end: 0; inset-inline-end: 0; gap: 0.25rem; }
     .progress-catalogue .access-summary, .progress-catalogue .source-summary { align-self: stretch; justify-content: flex-start; text-align: start; }
-    .progress-catalogue .access-summary { min-height: 2.8em; }
   }
 }
