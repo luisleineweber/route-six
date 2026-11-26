@@ -21,6 +21,7 @@ export function matchesCatalogueStatus(entry: AvailabilityEntry, status: Catalog
 export function matchingCataloguePokemon(game: GameData, query: string, selectedTypes: readonly string[]) {
   const words = query.toLowerCase().trim().split(/\s+/);
   const profiles = new Map(game.profiles.map(profile => [profile.pokemonId, profile]));
+  const starterForms = new Set(game.sources.filter(source => source.details.kind === 'starter').map(source => source.formId));
   const sorted = sortPokemonByPokedex(game.profiles.map(profile => pokemonById.get(profile.pokemonId)!), game);
   return sorted.flatMap(pokemon => {
     const profile = profiles.get(pokemon.id)!;
@@ -30,9 +31,9 @@ export function matchingCataloguePokemon(game: GameData, query: string, selected
       { id: pokemon.id, types: profile.types },
       ...(profile.forms ?? []).map(form => ({ id: form.formId, types: form.types })),
     ];
-    const preferred = game.game.region === 'Alola' && profile.regionalDex !== undefined
-      ? selections.findIndex(selection => selection.id === `${pokemon.id}-alola`)
-      : -1;
+    const starterForm = profile.forms?.find(form => starterForms.has(form.formId));
+    const alolanFormId = game.game.region === 'Alola' && profile.regionalDex !== undefined ? `${pokemon.id}-alola` : undefined;
+    const preferred = selections.findIndex(selection => selection.id === (starterForm?.formId ?? alolanFormId));
     if (preferred > 0) selections.unshift(...selections.splice(preferred, 1));
     const ids = selections.filter(({ id, types }) => {
       const terms = `${pokemonNames.get(id)} ${dexTerms} ${types.join(' ')}`.toLowerCase();

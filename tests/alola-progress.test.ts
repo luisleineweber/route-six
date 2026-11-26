@@ -1,6 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import { loadGame } from '../src/data/game-loader';
+import { sharedData } from '../src/data/dataset';
+import { getAvailability } from '../src/domain/availability';
+import { excludesSelection } from '../src/domain/availability/exclusions';
 import { solve } from '../src/domain/availability/solve';
+import { checkTeam } from '../src/domain/team/check-team';
 import type { GameData } from '../src/domain/types';
 
 async function game(id: string) {
@@ -15,7 +19,55 @@ function progress(data: GameData, milestoneId: string) {
   return solve(data, milestone, true);
 }
 
+function availability(data: GameData, milestoneId: string) {
+  const result = getAvailability({ ...sharedData, games: [data] }, {
+    gameId: data.game.id, milestoneId, respectLevelLimit: true,
+  });
+  if (!result.ok) throw new Error(JSON.stringify(result.error));
+  return result.value;
+}
+
 describe('Generation VII Alola Progress Planner', () => {
+  it.each(['ultra-sun', 'ultra-moon'])('%s keeps native breeding paths free of external exclusions', async id => {
+    const data = await game(id);
+    const { entries, paths } = availability(data, 'alola-start');
+    expect(entries.bounsweet.futurePathIds.some(pathId => paths[pathId].breedingSteps.length > 0)).toBe(true);
+    const contradictions = Object.values(paths).filter(path => data.exclusions.some(exclusion => excludesSelection(exclusion, path)));
+    expect([...new Set(contradictions.map(path => path.formId ?? path.pokemonId))]).toEqual([]);
+  }, 120_000);
+
+  it.each(['ultra-sun', 'ultra-moon'])('%s opens the base of Mount Lanakila before Acerola', async id => {
+    const data = await game(id);
+    const beforeTapu = progress(data, 'trial-sophocles');
+    const beforeAcerola = progress(data, 'trial-acerola');
+    const snorunt = data.sources.find(source => source.locationId === 'mount-lanakila-area-1' && source.pokemonId === 'snorunt')!;
+    expect(beforeTapu.paths.has('crabominable')).toBe(false);
+    expect(beforeAcerola.paths.has('crabominable')).toBe(true);
+    expect(beforeAcerola.paths.get('snorunt')?.some(path => path.sourceIds.includes(snorunt.id))).toBe(true);
+    expect(beforeAcerola.paths.has('glaceon')).toBe(false);
+    expect(progress(data, 'pokemon-league').paths.has('glaceon')).toBe(true);
+  }, 120_000);
+
+  it.each([
+    ['sun', 'buzzwole', 'after-ultra-beast-missions', 2, 65],
+    ['moon', 'pheromosa', 'after-ultra-beast-missions', 4, 60],
+    ['ultra-sun', 'blacephalon', 'champion', 2, 60],
+    ['ultra-moon', 'stakataka', 'champion', 2, 60],
+  ] as const)('%s applies the catch limit and level for %s', async (id, species, milestoneId, limit, level) => {
+    const data = await game(id);
+    const snapshot = availability(data, milestoneId);
+    const team = Array<string>(limit).fill(species);
+    expect(checkTeam(snapshot, team, 'current-progress').feasible).toBe(true);
+    expect(checkTeam(snapshot, [...team, species], 'current-progress').feasible).toBe(false);
+    expect(snapshot.entries[species].currentPathIds.map(pathId => snapshot.paths[pathId].minimumLevel))
+      .toEqual(Array<number>(snapshot.entries[species].currentPathIds.length).fill(level));
+    if (id === 'sun' || id === 'moon') {
+      const nihilego = snapshot.entries.nihilego.currentPathIds.map(pathId => snapshot.paths[pathId]);
+      expect(new Set(nihilego.map(path => path.sourceIds[0])).size).toBe(2);
+      expect(checkTeam(snapshot, ['nihilego', 'nihilego'], 'current-progress').feasible).toBe(false);
+    }
+  }, 120_000);
+
   it.each([
     ['sun', 'Gumshoos', 'Wishiwashi', 'Salazzle', 'Vikavolt', 15, 12],
     ['moon', 'Alolan Raticate', 'Wishiwashi', 'Salazzle', 'Vikavolt', 15, 12],

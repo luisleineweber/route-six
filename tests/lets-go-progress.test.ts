@@ -5,6 +5,7 @@ import { rawSharedData } from '../src/data/shared-data';
 import { validateDataset } from '../src/data/validate-dataset';
 import { getAvailability } from '../src/domain/availability';
 import { checkTeam } from '../src/domain/team/check-team';
+import { matchingCataloguePokemon, matchingCatalogueSelection } from '../src/features/progress/catalogue-filter';
 
 const checked = validateDataset({ ...rawSharedData, games: [pikachu, eevee] });
 if (!checked.ok) throw new Error(JSON.stringify(checked.error));
@@ -17,6 +18,21 @@ function at(gameId: string, milestoneId: string, respectLevelLimit = true) {
 }
 
 describe('Let’s Go Progress Planner', () => {
+  it.each([
+    ['lets-go-pikachu', 'pikachu'],
+    ['lets-go-eevee', 'eevee'],
+  ])('%s prefers its partner when both forms match the catalogue filters', (gameId, species) => {
+    const game = dataset.games.find(row => row.game.id === gameId)!;
+    const starter = `${species}-partner`;
+    const selections = matchingCataloguePokemon(game, species, []).find(row => row.profile.pokemonId === species)!.ids;
+    const beforeLeague = at(gameId, 'indigo-plateau');
+    expect(selections).toContain(species);
+    expect(beforeLeague.entries[species].status).toBe('available');
+    expect(matchingCatalogueSelection(selections, null, 'obtainable')).toBe(starter);
+    expect(matchingCatalogueSelection(selections, beforeLeague, 'obtainable')).toBe(starter);
+    expect(matchingCatalogueSelection(selections, beforeLeague, 'available')).toBe(starter);
+  }, 120_000);
+
   it.each(dataset.games.map(game => [game.game.id, game] as const))('%s uses its first-battle Gym levels and native progress data', (gameId, game) => {
     const checkpoints = game.game.planner!.checkpoints;
     expect(checkpoints.map(point => {

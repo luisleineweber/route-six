@@ -181,7 +181,7 @@ def available_selections(package):
                 if row.get("fusionPartnerPokemonId") is None or row["fusionPartnerPokemonId"] in reached:
                     found.add(row["toFormId"] or row["pokemonId"])
         for rule in package["breedingRules"]:
-            if reached.intersection(rule.get("parentFormIds", rule["parentPokemonIds"])):
+            if reached.intersection(rule["parentPokemonIds"] + rule.get("parentFormIds", [])):
                 found.update(rule["offspringPokemonIds"])
         if found == reached:
             return found

@@ -88,7 +88,8 @@ def alola_evolutions(data_path, game, profiles):
     location_evolutions = [
         ("magneton", "magnezone", "vast-poni-canyon"), ("nosepass", "probopass", "vast-poni-canyon"),
         ("charjabug", "vikavolt", "vast-poni-canyon"), ("eevee", "leafeon", "lush-jungle"),
-        ("eevee", "glaceon", "mount-lanakila"), ("crabrawler", "crabominable", "mount-lanakila"),
+        ("eevee", "glaceon", "mount-lanakila"),
+        ("crabrawler", "crabominable", "mount-lanakila-area-1" if ultra else "mount-lanakila"),
     ]
     if ultra:
         location_evolutions += [(a, b, "blush-mountain") for a, b, _ in location_evolutions[:3]]

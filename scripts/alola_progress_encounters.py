@@ -47,6 +47,7 @@ WORMHOLE_WILDS = {
     "barbaracle", "floatzel", "lombre", "quagsire", "stunfisk",
 }
 ULTRA_BEASTS = {"nihilego", "buzzwole", "pheromosa", "xurkitree", "celesteela", "kartana", "guzzlord"}
+ULTRA_BEAST_MISSION_LIMITS = {"buzzwole": 2, "pheromosa": 4}
 SOS_CALLERS = {
     "ambipom": "aipom", "baltoy": "trapinch krokorok dugtrio-alola", "blissey": "chansey",
     "butterfree": "caterpie metapod", "caterpie": "metapod", "chansey": "cleffa elekid riolu",
@@ -142,6 +143,10 @@ def encounters(game, profiles, tables):
     items, sources = fossil_paths(profiles, ultra, moon)
     choices = [{"id": "alola-starter", "name": "First partner Pokémon", "options": list(STARTERS),
                 "maximumSelections": 1, "review": review("alola-static")}]
+    if not ultra:
+        choices.append({"id": "nihilego-mission-location", "name": "Nihilego mission location",
+                        "options": ["digletts-tunnel", "wela-volcano-park"], "maximumSelections": 1,
+                        "review": review("alola-static")})
     scans = {pokemon: day for island in SCANS[ultra] for pokemon, day in zip(island.split(), SCAN_DAYS, strict=True)}
 
     def append(location, pokemon, levels, kind, requirements=None, limit=None, conditions=None,
@@ -222,11 +227,14 @@ def encounters(game, profiles, tables):
                            limit=1, genders=[gender])
                     continue
                 if method == "Static":
+                    choice = None
                     if name.startswith("tapu-"):
                         requirements.append(milestone("champion"))
                     if name in ULTRA_BEASTS and not ultra:
                         mission = "ultra-beast-missions" if name == "nihilego" else "after-ultra-beast-missions"
                         requirements.append(milestone(mission))
+                        if name == "nihilego":
+                            choice = {"groupId": "nihilego-mission-location", "optionId": loc}
                     if name in {"bewear", "hypno"} and ultra:
                         requirements.append(milestone("after-olivia"))
                     if name == "ditto" and ultra and area == "Konikoni City":
@@ -239,9 +247,12 @@ def encounters(game, profiles, tables):
                         limit = None
                     elif name == "ditto" and ultra and area == "Konikoni City":
                         limit = 4
+                    elif ultra and area == "Poni Grove" and name in {"blacephalon", "stakataka"}:
+                        low = high = 60
+                        limit = 2
                     else:
-                        limit = 1
-                    append(loc, name, level(low, high), {"kind": "static"}, all_of(*requirements), limit=limit)
+                        limit = ULTRA_BEAST_MISSION_LIMITS.get(name, 1)
+                    append(loc, name, level(low, high), {"kind": "static"}, all_of(*requirements), limit=limit, choice=choice)
                     continue
                 if method != "Gift":
                     raise ValueError(f"Unsupported Alola encounter method {method}")

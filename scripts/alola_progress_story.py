@@ -143,6 +143,7 @@ def story(game_id, tables, slug, review, all_of, milestone, capability):
     for name in sorted(set(tables) | added_locations):
         base = re.sub(r" \(Area \d+\)$", "", name)
         at = gates.get(name, gates.get(base))
+        location_name = name
         more = []
         if name == "Route 1 (Area 3)":
             # The eastern tall grass lies behind Tauros rocks.
@@ -151,6 +152,9 @@ def story(game_id, tables, slug, review, all_of, milestone, capability):
             at = "trainer-school"
         if name == "Route 1 (Trainers' School)":
             at = "trainer-school"
+        if ultra and name == "Mount Lanakila (Area 1)":
+            at = "after-sophocles"
+            location_name = "Mount Lanakila (Base)"
         if ultra and name == "Lush Jungle (Area 2)":
             more.append(capability("machamp-shove"))
         if base.startswith("Ultra ") and base != "Ultra Megalopolis":
@@ -168,6 +172,6 @@ def story(game_id, tables, slug, review, all_of, milestone, capability):
                                           "phase": parent["phase"], "displayOrder": 1000 + int(location_id[6:]),
                                           "previousIds": [at], "locationId": location_id,
                                           "nextBossId": parent["nextBossId"], "review": refs})
-        package["locations"].append({"id": location_id, "name": name,
+        package["locations"].append({"id": location_id, "name": location_name,
                                      "requirements": all_of(milestone(at), *more), "review": refs})
     return package, checkpoints
