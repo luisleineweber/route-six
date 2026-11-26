@@ -1,15 +1,7 @@
 # Supported games and limits
 
-Route Six supports 24 games. Team Planner and Progress Planner work in all of them.
-
-| Region | Games |
-| --- | --- |
-| Kanto | Red, Blue, Yellow, FireRed, LeafGreen |
-| Johto | Gold, Silver, Crystal, HeartGold, SoulSilver |
-| Hoenn | Ruby, Sapphire, Emerald, Omega Ruby, Alpha Sapphire |
-| Sinnoh | Diamond, Pearl, Platinum |
-| Unova | Black, White, Black 2, White 2 |
-| Kalos | X, Y |
+Route Six supports 24 games. Team Planner and Progress Planner work in all of
+them. The [README](../README.md#supported-games) lists them.
 
 Each game has its own data. Route Six does not copy encounters, types or
 story gates from one game to another. For example, Red uses the Generation I
