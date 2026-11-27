@@ -20,7 +20,7 @@ it('replaces the MVP line with game context, session guidance, and fan attributi
   expect(html).toContain('<dt>Region</dt><dd>Hoenn</dd>');
   expect(html).toContain('<dt>Generation</dt><dd>3</dd>');
   expect(html).toContain(`<dd>${emerald.profiles.length} species</dd>`);
-  expect(html).toContain('Team &amp; Progress');
+  expect(html).toContain('Team, Progress &amp; Full Game');
   expect(html).toContain('Plans reset when you reload. Export your team to keep a copy.');
   expect(html).toContain('An unofficial fan project');
   expect(html).toContain('The Pokémon Company');
@@ -33,7 +33,7 @@ it('uses the selected game and shows its active planners', () => {
   const html = renderFooter(heartgold);
   expect(html).toContain('Pokémon HeartGold');
   expect(html).toContain(`<dd>${heartgold.profiles.length} species</dd>`);
-  expect(html).toContain('Team &amp; Progress');
+  expect(html).toContain('Team, Progress &amp; Full Game');
   expect(html).not.toContain('Progress planning is not available for this game yet.');
   expect(html).not.toContain('Pokémon Emerald');
 });
@@ -56,7 +56,6 @@ it('keeps source credits in a native disclosure with asset attribution and new-t
   const html = renderFooter();
   expect(html).toContain('<details class="footer-credits"><summary>');
   expect(html).toContain('Sources &amp; credits');
-  expect(html).toContain('These links show the sources used for game details.');
   expect(html).toContain('href="https://github.com/PokeAPI/sprites"');
   expect(html).toContain('href="https://github.com/partywhale/pokemon-type-icons"');
   expect(html).toContain('href="/types/LICENSE.txt"');

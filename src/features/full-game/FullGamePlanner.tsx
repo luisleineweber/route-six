@@ -19,8 +19,7 @@ export function FullGamePlanner({ state, dispatch }: { state: PlannerState; disp
       <h2 id="full-game-stages-title">Stage teams</h2>
       <label className="check-label"><input type="checkbox" checked={state.respectLevelLimit} onChange={event => dispatch({ type: 'settings', values: { respectLevelLimit: event.target.checked } })} />Use level limits</label>
     </div>
-    <p className="field-hint">Each team is checked before its battle. The League uses the entry level limit. Optional areas count when you can reach them.</p>
-    <p className="field-hint">Replacements apply to one stage. Each team is checked separately.</p>
+    <p className="field-hint">Each team is checked before its battle. Optional areas count when you can reach them.</p>
     {!hasTeam ? <p className="empty-results">Add your final team above to see its earlier evolution stages and missing members.</p>
       : <>
         {!error && <p className="field-hint" role="status">{checked < stages.length ? `Checking stages: ${checked} of ${stages.length} ready…` : `${stages.length} stages checked.`}</p>}

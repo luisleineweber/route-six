@@ -22,7 +22,6 @@ export function PlannerSettings({ state, dispatch }: { state: PlannerState; disp
         <div className="field">
           <label id="milestone-label" htmlFor="milestone">Progress point</label>
           <ProgressSelector value={state.milestoneId} options={points} onChange={milestoneId => update({ milestoneId })} />
-          <p id="milestone-hint" className="field-hint">Choose the point you want to plan for.</p>
         </div>
         <fieldset className="field segmented" aria-describedby="target-hint">
           <legend>Check team for</legend>

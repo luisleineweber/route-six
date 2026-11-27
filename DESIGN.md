@@ -46,10 +46,9 @@ numbers for counts and Dex numbers. Inputs use 16 pixels on narrow screens.
   in the footer and browser icon. Keep the mark white in the header.
 - The header has two rows. Put the name and mark on the leading side and the
   selected game's official logo on the other side (`public/games/`). Give the
-  game control a darker surface and a Change game hint. Put both planner
-  controls below in one shared selection area, with equal widths and a short
-  description of each view. On phones, put the game below the name and show
-  only the planner names, without icons or descriptions. Group the game menu
+  game control a darker surface and a Change game hint. Put the three planner
+  tabs below in one row in a shared selection area, with equal widths and
+  only their names. On phones, put the game below the name. Group the game menu
   by generation. Mark games without reviewed local data as planned.
 - The theme button is one square, icon-only toggle at the end of the planner
   row, in the same darker surface as the game control. It shows the theme a

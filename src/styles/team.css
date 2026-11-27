@@ -82,7 +82,6 @@
 .team-access { margin-block-start: 1rem; font-size: 0.9375rem; }
 .team-access-summary { display: flex; align-items: start; gap: 0.5rem; color: var(--muted); }
 .team-access-summary > svg { flex-shrink: 0; margin-block-start: 0.15rem; }
-.team-access-summary p { max-width: none; }
 .team-access-success > svg { color: var(--ok); }
 .team-access-success p { color: var(--ink); }
 .team-access-success p span { color: var(--muted); }
@@ -96,7 +95,7 @@
 .team-issue-list > li { display: grid; align-items: start; gap: 0.5rem 1.5rem; min-width: 0; }
 .team-issue-reason { min-width: 0; }
 .team-issue-reason h4 { font-size: 1rem; line-height: 1.5; }
-.team-issue-reason p { max-width: none; margin-block-start: 0.25rem; color: var(--muted); font-size: 0.9375rem; line-height: 1.5; overflow-wrap: anywhere; }
+.team-issue-reason p { margin-block-start: 0.25rem; color: var(--muted); font-size: 0.9375rem; line-height: 1.5; overflow-wrap: anywhere; }
 .team-issue-members { display: flex; flex-wrap: wrap; gap: 0.5rem; min-width: 0; }
 .team-issue-details { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; max-width: 100%; padding: 0.5rem 0.875rem; border: 0; border-radius: var(--radius-control); background: var(--tile); color: var(--accent-ink); font-size: 0.875rem; font-weight: 600; line-height: 1.5; text-align: start; overflow-wrap: anywhere; transition: background-color 150ms ease-out; }
 .team-issue-details:hover { background: var(--tile-hover); }

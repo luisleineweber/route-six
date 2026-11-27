@@ -17,8 +17,8 @@
 .skeleton-sprite { display: block; inline-size: min(5rem, 70%); aspect-ratio: 1; margin-block-end: 0.5rem; border-radius: 50%; background: var(--skeleton); }
 
 /* Status line for checks inside the page */
-.loading-note { display: flex; align-items: center; gap: 1rem; max-width: none; margin-top: 1rem; padding: 1rem 1.25rem; border-radius: var(--radius-tile); background: var(--accent-tint); }
-.loading-note-copy { display: grid; gap: 0.125rem; max-width: none; line-height: 1.4; }
+.loading-note { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; padding: 1rem 1.25rem; border-radius: var(--radius-tile); background: var(--accent-tint); }
+.loading-note-copy { display: grid; gap: 0.125rem; line-height: 1.4; }
 .loading-note-copy strong { color: var(--ink); font-size: 0.9375rem; font-weight: 600; }
 .loading-note-copy span { color: var(--muted); font-size: 0.8125rem; }
 

@@ -201,7 +201,7 @@ h1 { font-size: 1.75rem; line-height: 1.2; letter-spacing: -0.02em; font-weight:
 h2 { font-size: 1.25rem; line-height: 1.3; font-weight: 600; text-wrap: balance; }
 h3 { font-size: 1rem; line-height: 1.3; font-weight: 600; }
 h4 { font-size: 0.9375rem; font-weight: 600; }
-p { text-wrap: pretty; max-width: 68ch; }
+p { text-wrap: pretty; }
 ul, ol { margin: 0; padding-inline-start: 1.25rem; }
 ::selection { background: var(--selected-fill); color: var(--on-selected); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
