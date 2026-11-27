@@ -5,14 +5,10 @@
 .brand-copy { display: grid; gap: 0.25rem; }
 .brand-copy > strong { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.04em; }
 .brand-copy > span { color: var(--on-accent-soft); font-size: 0.875rem; }
-.planner-nav { grid-area: nav; display: flex; flex-wrap: wrap; gap: 0.25rem; width: min(100%, 40rem); padding: 0.25rem; border-radius: calc(var(--radius-control) + 0.25rem); background: oklch(0 0 0 / 0.16); }
-.planner-nav button { display: flex; flex: 1 1 17rem; align-items: center; gap: 0.75rem; min-width: 0; min-height: 3.25rem; padding: 0.5rem 0.875rem; border: 0; border-radius: var(--radius-control); background: transparent; color: oklch(1 0 0 / 0.92); font-weight: 600; text-align: start; }
-.planner-nav button > svg { flex-shrink: 0; }
-.planner-nav-copy { display: grid; gap: 0.125rem; line-height: 1.35; overflow-wrap: anywhere; }
-.planner-nav-copy > span + span { font-size: 0.8125rem; font-weight: 400; opacity: 0.85; }
+.planner-nav { grid-area: nav; display: flex; gap: 0.25rem; width: min(100%, 36rem); padding: 0.25rem; border-radius: calc(var(--radius-control) + 0.25rem); background: oklch(0 0 0 / 0.16); }
+.planner-nav button { flex: 1 1 0; min-width: 0; min-height: 3rem; padding: 0.5rem 0.875rem; border: 0; border-radius: var(--radius-control); background: transparent; color: oklch(1 0 0 / 0.92); font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
 .planner-nav button:hover { background: oklch(1 0 0 / 0.12); color: var(--on-accent); }
 .planner-nav button.selected { background: var(--nav-selected-bg); color: var(--nav-selected-ink); box-shadow: var(--nav-selected-ring); }
-.planner-nav button.selected .planner-nav-copy > span + span { color: var(--muted); opacity: 1; }
 .planner-nav button:focus-visible, .game-selector > summary:focus-visible { outline-color: var(--on-accent); }
 .game-selector { grid-area: game; position: relative; justify-self: end; min-width: 0; max-width: 25rem; }
 .game-selector > summary { display: flex; align-items: center; gap: 0.75rem; min-height: 4rem; padding: 0.5rem 0.875rem; border-radius: var(--radius-tile); background: oklch(0 0 0 / 0.16); list-style: none; cursor: pointer; }
@@ -55,8 +51,7 @@
   .brand-copy > span { font-size: 0.8125rem; }
   .planner-nav { width: 100%; }
   .theme-toggle { width: 3rem; height: 3rem; border-radius: var(--radius-control); }
-  .planner-nav button { flex-basis: 8rem; justify-content: center; min-height: 2.75rem; padding: 0.625rem 0.5rem; font-size: 0.875rem; }
-  .planner-nav button > svg, .planner-nav-copy > span + span { display: none; }
+  .planner-nav button { min-height: 2.75rem; padding: 0.5rem; font-size: 0.875rem; }
   .game-selector { justify-self: stretch; max-width: none; }
   .game-selector > summary { position: relative; flex-wrap: wrap; min-height: 3.25rem; padding-block: 0.375rem; padding-inline: 0.75rem calc(1.5rem + 18px); }
   .game-selector > summary > .game-logo { max-width: 100%; width: 4rem; height: 2.25rem; }

@@ -17,7 +17,7 @@ export function ProgressSelector({ value, options, onChange }: {
   const selected = options.find(point => point.id === value);
   if (!selected) throw new Error(`Unknown progress selection: ${value}`);
   return <Select.Root value={value} onValueChange={onChange}>
-    <Select.Trigger id="milestone" className="progress-trigger" aria-labelledby="milestone-label" aria-describedby="milestone-hint">
+    <Select.Trigger id="milestone" className="progress-trigger" aria-labelledby="milestone-label">
       <Select.Value><ProgressIdentity point={selected} /><span className="sr-only">{selected.label}</span></Select.Value>
       <Select.Icon className="progress-chevron"><ChevronDown size={18} aria-hidden="true" /></Select.Icon>
     </Select.Trigger>

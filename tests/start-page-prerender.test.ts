@@ -41,8 +41,9 @@ describe('prerendered start page', () => {
     expect(body).not.toContain('<div id="root"></div>');
     expect(body).toContain('<strong>Route Six</strong><span>Pokémon playthrough planner</span>');
     expect(body).toContain('aria-label="Planner pages"');
-    expect(body).toContain('<span>Team Planner</span><span>Your six Pokémon and their types</span>');
-    expect(body).toContain('<span>Progress Planner</span><span>Where and when to find your team</span>');
+    expect(body).toContain('aria-current="page">Team Planner</button>');
+    expect(body).toContain('>Progress Planner</button>');
+    expect(body).toContain('>Full Game Planner</button>');
     expect(body).toContain('<h1>Team Planner</h1>');
     expect(body).toContain('<h2>Type analysis</h2>');
     // Open in the markup, so wide screens do not shift at hydration. Narrow

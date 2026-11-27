@@ -1,14 +1,13 @@
-import { Compass, Users } from 'lucide-react';
 import { GameSelector } from './GameSelector';
 import { RouteSixMark } from './RouteSixMark';
 import { ThemeToggle } from './ThemeToggle';
 
 export type PlannerPage = 'team' | 'progress' | 'full-game';
 
-const pages = [
-  { id: 'team', name: 'Team Planner', description: 'Your six Pokémon and their types', Icon: Users },
-  { id: 'progress', name: 'Progress Planner', description: 'Where and when to find your team', Icon: Compass },
-  { id: 'full-game', name: 'Full Game', description: null, Icon: null },
+export const plannerPages = [
+  { id: 'team', name: 'Team Planner' },
+  { id: 'progress', name: 'Progress Planner' },
+  { id: 'full-game', name: 'Full Game Planner' },
 ] as const;
 
 export function AppHeader({ gameId, loadingGameId, onGameChange, page, onPageChange }: {
@@ -26,13 +25,10 @@ export function AppHeader({ gameId, loadingGameId, onGameChange, page, onPageCha
       </p>
       <GameSelector gameId={gameId} loadingGameId={loadingGameId} onChange={onGameChange} />
       <nav className="planner-nav" aria-label="Planner pages">
-        {pages.map(({ id, name, description, Icon }) => <button type="button" key={id}
+        {plannerPages.map(({ id, name }) => <button type="button" key={id}
           className={page === id ? 'selected' : ''}
           aria-current={page === id ? 'page' : undefined}
-          onClick={() => onPageChange(id)}>
-          {Icon && <Icon size={21} aria-hidden="true" />}
-          <span className="planner-nav-copy"><span>{name}</span>{description && <span>{description}</span>}</span>
-        </button>)}
+          onClick={() => onPageChange(id)}>{name}</button>)}
       </nav>
       <ThemeToggle />
     </div>
